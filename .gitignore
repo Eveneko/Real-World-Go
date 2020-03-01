@@ -1,0 +1,7 @@
+# IDE
+.idea
+.vscode/
+/venv/
+
+# MAC
+.DS_Store
