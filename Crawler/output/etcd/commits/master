@@ -1,0 +1,2399 @@
+[
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/23108879?v=4",
+      "events_url": "https://api.github.com/users/jingyih/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jingyih/followers",
+      "following_url": "https://api.github.com/users/jingyih/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jingyih/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jingyih",
+      "id": 23108879,
+      "login": "jingyih",
+      "node_id": "MDQ6VXNlcjIzMTA4ODc5",
+      "organizations_url": "https://api.github.com/users/jingyih/orgs",
+      "received_events_url": "https://api.github.com/users/jingyih/received_events",
+      "repos_url": "https://api.github.com/users/jingyih/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jingyih/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jingyih/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jingyih"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/cb633418a2a67a41cd2f30d556f19e995ed8f274/comments",
+    "commit": {
+      "author": {
+        "date": "2020-03-01T10:40:11Z",
+        "email": "jingyih@google.com",
+        "name": "Jingyi Hu"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-03-01T10:40:11Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #11652 from tangcong/fix-auth-store-corruption-bug\n\nauth/store: save consistentIndex to fix a data corruption bug",
+      "tree": {
+        "sha": "fc39bb28956acd5e3a4d091e35b9dda478c0eb91",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/fc39bb28956acd5e3a4d091e35b9dda478c0eb91"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/cb633418a2a67a41cd2f30d556f19e995ed8f274",
+      "verification": {
+        "payload": "tree fc39bb28956acd5e3a4d091e35b9dda478c0eb91\nparent d774916f6ddaf0e456d2b1cf1f58c75d1e0a6db5\nparent f14d2a087f7b0fd6f7980b95b5e0b945109c95f3\nauthor Jingyi Hu <jingyih@google.com> 1583059211 +0800\ncommitter GitHub <noreply@github.com> 1583059211 +0800\n\nMerge pull request #11652 from tangcong/fix-auth-store-corruption-bug\n\nauth/store: save consistentIndex to fix a data corruption bug",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJeW5ELCRBK7hj4Ov3rIwAAdHIIAHRuQmXH8KEGBcQJ8Rs01gYw\n/nYl08tQW4jHb1FpdXeeVS14X1qis3GRLr8ZDQYMFsBdXltPXhZ/NfvPvp0ZXXLR\nDpy7wCfFhX6yI/UA/yKYLhL5vl2qq74lLZsX7Cv9jfdJR8Kcavqcp+PAAyKIsIB9\nrYEAZmPPHtUeLxJij2L0E/3XqZRjbVuC1Fbzhp36oZMWz710jNiHgZ4pdWzsb8c7\n7F+MeA9cgQ+c9cQ7z2+oNX0/NDnRO2ZPgFKdPTVdVy47mevUcr9G2AmshKElgJve\nc0jT9sBpLvaWwn8srss7szfqqYl3r8Fvn0cliKX60D92WKfUzKVSAV6uNuuN5n8=\n=2ZTU\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/cb633418a2a67a41cd2f30d556f19e995ed8f274",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6Y2I2MzM0MThhMmE2N2E0MWNkMmYzMGQ1NTZmMTllOTk1ZWQ4ZjI3NA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/d774916f6ddaf0e456d2b1cf1f58c75d1e0a6db5",
+        "sha": "d774916f6ddaf0e456d2b1cf1f58c75d1e0a6db5",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/d774916f6ddaf0e456d2b1cf1f58c75d1e0a6db5"
+      },
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/f14d2a087f7b0fd6f7980b95b5e0b945109c95f3",
+        "sha": "f14d2a087f7b0fd6f7980b95b5e0b945109c95f3",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/f14d2a087f7b0fd6f7980b95b5e0b945109c95f3"
+      }
+    ],
+    "sha": "cb633418a2a67a41cd2f30d556f19e995ed8f274",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/cb633418a2a67a41cd2f30d556f19e995ed8f274"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/23108879?v=4",
+      "events_url": "https://api.github.com/users/jingyih/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jingyih/followers",
+      "following_url": "https://api.github.com/users/jingyih/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jingyih/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jingyih",
+      "id": 23108879,
+      "login": "jingyih",
+      "node_id": "MDQ6VXNlcjIzMTA4ODc5",
+      "organizations_url": "https://api.github.com/users/jingyih/orgs",
+      "received_events_url": "https://api.github.com/users/jingyih/received_events",
+      "repos_url": "https://api.github.com/users/jingyih/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jingyih/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jingyih/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jingyih"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/d774916f6ddaf0e456d2b1cf1f58c75d1e0a6db5/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-29T15:08:33Z",
+        "email": "jingyih@google.com",
+        "name": "Jingyi Hu"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-29T15:08:33Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #11638 from jingyih/fix_etcdctl_member_list\n\netcdctl: fix member add (again...)",
+      "tree": {
+        "sha": "855f84697d6a1d1cd872aa34555400fd00b4d2a7",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/855f84697d6a1d1cd872aa34555400fd00b4d2a7"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/d774916f6ddaf0e456d2b1cf1f58c75d1e0a6db5",
+      "verification": {
+        "payload": "tree 855f84697d6a1d1cd872aa34555400fd00b4d2a7\nparent 52fba431b686f6a5c30d60a0bbaf9fafc14bae35\nparent 8f5ce68adb2f6d958fad6f80b2dc1abb54425c33\nauthor Jingyi Hu <jingyih@google.com> 1582988913 +0800\ncommitter GitHub <noreply@github.com> 1582988913 +0800\n\nMerge pull request #11638 from jingyih/fix_etcdctl_member_list\n\netcdctl: fix member add (again...)",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJeWn5xCRBK7hj4Ov3rIwAAdHIIAKfYQFJLK9pthvOTFFV4bwJx\nHYpIish5qtrBUJMs+6cz9zRuMOKK2yL6IuB4MM5zk2Jbi4RPjEO/3PfVZmGjMSrN\n6p1l7DP1//e5wO1RfMhHNrnPrFM6SM5L1P8MOvja7hRaPgZmQUBTP+CGis355k+X\nY451cewsZmbubEDJN1PzkL8uxR21ldEeV7pkgrBHUakGusU6x3KaQmG/eF3RMZXC\nCVqtZOois9yMMahbJciI5o9w+4piZZuWDEMiqjpbP+w5Vc9RkBgUirudcW8AldYB\n1xUR4sfzJ85LlIWqCf9zQdlGFokYzN3zJ9wm3ANJQEqcTE2CP0/YPs94mq0tiPI=\n=moUy\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/d774916f6ddaf0e456d2b1cf1f58c75d1e0a6db5",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6ZDc3NDkxNmY2ZGRhZjBlNDU2ZDJiMWNmMWY1OGM3NWQxZTBhNmRiNQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/52fba431b686f6a5c30d60a0bbaf9fafc14bae35",
+        "sha": "52fba431b686f6a5c30d60a0bbaf9fafc14bae35",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/52fba431b686f6a5c30d60a0bbaf9fafc14bae35"
+      },
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/8f5ce68adb2f6d958fad6f80b2dc1abb54425c33",
+        "sha": "8f5ce68adb2f6d958fad6f80b2dc1abb54425c33",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/8f5ce68adb2f6d958fad6f80b2dc1abb54425c33"
+      }
+    ],
+    "sha": "d774916f6ddaf0e456d2b1cf1f58c75d1e0a6db5",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/d774916f6ddaf0e456d2b1cf1f58c75d1e0a6db5"
+  },
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/f14d2a087f7b0fd6f7980b95b5e0b945109c95f3/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-24T07:47:45Z",
+        "email": "shawwang@tencent.com",
+        "name": "shawwang"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-29T05:31:44Z",
+        "email": "tangcong506@gmail.com",
+        "name": "tangcong"
+      },
+      "message": "auth: add new metric 'etcd_debugging_auth_revision'",
+      "tree": {
+        "sha": "d262d497effb504ce464d653e43ac2447acb0dd1",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/d262d497effb504ce464d653e43ac2447acb0dd1"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/f14d2a087f7b0fd6f7980b95b5e0b945109c95f3",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2403673?v=4",
+      "events_url": "https://api.github.com/users/tangcong/events{/privacy}",
+      "followers_url": "https://api.github.com/users/tangcong/followers",
+      "following_url": "https://api.github.com/users/tangcong/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tangcong/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/tangcong",
+      "id": 2403673,
+      "login": "tangcong",
+      "node_id": "MDQ6VXNlcjI0MDM2NzM=",
+      "organizations_url": "https://api.github.com/users/tangcong/orgs",
+      "received_events_url": "https://api.github.com/users/tangcong/received_events",
+      "repos_url": "https://api.github.com/users/tangcong/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/tangcong/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tangcong/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/tangcong"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/f14d2a087f7b0fd6f7980b95b5e0b945109c95f3",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6ZjE0ZDJhMDg3ZjdiMGZkNmY3OTgwYjk1YjVlMGI5NDUxMDljOTVmMw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/08a8b80e326247f1e84be1785b0f5f8153eeac60",
+        "sha": "08a8b80e326247f1e84be1785b0f5f8153eeac60",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/08a8b80e326247f1e84be1785b0f5f8153eeac60"
+      }
+    ],
+    "sha": "f14d2a087f7b0fd6f7980b95b5e0b945109c95f3",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/f14d2a087f7b0fd6f7980b95b5e0b945109c95f3"
+  },
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/08a8b80e326247f1e84be1785b0f5f8153eeac60/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-24T12:45:42Z",
+        "email": "shawwang@tencent.com",
+        "name": "shawwang"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-29T05:31:44Z",
+        "email": "tangcong506@gmail.com",
+        "name": "tangcong"
+      },
+      "message": "tools/etcd-dump-db: add auth decoder, optimize print format",
+      "tree": {
+        "sha": "38cd9cc548ccf6666a1f9094f891ef215ccee50c",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/38cd9cc548ccf6666a1f9094f891ef215ccee50c"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/08a8b80e326247f1e84be1785b0f5f8153eeac60",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2403673?v=4",
+      "events_url": "https://api.github.com/users/tangcong/events{/privacy}",
+      "followers_url": "https://api.github.com/users/tangcong/followers",
+      "following_url": "https://api.github.com/users/tangcong/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tangcong/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/tangcong",
+      "id": 2403673,
+      "login": "tangcong",
+      "node_id": "MDQ6VXNlcjI0MDM2NzM=",
+      "organizations_url": "https://api.github.com/users/tangcong/orgs",
+      "received_events_url": "https://api.github.com/users/tangcong/received_events",
+      "repos_url": "https://api.github.com/users/tangcong/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/tangcong/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tangcong/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/tangcong"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/08a8b80e326247f1e84be1785b0f5f8153eeac60",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6MDhhOGI4MGUzMjYyNDdmMWU4NGJlMTc4NWIwZjVmODE1M2VlYWM2MA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/06ad53321ef74f35494152df720c9ec9be263e60",
+        "sha": "06ad53321ef74f35494152df720c9ec9be263e60",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/06ad53321ef74f35494152df720c9ec9be263e60"
+      }
+    ],
+    "sha": "08a8b80e326247f1e84be1785b0f5f8153eeac60",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/08a8b80e326247f1e84be1785b0f5f8153eeac60"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2403673?v=4",
+      "events_url": "https://api.github.com/users/tangcong/events{/privacy}",
+      "followers_url": "https://api.github.com/users/tangcong/followers",
+      "following_url": "https://api.github.com/users/tangcong/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tangcong/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/tangcong",
+      "id": 2403673,
+      "login": "tangcong",
+      "node_id": "MDQ6VXNlcjI0MDM2NzM=",
+      "organizations_url": "https://api.github.com/users/tangcong/orgs",
+      "received_events_url": "https://api.github.com/users/tangcong/received_events",
+      "repos_url": "https://api.github.com/users/tangcong/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/tangcong/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tangcong/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/tangcong"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/06ad53321ef74f35494152df720c9ec9be263e60/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-24T09:17:50Z",
+        "email": "tangcong506@gmail.com",
+        "name": "tangcong"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-29T05:31:37Z",
+        "email": "tangcong506@gmail.com",
+        "name": "tangcong"
+      },
+      "message": "*: fix auth revision corruption bug",
+      "tree": {
+        "sha": "96973a8f6447b4d56ea342e7e1bfc9dfe1563869",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/96973a8f6447b4d56ea342e7e1bfc9dfe1563869"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/06ad53321ef74f35494152df720c9ec9be263e60",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2403673?v=4",
+      "events_url": "https://api.github.com/users/tangcong/events{/privacy}",
+      "followers_url": "https://api.github.com/users/tangcong/followers",
+      "following_url": "https://api.github.com/users/tangcong/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tangcong/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/tangcong",
+      "id": 2403673,
+      "login": "tangcong",
+      "node_id": "MDQ6VXNlcjI0MDM2NzM=",
+      "organizations_url": "https://api.github.com/users/tangcong/orgs",
+      "received_events_url": "https://api.github.com/users/tangcong/received_events",
+      "repos_url": "https://api.github.com/users/tangcong/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/tangcong/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tangcong/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/tangcong"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/06ad53321ef74f35494152df720c9ec9be263e60",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6MDZhZDUzMzIxZWY3NGYzNTQ5NDE1MmRmNzIwYzllYzliZTI2M2U2MA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/085b19b5ea47a324c5f04b1077e9a496aaf0720c",
+        "sha": "085b19b5ea47a324c5f04b1077e9a496aaf0720c",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/085b19b5ea47a324c5f04b1077e9a496aaf0720c"
+      }
+    ],
+    "sha": "06ad53321ef74f35494152df720c9ec9be263e60",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/06ad53321ef74f35494152df720c9ec9be263e60"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5076964?v=4",
+      "events_url": "https://api.github.com/users/tbg/events{/privacy}",
+      "followers_url": "https://api.github.com/users/tbg/followers",
+      "following_url": "https://api.github.com/users/tbg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tbg/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/tbg",
+      "id": 5076964,
+      "login": "tbg",
+      "node_id": "MDQ6VXNlcjUwNzY5NjQ=",
+      "organizations_url": "https://api.github.com/users/tbg/orgs",
+      "received_events_url": "https://api.github.com/users/tbg/received_events",
+      "repos_url": "https://api.github.com/users/tbg/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/tbg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tbg/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/tbg"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/52fba431b686f6a5c30d60a0bbaf9fafc14bae35/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-25T12:18:29Z",
+        "email": "tobias.schottdorf@gmail.com",
+        "name": "Tobias Grieger"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-25T12:18:29Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #11046 from tbg/joint-auto-leave\n\nraft: fix auto-transitioning out of joint config",
+      "tree": {
+        "sha": "a7ab6d88a21b68e3f23b13a877373467d927c7c0",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/a7ab6d88a21b68e3f23b13a877373467d927c7c0"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/52fba431b686f6a5c30d60a0bbaf9fafc14bae35",
+      "verification": {
+        "payload": "tree a7ab6d88a21b68e3f23b13a877373467d927c7c0\nparent 5d7d8c09afb6737f38b1cdeb05503b20963db56f\nparent 0544f3324876e965cc9fb7d0f983882cd4881108\nauthor Tobias Grieger <tobias.schottdorf@gmail.com> 1582633109 +0100\ncommitter GitHub <noreply@github.com> 1582633109 +0100\n\nMerge pull request #11046 from tbg/joint-auto-leave\n\nraft: fix auto-transitioning out of joint config",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJeVRCVCRBK7hj4Ov3rIwAAdHIIAJ9RAB9hukawhkrSMFu5oFdT\ngqlroSu/duS36uM8jJdO7+cD6HrKt1q+jTmVpiuA92itz0nKPmKVKnGK9TLxkuPq\nKC+n9Wm2NQS/VXTS3MF6Se71Zal9Mj+WtKgHD4YPT73WbSMgQ5vSpq2njECCfmTj\nXBeuRtSZyLAz8cgAraxa05ZJ/lYbi7YOrn2635oX8Ij4bN2ts5m35dWZRMpOn5jm\noQCcluZZqsoLJ+avZiL/xo6G0GzipVKxBTH1ssBoL+Hdq9QK8t8HRaXUDWyXbjGk\nX9Cx0sMzu1BRURBK/Hm+Ik9pxGz6k8apQe3Marjudecz9a41cRZd8oPt3xegs/E=\n=zvYH\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/52fba431b686f6a5c30d60a0bbaf9fafc14bae35",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6NTJmYmE0MzFiNjg2ZjZhNWMzMGQ2MGEwYmJhZjlmYWZjMTRiYWUzNQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/5d7d8c09afb6737f38b1cdeb05503b20963db56f",
+        "sha": "5d7d8c09afb6737f38b1cdeb05503b20963db56f",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/5d7d8c09afb6737f38b1cdeb05503b20963db56f"
+      },
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/0544f3324876e965cc9fb7d0f983882cd4881108",
+        "sha": "0544f3324876e965cc9fb7d0f983882cd4881108",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/0544f3324876e965cc9fb7d0f983882cd4881108"
+      }
+    ],
+    "sha": "52fba431b686f6a5c30d60a0bbaf9fafc14bae35",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/52fba431b686f6a5c30d60a0bbaf9fafc14bae35"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5076964?v=4",
+      "events_url": "https://api.github.com/users/tbg/events{/privacy}",
+      "followers_url": "https://api.github.com/users/tbg/followers",
+      "following_url": "https://api.github.com/users/tbg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tbg/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/tbg",
+      "id": 5076964,
+      "login": "tbg",
+      "node_id": "MDQ6VXNlcjUwNzY5NjQ=",
+      "organizations_url": "https://api.github.com/users/tbg/orgs",
+      "received_events_url": "https://api.github.com/users/tbg/received_events",
+      "repos_url": "https://api.github.com/users/tbg/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/tbg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tbg/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/tbg"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/0544f3324876e965cc9fb7d0f983882cd4881108/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-25T11:45:45Z",
+        "email": "tobias.schottdorf@gmail.com",
+        "name": "Tobias Schottdorf"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-25T11:45:45Z",
+        "email": "tobias.schottdorf@gmail.com",
+        "name": "Tobias Schottdorf"
+      },
+      "message": "raft: clarify ApplyConfChange contract for rejected conf changes\n\nApps typically maintain the raft configuration as part of the state\nmachine. As a result, they want to be able to reject configuration change\nentries at apply time based on the state on which the entry is supposed\nto be applied. When this happens, the app should not call\nApplyConfChange, but the comments did not make this clear.\n\nAs a result, it was tempting to pass an empty pb.ConfChange or it's V2\nversion instead of not calling ApplyConfChange.\n\nHowever, an empty V1 or V2 proto aren't noops when the configuration is\njoint: an empty V1 change is treated internally as a single\nconfiguration change for NodeID zero and will cause a panic when applied\nin a joint state. An empty V2 proto is treated as a signal to leave a\njoint state, which means that the app's config and raft's would diverge.\n\nThe comments updated in this commit now ask users to not call\nApplyConfState when they reject a conf change. Apps that never use joint\nconsensus can keep their old behavior since the distinction only matters\nwhen in a joint state, but we don't want to encourage that.",
+      "tree": {
+        "sha": "a7ab6d88a21b68e3f23b13a877373467d927c7c0",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/a7ab6d88a21b68e3f23b13a877373467d927c7c0"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/0544f3324876e965cc9fb7d0f983882cd4881108",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5076964?v=4",
+      "events_url": "https://api.github.com/users/tbg/events{/privacy}",
+      "followers_url": "https://api.github.com/users/tbg/followers",
+      "following_url": "https://api.github.com/users/tbg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tbg/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/tbg",
+      "id": 5076964,
+      "login": "tbg",
+      "node_id": "MDQ6VXNlcjUwNzY5NjQ=",
+      "organizations_url": "https://api.github.com/users/tbg/orgs",
+      "received_events_url": "https://api.github.com/users/tbg/received_events",
+      "repos_url": "https://api.github.com/users/tbg/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/tbg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tbg/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/tbg"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/0544f3324876e965cc9fb7d0f983882cd4881108",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6MDU0NGYzMzI0ODc2ZTk2NWNjOWZiN2QwZjk4Mzg4MmNkNDg4MTEwOA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/37c7e4d1d83b87fa151e3dcc76d0c07150f4431e",
+        "sha": "37c7e4d1d83b87fa151e3dcc76d0c07150f4431e",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/37c7e4d1d83b87fa151e3dcc76d0c07150f4431e"
+      }
+    ],
+    "sha": "0544f3324876e965cc9fb7d0f983882cd4881108",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/0544f3324876e965cc9fb7d0f983882cd4881108"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5076964?v=4",
+      "events_url": "https://api.github.com/users/tbg/events{/privacy}",
+      "followers_url": "https://api.github.com/users/tbg/followers",
+      "following_url": "https://api.github.com/users/tbg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tbg/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/tbg",
+      "id": 5076964,
+      "login": "tbg",
+      "node_id": "MDQ6VXNlcjUwNzY5NjQ=",
+      "organizations_url": "https://api.github.com/users/tbg/orgs",
+      "received_events_url": "https://api.github.com/users/tbg/received_events",
+      "repos_url": "https://api.github.com/users/tbg/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/tbg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tbg/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/tbg"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/37c7e4d1d83b87fa151e3dcc76d0c07150f4431e/comments",
+    "commit": {
+      "author": {
+        "date": "2019-08-16T14:36:05Z",
+        "email": "tobias.schottdorf@gmail.com",
+        "name": "Tobias Schottdorf"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-25T11:35:51Z",
+        "email": "tobias.schottdorf@gmail.com",
+        "name": "Tobias Schottdorf"
+      },
+      "message": "raft: fix auto-transitioning out of joint config\n\nThe code doing so was undertested and buggy: it would launch multiple\nattempts to transition out when the conf change was not the last element\nin the log.\n\nThis commit fixes the problem and adds a regression test. It also\nreworks the code to handle a former untested edge case, in which the\nauto-transition append is refused. This can't happen any more with the\ncurrent version of the code because this proposal has size zero and is\nspecial cased in increaseUncommittedSize. Last but not least, the\nauto-leave proposal now also bumps pendingConfIndex, which was not done\npreviously due to an oversight.",
+      "tree": {
+        "sha": "4cc85462de947be810696dc0c41463a9625b6587",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/4cc85462de947be810696dc0c41463a9625b6587"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/37c7e4d1d83b87fa151e3dcc76d0c07150f4431e",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5076964?v=4",
+      "events_url": "https://api.github.com/users/tbg/events{/privacy}",
+      "followers_url": "https://api.github.com/users/tbg/followers",
+      "following_url": "https://api.github.com/users/tbg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tbg/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/tbg",
+      "id": 5076964,
+      "login": "tbg",
+      "node_id": "MDQ6VXNlcjUwNzY5NjQ=",
+      "organizations_url": "https://api.github.com/users/tbg/orgs",
+      "received_events_url": "https://api.github.com/users/tbg/received_events",
+      "repos_url": "https://api.github.com/users/tbg/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/tbg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tbg/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/tbg"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/37c7e4d1d83b87fa151e3dcc76d0c07150f4431e",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6MzdjN2U0ZDFkODNiODdmYTE1MWUzZGNjNzZkMGMwNzE1MGY0NDMxZQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/2332705f10d216bd5b3db46fa8c58ed4db69aed2",
+        "sha": "2332705f10d216bd5b3db46fa8c58ed4db69aed2",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/2332705f10d216bd5b3db46fa8c58ed4db69aed2"
+      }
+    ],
+    "sha": "37c7e4d1d83b87fa151e3dcc76d0c07150f4431e",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/37c7e4d1d83b87fa151e3dcc76d0c07150f4431e"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5076964?v=4",
+      "events_url": "https://api.github.com/users/tbg/events{/privacy}",
+      "followers_url": "https://api.github.com/users/tbg/followers",
+      "following_url": "https://api.github.com/users/tbg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tbg/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/tbg",
+      "id": 5076964,
+      "login": "tbg",
+      "node_id": "MDQ6VXNlcjUwNzY5NjQ=",
+      "organizations_url": "https://api.github.com/users/tbg/orgs",
+      "received_events_url": "https://api.github.com/users/tbg/received_events",
+      "repos_url": "https://api.github.com/users/tbg/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/tbg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tbg/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/tbg"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/2332705f10d216bd5b3db46fa8c58ed4db69aed2/comments",
+    "commit": {
+      "author": {
+        "date": "2019-08-16T12:53:02Z",
+        "email": "tobias.schottdorf@gmail.com",
+        "name": "Tobias Schottdorf"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-25T11:35:51Z",
+        "email": "tobias.schottdorf@gmail.com",
+        "name": "Tobias Schottdorf"
+      },
+      "message": "raft: remove bogus tail end of membership change interaction test\n\nThe test was supposed to end earlier, but some old copy pasta\nsurvived.",
+      "tree": {
+        "sha": "3f5f795f1afa0b495eb027859cdb7da4ea1ef33c",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/3f5f795f1afa0b495eb027859cdb7da4ea1ef33c"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/2332705f10d216bd5b3db46fa8c58ed4db69aed2",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5076964?v=4",
+      "events_url": "https://api.github.com/users/tbg/events{/privacy}",
+      "followers_url": "https://api.github.com/users/tbg/followers",
+      "following_url": "https://api.github.com/users/tbg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tbg/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/tbg",
+      "id": 5076964,
+      "login": "tbg",
+      "node_id": "MDQ6VXNlcjUwNzY5NjQ=",
+      "organizations_url": "https://api.github.com/users/tbg/orgs",
+      "received_events_url": "https://api.github.com/users/tbg/received_events",
+      "repos_url": "https://api.github.com/users/tbg/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/tbg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tbg/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/tbg"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/2332705f10d216bd5b3db46fa8c58ed4db69aed2",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6MjMzMjcwNWYxMGQyMTZiZDViM2RiNDZmYThjNThlZDRkYjY5YWVkMg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/5d7d8c09afb6737f38b1cdeb05503b20963db56f",
+        "sha": "5d7d8c09afb6737f38b1cdeb05503b20963db56f",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/5d7d8c09afb6737f38b1cdeb05503b20963db56f"
+      }
+    ],
+    "sha": "2332705f10d216bd5b3db46fa8c58ed4db69aed2",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/2332705f10d216bd5b3db46fa8c58ed4db69aed2"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6799218?v=4",
+      "events_url": "https://api.github.com/users/gyuho/events{/privacy}",
+      "followers_url": "https://api.github.com/users/gyuho/followers",
+      "following_url": "https://api.github.com/users/gyuho/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gyuho/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/gyuho",
+      "id": 6799218,
+      "login": "gyuho",
+      "node_id": "MDQ6VXNlcjY3OTkyMTg=",
+      "organizations_url": "https://api.github.com/users/gyuho/orgs",
+      "received_events_url": "https://api.github.com/users/gyuho/received_events",
+      "repos_url": "https://api.github.com/users/gyuho/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/gyuho/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gyuho/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/gyuho"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/5d7d8c09afb6737f38b1cdeb05503b20963db56f/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-24T21:42:21Z",
+        "email": "leegyuho@amazon.com",
+        "name": "Gyuho Lee"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-24T21:42:21Z",
+        "email": "leegyuho@amazon.com",
+        "name": "Gyuho Lee"
+      },
+      "message": "CHANGELOG-3.4: update\n\nSigned-off-by: Gyuho Lee <leegyuho@amazon.com>",
+      "tree": {
+        "sha": "66457aca438d2250b9b7c3b6d6107c095f7b5f8e",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/66457aca438d2250b9b7c3b6d6107c095f7b5f8e"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/5d7d8c09afb6737f38b1cdeb05503b20963db56f",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6799218?v=4",
+      "events_url": "https://api.github.com/users/gyuho/events{/privacy}",
+      "followers_url": "https://api.github.com/users/gyuho/followers",
+      "following_url": "https://api.github.com/users/gyuho/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gyuho/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/gyuho",
+      "id": 6799218,
+      "login": "gyuho",
+      "node_id": "MDQ6VXNlcjY3OTkyMTg=",
+      "organizations_url": "https://api.github.com/users/gyuho/orgs",
+      "received_events_url": "https://api.github.com/users/gyuho/received_events",
+      "repos_url": "https://api.github.com/users/gyuho/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/gyuho/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gyuho/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/gyuho"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/5d7d8c09afb6737f38b1cdeb05503b20963db56f",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6NWQ3ZDhjMDlhZmI2NzM3ZjM4YjFjZGViMDU1MDNiMjA5NjNkYjU2Zg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/085b19b5ea47a324c5f04b1077e9a496aaf0720c",
+        "sha": "085b19b5ea47a324c5f04b1077e9a496aaf0720c",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/085b19b5ea47a324c5f04b1077e9a496aaf0720c"
+      }
+    ],
+    "sha": "5d7d8c09afb6737f38b1cdeb05503b20963db56f",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/5d7d8c09afb6737f38b1cdeb05503b20963db56f"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/23108879?v=4",
+      "events_url": "https://api.github.com/users/jingyih/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jingyih/followers",
+      "following_url": "https://api.github.com/users/jingyih/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jingyih/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jingyih",
+      "id": 23108879,
+      "login": "jingyih",
+      "node_id": "MDQ6VXNlcjIzMTA4ODc5",
+      "organizations_url": "https://api.github.com/users/jingyih/orgs",
+      "received_events_url": "https://api.github.com/users/jingyih/received_events",
+      "repos_url": "https://api.github.com/users/jingyih/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jingyih/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jingyih/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jingyih"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/085b19b5ea47a324c5f04b1077e9a496aaf0720c/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-23T06:42:50Z",
+        "email": "jingyih@google.com",
+        "name": "Jingyi Hu"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-23T06:42:50Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #11645 from jingyih/update_changelog_11640\n\nCHANGELOG: update from #11640 and #11644",
+      "tree": {
+        "sha": "161c7bf97e04628697527df5435bfc7c7f26118f",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/161c7bf97e04628697527df5435bfc7c7f26118f"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/085b19b5ea47a324c5f04b1077e9a496aaf0720c",
+      "verification": {
+        "payload": "tree 161c7bf97e04628697527df5435bfc7c7f26118f\nparent 8c1a820a102de3cc3267b747b593c755e6bb30e0\nparent d911a2b4d198e1f80dbff0152cc8aede7947ea69\nauthor Jingyi Hu <jingyih@google.com> 1582440170 +0800\ncommitter GitHub <noreply@github.com> 1582440170 +0800\n\nMerge pull request #11645 from jingyih/update_changelog_11640\n\nCHANGELOG: update from #11640 and #11644",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJeUh7qCRBK7hj4Ov3rIwAAdHIIACz6uir0puKiJ7xwBfPhDPGC\nICMzghTFGwUeEYLeWxdJp8U1LKLSnkZE1b5B6zjAM3HToy/LQU5zjCghTWJ04QZ9\nzzJ3Dvr+FG0a4ILiJZtw7P6K3AgA9o+kNgj1lfjMtUnzW+FjKzCqwrNg8NCV5JdU\n9fNlkx5yz/UkvSoi1Ogs7rw4BFKeLjUpAMnKaUr+VbHYM7oK2hrYlFJmwNU86/b6\nxu7Xo4+1z9Nbdg2wsXCiZmxb01cpfCf4lugbm4KnSGJYwY9xCxQsLG016w1kBFB2\nBH1963lVCH9FjpFZ0IOeetZnfpv0gb5V5x1cclcNu59Xu/XQoQdjzbwuK58Y1x8=\n=nnRM\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/085b19b5ea47a324c5f04b1077e9a496aaf0720c",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6MDg1YjE5YjVlYTQ3YTMyNGM1ZjA0YjEwNzdlOWE0OTZhYWYwNzIwYw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/8c1a820a102de3cc3267b747b593c755e6bb30e0",
+        "sha": "8c1a820a102de3cc3267b747b593c755e6bb30e0",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/8c1a820a102de3cc3267b747b593c755e6bb30e0"
+      },
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/d911a2b4d198e1f80dbff0152cc8aede7947ea69",
+        "sha": "d911a2b4d198e1f80dbff0152cc8aede7947ea69",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/d911a2b4d198e1f80dbff0152cc8aede7947ea69"
+      }
+    ],
+    "sha": "085b19b5ea47a324c5f04b1077e9a496aaf0720c",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/085b19b5ea47a324c5f04b1077e9a496aaf0720c"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/23108879?v=4",
+      "events_url": "https://api.github.com/users/jingyih/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jingyih/followers",
+      "following_url": "https://api.github.com/users/jingyih/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jingyih/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jingyih",
+      "id": 23108879,
+      "login": "jingyih",
+      "node_id": "MDQ6VXNlcjIzMTA4ODc5",
+      "organizations_url": "https://api.github.com/users/jingyih/orgs",
+      "received_events_url": "https://api.github.com/users/jingyih/received_events",
+      "repos_url": "https://api.github.com/users/jingyih/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jingyih/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jingyih/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jingyih"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/d911a2b4d198e1f80dbff0152cc8aede7947ea69/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-22T07:20:07Z",
+        "email": "jingyih@google.com",
+        "name": "jingyih"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-22T07:24:11Z",
+        "email": "jingyih@google.com",
+        "name": "jingyih"
+      },
+      "message": "CHANGELOG: update from 11640 and 11644",
+      "tree": {
+        "sha": "161c7bf97e04628697527df5435bfc7c7f26118f",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/161c7bf97e04628697527df5435bfc7c7f26118f"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/d911a2b4d198e1f80dbff0152cc8aede7947ea69",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/23108879?v=4",
+      "events_url": "https://api.github.com/users/jingyih/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jingyih/followers",
+      "following_url": "https://api.github.com/users/jingyih/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jingyih/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jingyih",
+      "id": 23108879,
+      "login": "jingyih",
+      "node_id": "MDQ6VXNlcjIzMTA4ODc5",
+      "organizations_url": "https://api.github.com/users/jingyih/orgs",
+      "received_events_url": "https://api.github.com/users/jingyih/received_events",
+      "repos_url": "https://api.github.com/users/jingyih/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jingyih/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jingyih/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jingyih"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/d911a2b4d198e1f80dbff0152cc8aede7947ea69",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6ZDkxMWEyYjRkMTk4ZTFmODBkYmZmMDE1MmNjOGFlZGU3OTQ3ZWE2OQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/8c1a820a102de3cc3267b747b593c755e6bb30e0",
+        "sha": "8c1a820a102de3cc3267b747b593c755e6bb30e0",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/8c1a820a102de3cc3267b747b593c755e6bb30e0"
+      }
+    ],
+    "sha": "d911a2b4d198e1f80dbff0152cc8aede7947ea69",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/d911a2b4d198e1f80dbff0152cc8aede7947ea69"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/6462877?v=4",
+      "events_url": "https://api.github.com/users/spzala/events{/privacy}",
+      "followers_url": "https://api.github.com/users/spzala/followers",
+      "following_url": "https://api.github.com/users/spzala/following{/other_user}",
+      "gists_url": "https://api.github.com/users/spzala/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/spzala",
+      "id": 6462877,
+      "login": "spzala",
+      "node_id": "MDQ6VXNlcjY0NjI4Nzc=",
+      "organizations_url": "https://api.github.com/users/spzala/orgs",
+      "received_events_url": "https://api.github.com/users/spzala/received_events",
+      "repos_url": "https://api.github.com/users/spzala/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/spzala/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/spzala/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/spzala"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/8c1a820a102de3cc3267b747b593c755e6bb30e0/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-21T17:32:32Z",
+        "email": "spzala@us.ibm.com",
+        "name": "Sahdev Zala"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-21T17:32:32Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #11640 from ereslibre/fix-learner-promotion\n\nFix quorum calculation when promoting a learner member",
+      "tree": {
+        "sha": "d6ee5ebc34687c68a89e43b914b54fda583a8797",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/d6ee5ebc34687c68a89e43b914b54fda583a8797"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/8c1a820a102de3cc3267b747b593c755e6bb30e0",
+      "verification": {
+        "payload": "tree d6ee5ebc34687c68a89e43b914b54fda583a8797\nparent 8756286fe80e444c5e792e9cf5d42cf6ae816095\nparent 6991f619f21375aac310aba4b5934105b2fbff9e\nauthor Sahdev Zala <spzala@us.ibm.com> 1582306352 -0500\ncommitter GitHub <noreply@github.com> 1582306352 -0500\n\nMerge pull request #11640 from ereslibre/fix-learner-promotion\n\nFix quorum calculation when promoting a learner member",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJeUBQwCRBK7hj4Ov3rIwAAdHIIAJ3EOl12UqRwK++81thx+SVz\nJkwq+U3DCla9g/AMEVREirgvmXfOrk1YaBrf8uVlM/X0jrmBooLNKN04YcvcK8hJ\nrma6JzbtVVIaGd/BeIoOobdhD8AEWBXrJNL3kemAoIYJza4oH+ELwMiVD35JvZ0A\n/LGnOTtktepQRjqc4QWSjC4qDFFkDQgqJtlu3KpZXFEyZDvGby53as7OntMa9ujv\naDrkMhSAuM7z6/z6z271wB+kIAdspVYPTpXhoUlnUD8g2F2cjri3yL+nFGFhDm6o\nGxvbSlzzmTVamYoG3B5WtrU9XNVTAOvBCQroFvpg+tsCVpy3Q3hh5KzBu4Lcymk=\n=wewA\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/8c1a820a102de3cc3267b747b593c755e6bb30e0",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6OGMxYTgyMGExMDJkZTNjYzMyNjdiNzQ3YjU5M2M3NTVlNmJiMzBlMA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/8756286fe80e444c5e792e9cf5d42cf6ae816095",
+        "sha": "8756286fe80e444c5e792e9cf5d42cf6ae816095",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/8756286fe80e444c5e792e9cf5d42cf6ae816095"
+      },
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/6991f619f21375aac310aba4b5934105b2fbff9e",
+        "sha": "6991f619f21375aac310aba4b5934105b2fbff9e",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/6991f619f21375aac310aba4b5934105b2fbff9e"
+      }
+    ],
+    "sha": "8c1a820a102de3cc3267b747b593c755e6bb30e0",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/8c1a820a102de3cc3267b747b593c755e6bb30e0"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5076964?v=4",
+      "events_url": "https://api.github.com/users/tbg/events{/privacy}",
+      "followers_url": "https://api.github.com/users/tbg/followers",
+      "following_url": "https://api.github.com/users/tbg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tbg/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/tbg",
+      "id": 5076964,
+      "login": "tbg",
+      "node_id": "MDQ6VXNlcjUwNzY5NjQ=",
+      "organizations_url": "https://api.github.com/users/tbg/orgs",
+      "received_events_url": "https://api.github.com/users/tbg/received_events",
+      "repos_url": "https://api.github.com/users/tbg/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/tbg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tbg/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/tbg"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/8756286fe80e444c5e792e9cf5d42cf6ae816095/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-20T15:54:42Z",
+        "email": "tobias.schottdorf@gmail.com",
+        "name": "Tobias Grieger"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-20T15:54:42Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #11568 from lzhfromustc/GL_test_7_bugs\n\ntransport: simple fix in test functions to prevent goroutine leak",
+      "tree": {
+        "sha": "f89161486ba5745f5cf0d9272245155a54c2c438",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/f89161486ba5745f5cf0d9272245155a54c2c438"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/8756286fe80e444c5e792e9cf5d42cf6ae816095",
+      "verification": {
+        "payload": "tree f89161486ba5745f5cf0d9272245155a54c2c438\nparent d6a3c995cf86b479cb5a44b48d000feb33e3d8f8\nparent b340dfdcbb4be69a07157466634b1e16042aa1a2\nauthor Tobias Grieger <tobias.schottdorf@gmail.com> 1582214082 +0100\ncommitter GitHub <noreply@github.com> 1582214082 +0100\n\nMerge pull request #11568 from lzhfromustc/GL_test_7_bugs\n\ntransport: simple fix in test functions to prevent goroutine leak",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJeTqvCCRBK7hj4Ov3rIwAAdHIIAGFfzS80LM6t3dhzb9ysfocj\nye0fBODowDSjWHAVbyLR6T6ltg4/Vh3PGvDnm4LfRdvL2Rem9y101BnzfC/RvjVV\n04OnG9NnHEabbbunjfKiAhfY+9yZWobFOjmfbIlCKA9ltGQ07a+S46P5bjI4wRku\nk53sveAOIzTBslQiwcKtL0riu7Kk4FuZA2+NuZ9tTs5R28VF1k3Pn3r9dtLwKg39\nvZOPdHGrF8NwsxVH15+0c9ruRURXIEM1WFUM/gNrgrfbgRO+Fe2OIxsDzgXAFfqQ\n7XlSkvN5yZ6Qjy/XGmfOhI+dj8L4i/ZcfnKRG1tiDXXxI0Xu21tI4WhcfDtIg7Q=\n=d9Gn\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/8756286fe80e444c5e792e9cf5d42cf6ae816095",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6ODc1NjI4NmZlODBlNDQ0YzVlNzkyZTljZjVkNDJjZjZhZTgxNjA5NQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/d6a3c995cf86b479cb5a44b48d000feb33e3d8f8",
+        "sha": "d6a3c995cf86b479cb5a44b48d000feb33e3d8f8",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/d6a3c995cf86b479cb5a44b48d000feb33e3d8f8"
+      },
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/b340dfdcbb4be69a07157466634b1e16042aa1a2",
+        "sha": "b340dfdcbb4be69a07157466634b1e16042aa1a2",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/b340dfdcbb4be69a07157466634b1e16042aa1a2"
+      }
+    ],
+    "sha": "8756286fe80e444c5e792e9cf5d42cf6ae816095",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/8756286fe80e444c5e792e9cf5d42cf6ae816095"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/8706?v=4",
+      "events_url": "https://api.github.com/users/ereslibre/events{/privacy}",
+      "followers_url": "https://api.github.com/users/ereslibre/followers",
+      "following_url": "https://api.github.com/users/ereslibre/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ereslibre/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/ereslibre",
+      "id": 8706,
+      "login": "ereslibre",
+      "node_id": "MDQ6VXNlcjg3MDY=",
+      "organizations_url": "https://api.github.com/users/ereslibre/orgs",
+      "received_events_url": "https://api.github.com/users/ereslibre/received_events",
+      "repos_url": "https://api.github.com/users/ereslibre/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/ereslibre/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ereslibre/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/ereslibre"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/6991f619f21375aac310aba4b5934105b2fbff9e/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-19T16:39:01Z",
+        "email": "ereslibre@ereslibre.es",
+        "name": "Rafael Fern\u00e1ndez L\u00f3pez"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-20T11:06:35Z",
+        "email": "ereslibre@ereslibre.es",
+        "name": "Rafael Fern\u00e1ndez L\u00f3pez"
+      },
+      "message": "etcdserver: fix quorum calculation when promoting a learner member\n\nWhen promoting a learner member we should not count already a voting\nmember, but take only into account the number of existing voting\nmembers and their current status (started, unstarted) when taking the\ndecision whether a learner member can be promoted.\n\nBefore this change, it was impossible to grow from a quorum N to a N+1\nthrough promoting a learning member.\n\nFixes: #11633",
+      "tree": {
+        "sha": "7199c6a7bf9e965262424a4551da35d859cfb5dc",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/7199c6a7bf9e965262424a4551da35d859cfb5dc"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/6991f619f21375aac310aba4b5934105b2fbff9e",
+      "verification": {
+        "payload": "tree 7199c6a7bf9e965262424a4551da35d859cfb5dc\nparent d6a3c995cf86b479cb5a44b48d000feb33e3d8f8\nauthor Rafael Fern\u00e1ndez L\u00f3pez <ereslibre@ereslibre.es> 1582130341 +0100\ncommitter Rafael Fern\u00e1ndez L\u00f3pez <ereslibre@ereslibre.es> 1582196795 +0100\n\netcdserver: fix quorum calculation when promoting a learner member\n\nWhen promoting a learner member we should not count already a voting\nmember, but take only into account the number of existing voting\nmembers and their current status (started, unstarted) when taking the\ndecision whether a learner member can be promoted.\n\nBefore this change, it was impossible to grow from a quorum N to a N+1\nthrough promoting a learning member.\n\nFixes: #11633\n",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEVXtUfsypE9y4QP58iQIpTnhBjPkFAl5OaDwACgkQiQIpTnhB\njPl7zAf8C93gS8HMZNK1Zn1i0ehi6YqCG3GQXjvNmJqgwmY6USLpNDcx87cau1CM\nMMyxnfNi97jokTsHqpeyQkW2rlbx02/WwXroMl/xyivfaACqIhIfmWsVrXFWDkJ0\nJm7lu55cXY1+2b+StXo5YaGd9E8lYB7ngjbY/fzhCjdt8541NacrgC8NtiCnb7QG\nqWqxUGNPxi2Ens9QxSxF2pBoYHyj3Bx77ffTb8nSHP9etWXXJLTy+IU/XUsMCUrb\ndREr8nT4CzOaSiEI6X54/X9/Vwk334gqN+TSMlzBmX6CY1p1Jq5RHXjlGQ5XshSh\nRgnrdiVyqUbKy33qLVJpEB2PZLYptg==\n=IMaY\n-----END PGP SIGNATURE-----",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/8706?v=4",
+      "events_url": "https://api.github.com/users/ereslibre/events{/privacy}",
+      "followers_url": "https://api.github.com/users/ereslibre/followers",
+      "following_url": "https://api.github.com/users/ereslibre/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ereslibre/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/ereslibre",
+      "id": 8706,
+      "login": "ereslibre",
+      "node_id": "MDQ6VXNlcjg3MDY=",
+      "organizations_url": "https://api.github.com/users/ereslibre/orgs",
+      "received_events_url": "https://api.github.com/users/ereslibre/received_events",
+      "repos_url": "https://api.github.com/users/ereslibre/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/ereslibre/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ereslibre/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/ereslibre"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/6991f619f21375aac310aba4b5934105b2fbff9e",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6Njk5MWY2MTlmMjEzNzVhYWMzMTBhYmE0YjU5MzQxMDViMmZiZmY5ZQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/d6a3c995cf86b479cb5a44b48d000feb33e3d8f8",
+        "sha": "d6a3c995cf86b479cb5a44b48d000feb33e3d8f8",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/d6a3c995cf86b479cb5a44b48d000feb33e3d8f8"
+      }
+    ],
+    "sha": "6991f619f21375aac310aba4b5934105b2fbff9e",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/6991f619f21375aac310aba4b5934105b2fbff9e"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/23108879?v=4",
+      "events_url": "https://api.github.com/users/jingyih/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jingyih/followers",
+      "following_url": "https://api.github.com/users/jingyih/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jingyih/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jingyih",
+      "id": 23108879,
+      "login": "jingyih",
+      "node_id": "MDQ6VXNlcjIzMTA4ODc5",
+      "organizations_url": "https://api.github.com/users/jingyih/orgs",
+      "received_events_url": "https://api.github.com/users/jingyih/received_events",
+      "repos_url": "https://api.github.com/users/jingyih/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jingyih/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jingyih/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jingyih"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/8f5ce68adb2f6d958fad6f80b2dc1abb54425c33/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-19T08:05:13Z",
+        "email": "jingyih@google.com",
+        "name": "jingyih"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-19T08:12:15Z",
+        "email": "jingyih@google.com",
+        "name": "jingyih"
+      },
+      "message": "etcdctl: fix member add command\n\nUse members information from member add response, which is\nguaranteed to be up to date.",
+      "tree": {
+        "sha": "3874c414fbf424aa7fac8eceb166e3168956ad10",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/3874c414fbf424aa7fac8eceb166e3168956ad10"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/8f5ce68adb2f6d958fad6f80b2dc1abb54425c33",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/23108879?v=4",
+      "events_url": "https://api.github.com/users/jingyih/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jingyih/followers",
+      "following_url": "https://api.github.com/users/jingyih/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jingyih/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jingyih",
+      "id": 23108879,
+      "login": "jingyih",
+      "node_id": "MDQ6VXNlcjIzMTA4ODc5",
+      "organizations_url": "https://api.github.com/users/jingyih/orgs",
+      "received_events_url": "https://api.github.com/users/jingyih/received_events",
+      "repos_url": "https://api.github.com/users/jingyih/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jingyih/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jingyih/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jingyih"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/8f5ce68adb2f6d958fad6f80b2dc1abb54425c33",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6OGY1Y2U2OGFkYjJmNmQ5NThmYWQ2ZjgwYjJkYzFhYmI1NDQyNWMzMw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/d6a3c995cf86b479cb5a44b48d000feb33e3d8f8",
+        "sha": "d6a3c995cf86b479cb5a44b48d000feb33e3d8f8",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/d6a3c995cf86b479cb5a44b48d000feb33e3d8f8"
+      }
+    ],
+    "sha": "8f5ce68adb2f6d958fad6f80b2dc1abb54425c33",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/8f5ce68adb2f6d958fad6f80b2dc1abb54425c33"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/23108879?v=4",
+      "events_url": "https://api.github.com/users/jingyih/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jingyih/followers",
+      "following_url": "https://api.github.com/users/jingyih/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jingyih/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jingyih",
+      "id": 23108879,
+      "login": "jingyih",
+      "node_id": "MDQ6VXNlcjIzMTA4ODc5",
+      "organizations_url": "https://api.github.com/users/jingyih/orgs",
+      "received_events_url": "https://api.github.com/users/jingyih/received_events",
+      "repos_url": "https://api.github.com/users/jingyih/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jingyih/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jingyih/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jingyih"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/d6a3c995cf86b479cb5a44b48d000feb33e3d8f8/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-18T10:55:13Z",
+        "email": "jingyih@google.com",
+        "name": "Jingyi Hu"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-18T10:55:13Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #11621 from jingyih/corruption_check_tls\n\netcdserver: make corruption check work under peer mTLS",
+      "tree": {
+        "sha": "0e9712dbb807e5d6325fb5cc392069a049d04875",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/0e9712dbb807e5d6325fb5cc392069a049d04875"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/d6a3c995cf86b479cb5a44b48d000feb33e3d8f8",
+      "verification": {
+        "payload": "tree 0e9712dbb807e5d6325fb5cc392069a049d04875\nparent f0faa5501d936cd8c9f561bb9d1baca70eb67ab1\nparent c031b2749151f33063dbaafe21e5bb393e10bd21\nauthor Jingyi Hu <jingyih@google.com> 1582023313 +0800\ncommitter GitHub <noreply@github.com> 1582023313 +0800\n\nMerge pull request #11621 from jingyih/corruption_check_tls\n\netcdserver: make corruption check work under peer mTLS",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJeS8KRCRBK7hj4Ov3rIwAAdHIIAKXxkOHX6S0wPUVzOMNaZUA2\n70qG1lR6wWswVFy/oUeexpvm21CEZ0njM6Es26vLrxU47hWXKGNAwyql/gALVsOW\nchDfHzUcemmKokbPVxc74M3WadlJZrJHWR0+iU98OMv6oULYRhxTch0duq7B89Ei\nqfc0O2I11MO4GqItCITngfZcZvmyRH7db1vPiVd9VzNr0aMZ7SG35B7wFMuWWL8i\nH+Ysmbjxhf6UFVQ6Ee1xv37s+a53F57YgbFmr5hLPjHRusknEcldjX8IaP9gs30H\n/b31vCxRmHrOSl7msO4q9pN0stGk+RZwBX8GmLfLRN1JVgiN/94ZP/+0pJnARb0=\n=zu7j\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/d6a3c995cf86b479cb5a44b48d000feb33e3d8f8",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6ZDZhM2M5OTVjZjg2YjQ3OWNiNWE0NGI0OGQwMDBmZWIzM2UzZDhmOA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/f0faa5501d936cd8c9f561bb9d1baca70eb67ab1",
+        "sha": "f0faa5501d936cd8c9f561bb9d1baca70eb67ab1",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/f0faa5501d936cd8c9f561bb9d1baca70eb67ab1"
+      },
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/c031b2749151f33063dbaafe21e5bb393e10bd21",
+        "sha": "c031b2749151f33063dbaafe21e5bb393e10bd21",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/c031b2749151f33063dbaafe21e5bb393e10bd21"
+      }
+    ],
+    "sha": "d6a3c995cf86b479cb5a44b48d000feb33e3d8f8",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/d6a3c995cf86b479cb5a44b48d000feb33e3d8f8"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/23108879?v=4",
+      "events_url": "https://api.github.com/users/jingyih/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jingyih/followers",
+      "following_url": "https://api.github.com/users/jingyih/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jingyih/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jingyih",
+      "id": 23108879,
+      "login": "jingyih",
+      "node_id": "MDQ6VXNlcjIzMTA4ODc5",
+      "organizations_url": "https://api.github.com/users/jingyih/orgs",
+      "received_events_url": "https://api.github.com/users/jingyih/received_events",
+      "repos_url": "https://api.github.com/users/jingyih/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jingyih/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jingyih/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jingyih"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/f0faa5501d936cd8c9f561bb9d1baca70eb67ab1/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-15T07:25:44Z",
+        "email": "jingyih@google.com",
+        "name": "Jingyi Hu"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-15T07:25:44Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #11630 from jingyih/check_nil_before_use_boltOpenOptions\n\nmvcc/backend: check for nil boltOpenOptions",
+      "tree": {
+        "sha": "6e24c8cfcf6526c1acbf4be6e8bb4d027dc248b9",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/6e24c8cfcf6526c1acbf4be6e8bb4d027dc248b9"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/f0faa5501d936cd8c9f561bb9d1baca70eb67ab1",
+      "verification": {
+        "payload": "tree 6e24c8cfcf6526c1acbf4be6e8bb4d027dc248b9\nparent 74cfe5280942d33afdc89fa2f8813db413662e18\nparent b6ee807e9389a038cb902524d9e3624cabca7de0\nauthor Jingyi Hu <jingyih@google.com> 1581751544 +0800\ncommitter GitHub <noreply@github.com> 1581751544 +0800\n\nMerge pull request #11630 from jingyih/check_nil_before_use_boltOpenOptions\n\nmvcc/backend: check for nil boltOpenOptions",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJeR5z4CRBK7hj4Ov3rIwAAdHIIAEyNMsp2xAfafwDRVh+K6P+r\n6VAfN7ShfHobYrBJozXyfy3dxoAg+cSWYdPveg6kj9vm4QD+oj937Bljs+Lduvff\nYVf2gJFMm0c3GnQAyfPm7PmzaacElf1bWIG3B+pZD72iykOpSjwk2zzcKk83K5iK\ntHjdWu/wlBJun+mWV+JzdrpNxwjcROGWos0D4VJQ0seMQ3A9LZT8d4JNQpS9zX8F\nznU7FVlhyE0945iZfcPnWda6KAzULsA/C4OGpctOwpnBUxB39qd1SV9u9lgWNV0B\nBvpQuWHRbztEaGOI8CVrq+ArJPG5xJbkBiwl6dXUCPu7meLRzDOuO2IFOhDVXw4=\n=HM9x\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/f0faa5501d936cd8c9f561bb9d1baca70eb67ab1",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6ZjBmYWE1NTAxZDkzNmNkOGM5ZjU2MWJiOWQxYmFjYTcwZWI2N2FiMQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/74cfe5280942d33afdc89fa2f8813db413662e18",
+        "sha": "74cfe5280942d33afdc89fa2f8813db413662e18",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/74cfe5280942d33afdc89fa2f8813db413662e18"
+      },
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/b6ee807e9389a038cb902524d9e3624cabca7de0",
+        "sha": "b6ee807e9389a038cb902524d9e3624cabca7de0",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/b6ee807e9389a038cb902524d9e3624cabca7de0"
+      }
+    ],
+    "sha": "f0faa5501d936cd8c9f561bb9d1baca70eb67ab1",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/f0faa5501d936cd8c9f561bb9d1baca70eb67ab1"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/23108879?v=4",
+      "events_url": "https://api.github.com/users/jingyih/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jingyih/followers",
+      "following_url": "https://api.github.com/users/jingyih/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jingyih/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jingyih",
+      "id": 23108879,
+      "login": "jingyih",
+      "node_id": "MDQ6VXNlcjIzMTA4ODc5",
+      "organizations_url": "https://api.github.com/users/jingyih/orgs",
+      "received_events_url": "https://api.github.com/users/jingyih/received_events",
+      "repos_url": "https://api.github.com/users/jingyih/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jingyih/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jingyih/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jingyih"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/b6ee807e9389a038cb902524d9e3624cabca7de0/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-15T05:26:52Z",
+        "email": "jingyih@google.com",
+        "name": "jingyih"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-15T05:26:52Z",
+        "email": "jingyih@google.com",
+        "name": "jingyih"
+      },
+      "message": "mvcc/backend: check for nil boltOpenOptions\n\nCheck if boltOpenOptions is nil before use it.",
+      "tree": {
+        "sha": "6e24c8cfcf6526c1acbf4be6e8bb4d027dc248b9",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/6e24c8cfcf6526c1acbf4be6e8bb4d027dc248b9"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/b6ee807e9389a038cb902524d9e3624cabca7de0",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/23108879?v=4",
+      "events_url": "https://api.github.com/users/jingyih/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jingyih/followers",
+      "following_url": "https://api.github.com/users/jingyih/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jingyih/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jingyih",
+      "id": 23108879,
+      "login": "jingyih",
+      "node_id": "MDQ6VXNlcjIzMTA4ODc5",
+      "organizations_url": "https://api.github.com/users/jingyih/orgs",
+      "received_events_url": "https://api.github.com/users/jingyih/received_events",
+      "repos_url": "https://api.github.com/users/jingyih/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jingyih/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jingyih/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jingyih"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/b6ee807e9389a038cb902524d9e3624cabca7de0",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6YjZlZTgwN2U5Mzg5YTAzOGNiOTAyNTI0ZDllMzYyNGNhYmNhN2RlMA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/74cfe5280942d33afdc89fa2f8813db413662e18",
+        "sha": "74cfe5280942d33afdc89fa2f8813db413662e18",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/74cfe5280942d33afdc89fa2f8813db413662e18"
+      }
+    ],
+    "sha": "b6ee807e9389a038cb902524d9e3624cabca7de0",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/b6ee807e9389a038cb902524d9e3624cabca7de0"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/23108879?v=4",
+      "events_url": "https://api.github.com/users/jingyih/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jingyih/followers",
+      "following_url": "https://api.github.com/users/jingyih/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jingyih/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jingyih",
+      "id": 23108879,
+      "login": "jingyih",
+      "node_id": "MDQ6VXNlcjIzMTA4ODc5",
+      "organizations_url": "https://api.github.com/users/jingyih/orgs",
+      "received_events_url": "https://api.github.com/users/jingyih/received_events",
+      "repos_url": "https://api.github.com/users/jingyih/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jingyih/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jingyih/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jingyih"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/74cfe5280942d33afdc89fa2f8813db413662e18/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-14T20:42:32Z",
+        "email": "jingyih@google.com",
+        "name": "Jingyi Hu"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-14T20:42:32Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #11628 from tedyu/rm-db-tmp\n\nmvcc/backend: remove db.tmp without checking logger presence",
+      "tree": {
+        "sha": "91aeda41d6c4ea96499508ba0ce18c52de4c4b2b",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/91aeda41d6c4ea96499508ba0ce18c52de4c4b2b"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/74cfe5280942d33afdc89fa2f8813db413662e18",
+      "verification": {
+        "payload": "tree 91aeda41d6c4ea96499508ba0ce18c52de4c4b2b\nparent 84ace97ad7c5c03a9ac42ed9e067af2f85e95ca0\nparent 7e0e6bf4979b93b690ed9ec574cc6824647c68a4\nauthor Jingyi Hu <jingyih@google.com> 1581712952 +0800\ncommitter GitHub <noreply@github.com> 1581712952 +0800\n\nMerge pull request #11628 from tedyu/rm-db-tmp\n\nmvcc/backend: remove db.tmp without checking logger presence",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJeRwY4CRBK7hj4Ov3rIwAAdHIIAClwjFina5PMtpVf1FwnIbJe\nAw9C3Rg8RWw24VdMRkYBXEHcjajxvuzSqq3VgTiiFmkuiQ8IF93EkEZqOuxN7icE\n4Oi7fT/EZzxNYMqhxeYUufv1kLQSXPuHvT6H26EQ6YJYkMwV79FS2yzjBTSbdyd7\nPDjviedQBFp1zmCZGcGXplBNLYC87a+KKjw/l5x5smjkcF8w+uJQqSAmPwmJgE0Q\nAFeaj5u1qSihKXfh7ZOFMV8BpWg7ng9X996/b2bL/IQjMaorHR6QmxRB6uYp6qBc\nBmkC0QtLZnC0w8cOWgUw4fmZyNth3XU/3Jb7JCOUar5xPXoW8JY2N4eJfmIzt6Y=\n=G83Z\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/74cfe5280942d33afdc89fa2f8813db413662e18",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6NzRjZmU1MjgwOTQyZDMzYWZkYzg5ZmEyZjg4MTNkYjQxMzY2MmUxOA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/84ace97ad7c5c03a9ac42ed9e067af2f85e95ca0",
+        "sha": "84ace97ad7c5c03a9ac42ed9e067af2f85e95ca0",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/84ace97ad7c5c03a9ac42ed9e067af2f85e95ca0"
+      },
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/7e0e6bf4979b93b690ed9ec574cc6824647c68a4",
+        "sha": "7e0e6bf4979b93b690ed9ec574cc6824647c68a4",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/7e0e6bf4979b93b690ed9ec574cc6824647c68a4"
+      }
+    ],
+    "sha": "74cfe5280942d33afdc89fa2f8813db413662e18",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/74cfe5280942d33afdc89fa2f8813db413662e18"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/54038175?v=4",
+      "events_url": "https://api.github.com/users/yutedz/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yutedz/followers",
+      "following_url": "https://api.github.com/users/yutedz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yutedz/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yutedz",
+      "id": 54038175,
+      "login": "yutedz",
+      "node_id": "MDQ6VXNlcjU0MDM4MTc1",
+      "organizations_url": "https://api.github.com/users/yutedz/orgs",
+      "received_events_url": "https://api.github.com/users/yutedz/received_events",
+      "repos_url": "https://api.github.com/users/yutedz/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yutedz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yutedz/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yutedz"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/7e0e6bf4979b93b690ed9ec574cc6824647c68a4/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-14T20:10:24Z",
+        "email": "yute@vmware.com",
+        "name": "Ted Yu"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-14T20:10:24Z",
+        "email": "yute@vmware.com",
+        "name": "Ted Yu"
+      },
+      "message": "mvcc/backend: remove db.tmp regardless of logger presence",
+      "tree": {
+        "sha": "91aeda41d6c4ea96499508ba0ce18c52de4c4b2b",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/91aeda41d6c4ea96499508ba0ce18c52de4c4b2b"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/7e0e6bf4979b93b690ed9ec574cc6824647c68a4",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/54038175?v=4",
+      "events_url": "https://api.github.com/users/yutedz/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yutedz/followers",
+      "following_url": "https://api.github.com/users/yutedz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yutedz/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yutedz",
+      "id": 54038175,
+      "login": "yutedz",
+      "node_id": "MDQ6VXNlcjU0MDM4MTc1",
+      "organizations_url": "https://api.github.com/users/yutedz/orgs",
+      "received_events_url": "https://api.github.com/users/yutedz/received_events",
+      "repos_url": "https://api.github.com/users/yutedz/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yutedz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yutedz/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yutedz"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/7e0e6bf4979b93b690ed9ec574cc6824647c68a4",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6N2UwZTZiZjQ5NzliOTNiNjkwZWQ5ZWM1NzRjYzY4MjQ2NDdjNjhhNA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/84ace97ad7c5c03a9ac42ed9e067af2f85e95ca0",
+        "sha": "84ace97ad7c5c03a9ac42ed9e067af2f85e95ca0",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/84ace97ad7c5c03a9ac42ed9e067af2f85e95ca0"
+      }
+    ],
+    "sha": "7e0e6bf4979b93b690ed9ec574cc6824647c68a4",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/7e0e6bf4979b93b690ed9ec574cc6824647c68a4"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/23108879?v=4",
+      "events_url": "https://api.github.com/users/jingyih/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jingyih/followers",
+      "following_url": "https://api.github.com/users/jingyih/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jingyih/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jingyih",
+      "id": 23108879,
+      "login": "jingyih",
+      "node_id": "MDQ6VXNlcjIzMTA4ODc5",
+      "organizations_url": "https://api.github.com/users/jingyih/orgs",
+      "received_events_url": "https://api.github.com/users/jingyih/received_events",
+      "repos_url": "https://api.github.com/users/jingyih/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jingyih/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jingyih/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jingyih"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/c031b2749151f33063dbaafe21e5bb393e10bd21/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-13T15:57:14Z",
+        "email": "jingyih@google.com",
+        "name": "jingyih"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-14T14:03:15Z",
+        "email": "jingyih@google.com",
+        "name": "jingyih"
+      },
+      "message": "etcdserver: corruption check via http\n\nDuring corruption check, get peer's hashKV via http call.",
+      "tree": {
+        "sha": "d4eda02dc13e3bd39ec1bb42683879678cd2535a",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/d4eda02dc13e3bd39ec1bb42683879678cd2535a"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/c031b2749151f33063dbaafe21e5bb393e10bd21",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/23108879?v=4",
+      "events_url": "https://api.github.com/users/jingyih/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jingyih/followers",
+      "following_url": "https://api.github.com/users/jingyih/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jingyih/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jingyih",
+      "id": 23108879,
+      "login": "jingyih",
+      "node_id": "MDQ6VXNlcjIzMTA4ODc5",
+      "organizations_url": "https://api.github.com/users/jingyih/orgs",
+      "received_events_url": "https://api.github.com/users/jingyih/received_events",
+      "repos_url": "https://api.github.com/users/jingyih/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jingyih/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jingyih/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jingyih"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/c031b2749151f33063dbaafe21e5bb393e10bd21",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6YzAzMWIyNzQ5MTUxZjMzMDYzZGJhYWZlMjFlNWJiMzkzZTEwYmQyMQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/ae983523db7b56afcd1c39e8be42717758638ccf",
+        "sha": "ae983523db7b56afcd1c39e8be42717758638ccf",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/ae983523db7b56afcd1c39e8be42717758638ccf"
+      }
+    ],
+    "sha": "c031b2749151f33063dbaafe21e5bb393e10bd21",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/c031b2749151f33063dbaafe21e5bb393e10bd21"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/23108879?v=4",
+      "events_url": "https://api.github.com/users/jingyih/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jingyih/followers",
+      "following_url": "https://api.github.com/users/jingyih/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jingyih/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jingyih",
+      "id": 23108879,
+      "login": "jingyih",
+      "node_id": "MDQ6VXNlcjIzMTA4ODc5",
+      "organizations_url": "https://api.github.com/users/jingyih/orgs",
+      "received_events_url": "https://api.github.com/users/jingyih/received_events",
+      "repos_url": "https://api.github.com/users/jingyih/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jingyih/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jingyih/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jingyih"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/84ace97ad7c5c03a9ac42ed9e067af2f85e95ca0/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-14T08:27:41Z",
+        "email": "jingyih@google.com",
+        "name": "Jingyi Hu"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-14T08:27:41Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #11572 from lzhfromustc/API_Fatal_4\n\nintegration/clientv3: fix 4 API misusage in test functions",
+      "tree": {
+        "sha": "72f095358a4d4d3c38c02b4c98b2443cd682df55",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/72f095358a4d4d3c38c02b4c98b2443cd682df55"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/84ace97ad7c5c03a9ac42ed9e067af2f85e95ca0",
+      "verification": {
+        "payload": "tree 72f095358a4d4d3c38c02b4c98b2443cd682df55\nparent bdf69dff904c0bc2f9f93b8372d683302e44ba20\nparent f00394e384b138caea4eff7de637687a885dcac5\nauthor Jingyi Hu <jingyih@google.com> 1581668861 -0800\ncommitter GitHub <noreply@github.com> 1581668861 -0800\n\nMerge pull request #11572 from lzhfromustc/API_Fatal_4\n\nintegration/clientv3: fix 4 API misusage in test functions",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJeRln9CRBK7hj4Ov3rIwAAdHIIAEUSGxSxDGcuJRDZ3H4kmCf8\nGnTsUhJ+decB2uJIKzXIjf5uSffA55m9kTa0b6XewV1qnylFFIlhs1PdpCHy5Dy3\n+O8eM5h3ocnRTYr2ynX7wmMJ9FlMCJJpd8Oxj9uHJnX0b0dmWkWJBF1NvRbBXfW6\n8YRRSvGNjgjIu613I7aG7ZorJ35NLxpaBCK/esdPb1hIHinK60I0JzdONWtY5Kv2\nw2ZteiUBxwYutlcN3JVe1062nlT4P9kDyCNteZzolZvc12ZpRPiNTSaY06gshbPv\nE0kCDWKGRok+MYQG6leFYx6n/e3x1XNoBxQXGeHquj2wAsu+DTTGreT9ULzNd6Y=\n=Ukh1\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/84ace97ad7c5c03a9ac42ed9e067af2f85e95ca0",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6ODRhY2U5N2FkN2M1YzAzYTlhYzQyZWQ5ZTA2N2FmMmY4NWU5NWNhMA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/bdf69dff904c0bc2f9f93b8372d683302e44ba20",
+        "sha": "bdf69dff904c0bc2f9f93b8372d683302e44ba20",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/bdf69dff904c0bc2f9f93b8372d683302e44ba20"
+      },
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/f00394e384b138caea4eff7de637687a885dcac5",
+        "sha": "f00394e384b138caea4eff7de637687a885dcac5",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/f00394e384b138caea4eff7de637687a885dcac5"
+      }
+    ],
+    "sha": "84ace97ad7c5c03a9ac42ed9e067af2f85e95ca0",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/84ace97ad7c5c03a9ac42ed9e067af2f85e95ca0"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/523590?v=4",
+      "events_url": "https://api.github.com/users/jpbetz/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jpbetz/followers",
+      "following_url": "https://api.github.com/users/jpbetz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jpbetz/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jpbetz",
+      "id": 523590,
+      "login": "jpbetz",
+      "node_id": "MDQ6VXNlcjUyMzU5MA==",
+      "organizations_url": "https://api.github.com/users/jpbetz/orgs",
+      "received_events_url": "https://api.github.com/users/jpbetz/received_events",
+      "repos_url": "https://api.github.com/users/jpbetz/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jpbetz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jpbetz/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jpbetz"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/bdf69dff904c0bc2f9f93b8372d683302e44ba20/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-13T22:53:30Z",
+        "email": "jpbetz@google.com",
+        "name": "Joe Betz"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-13T22:53:30Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #11626 from jpbetz/changelog-11613-backport\n\nchangelog: Add #11613 backport to 3.2, 3.3 and 3.4 changelogs",
+      "tree": {
+        "sha": "a0015bf60ec7e00df660eaa5f3db846fc564ace6",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/a0015bf60ec7e00df660eaa5f3db846fc564ace6"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/bdf69dff904c0bc2f9f93b8372d683302e44ba20",
+      "verification": {
+        "payload": "tree a0015bf60ec7e00df660eaa5f3db846fc564ace6\nparent 8bf7b2b1b40baacb9a5cd5ff7f5569d770813e9d\nparent 605f30f328834a92951af7f4db33bad83151c934\nauthor Joe Betz <jpbetz@google.com> 1581634410 -0800\ncommitter GitHub <noreply@github.com> 1581634410 -0800\n\nMerge pull request #11626 from jpbetz/changelog-11613-backport\n\nchangelog: Add #11613 backport to 3.2, 3.3 and 3.4 changelogs",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJeRdNqCRBK7hj4Ov3rIwAAdHIIAIx1WeET85IGorpp0qKLARqm\nbuNCoF3exlxzqrEpn6nkwHQdFRR0KzRWB4XzNMOCjJIIUytOESWWPjo3fQkz9W+v\nrTPv0Go2I9j7yx0lCI6mtR0aCWXzycVuV9xW9rc/WbwKlQfBhNdgWX9ibXhkAuQe\narLvltRRcHJQLC81APjoj0Rel41NJ7HhgZUL62OYhZK8l7KwYfGit+zm9fKRAO3I\nvg3bUMWFKM/ZlcICbZujFWFLKpXXlIJP+b0qwxl6ToLqjTTODviXku2ByF7OSHNy\njC9FCCOuME8qa7awiiReVuxaVCaJ+Ku8zGSWbt/z7yETp4pM551IWXH6h0A6DrM=\n=kbXW\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/bdf69dff904c0bc2f9f93b8372d683302e44ba20",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6YmRmNjlkZmY5MDRjMGJjMmY5ZjkzYjgzNzJkNjgzMzAyZTQ0YmEyMA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/8bf7b2b1b40baacb9a5cd5ff7f5569d770813e9d",
+        "sha": "8bf7b2b1b40baacb9a5cd5ff7f5569d770813e9d",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/8bf7b2b1b40baacb9a5cd5ff7f5569d770813e9d"
+      },
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/605f30f328834a92951af7f4db33bad83151c934",
+        "sha": "605f30f328834a92951af7f4db33bad83151c934",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/605f30f328834a92951af7f4db33bad83151c934"
+      }
+    ],
+    "sha": "bdf69dff904c0bc2f9f93b8372d683302e44ba20",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/bdf69dff904c0bc2f9f93b8372d683302e44ba20"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/523590?v=4",
+      "events_url": "https://api.github.com/users/jpbetz/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jpbetz/followers",
+      "following_url": "https://api.github.com/users/jpbetz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jpbetz/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jpbetz",
+      "id": 523590,
+      "login": "jpbetz",
+      "node_id": "MDQ6VXNlcjUyMzU5MA==",
+      "organizations_url": "https://api.github.com/users/jpbetz/orgs",
+      "received_events_url": "https://api.github.com/users/jpbetz/received_events",
+      "repos_url": "https://api.github.com/users/jpbetz/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jpbetz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jpbetz/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jpbetz"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/605f30f328834a92951af7f4db33bad83151c934/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-13T20:51:24Z",
+        "email": "jpbetz@google.com",
+        "name": "Joe Betz"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-13T21:03:46Z",
+        "email": "jpbetz@google.com",
+        "name": "Joe Betz"
+      },
+      "message": "changelog: Add 11613 backport to 3.2, 3.3 and 3.4 changelogs",
+      "tree": {
+        "sha": "a0015bf60ec7e00df660eaa5f3db846fc564ace6",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/a0015bf60ec7e00df660eaa5f3db846fc564ace6"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/605f30f328834a92951af7f4db33bad83151c934",
+      "verification": {
+        "payload": "tree a0015bf60ec7e00df660eaa5f3db846fc564ace6\nparent 8bf7b2b1b40baacb9a5cd5ff7f5569d770813e9d\nauthor Joe Betz <jpbetz@google.com> 1581627084 -0800\ncommitter Joe Betz <jpbetz@google.com> 1581627826 -0800\n\nchangelog: Add 11613 backport to 3.2, 3.3 and 3.4 changelogs\n",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCgAdFiEEjfQTKLcqPjbHuIPeSTDGgLbg3bgFAl5FubIACgkQSTDGgLbg\n3bi+7xAAoIForETiNAqfvJ2zEESFgLud99PaUi5IfBzP9ee7zpyqymfGPf8V4vha\n7iQ5z1OKhlJAROadzZmcB1LdOT5m5Al40pUtnSZbounUvQMvrH8jV0ozVDAAfbn6\nZsiuO1NvybEf0vuJUmzdkf28M+1ZgTMZggI2iILm3MmqBL53sDbPScmHz++CBuHy\ncQ1yCDPTDPC9B3Tiq7guv36SDUF/OovCCh+WuMif9s54Kc9RCA0QDoIenMsUwUoS\nGnLCybv3jR8vc3CmjKBV1ahsC9VeBWimUo9GOeB2xZdvqlkqzpvVuOtEOJe5Frvx\nRcMrAEtRJsU4H51je6RXQW4rFNktt96PxANc4o8T0Zy+wGTeKzZC2wBP8MZaXrkT\nrBOo7yg7i4Rn3IdebDwbhUOL5XPw44joWW+hl+vD7OmIpFhVi5VxkxkbKj42FZGq\nIZPX52y84/EwLf8LJZCZ07vNNezqCkoIYcWOhkUF5VT3QKUJVLoGOC1iTL8dqcGA\nNr1Vdba4NUY3TthKF9AUPnFr4h988w12CC4KEEkCKUuTmt+pYBBfnU/zYwsrZDvr\nn8U3WiREKjH0jQdRgz3DMPmZHltjitGaTvVJqLgiX53AXQ+d00rsWSswLeqeXriH\nw87GUCmZLG+8IYFVUpHbjVL6spF1H4+1kTS+JXGrd+/8dnjAonc=\n=uFbV\n-----END PGP SIGNATURE-----",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/523590?v=4",
+      "events_url": "https://api.github.com/users/jpbetz/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jpbetz/followers",
+      "following_url": "https://api.github.com/users/jpbetz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jpbetz/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jpbetz",
+      "id": 523590,
+      "login": "jpbetz",
+      "node_id": "MDQ6VXNlcjUyMzU5MA==",
+      "organizations_url": "https://api.github.com/users/jpbetz/orgs",
+      "received_events_url": "https://api.github.com/users/jpbetz/received_events",
+      "repos_url": "https://api.github.com/users/jpbetz/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jpbetz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jpbetz/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jpbetz"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/605f30f328834a92951af7f4db33bad83151c934",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6NjA1ZjMwZjMyODgzNGE5Mjk1MWFmN2Y0ZGIzM2JhZDgzMTUxYzkzNA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/8bf7b2b1b40baacb9a5cd5ff7f5569d770813e9d",
+        "sha": "8bf7b2b1b40baacb9a5cd5ff7f5569d770813e9d",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/8bf7b2b1b40baacb9a5cd5ff7f5569d770813e9d"
+      }
+    ],
+    "sha": "605f30f328834a92951af7f4db33bad83151c934",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/605f30f328834a92951af7f4db33bad83151c934"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/523590?v=4",
+      "events_url": "https://api.github.com/users/jpbetz/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jpbetz/followers",
+      "following_url": "https://api.github.com/users/jpbetz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jpbetz/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jpbetz",
+      "id": 523590,
+      "login": "jpbetz",
+      "node_id": "MDQ6VXNlcjUyMzU5MA==",
+      "organizations_url": "https://api.github.com/users/jpbetz/orgs",
+      "received_events_url": "https://api.github.com/users/jpbetz/received_events",
+      "repos_url": "https://api.github.com/users/jpbetz/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jpbetz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jpbetz/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jpbetz"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/8bf7b2b1b40baacb9a5cd5ff7f5569d770813e9d/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-13T20:02:05Z",
+        "email": "jpbetz@google.com",
+        "name": "Joe Betz"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-13T20:02:05Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #11613 from jpbetz/fix-defrag-orphan-file\n\nmvcc/backend: Fix corruption bug in defrag",
+      "tree": {
+        "sha": "6790e3f68a36345b328ba139cdbedb56a038a9f1",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/6790e3f68a36345b328ba139cdbedb56a038a9f1"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/8bf7b2b1b40baacb9a5cd5ff7f5569d770813e9d",
+      "verification": {
+        "payload": "tree 6790e3f68a36345b328ba139cdbedb56a038a9f1\nparent ca7a2927903bb9de434f68b1106c43eee81e57ee\nparent 213f7f78777b6d9182f83ed163efdd898251ad3a\nauthor Joe Betz <jpbetz@google.com> 1581624125 -0800\ncommitter GitHub <noreply@github.com> 1581624125 -0800\n\nMerge pull request #11613 from jpbetz/fix-defrag-orphan-file\n\nmvcc/backend: Fix corruption bug in defrag",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJeRas9CRBK7hj4Ov3rIwAAdHIIAIBBcZ7cNA0FLPiNCDONHU6G\nhlfdJypMuAiWu8Mi2cxtFbeGUGLbom/Qxa8u88bIREQsyUhdbVRV4ONt3Gid5J5s\ncTPHyuW0JoHGalaS9hDdZGVWetcvdWJJscktkcWk7zyu7RD2atmON4WHt3h3Jg1Y\ncDfmC/b9vI5aKf2LVI9DMFv49gYT02b2kV99Z9iJdPVkXmDIb4JRBO0s98yMEDqO\nKgIekm7tXwX2mG0bg25uv7lZqtKSWgsFGyb3BaZmEZpLAYpBFLzUmd654LGdl3HN\n8TF+ySDfY0htUiJZwy9VF/ACGIz22SKlCe9hzuwPaRYN3Jb6cT3oqs65q+DwXCU=\n=ipNd\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/8bf7b2b1b40baacb9a5cd5ff7f5569d770813e9d",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6OGJmN2IyYjFiNDBiYWFjYjlhNWNkNWZmN2Y1NTY5ZDc3MDgxM2U5ZA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/ca7a2927903bb9de434f68b1106c43eee81e57ee",
+        "sha": "ca7a2927903bb9de434f68b1106c43eee81e57ee",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/ca7a2927903bb9de434f68b1106c43eee81e57ee"
+      },
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/213f7f78777b6d9182f83ed163efdd898251ad3a",
+        "sha": "213f7f78777b6d9182f83ed163efdd898251ad3a",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/213f7f78777b6d9182f83ed163efdd898251ad3a"
+      }
+    ],
+    "sha": "8bf7b2b1b40baacb9a5cd5ff7f5569d770813e9d",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/8bf7b2b1b40baacb9a5cd5ff7f5569d770813e9d"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/43191155?v=4",
+      "events_url": "https://api.github.com/users/lzhfromustc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/lzhfromustc/followers",
+      "following_url": "https://api.github.com/users/lzhfromustc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lzhfromustc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/lzhfromustc",
+      "id": 43191155,
+      "login": "lzhfromustc",
+      "node_id": "MDQ6VXNlcjQzMTkxMTU1",
+      "organizations_url": "https://api.github.com/users/lzhfromustc/orgs",
+      "received_events_url": "https://api.github.com/users/lzhfromustc/received_events",
+      "repos_url": "https://api.github.com/users/lzhfromustc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/lzhfromustc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lzhfromustc/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/lzhfromustc"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/f00394e384b138caea4eff7de637687a885dcac5/comments",
+    "commit": {
+      "author": {
+        "date": "2020-01-30T20:17:56Z",
+        "email": "lzhfromustc@gmail.com",
+        "name": "Ziheng Liu"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-13T18:13:18Z",
+        "email": "lzhfromustc@gmail.com",
+        "name": "Ziheng Liu"
+      },
+      "message": "integration/clientv3: fix 4 API misusage in test functions",
+      "tree": {
+        "sha": "0f91c321127c2e3788de9043e352166d8bee9b63",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/0f91c321127c2e3788de9043e352166d8bee9b63"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/f00394e384b138caea4eff7de637687a885dcac5",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/43191155?v=4",
+      "events_url": "https://api.github.com/users/lzhfromustc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/lzhfromustc/followers",
+      "following_url": "https://api.github.com/users/lzhfromustc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lzhfromustc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/lzhfromustc",
+      "id": 43191155,
+      "login": "lzhfromustc",
+      "node_id": "MDQ6VXNlcjQzMTkxMTU1",
+      "organizations_url": "https://api.github.com/users/lzhfromustc/orgs",
+      "received_events_url": "https://api.github.com/users/lzhfromustc/received_events",
+      "repos_url": "https://api.github.com/users/lzhfromustc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/lzhfromustc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lzhfromustc/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/lzhfromustc"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/f00394e384b138caea4eff7de637687a885dcac5",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6ZjAwMzk0ZTM4NGIxMzhjYWVhNGVmZjdkZTYzNzY4N2E4ODVkY2FjNQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/53f15caf73b9285d6043009fa64c925d5a8f573c",
+        "sha": "53f15caf73b9285d6043009fa64c925d5a8f573c",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/53f15caf73b9285d6043009fa64c925d5a8f573c"
+      }
+    ],
+    "sha": "f00394e384b138caea4eff7de637687a885dcac5",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/f00394e384b138caea4eff7de637687a885dcac5"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/523590?v=4",
+      "events_url": "https://api.github.com/users/jpbetz/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jpbetz/followers",
+      "following_url": "https://api.github.com/users/jpbetz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jpbetz/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jpbetz",
+      "id": 523590,
+      "login": "jpbetz",
+      "node_id": "MDQ6VXNlcjUyMzU5MA==",
+      "organizations_url": "https://api.github.com/users/jpbetz/orgs",
+      "received_events_url": "https://api.github.com/users/jpbetz/received_events",
+      "repos_url": "https://api.github.com/users/jpbetz/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jpbetz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jpbetz/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jpbetz"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/213f7f78777b6d9182f83ed163efdd898251ad3a/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-12T18:12:48Z",
+        "email": "jpbetz@google.com",
+        "name": "Joe Betz"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-13T06:40:28Z",
+        "email": "jpbetz@google.com",
+        "name": "Joe Betz"
+      },
+      "message": "mvcc/backend: Delete orphaned db.tmp files before defrag",
+      "tree": {
+        "sha": "dd5a3788aa3c56b65abb5e49bd3157d31771a161",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/dd5a3788aa3c56b65abb5e49bd3157d31771a161"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/213f7f78777b6d9182f83ed163efdd898251ad3a",
+      "verification": {
+        "payload": "tree dd5a3788aa3c56b65abb5e49bd3157d31771a161\nparent 61f279454e54d06b09da24e54c66c972803623e2\nauthor Joe Betz <jpbetz@google.com> 1581531168 -0800\ncommitter Joe Betz <jpbetz@google.com> 1581576028 -0800\n\nmvcc/backend: Delete orphaned db.tmp files before defrag\n",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCgAdFiEEjfQTKLcqPjbHuIPeSTDGgLbg3bgFAl5E71wACgkQSTDGgLbg\n3bjgHg//ZS8uCFdVA9BrlyJMiuXwVxkhXozji32G2XBehS6AGSMcHnqqEMI9po+c\nD7kLZVQbAstcwO66vVMMz2ZwCsX3KOwzjdEkDaMkr+ZzW4TxAzd2ZgoKzSWuKaLX\nmr3K8XVNyY7xUMgAomoKimRSzGxyIDSMG9mE1nDwU7LGBCRbxwuRYAw5TpoLbwth\nIlQNS1+/YNUbiVtJE/E9pcSyHHD7Lj9VlBocZlutw/D/0nMe65rAas606389SnND\n3lyUKBrf2ocO9DGSrmaziSkyvrZmLMbXnf0VfmcETfLPZU8cHPSLAs333TL151by\n9/NIB7BiVGbrddst8+zFDBugeIb4Sp5t5JEzatXaJFZDr3p2bDR8IvHFBq6+/Uwp\ngsXM3W7e8ZB0rKOP0ObYzqHDS9PUVDL8um29VTjxoVB34JJ/TN8iU+qwLvrrgFab\n9jgIrWw3axFmOeLWPlquQWR6lPiPlcUfOuiYXqK/5479xljnQG5x+yF/ZNbR1CCi\nLRwRvoVMb+PBEK5Y+6a+NvVz+zap7xBipnONoyhAyzboL6jjdz4Ck/9x2a8psds+\nFsRq1Mn70GkbqRtTRsafoduTZ1sXVIJwH95lyLkpYwLrQXbOToEIHQNeFB6XuKoE\nZ2ZOyT2wBWTSyUd/P5qqG0hqoBs22D6Rmb/nOhBunoZG3t0CF9c=\n=M+N7\n-----END PGP SIGNATURE-----",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/523590?v=4",
+      "events_url": "https://api.github.com/users/jpbetz/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jpbetz/followers",
+      "following_url": "https://api.github.com/users/jpbetz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jpbetz/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jpbetz",
+      "id": 523590,
+      "login": "jpbetz",
+      "node_id": "MDQ6VXNlcjUyMzU5MA==",
+      "organizations_url": "https://api.github.com/users/jpbetz/orgs",
+      "received_events_url": "https://api.github.com/users/jpbetz/received_events",
+      "repos_url": "https://api.github.com/users/jpbetz/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jpbetz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jpbetz/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jpbetz"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/213f7f78777b6d9182f83ed163efdd898251ad3a",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6MjEzZjdmNzg3NzdiNmQ5MTgyZjgzZWQxNjNlZmRkODk4MjUxYWQzYQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/61f279454e54d06b09da24e54c66c972803623e2",
+        "sha": "61f279454e54d06b09da24e54c66c972803623e2",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/61f279454e54d06b09da24e54c66c972803623e2"
+      }
+    ],
+    "sha": "213f7f78777b6d9182f83ed163efdd898251ad3a",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/213f7f78777b6d9182f83ed163efdd898251ad3a"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/43191155?v=4",
+      "events_url": "https://api.github.com/users/lzhfromustc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/lzhfromustc/followers",
+      "following_url": "https://api.github.com/users/lzhfromustc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lzhfromustc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/lzhfromustc",
+      "id": 43191155,
+      "login": "lzhfromustc",
+      "node_id": "MDQ6VXNlcjQzMTkxMTU1",
+      "organizations_url": "https://api.github.com/users/lzhfromustc/orgs",
+      "received_events_url": "https://api.github.com/users/lzhfromustc/received_events",
+      "repos_url": "https://api.github.com/users/lzhfromustc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/lzhfromustc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lzhfromustc/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/lzhfromustc"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/b340dfdcbb4be69a07157466634b1e16042aa1a2/comments",
+    "commit": {
+      "author": {
+        "date": "2020-01-30T02:21:25Z",
+        "email": "lzhfromustc@gmail.com",
+        "name": "Ziheng Liu"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-12T23:32:03Z",
+        "email": "lzhfromustc@gmail.com",
+        "name": "Ziheng Liu"
+      },
+      "message": "transport: simple fix in test functions to prevent goroutine leak",
+      "tree": {
+        "sha": "a39f280249a6a375a8a664b9cc9d4006629638a9",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/a39f280249a6a375a8a664b9cc9d4006629638a9"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/b340dfdcbb4be69a07157466634b1e16042aa1a2",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/43191155?v=4",
+      "events_url": "https://api.github.com/users/lzhfromustc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/lzhfromustc/followers",
+      "following_url": "https://api.github.com/users/lzhfromustc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lzhfromustc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/lzhfromustc",
+      "id": 43191155,
+      "login": "lzhfromustc",
+      "node_id": "MDQ6VXNlcjQzMTkxMTU1",
+      "organizations_url": "https://api.github.com/users/lzhfromustc/orgs",
+      "received_events_url": "https://api.github.com/users/lzhfromustc/received_events",
+      "repos_url": "https://api.github.com/users/lzhfromustc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/lzhfromustc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lzhfromustc/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/lzhfromustc"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/b340dfdcbb4be69a07157466634b1e16042aa1a2",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6YjM0MGRmZGNiYjRiZTY5YTA3MTU3NDY2NjM0YjFlMTYwNDJhYTFhMg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/53f15caf73b9285d6043009fa64c925d5a8f573c",
+        "sha": "53f15caf73b9285d6043009fa64c925d5a8f573c",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/53f15caf73b9285d6043009fa64c925d5a8f573c"
+      }
+    ],
+    "sha": "b340dfdcbb4be69a07157466634b1e16042aa1a2",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/b340dfdcbb4be69a07157466634b1e16042aa1a2"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/23108879?v=4",
+      "events_url": "https://api.github.com/users/jingyih/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jingyih/followers",
+      "following_url": "https://api.github.com/users/jingyih/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jingyih/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jingyih",
+      "id": 23108879,
+      "login": "jingyih",
+      "node_id": "MDQ6VXNlcjIzMTA4ODc5",
+      "organizations_url": "https://api.github.com/users/jingyih/orgs",
+      "received_events_url": "https://api.github.com/users/jingyih/received_events",
+      "repos_url": "https://api.github.com/users/jingyih/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jingyih/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jingyih/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jingyih"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/ca7a2927903bb9de434f68b1106c43eee81e57ee/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-12T21:06:57Z",
+        "email": "jingyih@google.com",
+        "name": "Jingyi Hu"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-12T21:06:57Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #11617 from jingyih/remove_capnslog_etcd\n\nvendor: remove capnslog",
+      "tree": {
+        "sha": "2187158d07c529fd93a1073d0ce4f7059cdc2231",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/2187158d07c529fd93a1073d0ce4f7059cdc2231"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/ca7a2927903bb9de434f68b1106c43eee81e57ee",
+      "verification": {
+        "payload": "tree 2187158d07c529fd93a1073d0ce4f7059cdc2231\nparent ae983523db7b56afcd1c39e8be42717758638ccf\nparent 09304a4d82635678fab68923cf61bdc792ec7679\nauthor Jingyi Hu <jingyih@google.com> 1581541617 -0800\ncommitter GitHub <noreply@github.com> 1581541617 -0800\n\nMerge pull request #11617 from jingyih/remove_capnslog_etcd\n\nvendor: remove capnslog",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJeRGjxCRBK7hj4Ov3rIwAAdHIIAK7ou3Sv33KTYKHWmluW1gZ1\nq/Xi7Naf9j13jlNlGJaZqX1H6q7T8F9BqdoyRiZ8FGiiasrso+mQnMY54jj5oLAL\ntcwEh7Gndrfi7ICICcpWAFlEFCDCxJXJUt79LRe1pF9mqMe6hIFKlzVway0gKKNi\nGfVuL/aFV1EJH16VvMfF76KqC1ZIqm+Ifsdh7sniJr+OLihIkYF+kNRFzkjcaKGN\ntY5PGNo/oe25vdpxvD05cb8zQF97c/1RjjigK5QwsKqtt9vEBFDBbE6PhWOvuCkG\nuT+ZvvUNknA1BQRi2LIhuxkryyUczg6UnvihPQXzGQ5JmaE+R6bQeS3vtK5Vd8k=\n=WpoQ\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/ca7a2927903bb9de434f68b1106c43eee81e57ee",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6Y2E3YTI5Mjc5MDNiYjlkZTQzNGY2OGIxMTA2YzQzZWVlODFlNTdlZQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/ae983523db7b56afcd1c39e8be42717758638ccf",
+        "sha": "ae983523db7b56afcd1c39e8be42717758638ccf",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/ae983523db7b56afcd1c39e8be42717758638ccf"
+      },
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/09304a4d82635678fab68923cf61bdc792ec7679",
+        "sha": "09304a4d82635678fab68923cf61bdc792ec7679",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/09304a4d82635678fab68923cf61bdc792ec7679"
+      }
+    ],
+    "sha": "ca7a2927903bb9de434f68b1106c43eee81e57ee",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/ca7a2927903bb9de434f68b1106c43eee81e57ee"
+  }
+]

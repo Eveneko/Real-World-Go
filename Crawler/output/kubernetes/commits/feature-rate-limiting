@@ -1,0 +1,2372 @@
+[
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/12049380?v=4",
+      "events_url": "https://api.github.com/users/yue9944882/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yue9944882/followers",
+      "following_url": "https://api.github.com/users/yue9944882/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yue9944882/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yue9944882",
+      "id": 12049380,
+      "login": "yue9944882",
+      "node_id": "MDQ6VXNlcjEyMDQ5Mzgw",
+      "organizations_url": "https://api.github.com/users/yue9944882/orgs",
+      "received_events_url": "https://api.github.com/users/yue9944882/received_events",
+      "repos_url": "https://api.github.com/users/yue9944882/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yue9944882/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yue9944882/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yue9944882"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/563ab26819736cd57687f42caf5ad7d1d60230b8/comments",
+    "commit": {
+      "author": {
+        "date": "2019-09-24T05:02:35Z",
+        "email": "291271447@qq.com",
+        "name": "yue9944882"
+      },
+      "comment_count": 2,
+      "committer": {
+        "date": "2019-09-26T05:06:01Z",
+        "email": "mspreitz@us.ibm.com",
+        "name": "Mike Spreitzer"
+      },
+      "message": "addressing reviews from lavalamp/deads2k",
+      "tree": {
+        "sha": "8da545021151f7400198f4b60278b4fd35fc2e1f",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/8da545021151f7400198f4b60278b4fd35fc2e1f"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/563ab26819736cd57687f42caf5ad7d1d60230b8",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14296719?v=4",
+      "events_url": "https://api.github.com/users/MikeSpreitzer/events{/privacy}",
+      "followers_url": "https://api.github.com/users/MikeSpreitzer/followers",
+      "following_url": "https://api.github.com/users/MikeSpreitzer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MikeSpreitzer/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/MikeSpreitzer",
+      "id": 14296719,
+      "login": "MikeSpreitzer",
+      "node_id": "MDQ6VXNlcjE0Mjk2NzE5",
+      "organizations_url": "https://api.github.com/users/MikeSpreitzer/orgs",
+      "received_events_url": "https://api.github.com/users/MikeSpreitzer/received_events",
+      "repos_url": "https://api.github.com/users/MikeSpreitzer/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/MikeSpreitzer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MikeSpreitzer/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/MikeSpreitzer"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/563ab26819736cd57687f42caf5ad7d1d60230b8",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6NTYzYWIyNjgxOTczNmNkNTc2ODdmNDJjYWY1YWQ3ZDFkNjAyMzBiOA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/9f5903d351ac06bb50c4102f9ee28af92106d775",
+        "sha": "9f5903d351ac06bb50c4102f9ee28af92106d775",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/9f5903d351ac06bb50c4102f9ee28af92106d775"
+      }
+    ],
+    "sha": "563ab26819736cd57687f42caf5ad7d1d60230b8",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/563ab26819736cd57687f42caf5ad7d1d60230b8"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/12049380?v=4",
+      "events_url": "https://api.github.com/users/yue9944882/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yue9944882/followers",
+      "following_url": "https://api.github.com/users/yue9944882/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yue9944882/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yue9944882",
+      "id": 12049380,
+      "login": "yue9944882",
+      "node_id": "MDQ6VXNlcjEyMDQ5Mzgw",
+      "organizations_url": "https://api.github.com/users/yue9944882/orgs",
+      "received_events_url": "https://api.github.com/users/yue9944882/received_events",
+      "repos_url": "https://api.github.com/users/yue9944882/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yue9944882/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yue9944882/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yue9944882"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/9f5903d351ac06bb50c4102f9ee28af92106d775/comments",
+    "commit": {
+      "author": {
+        "date": "2019-08-30T09:20:23Z",
+        "email": "291271447@qq.com",
+        "name": "yue9944882"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-09-26T05:06:01Z",
+        "email": "mspreitz@us.ibm.com",
+        "name": "Mike Spreitzer"
+      },
+      "message": "rename post-start-hooks",
+      "tree": {
+        "sha": "403034a0616aefa1bc33ef8f8074a9ba7ffc954e",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/403034a0616aefa1bc33ef8f8074a9ba7ffc954e"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/9f5903d351ac06bb50c4102f9ee28af92106d775",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14296719?v=4",
+      "events_url": "https://api.github.com/users/MikeSpreitzer/events{/privacy}",
+      "followers_url": "https://api.github.com/users/MikeSpreitzer/followers",
+      "following_url": "https://api.github.com/users/MikeSpreitzer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MikeSpreitzer/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/MikeSpreitzer",
+      "id": 14296719,
+      "login": "MikeSpreitzer",
+      "node_id": "MDQ6VXNlcjE0Mjk2NzE5",
+      "organizations_url": "https://api.github.com/users/MikeSpreitzer/orgs",
+      "received_events_url": "https://api.github.com/users/MikeSpreitzer/received_events",
+      "repos_url": "https://api.github.com/users/MikeSpreitzer/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/MikeSpreitzer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MikeSpreitzer/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/MikeSpreitzer"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/9f5903d351ac06bb50c4102f9ee28af92106d775",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6OWY1OTAzZDM1MWFjMDZiYjUwYzQxMDJmOWVlMjhhZjkyMTA2ZDc3NQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/1a9c427757d84fb55735b6dd0f364d7348ed595d",
+        "sha": "1a9c427757d84fb55735b6dd0f364d7348ed595d",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/1a9c427757d84fb55735b6dd0f364d7348ed595d"
+      }
+    ],
+    "sha": "9f5903d351ac06bb50c4102f9ee28af92106d775",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/9f5903d351ac06bb50c4102f9ee28af92106d775"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/12049380?v=4",
+      "events_url": "https://api.github.com/users/yue9944882/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yue9944882/followers",
+      "following_url": "https://api.github.com/users/yue9944882/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yue9944882/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yue9944882",
+      "id": 12049380,
+      "login": "yue9944882",
+      "node_id": "MDQ6VXNlcjEyMDQ5Mzgw",
+      "organizations_url": "https://api.github.com/users/yue9944882/orgs",
+      "received_events_url": "https://api.github.com/users/yue9944882/received_events",
+      "repos_url": "https://api.github.com/users/yue9944882/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yue9944882/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yue9944882/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yue9944882"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/1a9c427757d84fb55735b6dd0f364d7348ed595d/comments",
+    "commit": {
+      "author": {
+        "date": "2019-08-30T05:38:42Z",
+        "email": "291271447@qq.com",
+        "name": "yue9944882"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-09-26T05:06:01Z",
+        "email": "mspreitz@us.ibm.com",
+        "name": "Mike Spreitzer"
+      },
+      "message": "minor fixes",
+      "tree": {
+        "sha": "788584509adcbb2dc930f8e78237dbc48a33ea32",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/788584509adcbb2dc930f8e78237dbc48a33ea32"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/1a9c427757d84fb55735b6dd0f364d7348ed595d",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14296719?v=4",
+      "events_url": "https://api.github.com/users/MikeSpreitzer/events{/privacy}",
+      "followers_url": "https://api.github.com/users/MikeSpreitzer/followers",
+      "following_url": "https://api.github.com/users/MikeSpreitzer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MikeSpreitzer/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/MikeSpreitzer",
+      "id": 14296719,
+      "login": "MikeSpreitzer",
+      "node_id": "MDQ6VXNlcjE0Mjk2NzE5",
+      "organizations_url": "https://api.github.com/users/MikeSpreitzer/orgs",
+      "received_events_url": "https://api.github.com/users/MikeSpreitzer/received_events",
+      "repos_url": "https://api.github.com/users/MikeSpreitzer/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/MikeSpreitzer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MikeSpreitzer/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/MikeSpreitzer"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/1a9c427757d84fb55735b6dd0f364d7348ed595d",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6MWE5YzQyNzc1N2Q4NGZiNTU3MzViNmRkMGYzNjRkNzM0OGVkNTk1ZA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/21439b64d1ae80c7ae2c79ecf967dbc15b33d9cd",
+        "sha": "21439b64d1ae80c7ae2c79ecf967dbc15b33d9cd",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/21439b64d1ae80c7ae2c79ecf967dbc15b33d9cd"
+      }
+    ],
+    "sha": "1a9c427757d84fb55735b6dd0f364d7348ed595d",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/1a9c427757d84fb55735b6dd0f364d7348ed595d"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/12049380?v=4",
+      "events_url": "https://api.github.com/users/yue9944882/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yue9944882/followers",
+      "following_url": "https://api.github.com/users/yue9944882/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yue9944882/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yue9944882",
+      "id": 12049380,
+      "login": "yue9944882",
+      "node_id": "MDQ6VXNlcjEyMDQ5Mzgw",
+      "organizations_url": "https://api.github.com/users/yue9944882/orgs",
+      "received_events_url": "https://api.github.com/users/yue9944882/received_events",
+      "repos_url": "https://api.github.com/users/yue9944882/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yue9944882/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yue9944882/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yue9944882"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/21439b64d1ae80c7ae2c79ecf967dbc15b33d9cd/comments",
+    "commit": {
+      "author": {
+        "date": "2019-08-30T05:12:37Z",
+        "email": "291271447@qq.com",
+        "name": "yue9944882"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-09-26T05:06:01Z",
+        "email": "mspreitz@us.ibm.com",
+        "name": "Mike Spreitzer"
+      },
+      "message": "refactor/inline event-clock to fairqueuing package",
+      "tree": {
+        "sha": "6338ae6cdb19eac079ea3df44eba3ff0d292d235",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/6338ae6cdb19eac079ea3df44eba3ff0d292d235"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/21439b64d1ae80c7ae2c79ecf967dbc15b33d9cd",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14296719?v=4",
+      "events_url": "https://api.github.com/users/MikeSpreitzer/events{/privacy}",
+      "followers_url": "https://api.github.com/users/MikeSpreitzer/followers",
+      "following_url": "https://api.github.com/users/MikeSpreitzer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MikeSpreitzer/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/MikeSpreitzer",
+      "id": 14296719,
+      "login": "MikeSpreitzer",
+      "node_id": "MDQ6VXNlcjE0Mjk2NzE5",
+      "organizations_url": "https://api.github.com/users/MikeSpreitzer/orgs",
+      "received_events_url": "https://api.github.com/users/MikeSpreitzer/received_events",
+      "repos_url": "https://api.github.com/users/MikeSpreitzer/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/MikeSpreitzer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MikeSpreitzer/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/MikeSpreitzer"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/21439b64d1ae80c7ae2c79ecf967dbc15b33d9cd",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6MjE0MzliNjRkMWFlODBjN2FlMmM3OWVjZjk2N2RiYzE1YjMzZDljZA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/ea845aa59a841ee067f49976afdc71ed3616d799",
+        "sha": "ea845aa59a841ee067f49976afdc71ed3616d799",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/ea845aa59a841ee067f49976afdc71ed3616d799"
+      }
+    ],
+    "sha": "21439b64d1ae80c7ae2c79ecf967dbc15b33d9cd",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/21439b64d1ae80c7ae2c79ecf967dbc15b33d9cd"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/12049380?v=4",
+      "events_url": "https://api.github.com/users/yue9944882/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yue9944882/followers",
+      "following_url": "https://api.github.com/users/yue9944882/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yue9944882/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yue9944882",
+      "id": 12049380,
+      "login": "yue9944882",
+      "node_id": "MDQ6VXNlcjEyMDQ5Mzgw",
+      "organizations_url": "https://api.github.com/users/yue9944882/orgs",
+      "received_events_url": "https://api.github.com/users/yue9944882/received_events",
+      "repos_url": "https://api.github.com/users/yue9944882/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yue9944882/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yue9944882/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yue9944882"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/ea845aa59a841ee067f49976afdc71ed3616d799/comments",
+    "commit": {
+      "author": {
+        "date": "2019-08-30T04:25:46Z",
+        "email": "291271447@qq.com",
+        "name": "yue9944882"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-09-26T05:06:01Z",
+        "email": "mspreitz@us.ibm.com",
+        "name": "Mike Spreitzer"
+      },
+      "message": "review: addressing yliaog pt2",
+      "tree": {
+        "sha": "cd673cb3ef26d9b6c200da968ae7816b53ff0462",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/cd673cb3ef26d9b6c200da968ae7816b53ff0462"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/ea845aa59a841ee067f49976afdc71ed3616d799",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14296719?v=4",
+      "events_url": "https://api.github.com/users/MikeSpreitzer/events{/privacy}",
+      "followers_url": "https://api.github.com/users/MikeSpreitzer/followers",
+      "following_url": "https://api.github.com/users/MikeSpreitzer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MikeSpreitzer/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/MikeSpreitzer",
+      "id": 14296719,
+      "login": "MikeSpreitzer",
+      "node_id": "MDQ6VXNlcjE0Mjk2NzE5",
+      "organizations_url": "https://api.github.com/users/MikeSpreitzer/orgs",
+      "received_events_url": "https://api.github.com/users/MikeSpreitzer/received_events",
+      "repos_url": "https://api.github.com/users/MikeSpreitzer/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/MikeSpreitzer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MikeSpreitzer/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/MikeSpreitzer"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/ea845aa59a841ee067f49976afdc71ed3616d799",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6ZWE4NDVhYTU5YTg0MWVlMDY3ZjQ5OTc2YWZkYzcxZWQzNjE2ZDc5OQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/f34166c9226c3984e1ce372b828c351b1b5beec9",
+        "sha": "f34166c9226c3984e1ce372b828c351b1b5beec9",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/f34166c9226c3984e1ce372b828c351b1b5beec9"
+      }
+    ],
+    "sha": "ea845aa59a841ee067f49976afdc71ed3616d799",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/ea845aa59a841ee067f49976afdc71ed3616d799"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/12049380?v=4",
+      "events_url": "https://api.github.com/users/yue9944882/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yue9944882/followers",
+      "following_url": "https://api.github.com/users/yue9944882/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yue9944882/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yue9944882",
+      "id": 12049380,
+      "login": "yue9944882",
+      "node_id": "MDQ6VXNlcjEyMDQ5Mzgw",
+      "organizations_url": "https://api.github.com/users/yue9944882/orgs",
+      "received_events_url": "https://api.github.com/users/yue9944882/received_events",
+      "repos_url": "https://api.github.com/users/yue9944882/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yue9944882/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yue9944882/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yue9944882"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/f34166c9226c3984e1ce372b828c351b1b5beec9/comments",
+    "commit": {
+      "author": {
+        "date": "2019-08-29T05:24:58Z",
+        "email": "291271447@qq.com",
+        "name": "yue9944882"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-09-26T05:06:01Z",
+        "email": "mspreitz@us.ibm.com",
+        "name": "Mike Spreitzer"
+      },
+      "message": "[generated] run hack scripts",
+      "tree": {
+        "sha": "e5baa9a05b16505eea528196759de330cee8e797",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/e5baa9a05b16505eea528196759de330cee8e797"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/f34166c9226c3984e1ce372b828c351b1b5beec9",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14296719?v=4",
+      "events_url": "https://api.github.com/users/MikeSpreitzer/events{/privacy}",
+      "followers_url": "https://api.github.com/users/MikeSpreitzer/followers",
+      "following_url": "https://api.github.com/users/MikeSpreitzer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MikeSpreitzer/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/MikeSpreitzer",
+      "id": 14296719,
+      "login": "MikeSpreitzer",
+      "node_id": "MDQ6VXNlcjE0Mjk2NzE5",
+      "organizations_url": "https://api.github.com/users/MikeSpreitzer/orgs",
+      "received_events_url": "https://api.github.com/users/MikeSpreitzer/received_events",
+      "repos_url": "https://api.github.com/users/MikeSpreitzer/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/MikeSpreitzer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MikeSpreitzer/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/MikeSpreitzer"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/f34166c9226c3984e1ce372b828c351b1b5beec9",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6ZjM0MTY2YzkyMjZjMzk4NGUxY2UzNzJiODI4YzM1MWIxYjViZWVjOQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/bfa9b4e50c6d5d7cf2ead571aa051ed9e27e69cb",
+        "sha": "bfa9b4e50c6d5d7cf2ead571aa051ed9e27e69cb",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/bfa9b4e50c6d5d7cf2ead571aa051ed9e27e69cb"
+      }
+    ],
+    "sha": "f34166c9226c3984e1ce372b828c351b1b5beec9",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/f34166c9226c3984e1ce372b828c351b1b5beec9"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/12049380?v=4",
+      "events_url": "https://api.github.com/users/yue9944882/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yue9944882/followers",
+      "following_url": "https://api.github.com/users/yue9944882/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yue9944882/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yue9944882",
+      "id": 12049380,
+      "login": "yue9944882",
+      "node_id": "MDQ6VXNlcjEyMDQ5Mzgw",
+      "organizations_url": "https://api.github.com/users/yue9944882/orgs",
+      "received_events_url": "https://api.github.com/users/yue9944882/received_events",
+      "repos_url": "https://api.github.com/users/yue9944882/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yue9944882/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yue9944882/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yue9944882"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/bfa9b4e50c6d5d7cf2ead571aa051ed9e27e69cb/comments",
+    "commit": {
+      "author": {
+        "date": "2019-08-29T03:36:32Z",
+        "email": "291271447@qq.com",
+        "name": "yue9944882"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-09-26T05:06:01Z",
+        "email": "mspreitz@us.ibm.com",
+        "name": "Mike Spreitzer"
+      },
+      "message": "review: addressing comments from yliaog",
+      "tree": {
+        "sha": "8dc292b926e9947bb4499f21d2559e8ca8a36a99",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/8dc292b926e9947bb4499f21d2559e8ca8a36a99"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/bfa9b4e50c6d5d7cf2ead571aa051ed9e27e69cb",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14296719?v=4",
+      "events_url": "https://api.github.com/users/MikeSpreitzer/events{/privacy}",
+      "followers_url": "https://api.github.com/users/MikeSpreitzer/followers",
+      "following_url": "https://api.github.com/users/MikeSpreitzer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MikeSpreitzer/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/MikeSpreitzer",
+      "id": 14296719,
+      "login": "MikeSpreitzer",
+      "node_id": "MDQ6VXNlcjE0Mjk2NzE5",
+      "organizations_url": "https://api.github.com/users/MikeSpreitzer/orgs",
+      "received_events_url": "https://api.github.com/users/MikeSpreitzer/received_events",
+      "repos_url": "https://api.github.com/users/MikeSpreitzer/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/MikeSpreitzer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MikeSpreitzer/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/MikeSpreitzer"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/bfa9b4e50c6d5d7cf2ead571aa051ed9e27e69cb",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6YmZhOWI0ZTUwYzZkNWQ3Y2YyZWFkNTcxYWEwNTFlZDllMjdlNjljYg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/d2da381bbfdd5f105c424a9f1bbdf19c16ab80ba",
+        "sha": "d2da381bbfdd5f105c424a9f1bbdf19c16ab80ba",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/d2da381bbfdd5f105c424a9f1bbdf19c16ab80ba"
+      }
+    ],
+    "sha": "bfa9b4e50c6d5d7cf2ead571aa051ed9e27e69cb",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/bfa9b4e50c6d5d7cf2ead571aa051ed9e27e69cb"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/12049380?v=4",
+      "events_url": "https://api.github.com/users/yue9944882/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yue9944882/followers",
+      "following_url": "https://api.github.com/users/yue9944882/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yue9944882/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yue9944882",
+      "id": 12049380,
+      "login": "yue9944882",
+      "node_id": "MDQ6VXNlcjEyMDQ5Mzgw",
+      "organizations_url": "https://api.github.com/users/yue9944882/orgs",
+      "received_events_url": "https://api.github.com/users/yue9944882/received_events",
+      "repos_url": "https://api.github.com/users/yue9944882/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yue9944882/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yue9944882/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yue9944882"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/d2da381bbfdd5f105c424a9f1bbdf19c16ab80ba/comments",
+    "commit": {
+      "author": {
+        "date": "2019-08-27T04:27:44Z",
+        "email": "291271447@qq.com",
+        "name": "yue9944882"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-09-26T05:06:01Z",
+        "email": "mspreitz@us.ibm.com",
+        "name": "Mike Spreitzer"
+      },
+      "message": "[PATCH] Fixed the debug log format in flowcontrol",
+      "tree": {
+        "sha": "7ea1cc378fe9489233e370c43fafae7f7d5849c3",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/7ea1cc378fe9489233e370c43fafae7f7d5849c3"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/d2da381bbfdd5f105c424a9f1bbdf19c16ab80ba",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14296719?v=4",
+      "events_url": "https://api.github.com/users/MikeSpreitzer/events{/privacy}",
+      "followers_url": "https://api.github.com/users/MikeSpreitzer/followers",
+      "following_url": "https://api.github.com/users/MikeSpreitzer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MikeSpreitzer/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/MikeSpreitzer",
+      "id": 14296719,
+      "login": "MikeSpreitzer",
+      "node_id": "MDQ6VXNlcjE0Mjk2NzE5",
+      "organizations_url": "https://api.github.com/users/MikeSpreitzer/orgs",
+      "received_events_url": "https://api.github.com/users/MikeSpreitzer/received_events",
+      "repos_url": "https://api.github.com/users/MikeSpreitzer/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/MikeSpreitzer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MikeSpreitzer/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/MikeSpreitzer"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/d2da381bbfdd5f105c424a9f1bbdf19c16ab80ba",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6ZDJkYTM4MWJiZmRkNWYxMDVjNDI0YTlmMWJiZGYxOWMxNmFiODBiYQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/cf399d2e7a492835f53d9503d0e5059de604899b",
+        "sha": "cf399d2e7a492835f53d9503d0e5059de604899b",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/cf399d2e7a492835f53d9503d0e5059de604899b"
+      }
+    ],
+    "sha": "d2da381bbfdd5f105c424a9f1bbdf19c16ab80ba",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/d2da381bbfdd5f105c424a9f1bbdf19c16ab80ba"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/12049380?v=4",
+      "events_url": "https://api.github.com/users/yue9944882/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yue9944882/followers",
+      "following_url": "https://api.github.com/users/yue9944882/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yue9944882/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yue9944882",
+      "id": 12049380,
+      "login": "yue9944882",
+      "node_id": "MDQ6VXNlcjEyMDQ5Mzgw",
+      "organizations_url": "https://api.github.com/users/yue9944882/orgs",
+      "received_events_url": "https://api.github.com/users/yue9944882/received_events",
+      "repos_url": "https://api.github.com/users/yue9944882/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yue9944882/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yue9944882/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yue9944882"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/cf399d2e7a492835f53d9503d0e5059de604899b/comments",
+    "commit": {
+      "author": {
+        "date": "2019-08-27T03:46:21Z",
+        "email": "291271447@qq.com",
+        "name": "yue9944882"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-09-26T05:06:01Z",
+        "email": "mspreitz@us.ibm.com",
+        "name": "Mike Spreitzer"
+      },
+      "message": "[PATCH] Fix bugs and names in API priority and fairness",
+      "tree": {
+        "sha": "5cf7bdc84d56e275d226088472895c607f7cca3e",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/5cf7bdc84d56e275d226088472895c607f7cca3e"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/cf399d2e7a492835f53d9503d0e5059de604899b",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14296719?v=4",
+      "events_url": "https://api.github.com/users/MikeSpreitzer/events{/privacy}",
+      "followers_url": "https://api.github.com/users/MikeSpreitzer/followers",
+      "following_url": "https://api.github.com/users/MikeSpreitzer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MikeSpreitzer/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/MikeSpreitzer",
+      "id": 14296719,
+      "login": "MikeSpreitzer",
+      "node_id": "MDQ6VXNlcjE0Mjk2NzE5",
+      "organizations_url": "https://api.github.com/users/MikeSpreitzer/orgs",
+      "received_events_url": "https://api.github.com/users/MikeSpreitzer/received_events",
+      "repos_url": "https://api.github.com/users/MikeSpreitzer/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/MikeSpreitzer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MikeSpreitzer/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/MikeSpreitzer"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/cf399d2e7a492835f53d9503d0e5059de604899b",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6Y2YzOTlkMmU3YTQ5MjgzNWY1M2Q5NTAzZDBlNTA1OWRlNjA0ODk5Yg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/eb33e069f0ec8c04880fe04722c483a43bdc511f",
+        "sha": "eb33e069f0ec8c04880fe04722c483a43bdc511f",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/eb33e069f0ec8c04880fe04722c483a43bdc511f"
+      }
+    ],
+    "sha": "cf399d2e7a492835f53d9503d0e5059de604899b",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/cf399d2e7a492835f53d9503d0e5059de604899b"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/12049380?v=4",
+      "events_url": "https://api.github.com/users/yue9944882/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yue9944882/followers",
+      "following_url": "https://api.github.com/users/yue9944882/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yue9944882/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yue9944882",
+      "id": 12049380,
+      "login": "yue9944882",
+      "node_id": "MDQ6VXNlcjEyMDQ5Mzgw",
+      "organizations_url": "https://api.github.com/users/yue9944882/orgs",
+      "received_events_url": "https://api.github.com/users/yue9944882/received_events",
+      "repos_url": "https://api.github.com/users/yue9944882/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yue9944882/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yue9944882/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yue9944882"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/eb33e069f0ec8c04880fe04722c483a43bdc511f/comments",
+    "commit": {
+      "author": {
+        "date": "2019-08-16T04:36:13Z",
+        "email": "291271447@qq.com",
+        "name": "yue9944882"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-09-26T05:06:01Z",
+        "email": "mspreitz@us.ibm.com",
+        "name": "Mike Spreitzer"
+      },
+      "message": "adding test-data",
+      "tree": {
+        "sha": "d7cba54090b60dd2ce32f9331b50473ba2ffe99a",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/d7cba54090b60dd2ce32f9331b50473ba2ffe99a"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/eb33e069f0ec8c04880fe04722c483a43bdc511f",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14296719?v=4",
+      "events_url": "https://api.github.com/users/MikeSpreitzer/events{/privacy}",
+      "followers_url": "https://api.github.com/users/MikeSpreitzer/followers",
+      "following_url": "https://api.github.com/users/MikeSpreitzer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MikeSpreitzer/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/MikeSpreitzer",
+      "id": 14296719,
+      "login": "MikeSpreitzer",
+      "node_id": "MDQ6VXNlcjE0Mjk2NzE5",
+      "organizations_url": "https://api.github.com/users/MikeSpreitzer/orgs",
+      "received_events_url": "https://api.github.com/users/MikeSpreitzer/received_events",
+      "repos_url": "https://api.github.com/users/MikeSpreitzer/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/MikeSpreitzer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MikeSpreitzer/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/MikeSpreitzer"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/eb33e069f0ec8c04880fe04722c483a43bdc511f",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6ZWIzM2UwNjlmMGVjOGMwNDg4MGZlMDQ3MjJjNDgzYTQzYmRjNTExZg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/f2162ce9064e6c1cae661678187e05a2d0581bf4",
+        "sha": "f2162ce9064e6c1cae661678187e05a2d0581bf4",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/f2162ce9064e6c1cae661678187e05a2d0581bf4"
+      }
+    ],
+    "sha": "eb33e069f0ec8c04880fe04722c483a43bdc511f",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/eb33e069f0ec8c04880fe04722c483a43bdc511f"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/12049380?v=4",
+      "events_url": "https://api.github.com/users/yue9944882/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yue9944882/followers",
+      "following_url": "https://api.github.com/users/yue9944882/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yue9944882/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yue9944882",
+      "id": 12049380,
+      "login": "yue9944882",
+      "node_id": "MDQ6VXNlcjEyMDQ5Mzgw",
+      "organizations_url": "https://api.github.com/users/yue9944882/orgs",
+      "received_events_url": "https://api.github.com/users/yue9944882/received_events",
+      "repos_url": "https://api.github.com/users/yue9944882/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yue9944882/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yue9944882/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yue9944882"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/f2162ce9064e6c1cae661678187e05a2d0581bf4/comments",
+    "commit": {
+      "author": {
+        "date": "2019-08-23T13:42:09Z",
+        "email": "291271447@qq.com",
+        "name": "yue9944882"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-09-26T05:06:01Z",
+        "email": "mspreitz@us.ibm.com",
+        "name": "Mike Spreitzer"
+      },
+      "message": "fixes test failures\n\nsync up w/ storage-provider interface\n\nupdate api-rule exception list",
+      "tree": {
+        "sha": "f30efa26b0412347cd8963395975c506e7d4ea4d",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/f30efa26b0412347cd8963395975c506e7d4ea4d"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/f2162ce9064e6c1cae661678187e05a2d0581bf4",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14296719?v=4",
+      "events_url": "https://api.github.com/users/MikeSpreitzer/events{/privacy}",
+      "followers_url": "https://api.github.com/users/MikeSpreitzer/followers",
+      "following_url": "https://api.github.com/users/MikeSpreitzer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MikeSpreitzer/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/MikeSpreitzer",
+      "id": 14296719,
+      "login": "MikeSpreitzer",
+      "node_id": "MDQ6VXNlcjE0Mjk2NzE5",
+      "organizations_url": "https://api.github.com/users/MikeSpreitzer/orgs",
+      "received_events_url": "https://api.github.com/users/MikeSpreitzer/received_events",
+      "repos_url": "https://api.github.com/users/MikeSpreitzer/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/MikeSpreitzer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MikeSpreitzer/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/MikeSpreitzer"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/f2162ce9064e6c1cae661678187e05a2d0581bf4",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6ZjIxNjJjZTkwNjRlNmMxY2FlNjYxNjc4MTg3ZTA1YTJkMDU4MWJmNA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/c1259dee972b9ca3814670c3b24ffdc5d8fabbb2",
+        "sha": "c1259dee972b9ca3814670c3b24ffdc5d8fabbb2",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/c1259dee972b9ca3814670c3b24ffdc5d8fabbb2"
+      }
+    ],
+    "sha": "f2162ce9064e6c1cae661678187e05a2d0581bf4",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/f2162ce9064e6c1cae661678187e05a2d0581bf4"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/12049380?v=4",
+      "events_url": "https://api.github.com/users/yue9944882/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yue9944882/followers",
+      "following_url": "https://api.github.com/users/yue9944882/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yue9944882/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yue9944882",
+      "id": 12049380,
+      "login": "yue9944882",
+      "node_id": "MDQ6VXNlcjEyMDQ5Mzgw",
+      "organizations_url": "https://api.github.com/users/yue9944882/orgs",
+      "received_events_url": "https://api.github.com/users/yue9944882/received_events",
+      "repos_url": "https://api.github.com/users/yue9944882/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yue9944882/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yue9944882/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yue9944882"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/c1259dee972b9ca3814670c3b24ffdc5d8fabbb2/comments",
+    "commit": {
+      "author": {
+        "date": "2019-08-21T05:37:44Z",
+        "email": "291271447@qq.com",
+        "name": "yue9944882"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-09-26T05:06:01Z",
+        "email": "mspreitz@us.ibm.com",
+        "name": "Mike Spreitzer"
+      },
+      "message": "prometheus metrics",
+      "tree": {
+        "sha": "b608121d417fdd266fd09ff6f2fec099b1aebc10",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/b608121d417fdd266fd09ff6f2fec099b1aebc10"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/c1259dee972b9ca3814670c3b24ffdc5d8fabbb2",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14296719?v=4",
+      "events_url": "https://api.github.com/users/MikeSpreitzer/events{/privacy}",
+      "followers_url": "https://api.github.com/users/MikeSpreitzer/followers",
+      "following_url": "https://api.github.com/users/MikeSpreitzer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MikeSpreitzer/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/MikeSpreitzer",
+      "id": 14296719,
+      "login": "MikeSpreitzer",
+      "node_id": "MDQ6VXNlcjE0Mjk2NzE5",
+      "organizations_url": "https://api.github.com/users/MikeSpreitzer/orgs",
+      "received_events_url": "https://api.github.com/users/MikeSpreitzer/received_events",
+      "repos_url": "https://api.github.com/users/MikeSpreitzer/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/MikeSpreitzer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MikeSpreitzer/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/MikeSpreitzer"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/c1259dee972b9ca3814670c3b24ffdc5d8fabbb2",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6YzEyNTlkZWU5NzJiOWNhMzgxNDY3MGMzYjI0ZmZkYzVkOGZhYmJiMg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/c4d3ee74fa6ee7303ef4ce8c21e321015145001c",
+        "sha": "c4d3ee74fa6ee7303ef4ce8c21e321015145001c",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/c4d3ee74fa6ee7303ef4ce8c21e321015145001c"
+      }
+    ],
+    "sha": "c1259dee972b9ca3814670c3b24ffdc5d8fabbb2",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/c1259dee972b9ca3814670c3b24ffdc5d8fabbb2"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/15814167?v=4",
+      "events_url": "https://api.github.com/users/mars1024/events{/privacy}",
+      "followers_url": "https://api.github.com/users/mars1024/followers",
+      "following_url": "https://api.github.com/users/mars1024/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mars1024/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/mars1024",
+      "id": 15814167,
+      "login": "mars1024",
+      "node_id": "MDQ6VXNlcjE1ODE0MTY3",
+      "organizations_url": "https://api.github.com/users/mars1024/orgs",
+      "received_events_url": "https://api.github.com/users/mars1024/received_events",
+      "repos_url": "https://api.github.com/users/mars1024/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/mars1024/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mars1024/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/mars1024"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/c4d3ee74fa6ee7303ef4ce8c21e321015145001c/comments",
+    "commit": {
+      "author": {
+        "date": "2019-08-23T09:24:20Z",
+        "email": "brucema19901024@gmail.com",
+        "name": "Bruce Ma"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-09-26T05:06:01Z",
+        "email": "mspreitz@us.ibm.com",
+        "name": "Mike Spreitzer"
+      },
+      "message": "use shuffle sharding validation in flowcontrol\n\nSigned-off-by: Bruce Ma <brucema19901024@gmail.com>",
+      "tree": {
+        "sha": "444f0bd8c296f1596b2949867dd9e95b77c2526a",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/444f0bd8c296f1596b2949867dd9e95b77c2526a"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/c4d3ee74fa6ee7303ef4ce8c21e321015145001c",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14296719?v=4",
+      "events_url": "https://api.github.com/users/MikeSpreitzer/events{/privacy}",
+      "followers_url": "https://api.github.com/users/MikeSpreitzer/followers",
+      "following_url": "https://api.github.com/users/MikeSpreitzer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MikeSpreitzer/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/MikeSpreitzer",
+      "id": 14296719,
+      "login": "MikeSpreitzer",
+      "node_id": "MDQ6VXNlcjE0Mjk2NzE5",
+      "organizations_url": "https://api.github.com/users/MikeSpreitzer/orgs",
+      "received_events_url": "https://api.github.com/users/MikeSpreitzer/received_events",
+      "repos_url": "https://api.github.com/users/MikeSpreitzer/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/MikeSpreitzer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MikeSpreitzer/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/MikeSpreitzer"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/c4d3ee74fa6ee7303ef4ce8c21e321015145001c",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6YzRkM2VlNzRmYTZlZTczMDNlZjRjZThjMjFlMzIxMDE1MTQ1MDAxYw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/79b587fe8d2e6680d2ab4adb4bb5b65de46493e2",
+        "sha": "79b587fe8d2e6680d2ab4adb4bb5b65de46493e2",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/79b587fe8d2e6680d2ab4adb4bb5b65de46493e2"
+      }
+    ],
+    "sha": "c4d3ee74fa6ee7303ef4ce8c21e321015145001c",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/c4d3ee74fa6ee7303ef4ce8c21e321015145001c"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/12049380?v=4",
+      "events_url": "https://api.github.com/users/yue9944882/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yue9944882/followers",
+      "following_url": "https://api.github.com/users/yue9944882/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yue9944882/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yue9944882",
+      "id": 12049380,
+      "login": "yue9944882",
+      "node_id": "MDQ6VXNlcjEyMDQ5Mzgw",
+      "organizations_url": "https://api.github.com/users/yue9944882/orgs",
+      "received_events_url": "https://api.github.com/users/yue9944882/received_events",
+      "repos_url": "https://api.github.com/users/yue9944882/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yue9944882/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yue9944882/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yue9944882"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/79b587fe8d2e6680d2ab4adb4bb5b65de46493e2/comments",
+    "commit": {
+      "author": {
+        "date": "2019-08-22T13:58:00Z",
+        "email": "291271447@qq.com",
+        "name": "yue9944882"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-09-26T05:06:01Z",
+        "email": "mspreitz@us.ibm.com",
+        "name": "Mike Spreitzer"
+      },
+      "message": "refactor and reviews\n\nfixes insecure handler chaining\n\nreviews\n\nrevert clock\n\nreview clock",
+      "tree": {
+        "sha": "31c62c3531d5e5454aa3a71d009068fc41ace92a",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/31c62c3531d5e5454aa3a71d009068fc41ace92a"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/79b587fe8d2e6680d2ab4adb4bb5b65de46493e2",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14296719?v=4",
+      "events_url": "https://api.github.com/users/MikeSpreitzer/events{/privacy}",
+      "followers_url": "https://api.github.com/users/MikeSpreitzer/followers",
+      "following_url": "https://api.github.com/users/MikeSpreitzer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MikeSpreitzer/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/MikeSpreitzer",
+      "id": 14296719,
+      "login": "MikeSpreitzer",
+      "node_id": "MDQ6VXNlcjE0Mjk2NzE5",
+      "organizations_url": "https://api.github.com/users/MikeSpreitzer/orgs",
+      "received_events_url": "https://api.github.com/users/MikeSpreitzer/received_events",
+      "repos_url": "https://api.github.com/users/MikeSpreitzer/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/MikeSpreitzer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MikeSpreitzer/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/MikeSpreitzer"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/79b587fe8d2e6680d2ab4adb4bb5b65de46493e2",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6NzliNTg3ZmU4ZDJlNjY4MGQyYWI0YWRiNGJiNWI2NWRlNDY0OTNlMg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/04388e22c5a18e71960afa512a3f3f24238b436c",
+        "sha": "04388e22c5a18e71960afa512a3f3f24238b436c",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/04388e22c5a18e71960afa512a3f3f24238b436c"
+      }
+    ],
+    "sha": "79b587fe8d2e6680d2ab4adb4bb5b65de46493e2",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/79b587fe8d2e6680d2ab4adb4bb5b65de46493e2"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14296719?v=4",
+      "events_url": "https://api.github.com/users/MikeSpreitzer/events{/privacy}",
+      "followers_url": "https://api.github.com/users/MikeSpreitzer/followers",
+      "following_url": "https://api.github.com/users/MikeSpreitzer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MikeSpreitzer/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/MikeSpreitzer",
+      "id": 14296719,
+      "login": "MikeSpreitzer",
+      "node_id": "MDQ6VXNlcjE0Mjk2NzE5",
+      "organizations_url": "https://api.github.com/users/MikeSpreitzer/orgs",
+      "received_events_url": "https://api.github.com/users/MikeSpreitzer/received_events",
+      "repos_url": "https://api.github.com/users/MikeSpreitzer/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/MikeSpreitzer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MikeSpreitzer/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/MikeSpreitzer"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/04388e22c5a18e71960afa512a3f3f24238b436c/comments",
+    "commit": {
+      "author": {
+        "date": "2019-08-21T20:15:12Z",
+        "email": "mspreitz@us.ibm.com",
+        "name": "MikeSpreitzer"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-09-26T05:06:00Z",
+        "email": "mspreitz@us.ibm.com",
+        "name": "Mike Spreitzer"
+      },
+      "message": "Fix protobuf tag for Subjects in PolicyRuleWithSubjects",
+      "tree": {
+        "sha": "4d49f899cebd6e375086fabf4b163b01efb2a6bc",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/4d49f899cebd6e375086fabf4b163b01efb2a6bc"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/04388e22c5a18e71960afa512a3f3f24238b436c",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14296719?v=4",
+      "events_url": "https://api.github.com/users/MikeSpreitzer/events{/privacy}",
+      "followers_url": "https://api.github.com/users/MikeSpreitzer/followers",
+      "following_url": "https://api.github.com/users/MikeSpreitzer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MikeSpreitzer/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/MikeSpreitzer",
+      "id": 14296719,
+      "login": "MikeSpreitzer",
+      "node_id": "MDQ6VXNlcjE0Mjk2NzE5",
+      "organizations_url": "https://api.github.com/users/MikeSpreitzer/orgs",
+      "received_events_url": "https://api.github.com/users/MikeSpreitzer/received_events",
+      "repos_url": "https://api.github.com/users/MikeSpreitzer/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/MikeSpreitzer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MikeSpreitzer/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/MikeSpreitzer"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/04388e22c5a18e71960afa512a3f3f24238b436c",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6MDQzODhlMjJjNWExOGU3MTk2MGFmYTUxMmEzZjNmMjQyMzhiNDM2Yw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/9b093f5639f58d307a76188f3f292c04e2871955",
+        "sha": "9b093f5639f58d307a76188f3f292c04e2871955",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/9b093f5639f58d307a76188f3f292c04e2871955"
+      }
+    ],
+    "sha": "04388e22c5a18e71960afa512a3f3f24238b436c",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/04388e22c5a18e71960afa512a3f3f24238b436c"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14296719?v=4",
+      "events_url": "https://api.github.com/users/MikeSpreitzer/events{/privacy}",
+      "followers_url": "https://api.github.com/users/MikeSpreitzer/followers",
+      "following_url": "https://api.github.com/users/MikeSpreitzer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MikeSpreitzer/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/MikeSpreitzer",
+      "id": 14296719,
+      "login": "MikeSpreitzer",
+      "node_id": "MDQ6VXNlcjE0Mjk2NzE5",
+      "organizations_url": "https://api.github.com/users/MikeSpreitzer/orgs",
+      "received_events_url": "https://api.github.com/users/MikeSpreitzer/received_events",
+      "repos_url": "https://api.github.com/users/MikeSpreitzer/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/MikeSpreitzer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MikeSpreitzer/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/MikeSpreitzer"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/9b093f5639f58d307a76188f3f292c04e2871955/comments",
+    "commit": {
+      "author": {
+        "date": "2019-08-20T17:36:34Z",
+        "email": "mspreitz@us.ibm.com",
+        "name": "Mike Spreitzer"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-09-26T05:06:00Z",
+        "email": "mspreitz@us.ibm.com",
+        "name": "Mike Spreitzer"
+      },
+      "message": "Introduce NameAll in prioritization and fairness config models",
+      "tree": {
+        "sha": "c8a8c200f8199720a2d3fab3556a0a62c5715d58",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/c8a8c200f8199720a2d3fab3556a0a62c5715d58"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/9b093f5639f58d307a76188f3f292c04e2871955",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14296719?v=4",
+      "events_url": "https://api.github.com/users/MikeSpreitzer/events{/privacy}",
+      "followers_url": "https://api.github.com/users/MikeSpreitzer/followers",
+      "following_url": "https://api.github.com/users/MikeSpreitzer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MikeSpreitzer/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/MikeSpreitzer",
+      "id": 14296719,
+      "login": "MikeSpreitzer",
+      "node_id": "MDQ6VXNlcjE0Mjk2NzE5",
+      "organizations_url": "https://api.github.com/users/MikeSpreitzer/orgs",
+      "received_events_url": "https://api.github.com/users/MikeSpreitzer/received_events",
+      "repos_url": "https://api.github.com/users/MikeSpreitzer/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/MikeSpreitzer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MikeSpreitzer/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/MikeSpreitzer"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/9b093f5639f58d307a76188f3f292c04e2871955",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6OWIwOTNmNTYzOWY1OGQzMDdhNzYxODhmM2YyOTJjMDRlMjg3MTk1NQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/05abd0c07dfbee0b43a19bcf58b9ae2d83a64187",
+        "sha": "05abd0c07dfbee0b43a19bcf58b9ae2d83a64187",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/05abd0c07dfbee0b43a19bcf58b9ae2d83a64187"
+      }
+    ],
+    "sha": "9b093f5639f58d307a76188f3f292c04e2871955",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/9b093f5639f58d307a76188f3f292c04e2871955"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14296719?v=4",
+      "events_url": "https://api.github.com/users/MikeSpreitzer/events{/privacy}",
+      "followers_url": "https://api.github.com/users/MikeSpreitzer/followers",
+      "following_url": "https://api.github.com/users/MikeSpreitzer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MikeSpreitzer/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/MikeSpreitzer",
+      "id": 14296719,
+      "login": "MikeSpreitzer",
+      "node_id": "MDQ6VXNlcjE0Mjk2NzE5",
+      "organizations_url": "https://api.github.com/users/MikeSpreitzer/orgs",
+      "received_events_url": "https://api.github.com/users/MikeSpreitzer/received_events",
+      "repos_url": "https://api.github.com/users/MikeSpreitzer/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/MikeSpreitzer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MikeSpreitzer/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/MikeSpreitzer"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/05abd0c07dfbee0b43a19bcf58b9ae2d83a64187/comments",
+    "commit": {
+      "author": {
+        "date": "2019-08-08T18:53:40Z",
+        "email": "mspreitz@us.ibm.com",
+        "name": "Mike Spreitzer"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-09-26T05:06:00Z",
+        "email": "mspreitz@us.ibm.com",
+        "name": "Mike Spreitzer"
+      },
+      "message": "More work on shuffle sharding utils\n\nChanges following up on PR #807810 .\n\nMade the validation checking function return a slice of error messages\nrather than just a bit.\n\nReplaced all the `int32` with `int` because this is intended for more\nthan just the priority-and-faireness feature and so should not be a\nslave to its configuration datatypes.\n\nIntroduced ShuffleAndDealIntoHand, to make memory allocation the\ncaller's problem/privilege.\n\nMade the hand uniformity tester avoid reflection, evaluate the\nhistogram against the expected range of counts, and run multiple test\ncases, including one in which the number of hash values is a power of\ntwo with four extra bits (as the validation check requires) and one in\nwhich the deck size is not a power of two.\n\nUpdated the fairqueuing implementation to use the shuffle sharding\nutility package.",
+      "tree": {
+        "sha": "75bba5cc5e0cbd7db2328b05610a5f7f9b3548f1",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/75bba5cc5e0cbd7db2328b05610a5f7f9b3548f1"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/05abd0c07dfbee0b43a19bcf58b9ae2d83a64187",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14296719?v=4",
+      "events_url": "https://api.github.com/users/MikeSpreitzer/events{/privacy}",
+      "followers_url": "https://api.github.com/users/MikeSpreitzer/followers",
+      "following_url": "https://api.github.com/users/MikeSpreitzer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MikeSpreitzer/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/MikeSpreitzer",
+      "id": 14296719,
+      "login": "MikeSpreitzer",
+      "node_id": "MDQ6VXNlcjE0Mjk2NzE5",
+      "organizations_url": "https://api.github.com/users/MikeSpreitzer/orgs",
+      "received_events_url": "https://api.github.com/users/MikeSpreitzer/received_events",
+      "repos_url": "https://api.github.com/users/MikeSpreitzer/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/MikeSpreitzer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MikeSpreitzer/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/MikeSpreitzer"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/05abd0c07dfbee0b43a19bcf58b9ae2d83a64187",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6MDVhYmQwYzA3ZGZiZWUwYjQzYTE5YmNmNThiOWFlMmQ4M2E2NDE4Nw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/639be9133fffdf63ade3836c60ff035572b582b2",
+        "sha": "639be9133fffdf63ade3836c60ff035572b582b2",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/639be9133fffdf63ade3836c60ff035572b582b2"
+      }
+    ],
+    "sha": "05abd0c07dfbee0b43a19bcf58b9ae2d83a64187",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/05abd0c07dfbee0b43a19bcf58b9ae2d83a64187"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/12049380?v=4",
+      "events_url": "https://api.github.com/users/yue9944882/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yue9944882/followers",
+      "following_url": "https://api.github.com/users/yue9944882/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yue9944882/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yue9944882",
+      "id": 12049380,
+      "login": "yue9944882",
+      "node_id": "MDQ6VXNlcjEyMDQ5Mzgw",
+      "organizations_url": "https://api.github.com/users/yue9944882/orgs",
+      "received_events_url": "https://api.github.com/users/yue9944882/received_events",
+      "repos_url": "https://api.github.com/users/yue9944882/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yue9944882/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yue9944882/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yue9944882"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/639be9133fffdf63ade3836c60ff035572b582b2/comments",
+    "commit": {
+      "author": {
+        "date": "2019-08-21T03:46:06Z",
+        "email": "291271447@qq.com",
+        "name": "yue9944882"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-09-26T05:06:00Z",
+        "email": "mspreitz@us.ibm.com",
+        "name": "Mike Spreitzer"
+      },
+      "message": "ensure flow-control api enabled",
+      "tree": {
+        "sha": "15e5be177b27673d3dcd75187ccbc195bb4431b4",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/15e5be177b27673d3dcd75187ccbc195bb4431b4"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/639be9133fffdf63ade3836c60ff035572b582b2",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14296719?v=4",
+      "events_url": "https://api.github.com/users/MikeSpreitzer/events{/privacy}",
+      "followers_url": "https://api.github.com/users/MikeSpreitzer/followers",
+      "following_url": "https://api.github.com/users/MikeSpreitzer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MikeSpreitzer/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/MikeSpreitzer",
+      "id": 14296719,
+      "login": "MikeSpreitzer",
+      "node_id": "MDQ6VXNlcjE0Mjk2NzE5",
+      "organizations_url": "https://api.github.com/users/MikeSpreitzer/orgs",
+      "received_events_url": "https://api.github.com/users/MikeSpreitzer/received_events",
+      "repos_url": "https://api.github.com/users/MikeSpreitzer/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/MikeSpreitzer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MikeSpreitzer/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/MikeSpreitzer"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/639be9133fffdf63ade3836c60ff035572b582b2",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6NjM5YmU5MTMzZmZmZGY2M2FkZTM4MzZjNjBmZjAzNTU3MmI1ODJiMg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/313597b96b5c0cc4b6d000deeff65da30ca49388",
+        "sha": "313597b96b5c0cc4b6d000deeff65da30ca49388",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/313597b96b5c0cc4b6d000deeff65da30ca49388"
+      }
+    ],
+    "sha": "639be9133fffdf63ade3836c60ff035572b582b2",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/639be9133fffdf63ade3836c60ff035572b582b2"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14296719?v=4",
+      "events_url": "https://api.github.com/users/MikeSpreitzer/events{/privacy}",
+      "followers_url": "https://api.github.com/users/MikeSpreitzer/followers",
+      "following_url": "https://api.github.com/users/MikeSpreitzer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MikeSpreitzer/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/MikeSpreitzer",
+      "id": 14296719,
+      "login": "MikeSpreitzer",
+      "node_id": "MDQ6VXNlcjE0Mjk2NzE5",
+      "organizations_url": "https://api.github.com/users/MikeSpreitzer/orgs",
+      "received_events_url": "https://api.github.com/users/MikeSpreitzer/received_events",
+      "repos_url": "https://api.github.com/users/MikeSpreitzer/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/MikeSpreitzer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MikeSpreitzer/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/MikeSpreitzer"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/313597b96b5c0cc4b6d000deeff65da30ca49388/comments",
+    "commit": {
+      "author": {
+        "date": "2019-08-20T20:18:35Z",
+        "email": "mspreitz@us.ibm.com",
+        "name": "Mike Spreitzer"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-09-26T05:06:00Z",
+        "email": "mspreitz@us.ibm.com",
+        "name": "Mike Spreitzer"
+      },
+      "message": "More uniform and informative debugging of request handling",
+      "tree": {
+        "sha": "13a70c3a1be8445cc7b9f843c5bcb609e61abcef",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/13a70c3a1be8445cc7b9f843c5bcb609e61abcef"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/313597b96b5c0cc4b6d000deeff65da30ca49388",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14296719?v=4",
+      "events_url": "https://api.github.com/users/MikeSpreitzer/events{/privacy}",
+      "followers_url": "https://api.github.com/users/MikeSpreitzer/followers",
+      "following_url": "https://api.github.com/users/MikeSpreitzer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MikeSpreitzer/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/MikeSpreitzer",
+      "id": 14296719,
+      "login": "MikeSpreitzer",
+      "node_id": "MDQ6VXNlcjE0Mjk2NzE5",
+      "organizations_url": "https://api.github.com/users/MikeSpreitzer/orgs",
+      "received_events_url": "https://api.github.com/users/MikeSpreitzer/received_events",
+      "repos_url": "https://api.github.com/users/MikeSpreitzer/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/MikeSpreitzer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MikeSpreitzer/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/MikeSpreitzer"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/313597b96b5c0cc4b6d000deeff65da30ca49388",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6MzEzNTk3Yjk2YjVjMGNjNGI2ZDAwMGRlZWZmNjVkYTMwY2E0OTM4OA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/0664c38931162c753ae70bbce6a1191dc4d5e320",
+        "sha": "0664c38931162c753ae70bbce6a1191dc4d5e320",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/0664c38931162c753ae70bbce6a1191dc4d5e320"
+      }
+    ],
+    "sha": "313597b96b5c0cc4b6d000deeff65da30ca49388",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/313597b96b5c0cc4b6d000deeff65da30ca49388"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/12049380?v=4",
+      "events_url": "https://api.github.com/users/yue9944882/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yue9944882/followers",
+      "following_url": "https://api.github.com/users/yue9944882/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yue9944882/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yue9944882",
+      "id": 12049380,
+      "login": "yue9944882",
+      "node_id": "MDQ6VXNlcjEyMDQ5Mzgw",
+      "organizations_url": "https://api.github.com/users/yue9944882/orgs",
+      "received_events_url": "https://api.github.com/users/yue9944882/received_events",
+      "repos_url": "https://api.github.com/users/yue9944882/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yue9944882/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yue9944882/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yue9944882"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/0664c38931162c753ae70bbce6a1191dc4d5e320/comments",
+    "commit": {
+      "author": {
+        "date": "2019-08-20T13:48:38Z",
+        "email": "291271447@qq.com",
+        "name": "yue9944882"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-09-26T05:06:00Z",
+        "email": "mspreitz@us.ibm.com",
+        "name": "Mike Spreitzer"
+      },
+      "message": "refactor default configurations",
+      "tree": {
+        "sha": "206454950d8368986dd5f2096d58ab8f9fcaab94",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/206454950d8368986dd5f2096d58ab8f9fcaab94"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/0664c38931162c753ae70bbce6a1191dc4d5e320",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14296719?v=4",
+      "events_url": "https://api.github.com/users/MikeSpreitzer/events{/privacy}",
+      "followers_url": "https://api.github.com/users/MikeSpreitzer/followers",
+      "following_url": "https://api.github.com/users/MikeSpreitzer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MikeSpreitzer/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/MikeSpreitzer",
+      "id": 14296719,
+      "login": "MikeSpreitzer",
+      "node_id": "MDQ6VXNlcjE0Mjk2NzE5",
+      "organizations_url": "https://api.github.com/users/MikeSpreitzer/orgs",
+      "received_events_url": "https://api.github.com/users/MikeSpreitzer/received_events",
+      "repos_url": "https://api.github.com/users/MikeSpreitzer/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/MikeSpreitzer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MikeSpreitzer/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/MikeSpreitzer"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/0664c38931162c753ae70bbce6a1191dc4d5e320",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6MDY2NGMzODkzMTE2MmM3NTNhZTcwYmJjZTZhMTE5MWRjNGQ1ZTMyMA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/fda5d9277c3b6f8f594919c257d476702b17563c",
+        "sha": "fda5d9277c3b6f8f594919c257d476702b17563c",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/fda5d9277c3b6f8f594919c257d476702b17563c"
+      }
+    ],
+    "sha": "0664c38931162c753ae70bbce6a1191dc4d5e320",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/0664c38931162c753ae70bbce6a1191dc4d5e320"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14296719?v=4",
+      "events_url": "https://api.github.com/users/MikeSpreitzer/events{/privacy}",
+      "followers_url": "https://api.github.com/users/MikeSpreitzer/followers",
+      "following_url": "https://api.github.com/users/MikeSpreitzer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MikeSpreitzer/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/MikeSpreitzer",
+      "id": 14296719,
+      "login": "MikeSpreitzer",
+      "node_id": "MDQ6VXNlcjE0Mjk2NzE5",
+      "organizations_url": "https://api.github.com/users/MikeSpreitzer/orgs",
+      "received_events_url": "https://api.github.com/users/MikeSpreitzer/received_events",
+      "repos_url": "https://api.github.com/users/MikeSpreitzer/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/MikeSpreitzer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MikeSpreitzer/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/MikeSpreitzer"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/fda5d9277c3b6f8f594919c257d476702b17563c/comments",
+    "commit": {
+      "author": {
+        "date": "2019-08-19T21:18:24Z",
+        "email": "mspreitz@us.ibm.com",
+        "name": "Mike Spreitzer"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-09-26T05:06:00Z",
+        "email": "mspreitz@us.ibm.com",
+        "name": "Mike Spreitzer"
+      },
+      "message": "Better goroutine tracking in the API priority and fairness filter\n\nIntroduced `OptionalWaitGroup` as a convenient abstraction of\n`*WaitGroup`.\n\nMade fairqueuing and emptyRelay::HandleEmpty update the\nOptionalWaitGroup and plumbed requestManagementSystem to be able to do\nthat. Making HandleEmpty update the OptionalWaitGroup illustrates how\na test function that is testing the quiesce functionality of a\nQueueSet would do that. This is also a step toward making\nrequestManagementSystem update the OptionalWaitGroup properly when\nthere are configuration changes; the remaining steps will include\nplumbing the OptionalWaitGroup through the work queue and its worker.\n\nEven without this change it is already possible to test the rest of\nQueueSet functionality without any special entry methods. It is also\neasy to test the functionality of a requestManagementSystem excepting\nits config controller.",
+      "tree": {
+        "sha": "0ca9ca982893de14790c99750ce8c7b37302e0b1",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/0ca9ca982893de14790c99750ce8c7b37302e0b1"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/fda5d9277c3b6f8f594919c257d476702b17563c",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14296719?v=4",
+      "events_url": "https://api.github.com/users/MikeSpreitzer/events{/privacy}",
+      "followers_url": "https://api.github.com/users/MikeSpreitzer/followers",
+      "following_url": "https://api.github.com/users/MikeSpreitzer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MikeSpreitzer/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/MikeSpreitzer",
+      "id": 14296719,
+      "login": "MikeSpreitzer",
+      "node_id": "MDQ6VXNlcjE0Mjk2NzE5",
+      "organizations_url": "https://api.github.com/users/MikeSpreitzer/orgs",
+      "received_events_url": "https://api.github.com/users/MikeSpreitzer/received_events",
+      "repos_url": "https://api.github.com/users/MikeSpreitzer/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/MikeSpreitzer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MikeSpreitzer/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/MikeSpreitzer"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/fda5d9277c3b6f8f594919c257d476702b17563c",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6ZmRhNWQ5Mjc3YzNiNmY4ZjU5NDkxOWMyNTdkNDc2NzAyYjE3NTYzYw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/77edfe378cbb8e8420406374bbe1281beac93f70",
+        "sha": "77edfe378cbb8e8420406374bbe1281beac93f70",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/77edfe378cbb8e8420406374bbe1281beac93f70"
+      }
+    ],
+    "sha": "fda5d9277c3b6f8f594919c257d476702b17563c",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/fda5d9277c3b6f8f594919c257d476702b17563c"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/12049380?v=4",
+      "events_url": "https://api.github.com/users/yue9944882/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yue9944882/followers",
+      "following_url": "https://api.github.com/users/yue9944882/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yue9944882/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yue9944882",
+      "id": 12049380,
+      "login": "yue9944882",
+      "node_id": "MDQ6VXNlcjEyMDQ5Mzgw",
+      "organizations_url": "https://api.github.com/users/yue9944882/orgs",
+      "received_events_url": "https://api.github.com/users/yue9944882/received_events",
+      "repos_url": "https://api.github.com/users/yue9944882/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yue9944882/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yue9944882/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yue9944882"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/77edfe378cbb8e8420406374bbe1281beac93f70/comments",
+    "commit": {
+      "author": {
+        "date": "2019-08-19T05:31:14Z",
+        "email": "291271447@qq.com",
+        "name": "yue9944882"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-09-26T05:06:00Z",
+        "email": "mspreitz@us.ibm.com",
+        "name": "Mike Spreitzer"
+      },
+      "message": "fixes some problems in status syncing",
+      "tree": {
+        "sha": "951161024fa5f55ceecf07e4e7a56623ed0e236f",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/951161024fa5f55ceecf07e4e7a56623ed0e236f"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/77edfe378cbb8e8420406374bbe1281beac93f70",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14296719?v=4",
+      "events_url": "https://api.github.com/users/MikeSpreitzer/events{/privacy}",
+      "followers_url": "https://api.github.com/users/MikeSpreitzer/followers",
+      "following_url": "https://api.github.com/users/MikeSpreitzer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MikeSpreitzer/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/MikeSpreitzer",
+      "id": 14296719,
+      "login": "MikeSpreitzer",
+      "node_id": "MDQ6VXNlcjE0Mjk2NzE5",
+      "organizations_url": "https://api.github.com/users/MikeSpreitzer/orgs",
+      "received_events_url": "https://api.github.com/users/MikeSpreitzer/received_events",
+      "repos_url": "https://api.github.com/users/MikeSpreitzer/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/MikeSpreitzer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MikeSpreitzer/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/MikeSpreitzer"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/77edfe378cbb8e8420406374bbe1281beac93f70",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6NzdlZGZlMzc4Y2JiOGU4NDIwNDA2Mzc0YmJlMTI4MWJlYWM5M2Y3MA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/fb9dc1b2bbc64cf398896dc224ee7e7fdc8974f4",
+        "sha": "fb9dc1b2bbc64cf398896dc224ee7e7fdc8974f4",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/fb9dc1b2bbc64cf398896dc224ee7e7fdc8974f4"
+      }
+    ],
+    "sha": "77edfe378cbb8e8420406374bbe1281beac93f70",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/77edfe378cbb8e8420406374bbe1281beac93f70"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1951658?v=4",
+      "events_url": "https://api.github.com/users/aaron-prindle/events{/privacy}",
+      "followers_url": "https://api.github.com/users/aaron-prindle/followers",
+      "following_url": "https://api.github.com/users/aaron-prindle/following{/other_user}",
+      "gists_url": "https://api.github.com/users/aaron-prindle/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/aaron-prindle",
+      "id": 1951658,
+      "login": "aaron-prindle",
+      "node_id": "MDQ6VXNlcjE5NTE2NTg=",
+      "organizations_url": "https://api.github.com/users/aaron-prindle/orgs",
+      "received_events_url": "https://api.github.com/users/aaron-prindle/received_events",
+      "repos_url": "https://api.github.com/users/aaron-prindle/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/aaron-prindle/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/aaron-prindle/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/aaron-prindle"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/fb9dc1b2bbc64cf398896dc224ee7e7fdc8974f4/comments",
+    "commit": {
+      "author": {
+        "date": "2019-08-16T21:34:06Z",
+        "email": "aprindle@google.com",
+        "name": "Aaron Prindle"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-09-26T05:06:00Z",
+        "email": "mspreitz@us.ibm.com",
+        "name": "Mike Spreitzer"
+      },
+      "message": "add fair queuing implementation and passing test suite",
+      "tree": {
+        "sha": "a1dcaa518a73d5e6fbdd302f9ce0aea13a8aea73",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/a1dcaa518a73d5e6fbdd302f9ce0aea13a8aea73"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/fb9dc1b2bbc64cf398896dc224ee7e7fdc8974f4",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14296719?v=4",
+      "events_url": "https://api.github.com/users/MikeSpreitzer/events{/privacy}",
+      "followers_url": "https://api.github.com/users/MikeSpreitzer/followers",
+      "following_url": "https://api.github.com/users/MikeSpreitzer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MikeSpreitzer/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/MikeSpreitzer",
+      "id": 14296719,
+      "login": "MikeSpreitzer",
+      "node_id": "MDQ6VXNlcjE0Mjk2NzE5",
+      "organizations_url": "https://api.github.com/users/MikeSpreitzer/orgs",
+      "received_events_url": "https://api.github.com/users/MikeSpreitzer/received_events",
+      "repos_url": "https://api.github.com/users/MikeSpreitzer/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/MikeSpreitzer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MikeSpreitzer/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/MikeSpreitzer"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/fb9dc1b2bbc64cf398896dc224ee7e7fdc8974f4",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6ZmI5ZGMxYjJiYmM2NGNmMzk4ODk2ZGMyMjRlZTdlN2ZkYzg5NzRmNA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/7a156d291419c0cfeb1b64f795e9babe19d36e80",
+        "sha": "7a156d291419c0cfeb1b64f795e9babe19d36e80",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/7a156d291419c0cfeb1b64f795e9babe19d36e80"
+      }
+    ],
+    "sha": "fb9dc1b2bbc64cf398896dc224ee7e7fdc8974f4",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/fb9dc1b2bbc64cf398896dc224ee7e7fdc8974f4"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/12049380?v=4",
+      "events_url": "https://api.github.com/users/yue9944882/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yue9944882/followers",
+      "following_url": "https://api.github.com/users/yue9944882/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yue9944882/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yue9944882",
+      "id": 12049380,
+      "login": "yue9944882",
+      "node_id": "MDQ6VXNlcjEyMDQ5Mzgw",
+      "organizations_url": "https://api.github.com/users/yue9944882/orgs",
+      "received_events_url": "https://api.github.com/users/yue9944882/received_events",
+      "repos_url": "https://api.github.com/users/yue9944882/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yue9944882/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yue9944882/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yue9944882"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/7a156d291419c0cfeb1b64f795e9babe19d36e80/comments",
+    "commit": {
+      "author": {
+        "date": "2019-08-09T16:16:47Z",
+        "email": "291271447@qq.com",
+        "name": "yue9944882"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-09-26T05:06:00Z",
+        "email": "mspreitz@us.ibm.com",
+        "name": "Mike Spreitzer"
+      },
+      "message": "flow-control system\n\ncompute flow-distinguisher\n\nconfig controller\n\nplumbs default-confifuration into post-start-hook\n\naddressing reviews\n\napiserver flow-control",
+      "tree": {
+        "sha": "b4cf4e8c1da57d7075e2c42659adbc11f0fe375d",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/b4cf4e8c1da57d7075e2c42659adbc11f0fe375d"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/7a156d291419c0cfeb1b64f795e9babe19d36e80",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14296719?v=4",
+      "events_url": "https://api.github.com/users/MikeSpreitzer/events{/privacy}",
+      "followers_url": "https://api.github.com/users/MikeSpreitzer/followers",
+      "following_url": "https://api.github.com/users/MikeSpreitzer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MikeSpreitzer/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/MikeSpreitzer",
+      "id": 14296719,
+      "login": "MikeSpreitzer",
+      "node_id": "MDQ6VXNlcjE0Mjk2NzE5",
+      "organizations_url": "https://api.github.com/users/MikeSpreitzer/orgs",
+      "received_events_url": "https://api.github.com/users/MikeSpreitzer/received_events",
+      "repos_url": "https://api.github.com/users/MikeSpreitzer/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/MikeSpreitzer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MikeSpreitzer/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/MikeSpreitzer"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/7a156d291419c0cfeb1b64f795e9babe19d36e80",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6N2ExNTZkMjkxNDE5YzBjZmViMWI2NGY3OTVlOWJhYmUxOWQzNmU4MA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/f95d1c330eb3c730770cdf404d66eae4ba6a78f2",
+        "sha": "f95d1c330eb3c730770cdf404d66eae4ba6a78f2",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/f95d1c330eb3c730770cdf404d66eae4ba6a78f2"
+      }
+    ],
+    "sha": "7a156d291419c0cfeb1b64f795e9babe19d36e80",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/7a156d291419c0cfeb1b64f795e9babe19d36e80"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/12049380?v=4",
+      "events_url": "https://api.github.com/users/yue9944882/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yue9944882/followers",
+      "following_url": "https://api.github.com/users/yue9944882/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yue9944882/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yue9944882",
+      "id": 12049380,
+      "login": "yue9944882",
+      "node_id": "MDQ6VXNlcjEyMDQ5Mzgw",
+      "organizations_url": "https://api.github.com/users/yue9944882/orgs",
+      "received_events_url": "https://api.github.com/users/yue9944882/received_events",
+      "repos_url": "https://api.github.com/users/yue9944882/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yue9944882/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yue9944882/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yue9944882"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/f95d1c330eb3c730770cdf404d66eae4ba6a78f2/comments",
+    "commit": {
+      "author": {
+        "date": "2019-08-08T06:12:58Z",
+        "email": "291271447@qq.com",
+        "name": "yue9944882"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-09-26T05:06:00Z",
+        "email": "mspreitz@us.ibm.com",
+        "name": "Mike Spreitzer"
+      },
+      "message": "[DO NOT REVIEW] generated changes",
+      "tree": {
+        "sha": "bf97f128881be8730b2c3d59c4bd3a545d3d068b",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/bf97f128881be8730b2c3d59c4bd3a545d3d068b"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/f95d1c330eb3c730770cdf404d66eae4ba6a78f2",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14296719?v=4",
+      "events_url": "https://api.github.com/users/MikeSpreitzer/events{/privacy}",
+      "followers_url": "https://api.github.com/users/MikeSpreitzer/followers",
+      "following_url": "https://api.github.com/users/MikeSpreitzer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MikeSpreitzer/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/MikeSpreitzer",
+      "id": 14296719,
+      "login": "MikeSpreitzer",
+      "node_id": "MDQ6VXNlcjE0Mjk2NzE5",
+      "organizations_url": "https://api.github.com/users/MikeSpreitzer/orgs",
+      "received_events_url": "https://api.github.com/users/MikeSpreitzer/received_events",
+      "repos_url": "https://api.github.com/users/MikeSpreitzer/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/MikeSpreitzer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MikeSpreitzer/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/MikeSpreitzer"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/f95d1c330eb3c730770cdf404d66eae4ba6a78f2",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6Zjk1ZDFjMzMwZWIzYzczMDc3MGNkZjQwNGQ2NmVhZTRiYTZhNzhmMg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/99a4e51feea850bebac006b774cca1eca018e353",
+        "sha": "99a4e51feea850bebac006b774cca1eca018e353",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/99a4e51feea850bebac006b774cca1eca018e353"
+      }
+    ],
+    "sha": "f95d1c330eb3c730770cdf404d66eae4ba6a78f2",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/f95d1c330eb3c730770cdf404d66eae4ba6a78f2"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/12049380?v=4",
+      "events_url": "https://api.github.com/users/yue9944882/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yue9944882/followers",
+      "following_url": "https://api.github.com/users/yue9944882/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yue9944882/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yue9944882",
+      "id": 12049380,
+      "login": "yue9944882",
+      "node_id": "MDQ6VXNlcjEyMDQ5Mzgw",
+      "organizations_url": "https://api.github.com/users/yue9944882/orgs",
+      "received_events_url": "https://api.github.com/users/yue9944882/received_events",
+      "repos_url": "https://api.github.com/users/yue9944882/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yue9944882/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yue9944882/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yue9944882"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/99a4e51feea850bebac006b774cca1eca018e353/comments",
+    "commit": {
+      "author": {
+        "date": "2019-08-08T05:18:29Z",
+        "email": "291271447@qq.com",
+        "name": "yue9944882"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-09-26T05:06:00Z",
+        "email": "mspreitz@us.ibm.com",
+        "name": "Mike Spreitzer"
+      },
+      "message": "fixes local-up failures\n\ndisable server-side printing\n\nfix test",
+      "tree": {
+        "sha": "77baa4a1b6e4c783cab8818c6c040ca89e1efdba",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/77baa4a1b6e4c783cab8818c6c040ca89e1efdba"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/99a4e51feea850bebac006b774cca1eca018e353",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14296719?v=4",
+      "events_url": "https://api.github.com/users/MikeSpreitzer/events{/privacy}",
+      "followers_url": "https://api.github.com/users/MikeSpreitzer/followers",
+      "following_url": "https://api.github.com/users/MikeSpreitzer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MikeSpreitzer/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/MikeSpreitzer",
+      "id": 14296719,
+      "login": "MikeSpreitzer",
+      "node_id": "MDQ6VXNlcjE0Mjk2NzE5",
+      "organizations_url": "https://api.github.com/users/MikeSpreitzer/orgs",
+      "received_events_url": "https://api.github.com/users/MikeSpreitzer/received_events",
+      "repos_url": "https://api.github.com/users/MikeSpreitzer/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/MikeSpreitzer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MikeSpreitzer/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/MikeSpreitzer"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/99a4e51feea850bebac006b774cca1eca018e353",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6OTlhNGU1MWZlZWE4NTBiZWJhYzAwNmI3NzRjY2ExZWNhMDE4ZTM1Mw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/6e0f50c9749b228456485d751ce4d6be456456b4",
+        "sha": "6e0f50c9749b228456485d751ce4d6be456456b4",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/6e0f50c9749b228456485d751ce4d6be456456b4"
+      }
+    ],
+    "sha": "99a4e51feea850bebac006b774cca1eca018e353",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/99a4e51feea850bebac006b774cca1eca018e353"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/15814167?v=4",
+      "events_url": "https://api.github.com/users/mars1024/events{/privacy}",
+      "followers_url": "https://api.github.com/users/mars1024/followers",
+      "following_url": "https://api.github.com/users/mars1024/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mars1024/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/mars1024",
+      "id": 15814167,
+      "login": "mars1024",
+      "node_id": "MDQ6VXNlcjE1ODE0MTY3",
+      "organizations_url": "https://api.github.com/users/mars1024/orgs",
+      "received_events_url": "https://api.github.com/users/mars1024/received_events",
+      "repos_url": "https://api.github.com/users/mars1024/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/mars1024/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mars1024/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/mars1024"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/6e0f50c9749b228456485d751ce4d6be456456b4/comments",
+    "commit": {
+      "author": {
+        "date": "2019-08-07T10:13:49Z",
+        "email": "brucema19901024@gmail.com",
+        "name": "Bruce Ma"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-09-26T05:06:00Z",
+        "email": "mspreitz@us.ibm.com",
+        "name": "Mike Spreitzer"
+      },
+      "message": "make benchmark tests ever-changing and add uniform distribution test\n\nSigned-off-by: Bruce Ma <brucema19901024@gmail.com>",
+      "tree": {
+        "sha": "a0664b186aa112d956657caf7d40f9f50abe6da0",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/a0664b186aa112d956657caf7d40f9f50abe6da0"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/6e0f50c9749b228456485d751ce4d6be456456b4",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14296719?v=4",
+      "events_url": "https://api.github.com/users/MikeSpreitzer/events{/privacy}",
+      "followers_url": "https://api.github.com/users/MikeSpreitzer/followers",
+      "following_url": "https://api.github.com/users/MikeSpreitzer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MikeSpreitzer/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/MikeSpreitzer",
+      "id": 14296719,
+      "login": "MikeSpreitzer",
+      "node_id": "MDQ6VXNlcjE0Mjk2NzE5",
+      "organizations_url": "https://api.github.com/users/MikeSpreitzer/orgs",
+      "received_events_url": "https://api.github.com/users/MikeSpreitzer/received_events",
+      "repos_url": "https://api.github.com/users/MikeSpreitzer/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/MikeSpreitzer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MikeSpreitzer/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/MikeSpreitzer"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/6e0f50c9749b228456485d751ce4d6be456456b4",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6NmUwZjUwYzk3NDliMjI4NDU2NDg1ZDc1MWNlNGQ2YmU0NTY0NTZiNA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/a8e9921880147696c9a81ef890d3a7f546ee7a03",
+        "sha": "a8e9921880147696c9a81ef890d3a7f546ee7a03",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/a8e9921880147696c9a81ef890d3a7f546ee7a03"
+      }
+    ],
+    "sha": "6e0f50c9749b228456485d751ce4d6be456456b4",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/6e0f50c9749b228456485d751ce4d6be456456b4"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14296719?v=4",
+      "events_url": "https://api.github.com/users/MikeSpreitzer/events{/privacy}",
+      "followers_url": "https://api.github.com/users/MikeSpreitzer/followers",
+      "following_url": "https://api.github.com/users/MikeSpreitzer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MikeSpreitzer/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/MikeSpreitzer",
+      "id": 14296719,
+      "login": "MikeSpreitzer",
+      "node_id": "MDQ6VXNlcjE0Mjk2NzE5",
+      "organizations_url": "https://api.github.com/users/MikeSpreitzer/orgs",
+      "received_events_url": "https://api.github.com/users/MikeSpreitzer/received_events",
+      "repos_url": "https://api.github.com/users/MikeSpreitzer/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/MikeSpreitzer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MikeSpreitzer/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/MikeSpreitzer"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/a8e9921880147696c9a81ef890d3a7f546ee7a03/comments",
+    "commit": {
+      "author": {
+        "date": "2019-08-07T06:55:32Z",
+        "email": "mspreitz@us.ibm.com",
+        "name": "Mike Spreitzer"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-09-26T05:06:00Z",
+        "email": "mspreitz@us.ibm.com",
+        "name": "Mike Spreitzer"
+      },
+      "message": "Start drafting a unit test of QueueSet\n\nThe test runs a scenario over time and evaluates fairness of the\nresult.\n\nThere is no real QueueSet implementation now, so only a dummy is\ntested.\n\nIn other news, this change introduces a dummy QueueSet implementation\nthat exerts no control.",
+      "tree": {
+        "sha": "a1d61f3409ebda451139a9cccd10783ae9bf07d9",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/a1d61f3409ebda451139a9cccd10783ae9bf07d9"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/a8e9921880147696c9a81ef890d3a7f546ee7a03",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14296719?v=4",
+      "events_url": "https://api.github.com/users/MikeSpreitzer/events{/privacy}",
+      "followers_url": "https://api.github.com/users/MikeSpreitzer/followers",
+      "following_url": "https://api.github.com/users/MikeSpreitzer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MikeSpreitzer/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/MikeSpreitzer",
+      "id": 14296719,
+      "login": "MikeSpreitzer",
+      "node_id": "MDQ6VXNlcjE0Mjk2NzE5",
+      "organizations_url": "https://api.github.com/users/MikeSpreitzer/orgs",
+      "received_events_url": "https://api.github.com/users/MikeSpreitzer/received_events",
+      "repos_url": "https://api.github.com/users/MikeSpreitzer/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/MikeSpreitzer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MikeSpreitzer/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/MikeSpreitzer"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/a8e9921880147696c9a81ef890d3a7f546ee7a03",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6YThlOTkyMTg4MDE0NzY5NmM5YTgxZWY4OTBkM2E3ZjU0NmVlN2EwMw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/e7f224651c20affba1bf21d6aeecfccd8bcc96dd",
+        "sha": "e7f224651c20affba1bf21d6aeecfccd8bcc96dd",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/e7f224651c20affba1bf21d6aeecfccd8bcc96dd"
+      }
+    ],
+    "sha": "a8e9921880147696c9a81ef890d3a7f546ee7a03",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/a8e9921880147696c9a81ef890d3a7f546ee7a03"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/15814167?v=4",
+      "events_url": "https://api.github.com/users/mars1024/events{/privacy}",
+      "followers_url": "https://api.github.com/users/mars1024/followers",
+      "following_url": "https://api.github.com/users/mars1024/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mars1024/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/mars1024",
+      "id": 15814167,
+      "login": "mars1024",
+      "node_id": "MDQ6VXNlcjE1ODE0MTY3",
+      "organizations_url": "https://api.github.com/users/mars1024/orgs",
+      "received_events_url": "https://api.github.com/users/mars1024/received_events",
+      "repos_url": "https://api.github.com/users/mars1024/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/mars1024/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mars1024/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/mars1024"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/e7f224651c20affba1bf21d6aeecfccd8bcc96dd/comments",
+    "commit": {
+      "author": {
+        "date": "2019-08-06T12:52:47Z",
+        "email": "brucema19901024@gmail.com",
+        "name": "Bruce Ma"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-09-26T05:06:00Z",
+        "email": "mspreitz@us.ibm.com",
+        "name": "Mike Spreitzer"
+      },
+      "message": "some refactors on shuffle sharding\n\nSigned-off-by: Bruce Ma <brucema19901024@gmail.com>",
+      "tree": {
+        "sha": "1aef9add6b27cc6685ee9b38234573c366d5eee4",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/1aef9add6b27cc6685ee9b38234573c366d5eee4"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/e7f224651c20affba1bf21d6aeecfccd8bcc96dd",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14296719?v=4",
+      "events_url": "https://api.github.com/users/MikeSpreitzer/events{/privacy}",
+      "followers_url": "https://api.github.com/users/MikeSpreitzer/followers",
+      "following_url": "https://api.github.com/users/MikeSpreitzer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MikeSpreitzer/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/MikeSpreitzer",
+      "id": 14296719,
+      "login": "MikeSpreitzer",
+      "node_id": "MDQ6VXNlcjE0Mjk2NzE5",
+      "organizations_url": "https://api.github.com/users/MikeSpreitzer/orgs",
+      "received_events_url": "https://api.github.com/users/MikeSpreitzer/received_events",
+      "repos_url": "https://api.github.com/users/MikeSpreitzer/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/MikeSpreitzer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MikeSpreitzer/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/MikeSpreitzer"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/e7f224651c20affba1bf21d6aeecfccd8bcc96dd",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6ZTdmMjI0NjUxYzIwYWZmYmExYmYyMWQ2YWVlY2ZjY2Q4YmNjOTZkZA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/3328046a342e572d28fb83d9d325834dc6e38ab0",
+        "sha": "3328046a342e572d28fb83d9d325834dc6e38ab0",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/3328046a342e572d28fb83d9d325834dc6e38ab0"
+      }
+    ],
+    "sha": "e7f224651c20affba1bf21d6aeecfccd8bcc96dd",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/e7f224651c20affba1bf21d6aeecfccd8bcc96dd"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/15814167?v=4",
+      "events_url": "https://api.github.com/users/mars1024/events{/privacy}",
+      "followers_url": "https://api.github.com/users/mars1024/followers",
+      "following_url": "https://api.github.com/users/mars1024/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mars1024/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/mars1024",
+      "id": 15814167,
+      "login": "mars1024",
+      "node_id": "MDQ6VXNlcjE1ODE0MTY3",
+      "organizations_url": "https://api.github.com/users/mars1024/orgs",
+      "received_events_url": "https://api.github.com/users/mars1024/received_events",
+      "repos_url": "https://api.github.com/users/mars1024/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/mars1024/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mars1024/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/mars1024"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/3328046a342e572d28fb83d9d325834dc6e38ab0/comments",
+    "commit": {
+      "author": {
+        "date": "2019-08-05T13:07:07Z",
+        "email": "brucema19901024@gmail.com",
+        "name": "Bruce Ma"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-09-26T05:06:00Z",
+        "email": "mspreitz@us.ibm.com",
+        "name": "Mike Spreitzer"
+      },
+      "message": "shuffle sharding: add some benchmarks and tests\n\nSigned-off-by: Bruce Ma <brucema19901024@gmail.com>",
+      "tree": {
+        "sha": "9a9d5656eb451ba0bbda72e415b8045a4e7f645c",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/9a9d5656eb451ba0bbda72e415b8045a4e7f645c"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/3328046a342e572d28fb83d9d325834dc6e38ab0",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14296719?v=4",
+      "events_url": "https://api.github.com/users/MikeSpreitzer/events{/privacy}",
+      "followers_url": "https://api.github.com/users/MikeSpreitzer/followers",
+      "following_url": "https://api.github.com/users/MikeSpreitzer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MikeSpreitzer/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/MikeSpreitzer",
+      "id": 14296719,
+      "login": "MikeSpreitzer",
+      "node_id": "MDQ6VXNlcjE0Mjk2NzE5",
+      "organizations_url": "https://api.github.com/users/MikeSpreitzer/orgs",
+      "received_events_url": "https://api.github.com/users/MikeSpreitzer/received_events",
+      "repos_url": "https://api.github.com/users/MikeSpreitzer/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/MikeSpreitzer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MikeSpreitzer/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/MikeSpreitzer"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/3328046a342e572d28fb83d9d325834dc6e38ab0",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6MzMyODA0NmEzNDJlNTcyZDI4ZmI4M2Q5ZDMyNTgzNGRjNmUzOGFiMA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/1d30ce12bcb58f2821811e9a64e06a6f3dea8497",
+        "sha": "1d30ce12bcb58f2821811e9a64e06a6f3dea8497",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/1d30ce12bcb58f2821811e9a64e06a6f3dea8497"
+      }
+    ],
+    "sha": "3328046a342e572d28fb83d9d325834dc6e38ab0",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/3328046a342e572d28fb83d9d325834dc6e38ab0"
+  }
+]

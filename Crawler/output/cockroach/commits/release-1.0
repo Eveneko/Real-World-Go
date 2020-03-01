@@ -1,0 +1,2361 @@
+[
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/f147c64aae56dfcf1d2f96bddf0bd21cb6999062/comments",
+    "commit": {
+      "author": {
+        "date": "2018-04-24T20:51:39Z",
+        "email": "bors@cockroachlabs.com",
+        "name": "craig[bot]"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2018-04-24T20:51:39Z",
+        "email": "bors@cockroachlabs.com",
+        "name": "craig[bot]"
+      },
+      "message": "Merge #25056\n\n25056: backport-1.0: build: GH label changes r=jordanlewis a=jordanlewis\n\nBackport 1/1 commits from #25050.\r\n\r\n/cc @cockroachdb/release\r\n\r\n---\r\n\r\n- Robot -> O-robot\r\n- test-failure -> C-test-failure\r\n\r\n@benesch do we need to backport this for it to work on other branches?\r\n\r\nRelease note: None\r\n\r\n\n\nCo-authored-by: Jordan Lewis <jordanthelewis@gmail.com>",
+      "tree": {
+        "sha": "4d3267ee7ed5859fd85e69e8c31907652e90fe67",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/4d3267ee7ed5859fd85e69e8c31907652e90fe67"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/f147c64aae56dfcf1d2f96bddf0bd21cb6999062",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": null,
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/f147c64aae56dfcf1d2f96bddf0bd21cb6999062",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6ZjE0N2M2NGFhZTU2ZGZjZjFkMmY5NmJkZGYwYmQyMWNiNjk5OTA2Mg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/5671e18f5a2dcabbbcfaf322bdacf3bc583e4103",
+        "sha": "5671e18f5a2dcabbbcfaf322bdacf3bc583e4103",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/5671e18f5a2dcabbbcfaf322bdacf3bc583e4103"
+      },
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/a029c5068ce231e7d1f1813a9e363c2796da1467",
+        "sha": "a029c5068ce231e7d1f1813a9e363c2796da1467",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/a029c5068ce231e7d1f1813a9e363c2796da1467"
+      }
+    ],
+    "sha": "f147c64aae56dfcf1d2f96bddf0bd21cb6999062",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/f147c64aae56dfcf1d2f96bddf0bd21cb6999062"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/43821?v=4",
+      "events_url": "https://api.github.com/users/jordanlewis/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jordanlewis/followers",
+      "following_url": "https://api.github.com/users/jordanlewis/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jordanlewis/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jordanlewis",
+      "id": 43821,
+      "login": "jordanlewis",
+      "node_id": "MDQ6VXNlcjQzODIx",
+      "organizations_url": "https://api.github.com/users/jordanlewis/orgs",
+      "received_events_url": "https://api.github.com/users/jordanlewis/received_events",
+      "repos_url": "https://api.github.com/users/jordanlewis/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jordanlewis/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jordanlewis/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jordanlewis"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/a029c5068ce231e7d1f1813a9e363c2796da1467/comments",
+    "commit": {
+      "author": {
+        "date": "2018-04-24T19:27:45Z",
+        "email": "jordanthelewis@gmail.com",
+        "name": "Jordan Lewis"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2018-04-24T20:13:31Z",
+        "email": "jordanthelewis@gmail.com",
+        "name": "Jordan Lewis"
+      },
+      "message": "build: GH label changes\n\n- Robot -> O-robot\n- test-failure -> C-test-failure\n\nRelease note: None",
+      "tree": {
+        "sha": "4d3267ee7ed5859fd85e69e8c31907652e90fe67",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/4d3267ee7ed5859fd85e69e8c31907652e90fe67"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/a029c5068ce231e7d1f1813a9e363c2796da1467",
+      "verification": {
+        "payload": "tree 4d3267ee7ed5859fd85e69e8c31907652e90fe67\nparent 5671e18f5a2dcabbbcfaf322bdacf3bc583e4103\nauthor Jordan Lewis <jordanthelewis@gmail.com> 1524598065 -0400\ncommitter Jordan Lewis <jordanthelewis@gmail.com> 1524600811 -0400\n\nbuild: GH label changes\n\n- Robot -> O-robot\n- test-failure -> C-test-failure\n\nRelease note: None\n",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\nComment: GPGTools - https://gpgtools.org\n\niQIcBAABCgAGBQJa34/rAAoJEMuS9dQ6CAWazNYQAIzF3P3ldJ5DVOwHaMRPYXgT\nqBLidJ2CpMI0v6FZ7lGw8xogMbI654Vvad6ujii30yd0N1C/fc5dKGgcd0Z8jaNg\nUJXWn3D/nPG0nqqaQreOiOkXp8y7F6DHD40N9k5yg+zdgfuSNJBFGY0uTyhO7Jl7\ncElgyUBvMB1Qjyh4M7qAiouZpuXzFWcrHPRb36qr1owLZjVXs3zTYmhPgW6j45sL\nrVZlRQwSLvz7XU6rz+l7OqfmgJGj0QR4A2iL7buJCsIXqOGuAr4rO3M+K07BWUFW\nAicKHwJacauEgn+yUnCqL5n7cCd++0sML69YgKMxFERT/4GC2+s+XN2bflYaM/C7\nJVsQbS0B9Ky3mbGHgloKdWAsSxqUVGUvVIH92suokkdndKCyHLCDo7wZ/vNui7Zc\nLUAcXIsfx2I1wdl/AWFmkQVd0y/Su11L19/9iMM4EwlY6XSMzRONhQyB+H38+hHh\n54tTKlZT4m4sFdb6EUbT5SAt7XsPVbGVRofRqUQI3pc3/9tHqEob3TiOUD2FQZl1\nmgGxtUwD+5DSagPLc3UxdBhIgZ6r9oTnxi6GXsiDRdMa2+orcbD3y0HlK5m37kfr\nqTP5DmoBi+llbbC7du2Y7csE4FlwC0Xf/k9e38zIiK8sqIm30vx9efh1nXOAfDkX\noAbxLICyVvtVtEImepJu\n=Yrgz\n-----END PGP SIGNATURE-----",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/43821?v=4",
+      "events_url": "https://api.github.com/users/jordanlewis/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jordanlewis/followers",
+      "following_url": "https://api.github.com/users/jordanlewis/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jordanlewis/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jordanlewis",
+      "id": 43821,
+      "login": "jordanlewis",
+      "node_id": "MDQ6VXNlcjQzODIx",
+      "organizations_url": "https://api.github.com/users/jordanlewis/orgs",
+      "received_events_url": "https://api.github.com/users/jordanlewis/received_events",
+      "repos_url": "https://api.github.com/users/jordanlewis/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jordanlewis/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jordanlewis/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jordanlewis"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/a029c5068ce231e7d1f1813a9e363c2796da1467",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6YTAyOWM1MDY4Y2UyMzFlN2QxZjE4MTNhOWUzNjNjMjc5NmRhMTQ2Nw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/5671e18f5a2dcabbbcfaf322bdacf3bc583e4103",
+        "sha": "5671e18f5a2dcabbbcfaf322bdacf3bc583e4103",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/5671e18f5a2dcabbbcfaf322bdacf3bc583e4103"
+      }
+    ],
+    "sha": "a029c5068ce231e7d1f1813a9e363c2796da1467",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/a029c5068ce231e7d1f1813a9e363c2796da1467"
+  },
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/5671e18f5a2dcabbbcfaf322bdacf3bc583e4103/comments",
+    "commit": {
+      "author": {
+        "date": "2018-04-11T19:09:16Z",
+        "email": "bors@cockroachlabs.com",
+        "name": "craig[bot]"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2018-04-11T19:09:16Z",
+        "email": "bors@cockroachlabs.com",
+        "name": "craig[bot]"
+      },
+      "message": "Merge #24673\n\n24673: cherrypick-1.0: give craig an avatar, move bors.toml into .github r=couchand a=couchand\n\nbuild: give craig an avatar\r\n\r\nAt present, when GitHub apps create commits, they don't show up\r\nwith the app's avatar.  A workaround is to commit with an e-mail\r\naddress that has an associated gravatar.\r\n\r\nbuild: move bors.toml into .github folder\r\n\r\nJust to keep the root of the project a little cleaner.\r\n\r\n---\r\n\r\nI hadn't planned on cherry-picking this, but figured it's a reasonable test that the branch protection is set up correctly.\r\n\r\ncc: @cockroachdb/release @jordanlewis \n\nCo-authored-by: Andrew Couch <andrew@cockroachlabs.com>",
+      "tree": {
+        "sha": "905f9d889f9e022f06179b0c8e7eb0c2475e5f6a",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/905f9d889f9e022f06179b0c8e7eb0c2475e5f6a"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/5671e18f5a2dcabbbcfaf322bdacf3bc583e4103",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": null,
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/5671e18f5a2dcabbbcfaf322bdacf3bc583e4103",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6NTY3MWUxOGY1YTJkY2FiYmJjZmFmMzIyYmRhY2YzYmM1ODNlNDEwMw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/ed8251d326ebcea1e8c2d2db8fec8f8f75e9d398",
+        "sha": "ed8251d326ebcea1e8c2d2db8fec8f8f75e9d398",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/ed8251d326ebcea1e8c2d2db8fec8f8f75e9d398"
+      },
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/a287351af9dccedfc71781d9ad79d5741683eec9",
+        "sha": "a287351af9dccedfc71781d9ad79d5741683eec9",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/a287351af9dccedfc71781d9ad79d5741683eec9"
+      }
+    ],
+    "sha": "5671e18f5a2dcabbbcfaf322bdacf3bc583e4103",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/5671e18f5a2dcabbbcfaf322bdacf3bc583e4103"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/793969?v=4",
+      "events_url": "https://api.github.com/users/couchand/events{/privacy}",
+      "followers_url": "https://api.github.com/users/couchand/followers",
+      "following_url": "https://api.github.com/users/couchand/following{/other_user}",
+      "gists_url": "https://api.github.com/users/couchand/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/couchand",
+      "id": 793969,
+      "login": "couchand",
+      "node_id": "MDQ6VXNlcjc5Mzk2OQ==",
+      "organizations_url": "https://api.github.com/users/couchand/orgs",
+      "received_events_url": "https://api.github.com/users/couchand/received_events",
+      "repos_url": "https://api.github.com/users/couchand/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/couchand/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/couchand/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/couchand"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/a287351af9dccedfc71781d9ad79d5741683eec9/comments",
+    "commit": {
+      "author": {
+        "date": "2018-04-09T16:47:29Z",
+        "email": "andrew@cockroachlabs.com",
+        "name": "Andrew Couch"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2018-04-11T14:25:38Z",
+        "email": "andrew@cockroachlabs.com",
+        "name": "Andrew Couch"
+      },
+      "message": "build: move bors.toml into .github folder\n\nJust to keep the root of the project a little cleaner.\n\nRelease note: None",
+      "tree": {
+        "sha": "905f9d889f9e022f06179b0c8e7eb0c2475e5f6a",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/905f9d889f9e022f06179b0c8e7eb0c2475e5f6a"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/a287351af9dccedfc71781d9ad79d5741683eec9",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/793969?v=4",
+      "events_url": "https://api.github.com/users/couchand/events{/privacy}",
+      "followers_url": "https://api.github.com/users/couchand/followers",
+      "following_url": "https://api.github.com/users/couchand/following{/other_user}",
+      "gists_url": "https://api.github.com/users/couchand/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/couchand",
+      "id": 793969,
+      "login": "couchand",
+      "node_id": "MDQ6VXNlcjc5Mzk2OQ==",
+      "organizations_url": "https://api.github.com/users/couchand/orgs",
+      "received_events_url": "https://api.github.com/users/couchand/received_events",
+      "repos_url": "https://api.github.com/users/couchand/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/couchand/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/couchand/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/couchand"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/a287351af9dccedfc71781d9ad79d5741683eec9",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6YTI4NzM1MWFmOWRjY2VkZmM3MTc4MWQ5YWQ3OWQ1NzQxNjgzZWVjOQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/64c2f9bf8e8fa6fbeb5a922cae5d19a815635f94",
+        "sha": "64c2f9bf8e8fa6fbeb5a922cae5d19a815635f94",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/64c2f9bf8e8fa6fbeb5a922cae5d19a815635f94"
+      }
+    ],
+    "sha": "a287351af9dccedfc71781d9ad79d5741683eec9",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/a287351af9dccedfc71781d9ad79d5741683eec9"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/793969?v=4",
+      "events_url": "https://api.github.com/users/couchand/events{/privacy}",
+      "followers_url": "https://api.github.com/users/couchand/followers",
+      "following_url": "https://api.github.com/users/couchand/following{/other_user}",
+      "gists_url": "https://api.github.com/users/couchand/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/couchand",
+      "id": 793969,
+      "login": "couchand",
+      "node_id": "MDQ6VXNlcjc5Mzk2OQ==",
+      "organizations_url": "https://api.github.com/users/couchand/orgs",
+      "received_events_url": "https://api.github.com/users/couchand/received_events",
+      "repos_url": "https://api.github.com/users/couchand/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/couchand/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/couchand/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/couchand"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/64c2f9bf8e8fa6fbeb5a922cae5d19a815635f94/comments",
+    "commit": {
+      "author": {
+        "date": "2018-04-09T16:15:39Z",
+        "email": "andrew@cockroachlabs.com",
+        "name": "Andrew Couch"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2018-04-11T14:25:30Z",
+        "email": "andrew@cockroachlabs.com",
+        "name": "Andrew Couch"
+      },
+      "message": "build: give craig an avatar\n\nAt present, when GitHub apps create commits, they don't show up\nwith the app's avatar.  A workaround is to commit with an e-mail\naddress that has an associated gravatar.\n\nRelease note: None",
+      "tree": {
+        "sha": "4e2711ab85da8bf10bf36d75964cad50c62fd873",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/4e2711ab85da8bf10bf36d75964cad50c62fd873"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/64c2f9bf8e8fa6fbeb5a922cae5d19a815635f94",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/793969?v=4",
+      "events_url": "https://api.github.com/users/couchand/events{/privacy}",
+      "followers_url": "https://api.github.com/users/couchand/followers",
+      "following_url": "https://api.github.com/users/couchand/following{/other_user}",
+      "gists_url": "https://api.github.com/users/couchand/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/couchand",
+      "id": 793969,
+      "login": "couchand",
+      "node_id": "MDQ6VXNlcjc5Mzk2OQ==",
+      "organizations_url": "https://api.github.com/users/couchand/orgs",
+      "received_events_url": "https://api.github.com/users/couchand/received_events",
+      "repos_url": "https://api.github.com/users/couchand/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/couchand/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/couchand/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/couchand"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/64c2f9bf8e8fa6fbeb5a922cae5d19a815635f94",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6NjRjMmY5YmY4ZThmYTZmYmViNWE5MjJjYWU1ZDE5YTgxNTYzNWY5NA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/ed8251d326ebcea1e8c2d2db8fec8f8f75e9d398",
+        "sha": "ed8251d326ebcea1e8c2d2db8fec8f8f75e9d398",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/ed8251d326ebcea1e8c2d2db8fec8f8f75e9d398"
+      }
+    ],
+    "sha": "64c2f9bf8e8fa6fbeb5a922cae5d19a815635f94",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/64c2f9bf8e8fa6fbeb5a922cae5d19a815635f94"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/in/10419?v=4",
+      "events_url": "https://api.github.com/users/craig%5Bbot%5D/events{/privacy}",
+      "followers_url": "https://api.github.com/users/craig%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/craig%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/craig%5Bbot%5D/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/apps/craig",
+      "id": 37807150,
+      "login": "craig[bot]",
+      "node_id": "MDM6Qm90Mzc4MDcxNTA=",
+      "organizations_url": "https://api.github.com/users/craig%5Bbot%5D/orgs",
+      "received_events_url": "https://api.github.com/users/craig%5Bbot%5D/received_events",
+      "repos_url": "https://api.github.com/users/craig%5Bbot%5D/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/craig%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/craig%5Bbot%5D/subscriptions",
+      "type": "Bot",
+      "url": "https://api.github.com/users/craig%5Bbot%5D"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/ed8251d326ebcea1e8c2d2db8fec8f8f75e9d398/comments",
+    "commit": {
+      "author": {
+        "date": "2018-04-06T18:10:15Z",
+        "email": "craig[bot]@users.noreply.github.com",
+        "name": "craig[bot]"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2018-04-06T18:10:15Z",
+        "email": "craig[bot]@users.noreply.github.com",
+        "name": "craig[bot]"
+      },
+      "message": "Merge #24448\n\n24448: cherrypick-1.0: build: teach Bors about the CLA check r=couchand a=couchand\n\nA cherry-pick of #24420.\r\n\r\ncc @bdarnell @benesch \r\n\r\nWhen introducing Bors in #24100, I only thought to include the TeamCity build\r\nstatus, but since we require the license check for regular, GitHub-initiated\r\nmerges, this was a regression.  This change corrects that, adding the CLA to\r\nthe list of PR statuses to check before allowing `r+`.\r\n\r\nRelease note: None",
+      "tree": {
+        "sha": "b9ab23adcb6ff282777dee01b55fc27249f101da",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/b9ab23adcb6ff282777dee01b55fc27249f101da"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/ed8251d326ebcea1e8c2d2db8fec8f8f75e9d398",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars0.githubusercontent.com/in/10419?v=4",
+      "events_url": "https://api.github.com/users/craig%5Bbot%5D/events{/privacy}",
+      "followers_url": "https://api.github.com/users/craig%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/craig%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/craig%5Bbot%5D/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/apps/craig",
+      "id": 37807150,
+      "login": "craig[bot]",
+      "node_id": "MDM6Qm90Mzc4MDcxNTA=",
+      "organizations_url": "https://api.github.com/users/craig%5Bbot%5D/orgs",
+      "received_events_url": "https://api.github.com/users/craig%5Bbot%5D/received_events",
+      "repos_url": "https://api.github.com/users/craig%5Bbot%5D/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/craig%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/craig%5Bbot%5D/subscriptions",
+      "type": "Bot",
+      "url": "https://api.github.com/users/craig%5Bbot%5D"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/ed8251d326ebcea1e8c2d2db8fec8f8f75e9d398",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6ZWQ4MjUxZDMyNmViY2VhMWU4YzJkMmRiOGZlYzhmOGY3NWU5ZDM5OA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/32246399e70c4152a96dba263286ac7da1d92151",
+        "sha": "32246399e70c4152a96dba263286ac7da1d92151",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/32246399e70c4152a96dba263286ac7da1d92151"
+      },
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/d30e1a17288d6474bb8c53110618b64b8e5f6dfc",
+        "sha": "d30e1a17288d6474bb8c53110618b64b8e5f6dfc",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/d30e1a17288d6474bb8c53110618b64b8e5f6dfc"
+      }
+    ],
+    "sha": "ed8251d326ebcea1e8c2d2db8fec8f8f75e9d398",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/ed8251d326ebcea1e8c2d2db8fec8f8f75e9d398"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/793969?v=4",
+      "events_url": "https://api.github.com/users/couchand/events{/privacy}",
+      "followers_url": "https://api.github.com/users/couchand/followers",
+      "following_url": "https://api.github.com/users/couchand/following{/other_user}",
+      "gists_url": "https://api.github.com/users/couchand/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/couchand",
+      "id": 793969,
+      "login": "couchand",
+      "node_id": "MDQ6VXNlcjc5Mzk2OQ==",
+      "organizations_url": "https://api.github.com/users/couchand/orgs",
+      "received_events_url": "https://api.github.com/users/couchand/received_events",
+      "repos_url": "https://api.github.com/users/couchand/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/couchand/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/couchand/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/couchand"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/d30e1a17288d6474bb8c53110618b64b8e5f6dfc/comments",
+    "commit": {
+      "author": {
+        "date": "2018-04-02T17:38:12Z",
+        "email": "andrew@cockroachlabs.com",
+        "name": "Andrew Couch"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2018-04-03T15:20:03Z",
+        "email": "andrew@cockroachlabs.com",
+        "name": "Andrew Couch"
+      },
+      "message": "build: teach Bors about the CLA check\n\nWhen introducing Bors in #24100, I only thought to include the TeamCity build\nstatus, but since we require the license check for regular, GitHub-initiated\nmerges, this was a regression.  This change corrects that, adding the CLA to\nthe list of PR statuses to check before allowing `r+`.\n\nRelease note: None",
+      "tree": {
+        "sha": "b9ab23adcb6ff282777dee01b55fc27249f101da",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/b9ab23adcb6ff282777dee01b55fc27249f101da"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/d30e1a17288d6474bb8c53110618b64b8e5f6dfc",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/793969?v=4",
+      "events_url": "https://api.github.com/users/couchand/events{/privacy}",
+      "followers_url": "https://api.github.com/users/couchand/followers",
+      "following_url": "https://api.github.com/users/couchand/following{/other_user}",
+      "gists_url": "https://api.github.com/users/couchand/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/couchand",
+      "id": 793969,
+      "login": "couchand",
+      "node_id": "MDQ6VXNlcjc5Mzk2OQ==",
+      "organizations_url": "https://api.github.com/users/couchand/orgs",
+      "received_events_url": "https://api.github.com/users/couchand/received_events",
+      "repos_url": "https://api.github.com/users/couchand/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/couchand/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/couchand/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/couchand"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/d30e1a17288d6474bb8c53110618b64b8e5f6dfc",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6ZDMwZTFhMTcyODhkNjQ3NGJiOGM1MzExMDYxOGI2NGI4ZTVmNmRmYw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/32246399e70c4152a96dba263286ac7da1d92151",
+        "sha": "32246399e70c4152a96dba263286ac7da1d92151",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/32246399e70c4152a96dba263286ac7da1d92151"
+      }
+    ],
+    "sha": "d30e1a17288d6474bb8c53110618b64b8e5f6dfc",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/d30e1a17288d6474bb8c53110618b64b8e5f6dfc"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/in/10419?v=4",
+      "events_url": "https://api.github.com/users/craig%5Bbot%5D/events{/privacy}",
+      "followers_url": "https://api.github.com/users/craig%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/craig%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/craig%5Bbot%5D/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/apps/craig",
+      "id": 37807150,
+      "login": "craig[bot]",
+      "node_id": "MDM6Qm90Mzc4MDcxNTA=",
+      "organizations_url": "https://api.github.com/users/craig%5Bbot%5D/orgs",
+      "received_events_url": "https://api.github.com/users/craig%5Bbot%5D/received_events",
+      "repos_url": "https://api.github.com/users/craig%5Bbot%5D/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/craig%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/craig%5Bbot%5D/subscriptions",
+      "type": "Bot",
+      "url": "https://api.github.com/users/craig%5Bbot%5D"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/32246399e70c4152a96dba263286ac7da1d92151/comments",
+    "commit": {
+      "author": {
+        "date": "2018-03-29T17:54:12Z",
+        "email": "craig[bot]@users.noreply.github.com",
+        "name": "craig[bot]"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2018-03-29T17:54:12Z",
+        "email": "craig[bot]@users.noreply.github.com",
+        "name": "craig[bot]"
+      },
+      "message": "Merge #24325\n\n24325: cherrypick-1.0: build: add bors.toml r=bdarnell a=couchand\n\nA cherry-pick of #24100.\r\n\r\nTeaches Bors to wait for a successful build on TeamCity before merging\r\napproved PRs to master, and not to merge PRs labeled do-not-merge.\r\n\r\nContributes to #22499\r\nRelease note (build change): Begin using Bors to automate the process of\r\nmerging PRs to master.\r\n\r\ncc @cockroachdb/release @bdarnell @benesch",
+      "tree": {
+        "sha": "3d3fd913ac207d24b88c0d3a225b4f1b2ea1dc84",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/3d3fd913ac207d24b88c0d3a225b4f1b2ea1dc84"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/32246399e70c4152a96dba263286ac7da1d92151",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars0.githubusercontent.com/in/10419?v=4",
+      "events_url": "https://api.github.com/users/craig%5Bbot%5D/events{/privacy}",
+      "followers_url": "https://api.github.com/users/craig%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/craig%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/craig%5Bbot%5D/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/apps/craig",
+      "id": 37807150,
+      "login": "craig[bot]",
+      "node_id": "MDM6Qm90Mzc4MDcxNTA=",
+      "organizations_url": "https://api.github.com/users/craig%5Bbot%5D/orgs",
+      "received_events_url": "https://api.github.com/users/craig%5Bbot%5D/received_events",
+      "repos_url": "https://api.github.com/users/craig%5Bbot%5D/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/craig%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/craig%5Bbot%5D/subscriptions",
+      "type": "Bot",
+      "url": "https://api.github.com/users/craig%5Bbot%5D"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/32246399e70c4152a96dba263286ac7da1d92151",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6MzIyNDYzOTllNzBjNDE1MmE5NmRiYTI2MzI4NmFjN2RhMWQ5MjE1MQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/b277f36d8427c553be9e52dcd0699979a3e8af86",
+        "sha": "b277f36d8427c553be9e52dcd0699979a3e8af86",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/b277f36d8427c553be9e52dcd0699979a3e8af86"
+      },
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/1e4469e06d4c93fd70fa71469c0c219ca7a25cb9",
+        "sha": "1e4469e06d4c93fd70fa71469c0c219ca7a25cb9",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/1e4469e06d4c93fd70fa71469c0c219ca7a25cb9"
+      }
+    ],
+    "sha": "32246399e70c4152a96dba263286ac7da1d92151",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/32246399e70c4152a96dba263286ac7da1d92151"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/793969?v=4",
+      "events_url": "https://api.github.com/users/couchand/events{/privacy}",
+      "followers_url": "https://api.github.com/users/couchand/followers",
+      "following_url": "https://api.github.com/users/couchand/following{/other_user}",
+      "gists_url": "https://api.github.com/users/couchand/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/couchand",
+      "id": 793969,
+      "login": "couchand",
+      "node_id": "MDQ6VXNlcjc5Mzk2OQ==",
+      "organizations_url": "https://api.github.com/users/couchand/orgs",
+      "received_events_url": "https://api.github.com/users/couchand/received_events",
+      "repos_url": "https://api.github.com/users/couchand/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/couchand/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/couchand/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/couchand"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/1e4469e06d4c93fd70fa71469c0c219ca7a25cb9/comments",
+    "commit": {
+      "author": {
+        "date": "2018-03-21T02:24:35Z",
+        "email": "hi@andrewcou.ch",
+        "name": "Andrew Couch"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2018-03-29T15:39:32Z",
+        "email": "andrew@cockroachlabs.com",
+        "name": "Andrew Couch"
+      },
+      "message": "build: add bors.toml\n\nTeaches Bors to wait for a successful build on TeamCity before merging\napproved PRs to master, and not to merge PRs labeled do-not-merge.\n\nContributes to #22499\nRelease note (build change): Begin using Bors to automate the process of\nmerging PRs to master.",
+      "tree": {
+        "sha": "3d3fd913ac207d24b88c0d3a225b4f1b2ea1dc84",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/3d3fd913ac207d24b88c0d3a225b4f1b2ea1dc84"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/1e4469e06d4c93fd70fa71469c0c219ca7a25cb9",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/793969?v=4",
+      "events_url": "https://api.github.com/users/couchand/events{/privacy}",
+      "followers_url": "https://api.github.com/users/couchand/followers",
+      "following_url": "https://api.github.com/users/couchand/following{/other_user}",
+      "gists_url": "https://api.github.com/users/couchand/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/couchand",
+      "id": 793969,
+      "login": "couchand",
+      "node_id": "MDQ6VXNlcjc5Mzk2OQ==",
+      "organizations_url": "https://api.github.com/users/couchand/orgs",
+      "received_events_url": "https://api.github.com/users/couchand/received_events",
+      "repos_url": "https://api.github.com/users/couchand/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/couchand/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/couchand/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/couchand"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/1e4469e06d4c93fd70fa71469c0c219ca7a25cb9",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6MWU0NDY5ZTA2ZDRjOTNmZDcwZmE3MTQ2OWMwYzIxOWNhN2EyNWNiOQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/b277f36d8427c553be9e52dcd0699979a3e8af86",
+        "sha": "b277f36d8427c553be9e52dcd0699979a3e8af86",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/b277f36d8427c553be9e52dcd0699979a3e8af86"
+      }
+    ],
+    "sha": "1e4469e06d4c93fd70fa71469c0c219ca7a25cb9",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/1e4469e06d4c93fd70fa71469c0c219ca7a25cb9"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/160562?v=4",
+      "events_url": "https://api.github.com/users/bdarnell/events{/privacy}",
+      "followers_url": "https://api.github.com/users/bdarnell/followers",
+      "following_url": "https://api.github.com/users/bdarnell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bdarnell/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/bdarnell",
+      "id": 160562,
+      "login": "bdarnell",
+      "node_id": "MDQ6VXNlcjE2MDU2Mg==",
+      "organizations_url": "https://api.github.com/users/bdarnell/orgs",
+      "received_events_url": "https://api.github.com/users/bdarnell/received_events",
+      "repos_url": "https://api.github.com/users/bdarnell/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/bdarnell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bdarnell/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/bdarnell"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/b277f36d8427c553be9e52dcd0699979a3e8af86/comments",
+    "commit": {
+      "author": {
+        "date": "2018-02-11T17:17:58Z",
+        "email": "ben@bendarnell.com",
+        "name": "Ben Darnell"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2018-02-11T17:17:58Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #22563 from bdarnell/1.0-backports\n\nrelease-1.0: Backports and updates for table lease leak",
+      "tree": {
+        "sha": "87be36f7f0ca5e9127f6f962d8465b15ccdf5e3b",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/87be36f7f0ca5e9127f6f962d8465b15ccdf5e3b"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/b277f36d8427c553be9e52dcd0699979a3e8af86",
+      "verification": {
+        "payload": "tree 87be36f7f0ca5e9127f6f962d8465b15ccdf5e3b\nparent d908364cc3aa380d14822a7286d1347b04922627\nparent d9bcbef9b08707dfd764d9909790fb0d811562fe\nauthor Ben Darnell <ben@bendarnell.com> 1518369478 -0500\ncommitter GitHub <noreply@github.com> 1518369478 -0500\n\nMerge pull request #22563 from bdarnell/1.0-backports\n\nrelease-1.0: Backports and updates for table lease leak",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJagHrGCRBK7hj4Ov3rIwAAdHIIAJzYwUhICugifxYkdopt/tVg\n4H1CAT77dviX0UhHiGv6pJD7yNd8s0T2m/HKoqt1t+w6XuvpDC20Uc4r5TUioVvl\nfuPkyJTzzAvhzvCQl4K+J4U6sMmQuvgpzAg5ZGlLaCd9pDjfC80Wgp1c0Q19pcPA\n1xyB15zR5XCXR9+A+uRM7iFoRc3JSQt2zrlP+az1v6chqKR4ZFC1jQdVGiX/182i\ns4bMzkI1fgqfJcFuEUMj2zrB+ilhXriU97THJxMcyhYKemAo6zJfm08BtmzVKFyc\njihwg4SfjzUIzAUScbV9Yj3BWui/4im2C4uum5IUfB098Yn6ITjQv9VUTpFweFI=\n=66wG\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/b277f36d8427c553be9e52dcd0699979a3e8af86",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6YjI3N2YzNmQ4NDI3YzU1M2JlOWU1MmRjZDA2OTk5NzlhM2U4YWY4Ng==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/d908364cc3aa380d14822a7286d1347b04922627",
+        "sha": "d908364cc3aa380d14822a7286d1347b04922627",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/d908364cc3aa380d14822a7286d1347b04922627"
+      },
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/d9bcbef9b08707dfd764d9909790fb0d811562fe",
+        "sha": "d9bcbef9b08707dfd764d9909790fb0d811562fe",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/d9bcbef9b08707dfd764d9909790fb0d811562fe"
+      }
+    ],
+    "sha": "b277f36d8427c553be9e52dcd0699979a3e8af86",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/b277f36d8427c553be9e52dcd0699979a3e8af86"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/160562?v=4",
+      "events_url": "https://api.github.com/users/bdarnell/events{/privacy}",
+      "followers_url": "https://api.github.com/users/bdarnell/followers",
+      "following_url": "https://api.github.com/users/bdarnell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bdarnell/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/bdarnell",
+      "id": 160562,
+      "login": "bdarnell",
+      "node_id": "MDQ6VXNlcjE2MDU2Mg==",
+      "organizations_url": "https://api.github.com/users/bdarnell/orgs",
+      "received_events_url": "https://api.github.com/users/bdarnell/received_events",
+      "repos_url": "https://api.github.com/users/bdarnell/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/bdarnell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bdarnell/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/bdarnell"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/d9bcbef9b08707dfd764d9909790fb0d811562fe/comments",
+    "commit": {
+      "author": {
+        "date": "2018-02-11T16:21:27Z",
+        "email": "ben@cockroachlabs.com",
+        "name": "Ben Darnell"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2018-02-11T16:42:28Z",
+        "email": "ben@cockroachlabs.com",
+        "name": "Ben Darnell"
+      },
+      "message": "build: Work around testrace goroutine limit for release-1.0\n\nNewer branches have a more sophisticated solution for this (#20542)",
+      "tree": {
+        "sha": "87be36f7f0ca5e9127f6f962d8465b15ccdf5e3b",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/87be36f7f0ca5e9127f6f962d8465b15ccdf5e3b"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/d9bcbef9b08707dfd764d9909790fb0d811562fe",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/160562?v=4",
+      "events_url": "https://api.github.com/users/bdarnell/events{/privacy}",
+      "followers_url": "https://api.github.com/users/bdarnell/followers",
+      "following_url": "https://api.github.com/users/bdarnell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bdarnell/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/bdarnell",
+      "id": 160562,
+      "login": "bdarnell",
+      "node_id": "MDQ6VXNlcjE2MDU2Mg==",
+      "organizations_url": "https://api.github.com/users/bdarnell/orgs",
+      "received_events_url": "https://api.github.com/users/bdarnell/received_events",
+      "repos_url": "https://api.github.com/users/bdarnell/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/bdarnell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bdarnell/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/bdarnell"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/d9bcbef9b08707dfd764d9909790fb0d811562fe",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6ZDliY2JlZjliMDg3MDdkZmQ3NjRkOTkwOTc5MGZiMGQ4MTE1NjJmZQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/0a9e9bd8c681448da32ca0f4f65572c3380aef72",
+        "sha": "0a9e9bd8c681448da32ca0f4f65572c3380aef72",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/0a9e9bd8c681448da32ca0f4f65572c3380aef72"
+      }
+    ],
+    "sha": "d9bcbef9b08707dfd764d9909790fb0d811562fe",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/d9bcbef9b08707dfd764d9909790fb0d811562fe"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/160562?v=4",
+      "events_url": "https://api.github.com/users/bdarnell/events{/privacy}",
+      "followers_url": "https://api.github.com/users/bdarnell/followers",
+      "following_url": "https://api.github.com/users/bdarnell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bdarnell/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/bdarnell",
+      "id": 160562,
+      "login": "bdarnell",
+      "node_id": "MDQ6VXNlcjE2MDU2Mg==",
+      "organizations_url": "https://api.github.com/users/bdarnell/orgs",
+      "received_events_url": "https://api.github.com/users/bdarnell/received_events",
+      "repos_url": "https://api.github.com/users/bdarnell/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/bdarnell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bdarnell/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/bdarnell"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/0a9e9bd8c681448da32ca0f4f65572c3380aef72/comments",
+    "commit": {
+      "author": {
+        "date": "2018-02-10T16:59:37Z",
+        "email": "ben@cockroachlabs.com",
+        "name": "Ben Darnell"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2018-02-11T16:42:28Z",
+        "email": "ben@cockroachlabs.com",
+        "name": "Ben Darnell"
+      },
+      "message": "sql: Remove unused nearly-expired leases when acquiring a new one\n\nThis prevents a leak (only present in 1.0) of these leases, which\ncould accumulate into a huge amount of work when PurgeOldLeases is\ncalled.\n\nFixes #20422",
+      "tree": {
+        "sha": "4e91ec49003acd131e3032ee2043d9d08f7470d3",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/4e91ec49003acd131e3032ee2043d9d08f7470d3"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/0a9e9bd8c681448da32ca0f4f65572c3380aef72",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/160562?v=4",
+      "events_url": "https://api.github.com/users/bdarnell/events{/privacy}",
+      "followers_url": "https://api.github.com/users/bdarnell/followers",
+      "following_url": "https://api.github.com/users/bdarnell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bdarnell/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/bdarnell",
+      "id": 160562,
+      "login": "bdarnell",
+      "node_id": "MDQ6VXNlcjE2MDU2Mg==",
+      "organizations_url": "https://api.github.com/users/bdarnell/orgs",
+      "received_events_url": "https://api.github.com/users/bdarnell/received_events",
+      "repos_url": "https://api.github.com/users/bdarnell/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/bdarnell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bdarnell/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/bdarnell"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/0a9e9bd8c681448da32ca0f4f65572c3380aef72",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6MGE5ZTliZDhjNjgxNDQ4ZGEzMmNhMGY0ZjY1NTcyYzMzODBhZWY3Mg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/b43d5ba3ec7bd7408293c178415fcb99fbdbb80f",
+        "sha": "b43d5ba3ec7bd7408293c178415fcb99fbdbb80f",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/b43d5ba3ec7bd7408293c178415fcb99fbdbb80f"
+      }
+    ],
+    "sha": "0a9e9bd8c681448da32ca0f4f65572c3380aef72",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/0a9e9bd8c681448da32ca0f4f65572c3380aef72"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/160562?v=4",
+      "events_url": "https://api.github.com/users/bdarnell/events{/privacy}",
+      "followers_url": "https://api.github.com/users/bdarnell/followers",
+      "following_url": "https://api.github.com/users/bdarnell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bdarnell/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/bdarnell",
+      "id": 160562,
+      "login": "bdarnell",
+      "node_id": "MDQ6VXNlcjE2MDU2Mg==",
+      "organizations_url": "https://api.github.com/users/bdarnell/orgs",
+      "received_events_url": "https://api.github.com/users/bdarnell/received_events",
+      "repos_url": "https://api.github.com/users/bdarnell/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/bdarnell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bdarnell/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/bdarnell"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/b43d5ba3ec7bd7408293c178415fcb99fbdbb80f/comments",
+    "commit": {
+      "author": {
+        "date": "2018-02-10T17:12:37Z",
+        "email": "ben@cockroachlabs.com",
+        "name": "Ben Darnell"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2018-02-11T16:42:28Z",
+        "email": "ben@cockroachlabs.com",
+        "name": "Ben Darnell"
+      },
+      "message": "sql: Throttle lease removal\n\nAddresses #20451 for the release-1.0 branch",
+      "tree": {
+        "sha": "079aef25420224e5a7a790b6111cf069715df962",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/079aef25420224e5a7a790b6111cf069715df962"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/b43d5ba3ec7bd7408293c178415fcb99fbdbb80f",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/160562?v=4",
+      "events_url": "https://api.github.com/users/bdarnell/events{/privacy}",
+      "followers_url": "https://api.github.com/users/bdarnell/followers",
+      "following_url": "https://api.github.com/users/bdarnell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bdarnell/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/bdarnell",
+      "id": 160562,
+      "login": "bdarnell",
+      "node_id": "MDQ6VXNlcjE2MDU2Mg==",
+      "organizations_url": "https://api.github.com/users/bdarnell/orgs",
+      "received_events_url": "https://api.github.com/users/bdarnell/received_events",
+      "repos_url": "https://api.github.com/users/bdarnell/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/bdarnell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bdarnell/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/bdarnell"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/b43d5ba3ec7bd7408293c178415fcb99fbdbb80f",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6YjQzZDViYTNlYzdiZDc0MDgyOTNjMTc4NDE1ZmNiOTlmYmRiYjgwZg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/66ad7ad4cc92deffb009feffcc41a0a5e726bfc2",
+        "sha": "66ad7ad4cc92deffb009feffcc41a0a5e726bfc2",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/66ad7ad4cc92deffb009feffcc41a0a5e726bfc2"
+      }
+    ],
+    "sha": "b43d5ba3ec7bd7408293c178415fcb99fbdbb80f",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/b43d5ba3ec7bd7408293c178415fcb99fbdbb80f"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/160562?v=4",
+      "events_url": "https://api.github.com/users/bdarnell/events{/privacy}",
+      "followers_url": "https://api.github.com/users/bdarnell/followers",
+      "following_url": "https://api.github.com/users/bdarnell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bdarnell/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/bdarnell",
+      "id": 160562,
+      "login": "bdarnell",
+      "node_id": "MDQ6VXNlcjE2MDU2Mg==",
+      "organizations_url": "https://api.github.com/users/bdarnell/orgs",
+      "received_events_url": "https://api.github.com/users/bdarnell/received_events",
+      "repos_url": "https://api.github.com/users/bdarnell/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/bdarnell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bdarnell/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/bdarnell"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/66ad7ad4cc92deffb009feffcc41a0a5e726bfc2/comments",
+    "commit": {
+      "author": {
+        "date": "2018-02-10T15:40:40Z",
+        "email": "ben@cockroachlabs.com",
+        "name": "Ben Darnell"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2018-02-10T19:48:22Z",
+        "email": "ben@cockroachlabs.com",
+        "name": "Ben Darnell"
+      },
+      "message": "Update raft dependency for backport of coreos/etcd#9073",
+      "tree": {
+        "sha": "0c2b87b3207f6de13b16d2dd12b4389719a3839d",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/0c2b87b3207f6de13b16d2dd12b4389719a3839d"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/66ad7ad4cc92deffb009feffcc41a0a5e726bfc2",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/160562?v=4",
+      "events_url": "https://api.github.com/users/bdarnell/events{/privacy}",
+      "followers_url": "https://api.github.com/users/bdarnell/followers",
+      "following_url": "https://api.github.com/users/bdarnell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bdarnell/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/bdarnell",
+      "id": 160562,
+      "login": "bdarnell",
+      "node_id": "MDQ6VXNlcjE2MDU2Mg==",
+      "organizations_url": "https://api.github.com/users/bdarnell/orgs",
+      "received_events_url": "https://api.github.com/users/bdarnell/received_events",
+      "repos_url": "https://api.github.com/users/bdarnell/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/bdarnell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bdarnell/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/bdarnell"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/66ad7ad4cc92deffb009feffcc41a0a5e726bfc2",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6NjZhZDdhZDRjYzkyZGVmZmIwMDlmZWZmY2M0MWEwYTVlNzI2YmZjMg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/34219666db909ce9d392f39ae42e6af5ab9dea4e",
+        "sha": "34219666db909ce9d392f39ae42e6af5ab9dea4e",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/34219666db909ce9d392f39ae42e6af5ab9dea4e"
+      }
+    ],
+    "sha": "66ad7ad4cc92deffb009feffcc41a0a5e726bfc2",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/66ad7ad4cc92deffb009feffcc41a0a5e726bfc2"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/882976?v=4",
+      "events_url": "https://api.github.com/users/benesch/events{/privacy}",
+      "followers_url": "https://api.github.com/users/benesch/followers",
+      "following_url": "https://api.github.com/users/benesch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benesch/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/benesch",
+      "id": 882976,
+      "login": "benesch",
+      "node_id": "MDQ6VXNlcjg4Mjk3Ng==",
+      "organizations_url": "https://api.github.com/users/benesch/orgs",
+      "received_events_url": "https://api.github.com/users/benesch/received_events",
+      "repos_url": "https://api.github.com/users/benesch/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/benesch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benesch/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/benesch"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/34219666db909ce9d392f39ae42e6af5ab9dea4e/comments",
+    "commit": {
+      "author": {
+        "date": "2017-08-23T20:33:53Z",
+        "email": "nikhil.benesch@gmail.com",
+        "name": "Nikhil Benesch"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2018-02-10T19:48:21Z",
+        "email": "ben@cockroachlabs.com",
+        "name": "Ben Darnell"
+      },
+      "message": "util/log: don't panic\n\nPreviously, log.outputLogEntry could panic while holding the log mutex.\nThis would deadlock any goroutine that logged while recovering from the\npanic, which is approximately all of the recover routines. Most\nannoyingly, the crash reporter would deadlock, swallowing the cause of\nthe panic.\n\nAvoid panicking while holding the log mutex and use l.exit instead,\nwhich exists for this very purpose. In the process, enforce the\ninvariant that l.mu is held when l.exit is called. (The previous\nbehavior was, in fact, incorrect, as l.flushAll should not be called\nwithout holding l.mu.)\n\nAlso add a Tcl test to ensure this doesn't break in the future.",
+      "tree": {
+        "sha": "85ffbd9938e0d8b7b9e2521d25c950ed2b926df9",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/85ffbd9938e0d8b7b9e2521d25c950ed2b926df9"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/34219666db909ce9d392f39ae42e6af5ab9dea4e",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/160562?v=4",
+      "events_url": "https://api.github.com/users/bdarnell/events{/privacy}",
+      "followers_url": "https://api.github.com/users/bdarnell/followers",
+      "following_url": "https://api.github.com/users/bdarnell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bdarnell/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/bdarnell",
+      "id": 160562,
+      "login": "bdarnell",
+      "node_id": "MDQ6VXNlcjE2MDU2Mg==",
+      "organizations_url": "https://api.github.com/users/bdarnell/orgs",
+      "received_events_url": "https://api.github.com/users/bdarnell/received_events",
+      "repos_url": "https://api.github.com/users/bdarnell/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/bdarnell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bdarnell/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/bdarnell"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/34219666db909ce9d392f39ae42e6af5ab9dea4e",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6MzQyMTk2NjZkYjkwOWNlOWQzOTJmMzlhZTQyZTZhZjVhYjlkZWE0ZQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/d908364cc3aa380d14822a7286d1347b04922627",
+        "sha": "d908364cc3aa380d14822a7286d1347b04922627",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/d908364cc3aa380d14822a7286d1347b04922627"
+      }
+    ],
+    "sha": "34219666db909ce9d392f39ae42e6af5ab9dea4e",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/34219666db909ce9d392f39ae42e6af5ab9dea4e"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/160562?v=4",
+      "events_url": "https://api.github.com/users/bdarnell/events{/privacy}",
+      "followers_url": "https://api.github.com/users/bdarnell/followers",
+      "following_url": "https://api.github.com/users/bdarnell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bdarnell/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/bdarnell",
+      "id": 160562,
+      "login": "bdarnell",
+      "node_id": "MDQ6VXNlcjE2MDU2Mg==",
+      "organizations_url": "https://api.github.com/users/bdarnell/orgs",
+      "received_events_url": "https://api.github.com/users/bdarnell/received_events",
+      "repos_url": "https://api.github.com/users/bdarnell/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/bdarnell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bdarnell/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/bdarnell"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/d908364cc3aa380d14822a7286d1347b04922627/comments",
+    "commit": {
+      "author": {
+        "date": "2017-11-03T17:40:47Z",
+        "email": "ben@bendarnell.com",
+        "name": "Ben Darnell"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-11-03T17:40:47Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #19773 from bdarnell/post-failures-1.0\n\ncherrypick-1.0: build: Move issue-posting script from TC config to repo",
+      "tree": {
+        "sha": "17ba7ea5c0b299e048483a4beffca9618c6a2cfd",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/17ba7ea5c0b299e048483a4beffca9618c6a2cfd"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/d908364cc3aa380d14822a7286d1347b04922627",
+      "verification": {
+        "payload": "tree 17ba7ea5c0b299e048483a4beffca9618c6a2cfd\nparent 8edb4c9235a7bb8aa80761375db12bb4a7e5afeb\nparent bfec6803521e888050a85a8ca3f9f15f62b2ca6e\nauthor Ben Darnell <ben@bendarnell.com> 1509730847 -0400\ncommitter GitHub <noreply@github.com> 1509730847 -0400\n\nMerge pull request #19773 from bdarnell/post-failures-1.0\n\ncherrypick-1.0: build: Move issue-posting script from TC config to repo",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJZ/KofCRBK7hj4Ov3rIwAAdHIIAF435b8BtuknavOrVK+ZVXT8\nxvhRNYfOLLJEywutKBvToJ1K8AqURf8tRgX1BKpHrPePB9ZrjUp/8uwa1+YEp2qA\n0KFHJBqwMw8pR4tx4KAvCePxziKp50uYtGY7hdhikxd2OnUMZIjlyG5j52Ao3CjJ\nLovRsU2RqHawx9+7G2ja3DXKYKlke1utyAsUazS+jQYGyyzrFjKW2yDxn5RuoszZ\nnM3RqogpS+rK5bWOojMfmKltfPtfMCcHyFWRy5Vu6Ot0fIrBAem4arnmW4CrKMKM\n0Mn99vdpT5gxTlAwqpJOADYn4/tKspxgAXorsphSDez7SpAlKXPb+/2KGcEOlPU=\n=HiWa\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/d908364cc3aa380d14822a7286d1347b04922627",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6ZDkwODM2NGNjM2FhMzgwZDE0ODIyYTcyODZkMTM0N2IwNDkyMjYyNw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/8edb4c9235a7bb8aa80761375db12bb4a7e5afeb",
+        "sha": "8edb4c9235a7bb8aa80761375db12bb4a7e5afeb",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/8edb4c9235a7bb8aa80761375db12bb4a7e5afeb"
+      },
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/bfec6803521e888050a85a8ca3f9f15f62b2ca6e",
+        "sha": "bfec6803521e888050a85a8ca3f9f15f62b2ca6e",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/bfec6803521e888050a85a8ca3f9f15f62b2ca6e"
+      }
+    ],
+    "sha": "d908364cc3aa380d14822a7286d1347b04922627",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/d908364cc3aa380d14822a7286d1347b04922627"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/160562?v=4",
+      "events_url": "https://api.github.com/users/bdarnell/events{/privacy}",
+      "followers_url": "https://api.github.com/users/bdarnell/followers",
+      "following_url": "https://api.github.com/users/bdarnell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bdarnell/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/bdarnell",
+      "id": 160562,
+      "login": "bdarnell",
+      "node_id": "MDQ6VXNlcjE2MDU2Mg==",
+      "organizations_url": "https://api.github.com/users/bdarnell/orgs",
+      "received_events_url": "https://api.github.com/users/bdarnell/received_events",
+      "repos_url": "https://api.github.com/users/bdarnell/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/bdarnell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bdarnell/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/bdarnell"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/bfec6803521e888050a85a8ca3f9f15f62b2ca6e/comments",
+    "commit": {
+      "author": {
+        "date": "2017-11-02T18:59:42Z",
+        "email": "ben@cockroachlabs.com",
+        "name": "Ben Darnell"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-11-03T16:43:12Z",
+        "email": "ben@cockroachlabs.com",
+        "name": "Ben Darnell"
+      },
+      "message": "build: Move issue-posting script from TC config to repo\n\nThis is cleaned up from the previous version and modified to work\nfor any project, not just merge-to-master.",
+      "tree": {
+        "sha": "17ba7ea5c0b299e048483a4beffca9618c6a2cfd",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/17ba7ea5c0b299e048483a4beffca9618c6a2cfd"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/bfec6803521e888050a85a8ca3f9f15f62b2ca6e",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/160562?v=4",
+      "events_url": "https://api.github.com/users/bdarnell/events{/privacy}",
+      "followers_url": "https://api.github.com/users/bdarnell/followers",
+      "following_url": "https://api.github.com/users/bdarnell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bdarnell/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/bdarnell",
+      "id": 160562,
+      "login": "bdarnell",
+      "node_id": "MDQ6VXNlcjE2MDU2Mg==",
+      "organizations_url": "https://api.github.com/users/bdarnell/orgs",
+      "received_events_url": "https://api.github.com/users/bdarnell/received_events",
+      "repos_url": "https://api.github.com/users/bdarnell/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/bdarnell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bdarnell/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/bdarnell"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/bfec6803521e888050a85a8ca3f9f15f62b2ca6e",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6YmZlYzY4MDM1MjFlODg4MDUwYTg1YThjYTNmOWYxNWY2MmIyY2E2ZQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/8edb4c9235a7bb8aa80761375db12bb4a7e5afeb",
+        "sha": "8edb4c9235a7bb8aa80761375db12bb4a7e5afeb",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/8edb4c9235a7bb8aa80761375db12bb4a7e5afeb"
+      }
+    ],
+    "sha": "bfec6803521e888050a85a8ca3f9f15f62b2ca6e",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/bfec6803521e888050a85a8ca3f9f15f62b2ca6e"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6201335?v=4",
+      "events_url": "https://api.github.com/users/petermattis/events{/privacy}",
+      "followers_url": "https://api.github.com/users/petermattis/followers",
+      "following_url": "https://api.github.com/users/petermattis/following{/other_user}",
+      "gists_url": "https://api.github.com/users/petermattis/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/petermattis",
+      "id": 6201335,
+      "login": "petermattis",
+      "node_id": "MDQ6VXNlcjYyMDEzMzU=",
+      "organizations_url": "https://api.github.com/users/petermattis/orgs",
+      "received_events_url": "https://api.github.com/users/petermattis/received_events",
+      "repos_url": "https://api.github.com/users/petermattis/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/petermattis/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/petermattis/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/petermattis"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/8edb4c9235a7bb8aa80761375db12bb4a7e5afeb/comments",
+    "commit": {
+      "author": {
+        "date": "2017-09-09T19:38:53Z",
+        "email": "peter@cockroachlabs.com",
+        "name": "Peter Mattis"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-09-09T19:38:53Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #18397 from petermattis/pmattis/rocksdb-delete-range-bug\n\nstorage/engine: reproduce RocksDB DeleteRange bug",
+      "tree": {
+        "sha": "fdd2a75e24ab8c2f9eb7daaddd6bf1e90d6fe402",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/fdd2a75e24ab8c2f9eb7daaddd6bf1e90d6fe402"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/8edb4c9235a7bb8aa80761375db12bb4a7e5afeb",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/8edb4c9235a7bb8aa80761375db12bb4a7e5afeb",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6OGVkYjRjOTIzNWE3YmI4YWE4MDc2MTM3NWRiMTJiYjRhN2U1YWZlYg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/2b2b0bd5a5e4f00cd697cf1bb57a88255e85e3a5",
+        "sha": "2b2b0bd5a5e4f00cd697cf1bb57a88255e85e3a5",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/2b2b0bd5a5e4f00cd697cf1bb57a88255e85e3a5"
+      },
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/d5db6ef7e96765934521c92a9023b1a57f4a3329",
+        "sha": "d5db6ef7e96765934521c92a9023b1a57f4a3329",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/d5db6ef7e96765934521c92a9023b1a57f4a3329"
+      }
+    ],
+    "sha": "8edb4c9235a7bb8aa80761375db12bb4a7e5afeb",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/8edb4c9235a7bb8aa80761375db12bb4a7e5afeb"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6201335?v=4",
+      "events_url": "https://api.github.com/users/petermattis/events{/privacy}",
+      "followers_url": "https://api.github.com/users/petermattis/followers",
+      "following_url": "https://api.github.com/users/petermattis/following{/other_user}",
+      "gists_url": "https://api.github.com/users/petermattis/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/petermattis",
+      "id": 6201335,
+      "login": "petermattis",
+      "node_id": "MDQ6VXNlcjYyMDEzMzU=",
+      "organizations_url": "https://api.github.com/users/petermattis/orgs",
+      "received_events_url": "https://api.github.com/users/petermattis/received_events",
+      "repos_url": "https://api.github.com/users/petermattis/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/petermattis/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/petermattis/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/petermattis"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/d5db6ef7e96765934521c92a9023b1a57f4a3329/comments",
+    "commit": {
+      "author": {
+        "date": "2017-09-08T19:20:16Z",
+        "email": "petermattis@gmail.com",
+        "name": "Peter Mattis"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-09-09T19:09:16Z",
+        "email": "petermattis@gmail.com",
+        "name": "Peter Mattis"
+      },
+      "message": "storage/engine: reproduce RocksDB DeleteRange bug\n\nManually apply the fix to our RocksDB repo. The presence of the test\nwill prevent upgrading to a version of RocksDB that does not contain the\nfix.\n\nFixes #18371",
+      "tree": {
+        "sha": "0593f370a40fb77e06db6982c01959aa9624dd3f",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/0593f370a40fb77e06db6982c01959aa9624dd3f"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/d5db6ef7e96765934521c92a9023b1a57f4a3329",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6201335?v=4",
+      "events_url": "https://api.github.com/users/petermattis/events{/privacy}",
+      "followers_url": "https://api.github.com/users/petermattis/followers",
+      "following_url": "https://api.github.com/users/petermattis/following{/other_user}",
+      "gists_url": "https://api.github.com/users/petermattis/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/petermattis",
+      "id": 6201335,
+      "login": "petermattis",
+      "node_id": "MDQ6VXNlcjYyMDEzMzU=",
+      "organizations_url": "https://api.github.com/users/petermattis/orgs",
+      "received_events_url": "https://api.github.com/users/petermattis/received_events",
+      "repos_url": "https://api.github.com/users/petermattis/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/petermattis/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/petermattis/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/petermattis"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/d5db6ef7e96765934521c92a9023b1a57f4a3329",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6ZDVkYjZlZjdlOTY3NjU5MzQ1MjFjOTJhOTAyM2IxYTU3ZjRhMzMyOQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/ae6bdcda6ecbc564e408c30d4ea877ebd5087efd",
+        "sha": "ae6bdcda6ecbc564e408c30d4ea877ebd5087efd",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/ae6bdcda6ecbc564e408c30d4ea877ebd5087efd"
+      }
+    ],
+    "sha": "d5db6ef7e96765934521c92a9023b1a57f4a3329",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/d5db6ef7e96765934521c92a9023b1a57f4a3329"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/160562?v=4",
+      "events_url": "https://api.github.com/users/bdarnell/events{/privacy}",
+      "followers_url": "https://api.github.com/users/bdarnell/followers",
+      "following_url": "https://api.github.com/users/bdarnell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bdarnell/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/bdarnell",
+      "id": 160562,
+      "login": "bdarnell",
+      "node_id": "MDQ6VXNlcjE2MDU2Mg==",
+      "organizations_url": "https://api.github.com/users/bdarnell/orgs",
+      "received_events_url": "https://api.github.com/users/bdarnell/received_events",
+      "repos_url": "https://api.github.com/users/bdarnell/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/bdarnell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bdarnell/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/bdarnell"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/2b2b0bd5a5e4f00cd697cf1bb57a88255e85e3a5/comments",
+    "commit": {
+      "author": {
+        "date": "2017-09-09T17:05:07Z",
+        "email": "ben@bendarnell.com",
+        "name": "Ben Darnell"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-09-09T17:05:07Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #18385 from tschottdorf/cp1.0-prev\n\ncherrypick-1.0: kv: fix (the horribly broken) prev()",
+      "tree": {
+        "sha": "520fb2c4255c9ac9adbcd0aa0167ce2b1084153a",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/520fb2c4255c9ac9adbcd0aa0167ce2b1084153a"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/2b2b0bd5a5e4f00cd697cf1bb57a88255e85e3a5",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/2b2b0bd5a5e4f00cd697cf1bb57a88255e85e3a5",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6MmIyYjBiZDVhNWU0ZjAwY2Q2OTdjZjFiYjU3YTg4MjU1ZTg1ZTNhNQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/ae6bdcda6ecbc564e408c30d4ea877ebd5087efd",
+        "sha": "ae6bdcda6ecbc564e408c30d4ea877ebd5087efd",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/ae6bdcda6ecbc564e408c30d4ea877ebd5087efd"
+      },
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/293f6e04101c69761de4efb64359aa901be5808d",
+        "sha": "293f6e04101c69761de4efb64359aa901be5808d",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/293f6e04101c69761de4efb64359aa901be5808d"
+      }
+    ],
+    "sha": "2b2b0bd5a5e4f00cd697cf1bb57a88255e85e3a5",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/2b2b0bd5a5e4f00cd697cf1bb57a88255e85e3a5"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5076964?v=4",
+      "events_url": "https://api.github.com/users/tbg/events{/privacy}",
+      "followers_url": "https://api.github.com/users/tbg/followers",
+      "following_url": "https://api.github.com/users/tbg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tbg/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/tbg",
+      "id": 5076964,
+      "login": "tbg",
+      "node_id": "MDQ6VXNlcjUwNzY5NjQ=",
+      "organizations_url": "https://api.github.com/users/tbg/orgs",
+      "received_events_url": "https://api.github.com/users/tbg/received_events",
+      "repos_url": "https://api.github.com/users/tbg/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/tbg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tbg/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/tbg"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/293f6e04101c69761de4efb64359aa901be5808d/comments",
+    "commit": {
+      "author": {
+        "date": "2017-09-08T23:05:02Z",
+        "email": "tobias.schottdorf@gmail.com",
+        "name": "Tobias Schottdorf"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-09-08T23:05:02Z",
+        "email": "tobias.schottdorf@gmail.com",
+        "name": "Tobias Schottdorf"
+      },
+      "message": "kv: strip out unsupported test",
+      "tree": {
+        "sha": "520fb2c4255c9ac9adbcd0aa0167ce2b1084153a",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/520fb2c4255c9ac9adbcd0aa0167ce2b1084153a"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/293f6e04101c69761de4efb64359aa901be5808d",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5076964?v=4",
+      "events_url": "https://api.github.com/users/tbg/events{/privacy}",
+      "followers_url": "https://api.github.com/users/tbg/followers",
+      "following_url": "https://api.github.com/users/tbg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tbg/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/tbg",
+      "id": 5076964,
+      "login": "tbg",
+      "node_id": "MDQ6VXNlcjUwNzY5NjQ=",
+      "organizations_url": "https://api.github.com/users/tbg/orgs",
+      "received_events_url": "https://api.github.com/users/tbg/received_events",
+      "repos_url": "https://api.github.com/users/tbg/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/tbg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tbg/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/tbg"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/293f6e04101c69761de4efb64359aa901be5808d",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6MjkzZjZlMDQxMDFjNjk3NjFkZTRlZmI2NDM1OWFhOTAxYmU1ODA4ZA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/30651501966719d6b7164ab615fe8749c9545c21",
+        "sha": "30651501966719d6b7164ab615fe8749c9545c21",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/30651501966719d6b7164ab615fe8749c9545c21"
+      }
+    ],
+    "sha": "293f6e04101c69761de4efb64359aa901be5808d",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/293f6e04101c69761de4efb64359aa901be5808d"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5076964?v=4",
+      "events_url": "https://api.github.com/users/tbg/events{/privacy}",
+      "followers_url": "https://api.github.com/users/tbg/followers",
+      "following_url": "https://api.github.com/users/tbg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tbg/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/tbg",
+      "id": 5076964,
+      "login": "tbg",
+      "node_id": "MDQ6VXNlcjUwNzY5NjQ=",
+      "organizations_url": "https://api.github.com/users/tbg/orgs",
+      "received_events_url": "https://api.github.com/users/tbg/received_events",
+      "repos_url": "https://api.github.com/users/tbg/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/tbg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tbg/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/tbg"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/30651501966719d6b7164ab615fe8749c9545c21/comments",
+    "commit": {
+      "author": {
+        "date": "2017-09-08T20:40:25Z",
+        "email": "tobias.schottdorf@gmail.com",
+        "name": "Tobias Schottdorf"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-09-08T23:02:12Z",
+        "email": "tobias.schottdorf@gmail.com",
+        "name": "Tobias Schottdorf"
+      },
+      "message": "kv: fix (the horribly broken) prev()\n\nprev() was broken in two ways:\n\n- it had a one-off where `prev([a, b), b)` would  return `b` instead of `KeyMin`.\n- in one path it was assembling the return from the start keys, not the end keys, which is\n  wrong. When keys `>= c` have been handled, and your remaining batch is `[a, b)`, it would\n  erroneously return `a` instead of `b`.",
+      "tree": {
+        "sha": "8cc513e40fe69a5cd36854ff949009815eeb4939",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/8cc513e40fe69a5cd36854ff949009815eeb4939"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/30651501966719d6b7164ab615fe8749c9545c21",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5076964?v=4",
+      "events_url": "https://api.github.com/users/tbg/events{/privacy}",
+      "followers_url": "https://api.github.com/users/tbg/followers",
+      "following_url": "https://api.github.com/users/tbg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tbg/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/tbg",
+      "id": 5076964,
+      "login": "tbg",
+      "node_id": "MDQ6VXNlcjUwNzY5NjQ=",
+      "organizations_url": "https://api.github.com/users/tbg/orgs",
+      "received_events_url": "https://api.github.com/users/tbg/received_events",
+      "repos_url": "https://api.github.com/users/tbg/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/tbg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tbg/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/tbg"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/30651501966719d6b7164ab615fe8749c9545c21",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6MzA2NTE1MDE5NjY3MTlkNmI3MTY0YWI2MTVmZTg3NDljOTU0NWMyMQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/ae6bdcda6ecbc564e408c30d4ea877ebd5087efd",
+        "sha": "ae6bdcda6ecbc564e408c30d4ea877ebd5087efd",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/ae6bdcda6ecbc564e408c30d4ea877ebd5087efd"
+      }
+    ],
+    "sha": "30651501966719d6b7164ab615fe8749c9545c21",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/30651501966719d6b7164ab615fe8749c9545c21"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/160562?v=4",
+      "events_url": "https://api.github.com/users/bdarnell/events{/privacy}",
+      "followers_url": "https://api.github.com/users/bdarnell/followers",
+      "following_url": "https://api.github.com/users/bdarnell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bdarnell/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/bdarnell",
+      "id": 160562,
+      "login": "bdarnell",
+      "node_id": "MDQ6VXNlcjE2MDU2Mg==",
+      "organizations_url": "https://api.github.com/users/bdarnell/orgs",
+      "received_events_url": "https://api.github.com/users/bdarnell/received_events",
+      "repos_url": "https://api.github.com/users/bdarnell/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/bdarnell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bdarnell/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/bdarnell"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/ae6bdcda6ecbc564e408c30d4ea877ebd5087efd/comments",
+    "commit": {
+      "author": {
+        "date": "2017-09-07T20:12:14Z",
+        "email": "ben@bendarnell.com",
+        "name": "Ben Darnell"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-09-07T20:12:14Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #18335 from bdarnell/cherrypick-redact-server-name\n\ncherrypick-1.0: Redact hostnames in crash reports",
+      "tree": {
+        "sha": "e0e2f3b503845d7833923007aa3ac46457405f02",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/e0e2f3b503845d7833923007aa3ac46457405f02"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/ae6bdcda6ecbc564e408c30d4ea877ebd5087efd",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/ae6bdcda6ecbc564e408c30d4ea877ebd5087efd",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6YWU2YmRjZGE2ZWNiYzU2NGU0MDhjMzBkNGVhODc3ZWJkNTA4N2VmZA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/076e9d2a239115338d3b89881e4f351f50564ed6",
+        "sha": "076e9d2a239115338d3b89881e4f351f50564ed6",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/076e9d2a239115338d3b89881e4f351f50564ed6"
+      },
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/ad9ed1541e3f3b3ec8604f03b6bf8ce64a8f4847",
+        "sha": "ad9ed1541e3f3b3ec8604f03b6bf8ce64a8f4847",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/ad9ed1541e3f3b3ec8604f03b6bf8ce64a8f4847"
+      }
+    ],
+    "sha": "ae6bdcda6ecbc564e408c30d4ea877ebd5087efd",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/ae6bdcda6ecbc564e408c30d4ea877ebd5087efd"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/882976?v=4",
+      "events_url": "https://api.github.com/users/benesch/events{/privacy}",
+      "followers_url": "https://api.github.com/users/benesch/followers",
+      "following_url": "https://api.github.com/users/benesch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benesch/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/benesch",
+      "id": 882976,
+      "login": "benesch",
+      "node_id": "MDQ6VXNlcjg4Mjk3Ng==",
+      "organizations_url": "https://api.github.com/users/benesch/orgs",
+      "received_events_url": "https://api.github.com/users/benesch/received_events",
+      "repos_url": "https://api.github.com/users/benesch/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/benesch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benesch/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/benesch"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/ad9ed1541e3f3b3ec8604f03b6bf8ce64a8f4847/comments",
+    "commit": {
+      "author": {
+        "date": "2017-06-05T18:59:03Z",
+        "email": "nikhil.benesch@gmail.com",
+        "name": "Nikhil Benesch"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-09-07T19:50:19Z",
+        "email": "ben@cockroachlabs.com",
+        "name": "Ben Darnell"
+      },
+      "message": "util/log: redact hostnames in crash reports",
+      "tree": {
+        "sha": "575b7bb624c25a62c206c8e0e292f9b6e68d6d29",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/575b7bb624c25a62c206c8e0e292f9b6e68d6d29"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/ad9ed1541e3f3b3ec8604f03b6bf8ce64a8f4847",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/160562?v=4",
+      "events_url": "https://api.github.com/users/bdarnell/events{/privacy}",
+      "followers_url": "https://api.github.com/users/bdarnell/followers",
+      "following_url": "https://api.github.com/users/bdarnell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bdarnell/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/bdarnell",
+      "id": 160562,
+      "login": "bdarnell",
+      "node_id": "MDQ6VXNlcjE2MDU2Mg==",
+      "organizations_url": "https://api.github.com/users/bdarnell/orgs",
+      "received_events_url": "https://api.github.com/users/bdarnell/received_events",
+      "repos_url": "https://api.github.com/users/bdarnell/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/bdarnell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bdarnell/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/bdarnell"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/ad9ed1541e3f3b3ec8604f03b6bf8ce64a8f4847",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6YWQ5ZWQxNTQxZTNmM2IzZWM4NjA0ZjAzYjZiZjhjZTY0YThmNDg0Nw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/9eb35d3cbaadf1f6df5e1d8d7a21190fcbbf2d5b",
+        "sha": "9eb35d3cbaadf1f6df5e1d8d7a21190fcbbf2d5b",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/9eb35d3cbaadf1f6df5e1d8d7a21190fcbbf2d5b"
+      }
+    ],
+    "sha": "ad9ed1541e3f3b3ec8604f03b6bf8ce64a8f4847",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/ad9ed1541e3f3b3ec8604f03b6bf8ce64a8f4847"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/7085343?v=4",
+      "events_url": "https://api.github.com/users/a-robinson/events{/privacy}",
+      "followers_url": "https://api.github.com/users/a-robinson/followers",
+      "following_url": "https://api.github.com/users/a-robinson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/a-robinson/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/a-robinson",
+      "id": 7085343,
+      "login": "a-robinson",
+      "node_id": "MDQ6VXNlcjcwODUzNDM=",
+      "organizations_url": "https://api.github.com/users/a-robinson/orgs",
+      "received_events_url": "https://api.github.com/users/a-robinson/received_events",
+      "repos_url": "https://api.github.com/users/a-robinson/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/a-robinson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/a-robinson/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/a-robinson"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/076e9d2a239115338d3b89881e4f351f50564ed6/comments",
+    "commit": {
+      "author": {
+        "date": "2017-09-07T19:23:32Z",
+        "email": "alexdwanerobinson@gmail.com",
+        "name": "Alex Robinson"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-09-07T19:23:32Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #18333 from a-robinson/debug-1.0\n\ncherrypick-1.0: server: Fix incorrect help text for server.remote_debugging.mode",
+      "tree": {
+        "sha": "393fa4dcff7fcc6154592a6444a0f672aa53961d",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/393fa4dcff7fcc6154592a6444a0f672aa53961d"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/076e9d2a239115338d3b89881e4f351f50564ed6",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/076e9d2a239115338d3b89881e4f351f50564ed6",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6MDc2ZTlkMmEyMzkxMTUzMzhkM2I4OTg4MWU0ZjM1MWY1MDU2NGVkNg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/ff92261f9b3ead87840bca62536899d5e6731421",
+        "sha": "ff92261f9b3ead87840bca62536899d5e6731421",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/ff92261f9b3ead87840bca62536899d5e6731421"
+      },
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/1c4393947171df0ebfaba108e01c19fcebe7d098",
+        "sha": "1c4393947171df0ebfaba108e01c19fcebe7d098",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/1c4393947171df0ebfaba108e01c19fcebe7d098"
+      }
+    ],
+    "sha": "076e9d2a239115338d3b89881e4f351f50564ed6",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/076e9d2a239115338d3b89881e4f351f50564ed6"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5438456?v=4",
+      "events_url": "https://api.github.com/users/nvanbenschoten/events{/privacy}",
+      "followers_url": "https://api.github.com/users/nvanbenschoten/followers",
+      "following_url": "https://api.github.com/users/nvanbenschoten/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nvanbenschoten/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/nvanbenschoten",
+      "id": 5438456,
+      "login": "nvanbenschoten",
+      "node_id": "MDQ6VXNlcjU0Mzg0NTY=",
+      "organizations_url": "https://api.github.com/users/nvanbenschoten/orgs",
+      "received_events_url": "https://api.github.com/users/nvanbenschoten/received_events",
+      "repos_url": "https://api.github.com/users/nvanbenschoten/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/nvanbenschoten/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nvanbenschoten/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/nvanbenschoten"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/ff92261f9b3ead87840bca62536899d5e6731421/comments",
+    "commit": {
+      "author": {
+        "date": "2017-09-07T19:13:52Z",
+        "email": "nvanbenschoten@gmail.com",
+        "name": "Nathan VanBenschoten"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-09-07T19:13:52Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #18332 from nvanbenschoten/nvanbenschoten/reenable-parallel\n\nrelease-1.0: sql: don't throw error on parallel statements without env var",
+      "tree": {
+        "sha": "d76d44a8e0c11063d97f9cdc593a1dedad24d503",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/d76d44a8e0c11063d97f9cdc593a1dedad24d503"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/ff92261f9b3ead87840bca62536899d5e6731421",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/ff92261f9b3ead87840bca62536899d5e6731421",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6ZmY5MjI2MWY5YjNlYWQ4Nzg0MGJjYTYyNTM2ODk5ZDVlNjczMTQyMQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/9eb35d3cbaadf1f6df5e1d8d7a21190fcbbf2d5b",
+        "sha": "9eb35d3cbaadf1f6df5e1d8d7a21190fcbbf2d5b",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/9eb35d3cbaadf1f6df5e1d8d7a21190fcbbf2d5b"
+      },
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/76408588a5e2cef5736519a417bc40cdac8ee91c",
+        "sha": "76408588a5e2cef5736519a417bc40cdac8ee91c",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/76408588a5e2cef5736519a417bc40cdac8ee91c"
+      }
+    ],
+    "sha": "ff92261f9b3ead87840bca62536899d5e6731421",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/ff92261f9b3ead87840bca62536899d5e6731421"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/7085343?v=4",
+      "events_url": "https://api.github.com/users/a-robinson/events{/privacy}",
+      "followers_url": "https://api.github.com/users/a-robinson/followers",
+      "following_url": "https://api.github.com/users/a-robinson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/a-robinson/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/a-robinson",
+      "id": 7085343,
+      "login": "a-robinson",
+      "node_id": "MDQ6VXNlcjcwODUzNDM=",
+      "organizations_url": "https://api.github.com/users/a-robinson/orgs",
+      "received_events_url": "https://api.github.com/users/a-robinson/received_events",
+      "repos_url": "https://api.github.com/users/a-robinson/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/a-robinson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/a-robinson/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/a-robinson"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/1c4393947171df0ebfaba108e01c19fcebe7d098/comments",
+    "commit": {
+      "author": {
+        "date": "2017-09-07T18:13:26Z",
+        "email": "alexdwanerobinson@gmail.com",
+        "name": "Alex Robinson"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-09-07T18:52:56Z",
+        "email": "alexdwanerobinson@gmail.com",
+        "name": "Alex Robinson"
+      },
+      "message": "server: Fix incorrect help text for server.remote_debugging.mode",
+      "tree": {
+        "sha": "acbc31191b652d590e2f582a35061817643d8816",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/acbc31191b652d590e2f582a35061817643d8816"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/1c4393947171df0ebfaba108e01c19fcebe7d098",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/7085343?v=4",
+      "events_url": "https://api.github.com/users/a-robinson/events{/privacy}",
+      "followers_url": "https://api.github.com/users/a-robinson/followers",
+      "following_url": "https://api.github.com/users/a-robinson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/a-robinson/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/a-robinson",
+      "id": 7085343,
+      "login": "a-robinson",
+      "node_id": "MDQ6VXNlcjcwODUzNDM=",
+      "organizations_url": "https://api.github.com/users/a-robinson/orgs",
+      "received_events_url": "https://api.github.com/users/a-robinson/received_events",
+      "repos_url": "https://api.github.com/users/a-robinson/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/a-robinson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/a-robinson/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/a-robinson"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/1c4393947171df0ebfaba108e01c19fcebe7d098",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6MWM0MzkzOTQ3MTcxZGYwZWJmYWJhMTA4ZTAxYzE5ZmNlYmU3ZDA5OA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/6f7d6b363fb7490ff9ec1cc2e6763cc1d0696103",
+        "sha": "6f7d6b363fb7490ff9ec1cc2e6763cc1d0696103",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/6f7d6b363fb7490ff9ec1cc2e6763cc1d0696103"
+      }
+    ],
+    "sha": "1c4393947171df0ebfaba108e01c19fcebe7d098",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/1c4393947171df0ebfaba108e01c19fcebe7d098"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5438456?v=4",
+      "events_url": "https://api.github.com/users/nvanbenschoten/events{/privacy}",
+      "followers_url": "https://api.github.com/users/nvanbenschoten/followers",
+      "following_url": "https://api.github.com/users/nvanbenschoten/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nvanbenschoten/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/nvanbenschoten",
+      "id": 5438456,
+      "login": "nvanbenschoten",
+      "node_id": "MDQ6VXNlcjU0Mzg0NTY=",
+      "organizations_url": "https://api.github.com/users/nvanbenschoten/orgs",
+      "received_events_url": "https://api.github.com/users/nvanbenschoten/received_events",
+      "repos_url": "https://api.github.com/users/nvanbenschoten/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/nvanbenschoten/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nvanbenschoten/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/nvanbenschoten"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/76408588a5e2cef5736519a417bc40cdac8ee91c/comments",
+    "commit": {
+      "author": {
+        "date": "2017-09-07T18:12:20Z",
+        "email": "nvanbenschoten@gmail.com",
+        "name": "Nathan VanBenschoten"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-09-07T18:12:20Z",
+        "email": "nvanbenschoten@gmail.com",
+        "name": "Nathan VanBenschoten"
+      },
+      "message": "sql: don't throw error on parallel statements without env var",
+      "tree": {
+        "sha": "d76d44a8e0c11063d97f9cdc593a1dedad24d503",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/d76d44a8e0c11063d97f9cdc593a1dedad24d503"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/76408588a5e2cef5736519a417bc40cdac8ee91c",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5438456?v=4",
+      "events_url": "https://api.github.com/users/nvanbenschoten/events{/privacy}",
+      "followers_url": "https://api.github.com/users/nvanbenschoten/followers",
+      "following_url": "https://api.github.com/users/nvanbenschoten/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nvanbenschoten/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/nvanbenschoten",
+      "id": 5438456,
+      "login": "nvanbenschoten",
+      "node_id": "MDQ6VXNlcjU0Mzg0NTY=",
+      "organizations_url": "https://api.github.com/users/nvanbenschoten/orgs",
+      "received_events_url": "https://api.github.com/users/nvanbenschoten/received_events",
+      "repos_url": "https://api.github.com/users/nvanbenschoten/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/nvanbenschoten/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nvanbenschoten/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/nvanbenschoten"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/76408588a5e2cef5736519a417bc40cdac8ee91c",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6NzY0MDg1ODhhNWUyY2VmNTczNjUxOWE0MTdiYzQwY2RhYzhlZTkxYw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/9eb35d3cbaadf1f6df5e1d8d7a21190fcbbf2d5b",
+        "sha": "9eb35d3cbaadf1f6df5e1d8d7a21190fcbbf2d5b",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/9eb35d3cbaadf1f6df5e1d8d7a21190fcbbf2d5b"
+      }
+    ],
+    "sha": "76408588a5e2cef5736519a417bc40cdac8ee91c",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/76408588a5e2cef5736519a417bc40cdac8ee91c"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5076964?v=4",
+      "events_url": "https://api.github.com/users/tbg/events{/privacy}",
+      "followers_url": "https://api.github.com/users/tbg/followers",
+      "following_url": "https://api.github.com/users/tbg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tbg/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/tbg",
+      "id": 5076964,
+      "login": "tbg",
+      "node_id": "MDQ6VXNlcjUwNzY5NjQ=",
+      "organizations_url": "https://api.github.com/users/tbg/orgs",
+      "received_events_url": "https://api.github.com/users/tbg/received_events",
+      "repos_url": "https://api.github.com/users/tbg/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/tbg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tbg/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/tbg"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/9eb35d3cbaadf1f6df5e1d8d7a21190fcbbf2d5b/comments",
+    "commit": {
+      "author": {
+        "date": "2017-09-07T15:38:52Z",
+        "email": "tobias.schottdorf@gmail.com",
+        "name": "Tobias Schottdorf"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-09-07T15:38:52Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #18272 from tschottdorf/log-18082-18084\n\nstorage: more logging for raft handling crashes",
+      "tree": {
+        "sha": "bb7f45085521d4ca7b3ab13347f9d543a1cb139b",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/bb7f45085521d4ca7b3ab13347f9d543a1cb139b"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/9eb35d3cbaadf1f6df5e1d8d7a21190fcbbf2d5b",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/9eb35d3cbaadf1f6df5e1d8d7a21190fcbbf2d5b",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6OWViMzVkM2NiYWFkZjFmNmRmNWUxZDhkN2EyMTE5MGZjYmJmMmQ1Yg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/88cec1ad8e59076f6bfc9cc127e6225a7aeeb71f",
+        "sha": "88cec1ad8e59076f6bfc9cc127e6225a7aeeb71f",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/88cec1ad8e59076f6bfc9cc127e6225a7aeeb71f"
+      },
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/905632d3da3cc5dbe1f74473e6fdb557c25267ae",
+        "sha": "905632d3da3cc5dbe1f74473e6fdb557c25267ae",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/905632d3da3cc5dbe1f74473e6fdb557c25267ae"
+      }
+    ],
+    "sha": "9eb35d3cbaadf1f6df5e1d8d7a21190fcbbf2d5b",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/9eb35d3cbaadf1f6df5e1d8d7a21190fcbbf2d5b"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/7085343?v=4",
+      "events_url": "https://api.github.com/users/a-robinson/events{/privacy}",
+      "followers_url": "https://api.github.com/users/a-robinson/followers",
+      "following_url": "https://api.github.com/users/a-robinson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/a-robinson/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/a-robinson",
+      "id": 7085343,
+      "login": "a-robinson",
+      "node_id": "MDQ6VXNlcjcwODUzNDM=",
+      "organizations_url": "https://api.github.com/users/a-robinson/orgs",
+      "received_events_url": "https://api.github.com/users/a-robinson/received_events",
+      "repos_url": "https://api.github.com/users/a-robinson/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/a-robinson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/a-robinson/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/a-robinson"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/88cec1ad8e59076f6bfc9cc127e6225a7aeeb71f/comments",
+    "commit": {
+      "author": {
+        "date": "2017-09-07T15:32:48Z",
+        "email": "alexdwanerobinson@gmail.com",
+        "name": "Alex Robinson"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-09-07T15:32:48Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #18282 from a-robinson/cherrypick_18172\n\ncherrypick: storage: Log a help message if raft data is missing",
+      "tree": {
+        "sha": "737ce8403224c00655ae244c34bd4a06800b750c",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/737ce8403224c00655ae244c34bd4a06800b750c"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/88cec1ad8e59076f6bfc9cc127e6225a7aeeb71f",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/88cec1ad8e59076f6bfc9cc127e6225a7aeeb71f",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6ODhjZWMxYWQ4ZTU5MDc2ZjZiZmM5Y2MxMjdlNjIyNWE3YWVlYjcxZg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/a919adb81142f0fcd8e26f32892e642e40ace625",
+        "sha": "a919adb81142f0fcd8e26f32892e642e40ace625",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/a919adb81142f0fcd8e26f32892e642e40ace625"
+      },
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/d56711edb4262c76162491eebb2e3ef899e54d1b",
+        "sha": "d56711edb4262c76162491eebb2e3ef899e54d1b",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/d56711edb4262c76162491eebb2e3ef899e54d1b"
+      }
+    ],
+    "sha": "88cec1ad8e59076f6bfc9cc127e6225a7aeeb71f",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/88cec1ad8e59076f6bfc9cc127e6225a7aeeb71f"
+  }
+]

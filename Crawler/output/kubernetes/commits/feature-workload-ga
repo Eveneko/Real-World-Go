@@ -1,0 +1,1980 @@
+[
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/b80b7b08c953ec8e4dcad5e86474126703d3afca/comments",
+    "commit": {
+      "author": {
+        "date": "2017-09-27T19:58:25Z",
+        "email": "k8s-merge-robot@users.noreply.github.com",
+        "name": "Kubernetes Submit Queue"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-09-27T19:58:25Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #53075 from alrs/fix-federation-controller-swallowed-errors\n\nAutomatic merge from submit-queue (batch tested with PRs 52630, 53110, 53136, 53075). If you want to cherry-pick this change to another branch, please follow the instructions <a href=\"https://github.com/kubernetes/community/blob/master/contributors/devel/cherry-picks.md\">here</a>.\n\nfederation/pkg/federation-controller/util: fix swallowed errors\n\n**What this PR does / why we need it**: The re-declaration of `err` inside the `if` block causes it to be lost before the check on line 93, even though it is reassigned on lines 95 and 90. By declaring the secret variable on line 71 I was able to ditch the `:=` assignment on line 72, meaning we can keep the `err` variable previously defined before the block on line 47.\r\n\r\n```release-note NONE\r\n```",
+      "tree": {
+        "sha": "bc71347b27f7d6f0c4027166a74c6a89b1711d94",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/bc71347b27f7d6f0c4027166a74c6a89b1711d94"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/b80b7b08c953ec8e4dcad5e86474126703d3afca",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/b80b7b08c953ec8e4dcad5e86474126703d3afca",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6YjgwYjdiMDhjOTUzZWM4ZTRkY2FkNWU4NjQ3NDEyNjcwM2QzYWZjYQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/d44de7b7e1e36189e662774114a0474bdea5f1e5",
+        "sha": "d44de7b7e1e36189e662774114a0474bdea5f1e5",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/d44de7b7e1e36189e662774114a0474bdea5f1e5"
+      },
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/097e063826619ed0261aa88a725bca4f756032d5",
+        "sha": "097e063826619ed0261aa88a725bca4f756032d5",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/097e063826619ed0261aa88a725bca4f756032d5"
+      }
+    ],
+    "sha": "b80b7b08c953ec8e4dcad5e86474126703d3afca",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/b80b7b08c953ec8e4dcad5e86474126703d3afca"
+  },
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/d44de7b7e1e36189e662774114a0474bdea5f1e5/comments",
+    "commit": {
+      "author": {
+        "date": "2017-09-27T19:58:22Z",
+        "email": "k8s-merge-robot@users.noreply.github.com",
+        "name": "Kubernetes Submit Queue"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-09-27T19:58:22Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #53136 from prydie/cloudprovider-import-comment\n\nAutomatic merge from submit-queue (batch tested with PRs 52630, 53110, 53136, 53075). If you want to cherry-pick this change to another branch, please follow the instructions <a href=\"https://github.com/kubernetes/community/blob/master/contributors/devel/cherry-picks.md\">here</a>.\n\nNote that all importing cloud-providers not required implementing out-of-tree cloud-provider\n\n**What this PR does / why we need it**:\r\n\r\n[The documentation indicates](https://github.com/kubernetes/kubernetes.github.io/pull/5400/files#diff-9585dc0efb0450fd68728e7511754717R29) that authors of of out-of-tree cloud providers should\r\n\r\n> Use [main.go in cloud-controller-manager](https://github.com/kubernetes/kubernetes/blob/master/cmd/cloud-controller-manager/controller-manager.go) from Kubernestes core as a template for your main.go\r\n\r\nThis PR adds a comment to indicate that when doing so they do not need to import all in-tree cloud-providers. This mistake had been made in the OCI, DO, and Rancher CCMs.\r\n\r\n**Which issue this PR fixes** *(optional, in `fixes #<issue number>(, fixes #<issue_number>, ...)` format, will close that issue when PR gets merged)*: fixes #\r\n\r\n**Special notes for your reviewer**:\r\n\r\n**Release note**:\r\n\r\n```release-note\r\nNONE\r\n```\r\n\r\n/cc @luxas @wlan0 @andrewsykim @jhorwit2\r\n/area cloudprovider\r\n/sig cluster-lifecycle",
+      "tree": {
+        "sha": "df3d5c983cf63e55ab5d235304dc55b0f9a66025",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/df3d5c983cf63e55ab5d235304dc55b0f9a66025"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/d44de7b7e1e36189e662774114a0474bdea5f1e5",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/d44de7b7e1e36189e662774114a0474bdea5f1e5",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6ZDQ0ZGU3YjdlMWUzNjE4OWU2NjI3NzQxMTRhMDQ3NGJkZWE1ZjFlNQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/2be6982e3d75d9979d89f4d66d3aef5d242413fb",
+        "sha": "2be6982e3d75d9979d89f4d66d3aef5d242413fb",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/2be6982e3d75d9979d89f4d66d3aef5d242413fb"
+      },
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/cb4c822e82e003385387f183d7ccfe1d82a6b8e9",
+        "sha": "cb4c822e82e003385387f183d7ccfe1d82a6b8e9",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/cb4c822e82e003385387f183d7ccfe1d82a6b8e9"
+      }
+    ],
+    "sha": "d44de7b7e1e36189e662774114a0474bdea5f1e5",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/d44de7b7e1e36189e662774114a0474bdea5f1e5"
+  },
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/2be6982e3d75d9979d89f4d66d3aef5d242413fb/comments",
+    "commit": {
+      "author": {
+        "date": "2017-09-27T19:58:18Z",
+        "email": "k8s-merge-robot@users.noreply.github.com",
+        "name": "Kubernetes Submit Queue"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-09-27T19:58:18Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #53110 from feiskyer/53901\n\nAutomatic merge from submit-queue (batch tested with PRs 52630, 53110, 53136, 53075). If you want to cherry-pick this change to another branch, please follow the instructions <a href=\"https://github.com/kubernetes/community/blob/master/contributors/devel/cherry-picks.md\">here</a>.\n\nFix host network flake tests\n\n**What this PR does / why we need it**:\r\n\r\nFix flaky test \"Security Context when creating a pod in the host network namespace should listen on same port in the host network containers\".\r\n\r\n**Which issue this PR fixes** *(optional, in `fixes #<issue number>(, fixes #<issue_number>, ...)` format, will close that issue when PR gets merged)*: fixes #53091\r\n\r\n**Special notes for your reviewer**:\r\n\r\n**Release note**:\r\n\r\n```release-note\r\nNONE\r\n```",
+      "tree": {
+        "sha": "ade033f6b6ee9327f5ba0d4f2eba211bd3b024e4",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/ade033f6b6ee9327f5ba0d4f2eba211bd3b024e4"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/2be6982e3d75d9979d89f4d66d3aef5d242413fb",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/2be6982e3d75d9979d89f4d66d3aef5d242413fb",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6MmJlNjk4MmUzZDc1ZDk5NzlkODlmNGQ2NmQzYWVmNWQyNDI0MTNmYg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/655f443786fdc994473a20526b7b6a305dd8195e",
+        "sha": "655f443786fdc994473a20526b7b6a305dd8195e",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/655f443786fdc994473a20526b7b6a305dd8195e"
+      },
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/5d75282a626960cf1ea17d146a79c8dd1c26ad9e",
+        "sha": "5d75282a626960cf1ea17d146a79c8dd1c26ad9e",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/5d75282a626960cf1ea17d146a79c8dd1c26ad9e"
+      }
+    ],
+    "sha": "2be6982e3d75d9979d89f4d66d3aef5d242413fb",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/2be6982e3d75d9979d89f4d66d3aef5d242413fb"
+  },
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/655f443786fdc994473a20526b7b6a305dd8195e/comments",
+    "commit": {
+      "author": {
+        "date": "2017-09-27T19:58:16Z",
+        "email": "k8s-merge-robot@users.noreply.github.com",
+        "name": "Kubernetes Submit Queue"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-09-27T19:58:16Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #52630 from shashidharatd/fed-deployment\n\nAutomatic merge from submit-queue (batch tested with PRs 52630, 53110, 53136, 53075). If you want to cherry-pick this change to another branch, please follow the instructions <a href=\"https://github.com/kubernetes/community/blob/master/contributors/devel/cherry-picks.md\">here</a>.\n\nSimplify deployment in federation CI jobs\n\n**What this PR does / why we need it**:\r\nIntroduce a new variable `USE_PV_FOR_ETCD` to control whether to use PV for federation etcd. `USE_PV_FOR_ETCD` is set to false by default and can be overridden in CI jobs where we want to test with PV. For most of the federation CI jobs, it does not matter whether we use PV for etcd or not. We can overcome some issues by not depending on PV's in federation setup like failure to bind to PV and leaking PD's. etc...\r\n#50543 is one such issue associated with PV.\r\n\r\nThis PR also contain a commit to fix couple of minor issues and removing unnecessary include of cluster/common script.\r\n\r\n**Release note**:\r\n```release-note\r\nNONE\r\n```\r\n\r\n/assign @madhusudancs \r\n/cc @kubernetes/sig-federation-pr-reviews",
+      "tree": {
+        "sha": "e2d93215c95a4e189563f9a29bdedd92f843e8f1",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/e2d93215c95a4e189563f9a29bdedd92f843e8f1"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/655f443786fdc994473a20526b7b6a305dd8195e",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/655f443786fdc994473a20526b7b6a305dd8195e",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6NjU1ZjQ0Mzc4NmZkYzk5NDQ3M2EyMDUyNmI3YjZhMzA1ZGQ4MTk1ZQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/e33dd983ed75d15245534c87ddaf843aa617638a",
+        "sha": "e33dd983ed75d15245534c87ddaf843aa617638a",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/e33dd983ed75d15245534c87ddaf843aa617638a"
+      },
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/33c075d91b70fb737474c2f1699df5cd814bb62b",
+        "sha": "33c075d91b70fb737474c2f1699df5cd814bb62b",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/33c075d91b70fb737474c2f1699df5cd814bb62b"
+      }
+    ],
+    "sha": "655f443786fdc994473a20526b7b6a305dd8195e",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/655f443786fdc994473a20526b7b6a305dd8195e"
+  },
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/e33dd983ed75d15245534c87ddaf843aa617638a/comments",
+    "commit": {
+      "author": {
+        "date": "2017-09-27T17:51:44Z",
+        "email": "k8s-merge-robot@users.noreply.github.com",
+        "name": "Kubernetes Submit Queue"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-09-27T17:51:44Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #52948 from smarterclayton/new_negotiate\n\nAutomatic merge from submit-queue. If you want to cherry-pick this change to another branch, please follow the instructions <a href=\"https://github.com/kubernetes/community/blob/master/contributors/devel/cherry-picks.md\">here</a>.\n\nAdd a negotiate method media type for use in explicit contexts\n\nThere are more cases now where we want to negotiate from contexts where we have a media type but no request.",
+      "tree": {
+        "sha": "2bcd129bfbf700cbe6a7821945e3a517cbd32773",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/2bcd129bfbf700cbe6a7821945e3a517cbd32773"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/e33dd983ed75d15245534c87ddaf843aa617638a",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/e33dd983ed75d15245534c87ddaf843aa617638a",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6ZTMzZGQ5ODNlZDc1ZDE1MjQ1NTM0Yzg3ZGRhZjg0M2FhNjE3NjM4YQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/5952e932e9a1b593876c1504df5d1cb3fd72299d",
+        "sha": "5952e932e9a1b593876c1504df5d1cb3fd72299d",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/5952e932e9a1b593876c1504df5d1cb3fd72299d"
+      },
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/26d87e49cbbc4caa9e0eef47fce9115c1f43566e",
+        "sha": "26d87e49cbbc4caa9e0eef47fce9115c1f43566e",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/26d87e49cbbc4caa9e0eef47fce9115c1f43566e"
+      }
+    ],
+    "sha": "e33dd983ed75d15245534c87ddaf843aa617638a",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/e33dd983ed75d15245534c87ddaf843aa617638a"
+  },
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/5952e932e9a1b593876c1504df5d1cb3fd72299d/comments",
+    "commit": {
+      "author": {
+        "date": "2017-09-27T17:02:09Z",
+        "email": "k8s-merge-robot@users.noreply.github.com",
+        "name": "Kubernetes Submit Queue"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-09-27T17:02:09Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #53090 from shyamjvs/fix-traces\n\nAutomatic merge from submit-queue. If you want to cherry-pick this change to another branch, please follow the instructions <a href=\"https://github.com/kubernetes/community/blob/master/contributors/devel/cherry-picks.md\">here</a>.\n\nModify traces in deletion handler\n\nRef https://github.com/kubernetes/kubernetes/issues/51899#issuecomment-332356230\r\n\r\ncc @kubernetes/sig-release-members @jdumars @dims Can we get this into 1.8?",
+      "tree": {
+        "sha": "c792ec4f6516c0aa486a13f06da64ca429bcbce1",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/c792ec4f6516c0aa486a13f06da64ca429bcbce1"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/5952e932e9a1b593876c1504df5d1cb3fd72299d",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/5952e932e9a1b593876c1504df5d1cb3fd72299d",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6NTk1MmU5MzJlOWExYjU5Mzg3NmMxNTA0ZGY1ZDFjYjNmZDcyMjk5ZA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/df569a3b24f4b64eae40428adf51b6c34d025789",
+        "sha": "df569a3b24f4b64eae40428adf51b6c34d025789",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/df569a3b24f4b64eae40428adf51b6c34d025789"
+      },
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/c4ca2c734963afd442ff6c43631d004092ea74e8",
+        "sha": "c4ca2c734963afd442ff6c43631d004092ea74e8",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/c4ca2c734963afd442ff6c43631d004092ea74e8"
+      }
+    ],
+    "sha": "5952e932e9a1b593876c1504df5d1cb3fd72299d",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/5952e932e9a1b593876c1504df5d1cb3fd72299d"
+  },
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/df569a3b24f4b64eae40428adf51b6c34d025789/comments",
+    "commit": {
+      "author": {
+        "date": "2017-09-27T16:13:25Z",
+        "email": "k8s-merge-robot@users.noreply.github.com",
+        "name": "Kubernetes Submit Queue"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-09-27T16:13:25Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #53043 from kad/upgrade-ux\n\nAutomatic merge from submit-queue. If you want to cherry-pick this change to another branch, please follow the instructions <a href=\"https://github.com/kubernetes/community/blob/master/contributors/devel/cherry-picks.md\">here</a>.\n\nAllow to use version labels in kubeadm upgrade apply command.\n\n**What this PR does / why we need it**:\r\n\r\nkubeadm upgrade apply now is able to utilize all possible combinations\r\nof version argument, including labels (latest, stable-1.8, ci/latest-1.9)\r\nas well as specific builds (v1.8.0-rc.1, ci/v1.9.0-alpha.1.123_01234567889)\r\n\r\nAs side effect, specifying exact build to deploy from CI area is now also\r\npossible in kubeadm init command.\r\n\r\n**Which issue this PR fixes** *(optional, in `fixes #<issue number>(, fixes #<issue_number>, ...)` format, will close that issue when PR gets merged)*: fixes kubernetes/kubeadm#451\r\n\r\n**Special notes for your reviewer**:\r\ncc @luxas \r\n\r\n**Release note**:\r\n```release-note\r\n- kubeadm init can now deploy exact build from CI area by specifying ID with \"ci/\" prefix. Example: \"ci/v1.9.0-alpha.1.123+01234567889\"\r\n- kubeadm upgrade apply supports all standard ways of specifying version via labels. Examples: stable-1.8, latest-1.8, ci/latest-1.9 and similar.\r\n```",
+      "tree": {
+        "sha": "39be83df2ce90544dbe548bbc70dc8c058f51678",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/39be83df2ce90544dbe548bbc70dc8c058f51678"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/df569a3b24f4b64eae40428adf51b6c34d025789",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/df569a3b24f4b64eae40428adf51b6c34d025789",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6ZGY1NjlhM2IyNGY0YjY0ZWFlNDA0MjhhZGY1MWI2YzM0ZDAyNTc4OQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/1ccdc5cdc447ca68c6b028e095b5a4ccb772d87e",
+        "sha": "1ccdc5cdc447ca68c6b028e095b5a4ccb772d87e",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/1ccdc5cdc447ca68c6b028e095b5a4ccb772d87e"
+      },
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/09e59cfcaf3aaa8e5daa6876852b322e58537e72",
+        "sha": "09e59cfcaf3aaa8e5daa6876852b322e58537e72",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/09e59cfcaf3aaa8e5daa6876852b322e58537e72"
+      }
+    ],
+    "sha": "df569a3b24f4b64eae40428adf51b6c34d025789",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/df569a3b24f4b64eae40428adf51b6c34d025789"
+  },
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/1ccdc5cdc447ca68c6b028e095b5a4ccb772d87e/comments",
+    "commit": {
+      "author": {
+        "date": "2017-09-27T15:14:05Z",
+        "email": "k8s-merge-robot@users.noreply.github.com",
+        "name": "Kubernetes Submit Queue"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-09-27T15:14:05Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #43346 from atlassian/fix-time-npe\n\nAutomatic merge from submit-queue. If you want to cherry-pick this change to another branch, please follow the instructions <a href=\"https://github.com/kubernetes/community/blob/master/contributors/devel/cherry-picks.md\">here</a>.\n\nFix pointer receiver handling in queryparams marshaler\n\n**What this PR does / why we need it**:\r\n`Time.MarshalQueryParameter()` and `Time.MarshalJSON()` try to handle nil pointer object (they call `t.IsZero()` which checks if t == nil) but fail because receiver is not a pointer so the dereference needed to pass it as receiver to these methods fails with npe.\r\nIn practice this happens with `Unstructured.SetDeletionTimestamp(Unstructured.GetDeletionTimestamp())`.\r\n\r\nHere is the stacktrace of the failing test if receiver is not a pointer.\r\n```go\r\npanic: runtime error: invalid memory address or nil pointer dereference [recovered]\r\n\tpanic: runtime error: invalid memory address or nil pointer dereference\r\n[signal SIGSEGV: segmentation violation code=0x1 addr=0x8 pc=0x1407969]\r\n\r\ngoroutine 22 [running]:\r\ntesting.tRunner.func1(0xc4204f0680)\r\n\t/usr/local/Cellar/go/1.8/libexec/src/testing/testing.go:622 +0x29d\r\npanic(0x1485a80, 0x1782bc0)\r\n\t/usr/local/Cellar/go/1.8/libexec/src/runtime/panic.go:489 +0x2cf\r\nk8s.io/kubernetes/staging/src/k8s.io/apimachinery/pkg/apis/meta/v1/unstructured.(*Unstructured).SetDeletionTimestamp(0xc420030790, 0x0)\r\n\t/Users/ash2k/gopath/src/k8s.io/kubernetes/staging/src/k8s.io/apimachinery/pkg/apis/meta/v1/unstructured/unstructured.go:387 +0x29\r\nk8s.io/kubernetes/staging/src/k8s.io/apimachinery/pkg/apis/meta/v1/unstructured.TestNilDeletionTimestamp(0xc4204f0680)\r\n\t/Users/ash2k/gopath/src/k8s.io/kubernetes/staging/src/k8s.io/apimachinery/pkg/apis/meta/v1/unstructured/unstructured_test.go:40 +0x4c\r\n```",
+      "tree": {
+        "sha": "539078e6639bb1068168fd81995b77170994b968",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/539078e6639bb1068168fd81995b77170994b968"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/1ccdc5cdc447ca68c6b028e095b5a4ccb772d87e",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/1ccdc5cdc447ca68c6b028e095b5a4ccb772d87e",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6MWNjZGM1Y2RjNDQ3Y2E2OGM2YjAyOGUwOTViNWE0Y2NiNzcyZDg3ZQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/ededef24e4b7425784b97cd5d661399592c06ffe",
+        "sha": "ededef24e4b7425784b97cd5d661399592c06ffe",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/ededef24e4b7425784b97cd5d661399592c06ffe"
+      },
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/0fe4911744890fab77e82664816fc55a72f5b383",
+        "sha": "0fe4911744890fab77e82664816fc55a72f5b383",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/0fe4911744890fab77e82664816fc55a72f5b383"
+      }
+    ],
+    "sha": "1ccdc5cdc447ca68c6b028e095b5a4ccb772d87e",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/1ccdc5cdc447ca68c6b028e095b5a4ccb772d87e"
+  },
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/ededef24e4b7425784b97cd5d661399592c06ffe/comments",
+    "commit": {
+      "author": {
+        "date": "2017-09-27T14:33:38Z",
+        "email": "k8s-merge-robot@users.noreply.github.com",
+        "name": "Kubernetes Submit Queue"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-09-27T14:33:38Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #53067 from janetkuo/kubectl-apps-rs\n\nAutomatic merge from submit-queue (batch tested with PRs 50685, 53050, 52899, 52913, 53067). If you want to cherry-pick this change to another branch, please follow the instructions <a href=\"https://github.com/kubernetes/community/blob/master/contributors/devel/cherry-picks.md\">here</a>.\n\nSupport apps.ReplicaSet in kubectl\n\nSupersedes #53056, ref #53040 \r\n\r\n\r\n**Release note**:\r\n\r\n```release-note\r\nNONE\r\n```",
+      "tree": {
+        "sha": "c6930995517d04c07846b1f5baacb2ba13854bdb",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/c6930995517d04c07846b1f5baacb2ba13854bdb"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/ededef24e4b7425784b97cd5d661399592c06ffe",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/ededef24e4b7425784b97cd5d661399592c06ffe",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6ZWRlZGVmMjRlNGI3NDI1Nzg0Yjk3Y2Q1ZDY2MTM5OTU5MmMwNmZmZQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/86338ba15359b4427f1e27bd26f2ea9104a0cf79",
+        "sha": "86338ba15359b4427f1e27bd26f2ea9104a0cf79",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/86338ba15359b4427f1e27bd26f2ea9104a0cf79"
+      },
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/3130132542076c52cf21924089d0af4e6927c876",
+        "sha": "3130132542076c52cf21924089d0af4e6927c876",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/3130132542076c52cf21924089d0af4e6927c876"
+      }
+    ],
+    "sha": "ededef24e4b7425784b97cd5d661399592c06ffe",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/ededef24e4b7425784b97cd5d661399592c06ffe"
+  },
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/86338ba15359b4427f1e27bd26f2ea9104a0cf79/comments",
+    "commit": {
+      "author": {
+        "date": "2017-09-27T14:33:35Z",
+        "email": "k8s-merge-robot@users.noreply.github.com",
+        "name": "Kubernetes Submit Queue"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-09-27T14:33:35Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #52913 from kad/kubeadm-issue-430\n\nAutomatic merge from submit-queue (batch tested with PRs 50685, 53050, 52899, 52913, 53067). If you want to cherry-pick this change to another branch, please follow the instructions <a href=\"https://github.com/kubernetes/community/blob/master/contributors/devel/cherry-picks.md\">here</a>.\n\nDetect major version mismatches between kubeadm and kubelet.\n\n**What this PR does / why we need it**:\r\nKubeadm supports only one minor release back, thus for 1.9 it requires minimum kubelet from 1.8.\r\n\r\n**Which issue this PR fixes** *(optional, in `fixes #<issue number>(, fixes #<issue_number>, ...)` format, will close that issue when PR gets merged)*: fixes kubernetes/kubeadm#430\r\n\r\n**Special notes for your reviewer**:\r\n\r\n**Release note**:\r\n```release-note\r\n- kubeadm 1.9 will detect and fail init or join pre-flight checks if kubelet is lower than 1.8.0-alpha\r\n```",
+      "tree": {
+        "sha": "1768f7624c357787955a615c74cc8fc435167a42",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/1768f7624c357787955a615c74cc8fc435167a42"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/86338ba15359b4427f1e27bd26f2ea9104a0cf79",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/86338ba15359b4427f1e27bd26f2ea9104a0cf79",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6ODYzMzhiYTE1MzU5YjQ0MjdmMWUyN2JkMjZmMmVhOTEwNGEwY2Y3OQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/a4b7ab78182b2590d369d08578771f2b3dd351f7",
+        "sha": "a4b7ab78182b2590d369d08578771f2b3dd351f7",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/a4b7ab78182b2590d369d08578771f2b3dd351f7"
+      },
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/521c84aa89d8ce05a037f8ab2dba07cd6ec27077",
+        "sha": "521c84aa89d8ce05a037f8ab2dba07cd6ec27077",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/521c84aa89d8ce05a037f8ab2dba07cd6ec27077"
+      }
+    ],
+    "sha": "86338ba15359b4427f1e27bd26f2ea9104a0cf79",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/86338ba15359b4427f1e27bd26f2ea9104a0cf79"
+  },
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/a4b7ab78182b2590d369d08578771f2b3dd351f7/comments",
+    "commit": {
+      "author": {
+        "date": "2017-09-27T14:33:33Z",
+        "email": "k8s-merge-robot@users.noreply.github.com",
+        "name": "Kubernetes Submit Queue"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-09-27T14:33:33Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #52899 from wackxu/re9221\n\nAutomatic merge from submit-queue (batch tested with PRs 50685, 53050, 52899, 52913, 53067). If you want to cherry-pick this change to another branch, please follow the instructions <a href=\"https://github.com/kubernetes/community/blob/master/contributors/devel/cherry-picks.md\">here</a>.\n\nUse patch to avoid overwriting potential pending status updates\n\n**What this PR does / why we need it**:\r\n\r\nFix TODO(bsalamat): change this to patch PodStatus to avoid overwriting potential pending status updates.\r\n\r\n**Which issue this PR fixes** *(optional, in `fixes #<issue number>(, fixes #<issue_number>, ...)` format, will close that issue when PR gets merged)*: fixes #\r\n\r\n**Release note**:\r\n\r\n```release-note\r\nNONE\r\n```",
+      "tree": {
+        "sha": "b91da9c9c75686fb14fcbed7f64c360bc9c965e2",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/b91da9c9c75686fb14fcbed7f64c360bc9c965e2"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/a4b7ab78182b2590d369d08578771f2b3dd351f7",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/a4b7ab78182b2590d369d08578771f2b3dd351f7",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6YTRiN2FiNzgxODJiMjU5MGQzNjlkMDg1Nzg3NzFmMmIzZGQzNTFmNw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/95328d3098ad41a7ff541dc6b4551285ebf3cd52",
+        "sha": "95328d3098ad41a7ff541dc6b4551285ebf3cd52",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/95328d3098ad41a7ff541dc6b4551285ebf3cd52"
+      },
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/2db3728fb7cfa9b39cbd1dc63bd8d8e21dd63d7a",
+        "sha": "2db3728fb7cfa9b39cbd1dc63bd8d8e21dd63d7a",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/2db3728fb7cfa9b39cbd1dc63bd8d8e21dd63d7a"
+      }
+    ],
+    "sha": "a4b7ab78182b2590d369d08578771f2b3dd351f7",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/a4b7ab78182b2590d369d08578771f2b3dd351f7"
+  },
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/95328d3098ad41a7ff541dc6b4551285ebf3cd52/comments",
+    "commit": {
+      "author": {
+        "date": "2017-09-27T14:33:30Z",
+        "email": "k8s-merge-robot@users.noreply.github.com",
+        "name": "Kubernetes Submit Queue"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-09-27T14:33:30Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #53050 from CaoShuFeng/micro_sec\n\nAutomatic merge from submit-queue (batch tested with PRs 50685, 53050, 52899, 52913, 53067). If you want to cherry-pick this change to another branch, please follow the instructions <a href=\"https://github.com/kubernetes/community/blob/master/contributors/devel/cherry-picks.md\">here</a>.\n\nfix fuzz of micro time\n\n**Release note**:\r\n```\r\nNONE\r\n```\r\n/assign @sttts",
+      "tree": {
+        "sha": "c884da4a7d0e3de5e518381c835c22e11d8ff2a1",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/c884da4a7d0e3de5e518381c835c22e11d8ff2a1"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/95328d3098ad41a7ff541dc6b4551285ebf3cd52",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/95328d3098ad41a7ff541dc6b4551285ebf3cd52",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6OTUzMjhkMzA5OGFkNDFhN2ZmNTQxZGM2YjQ1NTEyODVlYmYzY2Q1Mg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/5a3bab62c3884f67f3f65821fc6b0008554b233c",
+        "sha": "5a3bab62c3884f67f3f65821fc6b0008554b233c",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/5a3bab62c3884f67f3f65821fc6b0008554b233c"
+      },
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/151c8af8fdf69310f762ce18335a497f44095d97",
+        "sha": "151c8af8fdf69310f762ce18335a497f44095d97",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/151c8af8fdf69310f762ce18335a497f44095d97"
+      }
+    ],
+    "sha": "95328d3098ad41a7ff541dc6b4551285ebf3cd52",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/95328d3098ad41a7ff541dc6b4551285ebf3cd52"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/244160?v=4",
+      "events_url": "https://api.github.com/users/prydie/events{/privacy}",
+      "followers_url": "https://api.github.com/users/prydie/followers",
+      "following_url": "https://api.github.com/users/prydie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/prydie/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/prydie",
+      "id": 244160,
+      "login": "prydie",
+      "node_id": "MDQ6VXNlcjI0NDE2MA==",
+      "organizations_url": "https://api.github.com/users/prydie/orgs",
+      "received_events_url": "https://api.github.com/users/prydie/received_events",
+      "repos_url": "https://api.github.com/users/prydie/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/prydie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/prydie/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/prydie"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/cb4c822e82e003385387f183d7ccfe1d82a6b8e9/comments",
+    "commit": {
+      "author": {
+        "date": "2017-09-27T14:04:43Z",
+        "email": "andrew.pryde@oracle.com",
+        "name": "Andrew Pryde"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-09-27T14:31:15Z",
+        "email": "andrew.pryde@oracle.com",
+        "name": "Andrew Pryde"
+      },
+      "message": "All cloud-providers not required out-of-tree\n\nNote that importing all cloud-providers is not required when\nimplementing an out-of-tree cloud-provider.",
+      "tree": {
+        "sha": "8272a85366c518348320e3ca3a3c174be0cf734c",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/8272a85366c518348320e3ca3a3c174be0cf734c"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/cb4c822e82e003385387f183d7ccfe1d82a6b8e9",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/244160?v=4",
+      "events_url": "https://api.github.com/users/prydie/events{/privacy}",
+      "followers_url": "https://api.github.com/users/prydie/followers",
+      "following_url": "https://api.github.com/users/prydie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/prydie/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/prydie",
+      "id": 244160,
+      "login": "prydie",
+      "node_id": "MDQ6VXNlcjI0NDE2MA==",
+      "organizations_url": "https://api.github.com/users/prydie/orgs",
+      "received_events_url": "https://api.github.com/users/prydie/received_events",
+      "repos_url": "https://api.github.com/users/prydie/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/prydie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/prydie/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/prydie"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/cb4c822e82e003385387f183d7ccfe1d82a6b8e9",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6Y2I0YzgyMmU4MmUwMDMzODUzODdmMTgzZDdjY2ZlMWQ4MmE2YjhlOQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/1f45cd06b31af32ef7eb074e6d962aecc193520d",
+        "sha": "1f45cd06b31af32ef7eb074e6d962aecc193520d",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/1f45cd06b31af32ef7eb074e6d962aecc193520d"
+      }
+    ],
+    "sha": "cb4c822e82e003385387f183d7ccfe1d82a6b8e9",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/cb4c822e82e003385387f183d7ccfe1d82a6b8e9"
+  },
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/5a3bab62c3884f67f3f65821fc6b0008554b233c/comments",
+    "commit": {
+      "author": {
+        "date": "2017-09-27T14:24:16Z",
+        "email": "k8s-merge-robot@users.noreply.github.com",
+        "name": "Kubernetes Submit Queue"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-09-27T14:24:16Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #50685 from sttts/sttts-deepcopy-calls-federation\n\nAutomatic merge from submit-queue. If you want to cherry-pick this change to another branch, please follow the instructions <a href=\"https://github.com/kubernetes/community/blob/master/contributors/devel/cherry-picks.md\">here</a>.\n\nfederation: simplify deepcopy calls\n\nWe have static DeepCopy now without the possibility of errors. Makes the code much simpler.",
+      "tree": {
+        "sha": "4781f1613aa39c77efae9cc29851b92d1b781569",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/4781f1613aa39c77efae9cc29851b92d1b781569"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/5a3bab62c3884f67f3f65821fc6b0008554b233c",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/5a3bab62c3884f67f3f65821fc6b0008554b233c",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6NWEzYmFiNjJjMzg4NGY2N2YzZjY1ODIxZmM2YjAwMDg1NTRiMjMzYw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/1f45cd06b31af32ef7eb074e6d962aecc193520d",
+        "sha": "1f45cd06b31af32ef7eb074e6d962aecc193520d",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/1f45cd06b31af32ef7eb074e6d962aecc193520d"
+      },
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/5427ff1583893ca252addf5cfe0bbba85ebf4b76",
+        "sha": "5427ff1583893ca252addf5cfe0bbba85ebf4b76",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/5427ff1583893ca252addf5cfe0bbba85ebf4b76"
+      }
+    ],
+    "sha": "5a3bab62c3884f67f3f65821fc6b0008554b233c",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/5a3bab62c3884f67f3f65821fc6b0008554b233c"
+  },
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/1f45cd06b31af32ef7eb074e6d962aecc193520d/comments",
+    "commit": {
+      "author": {
+        "date": "2017-09-27T12:32:30Z",
+        "email": "k8s-merge-robot@users.noreply.github.com",
+        "name": "Kubernetes Submit Queue"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-09-27T12:32:30Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #52250 from RenaudWasTaken/e2e-device-plugin-failure\n\nAutomatic merge from submit-queue (batch tested with PRs 50988, 50509, 52660, 52663, 52250). If you want to cherry-pick this change to another branch, please follow the instructions <a href=\"https://github.com/kubernetes/community/blob/master/contributors/devel/cherry-picks.md\">here</a>.\n\nAdded device plugin e2e kubelet failure test\n\nSigned-off-by: Renaud Gaubert <renaud.gaubert@gmail.com>\r\n\r\n**What this PR does / why we need it**:\r\nThis is part of issue #52859 (fixes #52859)\r\n\r\nThis PR adds a e2e_node test for the device plugin.\r\nSpecifically it implements testing of failure handling by the device plugin components in case Kubelet restart / crashes.\r\n\r\nI might try to refactor the GPU tests in a later PR.\r\n\r\n**Special notes for your reviewer**:\r\n@jiayingz @vishh \r\n\r\n**Release note**:\r\n```release-note\r\nNONE\r\n```",
+      "tree": {
+        "sha": "c10c9e255ee9839a9bba340ce13dfcf99d03f95a",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/c10c9e255ee9839a9bba340ce13dfcf99d03f95a"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/1f45cd06b31af32ef7eb074e6d962aecc193520d",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/1f45cd06b31af32ef7eb074e6d962aecc193520d",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6MWY0NWNkMDZiMzFhZjMyZWY3ZWIwNzRlNmQ5NjJhZWNjMTkzNTIwZA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/f25bb13a82951467401ea7aa404d88a22fa13418",
+        "sha": "f25bb13a82951467401ea7aa404d88a22fa13418",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/f25bb13a82951467401ea7aa404d88a22fa13418"
+      },
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/ba40bee5c1059751c45ea25a5df610715b96d9a5",
+        "sha": "ba40bee5c1059751c45ea25a5df610715b96d9a5",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/ba40bee5c1059751c45ea25a5df610715b96d9a5"
+      }
+    ],
+    "sha": "1f45cd06b31af32ef7eb074e6d962aecc193520d",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/1f45cd06b31af32ef7eb074e6d962aecc193520d"
+  },
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/f25bb13a82951467401ea7aa404d88a22fa13418/comments",
+    "commit": {
+      "author": {
+        "date": "2017-09-27T12:32:27Z",
+        "email": "k8s-merge-robot@users.noreply.github.com",
+        "name": "Kubernetes Submit Queue"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-09-27T12:32:27Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #52663 from wwwtyro/rye/s390x-ingress-controller-support\n\nAutomatic merge from submit-queue (batch tested with PRs 50988, 50509, 52660, 52663, 52250). If you want to cherry-pick this change to another branch, please follow the instructions <a href=\"https://github.com/kubernetes/community/blob/master/contributors/devel/cherry-picks.md\">here</a>.\n\ns390x ingress controller support\n\n**What this PR does / why we need it**: Adds support for an s390x ingress image to the juju kubernetes-worker charm.\r\n\r\n**Release note**:\r\n```\r\nAdds support for an s390x ingress image to the juju kubernetes-worker charm.\r\n```",
+      "tree": {
+        "sha": "6148db8eb7ee11ce590b770ade14267342168671",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/6148db8eb7ee11ce590b770ade14267342168671"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/f25bb13a82951467401ea7aa404d88a22fa13418",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/f25bb13a82951467401ea7aa404d88a22fa13418",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6ZjI1YmIxM2E4Mjk1MTQ2NzQwMWVhN2FhNDA0ZDg4YTIyZmExMzQxOA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/ec657e4ebda32f1538ed484d2c0553d7144f2871",
+        "sha": "ec657e4ebda32f1538ed484d2c0553d7144f2871",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/ec657e4ebda32f1538ed484d2c0553d7144f2871"
+      },
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/ab9f95aa8e6c3bcc415901606c57bfc12e35cdc5",
+        "sha": "ab9f95aa8e6c3bcc415901606c57bfc12e35cdc5",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/ab9f95aa8e6c3bcc415901606c57bfc12e35cdc5"
+      }
+    ],
+    "sha": "f25bb13a82951467401ea7aa404d88a22fa13418",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/f25bb13a82951467401ea7aa404d88a22fa13418"
+  },
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/ec657e4ebda32f1538ed484d2c0553d7144f2871/comments",
+    "commit": {
+      "author": {
+        "date": "2017-09-27T12:32:25Z",
+        "email": "k8s-merge-robot@users.noreply.github.com",
+        "name": "Kubernetes Submit Queue"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-09-27T12:32:25Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #52660 from kad/npapi\n\nAutomatic merge from submit-queue (batch tested with PRs 50988, 50509, 52660, 52663, 52250). If you want to cherry-pick this change to another branch, please follow the instructions <a href=\"https://github.com/kubernetes/community/blob/master/contributors/devel/cherry-picks.md\">here</a>.\n\nTo be consistent with http package, check also no_proxy\n\n**What this PR does / why we need it**:\r\nDefault http.ProxyFromEnvironment uses uppper case proxy\r\nenvironment variables first, and if they are not defined,\r\ntries lower case. For NewProxierWithNoProxyCIDR we should\r\nprovide similar user experience.\r\nExample: cluster will not be able to access service or pod CIDRs in case user uses lower case version of proxy variables.\r\n\r\n**Which issue this PR fixes** *(optional, in `fixes #<issue number>(, fixes #<issue_number>, ...)` format, will close that issue when PR gets merged)*: fixes #\r\n\r\n**Special notes for your reviewer**:\r\n\r\n**Release note**:\r\n```release-note\r\nNONE\r\n```",
+      "tree": {
+        "sha": "6db9dd107a48b2382fe7251f59d5ef905c6cb404",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/6db9dd107a48b2382fe7251f59d5ef905c6cb404"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/ec657e4ebda32f1538ed484d2c0553d7144f2871",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/ec657e4ebda32f1538ed484d2c0553d7144f2871",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6ZWM2NTdlNGViZGEzMmYxNTM4ZWQ0ODRkMmMwNTUzZDcxNDRmMjg3MQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/0ea979a2f2bc086e0d658ba6e58dca31219e8cc5",
+        "sha": "0ea979a2f2bc086e0d658ba6e58dca31219e8cc5",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/0ea979a2f2bc086e0d658ba6e58dca31219e8cc5"
+      },
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/92350f336b7aec303ba502c785d13f0cab1ad7f8",
+        "sha": "92350f336b7aec303ba502c785d13f0cab1ad7f8",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/92350f336b7aec303ba502c785d13f0cab1ad7f8"
+      }
+    ],
+    "sha": "ec657e4ebda32f1538ed484d2c0553d7144f2871",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/ec657e4ebda32f1538ed484d2c0553d7144f2871"
+  },
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/0ea979a2f2bc086e0d658ba6e58dca31219e8cc5/comments",
+    "commit": {
+      "author": {
+        "date": "2017-09-27T12:32:23Z",
+        "email": "k8s-merge-robot@users.noreply.github.com",
+        "name": "Kubernetes Submit Queue"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-09-27T12:32:23Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #50509 from feiskyer/link-logs\n\nAutomatic merge from submit-queue (batch tested with PRs 50988, 50509, 52660, 52663, 52250). If you want to cherry-pick this change to another branch, please follow the instructions <a href=\"https://github.com/kubernetes/community/blob/master/contributors/devel/cherry-picks.md\">here</a>.\n\nCreate container log symlink for all containers\n\n**What this PR does / why we need it**:\r\n\r\ndockershim only makes  log symlink for running containers now, we should also create the log symlink for failed containers.\r\n\r\n**Which issue this PR fixes** *(optional, in `fixes #<issue number>(, fixes #<issue_number>, ...)` format, will close that issue when PR gets merged)*: fixes #50499\r\n\r\n**Special notes for your reviewer**:\r\n\r\n**Release note**:\r\n\r\n```release-note\r\nNONE\r\n```",
+      "tree": {
+        "sha": "f9512688773d86d5888a629c476f47b7c67e33e6",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/f9512688773d86d5888a629c476f47b7c67e33e6"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/0ea979a2f2bc086e0d658ba6e58dca31219e8cc5",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/0ea979a2f2bc086e0d658ba6e58dca31219e8cc5",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6MGVhOTc5YTJmMmJjMDg2ZTBkNjU4YmE2ZTU4ZGNhMzEyMTllOGNjNQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/c4d87032c89f620a2e78097ca8aaeb2c5bf2de91",
+        "sha": "c4d87032c89f620a2e78097ca8aaeb2c5bf2de91",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/c4d87032c89f620a2e78097ca8aaeb2c5bf2de91"
+      },
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/9da9e2ab595e8fa561d2f6743c58740b48071cfa",
+        "sha": "9da9e2ab595e8fa561d2f6743c58740b48071cfa",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/9da9e2ab595e8fa561d2f6743c58740b48071cfa"
+      }
+    ],
+    "sha": "0ea979a2f2bc086e0d658ba6e58dca31219e8cc5",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/0ea979a2f2bc086e0d658ba6e58dca31219e8cc5"
+  },
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/c4d87032c89f620a2e78097ca8aaeb2c5bf2de91/comments",
+    "commit": {
+      "author": {
+        "date": "2017-09-27T11:45:56Z",
+        "email": "k8s-merge-robot@users.noreply.github.com",
+        "name": "Kubernetes Submit Queue"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-09-27T11:45:56Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #50988 from feiskyer/typo\n\nAutomatic merge from submit-queue. If you want to cherry-pick this change to another branch, please follow the instructions <a href=\"https://github.com/kubernetes/community/blob/master/contributors/devel/cherry-picks.md\">here</a>.\n\nFix typo in docs of remote package\n\n**What this PR does / why we need it**:\r\n\r\nFix typo in docs of kubelet/remote package\r\n\r\n**Which issue this PR fixes**: fixes #\r\n\r\n**Special notes for your reviewer**:\r\n\r\n**Release note**:\r\n\r\n```release-note\r\nNONE\r\n```",
+      "tree": {
+        "sha": "1c94b14a7688ff8a45e73d451ac4c957d5c768e3",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/1c94b14a7688ff8a45e73d451ac4c957d5c768e3"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/c4d87032c89f620a2e78097ca8aaeb2c5bf2de91",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/c4d87032c89f620a2e78097ca8aaeb2c5bf2de91",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6YzRkODcwMzJjODlmNjIwYTJlNzgwOTdjYThhYWViMmM1YmYyZGU5MQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/7d0977d89fa49ca57ca7ad60144fbebb7f05a4e0",
+        "sha": "7d0977d89fa49ca57ca7ad60144fbebb7f05a4e0",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/7d0977d89fa49ca57ca7ad60144fbebb7f05a4e0"
+      },
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/4180b79f04475b916b426bae2dcca718c013c35e",
+        "sha": "4180b79f04475b916b426bae2dcca718c013c35e",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/4180b79f04475b916b426bae2dcca718c013c35e"
+      }
+    ],
+    "sha": "c4d87032c89f620a2e78097ca8aaeb2c5bf2de91",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/c4d87032c89f620a2e78097ca8aaeb2c5bf2de91"
+  },
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/7d0977d89fa49ca57ca7ad60144fbebb7f05a4e0/comments",
+    "commit": {
+      "author": {
+        "date": "2017-09-27T10:54:43Z",
+        "email": "k8s-merge-robot@users.noreply.github.com",
+        "name": "Kubernetes Submit Queue"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-09-27T10:54:43Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #52238 from mattjmcnaughton/mattjmcnaughton/address-golint-errors-in-podautoscaler\n\nAutomatic merge from submit-queue. If you want to cherry-pick this change to another branch, please follow the instructions <a href=\"https://github.com/kubernetes/community/blob/master/contributors/devel/cherry-picks.md\">here</a>.\n\nFix golint errors in `pkg/controller/podautoscaler`\n\n**What this PR does / why we need it**:\r\n\r\nAddress `golint` errors in `pkg/controller/podautoscaler`. Note,\r\nI did not address issues around exported types/functions missing\r\ncomments, because I'm not sure what the convention within the k8s project is.\r\n\r\n```release-note\r\nNONE\r\n```\r\n\r\nSigned-off-by: mattjmcnaughton <mattjmcnaughton@gmail.com>",
+      "tree": {
+        "sha": "f590373db9c779ed82a462543f60234a49f21dc8",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/f590373db9c779ed82a462543f60234a49f21dc8"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/7d0977d89fa49ca57ca7ad60144fbebb7f05a4e0",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/7d0977d89fa49ca57ca7ad60144fbebb7f05a4e0",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6N2QwOTc3ZDg5ZmE0OWNhNTdjYTdhZDYwMTQ0ZmJlYmI3ZjA1YTRlMA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/e1d923a7cb6fc2080349fe95badd04626235a2bb",
+        "sha": "e1d923a7cb6fc2080349fe95badd04626235a2bb",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/e1d923a7cb6fc2080349fe95badd04626235a2bb"
+      },
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/ff6fa92733b28e8cad5c5de652706d427a169ca8",
+        "sha": "ff6fa92733b28e8cad5c5de652706d427a169ca8",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/ff6fa92733b28e8cad5c5de652706d427a169ca8"
+      }
+    ],
+    "sha": "7d0977d89fa49ca57ca7ad60144fbebb7f05a4e0",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/7d0977d89fa49ca57ca7ad60144fbebb7f05a4e0"
+  },
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/e1d923a7cb6fc2080349fe95badd04626235a2bb/comments",
+    "commit": {
+      "author": {
+        "date": "2017-09-27T07:52:53Z",
+        "email": "k8s-merge-robot@users.noreply.github.com",
+        "name": "Kubernetes Submit Queue"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-09-27T07:52:53Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #50532 from steveperry-53/kubectl-patch\n\nAutomatic merge from submit-queue. If you want to cherry-pick this change to another branch, please follow the instructions <a href=\"https://github.com/kubernetes/community/blob/master/contributors/devel/cherry-picks.md\">here</a>.\n\nAdd YAML example to kubectl patch.\n\n**What this PR does / why we need it**:\r\nA YAML example has been requested for the kubectl patch reference doc.\r\n\r\nfixes #458\r\n\r\n**Special notes for your reviewer**:\r\n\r\n* Added a YAML example.\r\n* Updated the description to include JSON patch and JSON merge patch.\r\n\r\n**Release note**:\r\n```release-note\r\nNONE\r\n```",
+      "tree": {
+        "sha": "c4fd5974a8a6e26c8f569e0536df45e5e302d81a",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/c4fd5974a8a6e26c8f569e0536df45e5e302d81a"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/e1d923a7cb6fc2080349fe95badd04626235a2bb",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/e1d923a7cb6fc2080349fe95badd04626235a2bb",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6ZTFkOTIzYTdjYjZmYzIwODAzNDlmZTk1YmFkZDA0NjI2MjM1YTJiYg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/5a721f5a02368df6276dee0ef9595fbcc984a6bd",
+        "sha": "5a721f5a02368df6276dee0ef9595fbcc984a6bd",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/5a721f5a02368df6276dee0ef9595fbcc984a6bd"
+      },
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/88ab64c88a5d23d97416ac7fdd7e9ffda6ee8771",
+        "sha": "88ab64c88a5d23d97416ac7fdd7e9ffda6ee8771",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/88ab64c88a5d23d97416ac7fdd7e9ffda6ee8771"
+      }
+    ],
+    "sha": "e1d923a7cb6fc2080349fe95badd04626235a2bb",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/e1d923a7cb6fc2080349fe95badd04626235a2bb"
+  },
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/5a721f5a02368df6276dee0ef9595fbcc984a6bd/comments",
+    "commit": {
+      "author": {
+        "date": "2017-09-27T06:52:02Z",
+        "email": "k8s-merge-robot@users.noreply.github.com",
+        "name": "Kubernetes Submit Queue"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-09-27T06:52:02Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #53065 from msau42/add-reviewers\n\nAutomatic merge from submit-queue. If you want to cherry-pick this change to another branch, please follow the instructions <a href=\"https://github.com/kubernetes/community/blob/master/contributors/devel/cherry-picks.md\">here</a>.\n\nAdd more reviewers for volume components\n\n**Release note**:\r\n\r\nNONE",
+      "tree": {
+        "sha": "d07f6d000c6f91e6a0340c293fef000f16d05a66",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/d07f6d000c6f91e6a0340c293fef000f16d05a66"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/5a721f5a02368df6276dee0ef9595fbcc984a6bd",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/5a721f5a02368df6276dee0ef9595fbcc984a6bd",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6NWE3MjFmNWEwMjM2OGRmNjI3NmRlZTBlZjk1OTVmYmNjOTg0YTZiZA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/80fee4d399b0f52a816821fa2ed3df63d62f5a1b",
+        "sha": "80fee4d399b0f52a816821fa2ed3df63d62f5a1b",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/80fee4d399b0f52a816821fa2ed3df63d62f5a1b"
+      },
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/e6687ad5c66e32ff921730495564688405c52870",
+        "sha": "e6687ad5c66e32ff921730495564688405c52870",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/e6687ad5c66e32ff921730495564688405c52870"
+      }
+    ],
+    "sha": "5a721f5a02368df6276dee0ef9595fbcc984a6bd",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/5a721f5a02368df6276dee0ef9595fbcc984a6bd"
+  },
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/80fee4d399b0f52a816821fa2ed3df63d62f5a1b/comments",
+    "commit": {
+      "author": {
+        "date": "2017-09-27T06:12:32Z",
+        "email": "k8s-merge-robot@users.noreply.github.com",
+        "name": "Kubernetes Submit Queue"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-09-27T06:12:32Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #53069 from derekwaynecarr/imagefs-eviction\n\nAutomatic merge from submit-queue (batch tested with PRs 52990, 53064, 52686, 52221, 53069). If you want to cherry-pick this change to another branch, please follow the instructions <a href=\"https://github.com/kubernetes/community/blob/master/contributors/devel/cherry-picks.md\">here</a>.\n\nAlign imagefs eviction defaults with image gc defaults\n\n**What this PR does / why we need it**:\r\nIf a node is configured to use an imagefs for container storage, we should align the default imagefs eviction threshold with the default image-gc threshold.  This PR updates the default imagesfs.available threshold to trigger when below 15% available space, which is same as default image-gc high threshold for 85%.\r\n\r\nFixes https://github.com/kubernetes/kubernetes/issues/53074\r\n\r\n**Special notes for your reviewer**:\r\nnone, this only impacts nodes running an imagefs otherwise its ignored.\r\n\r\n**Release note**:\r\n```release-note\r\nNONE\r\n```",
+      "tree": {
+        "sha": "65021ffb7da03a3660e64c32860bf9ac70c4d963",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/65021ffb7da03a3660e64c32860bf9ac70c4d963"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/80fee4d399b0f52a816821fa2ed3df63d62f5a1b",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/80fee4d399b0f52a816821fa2ed3df63d62f5a1b",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6ODBmZWU0ZDM5OWIwZjUyYTgxNjgyMWZhMmVkM2RmNjNkNjJmNWExYg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/1cffa70c0d02956441064ed6d3f177c624846978",
+        "sha": "1cffa70c0d02956441064ed6d3f177c624846978",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/1cffa70c0d02956441064ed6d3f177c624846978"
+      },
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/b6db700880b0c2f05631c1f8f16e535ae510a2c7",
+        "sha": "b6db700880b0c2f05631c1f8f16e535ae510a2c7",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/b6db700880b0c2f05631c1f8f16e535ae510a2c7"
+      }
+    ],
+    "sha": "80fee4d399b0f52a816821fa2ed3df63d62f5a1b",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/80fee4d399b0f52a816821fa2ed3df63d62f5a1b"
+  },
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/1cffa70c0d02956441064ed6d3f177c624846978/comments",
+    "commit": {
+      "author": {
+        "date": "2017-09-27T06:12:30Z",
+        "email": "k8s-merge-robot@users.noreply.github.com",
+        "name": "Kubernetes Submit Queue"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-09-27T06:12:30Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #52221 from gnufied/fix-detach-delay-mount-node\n\nAutomatic merge from submit-queue (batch tested with PRs 52990, 53064, 52686, 52221, 53069). If you want to cherry-pick this change to another branch, please follow the instructions <a href=\"https://github.com/kubernetes/community/blob/master/contributors/devel/cherry-picks.md\">here</a>.\n\nAlways populate volume status from node\n\nFixes https://github.com/kubernetes/kubernetes/issues/52036 \r\n\r\nAs discussed offline with @jingxu97 \r\n\r\n/sig storage",
+      "tree": {
+        "sha": "6bf8a39e969dc8a7a3962a13374a0906ae53f9ab",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/6bf8a39e969dc8a7a3962a13374a0906ae53f9ab"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/1cffa70c0d02956441064ed6d3f177c624846978",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/1cffa70c0d02956441064ed6d3f177c624846978",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6MWNmZmE3MGMwZDAyOTU2NDQxMDY0ZWQ2ZDNmMTc3YzYyNDg0Njk3OA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/631bc37cf6ec11270fabb2fc75908daccf1882d9",
+        "sha": "631bc37cf6ec11270fabb2fc75908daccf1882d9",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/631bc37cf6ec11270fabb2fc75908daccf1882d9"
+      },
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/8edae9b3fc1c8b74f15f082f9673d561575ceec6",
+        "sha": "8edae9b3fc1c8b74f15f082f9673d561575ceec6",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/8edae9b3fc1c8b74f15f082f9673d561575ceec6"
+      }
+    ],
+    "sha": "1cffa70c0d02956441064ed6d3f177c624846978",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/1cffa70c0d02956441064ed6d3f177c624846978"
+  },
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/631bc37cf6ec11270fabb2fc75908daccf1882d9/comments",
+    "commit": {
+      "author": {
+        "date": "2017-09-27T06:12:27Z",
+        "email": "k8s-merge-robot@users.noreply.github.com",
+        "name": "Kubernetes Submit Queue"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-09-27T06:12:27Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #52686 from yujuhong/stream\n\nAutomatic merge from submit-queue (batch tested with PRs 52990, 53064, 52686, 52221, 53069). If you want to cherry-pick this change to another branch, please follow the instructions <a href=\"https://github.com/kubernetes/community/blob/master/contributors/devel/cherry-picks.md\">here</a>.\n\nCRI: Allow configuring stdout/stderr streams for Exec/Attach requests\n\nAdd stdout/stderr to exec and attach requests. Also check the request to\r\nensure it meets the requirements.\r\n\r\n**Which issue this PR fixes**: fixes #44448\r\n\r\n```release-note\r\nCRI: Add stdout/stderr fields to Exec and Attach requests.\r\n```",
+      "tree": {
+        "sha": "552fe29dbb9136998e0b1af9012f4c17517d5649",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/552fe29dbb9136998e0b1af9012f4c17517d5649"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/631bc37cf6ec11270fabb2fc75908daccf1882d9",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/631bc37cf6ec11270fabb2fc75908daccf1882d9",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6NjMxYmMzN2NmNmVjMTEyNzBmYWJiMmZjNzU5MDhkYWNjZjE4ODJkOQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/2456fcc60c5f1d9cfa2d3692199bef73adc0f51f",
+        "sha": "2456fcc60c5f1d9cfa2d3692199bef73adc0f51f",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/2456fcc60c5f1d9cfa2d3692199bef73adc0f51f"
+      },
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/478b7f8ab05d73a1a42f3d9d57684748fe06b4a8",
+        "sha": "478b7f8ab05d73a1a42f3d9d57684748fe06b4a8",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/478b7f8ab05d73a1a42f3d9d57684748fe06b4a8"
+      }
+    ],
+    "sha": "631bc37cf6ec11270fabb2fc75908daccf1882d9",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/631bc37cf6ec11270fabb2fc75908daccf1882d9"
+  },
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/2456fcc60c5f1d9cfa2d3692199bef73adc0f51f/comments",
+    "commit": {
+      "author": {
+        "date": "2017-09-27T06:12:24Z",
+        "email": "k8s-merge-robot@users.noreply.github.com",
+        "name": "Kubernetes Submit Queue"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-09-27T06:12:24Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #53064 from msau42/allow-kubelet-metrics\n\nAutomatic merge from submit-queue (batch tested with PRs 52990, 53064, 52686, 52221, 53069). If you want to cherry-pick this change to another branch, please follow the instructions <a href=\"https://github.com/kubernetes/community/blob/master/contributors/devel/cherry-picks.md\">here</a>.\n\nAllow kubelet metrics tests to run on gke\n\n**What this PR does / why we need it**:\r\nOn GKE, you can still access kubelet metrics, so allow the kubelet metrics test.\r\n\r\n**Which issue this PR fixes** *(optional, in `fixes #<issue number>(, fixes #<issue_number>, ...)` format, will close that issue when PR gets merged)*: fixes #\r\n\r\n**Special notes for your reviewer**:\r\n\r\n**Release note**:\r\n\r\nNONE",
+      "tree": {
+        "sha": "7216d5e71b1aa90db49a251d222210cd5cb8be2e",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/7216d5e71b1aa90db49a251d222210cd5cb8be2e"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/2456fcc60c5f1d9cfa2d3692199bef73adc0f51f",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/2456fcc60c5f1d9cfa2d3692199bef73adc0f51f",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6MjQ1NmZjYzYwYzVmMWQ5Y2ZhMmQzNjkyMTk5YmVmNzNhZGMwZjUxZg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/49810fad04a7903848477cc02cb836edddd624f6",
+        "sha": "49810fad04a7903848477cc02cb836edddd624f6",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/49810fad04a7903848477cc02cb836edddd624f6"
+      },
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/27eab0c97ffafbda686cfe4f7a866308aef48217",
+        "sha": "27eab0c97ffafbda686cfe4f7a866308aef48217",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/27eab0c97ffafbda686cfe4f7a866308aef48217"
+      }
+    ],
+    "sha": "2456fcc60c5f1d9cfa2d3692199bef73adc0f51f",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/2456fcc60c5f1d9cfa2d3692199bef73adc0f51f"
+  },
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/49810fad04a7903848477cc02cb836edddd624f6/comments",
+    "commit": {
+      "author": {
+        "date": "2017-09-27T05:56:43Z",
+        "email": "k8s-merge-robot@users.noreply.github.com",
+        "name": "Kubernetes Submit Queue"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-09-27T05:56:43Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #52990 from intelsdi-x/cm_htupdate\n\nAutomatic merge from submit-queue. If you want to cherry-pick this change to another branch, please follow the instructions <a href=\"https://github.com/kubernetes/community/blob/master/contributors/devel/cherry-picks.md\">here</a>.\n\nImprove HT detection\n\n**What this PR does / why we need it**:\r\nFix Cpu Manager e2e node tests that fail due to hard-coded `Thread(s) per core` char position.\r\n\r\n**Which issue this PR fixes** *(optional, in `fixes #<issue number>(, fixes #<issue_number>, ...)` format, will close that issue when PR gets merged)*: fixes #52988",
+      "tree": {
+        "sha": "6f8ae671ed9b90d684cc9a7f99d71da898d41d92",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/6f8ae671ed9b90d684cc9a7f99d71da898d41d92"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/49810fad04a7903848477cc02cb836edddd624f6",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/49810fad04a7903848477cc02cb836edddd624f6",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6NDk4MTBmYWQwNGE3OTAzODQ4NDc3Y2MwMmNiODM2ZWRkZGQ2MjRmNg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/751bcc473c9ff915c5539626b327ee360b2cba1b",
+        "sha": "751bcc473c9ff915c5539626b327ee360b2cba1b",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/751bcc473c9ff915c5539626b327ee360b2cba1b"
+      },
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/c76ae27ffb5c6be662a91105ed388c117815914c",
+        "sha": "c76ae27ffb5c6be662a91105ed388c117815914c",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/c76ae27ffb5c6be662a91105ed388c117815914c"
+      }
+    ],
+    "sha": "49810fad04a7903848477cc02cb836edddd624f6",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/49810fad04a7903848477cc02cb836edddd624f6"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/676637?v=4",
+      "events_url": "https://api.github.com/users/feiskyer/events{/privacy}",
+      "followers_url": "https://api.github.com/users/feiskyer/followers",
+      "following_url": "https://api.github.com/users/feiskyer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/feiskyer/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/feiskyer",
+      "id": 676637,
+      "login": "feiskyer",
+      "node_id": "MDQ6VXNlcjY3NjYzNw==",
+      "organizations_url": "https://api.github.com/users/feiskyer/orgs",
+      "received_events_url": "https://api.github.com/users/feiskyer/received_events",
+      "repos_url": "https://api.github.com/users/feiskyer/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/feiskyer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/feiskyer/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/feiskyer"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/5d75282a626960cf1ea17d146a79c8dd1c26ad9e/comments",
+    "commit": {
+      "author": {
+        "date": "2017-09-27T05:44:22Z",
+        "email": "feiskyer@gmail.com",
+        "name": "Pengfei Ni"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-09-27T05:44:22Z",
+        "email": "feiskyer@gmail.com",
+        "name": "Pengfei Ni"
+      },
+      "message": "Fix host network flake tests",
+      "tree": {
+        "sha": "620c30710e5ab08bce97d4bbbc70669a3c1fc58b",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/620c30710e5ab08bce97d4bbbc70669a3c1fc58b"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/5d75282a626960cf1ea17d146a79c8dd1c26ad9e",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/676637?v=4",
+      "events_url": "https://api.github.com/users/feiskyer/events{/privacy}",
+      "followers_url": "https://api.github.com/users/feiskyer/followers",
+      "following_url": "https://api.github.com/users/feiskyer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/feiskyer/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/feiskyer",
+      "id": 676637,
+      "login": "feiskyer",
+      "node_id": "MDQ6VXNlcjY3NjYzNw==",
+      "organizations_url": "https://api.github.com/users/feiskyer/orgs",
+      "received_events_url": "https://api.github.com/users/feiskyer/received_events",
+      "repos_url": "https://api.github.com/users/feiskyer/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/feiskyer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/feiskyer/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/feiskyer"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/5d75282a626960cf1ea17d146a79c8dd1c26ad9e",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6NWQ3NTI4MmE2MjY5NjBjZjFlYTE3ZDE0NmE3OWM4ZGQxYzI2YWQ5ZQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/52f96dae45d51c951a9185f152440df859ff19c0",
+        "sha": "52f96dae45d51c951a9185f152440df859ff19c0",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/52f96dae45d51c951a9185f152440df859ff19c0"
+      }
+    ],
+    "sha": "5d75282a626960cf1ea17d146a79c8dd1c26ad9e",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/5d75282a626960cf1ea17d146a79c8dd1c26ad9e"
+  },
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/751bcc473c9ff915c5539626b327ee360b2cba1b/comments",
+    "commit": {
+      "author": {
+        "date": "2017-09-27T04:01:26Z",
+        "email": "k8s-merge-robot@users.noreply.github.com",
+        "name": "Kubernetes Submit Queue"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-09-27T04:01:26Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #51975 from mindprince/deviceplugin-gpu-reviewers\n\nAutomatic merge from submit-queue. If you want to cherry-pick this change to another branch, please follow the instructions <a href=\"https://github.com/kubernetes/community/blob/master/contributors/devel/cherry-picks.md\">here</a>.\n\nAdd an OWNERS file for deviceplugin package. Update OWNERS file for gpu package.\n\n**Release note**:\r\n```release-note\r\nNONE\r\n```",
+      "tree": {
+        "sha": "3a4b773b5bc18d24a54ea7a3c00deab4c0ae74c1",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/3a4b773b5bc18d24a54ea7a3c00deab4c0ae74c1"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/751bcc473c9ff915c5539626b327ee360b2cba1b",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/751bcc473c9ff915c5539626b327ee360b2cba1b",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6NzUxYmNjNDczYzlmZjkxNWM1NTM5NjI2YjMyN2VlMzYwYjJjYmExYg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/52f96dae45d51c951a9185f152440df859ff19c0",
+        "sha": "52f96dae45d51c951a9185f152440df859ff19c0",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/52f96dae45d51c951a9185f152440df859ff19c0"
+      },
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/18d25bf4ba238c62441c195660d06c0575b16e31",
+        "sha": "18d25bf4ba238c62441c195660d06c0575b16e31",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/18d25bf4ba238c62441c195660d06c0575b16e31"
+      }
+    ],
+    "sha": "751bcc473c9ff915c5539626b327ee360b2cba1b",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/751bcc473c9ff915c5539626b327ee360b2cba1b"
+  },
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/52f96dae45d51c951a9185f152440df859ff19c0/comments",
+    "commit": {
+      "author": {
+        "date": "2017-09-26T22:51:25Z",
+        "email": "k8s-merge-robot@users.noreply.github.com",
+        "name": "Kubernetes Submit Queue"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2017-09-26T22:51:25Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #52896 from janetkuo/deploy-hash-inte\n\nAutomatic merge from submit-queue (batch tested with PRs 52721, 53057, 52493, 52998, 52896). If you want to cherry-pick this change to another branch, please follow the instructions <a href=\"https://github.com/kubernetes/community/blob/master/contributors/devel/cherry-picks.md\">here</a>.\n\nMove deployment collision avoidance e2e test to integration\n\n**What this PR does / why we need it**:\r\n\r\n**Which issue this PR fixes** *(optional, in `fixes #<issue number>(, fixes #<issue_number>, ...)` format, will close that issue when PR gets merged)*: ref #52113\r\n\r\n**Special notes for your reviewer**:\r\n\r\n**Release note**:\r\n\r\n```release-note\r\nNONE\r\n```",
+      "tree": {
+        "sha": "493fe75b68da39b5f636740e8089d196e8321867",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/493fe75b68da39b5f636740e8089d196e8321867"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/52f96dae45d51c951a9185f152440df859ff19c0",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/52f96dae45d51c951a9185f152440df859ff19c0",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6NTJmOTZkYWU0NWQ1MWM5NTFhOTE4NWYxNTI0NDBkZjg1OWZmMTljMA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/bafe4fb49fad53470d07c68c0f17204e19d758c0",
+        "sha": "bafe4fb49fad53470d07c68c0f17204e19d758c0",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/bafe4fb49fad53470d07c68c0f17204e19d758c0"
+      },
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/24eb21e6cf36da896ae6a410fad8947c129b39b0",
+        "sha": "24eb21e6cf36da896ae6a410fad8947c129b39b0",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/24eb21e6cf36da896ae6a410fad8947c129b39b0"
+      }
+    ],
+    "sha": "52f96dae45d51c951a9185f152440df859ff19c0",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/52f96dae45d51c951a9185f152440df859ff19c0"
+  }
+]

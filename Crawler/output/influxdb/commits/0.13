@@ -1,0 +1,2366 @@
+[
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/219935?v=4",
+      "events_url": "https://api.github.com/users/jwilder/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jwilder/followers",
+      "following_url": "https://api.github.com/users/jwilder/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jwilder/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jwilder",
+      "id": 219935,
+      "login": "jwilder",
+      "node_id": "MDQ6VXNlcjIxOTkzNQ==",
+      "organizations_url": "https://api.github.com/users/jwilder/orgs",
+      "received_events_url": "https://api.github.com/users/jwilder/received_events",
+      "repos_url": "https://api.github.com/users/jwilder/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jwilder/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jwilder/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jwilder"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/e57fb88a051ee40fd9277094345fbd47bb4783ce/comments",
+    "commit": {
+      "author": {
+        "date": "2016-05-11T19:37:42Z",
+        "email": "jwilder@users.noreply.github.com",
+        "name": "Jason Wilder"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2016-05-11T19:37:42Z",
+        "email": "jwilder@users.noreply.github.com",
+        "name": "Jason Wilder"
+      },
+      "message": "Update 0.13.0 release date",
+      "tree": {
+        "sha": "c69cb7549be198d286c938ebc9cd0fc646177f93",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/c69cb7549be198d286c938ebc9cd0fc646177f93"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/e57fb88a051ee40fd9277094345fbd47bb4783ce",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/219935?v=4",
+      "events_url": "https://api.github.com/users/jwilder/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jwilder/followers",
+      "following_url": "https://api.github.com/users/jwilder/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jwilder/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jwilder",
+      "id": 219935,
+      "login": "jwilder",
+      "node_id": "MDQ6VXNlcjIxOTkzNQ==",
+      "organizations_url": "https://api.github.com/users/jwilder/orgs",
+      "received_events_url": "https://api.github.com/users/jwilder/received_events",
+      "repos_url": "https://api.github.com/users/jwilder/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jwilder/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jwilder/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jwilder"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/e57fb88a051ee40fd9277094345fbd47bb4783ce",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6ZTU3ZmI4OGEwNTFlZTQwZmQ5Mjc3MDk0MzQ1ZmJkNDdiYjQ3ODNjZQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/8a04fb8293549337a0d640f3a6cac3c939087059",
+        "sha": "8a04fb8293549337a0d640f3a6cac3c939087059",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/8a04fb8293549337a0d640f3a6cac3c939087059"
+      }
+    ],
+    "sha": "e57fb88a051ee40fd9277094345fbd47bb4783ce",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/e57fb88a051ee40fd9277094345fbd47bb4783ce"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1212129?v=4",
+      "events_url": "https://api.github.com/users/jsternberg/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jsternberg/followers",
+      "following_url": "https://api.github.com/users/jsternberg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jsternberg/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jsternberg",
+      "id": 1212129,
+      "login": "jsternberg",
+      "node_id": "MDQ6VXNlcjEyMTIxMjk=",
+      "organizations_url": "https://api.github.com/users/jsternberg/orgs",
+      "received_events_url": "https://api.github.com/users/jsternberg/received_events",
+      "repos_url": "https://api.github.com/users/jsternberg/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jsternberg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jsternberg/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jsternberg"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/8a04fb8293549337a0d640f3a6cac3c939087059/comments",
+    "commit": {
+      "author": {
+        "date": "2016-05-09T16:04:03Z",
+        "email": "jonathan@influxdb.com",
+        "name": "Jonathan A. Sternberg"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2016-05-09T16:04:03Z",
+        "email": "jonathan@influxdb.com",
+        "name": "Jonathan A. Sternberg"
+      },
+      "message": "Merge pull request #6584 from influxdata/js-6581-show-tag-values-where-clause\n\nFix SHOW TAG VALUES condition to not filter \"name\" erroneously",
+      "tree": {
+        "sha": "1a4d4a0e2acf00a94d848e96ed431ec34a5372c0",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/1a4d4a0e2acf00a94d848e96ed431ec34a5372c0"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/8a04fb8293549337a0d640f3a6cac3c939087059",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1212129?v=4",
+      "events_url": "https://api.github.com/users/jsternberg/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jsternberg/followers",
+      "following_url": "https://api.github.com/users/jsternberg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jsternberg/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jsternberg",
+      "id": 1212129,
+      "login": "jsternberg",
+      "node_id": "MDQ6VXNlcjEyMTIxMjk=",
+      "organizations_url": "https://api.github.com/users/jsternberg/orgs",
+      "received_events_url": "https://api.github.com/users/jsternberg/received_events",
+      "repos_url": "https://api.github.com/users/jsternberg/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jsternberg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jsternberg/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jsternberg"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/8a04fb8293549337a0d640f3a6cac3c939087059",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6OGEwNGZiODI5MzU0OTMzN2EwZDY0MGYzYTZjYWMzYzkzOTA4NzA1OQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/4748bb1d206755c2cb7917d507a43576fd6ffbeb",
+        "sha": "4748bb1d206755c2cb7917d507a43576fd6ffbeb",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/4748bb1d206755c2cb7917d507a43576fd6ffbeb"
+      },
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/3f4072be7ac81369d753e3067d8cbeea9638f027",
+        "sha": "3f4072be7ac81369d753e3067d8cbeea9638f027",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/3f4072be7ac81369d753e3067d8cbeea9638f027"
+      }
+    ],
+    "sha": "8a04fb8293549337a0d640f3a6cac3c939087059",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/8a04fb8293549337a0d640f3a6cac3c939087059"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1212129?v=4",
+      "events_url": "https://api.github.com/users/jsternberg/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jsternberg/followers",
+      "following_url": "https://api.github.com/users/jsternberg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jsternberg/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jsternberg",
+      "id": 1212129,
+      "login": "jsternberg",
+      "node_id": "MDQ6VXNlcjEyMTIxMjk=",
+      "organizations_url": "https://api.github.com/users/jsternberg/orgs",
+      "received_events_url": "https://api.github.com/users/jsternberg/received_events",
+      "repos_url": "https://api.github.com/users/jsternberg/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jsternberg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jsternberg/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jsternberg"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/3f4072be7ac81369d753e3067d8cbeea9638f027/comments",
+    "commit": {
+      "author": {
+        "date": "2016-05-09T13:50:34Z",
+        "email": "jonathan@influxdb.com",
+        "name": "Jonathan A. Sternberg"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2016-05-09T14:27:53Z",
+        "email": "jonathan@influxdb.com",
+        "name": "Jonathan A. Sternberg"
+      },
+      "message": "Fix SHOW TAG VALUES condition to not filter \"name\" erroneously\n\nBefore #6038 was merged, we needed to filter \"name\" so that it didn't\naccidentally hit the code path that used \"name\" to check the name of a\nmeasurement. This was changed to \"_name\" to avoid a conflict with a\nlegitimate tag that used \"name\" as the key.\n\nSHOW TAG VALUES was never modified to remove the code that filtered out\n\"name\". This removes that line of code so a condition with \"name\"\ndoesn't get removed erroneously.\n\nExample:\n\n    SHOW TAG VALUES WITH KEY = host WHERE \"name\" = 'jsternberg'\n\nFixes #6581.",
+      "tree": {
+        "sha": "1a4d4a0e2acf00a94d848e96ed431ec34a5372c0",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/1a4d4a0e2acf00a94d848e96ed431ec34a5372c0"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/3f4072be7ac81369d753e3067d8cbeea9638f027",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1212129?v=4",
+      "events_url": "https://api.github.com/users/jsternberg/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jsternberg/followers",
+      "following_url": "https://api.github.com/users/jsternberg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jsternberg/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jsternberg",
+      "id": 1212129,
+      "login": "jsternberg",
+      "node_id": "MDQ6VXNlcjEyMTIxMjk=",
+      "organizations_url": "https://api.github.com/users/jsternberg/orgs",
+      "received_events_url": "https://api.github.com/users/jsternberg/received_events",
+      "repos_url": "https://api.github.com/users/jsternberg/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jsternberg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jsternberg/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jsternberg"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/3f4072be7ac81369d753e3067d8cbeea9638f027",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6M2Y0MDcyYmU3YWM4MTM2OWQ3NTNlMzA2N2Q4Y2JlZWE5NjM4ZjAyNw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/4748bb1d206755c2cb7917d507a43576fd6ffbeb",
+        "sha": "4748bb1d206755c2cb7917d507a43576fd6ffbeb",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/4748bb1d206755c2cb7917d507a43576fd6ffbeb"
+      }
+    ],
+    "sha": "3f4072be7ac81369d753e3067d8cbeea9638f027",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/3f4072be7ac81369d753e3067d8cbeea9638f027"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1212129?v=4",
+      "events_url": "https://api.github.com/users/jsternberg/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jsternberg/followers",
+      "following_url": "https://api.github.com/users/jsternberg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jsternberg/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jsternberg",
+      "id": 1212129,
+      "login": "jsternberg",
+      "node_id": "MDQ6VXNlcjEyMTIxMjk=",
+      "organizations_url": "https://api.github.com/users/jsternberg/orgs",
+      "received_events_url": "https://api.github.com/users/jsternberg/received_events",
+      "repos_url": "https://api.github.com/users/jsternberg/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jsternberg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jsternberg/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jsternberg"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/4748bb1d206755c2cb7917d507a43576fd6ffbeb/comments",
+    "commit": {
+      "author": {
+        "date": "2016-05-09T01:45:00Z",
+        "email": "jonathan@influxdb.com",
+        "name": "Jonathan A. Sternberg"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2016-05-09T01:45:00Z",
+        "email": "jonathan@influxdb.com",
+        "name": "Jonathan A. Sternberg"
+      },
+      "message": "Merge pull request #6580 from influxdata/js-config-file-option-fix\n\nFix config file loading to read from a file",
+      "tree": {
+        "sha": "2bb32541611f24f173eb7d8d9e0a2b3d092d4b71",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/2bb32541611f24f173eb7d8d9e0a2b3d092d4b71"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/4748bb1d206755c2cb7917d507a43576fd6ffbeb",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1212129?v=4",
+      "events_url": "https://api.github.com/users/jsternberg/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jsternberg/followers",
+      "following_url": "https://api.github.com/users/jsternberg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jsternberg/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jsternberg",
+      "id": 1212129,
+      "login": "jsternberg",
+      "node_id": "MDQ6VXNlcjEyMTIxMjk=",
+      "organizations_url": "https://api.github.com/users/jsternberg/orgs",
+      "received_events_url": "https://api.github.com/users/jsternberg/received_events",
+      "repos_url": "https://api.github.com/users/jsternberg/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jsternberg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jsternberg/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jsternberg"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/4748bb1d206755c2cb7917d507a43576fd6ffbeb",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6NDc0OGJiMWQyMDY3NTVjMmNiNzkxN2Q1MDdhNDM1NzZmZDZmZmJlYg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/b39995be918dd2d83347aee96dabeacacf47b1de",
+        "sha": "b39995be918dd2d83347aee96dabeacacf47b1de",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/b39995be918dd2d83347aee96dabeacacf47b1de"
+      },
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/5a6a34144e3a9e699f39aae281d9d83aefd7f34a",
+        "sha": "5a6a34144e3a9e699f39aae281d9d83aefd7f34a",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/5a6a34144e3a9e699f39aae281d9d83aefd7f34a"
+      }
+    ],
+    "sha": "4748bb1d206755c2cb7917d507a43576fd6ffbeb",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/4748bb1d206755c2cb7917d507a43576fd6ffbeb"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1212129?v=4",
+      "events_url": "https://api.github.com/users/jsternberg/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jsternberg/followers",
+      "following_url": "https://api.github.com/users/jsternberg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jsternberg/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jsternberg",
+      "id": 1212129,
+      "login": "jsternberg",
+      "node_id": "MDQ6VXNlcjEyMTIxMjk=",
+      "organizations_url": "https://api.github.com/users/jsternberg/orgs",
+      "received_events_url": "https://api.github.com/users/jsternberg/received_events",
+      "repos_url": "https://api.github.com/users/jsternberg/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jsternberg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jsternberg/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jsternberg"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/5a6a34144e3a9e699f39aae281d9d83aefd7f34a/comments",
+    "commit": {
+      "author": {
+        "date": "2016-05-08T12:59:35Z",
+        "email": "jonathan@influxdb.com",
+        "name": "Jonathan A. Sternberg"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2016-05-08T13:00:29Z",
+        "email": "jonathan@influxdb.com",
+        "name": "Jonathan A. Sternberg"
+      },
+      "message": "Fix config file loading to read from a file\n\nAccidentally used `FromToml()` when trying to read from a file path\nrather than `FromTomlFile()` which will read the file and then call\n`FromToml()`.\n\nFixes #6578.",
+      "tree": {
+        "sha": "2bb32541611f24f173eb7d8d9e0a2b3d092d4b71",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/2bb32541611f24f173eb7d8d9e0a2b3d092d4b71"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/5a6a34144e3a9e699f39aae281d9d83aefd7f34a",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1212129?v=4",
+      "events_url": "https://api.github.com/users/jsternberg/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jsternberg/followers",
+      "following_url": "https://api.github.com/users/jsternberg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jsternberg/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jsternberg",
+      "id": 1212129,
+      "login": "jsternberg",
+      "node_id": "MDQ6VXNlcjEyMTIxMjk=",
+      "organizations_url": "https://api.github.com/users/jsternberg/orgs",
+      "received_events_url": "https://api.github.com/users/jsternberg/received_events",
+      "repos_url": "https://api.github.com/users/jsternberg/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jsternberg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jsternberg/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jsternberg"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/5a6a34144e3a9e699f39aae281d9d83aefd7f34a",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6NWE2YTM0MTQ0ZTNhOWU2OTlmMzlhYWUyODFkOWQ4M2FlZmQ3ZjM0YQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/b39995be918dd2d83347aee96dabeacacf47b1de",
+        "sha": "b39995be918dd2d83347aee96dabeacacf47b1de",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/b39995be918dd2d83347aee96dabeacacf47b1de"
+      }
+    ],
+    "sha": "5a6a34144e3a9e699f39aae281d9d83aefd7f34a",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/5a6a34144e3a9e699f39aae281d9d83aefd7f34a"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1212129?v=4",
+      "events_url": "https://api.github.com/users/jsternberg/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jsternberg/followers",
+      "following_url": "https://api.github.com/users/jsternberg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jsternberg/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jsternberg",
+      "id": 1212129,
+      "login": "jsternberg",
+      "node_id": "MDQ6VXNlcjEyMTIxMjk=",
+      "organizations_url": "https://api.github.com/users/jsternberg/orgs",
+      "received_events_url": "https://api.github.com/users/jsternberg/received_events",
+      "repos_url": "https://api.github.com/users/jsternberg/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jsternberg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jsternberg/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jsternberg"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/b39995be918dd2d83347aee96dabeacacf47b1de/comments",
+    "commit": {
+      "author": {
+        "date": "2016-05-07T23:36:50Z",
+        "email": "jonathan@influxdb.com",
+        "name": "Jonathan A. Sternberg"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2016-05-07T23:36:50Z",
+        "email": "jonathan@influxdb.com",
+        "name": "Jonathan A. Sternberg"
+      },
+      "message": "Merge pull request #6577 from MikeSchroll/patch-2\n\nUpdating CHANGELOG with #6261",
+      "tree": {
+        "sha": "d2b271c3c69086a5611efdf895c2b6a1b0c01f49",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/d2b271c3c69086a5611efdf895c2b6a1b0c01f49"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/b39995be918dd2d83347aee96dabeacacf47b1de",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1212129?v=4",
+      "events_url": "https://api.github.com/users/jsternberg/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jsternberg/followers",
+      "following_url": "https://api.github.com/users/jsternberg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jsternberg/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jsternberg",
+      "id": 1212129,
+      "login": "jsternberg",
+      "node_id": "MDQ6VXNlcjEyMTIxMjk=",
+      "organizations_url": "https://api.github.com/users/jsternberg/orgs",
+      "received_events_url": "https://api.github.com/users/jsternberg/received_events",
+      "repos_url": "https://api.github.com/users/jsternberg/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jsternberg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jsternberg/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jsternberg"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/b39995be918dd2d83347aee96dabeacacf47b1de",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6YjM5OTk1YmU5MThkZDJkODMzNDdhZWU5NmRhYmVhY2FjZjQ3YjFkZQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/fad057d9b73a2af12db04e981210d3851d1c46be",
+        "sha": "fad057d9b73a2af12db04e981210d3851d1c46be",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/fad057d9b73a2af12db04e981210d3851d1c46be"
+      },
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/6ddb7ed62fca53d1ff2f7754b05253ddb04b8dba",
+        "sha": "6ddb7ed62fca53d1ff2f7754b05253ddb04b8dba",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/6ddb7ed62fca53d1ff2f7754b05253ddb04b8dba"
+      }
+    ],
+    "sha": "b39995be918dd2d83347aee96dabeacacf47b1de",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/b39995be918dd2d83347aee96dabeacacf47b1de"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/114867?v=4",
+      "events_url": "https://api.github.com/users/MikeSchroll/events{/privacy}",
+      "followers_url": "https://api.github.com/users/MikeSchroll/followers",
+      "following_url": "https://api.github.com/users/MikeSchroll/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MikeSchroll/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/MikeSchroll",
+      "id": 114867,
+      "login": "MikeSchroll",
+      "node_id": "MDQ6VXNlcjExNDg2Nw==",
+      "organizations_url": "https://api.github.com/users/MikeSchroll/orgs",
+      "received_events_url": "https://api.github.com/users/MikeSchroll/received_events",
+      "repos_url": "https://api.github.com/users/MikeSchroll/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/MikeSchroll/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MikeSchroll/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/MikeSchroll"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/6ddb7ed62fca53d1ff2f7754b05253ddb04b8dba/comments",
+    "commit": {
+      "author": {
+        "date": "2016-05-07T15:37:28Z",
+        "email": "github@logicx.us",
+        "name": "Mike Schroll"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2016-05-07T15:37:28Z",
+        "email": "github@logicx.us",
+        "name": "Mike Schroll"
+      },
+      "message": "Updating CHANGELOG with #6261\n\n#6261 Added distinct improvement as a bugfix\r\nis a fix that I'm looking for in 0.13 -- so wanted to add it to the CHANGELOG, in the event others are interested.",
+      "tree": {
+        "sha": "d2b271c3c69086a5611efdf895c2b6a1b0c01f49",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/d2b271c3c69086a5611efdf895c2b6a1b0c01f49"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/6ddb7ed62fca53d1ff2f7754b05253ddb04b8dba",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/114867?v=4",
+      "events_url": "https://api.github.com/users/MikeSchroll/events{/privacy}",
+      "followers_url": "https://api.github.com/users/MikeSchroll/followers",
+      "following_url": "https://api.github.com/users/MikeSchroll/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MikeSchroll/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/MikeSchroll",
+      "id": 114867,
+      "login": "MikeSchroll",
+      "node_id": "MDQ6VXNlcjExNDg2Nw==",
+      "organizations_url": "https://api.github.com/users/MikeSchroll/orgs",
+      "received_events_url": "https://api.github.com/users/MikeSchroll/received_events",
+      "repos_url": "https://api.github.com/users/MikeSchroll/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/MikeSchroll/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MikeSchroll/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/MikeSchroll"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/6ddb7ed62fca53d1ff2f7754b05253ddb04b8dba",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6NmRkYjdlZDYyZmNhNTNkMWZmMmY3NzU0YjA1MjUzZGRiMDRiOGRiYQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/fad057d9b73a2af12db04e981210d3851d1c46be",
+        "sha": "fad057d9b73a2af12db04e981210d3851d1c46be",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/fad057d9b73a2af12db04e981210d3851d1c46be"
+      }
+    ],
+    "sha": "6ddb7ed62fca53d1ff2f7754b05253ddb04b8dba",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/6ddb7ed62fca53d1ff2f7754b05253ddb04b8dba"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3771906?v=4",
+      "events_url": "https://api.github.com/users/nathanielc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/nathanielc/followers",
+      "following_url": "https://api.github.com/users/nathanielc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nathanielc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/nathanielc",
+      "id": 3771906,
+      "login": "nathanielc",
+      "node_id": "MDQ6VXNlcjM3NzE5MDY=",
+      "organizations_url": "https://api.github.com/users/nathanielc/orgs",
+      "received_events_url": "https://api.github.com/users/nathanielc/received_events",
+      "repos_url": "https://api.github.com/users/nathanielc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/nathanielc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nathanielc/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/nathanielc"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/fad057d9b73a2af12db04e981210d3851d1c46be/comments",
+    "commit": {
+      "author": {
+        "date": "2016-05-05T22:51:48Z",
+        "email": "nathaniel@influxdb.com",
+        "name": "Nathaniel Cook"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2016-05-05T22:51:48Z",
+        "email": "nathaniel@influxdb.com",
+        "name": "Nathaniel Cook"
+      },
+      "message": "Merge pull request #6566 from influxdata/nc-0.13-client-err\n\nCherry pick #6565 into 0.13",
+      "tree": {
+        "sha": "2025a3daa19087cfcbdeea0af19efd56952fac63",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/2025a3daa19087cfcbdeea0af19efd56952fac63"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/fad057d9b73a2af12db04e981210d3851d1c46be",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3771906?v=4",
+      "events_url": "https://api.github.com/users/nathanielc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/nathanielc/followers",
+      "following_url": "https://api.github.com/users/nathanielc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nathanielc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/nathanielc",
+      "id": 3771906,
+      "login": "nathanielc",
+      "node_id": "MDQ6VXNlcjM3NzE5MDY=",
+      "organizations_url": "https://api.github.com/users/nathanielc/orgs",
+      "received_events_url": "https://api.github.com/users/nathanielc/received_events",
+      "repos_url": "https://api.github.com/users/nathanielc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/nathanielc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nathanielc/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/nathanielc"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/fad057d9b73a2af12db04e981210d3851d1c46be",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6ZmFkMDU3ZDliNzNhMmFmMTJkYjA0ZTk4MTIxMGQzODUxZDFjNDZiZQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/c6518b564fd6044652e319f33a477b28fc92f28f",
+        "sha": "c6518b564fd6044652e319f33a477b28fc92f28f",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/c6518b564fd6044652e319f33a477b28fc92f28f"
+      },
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/80be8f0e6c49ebaf738fb71a4c3fdaf69c554af5",
+        "sha": "80be8f0e6c49ebaf738fb71a4c3fdaf69c554af5",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/80be8f0e6c49ebaf738fb71a4c3fdaf69c554af5"
+      }
+    ],
+    "sha": "fad057d9b73a2af12db04e981210d3851d1c46be",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/fad057d9b73a2af12db04e981210d3851d1c46be"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3771906?v=4",
+      "events_url": "https://api.github.com/users/nathanielc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/nathanielc/followers",
+      "following_url": "https://api.github.com/users/nathanielc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nathanielc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/nathanielc",
+      "id": 3771906,
+      "login": "nathanielc",
+      "node_id": "MDQ6VXNlcjM3NzE5MDY=",
+      "organizations_url": "https://api.github.com/users/nathanielc/orgs",
+      "received_events_url": "https://api.github.com/users/nathanielc/received_events",
+      "repos_url": "https://api.github.com/users/nathanielc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/nathanielc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nathanielc/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/nathanielc"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/80be8f0e6c49ebaf738fb71a4c3fdaf69c554af5/comments",
+    "commit": {
+      "author": {
+        "date": "2016-05-05T22:09:08Z",
+        "email": "nvcook42@gmail.com",
+        "name": "Nathaniel Cook"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2016-05-05T22:09:08Z",
+        "email": "nvcook42@gmail.com",
+        "name": "Nathaniel Cook"
+      },
+      "message": "wrap JSON decode error with meaning full data",
+      "tree": {
+        "sha": "2025a3daa19087cfcbdeea0af19efd56952fac63",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/2025a3daa19087cfcbdeea0af19efd56952fac63"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/80be8f0e6c49ebaf738fb71a4c3fdaf69c554af5",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3771906?v=4",
+      "events_url": "https://api.github.com/users/nathanielc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/nathanielc/followers",
+      "following_url": "https://api.github.com/users/nathanielc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nathanielc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/nathanielc",
+      "id": 3771906,
+      "login": "nathanielc",
+      "node_id": "MDQ6VXNlcjM3NzE5MDY=",
+      "organizations_url": "https://api.github.com/users/nathanielc/orgs",
+      "received_events_url": "https://api.github.com/users/nathanielc/received_events",
+      "repos_url": "https://api.github.com/users/nathanielc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/nathanielc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nathanielc/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/nathanielc"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/80be8f0e6c49ebaf738fb71a4c3fdaf69c554af5",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6ODBiZThmMGU2YzQ5ZWJhZjczOGZiNzFhNGMzZmRhZjY5YzU1NGFmNQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/c6518b564fd6044652e319f33a477b28fc92f28f",
+        "sha": "c6518b564fd6044652e319f33a477b28fc92f28f",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/c6518b564fd6044652e319f33a477b28fc92f28f"
+      }
+    ],
+    "sha": "80be8f0e6c49ebaf738fb71a4c3fdaf69c554af5",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/80be8f0e6c49ebaf738fb71a4c3fdaf69c554af5"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1212129?v=4",
+      "events_url": "https://api.github.com/users/jsternberg/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jsternberg/followers",
+      "following_url": "https://api.github.com/users/jsternberg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jsternberg/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jsternberg",
+      "id": 1212129,
+      "login": "jsternberg",
+      "node_id": "MDQ6VXNlcjEyMTIxMjk=",
+      "organizations_url": "https://api.github.com/users/jsternberg/orgs",
+      "received_events_url": "https://api.github.com/users/jsternberg/received_events",
+      "repos_url": "https://api.github.com/users/jsternberg/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jsternberg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jsternberg/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jsternberg"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/c6518b564fd6044652e319f33a477b28fc92f28f/comments",
+    "commit": {
+      "author": {
+        "date": "2016-05-05T20:08:30Z",
+        "email": "jonathan@influxdb.com",
+        "name": "Jonathan A. Sternberg"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2016-05-05T20:08:30Z",
+        "email": "jonathan@influxdb.com",
+        "name": "Jonathan A. Sternberg"
+      },
+      "message": "Merge pull request #6562 from influxdata/js-support-deprecated-config-sections\n\nSupport the deprecated [collectd] and [opentsdb] sections temporarily",
+      "tree": {
+        "sha": "3b260420ff9eaf3bd47c5429158af6d400ff3246",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/3b260420ff9eaf3bd47c5429158af6d400ff3246"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/c6518b564fd6044652e319f33a477b28fc92f28f",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1212129?v=4",
+      "events_url": "https://api.github.com/users/jsternberg/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jsternberg/followers",
+      "following_url": "https://api.github.com/users/jsternberg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jsternberg/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jsternberg",
+      "id": 1212129,
+      "login": "jsternberg",
+      "node_id": "MDQ6VXNlcjEyMTIxMjk=",
+      "organizations_url": "https://api.github.com/users/jsternberg/orgs",
+      "received_events_url": "https://api.github.com/users/jsternberg/received_events",
+      "repos_url": "https://api.github.com/users/jsternberg/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jsternberg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jsternberg/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jsternberg"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/c6518b564fd6044652e319f33a477b28fc92f28f",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6YzY1MThiNTY0ZmQ2MDQ0NjUyZTMxOWYzM2E0NzdiMjhmYzkyZjI4Zg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/f2bb9db1c59817fe6ada4b63a41c777dcb5e9369",
+        "sha": "f2bb9db1c59817fe6ada4b63a41c777dcb5e9369",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/f2bb9db1c59817fe6ada4b63a41c777dcb5e9369"
+      },
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/3c3f7be3551969124d703d9cb569c9e65009a87e",
+        "sha": "3c3f7be3551969124d703d9cb569c9e65009a87e",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/3c3f7be3551969124d703d9cb569c9e65009a87e"
+      }
+    ],
+    "sha": "c6518b564fd6044652e319f33a477b28fc92f28f",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/c6518b564fd6044652e319f33a477b28fc92f28f"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1212129?v=4",
+      "events_url": "https://api.github.com/users/jsternberg/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jsternberg/followers",
+      "following_url": "https://api.github.com/users/jsternberg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jsternberg/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jsternberg",
+      "id": 1212129,
+      "login": "jsternberg",
+      "node_id": "MDQ6VXNlcjEyMTIxMjk=",
+      "organizations_url": "https://api.github.com/users/jsternberg/orgs",
+      "received_events_url": "https://api.github.com/users/jsternberg/received_events",
+      "repos_url": "https://api.github.com/users/jsternberg/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jsternberg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jsternberg/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jsternberg"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/3c3f7be3551969124d703d9cb569c9e65009a87e/comments",
+    "commit": {
+      "author": {
+        "date": "2016-05-05T17:57:53Z",
+        "email": "jonathan@influxdb.com",
+        "name": "Jonathan A. Sternberg"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2016-05-05T18:09:50Z",
+        "email": "jonathan@influxdb.com",
+        "name": "Jonathan A. Sternberg"
+      },
+      "message": "Support the deprecated [collectd] and [opentsdb] sections temporarily\n\nPerforms an automatic search and replace on these sections of the\nconfiguration file so they work for the 0.13 release. Will be removed\nfor 1.0.",
+      "tree": {
+        "sha": "3b260420ff9eaf3bd47c5429158af6d400ff3246",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/3b260420ff9eaf3bd47c5429158af6d400ff3246"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/3c3f7be3551969124d703d9cb569c9e65009a87e",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1212129?v=4",
+      "events_url": "https://api.github.com/users/jsternberg/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jsternberg/followers",
+      "following_url": "https://api.github.com/users/jsternberg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jsternberg/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jsternberg",
+      "id": 1212129,
+      "login": "jsternberg",
+      "node_id": "MDQ6VXNlcjEyMTIxMjk=",
+      "organizations_url": "https://api.github.com/users/jsternberg/orgs",
+      "received_events_url": "https://api.github.com/users/jsternberg/received_events",
+      "repos_url": "https://api.github.com/users/jsternberg/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jsternberg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jsternberg/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jsternberg"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/3c3f7be3551969124d703d9cb569c9e65009a87e",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6M2MzZjdiZTM1NTE5NjkxMjRkNzAzZDljYjU2OWM5ZTY1MDA5YTg3ZQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/f2bb9db1c59817fe6ada4b63a41c777dcb5e9369",
+        "sha": "f2bb9db1c59817fe6ada4b63a41c777dcb5e9369",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/f2bb9db1c59817fe6ada4b63a41c777dcb5e9369"
+      }
+    ],
+    "sha": "3c3f7be3551969124d703d9cb569c9e65009a87e",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/3c3f7be3551969124d703d9cb569c9e65009a87e"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/219935?v=4",
+      "events_url": "https://api.github.com/users/jwilder/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jwilder/followers",
+      "following_url": "https://api.github.com/users/jwilder/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jwilder/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jwilder",
+      "id": 219935,
+      "login": "jwilder",
+      "node_id": "MDQ6VXNlcjIxOTkzNQ==",
+      "organizations_url": "https://api.github.com/users/jwilder/orgs",
+      "received_events_url": "https://api.github.com/users/jwilder/received_events",
+      "repos_url": "https://api.github.com/users/jwilder/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jwilder/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jwilder/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jwilder"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/f2bb9db1c59817fe6ada4b63a41c777dcb5e9369/comments",
+    "commit": {
+      "author": {
+        "date": "2016-05-03T16:45:44Z",
+        "email": "jwilder@users.noreply.github.com",
+        "name": "Jason Wilder"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2016-05-03T16:45:44Z",
+        "email": "jwilder@users.noreply.github.com",
+        "name": "Jason Wilder"
+      },
+      "message": "Update changelog",
+      "tree": {
+        "sha": "74c82a94abfe149bda015edbf7f71e68fcd9a297",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/74c82a94abfe149bda015edbf7f71e68fcd9a297"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/f2bb9db1c59817fe6ada4b63a41c777dcb5e9369",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/219935?v=4",
+      "events_url": "https://api.github.com/users/jwilder/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jwilder/followers",
+      "following_url": "https://api.github.com/users/jwilder/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jwilder/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jwilder",
+      "id": 219935,
+      "login": "jwilder",
+      "node_id": "MDQ6VXNlcjIxOTkzNQ==",
+      "organizations_url": "https://api.github.com/users/jwilder/orgs",
+      "received_events_url": "https://api.github.com/users/jwilder/received_events",
+      "repos_url": "https://api.github.com/users/jwilder/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jwilder/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jwilder/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jwilder"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/f2bb9db1c59817fe6ada4b63a41c777dcb5e9369",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6ZjJiYjlkYjFjNTk4MTdmZTZhZGE0YjYzYTQxYzc3N2RjYjVlOTM2OQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/57cb3fdbc0610c6bc8ccd315359331d1ab6acf1f",
+        "sha": "57cb3fdbc0610c6bc8ccd315359331d1ab6acf1f",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/57cb3fdbc0610c6bc8ccd315359331d1ab6acf1f"
+      }
+    ],
+    "sha": "f2bb9db1c59817fe6ada4b63a41c777dcb5e9369",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/f2bb9db1c59817fe6ada4b63a41c777dcb5e9369"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/219935?v=4",
+      "events_url": "https://api.github.com/users/jwilder/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jwilder/followers",
+      "following_url": "https://api.github.com/users/jwilder/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jwilder/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jwilder",
+      "id": 219935,
+      "login": "jwilder",
+      "node_id": "MDQ6VXNlcjIxOTkzNQ==",
+      "organizations_url": "https://api.github.com/users/jwilder/orgs",
+      "received_events_url": "https://api.github.com/users/jwilder/received_events",
+      "repos_url": "https://api.github.com/users/jwilder/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jwilder/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jwilder/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jwilder"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/57cb3fdbc0610c6bc8ccd315359331d1ab6acf1f/comments",
+    "commit": {
+      "author": {
+        "date": "2016-05-03T16:44:33Z",
+        "email": "jwilder@users.noreply.github.com",
+        "name": "Jason Wilder"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2016-05-03T16:44:33Z",
+        "email": "jwilder@users.noreply.github.com",
+        "name": "Jason Wilder"
+      },
+      "message": "Merge pull request #6522 from influxdata/tp-tsm-dump\n\nDump TSM files to line protocol",
+      "tree": {
+        "sha": "cb1600cb467cfb56726537e584b45c7e69d0830d",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/cb1600cb467cfb56726537e584b45c7e69d0830d"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/57cb3fdbc0610c6bc8ccd315359331d1ab6acf1f",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/219935?v=4",
+      "events_url": "https://api.github.com/users/jwilder/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jwilder/followers",
+      "following_url": "https://api.github.com/users/jwilder/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jwilder/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jwilder",
+      "id": 219935,
+      "login": "jwilder",
+      "node_id": "MDQ6VXNlcjIxOTkzNQ==",
+      "organizations_url": "https://api.github.com/users/jwilder/orgs",
+      "received_events_url": "https://api.github.com/users/jwilder/received_events",
+      "repos_url": "https://api.github.com/users/jwilder/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jwilder/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jwilder/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jwilder"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/57cb3fdbc0610c6bc8ccd315359331d1ab6acf1f",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6NTdjYjNmZGJjMDYxMGM2YmM4Y2NkMzE1MzU5MzMxZDFhYjZhY2YxZg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/448c0c116ed57bbda98eac9359e82a38746c7cd5",
+        "sha": "448c0c116ed57bbda98eac9359e82a38746c7cd5",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/448c0c116ed57bbda98eac9359e82a38746c7cd5"
+      },
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/efdc54ac5d7308515e105cc7c83fbd3910a73b74",
+        "sha": "efdc54ac5d7308515e105cc7c83fbd3910a73b74",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/efdc54ac5d7308515e105cc7c83fbd3910a73b74"
+      }
+    ],
+    "sha": "57cb3fdbc0610c6bc8ccd315359331d1ab6acf1f",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/57cb3fdbc0610c6bc8ccd315359331d1ab6acf1f"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4060903?v=4",
+      "events_url": "https://api.github.com/users/rossmcdonald/events{/privacy}",
+      "followers_url": "https://api.github.com/users/rossmcdonald/followers",
+      "following_url": "https://api.github.com/users/rossmcdonald/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rossmcdonald/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/rossmcdonald",
+      "id": 4060903,
+      "login": "rossmcdonald",
+      "node_id": "MDQ6VXNlcjQwNjA5MDM=",
+      "organizations_url": "https://api.github.com/users/rossmcdonald/orgs",
+      "received_events_url": "https://api.github.com/users/rossmcdonald/received_events",
+      "repos_url": "https://api.github.com/users/rossmcdonald/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/rossmcdonald/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rossmcdonald/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/rossmcdonald"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/448c0c116ed57bbda98eac9359e82a38746c7cd5/comments",
+    "commit": {
+      "author": {
+        "date": "2016-05-03T16:40:44Z",
+        "email": "rossmcdonald@users.noreply.github.com",
+        "name": "Ross McDonald"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2016-05-03T16:40:44Z",
+        "email": "rossmcdonald@users.noreply.github.com",
+        "name": "Ross McDonald"
+      },
+      "message": "Merge pull request #6534 from influxdata/ross-gh6511\n\nMove to Go 1.6.2",
+      "tree": {
+        "sha": "6bb94036e435c3980425efb6c989c7dc14e41737",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/6bb94036e435c3980425efb6c989c7dc14e41737"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/448c0c116ed57bbda98eac9359e82a38746c7cd5",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4060903?v=4",
+      "events_url": "https://api.github.com/users/rossmcdonald/events{/privacy}",
+      "followers_url": "https://api.github.com/users/rossmcdonald/followers",
+      "following_url": "https://api.github.com/users/rossmcdonald/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rossmcdonald/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/rossmcdonald",
+      "id": 4060903,
+      "login": "rossmcdonald",
+      "node_id": "MDQ6VXNlcjQwNjA5MDM=",
+      "organizations_url": "https://api.github.com/users/rossmcdonald/orgs",
+      "received_events_url": "https://api.github.com/users/rossmcdonald/received_events",
+      "repos_url": "https://api.github.com/users/rossmcdonald/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/rossmcdonald/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rossmcdonald/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/rossmcdonald"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/448c0c116ed57bbda98eac9359e82a38746c7cd5",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6NDQ4YzBjMTE2ZWQ1N2JiZGE5OGVhYzkzNTllODJhMzg3NDZjN2NkNQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/01ea22d818e0749ac1bafe536078a63e139e1d7c",
+        "sha": "01ea22d818e0749ac1bafe536078a63e139e1d7c",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/01ea22d818e0749ac1bafe536078a63e139e1d7c"
+      },
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/96ad9c57d96b2bcd804d5f12df625b0c6b41874d",
+        "sha": "96ad9c57d96b2bcd804d5f12df625b0c6b41874d",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/96ad9c57d96b2bcd804d5f12df625b0c6b41874d"
+      }
+    ],
+    "sha": "448c0c116ed57bbda98eac9359e82a38746c7cd5",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/448c0c116ed57bbda98eac9359e82a38746c7cd5"
+  },
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/96ad9c57d96b2bcd804d5f12df625b0c6b41874d/comments",
+    "commit": {
+      "author": {
+        "date": "2016-05-02T17:56:27Z",
+        "email": "ross@influxdb.com",
+        "name": "Ross McDonald"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2016-05-03T16:33:49Z",
+        "email": "ross@influxdb.com",
+        "name": "Ross McDonald"
+      },
+      "message": "Move to Go 1.6.2.",
+      "tree": {
+        "sha": "a5059eb13d1a03279455a5e236854550492653cd",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/a5059eb13d1a03279455a5e236854550492653cd"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/96ad9c57d96b2bcd804d5f12df625b0c6b41874d",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": null,
+    "html_url": "https://github.com/influxdata/influxdb/commit/96ad9c57d96b2bcd804d5f12df625b0c6b41874d",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6OTZhZDljNTdkOTZiMmJjZDgwNGQ1ZjEyZGY2MjViMGM2YjQxODc0ZA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/417df18396d8a667c02f1093829d10dece80c046",
+        "sha": "417df18396d8a667c02f1093829d10dece80c046",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/417df18396d8a667c02f1093829d10dece80c046"
+      }
+    ],
+    "sha": "96ad9c57d96b2bcd804d5f12df625b0c6b41874d",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/96ad9c57d96b2bcd804d5f12df625b0c6b41874d"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/219935?v=4",
+      "events_url": "https://api.github.com/users/jwilder/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jwilder/followers",
+      "following_url": "https://api.github.com/users/jwilder/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jwilder/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jwilder",
+      "id": 219935,
+      "login": "jwilder",
+      "node_id": "MDQ6VXNlcjIxOTkzNQ==",
+      "organizations_url": "https://api.github.com/users/jwilder/orgs",
+      "received_events_url": "https://api.github.com/users/jwilder/received_events",
+      "repos_url": "https://api.github.com/users/jwilder/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jwilder/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jwilder/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jwilder"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/01ea22d818e0749ac1bafe536078a63e139e1d7c/comments",
+    "commit": {
+      "author": {
+        "date": "2016-05-03T15:54:14Z",
+        "email": "jwilder@users.noreply.github.com",
+        "name": "Jason Wilder"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2016-05-03T15:54:14Z",
+        "email": "jwilder@users.noreply.github.com",
+        "name": "Jason Wilder"
+      },
+      "message": "Merge pull request #6544 from influxdata/jw-tsm\n\nFix overwriting points returning wrong value",
+      "tree": {
+        "sha": "a336ad9a3978c208d25775d2aeb0ed40d14ab056",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/a336ad9a3978c208d25775d2aeb0ed40d14ab056"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/01ea22d818e0749ac1bafe536078a63e139e1d7c",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/219935?v=4",
+      "events_url": "https://api.github.com/users/jwilder/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jwilder/followers",
+      "following_url": "https://api.github.com/users/jwilder/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jwilder/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jwilder",
+      "id": 219935,
+      "login": "jwilder",
+      "node_id": "MDQ6VXNlcjIxOTkzNQ==",
+      "organizations_url": "https://api.github.com/users/jwilder/orgs",
+      "received_events_url": "https://api.github.com/users/jwilder/received_events",
+      "repos_url": "https://api.github.com/users/jwilder/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jwilder/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jwilder/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jwilder"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/01ea22d818e0749ac1bafe536078a63e139e1d7c",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6MDFlYTIyZDgxOGUwNzQ5YWMxYmFmZTUzNjA3OGE2M2UxMzllMWQ3Yw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/417df18396d8a667c02f1093829d10dece80c046",
+        "sha": "417df18396d8a667c02f1093829d10dece80c046",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/417df18396d8a667c02f1093829d10dece80c046"
+      },
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/4196554f517e1e31c7f678da006395e365a0a19f",
+        "sha": "4196554f517e1e31c7f678da006395e365a0a19f",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/4196554f517e1e31c7f678da006395e365a0a19f"
+      }
+    ],
+    "sha": "01ea22d818e0749ac1bafe536078a63e139e1d7c",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/01ea22d818e0749ac1bafe536078a63e139e1d7c"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/219935?v=4",
+      "events_url": "https://api.github.com/users/jwilder/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jwilder/followers",
+      "following_url": "https://api.github.com/users/jwilder/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jwilder/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jwilder",
+      "id": 219935,
+      "login": "jwilder",
+      "node_id": "MDQ6VXNlcjIxOTkzNQ==",
+      "organizations_url": "https://api.github.com/users/jwilder/orgs",
+      "received_events_url": "https://api.github.com/users/jwilder/received_events",
+      "repos_url": "https://api.github.com/users/jwilder/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jwilder/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jwilder/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jwilder"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/4196554f517e1e31c7f678da006395e365a0a19f/comments",
+    "commit": {
+      "author": {
+        "date": "2016-05-03T04:06:07Z",
+        "email": "mail@jasonwilder.com",
+        "name": "Jason Wilder"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2016-05-03T15:21:31Z",
+        "email": "mail@jasonwilder.com",
+        "name": "Jason Wilder"
+      },
+      "message": "Fix overwriting points returning wrong value\n\nThe cursors were returning the wrong value in the case when points\nexisted in both the cache and tsm files with the same timestamp. The\ncache value should have been returned, but the tsm value was returned\nincorrectly.\n\nFixes #6439",
+      "tree": {
+        "sha": "a336ad9a3978c208d25775d2aeb0ed40d14ab056",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/a336ad9a3978c208d25775d2aeb0ed40d14ab056"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/4196554f517e1e31c7f678da006395e365a0a19f",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/219935?v=4",
+      "events_url": "https://api.github.com/users/jwilder/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jwilder/followers",
+      "following_url": "https://api.github.com/users/jwilder/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jwilder/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jwilder",
+      "id": 219935,
+      "login": "jwilder",
+      "node_id": "MDQ6VXNlcjIxOTkzNQ==",
+      "organizations_url": "https://api.github.com/users/jwilder/orgs",
+      "received_events_url": "https://api.github.com/users/jwilder/received_events",
+      "repos_url": "https://api.github.com/users/jwilder/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jwilder/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jwilder/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jwilder"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/4196554f517e1e31c7f678da006395e365a0a19f",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6NDE5NjU1NGY1MTdlMWUzMWM3ZjY3OGRhMDA2Mzk1ZTM2NWEwYTE5Zg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/417df18396d8a667c02f1093829d10dece80c046",
+        "sha": "417df18396d8a667c02f1093829d10dece80c046",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/417df18396d8a667c02f1093829d10dece80c046"
+      }
+    ],
+    "sha": "4196554f517e1e31c7f678da006395e365a0a19f",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/4196554f517e1e31c7f678da006395e365a0a19f"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/118015?v=4",
+      "events_url": "https://api.github.com/users/benbjohnson/events{/privacy}",
+      "followers_url": "https://api.github.com/users/benbjohnson/followers",
+      "following_url": "https://api.github.com/users/benbjohnson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benbjohnson/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/benbjohnson",
+      "id": 118015,
+      "login": "benbjohnson",
+      "node_id": "MDQ6VXNlcjExODAxNQ==",
+      "organizations_url": "https://api.github.com/users/benbjohnson/orgs",
+      "received_events_url": "https://api.github.com/users/benbjohnson/received_events",
+      "repos_url": "https://api.github.com/users/benbjohnson/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/benbjohnson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benbjohnson/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/benbjohnson"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/417df18396d8a667c02f1093829d10dece80c046/comments",
+    "commit": {
+      "author": {
+        "date": "2016-05-03T15:15:21Z",
+        "email": "benbjohnson@yahoo.com",
+        "name": "Ben Johnson"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2016-05-03T15:15:21Z",
+        "email": "benbjohnson@yahoo.com",
+        "name": "Ben Johnson"
+      },
+      "message": "Merge pull request #6533 from benbjohnson/optimize-show-series\n\nOptimize SHOW SERIES",
+      "tree": {
+        "sha": "8a7069c3d0f00a19aa3652d285d18a3713f9d0d6",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/8a7069c3d0f00a19aa3652d285d18a3713f9d0d6"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/417df18396d8a667c02f1093829d10dece80c046",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/118015?v=4",
+      "events_url": "https://api.github.com/users/benbjohnson/events{/privacy}",
+      "followers_url": "https://api.github.com/users/benbjohnson/followers",
+      "following_url": "https://api.github.com/users/benbjohnson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benbjohnson/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/benbjohnson",
+      "id": 118015,
+      "login": "benbjohnson",
+      "node_id": "MDQ6VXNlcjExODAxNQ==",
+      "organizations_url": "https://api.github.com/users/benbjohnson/orgs",
+      "received_events_url": "https://api.github.com/users/benbjohnson/received_events",
+      "repos_url": "https://api.github.com/users/benbjohnson/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/benbjohnson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benbjohnson/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/benbjohnson"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/417df18396d8a667c02f1093829d10dece80c046",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6NDE3ZGYxODM5NmQ4YTY2N2MwMmYxMDkzODI5ZDEwZGVjZTgwYzA0Ng==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/fd77dbe6488c1939d8cc1441e32d899de5aee055",
+        "sha": "fd77dbe6488c1939d8cc1441e32d899de5aee055",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/fd77dbe6488c1939d8cc1441e32d899de5aee055"
+      },
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/49eb3b8d042994c2f36ca6d22b3a77044ceea2ba",
+        "sha": "49eb3b8d042994c2f36ca6d22b3a77044ceea2ba",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/49eb3b8d042994c2f36ca6d22b3a77044ceea2ba"
+      }
+    ],
+    "sha": "417df18396d8a667c02f1093829d10dece80c046",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/417df18396d8a667c02f1093829d10dece80c046"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/501993?v=4",
+      "events_url": "https://api.github.com/users/e-dard/events{/privacy}",
+      "followers_url": "https://api.github.com/users/e-dard/followers",
+      "following_url": "https://api.github.com/users/e-dard/following{/other_user}",
+      "gists_url": "https://api.github.com/users/e-dard/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/e-dard",
+      "id": 501993,
+      "login": "e-dard",
+      "node_id": "MDQ6VXNlcjUwMTk5Mw==",
+      "organizations_url": "https://api.github.com/users/e-dard/orgs",
+      "received_events_url": "https://api.github.com/users/e-dard/received_events",
+      "repos_url": "https://api.github.com/users/e-dard/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/e-dard/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/e-dard/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/e-dard"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/fd77dbe6488c1939d8cc1441e32d899de5aee055/comments",
+    "commit": {
+      "author": {
+        "date": "2016-05-03T15:00:39Z",
+        "email": "me@edd.io",
+        "name": "Edd Robinson"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2016-05-03T15:00:39Z",
+        "email": "me@edd.io",
+        "name": "Edd Robinson"
+      },
+      "message": "Merge pull request #6546 from influxdata/er-build-tag\n\nFix invalid build tag",
+      "tree": {
+        "sha": "bec22d57b007ffe8fa9960e294f02c6f5def90f5",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/bec22d57b007ffe8fa9960e294f02c6f5def90f5"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/fd77dbe6488c1939d8cc1441e32d899de5aee055",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/501993?v=4",
+      "events_url": "https://api.github.com/users/e-dard/events{/privacy}",
+      "followers_url": "https://api.github.com/users/e-dard/followers",
+      "following_url": "https://api.github.com/users/e-dard/following{/other_user}",
+      "gists_url": "https://api.github.com/users/e-dard/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/e-dard",
+      "id": 501993,
+      "login": "e-dard",
+      "node_id": "MDQ6VXNlcjUwMTk5Mw==",
+      "organizations_url": "https://api.github.com/users/e-dard/orgs",
+      "received_events_url": "https://api.github.com/users/e-dard/received_events",
+      "repos_url": "https://api.github.com/users/e-dard/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/e-dard/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/e-dard/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/e-dard"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/fd77dbe6488c1939d8cc1441e32d899de5aee055",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6ZmQ3N2RiZTY0ODhjMTkzOWQ4Y2MxNDQxZTMyZDg5OWRlNWFlZTA1NQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/a2a5c32770003593f89e77ca19619e0deb7736b3",
+        "sha": "a2a5c32770003593f89e77ca19619e0deb7736b3",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/a2a5c32770003593f89e77ca19619e0deb7736b3"
+      },
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/d35fa1ec97048214cdc2d1ed897a95e2b521df4f",
+        "sha": "d35fa1ec97048214cdc2d1ed897a95e2b521df4f",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/d35fa1ec97048214cdc2d1ed897a95e2b521df4f"
+      }
+    ],
+    "sha": "fd77dbe6488c1939d8cc1441e32d899de5aee055",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/fd77dbe6488c1939d8cc1441e32d899de5aee055"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1212129?v=4",
+      "events_url": "https://api.github.com/users/jsternberg/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jsternberg/followers",
+      "following_url": "https://api.github.com/users/jsternberg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jsternberg/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jsternberg",
+      "id": 1212129,
+      "login": "jsternberg",
+      "node_id": "MDQ6VXNlcjEyMTIxMjk=",
+      "organizations_url": "https://api.github.com/users/jsternberg/orgs",
+      "received_events_url": "https://api.github.com/users/jsternberg/received_events",
+      "repos_url": "https://api.github.com/users/jsternberg/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jsternberg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jsternberg/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jsternberg"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/a2a5c32770003593f89e77ca19619e0deb7736b3/comments",
+    "commit": {
+      "author": {
+        "date": "2016-05-03T14:56:21Z",
+        "email": "jonathan@influxdb.com",
+        "name": "Jonathan A. Sternberg"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2016-05-03T14:56:21Z",
+        "email": "jonathan@influxdb.com",
+        "name": "Jonathan A. Sternberg"
+      },
+      "message": "Merge pull request #6539 from influxdata/js-6495-fix-aggregates-with-empty-shards\n\nFix aggregate returns when data is missing from some shards",
+      "tree": {
+        "sha": "d6630ff264441147581752007605c1abed537ad1",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/d6630ff264441147581752007605c1abed537ad1"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/a2a5c32770003593f89e77ca19619e0deb7736b3",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1212129?v=4",
+      "events_url": "https://api.github.com/users/jsternberg/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jsternberg/followers",
+      "following_url": "https://api.github.com/users/jsternberg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jsternberg/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jsternberg",
+      "id": 1212129,
+      "login": "jsternberg",
+      "node_id": "MDQ6VXNlcjEyMTIxMjk=",
+      "organizations_url": "https://api.github.com/users/jsternberg/orgs",
+      "received_events_url": "https://api.github.com/users/jsternberg/received_events",
+      "repos_url": "https://api.github.com/users/jsternberg/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jsternberg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jsternberg/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jsternberg"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/a2a5c32770003593f89e77ca19619e0deb7736b3",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6YTJhNWMzMjc3MDAwMzU5M2Y4OWU3N2NhMTk2MTllMGRlYjc3MzZiMw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/b6be0e9e6ae38df95bfe949d9bcd86d7cb752491",
+        "sha": "b6be0e9e6ae38df95bfe949d9bcd86d7cb752491",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/b6be0e9e6ae38df95bfe949d9bcd86d7cb752491"
+      },
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/d6d0addcec0f384dcaa34677ac5d0958b4eb0bd9",
+        "sha": "d6d0addcec0f384dcaa34677ac5d0958b4eb0bd9",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/d6d0addcec0f384dcaa34677ac5d0958b4eb0bd9"
+      }
+    ],
+    "sha": "a2a5c32770003593f89e77ca19619e0deb7736b3",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/a2a5c32770003593f89e77ca19619e0deb7736b3"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/118015?v=4",
+      "events_url": "https://api.github.com/users/benbjohnson/events{/privacy}",
+      "followers_url": "https://api.github.com/users/benbjohnson/followers",
+      "following_url": "https://api.github.com/users/benbjohnson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benbjohnson/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/benbjohnson",
+      "id": 118015,
+      "login": "benbjohnson",
+      "node_id": "MDQ6VXNlcjExODAxNQ==",
+      "organizations_url": "https://api.github.com/users/benbjohnson/orgs",
+      "received_events_url": "https://api.github.com/users/benbjohnson/received_events",
+      "repos_url": "https://api.github.com/users/benbjohnson/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/benbjohnson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benbjohnson/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/benbjohnson"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/49eb3b8d042994c2f36ca6d22b3a77044ceea2ba/comments",
+    "commit": {
+      "author": {
+        "date": "2016-05-02T15:17:08Z",
+        "email": "benbjohnson@yahoo.com",
+        "name": "Ben Johnson"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2016-05-03T14:52:44Z",
+        "email": "benbjohnson@yahoo.com",
+        "name": "Ben Johnson"
+      },
+      "message": "optimize show series iterator\n\nThis commit changes the `SeriesIterator` to process one measurement\nat a time and uses a `floatFastDedupeIterator` to avoid point\nencoding during deduplication.",
+      "tree": {
+        "sha": "88af7bb03531c6dec4e5376c303437a7cc8e5c2d",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/88af7bb03531c6dec4e5376c303437a7cc8e5c2d"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/49eb3b8d042994c2f36ca6d22b3a77044ceea2ba",
+      "verification": {
+        "payload": "tree 88af7bb03531c6dec4e5376c303437a7cc8e5c2d\nparent b6be0e9e6ae38df95bfe949d9bcd86d7cb752491\nauthor Ben Johnson <benbjohnson@yahoo.com> 1462202228 -0600\ncommitter Ben Johnson <benbjohnson@yahoo.com> 1462287164 -0600\n\noptimize show series iterator\n\nThis commit changes the `SeriesIterator` to process one measurement\nat a time and uses a `floatFastDedupeIterator` to avoid point\nencoding during deduplication.\n",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1\nComment: GPGTools - https://gpgtools.org\n\niQEcBAABCgAGBQJXKLs8AAoJEHgOmMa+2gkVl0gH/j7Prd1Rx0GpdwTx1Mdc3esi\nRv9e64QClrEYwyamwU1VoEewsXdEaFGvRGGlHZgVTk9QCw8aZBt7QAs4MCiZYgTs\n/f20bPujKk7PH4GJTh+njKZDbyQgmt7VaKLLYVSMh5tOr+zOYW076qFw5fcgppKe\n4c9or9lmHB4d7K7gs5hlL3BUkT7DAjFjJY4riT2QpL9CheZv7MvOSzGnOk3c89TY\ncK02Sl6AaZ+YEY8KNdf9abwbgUVwCDhl7V5BH4WCZlq/REAnLRxwUhNhfe9kOSFk\n1LpEZNmvNEosHNUovcmSs2Neq+pwF2EmFLm7GMYqztb3lRfl+ClPZAEbx9LFA+w=\n=dDvI\n-----END PGP SIGNATURE-----",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/118015?v=4",
+      "events_url": "https://api.github.com/users/benbjohnson/events{/privacy}",
+      "followers_url": "https://api.github.com/users/benbjohnson/followers",
+      "following_url": "https://api.github.com/users/benbjohnson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benbjohnson/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/benbjohnson",
+      "id": 118015,
+      "login": "benbjohnson",
+      "node_id": "MDQ6VXNlcjExODAxNQ==",
+      "organizations_url": "https://api.github.com/users/benbjohnson/orgs",
+      "received_events_url": "https://api.github.com/users/benbjohnson/received_events",
+      "repos_url": "https://api.github.com/users/benbjohnson/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/benbjohnson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benbjohnson/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/benbjohnson"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/49eb3b8d042994c2f36ca6d22b3a77044ceea2ba",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6NDllYjNiOGQwNDI5OTRjMmYzNmNhNmQyMmIzYTc3MDQ0Y2VlYTJiYQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/b6be0e9e6ae38df95bfe949d9bcd86d7cb752491",
+        "sha": "b6be0e9e6ae38df95bfe949d9bcd86d7cb752491",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/b6be0e9e6ae38df95bfe949d9bcd86d7cb752491"
+      }
+    ],
+    "sha": "49eb3b8d042994c2f36ca6d22b3a77044ceea2ba",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/49eb3b8d042994c2f36ca6d22b3a77044ceea2ba"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1212129?v=4",
+      "events_url": "https://api.github.com/users/jsternberg/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jsternberg/followers",
+      "following_url": "https://api.github.com/users/jsternberg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jsternberg/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jsternberg",
+      "id": 1212129,
+      "login": "jsternberg",
+      "node_id": "MDQ6VXNlcjEyMTIxMjk=",
+      "organizations_url": "https://api.github.com/users/jsternberg/orgs",
+      "received_events_url": "https://api.github.com/users/jsternberg/received_events",
+      "repos_url": "https://api.github.com/users/jsternberg/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jsternberg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jsternberg/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jsternberg"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/d6d0addcec0f384dcaa34677ac5d0958b4eb0bd9/comments",
+    "commit": {
+      "author": {
+        "date": "2016-05-03T13:20:20Z",
+        "email": "jonathan@influxdb.com",
+        "name": "Jonathan A. Sternberg"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2016-05-03T14:41:22Z",
+        "email": "jonathan@influxdb.com",
+        "name": "Jonathan A. Sternberg"
+      },
+      "message": "Fix aggregate returns when data is missing from some shards\n\nIf a shard is empty for a specific field and the field type is something\nother than a float, a nil iterator would get returned from one of the\nempty shards and cause the combined iterators to be cast to the float\ntype and all other iterator types to be discarded (or for integers, to\nbe cast).\n\nThis is rare since most aggregates don't accept strings or booleans, but\nfor queries like:\n\n    SELECT distinct(string) FROM mydata\n\nIt would result in nothing getting returned if one of the shards didn't\nhave a value for `string`.\n\nThis change modifies the query engine to return nil for the shards\ninstead of a fake iterator and then to only use the fake iterator if the\nfinal aggregate iterator is nil (meaning that no iterators could be\nconstructed for the field from any shard).\n\nFixes #6495.",
+      "tree": {
+        "sha": "0165df57e8d73adde589360090a3874375834483",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/0165df57e8d73adde589360090a3874375834483"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/d6d0addcec0f384dcaa34677ac5d0958b4eb0bd9",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1212129?v=4",
+      "events_url": "https://api.github.com/users/jsternberg/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jsternberg/followers",
+      "following_url": "https://api.github.com/users/jsternberg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jsternberg/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jsternberg",
+      "id": 1212129,
+      "login": "jsternberg",
+      "node_id": "MDQ6VXNlcjEyMTIxMjk=",
+      "organizations_url": "https://api.github.com/users/jsternberg/orgs",
+      "received_events_url": "https://api.github.com/users/jsternberg/received_events",
+      "repos_url": "https://api.github.com/users/jsternberg/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jsternberg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jsternberg/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jsternberg"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/d6d0addcec0f384dcaa34677ac5d0958b4eb0bd9",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6ZDZkMGFkZGNlYzBmMzg0ZGNhYTM0Njc3YWM1ZDA5NThiNGViMGJkOQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/fbacc8876747299b2d22828b33fe27eee6a76092",
+        "sha": "fbacc8876747299b2d22828b33fe27eee6a76092",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/fbacc8876747299b2d22828b33fe27eee6a76092"
+      }
+    ],
+    "sha": "d6d0addcec0f384dcaa34677ac5d0958b4eb0bd9",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/d6d0addcec0f384dcaa34677ac5d0958b4eb0bd9"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/501993?v=4",
+      "events_url": "https://api.github.com/users/e-dard/events{/privacy}",
+      "followers_url": "https://api.github.com/users/e-dard/followers",
+      "following_url": "https://api.github.com/users/e-dard/following{/other_user}",
+      "gists_url": "https://api.github.com/users/e-dard/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/e-dard",
+      "id": 501993,
+      "login": "e-dard",
+      "node_id": "MDQ6VXNlcjUwMTk5Mw==",
+      "organizations_url": "https://api.github.com/users/e-dard/orgs",
+      "received_events_url": "https://api.github.com/users/e-dard/received_events",
+      "repos_url": "https://api.github.com/users/e-dard/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/e-dard/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/e-dard/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/e-dard"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/d35fa1ec97048214cdc2d1ed897a95e2b521df4f/comments",
+    "commit": {
+      "author": {
+        "date": "2016-05-03T12:55:31Z",
+        "email": "me@edd.io",
+        "name": "Edd Robinson"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2016-05-03T13:22:02Z",
+        "email": "me@edd.io",
+        "name": "Edd Robinson"
+      },
+      "message": "Remove redundant windows build tags",
+      "tree": {
+        "sha": "0fb4d69d8f8270d7f1661712bfe02099a228cce3",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/0fb4d69d8f8270d7f1661712bfe02099a228cce3"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/d35fa1ec97048214cdc2d1ed897a95e2b521df4f",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/501993?v=4",
+      "events_url": "https://api.github.com/users/e-dard/events{/privacy}",
+      "followers_url": "https://api.github.com/users/e-dard/followers",
+      "following_url": "https://api.github.com/users/e-dard/following{/other_user}",
+      "gists_url": "https://api.github.com/users/e-dard/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/e-dard",
+      "id": 501993,
+      "login": "e-dard",
+      "node_id": "MDQ6VXNlcjUwMTk5Mw==",
+      "organizations_url": "https://api.github.com/users/e-dard/orgs",
+      "received_events_url": "https://api.github.com/users/e-dard/received_events",
+      "repos_url": "https://api.github.com/users/e-dard/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/e-dard/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/e-dard/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/e-dard"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/d35fa1ec97048214cdc2d1ed897a95e2b521df4f",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6ZDM1ZmExZWM5NzA0ODIxNGNkYzJkMWVkODk3YTk1ZTJiNTIxZGY0Zg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/b6be0e9e6ae38df95bfe949d9bcd86d7cb752491",
+        "sha": "b6be0e9e6ae38df95bfe949d9bcd86d7cb752491",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/b6be0e9e6ae38df95bfe949d9bcd86d7cb752491"
+      }
+    ],
+    "sha": "d35fa1ec97048214cdc2d1ed897a95e2b521df4f",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/d35fa1ec97048214cdc2d1ed897a95e2b521df4f"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/53132?v=4",
+      "events_url": "https://api.github.com/users/toddboom/events{/privacy}",
+      "followers_url": "https://api.github.com/users/toddboom/followers",
+      "following_url": "https://api.github.com/users/toddboom/following{/other_user}",
+      "gists_url": "https://api.github.com/users/toddboom/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/toddboom",
+      "id": 53132,
+      "login": "toddboom",
+      "node_id": "MDQ6VXNlcjUzMTMy",
+      "organizations_url": "https://api.github.com/users/toddboom/orgs",
+      "received_events_url": "https://api.github.com/users/toddboom/received_events",
+      "repos_url": "https://api.github.com/users/toddboom/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/toddboom/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/toddboom/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/toddboom"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/efdc54ac5d7308515e105cc7c83fbd3910a73b74/comments",
+    "commit": {
+      "author": {
+        "date": "2016-05-03T05:08:15Z",
+        "email": "todd.persen@gmail.com",
+        "name": "Todd Persen"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2016-05-03T05:08:15Z",
+        "email": "todd.persen@gmail.com",
+        "name": "Todd Persen"
+      },
+      "message": "Display value according to type.",
+      "tree": {
+        "sha": "4fe8a307f2463964c95d9816f7fea8604c79c007",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/4fe8a307f2463964c95d9816f7fea8604c79c007"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/efdc54ac5d7308515e105cc7c83fbd3910a73b74",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/53132?v=4",
+      "events_url": "https://api.github.com/users/toddboom/events{/privacy}",
+      "followers_url": "https://api.github.com/users/toddboom/followers",
+      "following_url": "https://api.github.com/users/toddboom/following{/other_user}",
+      "gists_url": "https://api.github.com/users/toddboom/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/toddboom",
+      "id": 53132,
+      "login": "toddboom",
+      "node_id": "MDQ6VXNlcjUzMTMy",
+      "organizations_url": "https://api.github.com/users/toddboom/orgs",
+      "received_events_url": "https://api.github.com/users/toddboom/received_events",
+      "repos_url": "https://api.github.com/users/toddboom/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/toddboom/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/toddboom/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/toddboom"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/efdc54ac5d7308515e105cc7c83fbd3910a73b74",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6ZWZkYzU0YWM1ZDczMDg1MTVlMTA1Y2M3YzgzZmJkMzkxMGE3M2I3NA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/318a966b9499eda6f13791caa34da99224ffdf01",
+        "sha": "318a966b9499eda6f13791caa34da99224ffdf01",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/318a966b9499eda6f13791caa34da99224ffdf01"
+      }
+    ],
+    "sha": "efdc54ac5d7308515e105cc7c83fbd3910a73b74",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/efdc54ac5d7308515e105cc7c83fbd3910a73b74"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/53132?v=4",
+      "events_url": "https://api.github.com/users/toddboom/events{/privacy}",
+      "followers_url": "https://api.github.com/users/toddboom/followers",
+      "following_url": "https://api.github.com/users/toddboom/following{/other_user}",
+      "gists_url": "https://api.github.com/users/toddboom/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/toddboom",
+      "id": 53132,
+      "login": "toddboom",
+      "node_id": "MDQ6VXNlcjUzMTMy",
+      "organizations_url": "https://api.github.com/users/toddboom/orgs",
+      "received_events_url": "https://api.github.com/users/toddboom/received_events",
+      "repos_url": "https://api.github.com/users/toddboom/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/toddboom/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/toddboom/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/toddboom"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/318a966b9499eda6f13791caa34da99224ffdf01/comments",
+    "commit": {
+      "author": {
+        "date": "2016-05-03T04:42:23Z",
+        "email": "todd.persen@gmail.com",
+        "name": "Todd Persen"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2016-05-03T04:42:42Z",
+        "email": "todd.persen@gmail.com",
+        "name": "Todd Persen"
+      },
+      "message": "Change `dump` to `export`",
+      "tree": {
+        "sha": "c8226a1833a0c284fcedbf6660c3764ac4b59b3f",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/c8226a1833a0c284fcedbf6660c3764ac4b59b3f"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/318a966b9499eda6f13791caa34da99224ffdf01",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/53132?v=4",
+      "events_url": "https://api.github.com/users/toddboom/events{/privacy}",
+      "followers_url": "https://api.github.com/users/toddboom/followers",
+      "following_url": "https://api.github.com/users/toddboom/following{/other_user}",
+      "gists_url": "https://api.github.com/users/toddboom/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/toddboom",
+      "id": 53132,
+      "login": "toddboom",
+      "node_id": "MDQ6VXNlcjUzMTMy",
+      "organizations_url": "https://api.github.com/users/toddboom/orgs",
+      "received_events_url": "https://api.github.com/users/toddboom/received_events",
+      "repos_url": "https://api.github.com/users/toddboom/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/toddboom/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/toddboom/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/toddboom"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/318a966b9499eda6f13791caa34da99224ffdf01",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6MzE4YTk2NmI5NDk5ZWRhNmYxMzc5MWNhYTM0ZGE5OTIyNGZmZGYwMQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/1378b8a3c85333d7ee8e3dc17d38e2079139d3e7",
+        "sha": "1378b8a3c85333d7ee8e3dc17d38e2079139d3e7",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/1378b8a3c85333d7ee8e3dc17d38e2079139d3e7"
+      }
+    ],
+    "sha": "318a966b9499eda6f13791caa34da99224ffdf01",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/318a966b9499eda6f13791caa34da99224ffdf01"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4060903?v=4",
+      "events_url": "https://api.github.com/users/rossmcdonald/events{/privacy}",
+      "followers_url": "https://api.github.com/users/rossmcdonald/followers",
+      "following_url": "https://api.github.com/users/rossmcdonald/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rossmcdonald/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/rossmcdonald",
+      "id": 4060903,
+      "login": "rossmcdonald",
+      "node_id": "MDQ6VXNlcjQwNjA5MDM=",
+      "organizations_url": "https://api.github.com/users/rossmcdonald/orgs",
+      "received_events_url": "https://api.github.com/users/rossmcdonald/received_events",
+      "repos_url": "https://api.github.com/users/rossmcdonald/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/rossmcdonald/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rossmcdonald/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/rossmcdonald"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/b6be0e9e6ae38df95bfe949d9bcd86d7cb752491/comments",
+    "commit": {
+      "author": {
+        "date": "2016-05-02T23:08:00Z",
+        "email": "rossmcdonald@users.noreply.github.com",
+        "name": "Ross McDonald"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2016-05-02T23:08:00Z",
+        "email": "rossmcdonald@users.noreply.github.com",
+        "name": "Ross McDonald"
+      },
+      "message": "Merge pull request #6537 from influxdata/ross-disable-packaging\n\nRemove automatic upload of packages to S3",
+      "tree": {
+        "sha": "1441a4edc9c2d8ba6fa63ab13be993324d81cc8a",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/1441a4edc9c2d8ba6fa63ab13be993324d81cc8a"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/b6be0e9e6ae38df95bfe949d9bcd86d7cb752491",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4060903?v=4",
+      "events_url": "https://api.github.com/users/rossmcdonald/events{/privacy}",
+      "followers_url": "https://api.github.com/users/rossmcdonald/followers",
+      "following_url": "https://api.github.com/users/rossmcdonald/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rossmcdonald/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/rossmcdonald",
+      "id": 4060903,
+      "login": "rossmcdonald",
+      "node_id": "MDQ6VXNlcjQwNjA5MDM=",
+      "organizations_url": "https://api.github.com/users/rossmcdonald/orgs",
+      "received_events_url": "https://api.github.com/users/rossmcdonald/received_events",
+      "repos_url": "https://api.github.com/users/rossmcdonald/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/rossmcdonald/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rossmcdonald/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/rossmcdonald"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/b6be0e9e6ae38df95bfe949d9bcd86d7cb752491",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6YjZiZTBlOWU2YWUzOGRmOTViZmU5NDlkOWJjZDg2ZDdjYjc1MjQ5MQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/0cc99a3e27d5b7198c4fec51edbc694bd31d854f",
+        "sha": "0cc99a3e27d5b7198c4fec51edbc694bd31d854f",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/0cc99a3e27d5b7198c4fec51edbc694bd31d854f"
+      },
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/1e0cd325f8d0a8d4d2bf44ae0608bd8cd81744dd",
+        "sha": "1e0cd325f8d0a8d4d2bf44ae0608bd8cd81744dd",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/1e0cd325f8d0a8d4d2bf44ae0608bd8cd81744dd"
+      }
+    ],
+    "sha": "b6be0e9e6ae38df95bfe949d9bcd86d7cb752491",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/b6be0e9e6ae38df95bfe949d9bcd86d7cb752491"
+  },
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/1e0cd325f8d0a8d4d2bf44ae0608bd8cd81744dd/comments",
+    "commit": {
+      "author": {
+        "date": "2016-05-02T23:03:16Z",
+        "email": "ross@influxdb.com",
+        "name": "Ross McDonald"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2016-05-02T23:03:16Z",
+        "email": "ross@influxdb.com",
+        "name": "Ross McDonald"
+      },
+      "message": "Remove automatic upload of packages to S3.",
+      "tree": {
+        "sha": "1441a4edc9c2d8ba6fa63ab13be993324d81cc8a",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/1441a4edc9c2d8ba6fa63ab13be993324d81cc8a"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/1e0cd325f8d0a8d4d2bf44ae0608bd8cd81744dd",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": null,
+    "html_url": "https://github.com/influxdata/influxdb/commit/1e0cd325f8d0a8d4d2bf44ae0608bd8cd81744dd",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6MWUwY2QzMjVmOGQwYThkNGQyYmY0NGFlMDYwOGJkOGNkODE3NDRkZA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/0cc99a3e27d5b7198c4fec51edbc694bd31d854f",
+        "sha": "0cc99a3e27d5b7198c4fec51edbc694bd31d854f",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/0cc99a3e27d5b7198c4fec51edbc694bd31d854f"
+      }
+    ],
+    "sha": "1e0cd325f8d0a8d4d2bf44ae0608bd8cd81744dd",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/1e0cd325f8d0a8d4d2bf44ae0608bd8cd81744dd"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1212129?v=4",
+      "events_url": "https://api.github.com/users/jsternberg/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jsternberg/followers",
+      "following_url": "https://api.github.com/users/jsternberg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jsternberg/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jsternberg",
+      "id": 1212129,
+      "login": "jsternberg",
+      "node_id": "MDQ6VXNlcjEyMTIxMjk=",
+      "organizations_url": "https://api.github.com/users/jsternberg/orgs",
+      "received_events_url": "https://api.github.com/users/jsternberg/received_events",
+      "repos_url": "https://api.github.com/users/jsternberg/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jsternberg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jsternberg/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jsternberg"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/0cc99a3e27d5b7198c4fec51edbc694bd31d854f/comments",
+    "commit": {
+      "author": {
+        "date": "2016-05-02T19:00:26Z",
+        "email": "jonathan@influxdb.com",
+        "name": "Jonathan A. Sternberg"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2016-05-02T19:00:26Z",
+        "email": "jonathan@influxdb.com",
+        "name": "Jonathan A. Sternberg"
+      },
+      "message": "Merge pull request #6504 from influxdata/js-2074-group-by-offsets\n\nSupport offset argument in the GROUP BY time(...) call",
+      "tree": {
+        "sha": "d6c09cc0a9f3dd3b63c654527bf5d6762425580b",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/d6c09cc0a9f3dd3b63c654527bf5d6762425580b"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/0cc99a3e27d5b7198c4fec51edbc694bd31d854f",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1212129?v=4",
+      "events_url": "https://api.github.com/users/jsternberg/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jsternberg/followers",
+      "following_url": "https://api.github.com/users/jsternberg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jsternberg/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jsternberg",
+      "id": 1212129,
+      "login": "jsternberg",
+      "node_id": "MDQ6VXNlcjEyMTIxMjk=",
+      "organizations_url": "https://api.github.com/users/jsternberg/orgs",
+      "received_events_url": "https://api.github.com/users/jsternberg/received_events",
+      "repos_url": "https://api.github.com/users/jsternberg/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jsternberg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jsternberg/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jsternberg"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/0cc99a3e27d5b7198c4fec51edbc694bd31d854f",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6MGNjOTlhM2UyN2Q1YjcxOThjNGZlYzUxZWRiYzY5NGJkMzFkODU0Zg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/6cf0ed439a40e620524be31f31251c33212feec4",
+        "sha": "6cf0ed439a40e620524be31f31251c33212feec4",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/6cf0ed439a40e620524be31f31251c33212feec4"
+      },
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/64556e4f8e26fb5ba586a2cabf595d7d4a1aa8fb",
+        "sha": "64556e4f8e26fb5ba586a2cabf595d7d4a1aa8fb",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/64556e4f8e26fb5ba586a2cabf595d7d4a1aa8fb"
+      }
+    ],
+    "sha": "0cc99a3e27d5b7198c4fec51edbc694bd31d854f",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/0cc99a3e27d5b7198c4fec51edbc694bd31d854f"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/219935?v=4",
+      "events_url": "https://api.github.com/users/jwilder/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jwilder/followers",
+      "following_url": "https://api.github.com/users/jwilder/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jwilder/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jwilder",
+      "id": 219935,
+      "login": "jwilder",
+      "node_id": "MDQ6VXNlcjIxOTkzNQ==",
+      "organizations_url": "https://api.github.com/users/jwilder/orgs",
+      "received_events_url": "https://api.github.com/users/jwilder/received_events",
+      "repos_url": "https://api.github.com/users/jwilder/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jwilder/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jwilder/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jwilder"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/6cf0ed439a40e620524be31f31251c33212feec4/comments",
+    "commit": {
+      "author": {
+        "date": "2016-05-02T18:54:08Z",
+        "email": "jwilder@users.noreply.github.com",
+        "name": "Jason Wilder"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2016-05-02T18:54:08Z",
+        "email": "jwilder@users.noreply.github.com",
+        "name": "Jason Wilder"
+      },
+      "message": "Merge pull request #6524 from influxdata/jw-delete-series-bug\n\nDelete series fixes",
+      "tree": {
+        "sha": "27310870a1bb255afab2013e38700ac35f6f0858",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/27310870a1bb255afab2013e38700ac35f6f0858"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/6cf0ed439a40e620524be31f31251c33212feec4",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/219935?v=4",
+      "events_url": "https://api.github.com/users/jwilder/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jwilder/followers",
+      "following_url": "https://api.github.com/users/jwilder/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jwilder/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jwilder",
+      "id": 219935,
+      "login": "jwilder",
+      "node_id": "MDQ6VXNlcjIxOTkzNQ==",
+      "organizations_url": "https://api.github.com/users/jwilder/orgs",
+      "received_events_url": "https://api.github.com/users/jwilder/received_events",
+      "repos_url": "https://api.github.com/users/jwilder/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jwilder/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jwilder/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jwilder"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/6cf0ed439a40e620524be31f31251c33212feec4",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6NmNmMGVkNDM5YTQwZTYyMDUyNGJlMzFmMzEyNTFjMzMyMTJmZWVjNA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/fbacc8876747299b2d22828b33fe27eee6a76092",
+        "sha": "fbacc8876747299b2d22828b33fe27eee6a76092",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/fbacc8876747299b2d22828b33fe27eee6a76092"
+      },
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/d82aa98951abc290e3c5f5925ecd8403698a831a",
+        "sha": "d82aa98951abc290e3c5f5925ecd8403698a831a",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/d82aa98951abc290e3c5f5925ecd8403698a831a"
+      }
+    ],
+    "sha": "6cf0ed439a40e620524be31f31251c33212feec4",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/6cf0ed439a40e620524be31f31251c33212feec4"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1212129?v=4",
+      "events_url": "https://api.github.com/users/jsternberg/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jsternberg/followers",
+      "following_url": "https://api.github.com/users/jsternberg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jsternberg/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jsternberg",
+      "id": 1212129,
+      "login": "jsternberg",
+      "node_id": "MDQ6VXNlcjEyMTIxMjk=",
+      "organizations_url": "https://api.github.com/users/jsternberg/orgs",
+      "received_events_url": "https://api.github.com/users/jsternberg/received_events",
+      "repos_url": "https://api.github.com/users/jsternberg/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jsternberg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jsternberg/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jsternberg"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/64556e4f8e26fb5ba586a2cabf595d7d4a1aa8fb/comments",
+    "commit": {
+      "author": {
+        "date": "2016-05-02T18:02:33Z",
+        "email": "jonathan@influxdb.com",
+        "name": "Jonathan A. Sternberg"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2016-05-02T18:02:35Z",
+        "email": "jonathan@influxdb.com",
+        "name": "Jonathan A. Sternberg"
+      },
+      "message": "Support offset argument in the GROUP BY time(...) call\n\nAn offset of `time(1m, now())` will anchor the offset to the current\ntime of the query. The default offset is `0s` which is the current\ndefault anyway.\n\nThis fixes #2074 by making time zone offset support unnecessary. Time\ncomparisons can use timezones inside of the time clause and the offset\nneeded for non-hour timezone differences can be used as part of the\noffset argument.",
+      "tree": {
+        "sha": "c7aad8116205ada22eb301e8ba8a9807c51721f6",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/c7aad8116205ada22eb301e8ba8a9807c51721f6"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/64556e4f8e26fb5ba586a2cabf595d7d4a1aa8fb",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1212129?v=4",
+      "events_url": "https://api.github.com/users/jsternberg/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jsternberg/followers",
+      "following_url": "https://api.github.com/users/jsternberg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jsternberg/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jsternberg",
+      "id": 1212129,
+      "login": "jsternberg",
+      "node_id": "MDQ6VXNlcjEyMTIxMjk=",
+      "organizations_url": "https://api.github.com/users/jsternberg/orgs",
+      "received_events_url": "https://api.github.com/users/jsternberg/received_events",
+      "repos_url": "https://api.github.com/users/jsternberg/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jsternberg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jsternberg/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jsternberg"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/64556e4f8e26fb5ba586a2cabf595d7d4a1aa8fb",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6NjQ1NTZlNGY4ZTI2ZmI1YmE1ODZhMmNhYmY1OTVkN2Q0YTFhYThmYg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/e076de5dbe0b3f7d610bf2284d5704e602a51b76",
+        "sha": "e076de5dbe0b3f7d610bf2284d5704e602a51b76",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/e076de5dbe0b3f7d610bf2284d5704e602a51b76"
+      }
+    ],
+    "sha": "64556e4f8e26fb5ba586a2cabf595d7d4a1aa8fb",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/64556e4f8e26fb5ba586a2cabf595d7d4a1aa8fb"
+  }
+]

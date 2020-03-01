@@ -1,0 +1,2372 @@
+[
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/12671072?v=4",
+      "events_url": "https://api.github.com/users/iddan/events{/privacy}",
+      "followers_url": "https://api.github.com/users/iddan/followers",
+      "following_url": "https://api.github.com/users/iddan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iddan/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/iddan",
+      "id": 12671072,
+      "login": "iddan",
+      "node_id": "MDQ6VXNlcjEyNjcxMDcy",
+      "organizations_url": "https://api.github.com/users/iddan/orgs",
+      "received_events_url": "https://api.github.com/users/iddan/received_events",
+      "repos_url": "https://api.github.com/users/iddan/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/iddan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iddan/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/iddan"
+    },
+    "comments_url": "https://api.github.com/repos/cayleygraph/cayley/commits/fac546436001de25fdede3796485261ce9842379/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-26T00:15:55Z",
+        "email": "mail@aniddan.com",
+        "name": "Iddan Aaronsohn"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-26T00:15:55Z",
+        "email": "ghost@gitbook.com",
+        "name": "gitbook-bot"
+      },
+      "message": "GitBook: [master] one page modified",
+      "tree": {
+        "sha": "3d42d5b64a4503a2fc0d531f41f0421a32a5b8ad",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/git/trees/3d42d5b64a4503a2fc0d531f41f0421a32a5b8ad"
+      },
+      "url": "https://api.github.com/repos/cayleygraph/cayley/git/commits/fac546436001de25fdede3796485261ce9842379",
+      "verification": {
+        "payload": "tree 3d42d5b64a4503a2fc0d531f41f0421a32a5b8ad\nparent 47ca5a4621f69ff276c0476f02f39fd13ff6dd89\nauthor Iddan Aaronsohn <mail@aniddan.com> 1582676155 +0000\ncommitter gitbook-bot <ghost@gitbook.com> 1582676155 +0000\n\nGitBook: [master] one page modified",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\nVersion: OpenPGP.js v2.6.2\nComment: https://openpgpjs.org\n\nwsFcBAABCAAQBQJeVbi7CRAH0hgMexLQ/wAAY0UP/3VaSt7cpXQKX9UO/D9J\ntFegZ8+4Lvu0iJv1IX5Mpisa5TJNxhQaA59AkiVyf6d1HiSt/qOrE+3IFMx2\n2kxpt6b+Bw3znrfQkQ5S8DulIMl/qDQYIfZmymiH73Y6uxokFJhHGg9a9aR8\nkqAsZWjRLGZkkild3aIHZ4uvjPJI1qUbpusJfqKPEFgGMkm+dkEwGG2RXOMG\nWWCp7IUu436ZYvWLQj0kwUB8Nl2obTrQXudFwqPNkdY0waTskC9BfL41DAp0\nTFdCma1hFfYZoR3hyKKe8AtMOtkXCJp9ufUH2P0/IvJVnZVyQLeRXeKQOQQA\nH10gfi6kHxuvozvFP4aDPs0gBu9OoTL4dYoo9RSps8YsdU9Bu3oOzvPvKO96\n8/6pwQkldAibbyko9mNQC814mxKOVhV9XawqvvhjK4qTbii06P6GmPm2HSgs\n1A8LW7M60QzSDFBTNr1JQniw4ib6M/h0yU14BcdPChZ5ZP38DDH4EQrWNB99\nhg+eW6YpfrWT5b/e2f9VHrEQzgNpQ3TAPMym7HL2v2rEn6xIZrlhBvF2P6An\nCX2BxrpC+AZx487D1OsXxdwnv+cTUI82ZpS4PXipRdSgYVeHCwDE8KE0zm7m\nsabgUHOVaJ2hLlBgPzj6DW6lGuPX2q3JuBhNKde4jHH8IDYIltohIuI54W3J\nu9Nc\n=RVA2\n-----END PGP SIGNATURE-----",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/31919211?v=4",
+      "events_url": "https://api.github.com/users/gitbook-bot/events{/privacy}",
+      "followers_url": "https://api.github.com/users/gitbook-bot/followers",
+      "following_url": "https://api.github.com/users/gitbook-bot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gitbook-bot/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/gitbook-bot",
+      "id": 31919211,
+      "login": "gitbook-bot",
+      "node_id": "MDQ6VXNlcjMxOTE5MjEx",
+      "organizations_url": "https://api.github.com/users/gitbook-bot/orgs",
+      "received_events_url": "https://api.github.com/users/gitbook-bot/received_events",
+      "repos_url": "https://api.github.com/users/gitbook-bot/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/gitbook-bot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gitbook-bot/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/gitbook-bot"
+    },
+    "html_url": "https://github.com/cayleygraph/cayley/commit/fac546436001de25fdede3796485261ce9842379",
+    "node_id": "MDY6Q29tbWl0MjA1MzcxMDQ6ZmFjNTQ2NDM2MDAxZGUyNWZkZWRlMzc5NjQ4NTI2MWNlOTg0MjM3OQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cayleygraph/cayley/commit/47ca5a4621f69ff276c0476f02f39fd13ff6dd89",
+        "sha": "47ca5a4621f69ff276c0476f02f39fd13ff6dd89",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/commits/47ca5a4621f69ff276c0476f02f39fd13ff6dd89"
+      }
+    ],
+    "sha": "fac546436001de25fdede3796485261ce9842379",
+    "url": "https://api.github.com/repos/cayleygraph/cayley/commits/fac546436001de25fdede3796485261ce9842379"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/12671072?v=4",
+      "events_url": "https://api.github.com/users/iddan/events{/privacy}",
+      "followers_url": "https://api.github.com/users/iddan/followers",
+      "following_url": "https://api.github.com/users/iddan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iddan/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/iddan",
+      "id": 12671072,
+      "login": "iddan",
+      "node_id": "MDQ6VXNlcjEyNjcxMDcy",
+      "organizations_url": "https://api.github.com/users/iddan/orgs",
+      "received_events_url": "https://api.github.com/users/iddan/received_events",
+      "repos_url": "https://api.github.com/users/iddan/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/iddan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iddan/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/iddan"
+    },
+    "comments_url": "https://api.github.com/repos/cayleygraph/cayley/commits/47ca5a4621f69ff276c0476f02f39fd13ff6dd89/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-23T13:54:34Z",
+        "email": "mail@aniddan.com",
+        "name": "Iddan Aaronsohn"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-23T13:54:34Z",
+        "email": "ghost@gitbook.com",
+        "name": "gitbook-bot"
+      },
+      "message": "GitBook: [master] one page modified",
+      "tree": {
+        "sha": "cb896846b6f11c5e64a40451a52121b28748b78d",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/git/trees/cb896846b6f11c5e64a40451a52121b28748b78d"
+      },
+      "url": "https://api.github.com/repos/cayleygraph/cayley/git/commits/47ca5a4621f69ff276c0476f02f39fd13ff6dd89",
+      "verification": {
+        "payload": "tree cb896846b6f11c5e64a40451a52121b28748b78d\nparent 50e01e029c8c65012471cba930febbd84e3fe31d\nauthor Iddan Aaronsohn <mail@aniddan.com> 1582466074 +0000\ncommitter gitbook-bot <ghost@gitbook.com> 1582466074 +0000\n\nGitBook: [master] one page modified",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\nVersion: OpenPGP.js v2.6.2\nComment: https://openpgpjs.org\n\nwsFcBAABCAAQBQJeUoQbCRAH0hgMexLQ/wAA/QUP/19fN4F7EXjMtjx8Aj7f\nqPqY10QdMuTXEqiaag/gZh30TXETIvI9qRJfa/09F9JwRr/jasJa0hl1OkUd\n4AkkXFsnsQ8FpCTzKAT9EtW/eDgYLlTLr3NamZ4O6qx46tKijHji/D/EvMje\ntVC+V6ftIjijjvQRGjiN4AnAEXtffNmyW3Rjrd7RKOnnsEdcc4L5geBpFVJ0\nSpGjtSY+0mLrKIAx7+J+PwDiQl9daeA4aOiERhXDqKGqg+9Vm0uZ1b8+8zgY\nodB1QgNKPnPzEvBxK4TSc6NrICoEhHTXiDNidqD2VrhPQ8Z6WsLnoCJ9XNDg\nRrZM8hfZqdAYDqlAPVEKfARgG55SRQkfbodRnNELQ4dpF8TSId5mOohGCq+M\nmjGPF2iIdLg3kxfnLUu/9FtqB3FVzIreJ08UPjURAeCbqrc8JEAqe0+XybF0\n0w/qy8JrZXQcmEkY8PzgOR/JN9AxcR2GhVlAnNL/7AJsineWADqORV0GlC/X\nBGKRq6tJUvkY8vmQGSDmlRpMZpc2nJJS/rYbXCX7KUrNMbwVlkM4UYllxA75\nqa3L3WQjmLvZ2XsL1ahf21C90USTAKdhcYtuOAdY6j86xC/peAT5UVRQlrOB\nA69foB203jVvfBh58azIKLUGF80a52hxfugrP3b7iKuEjekLGMHfNeEqWBKZ\nGRhY\n=0M+0\n-----END PGP SIGNATURE-----",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/31919211?v=4",
+      "events_url": "https://api.github.com/users/gitbook-bot/events{/privacy}",
+      "followers_url": "https://api.github.com/users/gitbook-bot/followers",
+      "following_url": "https://api.github.com/users/gitbook-bot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gitbook-bot/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/gitbook-bot",
+      "id": 31919211,
+      "login": "gitbook-bot",
+      "node_id": "MDQ6VXNlcjMxOTE5MjEx",
+      "organizations_url": "https://api.github.com/users/gitbook-bot/orgs",
+      "received_events_url": "https://api.github.com/users/gitbook-bot/received_events",
+      "repos_url": "https://api.github.com/users/gitbook-bot/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/gitbook-bot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gitbook-bot/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/gitbook-bot"
+    },
+    "html_url": "https://github.com/cayleygraph/cayley/commit/47ca5a4621f69ff276c0476f02f39fd13ff6dd89",
+    "node_id": "MDY6Q29tbWl0MjA1MzcxMDQ6NDdjYTVhNDYyMWY2OWZmMjc2YzA0NzZmMDJmMzlmZDEzZmY2ZGQ4OQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cayleygraph/cayley/commit/50e01e029c8c65012471cba930febbd84e3fe31d",
+        "sha": "50e01e029c8c65012471cba930febbd84e3fe31d",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/commits/50e01e029c8c65012471cba930febbd84e3fe31d"
+      }
+    ],
+    "sha": "47ca5a4621f69ff276c0476f02f39fd13ff6dd89",
+    "url": "https://api.github.com/repos/cayleygraph/cayley/commits/47ca5a4621f69ff276c0476f02f39fd13ff6dd89"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/12671072?v=4",
+      "events_url": "https://api.github.com/users/iddan/events{/privacy}",
+      "followers_url": "https://api.github.com/users/iddan/followers",
+      "following_url": "https://api.github.com/users/iddan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iddan/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/iddan",
+      "id": 12671072,
+      "login": "iddan",
+      "node_id": "MDQ6VXNlcjEyNjcxMDcy",
+      "organizations_url": "https://api.github.com/users/iddan/orgs",
+      "received_events_url": "https://api.github.com/users/iddan/received_events",
+      "repos_url": "https://api.github.com/users/iddan/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/iddan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iddan/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/iddan"
+    },
+    "comments_url": "https://api.github.com/repos/cayleygraph/cayley/commits/50e01e029c8c65012471cba930febbd84e3fe31d/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-23T12:42:14Z",
+        "email": "mail@aniddan.com",
+        "name": "Iddan Aaronsohn"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-23T12:42:14Z",
+        "email": "ghost@gitbook.com",
+        "name": "gitbook-bot"
+      },
+      "message": "GitBook: [master] 2 pages modified",
+      "tree": {
+        "sha": "b8e857ae5d7182e468516584c6ddd2afbaf0167c",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/git/trees/b8e857ae5d7182e468516584c6ddd2afbaf0167c"
+      },
+      "url": "https://api.github.com/repos/cayleygraph/cayley/git/commits/50e01e029c8c65012471cba930febbd84e3fe31d",
+      "verification": {
+        "payload": "tree b8e857ae5d7182e468516584c6ddd2afbaf0167c\nparent 27e8eb630d3106a7c2925a5be718b336953a0cbc\nauthor Iddan Aaronsohn <mail@aniddan.com> 1582461734 +0000\ncommitter gitbook-bot <ghost@gitbook.com> 1582461734 +0000\n\nGitBook: [master] 2 pages modified",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\nVersion: OpenPGP.js v2.6.2\nComment: https://openpgpjs.org\n\nwsFcBAABCAAQBQJeUnMnCRAH0hgMexLQ/wAAP0MP/RRgvKoXwD7ef/dA4HDR\nbhI4qzrsrL59OJ2Ye4NpcXJhTAe/BmN2tplWgnicFH30whCd1f82k/aCyWEV\n309IQMCM2ZgAQqZYZHFI3ELGe1juQzTH+/DdHmsXmYs0LPrBy6tW8Y4dGFPt\neZxCyCtjIU+evB+1d8Olm6OWwtZAUAlKlhN0InmSuE2qyUWRvhBLl9/stNbI\nF7mO+RYIxZLM6SHjmx7/CIBYlzUCebeCY8K9NsMOI0NFHiiViCoOT66Mph89\nsPnnzTCXWqAvdmdRkky1CpiBSiQU1ADCZsDgT3Z9ChRJ88HY4vUhB1vz1nO2\ng6uclMVjjN9z6sEXfP2CePGpw0LY86q7280+IA6kal/l6bTIS/TM0w4hAJLw\nYT+Mpbp4vscFqTagVYOQHbbIDNdlQBGR0C+gccVfhRvlUEkwixOIdAps2Yq1\nlIcUHFVZvhZyV9ldEug6HZvbktSqR5XhexeixCWtT/W2ssNR/SnEEPJBCgK6\n1eKyxKN/fDB1Lo/OoWIimhMGFyqEtCnsBAHqoHtNnVxNI6w3/ppvahBrSGUK\nKZD96cKd9gnDjg6Fe+XtAXxF4GitALRZXdWMfrXcmiLewgU6Worb5gFYqtFG\nj70U6zkUERE++cCgHlolJNnOZPpnYLOCkhwhDQFCW6Ivw5wh8XXwnOQ+d4Fi\nFyI5\n=qFQD\n-----END PGP SIGNATURE-----",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/31919211?v=4",
+      "events_url": "https://api.github.com/users/gitbook-bot/events{/privacy}",
+      "followers_url": "https://api.github.com/users/gitbook-bot/followers",
+      "following_url": "https://api.github.com/users/gitbook-bot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gitbook-bot/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/gitbook-bot",
+      "id": 31919211,
+      "login": "gitbook-bot",
+      "node_id": "MDQ6VXNlcjMxOTE5MjEx",
+      "organizations_url": "https://api.github.com/users/gitbook-bot/orgs",
+      "received_events_url": "https://api.github.com/users/gitbook-bot/received_events",
+      "repos_url": "https://api.github.com/users/gitbook-bot/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/gitbook-bot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gitbook-bot/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/gitbook-bot"
+    },
+    "html_url": "https://github.com/cayleygraph/cayley/commit/50e01e029c8c65012471cba930febbd84e3fe31d",
+    "node_id": "MDY6Q29tbWl0MjA1MzcxMDQ6NTBlMDFlMDI5YzhjNjUwMTI0NzFjYmE5MzBmZWJiZDg0ZTNmZTMxZA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cayleygraph/cayley/commit/27e8eb630d3106a7c2925a5be718b336953a0cbc",
+        "sha": "27e8eb630d3106a7c2925a5be718b336953a0cbc",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/commits/27e8eb630d3106a7c2925a5be718b336953a0cbc"
+      }
+    ],
+    "sha": "50e01e029c8c65012471cba930febbd84e3fe31d",
+    "url": "https://api.github.com/repos/cayleygraph/cayley/commits/50e01e029c8c65012471cba930febbd84e3fe31d"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/12671072?v=4",
+      "events_url": "https://api.github.com/users/iddan/events{/privacy}",
+      "followers_url": "https://api.github.com/users/iddan/followers",
+      "following_url": "https://api.github.com/users/iddan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iddan/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/iddan",
+      "id": 12671072,
+      "login": "iddan",
+      "node_id": "MDQ6VXNlcjEyNjcxMDcy",
+      "organizations_url": "https://api.github.com/users/iddan/orgs",
+      "received_events_url": "https://api.github.com/users/iddan/received_events",
+      "repos_url": "https://api.github.com/users/iddan/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/iddan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iddan/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/iddan"
+    },
+    "comments_url": "https://api.github.com/repos/cayleygraph/cayley/commits/27e8eb630d3106a7c2925a5be718b336953a0cbc/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-23T12:13:29Z",
+        "email": "mail@aniddan.com",
+        "name": "Iddan Aaronsohn"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-23T12:13:29Z",
+        "email": "mail@aniddan.com",
+        "name": "Iddan Aaronsohn"
+      },
+      "message": "Add JSON-LD example data",
+      "tree": {
+        "sha": "b582296e07ad5cc0d67de9ac91922c204aab9cb9",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/git/trees/b582296e07ad5cc0d67de9ac91922c204aab9cb9"
+      },
+      "url": "https://api.github.com/repos/cayleygraph/cayley/git/commits/27e8eb630d3106a7c2925a5be718b336953a0cbc",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/12671072?v=4",
+      "events_url": "https://api.github.com/users/iddan/events{/privacy}",
+      "followers_url": "https://api.github.com/users/iddan/followers",
+      "following_url": "https://api.github.com/users/iddan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iddan/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/iddan",
+      "id": 12671072,
+      "login": "iddan",
+      "node_id": "MDQ6VXNlcjEyNjcxMDcy",
+      "organizations_url": "https://api.github.com/users/iddan/orgs",
+      "received_events_url": "https://api.github.com/users/iddan/received_events",
+      "repos_url": "https://api.github.com/users/iddan/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/iddan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iddan/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/iddan"
+    },
+    "html_url": "https://github.com/cayleygraph/cayley/commit/27e8eb630d3106a7c2925a5be718b336953a0cbc",
+    "node_id": "MDY6Q29tbWl0MjA1MzcxMDQ6MjdlOGViNjMwZDMxMDZhN2MyOTI1YTViZTcxOGIzMzY5NTNhMGNiYw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cayleygraph/cayley/commit/9fb4d58e0e079999501465892db57b05e717c626",
+        "sha": "9fb4d58e0e079999501465892db57b05e717c626",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/commits/9fb4d58e0e079999501465892db57b05e717c626"
+      }
+    ],
+    "sha": "27e8eb630d3106a7c2925a5be718b336953a0cbc",
+    "url": "https://api.github.com/repos/cayleygraph/cayley/commits/27e8eb630d3106a7c2925a5be718b336953a0cbc"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/12671072?v=4",
+      "events_url": "https://api.github.com/users/iddan/events{/privacy}",
+      "followers_url": "https://api.github.com/users/iddan/followers",
+      "following_url": "https://api.github.com/users/iddan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iddan/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/iddan",
+      "id": 12671072,
+      "login": "iddan",
+      "node_id": "MDQ6VXNlcjEyNjcxMDcy",
+      "organizations_url": "https://api.github.com/users/iddan/orgs",
+      "received_events_url": "https://api.github.com/users/iddan/received_events",
+      "repos_url": "https://api.github.com/users/iddan/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/iddan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iddan/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/iddan"
+    },
+    "comments_url": "https://api.github.com/repos/cayleygraph/cayley/commits/9fb4d58e0e079999501465892db57b05e717c626/comments",
+    "commit": {
+      "author": {
+        "date": "2020-01-30T23:09:43Z",
+        "email": "mail@aniddan.com",
+        "name": "Iddan Aaronsohn"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-01-30T23:09:43Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "LinkedQL: Match (#905)\n\n* Add a match step\r\n\r\n* Prefix use of RDFG in schema\r\n\r\n* Evaluate JSON LD document in runtime\r\n\r\n* Fix JSON LD parsing with context\r\n\r\n* Check for lone @id before counting quads in pattern\r\n\r\n* Give match from a min-cardinality 0\r\n\r\n* Handle nil from\r\n\r\n* Group consts\r\n\r\n* Use voc and tag Lookup\r\n\r\n* Fix small issues regarding syntax\r\n\r\n* Different syntax for value\r\n\r\n* Define hasMinCardinality as requested\r\n\r\n* linkedql: Wrap shared properties of restrictions with owlRestriction\r\n\r\n* linkedql: Correct name to owlPropertyRestriction and share more code\r\n\r\n* linkedql: Add fixme comemnt in match.go\r\n\r\n* linkedql: Add fixme comment to steps_test",
+      "tree": {
+        "sha": "efb6a97be3cd81e6012e9557afd088d510054639",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/git/trees/efb6a97be3cd81e6012e9557afd088d510054639"
+      },
+      "url": "https://api.github.com/repos/cayleygraph/cayley/git/commits/9fb4d58e0e079999501465892db57b05e717c626",
+      "verification": {
+        "payload": "tree efb6a97be3cd81e6012e9557afd088d510054639\nparent 13683b01aba346cdf5952bd99f4ce5b86a1e8689\nauthor Iddan Aaronsohn <mail@aniddan.com> 1580425783 +0200\ncommitter GitHub <noreply@github.com> 1580425783 +0200\n\nLinkedQL: Match (#905)\n\n* Add a match step\r\n\r\n* Prefix use of RDFG in schema\r\n\r\n* Evaluate JSON LD document in runtime\r\n\r\n* Fix JSON LD parsing with context\r\n\r\n* Check for lone @id before counting quads in pattern\r\n\r\n* Give match from a min-cardinality 0\r\n\r\n* Handle nil from\r\n\r\n* Group consts\r\n\r\n* Use voc and tag Lookup\r\n\r\n* Fix small issues regarding syntax\r\n\r\n* Different syntax for value\r\n\r\n* Define hasMinCardinality as requested\r\n\r\n* linkedql: Wrap shared properties of restrictions with owlRestriction\r\n\r\n* linkedql: Correct name to owlPropertyRestriction and share more code\r\n\r\n* linkedql: Add fixme comemnt in match.go\r\n\r\n* linkedql: Add fixme comment to steps_test\r\n",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJeM2I4CRBK7hj4Ov3rIwAAdHIIAGI0hJv8ZVis5mWb2lJ2QOgJ\nuk3oF5eqDLaXrv2ueQwNZQhFO89NoP47OiyPlJLTSD3FW+Ey3XJOh8ch5RnMveot\n4GzQhqwI5dkLbmJZvcpkg9biNnz9EFct40d8i769xigaLpG04/ye949qTx5fdVja\n2BtLA2JjSvwu1PLSBTDJiPS/Yen07/nA0k6gelP2b/Y9inAWnj3XLRJhOs1f6xfy\n5OiCrUYpkl5EVCBe1V1kTJF6AhXDq/Lnpmqu4oYsSubDQIIVU0TrhmSvNLXVFIsY\nUW0rRKbAYAcmTnmz5waRH/10VBJwTwlG10EtVc0hIPCNgEcAx0nEHBWoTYzAfHE=\n=5LZS\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/cayleygraph/cayley/commit/9fb4d58e0e079999501465892db57b05e717c626",
+    "node_id": "MDY6Q29tbWl0MjA1MzcxMDQ6OWZiNGQ1OGUwZTA3OTk5OTUwMTQ2NTg5MmRiNTdiMDVlNzE3YzYyNg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cayleygraph/cayley/commit/13683b01aba346cdf5952bd99f4ce5b86a1e8689",
+        "sha": "13683b01aba346cdf5952bd99f4ce5b86a1e8689",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/commits/13683b01aba346cdf5952bd99f4ce5b86a1e8689"
+      }
+    ],
+    "sha": "9fb4d58e0e079999501465892db57b05e717c626",
+    "url": "https://api.github.com/repos/cayleygraph/cayley/commits/9fb4d58e0e079999501465892db57b05e717c626"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/12671072?v=4",
+      "events_url": "https://api.github.com/users/iddan/events{/privacy}",
+      "followers_url": "https://api.github.com/users/iddan/followers",
+      "following_url": "https://api.github.com/users/iddan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iddan/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/iddan",
+      "id": 12671072,
+      "login": "iddan",
+      "node_id": "MDQ6VXNlcjEyNjcxMDcy",
+      "organizations_url": "https://api.github.com/users/iddan/orgs",
+      "received_events_url": "https://api.github.com/users/iddan/received_events",
+      "repos_url": "https://api.github.com/users/iddan/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/iddan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iddan/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/iddan"
+    },
+    "comments_url": "https://api.github.com/repos/cayleygraph/cayley/commits/13683b01aba346cdf5952bd99f4ce5b86a1e8689/comments",
+    "commit": {
+      "author": {
+        "date": "2020-01-03T22:55:18Z",
+        "email": "mail@aniddan.com",
+        "name": "Iddan Aaronsohn"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-01-18T18:27:28Z",
+        "email": "denis.smirnov.91@gmail.com",
+        "name": "Denys Smirnov"
+      },
+      "message": "linkedql: Change name of variable in BuildIdentifier",
+      "tree": {
+        "sha": "148e35e652cc715525150a2fcebbadfbae28370f",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/git/trees/148e35e652cc715525150a2fcebbadfbae28370f"
+      },
+      "url": "https://api.github.com/repos/cayleygraph/cayley/git/commits/13683b01aba346cdf5952bd99f4ce5b86a1e8689",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/676724?v=4",
+      "events_url": "https://api.github.com/users/dennwc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/dennwc/followers",
+      "following_url": "https://api.github.com/users/dennwc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dennwc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/dennwc",
+      "id": 676724,
+      "login": "dennwc",
+      "node_id": "MDQ6VXNlcjY3NjcyNA==",
+      "organizations_url": "https://api.github.com/users/dennwc/orgs",
+      "received_events_url": "https://api.github.com/users/dennwc/received_events",
+      "repos_url": "https://api.github.com/users/dennwc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/dennwc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dennwc/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/dennwc"
+    },
+    "html_url": "https://github.com/cayleygraph/cayley/commit/13683b01aba346cdf5952bd99f4ce5b86a1e8689",
+    "node_id": "MDY6Q29tbWl0MjA1MzcxMDQ6MTM2ODNiMDFhYmEzNDZjZGY1OTUyYmQ5OWY0Y2U1Yjg2YTFlODY4OQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cayleygraph/cayley/commit/ac81ad95bb2c2f1869bcf665d222278ca3bbc2f5",
+        "sha": "ac81ad95bb2c2f1869bcf665d222278ca3bbc2f5",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/commits/ac81ad95bb2c2f1869bcf665d222278ca3bbc2f5"
+      }
+    ],
+    "sha": "13683b01aba346cdf5952bd99f4ce5b86a1e8689",
+    "url": "https://api.github.com/repos/cayleygraph/cayley/commits/13683b01aba346cdf5952bd99f4ce5b86a1e8689"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/12671072?v=4",
+      "events_url": "https://api.github.com/users/iddan/events{/privacy}",
+      "followers_url": "https://api.github.com/users/iddan/followers",
+      "following_url": "https://api.github.com/users/iddan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iddan/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/iddan",
+      "id": 12671072,
+      "login": "iddan",
+      "node_id": "MDQ6VXNlcjEyNjcxMDcy",
+      "organizations_url": "https://api.github.com/users/iddan/orgs",
+      "received_events_url": "https://api.github.com/users/iddan/received_events",
+      "repos_url": "https://api.github.com/users/iddan/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/iddan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iddan/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/iddan"
+    },
+    "comments_url": "https://api.github.com/repos/cayleygraph/cayley/commits/ac81ad95bb2c2f1869bcf665d222278ca3bbc2f5/comments",
+    "commit": {
+      "author": {
+        "date": "2020-01-03T22:36:34Z",
+        "email": "mail@aniddan.com",
+        "name": "Iddan Aaronsohn"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-01-18T18:27:28Z",
+        "email": "denis.smirnov.91@gmail.com",
+        "name": "Denys Smirnov"
+      },
+      "message": "linkedql: Replace AbsoluteIRI with iri.FullWith(ns)",
+      "tree": {
+        "sha": "e6a7d72dbf102775e864e38e1808e3cd507f4cab",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/git/trees/e6a7d72dbf102775e864e38e1808e3cd507f4cab"
+      },
+      "url": "https://api.github.com/repos/cayleygraph/cayley/git/commits/ac81ad95bb2c2f1869bcf665d222278ca3bbc2f5",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/676724?v=4",
+      "events_url": "https://api.github.com/users/dennwc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/dennwc/followers",
+      "following_url": "https://api.github.com/users/dennwc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dennwc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/dennwc",
+      "id": 676724,
+      "login": "dennwc",
+      "node_id": "MDQ6VXNlcjY3NjcyNA==",
+      "organizations_url": "https://api.github.com/users/dennwc/orgs",
+      "received_events_url": "https://api.github.com/users/dennwc/received_events",
+      "repos_url": "https://api.github.com/users/dennwc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/dennwc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dennwc/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/dennwc"
+    },
+    "html_url": "https://github.com/cayleygraph/cayley/commit/ac81ad95bb2c2f1869bcf665d222278ca3bbc2f5",
+    "node_id": "MDY6Q29tbWl0MjA1MzcxMDQ6YWM4MWFkOTViYjJjMmYxODY5YmNmNjY1ZDIyMjI3OGNhM2JiYzJmNQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cayleygraph/cayley/commit/63c132ef36e4ab274540d0741d87081e5eeccfb2",
+        "sha": "63c132ef36e4ab274540d0741d87081e5eeccfb2",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/commits/63c132ef36e4ab274540d0741d87081e5eeccfb2"
+      }
+    ],
+    "sha": "ac81ad95bb2c2f1869bcf665d222278ca3bbc2f5",
+    "url": "https://api.github.com/repos/cayleygraph/cayley/commits/ac81ad95bb2c2f1869bcf665d222278ca3bbc2f5"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/12671072?v=4",
+      "events_url": "https://api.github.com/users/iddan/events{/privacy}",
+      "followers_url": "https://api.github.com/users/iddan/followers",
+      "following_url": "https://api.github.com/users/iddan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iddan/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/iddan",
+      "id": 12671072,
+      "login": "iddan",
+      "node_id": "MDQ6VXNlcjEyNjcxMDcy",
+      "organizations_url": "https://api.github.com/users/iddan/orgs",
+      "received_events_url": "https://api.github.com/users/iddan/received_events",
+      "repos_url": "https://api.github.com/users/iddan/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/iddan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iddan/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/iddan"
+    },
+    "comments_url": "https://api.github.com/repos/cayleygraph/cayley/commits/63c132ef36e4ab274540d0741d87081e5eeccfb2/comments",
+    "commit": {
+      "author": {
+        "date": "2019-12-28T11:27:05Z",
+        "email": "mail@aniddan.com",
+        "name": "Iddan Aaronsohn"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-01-18T18:27:28Z",
+        "email": "denis.smirnov.91@gmail.com",
+        "name": "Denys Smirnov"
+      },
+      "message": "Use context with properties",
+      "tree": {
+        "sha": "29242626f4e96f15c5c1bea01a561caf4ba7f693",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/git/trees/29242626f4e96f15c5c1bea01a561caf4ba7f693"
+      },
+      "url": "https://api.github.com/repos/cayleygraph/cayley/git/commits/63c132ef36e4ab274540d0741d87081e5eeccfb2",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/676724?v=4",
+      "events_url": "https://api.github.com/users/dennwc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/dennwc/followers",
+      "following_url": "https://api.github.com/users/dennwc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dennwc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/dennwc",
+      "id": 676724,
+      "login": "dennwc",
+      "node_id": "MDQ6VXNlcjY3NjcyNA==",
+      "organizations_url": "https://api.github.com/users/dennwc/orgs",
+      "received_events_url": "https://api.github.com/users/dennwc/received_events",
+      "repos_url": "https://api.github.com/users/dennwc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/dennwc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dennwc/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/dennwc"
+    },
+    "html_url": "https://github.com/cayleygraph/cayley/commit/63c132ef36e4ab274540d0741d87081e5eeccfb2",
+    "node_id": "MDY6Q29tbWl0MjA1MzcxMDQ6NjNjMTMyZWYzNmU0YWIyNzQ1NDBkMDc0MWQ4NzA4MWU1ZWVjY2ZiMg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cayleygraph/cayley/commit/7ae37d34470d1a119bb0326b3819e60467922379",
+        "sha": "7ae37d34470d1a119bb0326b3819e60467922379",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/commits/7ae37d34470d1a119bb0326b3819e60467922379"
+      }
+    ],
+    "sha": "63c132ef36e4ab274540d0741d87081e5eeccfb2",
+    "url": "https://api.github.com/repos/cayleygraph/cayley/commits/63c132ef36e4ab274540d0741d87081e5eeccfb2"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/12671072?v=4",
+      "events_url": "https://api.github.com/users/iddan/events{/privacy}",
+      "followers_url": "https://api.github.com/users/iddan/followers",
+      "following_url": "https://api.github.com/users/iddan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iddan/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/iddan",
+      "id": 12671072,
+      "login": "iddan",
+      "node_id": "MDQ6VXNlcjEyNjcxMDcy",
+      "organizations_url": "https://api.github.com/users/iddan/orgs",
+      "received_events_url": "https://api.github.com/users/iddan/received_events",
+      "repos_url": "https://api.github.com/users/iddan/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/iddan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iddan/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/iddan"
+    },
+    "comments_url": "https://api.github.com/repos/cayleygraph/cayley/commits/7ae37d34470d1a119bb0326b3819e60467922379/comments",
+    "commit": {
+      "author": {
+        "date": "2019-12-28T11:21:55Z",
+        "email": "mail@aniddan.com",
+        "name": "Iddan Aaronsohn"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-01-18T18:27:28Z",
+        "email": "denis.smirnov.91@gmail.com",
+        "name": "Denys Smirnov"
+      },
+      "message": "Test context and correct implementation",
+      "tree": {
+        "sha": "c049627ea35e9269a243162be594ae1403c36e0f",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/git/trees/c049627ea35e9269a243162be594ae1403c36e0f"
+      },
+      "url": "https://api.github.com/repos/cayleygraph/cayley/git/commits/7ae37d34470d1a119bb0326b3819e60467922379",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/676724?v=4",
+      "events_url": "https://api.github.com/users/dennwc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/dennwc/followers",
+      "following_url": "https://api.github.com/users/dennwc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dennwc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/dennwc",
+      "id": 676724,
+      "login": "dennwc",
+      "node_id": "MDQ6VXNlcjY3NjcyNA==",
+      "organizations_url": "https://api.github.com/users/dennwc/orgs",
+      "received_events_url": "https://api.github.com/users/dennwc/received_events",
+      "repos_url": "https://api.github.com/users/dennwc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/dennwc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dennwc/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/dennwc"
+    },
+    "html_url": "https://github.com/cayleygraph/cayley/commit/7ae37d34470d1a119bb0326b3819e60467922379",
+    "node_id": "MDY6Q29tbWl0MjA1MzcxMDQ6N2FlMzdkMzQ0NzBkMWExMTliYjAzMjZiMzgxOWU2MDQ2NzkyMjM3OQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cayleygraph/cayley/commit/aac32def9900a13f9b49bdbf95a0ee8d45af09c4",
+        "sha": "aac32def9900a13f9b49bdbf95a0ee8d45af09c4",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/commits/aac32def9900a13f9b49bdbf95a0ee8d45af09c4"
+      }
+    ],
+    "sha": "7ae37d34470d1a119bb0326b3819e60467922379",
+    "url": "https://api.github.com/repos/cayleygraph/cayley/commits/7ae37d34470d1a119bb0326b3819e60467922379"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/12671072?v=4",
+      "events_url": "https://api.github.com/users/iddan/events{/privacy}",
+      "followers_url": "https://api.github.com/users/iddan/followers",
+      "following_url": "https://api.github.com/users/iddan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iddan/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/iddan",
+      "id": 12671072,
+      "login": "iddan",
+      "node_id": "MDQ6VXNlcjEyNjcxMDcy",
+      "organizations_url": "https://api.github.com/users/iddan/orgs",
+      "received_events_url": "https://api.github.com/users/iddan/received_events",
+      "repos_url": "https://api.github.com/users/iddan/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/iddan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iddan/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/iddan"
+    },
+    "comments_url": "https://api.github.com/repos/cayleygraph/cayley/commits/aac32def9900a13f9b49bdbf95a0ee8d45af09c4/comments",
+    "commit": {
+      "author": {
+        "date": "2019-12-27T18:13:17Z",
+        "email": "mail@aniddan.com",
+        "name": "Iddan Aaronsohn"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-01-18T18:27:28Z",
+        "email": "denis.smirnov.91@gmail.com",
+        "name": "Denys Smirnov"
+      },
+      "message": "Handle string map in schema",
+      "tree": {
+        "sha": "83f64b00c676a6699b8e23b0416f346f52a8395c",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/git/trees/83f64b00c676a6699b8e23b0416f346f52a8395c"
+      },
+      "url": "https://api.github.com/repos/cayleygraph/cayley/git/commits/aac32def9900a13f9b49bdbf95a0ee8d45af09c4",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/676724?v=4",
+      "events_url": "https://api.github.com/users/dennwc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/dennwc/followers",
+      "following_url": "https://api.github.com/users/dennwc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dennwc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/dennwc",
+      "id": 676724,
+      "login": "dennwc",
+      "node_id": "MDQ6VXNlcjY3NjcyNA==",
+      "organizations_url": "https://api.github.com/users/dennwc/orgs",
+      "received_events_url": "https://api.github.com/users/dennwc/received_events",
+      "repos_url": "https://api.github.com/users/dennwc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/dennwc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dennwc/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/dennwc"
+    },
+    "html_url": "https://github.com/cayleygraph/cayley/commit/aac32def9900a13f9b49bdbf95a0ee8d45af09c4",
+    "node_id": "MDY6Q29tbWl0MjA1MzcxMDQ6YWFjMzJkZWY5OTAwYTEzZjliNDliZGJmOTVhMGVlOGQ0NWFmMDljNA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cayleygraph/cayley/commit/6ceff002f3b2b137449b9b961a77b503cbef2a17",
+        "sha": "6ceff002f3b2b137449b9b961a77b503cbef2a17",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/commits/6ceff002f3b2b137449b9b961a77b503cbef2a17"
+      }
+    ],
+    "sha": "aac32def9900a13f9b49bdbf95a0ee8d45af09c4",
+    "url": "https://api.github.com/repos/cayleygraph/cayley/commits/aac32def9900a13f9b49bdbf95a0ee8d45af09c4"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/12671072?v=4",
+      "events_url": "https://api.github.com/users/iddan/events{/privacy}",
+      "followers_url": "https://api.github.com/users/iddan/followers",
+      "following_url": "https://api.github.com/users/iddan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iddan/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/iddan",
+      "id": 12671072,
+      "login": "iddan",
+      "node_id": "MDQ6VXNlcjEyNjcxMDcy",
+      "organizations_url": "https://api.github.com/users/iddan/orgs",
+      "received_events_url": "https://api.github.com/users/iddan/received_events",
+      "repos_url": "https://api.github.com/users/iddan/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/iddan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iddan/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/iddan"
+    },
+    "comments_url": "https://api.github.com/repos/cayleygraph/cayley/commits/6ceff002f3b2b137449b9b961a77b503cbef2a17/comments",
+    "commit": {
+      "author": {
+        "date": "2019-12-27T17:59:44Z",
+        "email": "mail@aniddan.com",
+        "name": "Iddan Aaronsohn"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-01-18T18:27:28Z",
+        "email": "denis.smirnov.91@gmail.com",
+        "name": "Denys Smirnov"
+      },
+      "message": "Use namespace everywhere a literal value is used",
+      "tree": {
+        "sha": "3e8cf8562b5f17fd116bc99344961a42fb9a9f74",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/git/trees/3e8cf8562b5f17fd116bc99344961a42fb9a9f74"
+      },
+      "url": "https://api.github.com/repos/cayleygraph/cayley/git/commits/6ceff002f3b2b137449b9b961a77b503cbef2a17",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/676724?v=4",
+      "events_url": "https://api.github.com/users/dennwc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/dennwc/followers",
+      "following_url": "https://api.github.com/users/dennwc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dennwc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/dennwc",
+      "id": 676724,
+      "login": "dennwc",
+      "node_id": "MDQ6VXNlcjY3NjcyNA==",
+      "organizations_url": "https://api.github.com/users/dennwc/orgs",
+      "received_events_url": "https://api.github.com/users/dennwc/received_events",
+      "repos_url": "https://api.github.com/users/dennwc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/dennwc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dennwc/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/dennwc"
+    },
+    "html_url": "https://github.com/cayleygraph/cayley/commit/6ceff002f3b2b137449b9b961a77b503cbef2a17",
+    "node_id": "MDY6Q29tbWl0MjA1MzcxMDQ6NmNlZmYwMDJmM2IyYjEzNzQ0OWI5Yjk2MWE3N2I1MDNjYmVmMmExNw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cayleygraph/cayley/commit/f967167150bbadbdf9c3cddd36949a01ff7e447d",
+        "sha": "f967167150bbadbdf9c3cddd36949a01ff7e447d",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/commits/f967167150bbadbdf9c3cddd36949a01ff7e447d"
+      }
+    ],
+    "sha": "6ceff002f3b2b137449b9b961a77b503cbef2a17",
+    "url": "https://api.github.com/repos/cayleygraph/cayley/commits/6ceff002f3b2b137449b9b961a77b503cbef2a17"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/12671072?v=4",
+      "events_url": "https://api.github.com/users/iddan/events{/privacy}",
+      "followers_url": "https://api.github.com/users/iddan/followers",
+      "following_url": "https://api.github.com/users/iddan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iddan/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/iddan",
+      "id": 12671072,
+      "login": "iddan",
+      "node_id": "MDQ6VXNlcjEyNjcxMDcy",
+      "organizations_url": "https://api.github.com/users/iddan/orgs",
+      "received_events_url": "https://api.github.com/users/iddan/received_events",
+      "repos_url": "https://api.github.com/users/iddan/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/iddan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iddan/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/iddan"
+    },
+    "comments_url": "https://api.github.com/repos/cayleygraph/cayley/commits/f967167150bbadbdf9c3cddd36949a01ff7e447d/comments",
+    "commit": {
+      "author": {
+        "date": "2019-12-27T17:31:42Z",
+        "email": "mail@aniddan.com",
+        "name": "Iddan Aaronsohn"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-01-18T18:27:28Z",
+        "email": "denis.smirnov.91@gmail.com",
+        "name": "Denys Smirnov"
+      },
+      "message": "Use ns in property path",
+      "tree": {
+        "sha": "8903123fc9521de4dc2f4cfa821973b09021afc6",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/git/trees/8903123fc9521de4dc2f4cfa821973b09021afc6"
+      },
+      "url": "https://api.github.com/repos/cayleygraph/cayley/git/commits/f967167150bbadbdf9c3cddd36949a01ff7e447d",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/676724?v=4",
+      "events_url": "https://api.github.com/users/dennwc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/dennwc/followers",
+      "following_url": "https://api.github.com/users/dennwc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dennwc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/dennwc",
+      "id": 676724,
+      "login": "dennwc",
+      "node_id": "MDQ6VXNlcjY3NjcyNA==",
+      "organizations_url": "https://api.github.com/users/dennwc/orgs",
+      "received_events_url": "https://api.github.com/users/dennwc/received_events",
+      "repos_url": "https://api.github.com/users/dennwc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/dennwc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dennwc/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/dennwc"
+    },
+    "html_url": "https://github.com/cayleygraph/cayley/commit/f967167150bbadbdf9c3cddd36949a01ff7e447d",
+    "node_id": "MDY6Q29tbWl0MjA1MzcxMDQ6Zjk2NzE2NzE1MGJiYWRiZGY5YzNjZGRkMzY5NDlhMDFmZjdlNDQ3ZA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cayleygraph/cayley/commit/ce47e2129fc570540fd8253c8c9464a732b8002c",
+        "sha": "ce47e2129fc570540fd8253c8c9464a732b8002c",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/commits/ce47e2129fc570540fd8253c8c9464a732b8002c"
+      }
+    ],
+    "sha": "f967167150bbadbdf9c3cddd36949a01ff7e447d",
+    "url": "https://api.github.com/repos/cayleygraph/cayley/commits/f967167150bbadbdf9c3cddd36949a01ff7e447d"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/12671072?v=4",
+      "events_url": "https://api.github.com/users/iddan/events{/privacy}",
+      "followers_url": "https://api.github.com/users/iddan/followers",
+      "following_url": "https://api.github.com/users/iddan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iddan/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/iddan",
+      "id": 12671072,
+      "login": "iddan",
+      "node_id": "MDQ6VXNlcjEyNjcxMDcy",
+      "organizations_url": "https://api.github.com/users/iddan/orgs",
+      "received_events_url": "https://api.github.com/users/iddan/received_events",
+      "repos_url": "https://api.github.com/users/iddan/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/iddan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iddan/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/iddan"
+    },
+    "comments_url": "https://api.github.com/repos/cayleygraph/cayley/commits/ce47e2129fc570540fd8253c8c9464a732b8002c/comments",
+    "commit": {
+      "author": {
+        "date": "2019-12-27T17:27:21Z",
+        "email": "mail@aniddan.com",
+        "name": "Iddan Aaronsohn"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-01-18T18:27:28Z",
+        "email": "denis.smirnov.91@gmail.com",
+        "name": "Denys Smirnov"
+      },
+      "message": "Remove unused comment",
+      "tree": {
+        "sha": "7c98c694e63aa819a345659732e74ca66a04cca2",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/git/trees/7c98c694e63aa819a345659732e74ca66a04cca2"
+      },
+      "url": "https://api.github.com/repos/cayleygraph/cayley/git/commits/ce47e2129fc570540fd8253c8c9464a732b8002c",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/676724?v=4",
+      "events_url": "https://api.github.com/users/dennwc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/dennwc/followers",
+      "following_url": "https://api.github.com/users/dennwc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dennwc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/dennwc",
+      "id": 676724,
+      "login": "dennwc",
+      "node_id": "MDQ6VXNlcjY3NjcyNA==",
+      "organizations_url": "https://api.github.com/users/dennwc/orgs",
+      "received_events_url": "https://api.github.com/users/dennwc/received_events",
+      "repos_url": "https://api.github.com/users/dennwc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/dennwc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dennwc/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/dennwc"
+    },
+    "html_url": "https://github.com/cayleygraph/cayley/commit/ce47e2129fc570540fd8253c8c9464a732b8002c",
+    "node_id": "MDY6Q29tbWl0MjA1MzcxMDQ6Y2U0N2UyMTI5ZmM1NzA1NDBmZDgyNTNjOGM5NDY0YTczMmI4MDAyYw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cayleygraph/cayley/commit/17a75920b65f0d109f5703e051b0b1fcba8d0f74",
+        "sha": "17a75920b65f0d109f5703e051b0b1fcba8d0f74",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/commits/17a75920b65f0d109f5703e051b0b1fcba8d0f74"
+      }
+    ],
+    "sha": "ce47e2129fc570540fd8253c8c9464a732b8002c",
+    "url": "https://api.github.com/repos/cayleygraph/cayley/commits/ce47e2129fc570540fd8253c8c9464a732b8002c"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/12671072?v=4",
+      "events_url": "https://api.github.com/users/iddan/events{/privacy}",
+      "followers_url": "https://api.github.com/users/iddan/followers",
+      "following_url": "https://api.github.com/users/iddan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iddan/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/iddan",
+      "id": 12671072,
+      "login": "iddan",
+      "node_id": "MDQ6VXNlcjEyNjcxMDcy",
+      "organizations_url": "https://api.github.com/users/iddan/orgs",
+      "received_events_url": "https://api.github.com/users/iddan/received_events",
+      "repos_url": "https://api.github.com/users/iddan/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/iddan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iddan/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/iddan"
+    },
+    "comments_url": "https://api.github.com/repos/cayleygraph/cayley/commits/17a75920b65f0d109f5703e051b0b1fcba8d0f74/comments",
+    "commit": {
+      "author": {
+        "date": "2019-12-27T17:26:54Z",
+        "email": "mail@aniddan.com",
+        "name": "Iddan Aaronsohn"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-01-18T18:27:28Z",
+        "email": "denis.smirnov.91@gmail.com",
+        "name": "Denys Smirnov"
+      },
+      "message": "Use ns in entity_identifier",
+      "tree": {
+        "sha": "8ed9e16573f2454ba9978630fe1373c3b5033349",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/git/trees/8ed9e16573f2454ba9978630fe1373c3b5033349"
+      },
+      "url": "https://api.github.com/repos/cayleygraph/cayley/git/commits/17a75920b65f0d109f5703e051b0b1fcba8d0f74",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/676724?v=4",
+      "events_url": "https://api.github.com/users/dennwc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/dennwc/followers",
+      "following_url": "https://api.github.com/users/dennwc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dennwc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/dennwc",
+      "id": 676724,
+      "login": "dennwc",
+      "node_id": "MDQ6VXNlcjY3NjcyNA==",
+      "organizations_url": "https://api.github.com/users/dennwc/orgs",
+      "received_events_url": "https://api.github.com/users/dennwc/received_events",
+      "repos_url": "https://api.github.com/users/dennwc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/dennwc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dennwc/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/dennwc"
+    },
+    "html_url": "https://github.com/cayleygraph/cayley/commit/17a75920b65f0d109f5703e051b0b1fcba8d0f74",
+    "node_id": "MDY6Q29tbWl0MjA1MzcxMDQ6MTdhNzU5MjBiNjVmMGQxMDlmNTcwM2UwNTFiMGIxZmNiYThkMGY3NA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cayleygraph/cayley/commit/5a93475454aceed8338b8d78475ecbf3429d070c",
+        "sha": "5a93475454aceed8338b8d78475ecbf3429d070c",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/commits/5a93475454aceed8338b8d78475ecbf3429d070c"
+      }
+    ],
+    "sha": "17a75920b65f0d109f5703e051b0b1fcba8d0f74",
+    "url": "https://api.github.com/repos/cayleygraph/cayley/commits/17a75920b65f0d109f5703e051b0b1fcba8d0f74"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/12671072?v=4",
+      "events_url": "https://api.github.com/users/iddan/events{/privacy}",
+      "followers_url": "https://api.github.com/users/iddan/followers",
+      "following_url": "https://api.github.com/users/iddan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iddan/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/iddan",
+      "id": 12671072,
+      "login": "iddan",
+      "node_id": "MDQ6VXNlcjEyNjcxMDcy",
+      "organizations_url": "https://api.github.com/users/iddan/orgs",
+      "received_events_url": "https://api.github.com/users/iddan/received_events",
+      "repos_url": "https://api.github.com/users/iddan/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/iddan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iddan/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/iddan"
+    },
+    "comments_url": "https://api.github.com/repos/cayleygraph/cayley/commits/5a93475454aceed8338b8d78475ecbf3429d070c/comments",
+    "commit": {
+      "author": {
+        "date": "2019-12-27T17:20:02Z",
+        "email": "mail@aniddan.com",
+        "name": "Iddan Aaronsohn"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-01-18T18:27:28Z",
+        "email": "denis.smirnov.91@gmail.com",
+        "name": "Denys Smirnov"
+      },
+      "message": "Remove Type() method",
+      "tree": {
+        "sha": "0a082ea2afed85e404c7790376bba03b60f146d6",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/git/trees/0a082ea2afed85e404c7790376bba03b60f146d6"
+      },
+      "url": "https://api.github.com/repos/cayleygraph/cayley/git/commits/5a93475454aceed8338b8d78475ecbf3429d070c",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/676724?v=4",
+      "events_url": "https://api.github.com/users/dennwc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/dennwc/followers",
+      "following_url": "https://api.github.com/users/dennwc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dennwc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/dennwc",
+      "id": 676724,
+      "login": "dennwc",
+      "node_id": "MDQ6VXNlcjY3NjcyNA==",
+      "organizations_url": "https://api.github.com/users/dennwc/orgs",
+      "received_events_url": "https://api.github.com/users/dennwc/received_events",
+      "repos_url": "https://api.github.com/users/dennwc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/dennwc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dennwc/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/dennwc"
+    },
+    "html_url": "https://github.com/cayleygraph/cayley/commit/5a93475454aceed8338b8d78475ecbf3429d070c",
+    "node_id": "MDY6Q29tbWl0MjA1MzcxMDQ6NWE5MzQ3NTQ1NGFjZWVkODMzOGI4ZDc4NDc1ZWNiZjM0MjlkMDcwYw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cayleygraph/cayley/commit/eca03c8364c4e5a23102c0b81d847c572fd4fa0d",
+        "sha": "eca03c8364c4e5a23102c0b81d847c572fd4fa0d",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/commits/eca03c8364c4e5a23102c0b81d847c572fd4fa0d"
+      }
+    ],
+    "sha": "5a93475454aceed8338b8d78475ecbf3429d070c",
+    "url": "https://api.github.com/repos/cayleygraph/cayley/commits/5a93475454aceed8338b8d78475ecbf3429d070c"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/12671072?v=4",
+      "events_url": "https://api.github.com/users/iddan/events{/privacy}",
+      "followers_url": "https://api.github.com/users/iddan/followers",
+      "following_url": "https://api.github.com/users/iddan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iddan/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/iddan",
+      "id": 12671072,
+      "login": "iddan",
+      "node_id": "MDQ6VXNlcjEyNjcxMDcy",
+      "organizations_url": "https://api.github.com/users/iddan/orgs",
+      "received_events_url": "https://api.github.com/users/iddan/received_events",
+      "repos_url": "https://api.github.com/users/iddan/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/iddan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iddan/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/iddan"
+    },
+    "comments_url": "https://api.github.com/repos/cayleygraph/cayley/commits/eca03c8364c4e5a23102c0b81d847c572fd4fa0d/comments",
+    "commit": {
+      "author": {
+        "date": "2019-12-27T17:11:04Z",
+        "email": "mail@aniddan.com",
+        "name": "Iddan Aaronsohn"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-01-18T18:27:28Z",
+        "email": "denis.smirnov.91@gmail.com",
+        "name": "Denys Smirnov"
+      },
+      "message": "Separate all steps to files",
+      "tree": {
+        "sha": "3724143a3c5be8784de72521f1d5a5fe59592758",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/git/trees/3724143a3c5be8784de72521f1d5a5fe59592758"
+      },
+      "url": "https://api.github.com/repos/cayleygraph/cayley/git/commits/eca03c8364c4e5a23102c0b81d847c572fd4fa0d",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/676724?v=4",
+      "events_url": "https://api.github.com/users/dennwc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/dennwc/followers",
+      "following_url": "https://api.github.com/users/dennwc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dennwc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/dennwc",
+      "id": 676724,
+      "login": "dennwc",
+      "node_id": "MDQ6VXNlcjY3NjcyNA==",
+      "organizations_url": "https://api.github.com/users/dennwc/orgs",
+      "received_events_url": "https://api.github.com/users/dennwc/received_events",
+      "repos_url": "https://api.github.com/users/dennwc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/dennwc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dennwc/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/dennwc"
+    },
+    "html_url": "https://github.com/cayleygraph/cayley/commit/eca03c8364c4e5a23102c0b81d847c572fd4fa0d",
+    "node_id": "MDY6Q29tbWl0MjA1MzcxMDQ6ZWNhMDNjODM2NGM0ZTVhMjMxMDJjMGI4MWQ4NDdjNTcyZmQ0ZmEwZA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cayleygraph/cayley/commit/d2cbff611b8fd2fe1946b79918ed25e083a7912d",
+        "sha": "d2cbff611b8fd2fe1946b79918ed25e083a7912d",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/commits/d2cbff611b8fd2fe1946b79918ed25e083a7912d"
+      }
+    ],
+    "sha": "eca03c8364c4e5a23102c0b81d847c572fd4fa0d",
+    "url": "https://api.github.com/repos/cayleygraph/cayley/commits/eca03c8364c4e5a23102c0b81d847c572fd4fa0d"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/12671072?v=4",
+      "events_url": "https://api.github.com/users/iddan/events{/privacy}",
+      "followers_url": "https://api.github.com/users/iddan/followers",
+      "following_url": "https://api.github.com/users/iddan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iddan/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/iddan",
+      "id": 12671072,
+      "login": "iddan",
+      "node_id": "MDQ6VXNlcjEyNjcxMDcy",
+      "organizations_url": "https://api.github.com/users/iddan/orgs",
+      "received_events_url": "https://api.github.com/users/iddan/received_events",
+      "repos_url": "https://api.github.com/users/iddan/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/iddan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iddan/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/iddan"
+    },
+    "comments_url": "https://api.github.com/repos/cayleygraph/cayley/commits/d2cbff611b8fd2fe1946b79918ed25e083a7912d/comments",
+    "commit": {
+      "author": {
+        "date": "2019-12-27T16:17:06Z",
+        "email": "mail@aniddan.com",
+        "name": "Iddan Aaronsohn"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-01-18T18:27:28Z",
+        "email": "denis.smirnov.91@gmail.com",
+        "name": "Denys Smirnov"
+      },
+      "message": "Pass voc to all steps and create context step",
+      "tree": {
+        "sha": "f5414b5d7f5e85b517c288ba3ac0d0548b6d05c6",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/git/trees/f5414b5d7f5e85b517c288ba3ac0d0548b6d05c6"
+      },
+      "url": "https://api.github.com/repos/cayleygraph/cayley/git/commits/d2cbff611b8fd2fe1946b79918ed25e083a7912d",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/676724?v=4",
+      "events_url": "https://api.github.com/users/dennwc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/dennwc/followers",
+      "following_url": "https://api.github.com/users/dennwc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dennwc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/dennwc",
+      "id": 676724,
+      "login": "dennwc",
+      "node_id": "MDQ6VXNlcjY3NjcyNA==",
+      "organizations_url": "https://api.github.com/users/dennwc/orgs",
+      "received_events_url": "https://api.github.com/users/dennwc/received_events",
+      "repos_url": "https://api.github.com/users/dennwc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/dennwc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dennwc/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/dennwc"
+    },
+    "html_url": "https://github.com/cayleygraph/cayley/commit/d2cbff611b8fd2fe1946b79918ed25e083a7912d",
+    "node_id": "MDY6Q29tbWl0MjA1MzcxMDQ6ZDJjYmZmNjExYjhmZDJmZTE5NDZiNzk5MThlZDI1ZTA4M2E3OTEyZA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cayleygraph/cayley/commit/323d5c31551a646665a409f5df463872282ff037",
+        "sha": "323d5c31551a646665a409f5df463872282ff037",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/commits/323d5c31551a646665a409f5df463872282ff037"
+      }
+    ],
+    "sha": "d2cbff611b8fd2fe1946b79918ed25e083a7912d",
+    "url": "https://api.github.com/repos/cayleygraph/cayley/commits/d2cbff611b8fd2fe1946b79918ed25e083a7912d"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/676724?v=4",
+      "events_url": "https://api.github.com/users/dennwc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/dennwc/followers",
+      "following_url": "https://api.github.com/users/dennwc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dennwc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/dennwc",
+      "id": 676724,
+      "login": "dennwc",
+      "node_id": "MDQ6VXNlcjY3NjcyNA==",
+      "organizations_url": "https://api.github.com/users/dennwc/orgs",
+      "received_events_url": "https://api.github.com/users/dennwc/received_events",
+      "repos_url": "https://api.github.com/users/dennwc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/dennwc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dennwc/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/dennwc"
+    },
+    "comments_url": "https://api.github.com/repos/cayleygraph/cayley/commits/323d5c31551a646665a409f5df463872282ff037/comments",
+    "commit": {
+      "author": {
+        "date": "2020-01-11T20:14:21Z",
+        "email": "denis.smirnov.91@gmail.com",
+        "name": "Denys Smirnov"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-01-11T20:14:21Z",
+        "email": "denis.smirnov.91@gmail.com",
+        "name": "Denys Smirnov"
+      },
+      "message": "kv: print a meaningful error when path is not set; fixes #865",
+      "tree": {
+        "sha": "b049c1f6d86dbca3c03d06787238e763f3f3fc08",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/git/trees/b049c1f6d86dbca3c03d06787238e763f3f3fc08"
+      },
+      "url": "https://api.github.com/repos/cayleygraph/cayley/git/commits/323d5c31551a646665a409f5df463872282ff037",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/676724?v=4",
+      "events_url": "https://api.github.com/users/dennwc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/dennwc/followers",
+      "following_url": "https://api.github.com/users/dennwc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dennwc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/dennwc",
+      "id": 676724,
+      "login": "dennwc",
+      "node_id": "MDQ6VXNlcjY3NjcyNA==",
+      "organizations_url": "https://api.github.com/users/dennwc/orgs",
+      "received_events_url": "https://api.github.com/users/dennwc/received_events",
+      "repos_url": "https://api.github.com/users/dennwc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/dennwc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dennwc/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/dennwc"
+    },
+    "html_url": "https://github.com/cayleygraph/cayley/commit/323d5c31551a646665a409f5df463872282ff037",
+    "node_id": "MDY6Q29tbWl0MjA1MzcxMDQ6MzIzZDVjMzE1NTFhNjQ2NjY1YTQwOWY1ZGY0NjM4NzIyODJmZjAzNw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cayleygraph/cayley/commit/b8f0b68a1d4192ef3ea95bf5e07f7a51f134f6a3",
+        "sha": "b8f0b68a1d4192ef3ea95bf5e07f7a51f134f6a3",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/commits/b8f0b68a1d4192ef3ea95bf5e07f7a51f134f6a3"
+      }
+    ],
+    "sha": "323d5c31551a646665a409f5df463872282ff037",
+    "url": "https://api.github.com/repos/cayleygraph/cayley/commits/323d5c31551a646665a409f5df463872282ff037"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/44495952?v=4",
+      "events_url": "https://api.github.com/users/virtualgraham/events{/privacy}",
+      "followers_url": "https://api.github.com/users/virtualgraham/followers",
+      "following_url": "https://api.github.com/users/virtualgraham/following{/other_user}",
+      "gists_url": "https://api.github.com/users/virtualgraham/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/virtualgraham",
+      "id": 44495952,
+      "login": "virtualgraham",
+      "node_id": "MDQ6VXNlcjQ0NDk1OTUy",
+      "organizations_url": "https://api.github.com/users/virtualgraham/orgs",
+      "received_events_url": "https://api.github.com/users/virtualgraham/received_events",
+      "repos_url": "https://api.github.com/users/virtualgraham/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/virtualgraham/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/virtualgraham/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/virtualgraham"
+    },
+    "comments_url": "https://api.github.com/repos/cayleygraph/cayley/commits/b8f0b68a1d4192ef3ea95bf5e07f7a51f134f6a3/comments",
+    "commit": {
+      "author": {
+        "date": "2020-01-09T03:12:31Z",
+        "email": "44495952+virtualgraham@users.noreply.github.com",
+        "name": "Graham Shapiro"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-01-09T11:39:03Z",
+        "email": "denis.smirnov.91@gmail.com",
+        "name": "Denys Smirnov"
+      },
+      "message": "Fix map allocation bug in materialize.go\n\nSolution to https://github.com/cayleygraph/cayley/issues/911",
+      "tree": {
+        "sha": "c47bf33d28115c4e1f355a12de4ba1f51fc042f4",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/git/trees/c47bf33d28115c4e1f355a12de4ba1f51fc042f4"
+      },
+      "url": "https://api.github.com/repos/cayleygraph/cayley/git/commits/b8f0b68a1d4192ef3ea95bf5e07f7a51f134f6a3",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/676724?v=4",
+      "events_url": "https://api.github.com/users/dennwc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/dennwc/followers",
+      "following_url": "https://api.github.com/users/dennwc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dennwc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/dennwc",
+      "id": 676724,
+      "login": "dennwc",
+      "node_id": "MDQ6VXNlcjY3NjcyNA==",
+      "organizations_url": "https://api.github.com/users/dennwc/orgs",
+      "received_events_url": "https://api.github.com/users/dennwc/received_events",
+      "repos_url": "https://api.github.com/users/dennwc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/dennwc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dennwc/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/dennwc"
+    },
+    "html_url": "https://github.com/cayleygraph/cayley/commit/b8f0b68a1d4192ef3ea95bf5e07f7a51f134f6a3",
+    "node_id": "MDY6Q29tbWl0MjA1MzcxMDQ6YjhmMGI2OGExZDQxOTJlZjNlYTk1YmY1ZTA3ZjdhNTFmMTM0ZjZhMw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cayleygraph/cayley/commit/0f705281585d4de59a29f2592a5ac45b275c39c2",
+        "sha": "0f705281585d4de59a29f2592a5ac45b275c39c2",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/commits/0f705281585d4de59a29f2592a5ac45b275c39c2"
+      }
+    ],
+    "sha": "b8f0b68a1d4192ef3ea95bf5e07f7a51f134f6a3",
+    "url": "https://api.github.com/repos/cayleygraph/cayley/commits/b8f0b68a1d4192ef3ea95bf5e07f7a51f134f6a3"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/12671072?v=4",
+      "events_url": "https://api.github.com/users/iddan/events{/privacy}",
+      "followers_url": "https://api.github.com/users/iddan/followers",
+      "following_url": "https://api.github.com/users/iddan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iddan/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/iddan",
+      "id": 12671072,
+      "login": "iddan",
+      "node_id": "MDQ6VXNlcjEyNjcxMDcy",
+      "organizations_url": "https://api.github.com/users/iddan/orgs",
+      "received_events_url": "https://api.github.com/users/iddan/received_events",
+      "repos_url": "https://api.github.com/users/iddan/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/iddan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iddan/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/iddan"
+    },
+    "comments_url": "https://api.github.com/repos/cayleygraph/cayley/commits/0f705281585d4de59a29f2592a5ac45b275c39c2/comments",
+    "commit": {
+      "author": {
+        "date": "2020-01-08T09:28:19Z",
+        "email": "mail@aniddan.com",
+        "name": "Iddan Aaronsohn"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-01-08T09:28:19Z",
+        "email": "denis.smirnov.91@gmail.com",
+        "name": "Denys Smirnov"
+      },
+      "message": "LinkedQL: Fix Step Names (#906)\n\n* View -> Visit, ViewBoth -> Both\r\n\r\n* Fix Type methods of Visit Steps",
+      "tree": {
+        "sha": "60a0f27522c58fb6a15c1aa9fa94fb4a1747db36",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/git/trees/60a0f27522c58fb6a15c1aa9fa94fb4a1747db36"
+      },
+      "url": "https://api.github.com/repos/cayleygraph/cayley/git/commits/0f705281585d4de59a29f2592a5ac45b275c39c2",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/676724?v=4",
+      "events_url": "https://api.github.com/users/dennwc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/dennwc/followers",
+      "following_url": "https://api.github.com/users/dennwc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dennwc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/dennwc",
+      "id": 676724,
+      "login": "dennwc",
+      "node_id": "MDQ6VXNlcjY3NjcyNA==",
+      "organizations_url": "https://api.github.com/users/dennwc/orgs",
+      "received_events_url": "https://api.github.com/users/dennwc/received_events",
+      "repos_url": "https://api.github.com/users/dennwc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/dennwc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dennwc/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/dennwc"
+    },
+    "html_url": "https://github.com/cayleygraph/cayley/commit/0f705281585d4de59a29f2592a5ac45b275c39c2",
+    "node_id": "MDY6Q29tbWl0MjA1MzcxMDQ6MGY3MDUyODE1ODVkNGRlNTlhMjlmMjU5MmE1YWM0NWIyNzVjMzljMg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cayleygraph/cayley/commit/80bd8afb9e4b5d18790ef63b172883b1b39f383c",
+        "sha": "80bd8afb9e4b5d18790ef63b172883b1b39f383c",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/commits/80bd8afb9e4b5d18790ef63b172883b1b39f383c"
+      }
+    ],
+    "sha": "0f705281585d4de59a29f2592a5ac45b275c39c2",
+    "url": "https://api.github.com/repos/cayleygraph/cayley/commits/0f705281585d4de59a29f2592a5ac45b275c39c2"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/12671072?v=4",
+      "events_url": "https://api.github.com/users/iddan/events{/privacy}",
+      "followers_url": "https://api.github.com/users/iddan/followers",
+      "following_url": "https://api.github.com/users/iddan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iddan/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/iddan",
+      "id": 12671072,
+      "login": "iddan",
+      "node_id": "MDQ6VXNlcjEyNjcxMDcy",
+      "organizations_url": "https://api.github.com/users/iddan/orgs",
+      "received_events_url": "https://api.github.com/users/iddan/received_events",
+      "repos_url": "https://api.github.com/users/iddan/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/iddan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iddan/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/iddan"
+    },
+    "comments_url": "https://api.github.com/repos/cayleygraph/cayley/commits/80bd8afb9e4b5d18790ef63b172883b1b39f383c/comments",
+    "commit": {
+      "author": {
+        "date": "2020-01-03T22:26:10Z",
+        "email": "mail@aniddan.com",
+        "name": "Iddan Aaronsohn"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-01-03T22:26:10Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Extracted Client (#896)\n\n* Code generated client\r\n\r\n* Fix query result type and code generation\r\n\r\n* Make client importable\r\n\r\n* Refactor server/http tests to not rely on client\r\n\r\n* Reduce magic strings\r\n\r\n* Reduce JSON LD mentions\r\n\r\n* Revert all non-server changes\r\n\r\n* Restore client\r\n\r\n* Add deprecation note regarding client\r\n\r\n* Make write response private",
+      "tree": {
+        "sha": "60a0f27522c58fb6a15c1aa9fa94fb4a1747db36",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/git/trees/60a0f27522c58fb6a15c1aa9fa94fb4a1747db36"
+      },
+      "url": "https://api.github.com/repos/cayleygraph/cayley/git/commits/80bd8afb9e4b5d18790ef63b172883b1b39f383c",
+      "verification": {
+        "payload": "tree 60a0f27522c58fb6a15c1aa9fa94fb4a1747db36\nparent 3cc82445e1eaae0d63790b591fc10c2cd7fda939\nauthor Iddan Aaronsohn <mail@aniddan.com> 1578090370 +0200\ncommitter GitHub <noreply@github.com> 1578090370 +0200\n\nExtracted Client (#896)\n\n* Code generated client\r\n\r\n* Fix query result type and code generation\r\n\r\n* Make client importable\r\n\r\n* Refactor server/http tests to not rely on client\r\n\r\n* Reduce magic strings\r\n\r\n* Reduce JSON LD mentions\r\n\r\n* Revert all non-server changes\r\n\r\n* Restore client\r\n\r\n* Add deprecation note regarding client\r\n\r\n* Make write response private\r\n",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJeD7+CCRBK7hj4Ov3rIwAAdHIIAK4Rp87JrPBnwEOxSvT0czln\n/wA0yCP9Ny576JNJ9EmRe+IodLZ69qK70osB0NkeB0fHi/7pG4d2oV8ILvbAIKlR\nFnf8HtYf/C3lB+UQiiaZ7svNh5muwTjR9Vz5SxUYTHp4rb+q2AAL76XynmaOO5q4\n4M6Pub8yXx6XTmg89wCgsyVakFcAEu1jepPDVG3WHTB4xi/wb2iZBhsM/chmP0tt\nKJN1CreHbmqGa8CfclDc9eo0HkRt6wJoWPz+bb2kXu9p+Cy93KgFXpJE1qycC1BB\nQU3rZqsE1SBUUZ02Wps1R4GtR4S0d0JXf8ZkBOIsR2kyxCWqPpfPluzuAJ2Q0pI=\n=+ygu\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/cayleygraph/cayley/commit/80bd8afb9e4b5d18790ef63b172883b1b39f383c",
+    "node_id": "MDY6Q29tbWl0MjA1MzcxMDQ6ODBiZDhhZmI5ZTRiNWQxODc5MGVmNjNiMTcyODgzYjFiMzlmMzgzYw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cayleygraph/cayley/commit/3cc82445e1eaae0d63790b591fc10c2cd7fda939",
+        "sha": "3cc82445e1eaae0d63790b591fc10c2cd7fda939",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/commits/3cc82445e1eaae0d63790b591fc10c2cd7fda939"
+      }
+    ],
+    "sha": "80bd8afb9e4b5d18790ef63b172883b1b39f383c",
+    "url": "https://api.github.com/repos/cayleygraph/cayley/commits/80bd8afb9e4b5d18790ef63b172883b1b39f383c"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/676724?v=4",
+      "events_url": "https://api.github.com/users/dennwc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/dennwc/followers",
+      "following_url": "https://api.github.com/users/dennwc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dennwc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/dennwc",
+      "id": 676724,
+      "login": "dennwc",
+      "node_id": "MDQ6VXNlcjY3NjcyNA==",
+      "organizations_url": "https://api.github.com/users/dennwc/orgs",
+      "received_events_url": "https://api.github.com/users/dennwc/received_events",
+      "repos_url": "https://api.github.com/users/dennwc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/dennwc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dennwc/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/dennwc"
+    },
+    "comments_url": "https://api.github.com/repos/cayleygraph/cayley/commits/3cc82445e1eaae0d63790b591fc10c2cd7fda939/comments",
+    "commit": {
+      "author": {
+        "date": "2019-12-30T10:14:37Z",
+        "email": "denis.smirnov.91@gmail.com",
+        "name": "Denys Smirnov"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-12-30T10:39:49Z",
+        "email": "denis.smirnov.91@gmail.com",
+        "name": "Denys Smirnov"
+      },
+      "message": "linkedql: refactor to avoid embedding unexported interfaces and named returns",
+      "tree": {
+        "sha": "96162f65ebeb5aafba43f76b9bb893ec397e7067",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/git/trees/96162f65ebeb5aafba43f76b9bb893ec397e7067"
+      },
+      "url": "https://api.github.com/repos/cayleygraph/cayley/git/commits/3cc82445e1eaae0d63790b591fc10c2cd7fda939",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/676724?v=4",
+      "events_url": "https://api.github.com/users/dennwc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/dennwc/followers",
+      "following_url": "https://api.github.com/users/dennwc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dennwc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/dennwc",
+      "id": 676724,
+      "login": "dennwc",
+      "node_id": "MDQ6VXNlcjY3NjcyNA==",
+      "organizations_url": "https://api.github.com/users/dennwc/orgs",
+      "received_events_url": "https://api.github.com/users/dennwc/received_events",
+      "repos_url": "https://api.github.com/users/dennwc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/dennwc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dennwc/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/dennwc"
+    },
+    "html_url": "https://github.com/cayleygraph/cayley/commit/3cc82445e1eaae0d63790b591fc10c2cd7fda939",
+    "node_id": "MDY6Q29tbWl0MjA1MzcxMDQ6M2NjODI0NDVlMWVhYWUwZDYzNzkwYjU5MWZjMTBjMmNkN2ZkYTkzOQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cayleygraph/cayley/commit/a6178e768ec698d2be1cacbd0bd634fdf303de70",
+        "sha": "a6178e768ec698d2be1cacbd0bd634fdf303de70",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/commits/a6178e768ec698d2be1cacbd0bd634fdf303de70"
+      }
+    ],
+    "sha": "3cc82445e1eaae0d63790b591fc10c2cd7fda939",
+    "url": "https://api.github.com/repos/cayleygraph/cayley/commits/3cc82445e1eaae0d63790b591fc10c2cd7fda939"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/676724?v=4",
+      "events_url": "https://api.github.com/users/dennwc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/dennwc/followers",
+      "following_url": "https://api.github.com/users/dennwc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dennwc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/dennwc",
+      "id": 676724,
+      "login": "dennwc",
+      "node_id": "MDQ6VXNlcjY3NjcyNA==",
+      "organizations_url": "https://api.github.com/users/dennwc/orgs",
+      "received_events_url": "https://api.github.com/users/dennwc/received_events",
+      "repos_url": "https://api.github.com/users/dennwc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/dennwc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dennwc/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/dennwc"
+    },
+    "comments_url": "https://api.github.com/repos/cayleygraph/cayley/commits/a6178e768ec698d2be1cacbd0bd634fdf303de70/comments",
+    "commit": {
+      "author": {
+        "date": "2019-12-30T09:59:38Z",
+        "email": "denis.smirnov.91@gmail.com",
+        "name": "Denys Smirnov"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-12-30T10:39:49Z",
+        "email": "denis.smirnov.91@gmail.com",
+        "name": "Denys Smirnov"
+      },
+      "message": "linkedql: add FIXME comments due to ignored collation",
+      "tree": {
+        "sha": "183e1cadc00d9907c8e222d610c95fdb0e15612c",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/git/trees/183e1cadc00d9907c8e222d610c95fdb0e15612c"
+      },
+      "url": "https://api.github.com/repos/cayleygraph/cayley/git/commits/a6178e768ec698d2be1cacbd0bd634fdf303de70",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/676724?v=4",
+      "events_url": "https://api.github.com/users/dennwc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/dennwc/followers",
+      "following_url": "https://api.github.com/users/dennwc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dennwc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/dennwc",
+      "id": 676724,
+      "login": "dennwc",
+      "node_id": "MDQ6VXNlcjY3NjcyNA==",
+      "organizations_url": "https://api.github.com/users/dennwc/orgs",
+      "received_events_url": "https://api.github.com/users/dennwc/received_events",
+      "repos_url": "https://api.github.com/users/dennwc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/dennwc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dennwc/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/dennwc"
+    },
+    "html_url": "https://github.com/cayleygraph/cayley/commit/a6178e768ec698d2be1cacbd0bd634fdf303de70",
+    "node_id": "MDY6Q29tbWl0MjA1MzcxMDQ6YTYxNzhlNzY4ZWM2OThkMmJlMWNhY2JkMGJkNjM0ZmRmMzAzZGU3MA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cayleygraph/cayley/commit/491aa37e409f116a956be14caec587ca28782b4d",
+        "sha": "491aa37e409f116a956be14caec587ca28782b4d",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/commits/491aa37e409f116a956be14caec587ca28782b4d"
+      }
+    ],
+    "sha": "a6178e768ec698d2be1cacbd0bd634fdf303de70",
+    "url": "https://api.github.com/repos/cayleygraph/cayley/commits/a6178e768ec698d2be1cacbd0bd634fdf303de70"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/676724?v=4",
+      "events_url": "https://api.github.com/users/dennwc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/dennwc/followers",
+      "following_url": "https://api.github.com/users/dennwc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dennwc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/dennwc",
+      "id": 676724,
+      "login": "dennwc",
+      "node_id": "MDQ6VXNlcjY3NjcyNA==",
+      "organizations_url": "https://api.github.com/users/dennwc/orgs",
+      "received_events_url": "https://api.github.com/users/dennwc/received_events",
+      "repos_url": "https://api.github.com/users/dennwc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/dennwc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dennwc/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/dennwc"
+    },
+    "comments_url": "https://api.github.com/repos/cayleygraph/cayley/commits/491aa37e409f116a956be14caec587ca28782b4d/comments",
+    "commit": {
+      "author": {
+        "date": "2019-12-30T09:43:22Z",
+        "email": "denis.smirnov.91@gmail.com",
+        "name": "Denys Smirnov"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-12-30T10:39:49Z",
+        "email": "denis.smirnov.91@gmail.com",
+        "name": "Denys Smirnov"
+      },
+      "message": "linkedql: use voc package more",
+      "tree": {
+        "sha": "173d514b0521f662bf2601c775617dd54950638c",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/git/trees/173d514b0521f662bf2601c775617dd54950638c"
+      },
+      "url": "https://api.github.com/repos/cayleygraph/cayley/git/commits/491aa37e409f116a956be14caec587ca28782b4d",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/676724?v=4",
+      "events_url": "https://api.github.com/users/dennwc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/dennwc/followers",
+      "following_url": "https://api.github.com/users/dennwc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dennwc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/dennwc",
+      "id": 676724,
+      "login": "dennwc",
+      "node_id": "MDQ6VXNlcjY3NjcyNA==",
+      "organizations_url": "https://api.github.com/users/dennwc/orgs",
+      "received_events_url": "https://api.github.com/users/dennwc/received_events",
+      "repos_url": "https://api.github.com/users/dennwc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/dennwc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dennwc/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/dennwc"
+    },
+    "html_url": "https://github.com/cayleygraph/cayley/commit/491aa37e409f116a956be14caec587ca28782b4d",
+    "node_id": "MDY6Q29tbWl0MjA1MzcxMDQ6NDkxYWEzN2U0MDlmMTE2YTk1NmJlMTRjYWVjNTg3Y2EyODc4MmI0ZA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cayleygraph/cayley/commit/675c7c48c4b277fefd5d4fa9869843ea893e95f1",
+        "sha": "675c7c48c4b277fefd5d4fa9869843ea893e95f1",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/commits/675c7c48c4b277fefd5d4fa9869843ea893e95f1"
+      }
+    ],
+    "sha": "491aa37e409f116a956be14caec587ca28782b4d",
+    "url": "https://api.github.com/repos/cayleygraph/cayley/commits/491aa37e409f116a956be14caec587ca28782b4d"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/12671072?v=4",
+      "events_url": "https://api.github.com/users/iddan/events{/privacy}",
+      "followers_url": "https://api.github.com/users/iddan/followers",
+      "following_url": "https://api.github.com/users/iddan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iddan/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/iddan",
+      "id": 12671072,
+      "login": "iddan",
+      "node_id": "MDQ6VXNlcjEyNjcxMDcy",
+      "organizations_url": "https://api.github.com/users/iddan/orgs",
+      "received_events_url": "https://api.github.com/users/iddan/received_events",
+      "repos_url": "https://api.github.com/users/iddan/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/iddan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iddan/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/iddan"
+    },
+    "comments_url": "https://api.github.com/repos/cayleygraph/cayley/commits/675c7c48c4b277fefd5d4fa9869843ea893e95f1/comments",
+    "commit": {
+      "author": {
+        "date": "2019-12-27T12:38:30Z",
+        "email": "mail@aniddan.com",
+        "name": "Iddan Aaronsohn"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-12-30T10:39:49Z",
+        "email": "denis.smirnov.91@gmail.com",
+        "name": "Denys Smirnov"
+      },
+      "message": "linkedql: Remove values",
+      "tree": {
+        "sha": "e89f6cf2500ad9d8e39fcde16d539d02b8c64431",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/git/trees/e89f6cf2500ad9d8e39fcde16d539d02b8c64431"
+      },
+      "url": "https://api.github.com/repos/cayleygraph/cayley/git/commits/675c7c48c4b277fefd5d4fa9869843ea893e95f1",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/676724?v=4",
+      "events_url": "https://api.github.com/users/dennwc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/dennwc/followers",
+      "following_url": "https://api.github.com/users/dennwc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dennwc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/dennwc",
+      "id": 676724,
+      "login": "dennwc",
+      "node_id": "MDQ6VXNlcjY3NjcyNA==",
+      "organizations_url": "https://api.github.com/users/dennwc/orgs",
+      "received_events_url": "https://api.github.com/users/dennwc/received_events",
+      "repos_url": "https://api.github.com/users/dennwc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/dennwc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dennwc/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/dennwc"
+    },
+    "html_url": "https://github.com/cayleygraph/cayley/commit/675c7c48c4b277fefd5d4fa9869843ea893e95f1",
+    "node_id": "MDY6Q29tbWl0MjA1MzcxMDQ6Njc1YzdjNDhjNGIyNzdmZWZkNWQ0ZmE5ODY5ODQzZWE4OTNlOTVmMQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cayleygraph/cayley/commit/bba4fce0bcb4258ae24759e3951d90e984a6f394",
+        "sha": "bba4fce0bcb4258ae24759e3951d90e984a6f394",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/commits/bba4fce0bcb4258ae24759e3951d90e984a6f394"
+      }
+    ],
+    "sha": "675c7c48c4b277fefd5d4fa9869843ea893e95f1",
+    "url": "https://api.github.com/repos/cayleygraph/cayley/commits/675c7c48c4b277fefd5d4fa9869843ea893e95f1"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/12671072?v=4",
+      "events_url": "https://api.github.com/users/iddan/events{/privacy}",
+      "followers_url": "https://api.github.com/users/iddan/followers",
+      "following_url": "https://api.github.com/users/iddan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iddan/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/iddan",
+      "id": 12671072,
+      "login": "iddan",
+      "node_id": "MDQ6VXNlcjEyNjcxMDcy",
+      "organizations_url": "https://api.github.com/users/iddan/orgs",
+      "received_events_url": "https://api.github.com/users/iddan/received_events",
+      "repos_url": "https://api.github.com/users/iddan/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/iddan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iddan/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/iddan"
+    },
+    "comments_url": "https://api.github.com/repos/cayleygraph/cayley/commits/bba4fce0bcb4258ae24759e3951d90e984a6f394/comments",
+    "commit": {
+      "author": {
+        "date": "2019-12-27T11:55:49Z",
+        "email": "mail@aniddan.com",
+        "name": "Iddan Aaronsohn"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-12-30T10:39:49Z",
+        "email": "denis.smirnov.91@gmail.com",
+        "name": "Denys Smirnov"
+      },
+      "message": "linkedql: Deserialize PropertyPath and Values correctly",
+      "tree": {
+        "sha": "7ab51e90787d405cc503d420150cc04e819f3042",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/git/trees/7ab51e90787d405cc503d420150cc04e819f3042"
+      },
+      "url": "https://api.github.com/repos/cayleygraph/cayley/git/commits/bba4fce0bcb4258ae24759e3951d90e984a6f394",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/676724?v=4",
+      "events_url": "https://api.github.com/users/dennwc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/dennwc/followers",
+      "following_url": "https://api.github.com/users/dennwc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dennwc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/dennwc",
+      "id": 676724,
+      "login": "dennwc",
+      "node_id": "MDQ6VXNlcjY3NjcyNA==",
+      "organizations_url": "https://api.github.com/users/dennwc/orgs",
+      "received_events_url": "https://api.github.com/users/dennwc/received_events",
+      "repos_url": "https://api.github.com/users/dennwc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/dennwc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dennwc/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/dennwc"
+    },
+    "html_url": "https://github.com/cayleygraph/cayley/commit/bba4fce0bcb4258ae24759e3951d90e984a6f394",
+    "node_id": "MDY6Q29tbWl0MjA1MzcxMDQ6YmJhNGZjZTBiY2I0MjU4YWUyNDc1OWUzOTUxZDkwZTk4NGE2ZjM5NA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cayleygraph/cayley/commit/33f5eef752569689d0115beda374dc83a8bc33d0",
+        "sha": "33f5eef752569689d0115beda374dc83a8bc33d0",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/commits/33f5eef752569689d0115beda374dc83a8bc33d0"
+      }
+    ],
+    "sha": "bba4fce0bcb4258ae24759e3951d90e984a6f394",
+    "url": "https://api.github.com/repos/cayleygraph/cayley/commits/bba4fce0bcb4258ae24759e3951d90e984a6f394"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/12671072?v=4",
+      "events_url": "https://api.github.com/users/iddan/events{/privacy}",
+      "followers_url": "https://api.github.com/users/iddan/followers",
+      "following_url": "https://api.github.com/users/iddan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iddan/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/iddan",
+      "id": 12671072,
+      "login": "iddan",
+      "node_id": "MDQ6VXNlcjEyNjcxMDcy",
+      "organizations_url": "https://api.github.com/users/iddan/orgs",
+      "received_events_url": "https://api.github.com/users/iddan/received_events",
+      "repos_url": "https://api.github.com/users/iddan/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/iddan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iddan/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/iddan"
+    },
+    "comments_url": "https://api.github.com/repos/cayleygraph/cayley/commits/33f5eef752569689d0115beda374dc83a8bc33d0/comments",
+    "commit": {
+      "author": {
+        "date": "2019-12-21T16:55:45Z",
+        "email": "mail@aniddan.com",
+        "name": "Iddan Aaronsohn"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-12-30T10:39:49Z",
+        "email": "denis.smirnov.91@gmail.com",
+        "name": "Denys Smirnov"
+      },
+      "message": "linkedql: Register documents",
+      "tree": {
+        "sha": "88970b232b165c2158e870971d9b6f902c3d6918",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/git/trees/88970b232b165c2158e870971d9b6f902c3d6918"
+      },
+      "url": "https://api.github.com/repos/cayleygraph/cayley/git/commits/33f5eef752569689d0115beda374dc83a8bc33d0",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/676724?v=4",
+      "events_url": "https://api.github.com/users/dennwc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/dennwc/followers",
+      "following_url": "https://api.github.com/users/dennwc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dennwc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/dennwc",
+      "id": 676724,
+      "login": "dennwc",
+      "node_id": "MDQ6VXNlcjY3NjcyNA==",
+      "organizations_url": "https://api.github.com/users/dennwc/orgs",
+      "received_events_url": "https://api.github.com/users/dennwc/received_events",
+      "repos_url": "https://api.github.com/users/dennwc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/dennwc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dennwc/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/dennwc"
+    },
+    "html_url": "https://github.com/cayleygraph/cayley/commit/33f5eef752569689d0115beda374dc83a8bc33d0",
+    "node_id": "MDY6Q29tbWl0MjA1MzcxMDQ6MzNmNWVlZjc1MjU2OTY4OWQwMTE1YmVkYTM3NGRjODNhOGJjMzNkMA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cayleygraph/cayley/commit/4d1acffcb69a7063c89346e32d856ded46cab46c",
+        "sha": "4d1acffcb69a7063c89346e32d856ded46cab46c",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/commits/4d1acffcb69a7063c89346e32d856ded46cab46c"
+      }
+    ],
+    "sha": "33f5eef752569689d0115beda374dc83a8bc33d0",
+    "url": "https://api.github.com/repos/cayleygraph/cayley/commits/33f5eef752569689d0115beda374dc83a8bc33d0"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/12671072?v=4",
+      "events_url": "https://api.github.com/users/iddan/events{/privacy}",
+      "followers_url": "https://api.github.com/users/iddan/followers",
+      "following_url": "https://api.github.com/users/iddan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iddan/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/iddan",
+      "id": 12671072,
+      "login": "iddan",
+      "node_id": "MDQ6VXNlcjEyNjcxMDcy",
+      "organizations_url": "https://api.github.com/users/iddan/orgs",
+      "received_events_url": "https://api.github.com/users/iddan/received_events",
+      "repos_url": "https://api.github.com/users/iddan/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/iddan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iddan/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/iddan"
+    },
+    "comments_url": "https://api.github.com/repos/cayleygraph/cayley/commits/4d1acffcb69a7063c89346e32d856ded46cab46c/comments",
+    "commit": {
+      "author": {
+        "date": "2019-12-21T16:37:31Z",
+        "email": "mail@aniddan.com",
+        "name": "Iddan Aaronsohn"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-12-30T10:39:49Z",
+        "email": "denis.smirnov.91@gmail.com",
+        "name": "Denys Smirnov"
+      },
+      "message": "linkedql: Implement Documents for all steps",
+      "tree": {
+        "sha": "9dab097ff8995185fe117a2a7c48780c2f91f00f",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/git/trees/9dab097ff8995185fe117a2a7c48780c2f91f00f"
+      },
+      "url": "https://api.github.com/repos/cayleygraph/cayley/git/commits/4d1acffcb69a7063c89346e32d856ded46cab46c",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/676724?v=4",
+      "events_url": "https://api.github.com/users/dennwc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/dennwc/followers",
+      "following_url": "https://api.github.com/users/dennwc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dennwc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/dennwc",
+      "id": 676724,
+      "login": "dennwc",
+      "node_id": "MDQ6VXNlcjY3NjcyNA==",
+      "organizations_url": "https://api.github.com/users/dennwc/orgs",
+      "received_events_url": "https://api.github.com/users/dennwc/received_events",
+      "repos_url": "https://api.github.com/users/dennwc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/dennwc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dennwc/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/dennwc"
+    },
+    "html_url": "https://github.com/cayleygraph/cayley/commit/4d1acffcb69a7063c89346e32d856ded46cab46c",
+    "node_id": "MDY6Q29tbWl0MjA1MzcxMDQ6NGQxYWNmZmNiNjlhNzA2M2M4OTM0NmUzMmQ4NTZkZWQ0NmNhYjQ2Yw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cayleygraph/cayley/commit/f4c6956e3629212c7a82b34a6a3d05ddf42524a1",
+        "sha": "f4c6956e3629212c7a82b34a6a3d05ddf42524a1",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/commits/f4c6956e3629212c7a82b34a6a3d05ddf42524a1"
+      }
+    ],
+    "sha": "4d1acffcb69a7063c89346e32d856ded46cab46c",
+    "url": "https://api.github.com/repos/cayleygraph/cayley/commits/4d1acffcb69a7063c89346e32d856ded46cab46c"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/12671072?v=4",
+      "events_url": "https://api.github.com/users/iddan/events{/privacy}",
+      "followers_url": "https://api.github.com/users/iddan/followers",
+      "following_url": "https://api.github.com/users/iddan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iddan/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/iddan",
+      "id": 12671072,
+      "login": "iddan",
+      "node_id": "MDQ6VXNlcjEyNjcxMDcy",
+      "organizations_url": "https://api.github.com/users/iddan/orgs",
+      "received_events_url": "https://api.github.com/users/iddan/received_events",
+      "repos_url": "https://api.github.com/users/iddan/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/iddan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iddan/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/iddan"
+    },
+    "comments_url": "https://api.github.com/repos/cayleygraph/cayley/commits/f4c6956e3629212c7a82b34a6a3d05ddf42524a1/comments",
+    "commit": {
+      "author": {
+        "date": "2019-12-21T16:25:31Z",
+        "email": "mail@aniddan.com",
+        "name": "Iddan Aaronsohn"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-12-30T10:39:49Z",
+        "email": "denis.smirnov.91@gmail.com",
+        "name": "Denys Smirnov"
+      },
+      "message": "linkedql: Correctly return JSON-LD",
+      "tree": {
+        "sha": "5cf81f3b30aad6f38e78e995e7a7e02baf73f405",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/git/trees/5cf81f3b30aad6f38e78e995e7a7e02baf73f405"
+      },
+      "url": "https://api.github.com/repos/cayleygraph/cayley/git/commits/f4c6956e3629212c7a82b34a6a3d05ddf42524a1",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/676724?v=4",
+      "events_url": "https://api.github.com/users/dennwc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/dennwc/followers",
+      "following_url": "https://api.github.com/users/dennwc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dennwc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/dennwc",
+      "id": 676724,
+      "login": "dennwc",
+      "node_id": "MDQ6VXNlcjY3NjcyNA==",
+      "organizations_url": "https://api.github.com/users/dennwc/orgs",
+      "received_events_url": "https://api.github.com/users/dennwc/received_events",
+      "repos_url": "https://api.github.com/users/dennwc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/dennwc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dennwc/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/dennwc"
+    },
+    "html_url": "https://github.com/cayleygraph/cayley/commit/f4c6956e3629212c7a82b34a6a3d05ddf42524a1",
+    "node_id": "MDY6Q29tbWl0MjA1MzcxMDQ6ZjRjNjk1NmUzNjI5MjEyYzdhODJiMzRhNmEzZDA1ZGRmNDI1MjRhMQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cayleygraph/cayley/commit/6d89145468795a5f99b99efb0c0b76d948b57d7d",
+        "sha": "6d89145468795a5f99b99efb0c0b76d948b57d7d",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/commits/6d89145468795a5f99b99efb0c0b76d948b57d7d"
+      }
+    ],
+    "sha": "f4c6956e3629212c7a82b34a6a3d05ddf42524a1",
+    "url": "https://api.github.com/repos/cayleygraph/cayley/commits/f4c6956e3629212c7a82b34a6a3d05ddf42524a1"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/12671072?v=4",
+      "events_url": "https://api.github.com/users/iddan/events{/privacy}",
+      "followers_url": "https://api.github.com/users/iddan/followers",
+      "following_url": "https://api.github.com/users/iddan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iddan/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/iddan",
+      "id": 12671072,
+      "login": "iddan",
+      "node_id": "MDQ6VXNlcjEyNjcxMDcy",
+      "organizations_url": "https://api.github.com/users/iddan/orgs",
+      "received_events_url": "https://api.github.com/users/iddan/received_events",
+      "repos_url": "https://api.github.com/users/iddan/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/iddan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iddan/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/iddan"
+    },
+    "comments_url": "https://api.github.com/repos/cayleygraph/cayley/commits/6d89145468795a5f99b99efb0c0b76d948b57d7d/comments",
+    "commit": {
+      "author": {
+        "date": "2019-12-21T14:51:27Z",
+        "email": "mail@aniddan.com",
+        "name": "Iddan Aaronsohn"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-12-30T10:39:49Z",
+        "email": "denis.smirnov.91@gmail.com",
+        "name": "Denys Smirnov"
+      },
+      "message": "linkedql: Refactor iterators to share more code",
+      "tree": {
+        "sha": "6d5f56300cd60b86b0b710eeca7b92c29a0727aa",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/git/trees/6d5f56300cd60b86b0b710eeca7b92c29a0727aa"
+      },
+      "url": "https://api.github.com/repos/cayleygraph/cayley/git/commits/6d89145468795a5f99b99efb0c0b76d948b57d7d",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/676724?v=4",
+      "events_url": "https://api.github.com/users/dennwc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/dennwc/followers",
+      "following_url": "https://api.github.com/users/dennwc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dennwc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/dennwc",
+      "id": 676724,
+      "login": "dennwc",
+      "node_id": "MDQ6VXNlcjY3NjcyNA==",
+      "organizations_url": "https://api.github.com/users/dennwc/orgs",
+      "received_events_url": "https://api.github.com/users/dennwc/received_events",
+      "repos_url": "https://api.github.com/users/dennwc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/dennwc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dennwc/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/dennwc"
+    },
+    "html_url": "https://github.com/cayleygraph/cayley/commit/6d89145468795a5f99b99efb0c0b76d948b57d7d",
+    "node_id": "MDY6Q29tbWl0MjA1MzcxMDQ6NmQ4OTE0NTQ2ODc5NWE1Zjk5Yjk5ZWZiMGMwYjc2ZDk0OGI1N2Q3ZA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cayleygraph/cayley/commit/6d37ffd41c8b86af82f06e7a95d5c1161f6f26a8",
+        "sha": "6d37ffd41c8b86af82f06e7a95d5c1161f6f26a8",
+        "url": "https://api.github.com/repos/cayleygraph/cayley/commits/6d37ffd41c8b86af82f06e7a95d5c1161f6f26a8"
+      }
+    ],
+    "sha": "6d89145468795a5f99b99efb0c0b76d948b57d7d",
+    "url": "https://api.github.com/repos/cayleygraph/cayley/commits/6d89145468795a5f99b99efb0c0b76d948b57d7d"
+  }
+]

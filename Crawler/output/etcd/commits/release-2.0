@@ -1,0 +1,2382 @@
+[
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/176222a2f48a11f65e132d454b42fa97ee6218fe/comments",
+    "commit": {
+      "author": {
+        "date": "2015-06-25T21:10:43Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-06-25T21:10:43Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "message": "*: bump to v2.0.13+git",
+      "tree": {
+        "sha": "b968cadf625b5d49fbb42772d6f9ce347f557d91",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/b968cadf625b5d49fbb42772d6f9ce347f557d91"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/176222a2f48a11f65e132d454b42fa97ee6218fe",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/176222a2f48a11f65e132d454b42fa97ee6218fe",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6MTc2MjIyYTJmNDhhMTFmNjVlMTMyZDQ1NGI0MmZhOTdlZTYyMThmZQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/92e3895214265d213de5b1ff55cddf482f0d1ed5",
+        "sha": "92e3895214265d213de5b1ff55cddf482f0d1ed5",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/92e3895214265d213de5b1ff55cddf482f0d1ed5"
+      }
+    ],
+    "sha": "176222a2f48a11f65e132d454b42fa97ee6218fe",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/176222a2f48a11f65e132d454b42fa97ee6218fe"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/92e3895214265d213de5b1ff55cddf482f0d1ed5/comments",
+    "commit": {
+      "author": {
+        "date": "2015-06-25T21:10:15Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-06-25T21:10:15Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "message": "*: bump to v2.0.13",
+      "tree": {
+        "sha": "10358c0ef274bb64dcbe4870cce63ce955b1d513",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/10358c0ef274bb64dcbe4870cce63ce955b1d513"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/92e3895214265d213de5b1ff55cddf482f0d1ed5",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/92e3895214265d213de5b1ff55cddf482f0d1ed5",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6OTJlMzg5NTIxNDI2NWQyMTNkZTViMWZmNTVjZGRmNDgyZjBkMWVkNQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/b12a52b0fd8a99639cf2de80e84106b44a561911",
+        "sha": "b12a52b0fd8a99639cf2de80e84106b44a561911",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/b12a52b0fd8a99639cf2de80e84106b44a561911"
+      }
+    ],
+    "sha": "92e3895214265d213de5b1ff55cddf482f0d1ed5",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/92e3895214265d213de5b1ff55cddf482f0d1ed5"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/b12a52b0fd8a99639cf2de80e84106b44a561911/comments",
+    "commit": {
+      "author": {
+        "date": "2015-06-22T18:57:20Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-06-25T21:07:45Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "message": "etcdmain: fix the check in fallback-to-proxy case\n\nadvertise-client-urls has to be set if listen-client-urls is set when\nfallbacking to proxy, which breaks the behavior. Loosen the check to fix\nit.",
+      "tree": {
+        "sha": "2bb2c74dd8dd03a3be14b4c06882b957845336ba",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/2bb2c74dd8dd03a3be14b4c06882b957845336ba"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/b12a52b0fd8a99639cf2de80e84106b44a561911",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/b12a52b0fd8a99639cf2de80e84106b44a561911",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6YjEyYTUyYjBmZDhhOTk2MzljZjJkZTgwZTg0MTA2YjQ0YTU2MTkxMQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/9fa400278769681ecc9dcab9f01d62c836bbf7d8",
+        "sha": "9fa400278769681ecc9dcab9f01d62c836bbf7d8",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/9fa400278769681ecc9dcab9f01d62c836bbf7d8"
+      }
+    ],
+    "sha": "b12a52b0fd8a99639cf2de80e84106b44a561911",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/b12a52b0fd8a99639cf2de80e84106b44a561911"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/9fa400278769681ecc9dcab9f01d62c836bbf7d8/comments",
+    "commit": {
+      "author": {
+        "date": "2015-06-16T21:20:04Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-06-16T21:20:25Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "message": "*: bump to v2.0.12+git",
+      "tree": {
+        "sha": "f319cb8fec8ee6bab7a90f583fdf5a747fe9db8c",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/f319cb8fec8ee6bab7a90f583fdf5a747fe9db8c"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/9fa400278769681ecc9dcab9f01d62c836bbf7d8",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/9fa400278769681ecc9dcab9f01d62c836bbf7d8",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6OWZhNDAwMjc4NzY5NjgxZWNjOWRjYWI5ZjAxZDYyYzgzNmJiZjdkOA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/5686c33e4b27e905a15ecbe8702dcfc3c270ca76",
+        "sha": "5686c33e4b27e905a15ecbe8702dcfc3c270ca76",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/5686c33e4b27e905a15ecbe8702dcfc3c270ca76"
+      }
+    ],
+    "sha": "9fa400278769681ecc9dcab9f01d62c836bbf7d8",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/9fa400278769681ecc9dcab9f01d62c836bbf7d8"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/5686c33e4b27e905a15ecbe8702dcfc3c270ca76/comments",
+    "commit": {
+      "author": {
+        "date": "2015-06-16T21:19:37Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-06-16T21:19:37Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "message": "*: bump to v2.0.12",
+      "tree": {
+        "sha": "d709035af7cd574702f9691011fd18cf8020859d",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/d709035af7cd574702f9691011fd18cf8020859d"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/5686c33e4b27e905a15ecbe8702dcfc3c270ca76",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/5686c33e4b27e905a15ecbe8702dcfc3c270ca76",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6NTY4NmMzM2U0YjI3ZTkwNWExNWVjYmU4NzAyZGNmYzNjMjcwY2E3Ng==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/6fd2dfdebcca8dbe66ed2b86b6893a991d4bce08",
+        "sha": "6fd2dfdebcca8dbe66ed2b86b6893a991d4bce08",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/6fd2dfdebcca8dbe66ed2b86b6893a991d4bce08"
+      }
+    ],
+    "sha": "5686c33e4b27e905a15ecbe8702dcfc3c270ca76",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/5686c33e4b27e905a15ecbe8702dcfc3c270ca76"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/6fd2dfdebcca8dbe66ed2b86b6893a991d4bce08/comments",
+    "commit": {
+      "author": {
+        "date": "2015-06-10T22:06:49Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-06-16T21:18:01Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "message": "etcdmain: fix that advertise-client-urls is required in proxy mode\n\netcd proxy doesn't need to set advertise-client-urls because the flag is\nnot used.",
+      "tree": {
+        "sha": "4be79ae574bc148d8cba92dd21f7439e99d80ce3",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/4be79ae574bc148d8cba92dd21f7439e99d80ce3"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/6fd2dfdebcca8dbe66ed2b86b6893a991d4bce08",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/6fd2dfdebcca8dbe66ed2b86b6893a991d4bce08",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6NmZkMmRmZGViY2NhOGRiZTY2ZWQyYjg2YjY4OTNhOTkxZDRiY2UwOA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/896ce1668c8b30b94262665c96d38f85859eecce",
+        "sha": "896ce1668c8b30b94262665c96d38f85859eecce",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/896ce1668c8b30b94262665c96d38f85859eecce"
+      }
+    ],
+    "sha": "6fd2dfdebcca8dbe66ed2b86b6893a991d4bce08",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/6fd2dfdebcca8dbe66ed2b86b6893a991d4bce08"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/223760?v=4",
+      "events_url": "https://api.github.com/users/luan/events{/privacy}",
+      "followers_url": "https://api.github.com/users/luan/followers",
+      "following_url": "https://api.github.com/users/luan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/luan/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/luan",
+      "id": 223760,
+      "login": "luan",
+      "node_id": "MDQ6VXNlcjIyMzc2MA==",
+      "organizations_url": "https://api.github.com/users/luan/orgs",
+      "received_events_url": "https://api.github.com/users/luan/received_events",
+      "repos_url": "https://api.github.com/users/luan/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/luan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/luan/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/luan"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/896ce1668c8b30b94262665c96d38f85859eecce/comments",
+    "commit": {
+      "author": {
+        "date": "2015-06-05T00:07:28Z",
+        "email": "lsantos@pivotal.io",
+        "name": "Connor and Luan Santos"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-06-16T21:15:48Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "message": "build: default git sha to GitNotFound in case git fails",
+      "tree": {
+        "sha": "12e1984c0b69b1428acdb655521563c4351a7fd4",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/12e1984c0b69b1428acdb655521563c4351a7fd4"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/896ce1668c8b30b94262665c96d38f85859eecce",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/896ce1668c8b30b94262665c96d38f85859eecce",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6ODk2Y2UxNjY4YzhiMzBiOTQyNjI2NjVjOTZkMzhmODU4NTllZWNjZQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/0520b4cd249a6b5f215d66a252f398be58f0f1b6",
+        "sha": "0520b4cd249a6b5f215d66a252f398be58f0f1b6",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/0520b4cd249a6b5f215d66a252f398be58f0f1b6"
+      }
+    ],
+    "sha": "896ce1668c8b30b94262665c96d38f85859eecce",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/896ce1668c8b30b94262665c96d38f85859eecce"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/465340?v=4",
+      "events_url": "https://api.github.com/users/BlueDragonX/events{/privacy}",
+      "followers_url": "https://api.github.com/users/BlueDragonX/followers",
+      "following_url": "https://api.github.com/users/BlueDragonX/following{/other_user}",
+      "gists_url": "https://api.github.com/users/BlueDragonX/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/BlueDragonX",
+      "id": 465340,
+      "login": "BlueDragonX",
+      "node_id": "MDQ6VXNlcjQ2NTM0MA==",
+      "organizations_url": "https://api.github.com/users/BlueDragonX/orgs",
+      "received_events_url": "https://api.github.com/users/BlueDragonX/received_events",
+      "repos_url": "https://api.github.com/users/BlueDragonX/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/BlueDragonX/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/BlueDragonX/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/BlueDragonX"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/0520b4cd249a6b5f215d66a252f398be58f0f1b6/comments",
+    "commit": {
+      "author": {
+        "date": "2015-06-01T18:45:23Z",
+        "email": "bluedragonx@gmail.com",
+        "name": "Ryan Bourgeois"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-06-16T21:13:15Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "message": "proxy: Reuse a bytes buffer as proxy request body.\n\nThe call to transport.RoundTrip closes the request body regardless of\nthe value of request.Closed. This causes subsequent calls to RoundTrip\nusing the same request body to fail.\n\nFixes #2895",
+      "tree": {
+        "sha": "c5380a030e8db38e6720a7c38a9adce8c56e3448",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/c5380a030e8db38e6720a7c38a9adce8c56e3448"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/0520b4cd249a6b5f215d66a252f398be58f0f1b6",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/0520b4cd249a6b5f215d66a252f398be58f0f1b6",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6MDUyMGI0Y2QyNDlhNmI1ZjIxNWQ2NmEyNTJmMzk4YmU1OGYwZjFiNg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/6ee6f72c48e51053f493e6ff974a5f495635b400",
+        "sha": "6ee6f72c48e51053f493e6ff974a5f495635b400",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/6ee6f72c48e51053f493e6ff974a5f495635b400"
+      }
+    ],
+    "sha": "0520b4cd249a6b5f215d66a252f398be58f0f1b6",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/0520b4cd249a6b5f215d66a252f398be58f0f1b6"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/6ee6f72c48e51053f493e6ff974a5f495635b400/comments",
+    "commit": {
+      "author": {
+        "date": "2015-06-01T23:10:44Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-06-16T21:10:58Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "message": "etcdmain: increase maxIdleConnsPerHost in proxy transport\n\nThis PR set maxIdleConnsPerHost to 128 to let proxy handle 128 concurrent\nrequests in long term smoothly.\nIf the number of concurrent requests is bigger than this value,\nproxy needs to create one new connection when handling each request in\nthe delta, which is bad because the creation consumes resource and may\neat up your ephemeral port.",
+      "tree": {
+        "sha": "87e351215ee51cd2429b5e625dc0a78cfa092a76",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/87e351215ee51cd2429b5e625dc0a78cfa092a76"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/6ee6f72c48e51053f493e6ff974a5f495635b400",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/6ee6f72c48e51053f493e6ff974a5f495635b400",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6NmVlNmY3MmM0OGU1MTA1M2Y0OTNlNmZmOTc0YTVmNDk1NjM1YjQwMA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/b4dd519a636e02c94a0a418ddccd7380bcd3644c",
+        "sha": "b4dd519a636e02c94a0a418ddccd7380bcd3644c",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/b4dd519a636e02c94a0a418ddccd7380bcd3644c"
+      }
+    ],
+    "sha": "6ee6f72c48e51053f493e6ff974a5f495635b400",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/6ee6f72c48e51053f493e6ff974a5f495635b400"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4479947?v=4",
+      "events_url": "https://api.github.com/users/xiang90/events{/privacy}",
+      "followers_url": "https://api.github.com/users/xiang90/followers",
+      "following_url": "https://api.github.com/users/xiang90/following{/other_user}",
+      "gists_url": "https://api.github.com/users/xiang90/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/xiang90",
+      "id": 4479947,
+      "login": "xiang90",
+      "node_id": "MDQ6VXNlcjQ0Nzk5NDc=",
+      "organizations_url": "https://api.github.com/users/xiang90/orgs",
+      "received_events_url": "https://api.github.com/users/xiang90/received_events",
+      "repos_url": "https://api.github.com/users/xiang90/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/xiang90/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/xiang90/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/xiang90"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/b4dd519a636e02c94a0a418ddccd7380bcd3644c/comments",
+    "commit": {
+      "author": {
+        "date": "2015-05-27T20:30:08Z",
+        "email": "xiangli.cs@gmail.com",
+        "name": "Xiang Li"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-06-16T21:10:41Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "message": "raft: fix raft node start bug\n\nraft node should set initial prev hard state to empty.\nOr it will not send the first hard coded state to application\nuntil the state changes again.\n\nThis commit fixs the issue. It introduce a small overhead, that\nthe same tate might send to application twice when restarting.\nBut this is fine.",
+      "tree": {
+        "sha": "bf7c9873965ad60d4cf9e1f81466119816850751",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/bf7c9873965ad60d4cf9e1f81466119816850751"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/b4dd519a636e02c94a0a418ddccd7380bcd3644c",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/b4dd519a636e02c94a0a418ddccd7380bcd3644c",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6YjRkZDUxOWE2MzZlMDJjOTRhMGE0MThkZGNjZDczODBiY2QzNjQ0Yw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/a98fff84e74d389ebf09d2029a1aa74d4bbe71e8",
+        "sha": "a98fff84e74d389ebf09d2029a1aa74d4bbe71e8",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/a98fff84e74d389ebf09d2029a1aa74d4bbe71e8"
+      }
+    ],
+    "sha": "b4dd519a636e02c94a0a418ddccd7380bcd3644c",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/b4dd519a636e02c94a0a418ddccd7380bcd3644c"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/a98fff84e74d389ebf09d2029a1aa74d4bbe71e8/comments",
+    "commit": {
+      "author": {
+        "date": "2015-05-14T00:33:12Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-06-16T21:07:45Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "message": "etcdctl/cluster_health: improve output if failed to get leader stats\n\nWhen failing to get leader stats, it said 'cluster is unhealthy' before.\nThis is confusing when it cannot get stats because advertised client urls\nare set wrong and the cluster is healthy.",
+      "tree": {
+        "sha": "e0ecef130ee5c6eb2338124ae1cfcdc93c27b912",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/e0ecef130ee5c6eb2338124ae1cfcdc93c27b912"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/a98fff84e74d389ebf09d2029a1aa74d4bbe71e8",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/a98fff84e74d389ebf09d2029a1aa74d4bbe71e8",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6YTk4ZmZmODRlNzRkMzg5ZWJmMDlkMjAyOWExYWE3NGQ0YmJlNzFlOA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/973cfbebdac9012e9b5dafa2de73014446c15c6f",
+        "sha": "973cfbebdac9012e9b5dafa2de73014446c15c6f",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/973cfbebdac9012e9b5dafa2de73014446c15c6f"
+      }
+    ],
+    "sha": "a98fff84e74d389ebf09d2029a1aa74d4bbe71e8",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/a98fff84e74d389ebf09d2029a1aa74d4bbe71e8"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/973cfbebdac9012e9b5dafa2de73014446c15c6f/comments",
+    "commit": {
+      "author": {
+        "date": "2015-02-13T06:23:10Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-06-16T21:06:18Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "message": "*: make dial timeout configurable\n\nDial timeout is set shorter because\n1. etcd is supposed to work in good environment, and the new value is long\nenough\n2. shorter dial timeout makes dial fail faster, which is good for\nperformance\n\nConflicts:\n\tetcdmain/etcd.go",
+      "tree": {
+        "sha": "0ced6ea6fa70e1bfa448146d14123bf3b279dbfe",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/0ced6ea6fa70e1bfa448146d14123bf3b279dbfe"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/973cfbebdac9012e9b5dafa2de73014446c15c6f",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/973cfbebdac9012e9b5dafa2de73014446c15c6f",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6OTczY2ZiZWJkYWM5MDEyZTliNWRhZmEyZGU3MzAxNDQ0NmMxNWM2Zg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/00d1d34cf8cd24ff50a67de908b94205bf836653",
+        "sha": "00d1d34cf8cd24ff50a67de908b94205bf836653",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/00d1d34cf8cd24ff50a67de908b94205bf836653"
+      }
+    ],
+    "sha": "973cfbebdac9012e9b5dafa2de73014446c15c6f",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/973cfbebdac9012e9b5dafa2de73014446c15c6f"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/00d1d34cf8cd24ff50a67de908b94205bf836653/comments",
+    "commit": {
+      "author": {
+        "date": "2015-05-27T20:36:38Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-05-27T20:36:38Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "message": "Merge pull request #2832 from yichengq/stream-2.1\n\nnot print unhelpful info when connecting to etcd 2.1",
+      "tree": {
+        "sha": "ef9a5d9a9862e3375faa53ed3546dde900d760dd",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/ef9a5d9a9862e3375faa53ed3546dde900d760dd"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/00d1d34cf8cd24ff50a67de908b94205bf836653",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/00d1d34cf8cd24ff50a67de908b94205bf836653",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6MDBkMWQzNGNmOGNkMjRmZjUwYTY3ZGU5MDhiOTQyMDViZjgzNjY1Mw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/fcf81fd6bfe8f30485aae5fc62a4403e51fe5109",
+        "sha": "fcf81fd6bfe8f30485aae5fc62a4403e51fe5109",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/fcf81fd6bfe8f30485aae5fc62a4403e51fe5109"
+      },
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/50742352541f7435fd6e254ade14036dffc71ae4",
+        "sha": "50742352541f7435fd6e254ade14036dffc71ae4",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/50742352541f7435fd6e254ade14036dffc71ae4"
+      }
+    ],
+    "sha": "00d1d34cf8cd24ff50a67de908b94205bf836653",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/00d1d34cf8cd24ff50a67de908b94205bf836653"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/fcf81fd6bfe8f30485aae5fc62a4403e51fe5109/comments",
+    "commit": {
+      "author": {
+        "date": "2015-05-15T20:55:13Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-05-15T20:55:13Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "message": "*: bump to v2.0.11+git",
+      "tree": {
+        "sha": "2bd6561a9f94f9d080d76b79e2e9ffcd25348ed7",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/2bd6561a9f94f9d080d76b79e2e9ffcd25348ed7"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/fcf81fd6bfe8f30485aae5fc62a4403e51fe5109",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/fcf81fd6bfe8f30485aae5fc62a4403e51fe5109",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6ZmNmODFmZDZiZmU4ZjMwNDg1YWFlNWZjNjJhNDQwM2U1MWZlNTEwOQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/0678329cd64a64d7478eae6c35ed0bea0346da86",
+        "sha": "0678329cd64a64d7478eae6c35ed0bea0346da86",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/0678329cd64a64d7478eae6c35ed0bea0346da86"
+      }
+    ],
+    "sha": "fcf81fd6bfe8f30485aae5fc62a4403e51fe5109",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/fcf81fd6bfe8f30485aae5fc62a4403e51fe5109"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/0678329cd64a64d7478eae6c35ed0bea0346da86/comments",
+    "commit": {
+      "author": {
+        "date": "2015-05-15T20:54:32Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-05-15T20:54:32Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "message": "*: bump to v2.0.11",
+      "tree": {
+        "sha": "f28c30273865896734d6452ba9047d78e2ae032f",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/f28c30273865896734d6452ba9047d78e2ae032f"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/0678329cd64a64d7478eae6c35ed0bea0346da86",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/0678329cd64a64d7478eae6c35ed0bea0346da86",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6MDY3ODMyOWNkNjRhNjRkNzQ3OGVhZTZjMzVlZDBiZWEwMzQ2ZGE4Ng==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/9a0e0c2eaeecc6438c2f9760eebbf8b5b1b6d878",
+        "sha": "9a0e0c2eaeecc6438c2f9760eebbf8b5b1b6d878",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/9a0e0c2eaeecc6438c2f9760eebbf8b5b1b6d878"
+      }
+    ],
+    "sha": "0678329cd64a64d7478eae6c35ed0bea0346da86",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/0678329cd64a64d7478eae6c35ed0bea0346da86"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4479947?v=4",
+      "events_url": "https://api.github.com/users/xiang90/events{/privacy}",
+      "followers_url": "https://api.github.com/users/xiang90/followers",
+      "following_url": "https://api.github.com/users/xiang90/following{/other_user}",
+      "gists_url": "https://api.github.com/users/xiang90/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/xiang90",
+      "id": 4479947,
+      "login": "xiang90",
+      "node_id": "MDQ6VXNlcjQ0Nzk5NDc=",
+      "organizations_url": "https://api.github.com/users/xiang90/orgs",
+      "received_events_url": "https://api.github.com/users/xiang90/received_events",
+      "repos_url": "https://api.github.com/users/xiang90/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/xiang90/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/xiang90/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/xiang90"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/9a0e0c2eaeecc6438c2f9760eebbf8b5b1b6d878/comments",
+    "commit": {
+      "author": {
+        "date": "2015-05-11T18:00:02Z",
+        "email": "xiangli.cs@gmail.com",
+        "name": "Xiang Li"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-05-15T20:47:02Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "message": "etcdmain: better error msg when detected duplicate id in discovery\n\nConflicts:\n\tetcdmain/etcd.go",
+      "tree": {
+        "sha": "839bb53135a28fb87606d99e2a42ff8b8c7a19ea",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/839bb53135a28fb87606d99e2a42ff8b8c7a19ea"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/9a0e0c2eaeecc6438c2f9760eebbf8b5b1b6d878",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/9a0e0c2eaeecc6438c2f9760eebbf8b5b1b6d878",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6OWEwZTBjMmVhZWVjYzY0MzhjMmY5NzYwZWViYmY4YjViMWI2ZDg3OA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/3e4d57c37d2865aa71f53e568f06b049bcd5dc84",
+        "sha": "3e4d57c37d2865aa71f53e568f06b049bcd5dc84",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/3e4d57c37d2865aa71f53e568f06b049bcd5dc84"
+      }
+    ],
+    "sha": "9a0e0c2eaeecc6438c2f9760eebbf8b5b1b6d878",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/9a0e0c2eaeecc6438c2f9760eebbf8b5b1b6d878"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1487996?v=4",
+      "events_url": "https://api.github.com/users/mischief/events{/privacy}",
+      "followers_url": "https://api.github.com/users/mischief/followers",
+      "following_url": "https://api.github.com/users/mischief/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mischief/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/mischief",
+      "id": 1487996,
+      "login": "mischief",
+      "node_id": "MDQ6VXNlcjE0ODc5OTY=",
+      "organizations_url": "https://api.github.com/users/mischief/orgs",
+      "received_events_url": "https://api.github.com/users/mischief/received_events",
+      "repos_url": "https://api.github.com/users/mischief/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/mischief/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mischief/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/mischief"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/3e4d57c37d2865aa71f53e568f06b049bcd5dc84/comments",
+    "commit": {
+      "author": {
+        "date": "2015-05-11T20:24:01Z",
+        "email": "mischief@offblast.org",
+        "name": "mischief"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-05-15T20:35:51Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "message": "pkg/fileutil: add plan9 lockfile support",
+      "tree": {
+        "sha": "0a1f3046f1a7bb93fcc86e63139d9d305773ce19",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/0a1f3046f1a7bb93fcc86e63139d9d305773ce19"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/3e4d57c37d2865aa71f53e568f06b049bcd5dc84",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/3e4d57c37d2865aa71f53e568f06b049bcd5dc84",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6M2U0ZDU3YzM3ZDI4NjVhYTcxZjUzZTU2OGYwNmIwNDliY2Q1ZGM4NA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/d30e764b2d20a783a0f569d2677a125da1832936",
+        "sha": "d30e764b2d20a783a0f569d2677a125da1832936",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/d30e764b2d20a783a0f569d2677a125da1832936"
+      }
+    ],
+    "sha": "3e4d57c37d2865aa71f53e568f06b049bcd5dc84",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/3e4d57c37d2865aa71f53e568f06b049bcd5dc84"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1498908?v=4",
+      "events_url": "https://api.github.com/users/MSamman/events{/privacy}",
+      "followers_url": "https://api.github.com/users/MSamman/followers",
+      "following_url": "https://api.github.com/users/MSamman/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MSamman/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/MSamman",
+      "id": 1498908,
+      "login": "MSamman",
+      "node_id": "MDQ6VXNlcjE0OTg5MDg=",
+      "organizations_url": "https://api.github.com/users/MSamman/orgs",
+      "received_events_url": "https://api.github.com/users/MSamman/received_events",
+      "repos_url": "https://api.github.com/users/MSamman/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/MSamman/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MSamman/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/MSamman"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/d30e764b2d20a783a0f569d2677a125da1832936/comments",
+    "commit": {
+      "author": {
+        "date": "2015-05-08T23:49:12Z",
+        "email": "moesef1@gmail.com",
+        "name": "Mohammad Samman"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-05-15T19:34:33Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "message": "version: added more version information\n\nadded more version information output to aid debugging\nprint etcd Version, Git SHA, Go runtime version, OS\nand architecture\n\nFixes #2560\n\nConflicts:\n\tversion/version.go",
+      "tree": {
+        "sha": "36b452441c916c6ddf8606df8c0f8334849baad0",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/36b452441c916c6ddf8606df8c0f8334849baad0"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/d30e764b2d20a783a0f569d2677a125da1832936",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/d30e764b2d20a783a0f569d2677a125da1832936",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6ZDMwZTc2NGIyZDIwYTc4M2EwZjU2OWQyNjc3YTEyNWRhMTgzMjkzNg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/b5b7c78f1b86b656cb2fda118d75925a18714bc2",
+        "sha": "b5b7c78f1b86b656cb2fda118d75925a18714bc2",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/b5b7c78f1b86b656cb2fda118d75925a18714bc2"
+      }
+    ],
+    "sha": "d30e764b2d20a783a0f569d2677a125da1832936",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/d30e764b2d20a783a0f569d2677a125da1832936"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/b5b7c78f1b86b656cb2fda118d75925a18714bc2/comments",
+    "commit": {
+      "author": {
+        "date": "2015-04-29T21:54:03Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-05-15T19:32:58Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "message": "docs: proxy needs accessible advertise client urls\n\nUsers cannot use proxy if -advertise-client-urls is set correctly.\nEspecially mention this in the doc to help them bypass the wrong\nsettings.",
+      "tree": {
+        "sha": "0a0c9649e2edfee7961023cd0083c8c47cc4098f",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/0a0c9649e2edfee7961023cd0083c8c47cc4098f"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/b5b7c78f1b86b656cb2fda118d75925a18714bc2",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/b5b7c78f1b86b656cb2fda118d75925a18714bc2",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6YjViN2M3OGYxYjg2YjY1NmNiMmZkYTExOGQ3NTkyNWExODcxNGJjMg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/ee1c07c3d4264facabf3adea8230f91edb33f7d0",
+        "sha": "ee1c07c3d4264facabf3adea8230f91edb33f7d0",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/ee1c07c3d4264facabf3adea8230f91edb33f7d0"
+      }
+    ],
+    "sha": "b5b7c78f1b86b656cb2fda118d75925a18714bc2",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/b5b7c78f1b86b656cb2fda118d75925a18714bc2"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/29440?v=4",
+      "events_url": "https://api.github.com/users/sorah/events{/privacy}",
+      "followers_url": "https://api.github.com/users/sorah/followers",
+      "following_url": "https://api.github.com/users/sorah/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sorah/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/sorah",
+      "id": 29440,
+      "login": "sorah",
+      "node_id": "MDQ6VXNlcjI5NDQw",
+      "organizations_url": "https://api.github.com/users/sorah/orgs",
+      "received_events_url": "https://api.github.com/users/sorah/received_events",
+      "repos_url": "https://api.github.com/users/sorah/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/sorah/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sorah/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/sorah"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/ee1c07c3d4264facabf3adea8230f91edb33f7d0/comments",
+    "commit": {
+      "author": {
+        "date": "2015-04-28T20:59:02Z",
+        "email": "sorah@cookpad.com",
+        "name": "Shota Fukumori (sora_h)"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-05-15T19:32:49Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "message": "proxy: Fix connection leak when client disconnect\n\nestablished connections were leaked when client disconnected before\nproxyreq completes. This happens all time for wait=true requests.",
+      "tree": {
+        "sha": "5515145a4f0264977f1f98192af88e47b0d5be2f",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/5515145a4f0264977f1f98192af88e47b0d5be2f"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/ee1c07c3d4264facabf3adea8230f91edb33f7d0",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/ee1c07c3d4264facabf3adea8230f91edb33f7d0",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6ZWUxYzA3YzNkNDI2NGZhY2FiZjNhZGVhODIzMGY5MWVkYjMzZjdkMA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/67c5d4dfd2fa77ae1356cc164ec6bcf127cfd69b",
+        "sha": "67c5d4dfd2fa77ae1356cc164ec6bcf127cfd69b",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/67c5d4dfd2fa77ae1356cc164ec6bcf127cfd69b"
+      }
+    ],
+    "sha": "ee1c07c3d4264facabf3adea8230f91edb33f7d0",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/ee1c07c3d4264facabf3adea8230f91edb33f7d0"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/67c5d4dfd2fa77ae1356cc164ec6bcf127cfd69b/comments",
+    "commit": {
+      "author": {
+        "date": "2015-04-26T15:15:19Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-05-15T19:32:35Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "message": "etcdmain: advertise-client-urls must be set if listen-client-urls is set\n\nBefore this PR, people can set listen-client-urls without setting\nadvertise-client-urls, and leaves advertise-client-urls as default\nlocalhost value. The client libraries which sync the cluster info\nfetch wrong advertise-client-urls and cannot connect to the cluster.\nThis PR avoids this case and provides better UX.\n\nOn the other hand, this change is safe because people always want to set\nadvertise-client-urls if listen-client-urls is set. The default localhost\nadvertise url cannot be accessed from the outside, and should always be\nset except that etcd is bootstrapped with no flag.\n\nConflicts:\n\tetcdmain/etcd.go",
+      "tree": {
+        "sha": "4370ed348962db0a7587b0fedb20b44d13ebb6a2",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/4370ed348962db0a7587b0fedb20b44d13ebb6a2"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/67c5d4dfd2fa77ae1356cc164ec6bcf127cfd69b",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/67c5d4dfd2fa77ae1356cc164ec6bcf127cfd69b",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6NjdjNWQ0ZGZkMmZhNzdhZTEzNTZjYzE2NGVjNmJjZjEyN2NmZDY5Yg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/3afcbd6f83e71e860f8d7686b4e0d0b17a77050e",
+        "sha": "3afcbd6f83e71e860f8d7686b4e0d0b17a77050e",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/3afcbd6f83e71e860f8d7686b4e0d0b17a77050e"
+      }
+    ],
+    "sha": "67c5d4dfd2fa77ae1356cc164ec6bcf127cfd69b",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/67c5d4dfd2fa77ae1356cc164ec6bcf127cfd69b"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1475424?v=4",
+      "events_url": "https://api.github.com/users/lavagetto/events{/privacy}",
+      "followers_url": "https://api.github.com/users/lavagetto/followers",
+      "following_url": "https://api.github.com/users/lavagetto/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lavagetto/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/lavagetto",
+      "id": 1475424,
+      "login": "lavagetto",
+      "node_id": "MDQ6VXNlcjE0NzU0MjQ=",
+      "organizations_url": "https://api.github.com/users/lavagetto/orgs",
+      "received_events_url": "https://api.github.com/users/lavagetto/received_events",
+      "repos_url": "https://api.github.com/users/lavagetto/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/lavagetto/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lavagetto/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/lavagetto"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/3afcbd6f83e71e860f8d7686b4e0d0b17a77050e/comments",
+    "commit": {
+      "author": {
+        "date": "2015-04-25T16:54:29Z",
+        "email": "glavagetto@wikimedia.org",
+        "name": "Giuseppe Lavagetto"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-05-15T19:30:48Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "message": "docs: clarify the disaster recovery guide\n\nA bit was missing from the documentation on disaster recovery, the reset\nof the advertised peer urls for the node recovered from backup. Without\nthat, any subsequent server joining the cluster would not be able to\nspeak to the first node.",
+      "tree": {
+        "sha": "6fc0dfc23fafbeda4c37c79ad5c330d54f505a1e",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/6fc0dfc23fafbeda4c37c79ad5c330d54f505a1e"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/3afcbd6f83e71e860f8d7686b4e0d0b17a77050e",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/3afcbd6f83e71e860f8d7686b4e0d0b17a77050e",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6M2FmY2JkNmY4M2U3MWU4NjBmOGQ3Njg2YjRlMGQwYjE3YTc3MDUwZQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/8fed61b2ebf001f76047b04049355d91b3b22687",
+        "sha": "8fed61b2ebf001f76047b04049355d91b3b22687",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/8fed61b2ebf001f76047b04049355d91b3b22687"
+      }
+    ],
+    "sha": "3afcbd6f83e71e860f8d7686b4e0d0b17a77050e",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/3afcbd6f83e71e860f8d7686b4e0d0b17a77050e"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4479947?v=4",
+      "events_url": "https://api.github.com/users/xiang90/events{/privacy}",
+      "followers_url": "https://api.github.com/users/xiang90/followers",
+      "following_url": "https://api.github.com/users/xiang90/following{/other_user}",
+      "gists_url": "https://api.github.com/users/xiang90/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/xiang90",
+      "id": 4479947,
+      "login": "xiang90",
+      "node_id": "MDQ6VXNlcjQ0Nzk5NDc=",
+      "organizations_url": "https://api.github.com/users/xiang90/orgs",
+      "received_events_url": "https://api.github.com/users/xiang90/received_events",
+      "repos_url": "https://api.github.com/users/xiang90/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/xiang90/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/xiang90/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/xiang90"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/8fed61b2ebf001f76047b04049355d91b3b22687/comments",
+    "commit": {
+      "author": {
+        "date": "2015-04-24T23:59:29Z",
+        "email": "xiangli.cs@gmail.com",
+        "name": "Xiang Li"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-05-15T19:30:37Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "message": "client: 410 is a vaild response for member.Remove\n\nWhen removing a member, etcdserver might return 410 that indicates\nthe member has been removed. To client, 410 is a vaild response since\nthe client might do internal retry.",
+      "tree": {
+        "sha": "afed12b85677c4b52be0f334d8ad86ec95f05cca",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/afed12b85677c4b52be0f334d8ad86ec95f05cca"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/8fed61b2ebf001f76047b04049355d91b3b22687",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/8fed61b2ebf001f76047b04049355d91b3b22687",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6OGZlZDYxYjJlYmYwMDFmNzYwNDdiMDQwNDkzNTVkOTFiM2IyMjY4Nw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/c8d386e18c50dbf3407b842516cb7230c60465c7",
+        "sha": "c8d386e18c50dbf3407b842516cb7230c60465c7",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/c8d386e18c50dbf3407b842516cb7230c60465c7"
+      }
+    ],
+    "sha": "8fed61b2ebf001f76047b04049355d91b3b22687",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/8fed61b2ebf001f76047b04049355d91b3b22687"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/13209717?v=4",
+      "events_url": "https://api.github.com/users/akolb-imd/events{/privacy}",
+      "followers_url": "https://api.github.com/users/akolb-imd/followers",
+      "following_url": "https://api.github.com/users/akolb-imd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akolb-imd/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/akolb-imd",
+      "id": 13209717,
+      "login": "akolb-imd",
+      "node_id": "MDQ6VXNlcjEzMjA5NzE3",
+      "organizations_url": "https://api.github.com/users/akolb-imd/orgs",
+      "received_events_url": "https://api.github.com/users/akolb-imd/received_events",
+      "repos_url": "https://api.github.com/users/akolb-imd/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/akolb-imd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akolb-imd/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/akolb-imd"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/c8d386e18c50dbf3407b842516cb7230c60465c7/comments",
+    "commit": {
+      "author": {
+        "date": "2015-04-24T19:18:08Z",
+        "email": "akolbasov@intermodaldata.com",
+        "name": "Alexander Kolbasov"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-05-15T18:30:40Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "message": "pkg/fileutil: add filelock support for solaris",
+      "tree": {
+        "sha": "04c8feb9e3e3dcc8b63a18bd032d9975ce6a2c2a",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/04c8feb9e3e3dcc8b63a18bd032d9975ce6a2c2a"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/c8d386e18c50dbf3407b842516cb7230c60465c7",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/c8d386e18c50dbf3407b842516cb7230c60465c7",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6YzhkMzg2ZTE4YzUwZGJmMzQwN2I4NDI1MTZjYjcyMzBjNjA0NjVjNw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/2b6a44b7b0994c48ac408fc25a8fe04b4d6899e2",
+        "sha": "2b6a44b7b0994c48ac408fc25a8fe04b4d6899e2",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/2b6a44b7b0994c48ac408fc25a8fe04b4d6899e2"
+      }
+    ],
+    "sha": "c8d386e18c50dbf3407b842516cb7230c60465c7",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/c8d386e18c50dbf3407b842516cb7230c60465c7"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6124259?v=4",
+      "events_url": "https://api.github.com/users/junxu/events{/privacy}",
+      "followers_url": "https://api.github.com/users/junxu/followers",
+      "following_url": "https://api.github.com/users/junxu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/junxu/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/junxu",
+      "id": 6124259,
+      "login": "junxu",
+      "node_id": "MDQ6VXNlcjYxMjQyNTk=",
+      "organizations_url": "https://api.github.com/users/junxu/orgs",
+      "received_events_url": "https://api.github.com/users/junxu/received_events",
+      "repos_url": "https://api.github.com/users/junxu/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/junxu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/junxu/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/junxu"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/2b6a44b7b0994c48ac408fc25a8fe04b4d6899e2/comments",
+    "commit": {
+      "author": {
+        "date": "2015-04-24T07:28:57Z",
+        "email": "xujun@cmss.chinamobile.com",
+        "name": "xujun"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-05-15T18:30:32Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "message": "raft: fix typo in raftlog\n\nfix typo in String() method of raftlog which will misorder\nthe \"committed\" and \"unstable.offset\" output.",
+      "tree": {
+        "sha": "0f8cb6a2fe738417bd4049718b64b7a8baa6e3e2",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/0f8cb6a2fe738417bd4049718b64b7a8baa6e3e2"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/2b6a44b7b0994c48ac408fc25a8fe04b4d6899e2",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/2b6a44b7b0994c48ac408fc25a8fe04b4d6899e2",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6MmI2YTQ0YjdiMDk5NGM0OGFjNDA4ZmMyNWE4ZmUwNGI0ZDY4OTllMg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/8069d08b96d12d96ca06e2305d20f830b97e3177",
+        "sha": "8069d08b96d12d96ca06e2305d20f830b97e3177",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/8069d08b96d12d96ca06e2305d20f830b97e3177"
+      }
+    ],
+    "sha": "2b6a44b7b0994c48ac408fc25a8fe04b4d6899e2",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/2b6a44b7b0994c48ac408fc25a8fe04b4d6899e2"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/8069d08b96d12d96ca06e2305d20f830b97e3177/comments",
+    "commit": {
+      "author": {
+        "date": "2015-04-22T15:05:50Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-05-15T18:30:23Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "message": "etcdserver: init server stats before passing it as argument\n\nIt is more reasonable to init the variable before passing it as an\nargument.\n\nIt fixes a bug that etcdserver may panic on server stats when processing\na message from rafthttp streamReader before server stats is initialized\nin server.Start().",
+      "tree": {
+        "sha": "1beae49198942983941da1b230f6c9c11267c039",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/1beae49198942983941da1b230f6c9c11267c039"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/8069d08b96d12d96ca06e2305d20f830b97e3177",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/8069d08b96d12d96ca06e2305d20f830b97e3177",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6ODA2OWQwOGI5NmQxMmQ5NmNhMDZlMjMwNWQyMGY4MzBiOTdlMzE3Nw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/58f035844cbd04e05744794683136e6b9829261f",
+        "sha": "58f035844cbd04e05744794683136e6b9829261f",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/58f035844cbd04e05744794683136e6b9829261f"
+      }
+    ],
+    "sha": "8069d08b96d12d96ca06e2305d20f830b97e3177",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/8069d08b96d12d96ca06e2305d20f830b97e3177"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/50742352541f7435fd6e254ade14036dffc71ae4/comments",
+    "commit": {
+      "author": {
+        "date": "2015-05-15T04:52:59Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-05-15T04:52:59Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "message": "rafthttp: stop printing log when attaching stream with the same term\n\nThere is no need to print log when attaching stream with the same\nterm because the stream is installed back immediately.\n\nThis happens a lot when etcd 2.1 connects to etcd 2.0, so we make\nthe change.",
+      "tree": {
+        "sha": "8a3c9f2cac2d2752989036bdd7fea68e2c4647cd",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/8a3c9f2cac2d2752989036bdd7fea68e2c4647cd"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/50742352541f7435fd6e254ade14036dffc71ae4",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/50742352541f7435fd6e254ade14036dffc71ae4",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6NTA3NDIzNTI1NDFmNzQzNWZkNmUyNTRhZGUxNDAzNmRmZmM3MWFlNA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/f59bddd74b75fce315b8d87d9c634c81d93714ca",
+        "sha": "f59bddd74b75fce315b8d87d9c634c81d93714ca",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/f59bddd74b75fce315b8d87d9c634c81d93714ca"
+      }
+    ],
+    "sha": "50742352541f7435fd6e254ade14036dffc71ae4",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/50742352541f7435fd6e254ade14036dffc71ae4"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/f59bddd74b75fce315b8d87d9c634c81d93714ca/comments",
+    "commit": {
+      "author": {
+        "date": "2015-05-07T21:21:15Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-05-07T21:21:15Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "message": "rafthttp: not log endpoint unsupport error\n\nThe error happens a lot when running 2.0 together with 2.1, and is\ntotally unhelpful.",
+      "tree": {
+        "sha": "31bc462342135a0299742ec65f49b214b36f287e",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/31bc462342135a0299742ec65f49b214b36f287e"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/f59bddd74b75fce315b8d87d9c634c81d93714ca",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/f59bddd74b75fce315b8d87d9c634c81d93714ca",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6ZjU5YmRkZDc0Yjc1ZmNlMzE1YjhkODdkOWM2MzRjODFkOTM3MTRjYQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/58f035844cbd04e05744794683136e6b9829261f",
+        "sha": "58f035844cbd04e05744794683136e6b9829261f",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/58f035844cbd04e05744794683136e6b9829261f"
+      }
+    ],
+    "sha": "f59bddd74b75fce315b8d87d9c634c81d93714ca",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/f59bddd74b75fce315b8d87d9c634c81d93714ca"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/58f035844cbd04e05744794683136e6b9829261f/comments",
+    "commit": {
+      "author": {
+        "date": "2015-04-29T04:17:55Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-04-29T04:17:55Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "message": "Merge pull request #2753 from yichengq/fix-remove-panic\n\nbackport #2701 to release-2.0 branch",
+      "tree": {
+        "sha": "9c141a9c499a597f201a86ad01db3f1e7936f2e3",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/9c141a9c499a597f201a86ad01db3f1e7936f2e3"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/58f035844cbd04e05744794683136e6b9829261f",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/58f035844cbd04e05744794683136e6b9829261f",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6NThmMDM1ODQ0Y2JkMDRlMDU3NDQ3OTQ2ODMxMzZlNmI5ODI5MjYxZg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/06a72b270201f59bbc9e4c37bf6a08a02e6c001b",
+        "sha": "06a72b270201f59bbc9e4c37bf6a08a02e6c001b",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/06a72b270201f59bbc9e4c37bf6a08a02e6c001b"
+      },
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/f83774b4cd27265161f15f33abc02f849971aeea",
+        "sha": "f83774b4cd27265161f15f33abc02f849971aeea",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/f83774b4cd27265161f15f33abc02f849971aeea"
+      }
+    ],
+    "sha": "58f035844cbd04e05744794683136e6b9829261f",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/58f035844cbd04e05744794683136e6b9829261f"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4479947?v=4",
+      "events_url": "https://api.github.com/users/xiang90/events{/privacy}",
+      "followers_url": "https://api.github.com/users/xiang90/followers",
+      "following_url": "https://api.github.com/users/xiang90/following{/other_user}",
+      "gists_url": "https://api.github.com/users/xiang90/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/xiang90",
+      "id": 4479947,
+      "login": "xiang90",
+      "node_id": "MDQ6VXNlcjQ0Nzk5NDc=",
+      "organizations_url": "https://api.github.com/users/xiang90/orgs",
+      "received_events_url": "https://api.github.com/users/xiang90/received_events",
+      "repos_url": "https://api.github.com/users/xiang90/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/xiang90/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/xiang90/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/xiang90"
+    },
+    "comments_url": "https://api.github.com/repos/etcd-io/etcd/commits/f83774b4cd27265161f15f33abc02f849971aeea/comments",
+    "commit": {
+      "author": {
+        "date": "2015-04-24T18:52:36Z",
+        "email": "xiangli.cs@gmail.com",
+        "name": "Xiang Li"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-04-24T20:49:17Z",
+        "email": "qycqycqycqycqyc@gmail.com",
+        "name": "Yicheng Qin"
+      },
+      "message": "integration: add tests around the membership change issues",
+      "tree": {
+        "sha": "cd3c66a5a586892e2cf9fd31f79982abdeaabddd",
+        "url": "https://api.github.com/repos/etcd-io/etcd/git/trees/cd3c66a5a586892e2cf9fd31f79982abdeaabddd"
+      },
+      "url": "https://api.github.com/repos/etcd-io/etcd/git/commits/f83774b4cd27265161f15f33abc02f849971aeea",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2976232?v=4",
+      "events_url": "https://api.github.com/users/yichengq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yichengq/followers",
+      "following_url": "https://api.github.com/users/yichengq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichengq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yichengq",
+      "id": 2976232,
+      "login": "yichengq",
+      "node_id": "MDQ6VXNlcjI5NzYyMzI=",
+      "organizations_url": "https://api.github.com/users/yichengq/orgs",
+      "received_events_url": "https://api.github.com/users/yichengq/received_events",
+      "repos_url": "https://api.github.com/users/yichengq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yichengq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichengq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yichengq"
+    },
+    "html_url": "https://github.com/etcd-io/etcd/commit/f83774b4cd27265161f15f33abc02f849971aeea",
+    "node_id": "MDY6Q29tbWl0MTEyMjUwMTQ6ZjgzNzc0YjRjZDI3MjY1MTYxZjE1ZjMzYWJjMDJmODQ5OTcxYWVlYQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/etcd-io/etcd/commit/12c32137a8c0be0ec5aed98627a364857c1802d6",
+        "sha": "12c32137a8c0be0ec5aed98627a364857c1802d6",
+        "url": "https://api.github.com/repos/etcd-io/etcd/commits/12c32137a8c0be0ec5aed98627a364857c1802d6"
+      }
+    ],
+    "sha": "f83774b4cd27265161f15f33abc02f849971aeea",
+    "url": "https://api.github.com/repos/etcd-io/etcd/commits/f83774b4cd27265161f15f33abc02f849971aeea"
+  }
+]

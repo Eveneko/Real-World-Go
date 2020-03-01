@@ -1,0 +1,2427 @@
+[
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1839234?v=4",
+      "events_url": "https://api.github.com/users/ajwerner/events{/privacy}",
+      "followers_url": "https://api.github.com/users/ajwerner/followers",
+      "following_url": "https://api.github.com/users/ajwerner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ajwerner/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/ajwerner",
+      "id": 1839234,
+      "login": "ajwerner",
+      "node_id": "MDQ6VXNlcjE4MzkyMzQ=",
+      "organizations_url": "https://api.github.com/users/ajwerner/orgs",
+      "received_events_url": "https://api.github.com/users/ajwerner/received_events",
+      "repos_url": "https://api.github.com/users/ajwerner/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/ajwerner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ajwerner/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/ajwerner"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/8e99e392cf89ce6172d4ed10bb7964e37c385c2d/comments",
+    "commit": {
+      "author": {
+        "date": "2020-01-08T14:45:39Z",
+        "email": "ajwerner@cockroachlabs.com",
+        "name": "ajwerner"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-01-08T14:45:39Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #42167 from ajwerner/backport2.0-41533\n\nrelease-2.0: rpc: notify callers to Connect when redial occurs before first heartbeat",
+      "tree": {
+        "sha": "84b4e43eb117f0fe10dd0bc52390ce11d5cb7984",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/84b4e43eb117f0fe10dd0bc52390ce11d5cb7984"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/8e99e392cf89ce6172d4ed10bb7964e37c385c2d",
+      "verification": {
+        "payload": "tree 84b4e43eb117f0fe10dd0bc52390ce11d5cb7984\nparent 5987a8598bf7d9e1f48af7c3491420631133038c\nparent 0648792ab7f035492f2786ca478802833c113642\nauthor ajwerner <ajwerner@cockroachlabs.com> 1578494739 -0500\ncommitter GitHub <noreply@github.com> 1578494739 -0500\n\nMerge pull request #42167 from ajwerner/backport2.0-41533\n\nrelease-2.0: rpc: notify callers to Connect when redial occurs before first heartbeat",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJeFesTCRBK7hj4Ov3rIwAAdHIIAK4fDZlyuRfKLBMdLu6Bbgvp\nUw0n/fMU5+oGRO5Ejz3YljMP4OCKcAkBprV2lr8xaoDJeqne6axNL37zRRWiEkBT\nEV1UNIKAnPaJfyk3vhmmxtQUCG/awqrhyzsHFf8CmSiKmiEZtOygD+qlJzODzOKJ\n57ev8w9JUVFfI+gWl3Z9i0I5jS0TDG8ofdgKgLKNgGmXHC7roqG2wM2yRedoF20s\nF6cKyiOrCGs17qPYmtk9eLaY34bJ/lY2wCLeo1ruEQPDnrkzLQBZ40QsK5RGW4V/\nt0ELjFwdQaJVsQLQOSM1FEXmA8E3RxyVFOQ4xP48VrTEvlzYMrWjvfXYGhNPHT4=\n=6RkQ\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/8e99e392cf89ce6172d4ed10bb7964e37c385c2d",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6OGU5OWUzOTJjZjg5Y2U2MTcyZDRlZDEwYmI3OTY0ZTM3YzM4NWMyZA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/5987a8598bf7d9e1f48af7c3491420631133038c",
+        "sha": "5987a8598bf7d9e1f48af7c3491420631133038c",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/5987a8598bf7d9e1f48af7c3491420631133038c"
+      },
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/0648792ab7f035492f2786ca478802833c113642",
+        "sha": "0648792ab7f035492f2786ca478802833c113642",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/0648792ab7f035492f2786ca478802833c113642"
+      }
+    ],
+    "sha": "8e99e392cf89ce6172d4ed10bb7964e37c385c2d",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/8e99e392cf89ce6172d4ed10bb7964e37c385c2d"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1839234?v=4",
+      "events_url": "https://api.github.com/users/ajwerner/events{/privacy}",
+      "followers_url": "https://api.github.com/users/ajwerner/followers",
+      "following_url": "https://api.github.com/users/ajwerner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ajwerner/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/ajwerner",
+      "id": 1839234,
+      "login": "ajwerner",
+      "node_id": "MDQ6VXNlcjE4MzkyMzQ=",
+      "organizations_url": "https://api.github.com/users/ajwerner/orgs",
+      "received_events_url": "https://api.github.com/users/ajwerner/received_events",
+      "repos_url": "https://api.github.com/users/ajwerner/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/ajwerner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ajwerner/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/ajwerner"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/0648792ab7f035492f2786ca478802833c113642/comments",
+    "commit": {
+      "author": {
+        "date": "2019-10-11T14:23:51Z",
+        "email": "ajwerner@cockroachlabs.com",
+        "name": "Andrew Werner"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-01-08T00:11:01Z",
+        "email": "ajwerner@cockroachlabs.com",
+        "name": "Andrew Werner"
+      },
+      "message": "rpc: notify callers to Connect when redial occurs before first heartbeat\n\nBefore this patch callers would be left blocked on connect forever.\n\nFixes #41521.\n\nRelease note (bug fix): Fix bug whereby rapid network disconnections can\nlead to cluster unavailability because goroutines remain blocked waiting\nfor a connection which will never be initialized to send its first\nheartbeat.",
+      "tree": {
+        "sha": "84b4e43eb117f0fe10dd0bc52390ce11d5cb7984",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/84b4e43eb117f0fe10dd0bc52390ce11d5cb7984"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/0648792ab7f035492f2786ca478802833c113642",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1839234?v=4",
+      "events_url": "https://api.github.com/users/ajwerner/events{/privacy}",
+      "followers_url": "https://api.github.com/users/ajwerner/followers",
+      "following_url": "https://api.github.com/users/ajwerner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ajwerner/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/ajwerner",
+      "id": 1839234,
+      "login": "ajwerner",
+      "node_id": "MDQ6VXNlcjE4MzkyMzQ=",
+      "organizations_url": "https://api.github.com/users/ajwerner/orgs",
+      "received_events_url": "https://api.github.com/users/ajwerner/received_events",
+      "repos_url": "https://api.github.com/users/ajwerner/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/ajwerner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ajwerner/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/ajwerner"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/0648792ab7f035492f2786ca478802833c113642",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6MDY0ODc5MmFiN2YwMzU0OTJmMjc4NmNhNDc4ODAyODMzYzExMzY0Mg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/5987a8598bf7d9e1f48af7c3491420631133038c",
+        "sha": "5987a8598bf7d9e1f48af7c3491420631133038c",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/5987a8598bf7d9e1f48af7c3491420631133038c"
+      }
+    ],
+    "sha": "0648792ab7f035492f2786ca478802833c113642",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/0648792ab7f035492f2786ca478802833c113642"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4780362?v=4",
+      "events_url": "https://api.github.com/users/ajkr/events{/privacy}",
+      "followers_url": "https://api.github.com/users/ajkr/followers",
+      "following_url": "https://api.github.com/users/ajkr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ajkr/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/ajkr",
+      "id": 4780362,
+      "login": "ajkr",
+      "node_id": "MDQ6VXNlcjQ3ODAzNjI=",
+      "organizations_url": "https://api.github.com/users/ajkr/orgs",
+      "received_events_url": "https://api.github.com/users/ajkr/received_events",
+      "repos_url": "https://api.github.com/users/ajkr/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/ajkr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ajkr/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/ajkr"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/5987a8598bf7d9e1f48af7c3491420631133038c/comments",
+    "commit": {
+      "author": {
+        "date": "2019-09-19T18:58:06Z",
+        "email": "ajkr@users.noreply.github.com",
+        "name": "Andrew Kryczka"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-09-19T18:58:06Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #40753 from ajkr/release-2.0-rocksdb-comparator-fix\n\nrelease-2.0: c-deps: bump rocksdb for comparator fix",
+      "tree": {
+        "sha": "d2e5e9f464dc9201eeedb7c7728b11260ee803f7",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/d2e5e9f464dc9201eeedb7c7728b11260ee803f7"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/5987a8598bf7d9e1f48af7c3491420631133038c",
+      "verification": {
+        "payload": "tree d2e5e9f464dc9201eeedb7c7728b11260ee803f7\nparent 7e6d9309c47ea5c964a4bfbb0c174447d033a359\nparent 6cb3a7d5fa827a4b2732f715a425f1e12ac80c38\nauthor Andrew Kryczka <ajkr@users.noreply.github.com> 1568919486 -0700\ncommitter GitHub <noreply@github.com> 1568919486 -0700\n\nMerge pull request #40753 from ajkr/release-2.0-rocksdb-comparator-fix\n\nrelease-2.0: c-deps: bump rocksdb for comparator fix",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJdg8++CRBK7hj4Ov3rIwAAdHIIAKQA1l0i48+v5qm2NdVvVYWp\nrmycydUD8GthLxI4fURHAj/9qQkYhLF6Ea75zrmFNPRXBWZsY3sxvNg8X0whvGVF\nFmBmxaIYiA7MhXWF0JC7cy0FBEygYS7dqzQu1+pNtwyJpNVhrl0BNTp8G9BgtinF\nun8nfmNYyOj+k88yIBH1uNEVk6x9eIAyysYvNqzieKEpZODot50ysrgVSTHKpl+e\nSNCxKcrUK5V+6o1ZvjOk0KJKpliYcqfkj2DuarNaYs7LPxRWprIv0T27Pc9FErZp\nEsNi0/3sbspFq9L5wIAhbuSxSNowUq9OW3lazYDfXMRSj9Pr4lNwaIP8BDGcvM4=\n=4ecS\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/5987a8598bf7d9e1f48af7c3491420631133038c",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6NTk4N2E4NTk4YmY3ZDllMWY0OGFmN2MzNDkxNDIwNjMxMTMzMDM4Yw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/7e6d9309c47ea5c964a4bfbb0c174447d033a359",
+        "sha": "7e6d9309c47ea5c964a4bfbb0c174447d033a359",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/7e6d9309c47ea5c964a4bfbb0c174447d033a359"
+      },
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/6cb3a7d5fa827a4b2732f715a425f1e12ac80c38",
+        "sha": "6cb3a7d5fa827a4b2732f715a425f1e12ac80c38",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/6cb3a7d5fa827a4b2732f715a425f1e12ac80c38"
+      }
+    ],
+    "sha": "5987a8598bf7d9e1f48af7c3491420631133038c",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/5987a8598bf7d9e1f48af7c3491420631133038c"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5438456?v=4",
+      "events_url": "https://api.github.com/users/nvanbenschoten/events{/privacy}",
+      "followers_url": "https://api.github.com/users/nvanbenschoten/followers",
+      "following_url": "https://api.github.com/users/nvanbenschoten/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nvanbenschoten/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/nvanbenschoten",
+      "id": 5438456,
+      "login": "nvanbenschoten",
+      "node_id": "MDQ6VXNlcjU0Mzg0NTY=",
+      "organizations_url": "https://api.github.com/users/nvanbenschoten/orgs",
+      "received_events_url": "https://api.github.com/users/nvanbenschoten/received_events",
+      "repos_url": "https://api.github.com/users/nvanbenschoten/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/nvanbenschoten/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nvanbenschoten/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/nvanbenschoten"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/7e6d9309c47ea5c964a4bfbb0c174447d033a359/comments",
+    "commit": {
+      "author": {
+        "date": "2019-09-19T18:38:47Z",
+        "email": "nvanbenschoten@gmail.com",
+        "name": "Nathan VanBenschoten"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-09-19T18:38:47Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #40633 from nvanbenschoten/backport2.0-31066\n\nrelease-2.0: storage: correctly handle empty forwarded proposals",
+      "tree": {
+        "sha": "c079742cc8b4256883210af203f4c68d807b9853",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/c079742cc8b4256883210af203f4c68d807b9853"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/7e6d9309c47ea5c964a4bfbb0c174447d033a359",
+      "verification": {
+        "payload": "tree c079742cc8b4256883210af203f4c68d807b9853\nparent 5fe6962921cf30fde57b3e18ae436b6ac87c0af3\nparent 450447a66c19405f5e03f67eaaaf4683806f7299\nauthor Nathan VanBenschoten <nvanbenschoten@gmail.com> 1568918327 -0400\ncommitter GitHub <noreply@github.com> 1568918327 -0400\n\nMerge pull request #40633 from nvanbenschoten/backport2.0-31066\n\nrelease-2.0: storage: correctly handle empty forwarded proposals",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJdg8s3CRBK7hj4Ov3rIwAAdHIIAHJMJUEOtllPeWwZCyW0xm0g\na1Ebmr6JgrY4AAyg3GNg3NrOiqJZ20st6uF+ATdgnRyD95tkrAOrF5K2EUo7F9Xw\n4z2SitI299JbEoDgKYW1rTtmbPKQ3Q5L/gdKBRXw3Wv90cxRBY82kddesyTnOJAu\nQeXLziPhk6xXEODPeuquyLSmbx4f/J5EM3yw78Xq7ThJJHfXNTioWodM1BU9+zmC\ncFnYJVKu5RrxaldJKIXMdvbtpn91I6wsb0YVZYQ3iM1CPbm1a6bszv49RmRnwJf6\n+jp9CMtBAAuI/k8DAySVLxLSMUmNjMjNrfMWeKLH4g7JAokyp2MYX03wl0YsM1g=\n=djDI\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/7e6d9309c47ea5c964a4bfbb0c174447d033a359",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6N2U2ZDkzMDljNDdlYTVjOTY0YTRiZmJiMGMxNzQ0NDdkMDMzYTM1OQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/5fe6962921cf30fde57b3e18ae436b6ac87c0af3",
+        "sha": "5fe6962921cf30fde57b3e18ae436b6ac87c0af3",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/5fe6962921cf30fde57b3e18ae436b6ac87c0af3"
+      },
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/450447a66c19405f5e03f67eaaaf4683806f7299",
+        "sha": "450447a66c19405f5e03f67eaaaf4683806f7299",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/450447a66c19405f5e03f67eaaaf4683806f7299"
+      }
+    ],
+    "sha": "7e6d9309c47ea5c964a4bfbb0c174447d033a359",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/7e6d9309c47ea5c964a4bfbb0c174447d033a359"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5438456?v=4",
+      "events_url": "https://api.github.com/users/nvanbenschoten/events{/privacy}",
+      "followers_url": "https://api.github.com/users/nvanbenschoten/followers",
+      "following_url": "https://api.github.com/users/nvanbenschoten/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nvanbenschoten/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/nvanbenschoten",
+      "id": 5438456,
+      "login": "nvanbenschoten",
+      "node_id": "MDQ6VXNlcjU0Mzg0NTY=",
+      "organizations_url": "https://api.github.com/users/nvanbenschoten/orgs",
+      "received_events_url": "https://api.github.com/users/nvanbenschoten/received_events",
+      "repos_url": "https://api.github.com/users/nvanbenschoten/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/nvanbenschoten/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nvanbenschoten/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/nvanbenschoten"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/5fe6962921cf30fde57b3e18ae436b6ac87c0af3/comments",
+    "commit": {
+      "author": {
+        "date": "2019-09-19T18:38:37Z",
+        "email": "nvanbenschoten@gmail.com",
+        "name": "Nathan VanBenschoten"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-09-19T18:38:37Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #38520 from nvanbenschoten/backport2.0-33063\n\nrelease-2.0: c-deps: fix an infinite loop in MVCCScan",
+      "tree": {
+        "sha": "741ef83d8aa49693f2fd30ab7b90a4b8a7060b65",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/741ef83d8aa49693f2fd30ab7b90a4b8a7060b65"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/5fe6962921cf30fde57b3e18ae436b6ac87c0af3",
+      "verification": {
+        "payload": "tree 741ef83d8aa49693f2fd30ab7b90a4b8a7060b65\nparent 494e0f92110bd40109094058a8250bf585490f73\nparent 30a91e694d209d10afa9aedbf472eb410f5436b5\nauthor Nathan VanBenschoten <nvanbenschoten@gmail.com> 1568918317 -0400\ncommitter GitHub <noreply@github.com> 1568918317 -0400\n\nMerge pull request #38520 from nvanbenschoten/backport2.0-33063\n\nrelease-2.0: c-deps: fix an infinite loop in MVCCScan",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJdg8stCRBK7hj4Ov3rIwAAdHIIAHWWVOKdPmt1IbEEu7deioFP\n0v8ydwEYFV12sUQdw3bdjd+J4pjVHO9itcizC2TGVV1Xjl41vqGxMMI5TkeY13rU\nIyyANJMq2HDeVH3EldiZkze8Ik1oRA+bGveJyIkRhKYktv7RHBWyfckpsM6Mfa03\naCV5cOqMiek0OXzjmropA1zertiKGAgEwU0A7mZ1ieqyfSZ6iYYdOkOM/BCT6vQz\nrMDLl6+akW5tHZ+tPGFGRQiYUwNpNl4guyI0nhWIBI9HShF/1UMMaUO1PGhTM0j7\nrYTpkfszHJFlfqtdN/klI3VtufH89hA12vucgWXDwuXfCxx7g/KwTU9iP6TMnfE=\n=yvsx\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/5fe6962921cf30fde57b3e18ae436b6ac87c0af3",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6NWZlNjk2MjkyMWNmMzBmZGU1N2IzZTE4YWU0MzZiNmFjODdjMGFmMw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/494e0f92110bd40109094058a8250bf585490f73",
+        "sha": "494e0f92110bd40109094058a8250bf585490f73",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/494e0f92110bd40109094058a8250bf585490f73"
+      },
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/30a91e694d209d10afa9aedbf472eb410f5436b5",
+        "sha": "30a91e694d209d10afa9aedbf472eb410f5436b5",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/30a91e694d209d10afa9aedbf472eb410f5436b5"
+      }
+    ],
+    "sha": "5fe6962921cf30fde57b3e18ae436b6ac87c0af3",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/5fe6962921cf30fde57b3e18ae436b6ac87c0af3"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4780362?v=4",
+      "events_url": "https://api.github.com/users/ajkr/events{/privacy}",
+      "followers_url": "https://api.github.com/users/ajkr/followers",
+      "following_url": "https://api.github.com/users/ajkr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ajkr/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/ajkr",
+      "id": 4780362,
+      "login": "ajkr",
+      "node_id": "MDQ6VXNlcjQ3ODAzNjI=",
+      "organizations_url": "https://api.github.com/users/ajkr/orgs",
+      "received_events_url": "https://api.github.com/users/ajkr/received_events",
+      "repos_url": "https://api.github.com/users/ajkr/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/ajkr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ajkr/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/ajkr"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/6cb3a7d5fa827a4b2732f715a425f1e12ac80c38/comments",
+    "commit": {
+      "author": {
+        "date": "2019-09-13T19:15:24Z",
+        "email": "andrew.kryczka2@gmail.com",
+        "name": "Andrew Kryczka"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-09-19T18:14:57Z",
+        "email": "andrew.kryczka2@gmail.com",
+        "name": "Andrew Kryczka"
+      },
+      "message": "release-2.0: c-deps: bump rocksdb for comparator fix\n\nPicks up https://github.com/cockroachdb/rocksdb/pull/54.\n\nRelease note (bug fix): Fix wrong comparator used in RocksDB compaction\npicker, which can lead to infinite compaction loop.",
+      "tree": {
+        "sha": "f2158406f3875126559c7dcc2d71bb3a331ab7df",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/f2158406f3875126559c7dcc2d71bb3a331ab7df"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/6cb3a7d5fa827a4b2732f715a425f1e12ac80c38",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4780362?v=4",
+      "events_url": "https://api.github.com/users/ajkr/events{/privacy}",
+      "followers_url": "https://api.github.com/users/ajkr/followers",
+      "following_url": "https://api.github.com/users/ajkr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ajkr/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/ajkr",
+      "id": 4780362,
+      "login": "ajkr",
+      "node_id": "MDQ6VXNlcjQ3ODAzNjI=",
+      "organizations_url": "https://api.github.com/users/ajkr/orgs",
+      "received_events_url": "https://api.github.com/users/ajkr/received_events",
+      "repos_url": "https://api.github.com/users/ajkr/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/ajkr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ajkr/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/ajkr"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/6cb3a7d5fa827a4b2732f715a425f1e12ac80c38",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6NmNiM2E3ZDVmYTgyN2E0YjI3MzJmNzE1YTQyNWYxZTEyYWM4MGMzOA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/494e0f92110bd40109094058a8250bf585490f73",
+        "sha": "494e0f92110bd40109094058a8250bf585490f73",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/494e0f92110bd40109094058a8250bf585490f73"
+      }
+    ],
+    "sha": "6cb3a7d5fa827a4b2732f715a425f1e12ac80c38",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/6cb3a7d5fa827a4b2732f715a425f1e12ac80c38"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6201335?v=4",
+      "events_url": "https://api.github.com/users/petermattis/events{/privacy}",
+      "followers_url": "https://api.github.com/users/petermattis/followers",
+      "following_url": "https://api.github.com/users/petermattis/following{/other_user}",
+      "gists_url": "https://api.github.com/users/petermattis/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/petermattis",
+      "id": 6201335,
+      "login": "petermattis",
+      "node_id": "MDQ6VXNlcjYyMDEzMzU=",
+      "organizations_url": "https://api.github.com/users/petermattis/orgs",
+      "received_events_url": "https://api.github.com/users/petermattis/received_events",
+      "repos_url": "https://api.github.com/users/petermattis/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/petermattis/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/petermattis/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/petermattis"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/30a91e694d209d10afa9aedbf472eb410f5436b5/comments",
+    "commit": {
+      "author": {
+        "date": "2018-12-12T16:28:25Z",
+        "email": "petermattis@gmail.com",
+        "name": "Peter Mattis"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-09-19T17:24:41Z",
+        "email": "nvanbenschoten@gmail.com",
+        "name": "Nathan VanBenschoten"
+      },
+      "message": "c-deps: fix an infinite loop in MVCCScan\n\nMVCCScan would previously loop forever if asked to scan more than 2GB of\ndata. The root problem was in the calculation of the next buffer size to\nuse in `chunkedBuffer::put` which was not accounting for an `int` being\na signed 32-bit value. Changed the logic in `chunkedBuffer::put` to use\na maximum buffer size of 128 MB to avoid hitting this problem and avoid\nwasting excessive space wasteage if only a tiny bit of additional space\nis needed.\n\nFixes #32896\n\nRelease note (bug fix): Fix an infinite loop in a low-level scanning\nroutine that could be hit in unusual circumstances.",
+      "tree": {
+        "sha": "741ef83d8aa49693f2fd30ab7b90a4b8a7060b65",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/741ef83d8aa49693f2fd30ab7b90a4b8a7060b65"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/30a91e694d209d10afa9aedbf472eb410f5436b5",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5438456?v=4",
+      "events_url": "https://api.github.com/users/nvanbenschoten/events{/privacy}",
+      "followers_url": "https://api.github.com/users/nvanbenschoten/followers",
+      "following_url": "https://api.github.com/users/nvanbenschoten/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nvanbenschoten/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/nvanbenschoten",
+      "id": 5438456,
+      "login": "nvanbenschoten",
+      "node_id": "MDQ6VXNlcjU0Mzg0NTY=",
+      "organizations_url": "https://api.github.com/users/nvanbenschoten/orgs",
+      "received_events_url": "https://api.github.com/users/nvanbenschoten/received_events",
+      "repos_url": "https://api.github.com/users/nvanbenschoten/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/nvanbenschoten/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nvanbenschoten/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/nvanbenschoten"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/30a91e694d209d10afa9aedbf472eb410f5436b5",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6MzBhOTFlNjk0ZDIwOWQxMGFmYTlhZWRiZjQ3MmViNDEwZjU0MzZiNQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/494e0f92110bd40109094058a8250bf585490f73",
+        "sha": "494e0f92110bd40109094058a8250bf585490f73",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/494e0f92110bd40109094058a8250bf585490f73"
+      }
+    ],
+    "sha": "30a91e694d209d10afa9aedbf472eb410f5436b5",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/30a91e694d209d10afa9aedbf472eb410f5436b5"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5076964?v=4",
+      "events_url": "https://api.github.com/users/tbg/events{/privacy}",
+      "followers_url": "https://api.github.com/users/tbg/followers",
+      "following_url": "https://api.github.com/users/tbg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tbg/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/tbg",
+      "id": 5076964,
+      "login": "tbg",
+      "node_id": "MDQ6VXNlcjUwNzY5NjQ=",
+      "organizations_url": "https://api.github.com/users/tbg/orgs",
+      "received_events_url": "https://api.github.com/users/tbg/received_events",
+      "repos_url": "https://api.github.com/users/tbg/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/tbg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tbg/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/tbg"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/450447a66c19405f5e03f67eaaaf4683806f7299/comments",
+    "commit": {
+      "author": {
+        "date": "2018-10-08T09:34:20Z",
+        "email": "tobias.schottdorf@gmail.com",
+        "name": "Tobias Schottdorf"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-09-19T17:22:59Z",
+        "email": "nvanbenschoten@gmail.com",
+        "name": "Nathan VanBenschoten"
+      },
+      "message": "storage: correctly handle empty forwarded proposals\n\nThe code assumed that an empty proposal would be a command ID with empty\ndata, but it's really the empty slice (command IDs+data is our encoding;\nRaft itself emits an entry with completely blank data).\n\nFixes #31050.\n\nRelease note: Fix a bug where forwarded empty proposals caused a null\npointer panic.",
+      "tree": {
+        "sha": "cb30a3e0d8a82ee640df8ce12f1c3fb6073e4e3c",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/cb30a3e0d8a82ee640df8ce12f1c3fb6073e4e3c"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/450447a66c19405f5e03f67eaaaf4683806f7299",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5438456?v=4",
+      "events_url": "https://api.github.com/users/nvanbenschoten/events{/privacy}",
+      "followers_url": "https://api.github.com/users/nvanbenschoten/followers",
+      "following_url": "https://api.github.com/users/nvanbenschoten/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nvanbenschoten/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/nvanbenschoten",
+      "id": 5438456,
+      "login": "nvanbenschoten",
+      "node_id": "MDQ6VXNlcjU0Mzg0NTY=",
+      "organizations_url": "https://api.github.com/users/nvanbenschoten/orgs",
+      "received_events_url": "https://api.github.com/users/nvanbenschoten/received_events",
+      "repos_url": "https://api.github.com/users/nvanbenschoten/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/nvanbenschoten/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nvanbenschoten/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/nvanbenschoten"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/450447a66c19405f5e03f67eaaaf4683806f7299",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6NDUwNDQ3YTY2YzE5NDA1ZjVlMDNmNjdlYWFhZjQ2ODM4MDZmNzI5OQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/494e0f92110bd40109094058a8250bf585490f73",
+        "sha": "494e0f92110bd40109094058a8250bf585490f73",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/494e0f92110bd40109094058a8250bf585490f73"
+      }
+    ],
+    "sha": "450447a66c19405f5e03f67eaaaf4683806f7299",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/450447a66c19405f5e03f67eaaaf4683806f7299"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5438456?v=4",
+      "events_url": "https://api.github.com/users/nvanbenschoten/events{/privacy}",
+      "followers_url": "https://api.github.com/users/nvanbenschoten/followers",
+      "following_url": "https://api.github.com/users/nvanbenschoten/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nvanbenschoten/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/nvanbenschoten",
+      "id": 5438456,
+      "login": "nvanbenschoten",
+      "node_id": "MDQ6VXNlcjU0Mzg0NTY=",
+      "organizations_url": "https://api.github.com/users/nvanbenschoten/orgs",
+      "received_events_url": "https://api.github.com/users/nvanbenschoten/received_events",
+      "repos_url": "https://api.github.com/users/nvanbenschoten/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/nvanbenschoten/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nvanbenschoten/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/nvanbenschoten"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/494e0f92110bd40109094058a8250bf585490f73/comments",
+    "commit": {
+      "author": {
+        "date": "2019-09-19T17:21:18Z",
+        "email": "nvanbenschoten@gmail.com",
+        "name": "Nathan VanBenschoten"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-09-19T17:21:18Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #40911 from nvanbenschoten/nvanbenschoten/release2Builder\n\nrelease-2.0: build: upgrade version of Node in builder image from 6 to 10",
+      "tree": {
+        "sha": "9c0f13c420790b604693fedb23225a46d35bcdec",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/9c0f13c420790b604693fedb23225a46d35bcdec"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/494e0f92110bd40109094058a8250bf585490f73",
+      "verification": {
+        "payload": "tree 9c0f13c420790b604693fedb23225a46d35bcdec\nparent b5991e20a51131fb887b84c1c8b8e802c13072aa\nparent 06138cee82fb4b915cf513d1801b128d59760e76\nauthor Nathan VanBenschoten <nvanbenschoten@gmail.com> 1568913678 -0400\ncommitter GitHub <noreply@github.com> 1568913678 -0400\n\nMerge pull request #40911 from nvanbenschoten/nvanbenschoten/release2Builder\n\nrelease-2.0: build: upgrade version of Node in builder image from 6 to 10",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJdg7kOCRBK7hj4Ov3rIwAAdHIIAK+CtvjrW4accOo2p8oF9OaL\nnU2zfUVU+DDT25Qxzd8U/s2ih8QWkywL5QpFMg8yON/asE7L4i0IjqQHkGr00+7q\nnbpQmseWGFzyIknix/n7XfPIuKzOrCqyiEgiOIdPxPTTqAQxJ5qr7i7dFCYiHnZs\n4uiVWTlEciV1ot8kHenWfPIk5odkJViEkbXVHnnuxYvDPKWHN8dFDOX1eE/5xyPu\nqWRkugPcweMhp/otiSb+H5jo/BOqRBSR74DTNg1z53nouSqJgMyXs+/79AXQEVLO\nL2otop5+/WBWDdGGyKmiD6jlcyRoP9khd45nnSahIe94DMBJogj5/jcD56IMtCI=\n=9tXQ\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/494e0f92110bd40109094058a8250bf585490f73",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6NDk0ZTBmOTIxMTBiZDQwMTA5MDk0MDU4YTgyNTBiZjU4NTQ5MGY3Mw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/b5991e20a51131fb887b84c1c8b8e802c13072aa",
+        "sha": "b5991e20a51131fb887b84c1c8b8e802c13072aa",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/b5991e20a51131fb887b84c1c8b8e802c13072aa"
+      },
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/06138cee82fb4b915cf513d1801b128d59760e76",
+        "sha": "06138cee82fb4b915cf513d1801b128d59760e76",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/06138cee82fb4b915cf513d1801b128d59760e76"
+      }
+    ],
+    "sha": "494e0f92110bd40109094058a8250bf585490f73",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/494e0f92110bd40109094058a8250bf585490f73"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5438456?v=4",
+      "events_url": "https://api.github.com/users/nvanbenschoten/events{/privacy}",
+      "followers_url": "https://api.github.com/users/nvanbenschoten/followers",
+      "following_url": "https://api.github.com/users/nvanbenschoten/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nvanbenschoten/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/nvanbenschoten",
+      "id": 5438456,
+      "login": "nvanbenschoten",
+      "node_id": "MDQ6VXNlcjU0Mzg0NTY=",
+      "organizations_url": "https://api.github.com/users/nvanbenschoten/orgs",
+      "received_events_url": "https://api.github.com/users/nvanbenschoten/received_events",
+      "repos_url": "https://api.github.com/users/nvanbenschoten/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/nvanbenschoten/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nvanbenschoten/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/nvanbenschoten"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/06138cee82fb4b915cf513d1801b128d59760e76/comments",
+    "commit": {
+      "author": {
+        "date": "2019-09-19T16:24:31Z",
+        "email": "nvanbenschoten@gmail.com",
+        "name": "Nathan VanBenschoten"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-09-19T16:24:31Z",
+        "email": "nvanbenschoten@gmail.com",
+        "name": "Nathan VanBenschoten"
+      },
+      "message": "release-2.0: build: upgrade version of Node in builder image from 6 to 10\n\nCloses #38822.\n\nSee #38903.\n\nRelease note: None",
+      "tree": {
+        "sha": "9c0f13c420790b604693fedb23225a46d35bcdec",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/9c0f13c420790b604693fedb23225a46d35bcdec"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/06138cee82fb4b915cf513d1801b128d59760e76",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5438456?v=4",
+      "events_url": "https://api.github.com/users/nvanbenschoten/events{/privacy}",
+      "followers_url": "https://api.github.com/users/nvanbenschoten/followers",
+      "following_url": "https://api.github.com/users/nvanbenschoten/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nvanbenschoten/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/nvanbenschoten",
+      "id": 5438456,
+      "login": "nvanbenschoten",
+      "node_id": "MDQ6VXNlcjU0Mzg0NTY=",
+      "organizations_url": "https://api.github.com/users/nvanbenschoten/orgs",
+      "received_events_url": "https://api.github.com/users/nvanbenschoten/received_events",
+      "repos_url": "https://api.github.com/users/nvanbenschoten/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/nvanbenschoten/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nvanbenschoten/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/nvanbenschoten"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/06138cee82fb4b915cf513d1801b128d59760e76",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6MDYxMzhjZWU4MmZiNGI5MTVjZjUxM2QxODAxYjEyOGQ1OTc2MGU3Ng==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/8ecd9caa8114998b762ce67ddf02b5a5f0a5d12e",
+        "sha": "8ecd9caa8114998b762ce67ddf02b5a5f0a5d12e",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/8ecd9caa8114998b762ce67ddf02b5a5f0a5d12e"
+      }
+    ],
+    "sha": "06138cee82fb4b915cf513d1801b128d59760e76",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/06138cee82fb4b915cf513d1801b128d59760e76"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5438456?v=4",
+      "events_url": "https://api.github.com/users/nvanbenschoten/events{/privacy}",
+      "followers_url": "https://api.github.com/users/nvanbenschoten/followers",
+      "following_url": "https://api.github.com/users/nvanbenschoten/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nvanbenschoten/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/nvanbenschoten",
+      "id": 5438456,
+      "login": "nvanbenschoten",
+      "node_id": "MDQ6VXNlcjU0Mzg0NTY=",
+      "organizations_url": "https://api.github.com/users/nvanbenschoten/orgs",
+      "received_events_url": "https://api.github.com/users/nvanbenschoten/received_events",
+      "repos_url": "https://api.github.com/users/nvanbenschoten/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/nvanbenschoten/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nvanbenschoten/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/nvanbenschoten"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/8ecd9caa8114998b762ce67ddf02b5a5f0a5d12e/comments",
+    "commit": {
+      "author": {
+        "date": "2019-09-19T16:13:02Z",
+        "email": "nvanbenschoten@gmail.com",
+        "name": "Nathan VanBenschoten"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-09-19T16:13:02Z",
+        "email": "nvanbenschoten@gmail.com",
+        "name": "Nathan VanBenschoten"
+      },
+      "message": "build: fix reference to aarch64 target in Dockerfile\n\nThis was accidentally and only partially pulled in by\n4dd864792a4dd825d0ec1348dcf52c51c72c7396. It breaks\n`build/builder.sh init`.\n\nRelease note: None",
+      "tree": {
+        "sha": "30e1ee0a7a16b12d1d4376d766446631779efb0c",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/30e1ee0a7a16b12d1d4376d766446631779efb0c"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/8ecd9caa8114998b762ce67ddf02b5a5f0a5d12e",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5438456?v=4",
+      "events_url": "https://api.github.com/users/nvanbenschoten/events{/privacy}",
+      "followers_url": "https://api.github.com/users/nvanbenschoten/followers",
+      "following_url": "https://api.github.com/users/nvanbenschoten/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nvanbenschoten/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/nvanbenschoten",
+      "id": 5438456,
+      "login": "nvanbenschoten",
+      "node_id": "MDQ6VXNlcjU0Mzg0NTY=",
+      "organizations_url": "https://api.github.com/users/nvanbenschoten/orgs",
+      "received_events_url": "https://api.github.com/users/nvanbenschoten/received_events",
+      "repos_url": "https://api.github.com/users/nvanbenschoten/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/nvanbenschoten/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nvanbenschoten/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/nvanbenschoten"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/8ecd9caa8114998b762ce67ddf02b5a5f0a5d12e",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6OGVjZDljYWE4MTE0OTk4Yjc2MmNlNjdkZGYwMmI1YTVmMGE1ZDEyZQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/b5991e20a51131fb887b84c1c8b8e802c13072aa",
+        "sha": "b5991e20a51131fb887b84c1c8b8e802c13072aa",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/b5991e20a51131fb887b84c1c8b8e802c13072aa"
+      }
+    ],
+    "sha": "8ecd9caa8114998b762ce67ddf02b5a5f0a5d12e",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/8ecd9caa8114998b762ce67ddf02b5a5f0a5d12e"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4780362?v=4",
+      "events_url": "https://api.github.com/users/ajkr/events{/privacy}",
+      "followers_url": "https://api.github.com/users/ajkr/followers",
+      "following_url": "https://api.github.com/users/ajkr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ajkr/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/ajkr",
+      "id": 4780362,
+      "login": "ajkr",
+      "node_id": "MDQ6VXNlcjQ3ODAzNjI=",
+      "organizations_url": "https://api.github.com/users/ajkr/orgs",
+      "received_events_url": "https://api.github.com/users/ajkr/received_events",
+      "repos_url": "https://api.github.com/users/ajkr/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/ajkr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ajkr/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/ajkr"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/b5991e20a51131fb887b84c1c8b8e802c13072aa/comments",
+    "commit": {
+      "author": {
+        "date": "2019-02-26T17:20:05Z",
+        "email": "andrew.kryczka2@gmail.com",
+        "name": "Andrew Kryczka"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-09-05T07:20:14Z",
+        "email": "tobias.schottdorf@gmail.com",
+        "name": "Tobias Schottdorf"
+      },
+      "message": "libroach: disable rocksdb subcompactions\n\nThe feature is not widely used so is not the most stable, especially\nwhen combined with other uncommonly used features like range tombstones.\nIn my `bin/workload kv --read-percent 0` experiments it is not necessary\nsince the frequent foreground `fdatasync`s prevent compaction from\nfalling behind, with or without subcompactions enabled.\n\nRelease note: None",
+      "tree": {
+        "sha": "c46c0bfb080ab93c44ddb63bc34e72016fdd0d34",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/c46c0bfb080ab93c44ddb63bc34e72016fdd0d34"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/b5991e20a51131fb887b84c1c8b8e802c13072aa",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5076964?v=4",
+      "events_url": "https://api.github.com/users/tbg/events{/privacy}",
+      "followers_url": "https://api.github.com/users/tbg/followers",
+      "following_url": "https://api.github.com/users/tbg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tbg/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/tbg",
+      "id": 5076964,
+      "login": "tbg",
+      "node_id": "MDQ6VXNlcjUwNzY5NjQ=",
+      "organizations_url": "https://api.github.com/users/tbg/orgs",
+      "received_events_url": "https://api.github.com/users/tbg/received_events",
+      "repos_url": "https://api.github.com/users/tbg/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/tbg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tbg/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/tbg"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/b5991e20a51131fb887b84c1c8b8e802c13072aa",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6YjU5OTFlMjBhNTExMzFmYjg4N2I4NGMxYzhiOGU4MDJjMTMwNzJhYQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/5665a9165bd95c8da27056a0603145474756ada0",
+        "sha": "5665a9165bd95c8da27056a0603145474756ada0",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/5665a9165bd95c8da27056a0603145474756ada0"
+      }
+    ],
+    "sha": "b5991e20a51131fb887b84c1c8b8e802c13072aa",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/b5991e20a51131fb887b84c1c8b8e802c13072aa"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4780362?v=4",
+      "events_url": "https://api.github.com/users/ajkr/events{/privacy}",
+      "followers_url": "https://api.github.com/users/ajkr/followers",
+      "following_url": "https://api.github.com/users/ajkr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ajkr/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/ajkr",
+      "id": 4780362,
+      "login": "ajkr",
+      "node_id": "MDQ6VXNlcjQ3ODAzNjI=",
+      "organizations_url": "https://api.github.com/users/ajkr/orgs",
+      "received_events_url": "https://api.github.com/users/ajkr/received_events",
+      "repos_url": "https://api.github.com/users/ajkr/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/ajkr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ajkr/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/ajkr"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/5665a9165bd95c8da27056a0603145474756ada0/comments",
+    "commit": {
+      "author": {
+        "date": "2019-04-30T19:41:25Z",
+        "email": "ajkr@users.noreply.github.com",
+        "name": "Andrew Kryczka"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-04-30T19:41:25Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #37216 from ajkr/backport2.0-37102\n\nrelease-2.0: storage: fix possible raft log panic after fsync error",
+      "tree": {
+        "sha": "b9830d76985885b5b7a849381bf91f770ff66079",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/b9830d76985885b5b7a849381bf91f770ff66079"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/5665a9165bd95c8da27056a0603145474756ada0",
+      "verification": {
+        "payload": "tree b9830d76985885b5b7a849381bf91f770ff66079\nparent 3d0cb0404373e796c574398b564a5be173ab3789\nparent fcc3c6a84be8b3b599b586c919b3ea0393313f10\nauthor Andrew Kryczka <ajkr@users.noreply.github.com> 1556653285 -0700\ncommitter GitHub <noreply@github.com> 1556653285 -0700\n\nMerge pull request #37216 from ajkr/backport2.0-37102\n\nrelease-2.0: storage: fix possible raft log panic after fsync error",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJcyKTlCRBK7hj4Ov3rIwAAdHIIAIHA3+eiF0Ry0EnQFaTBWdwp\nstfpKLh/l0CKGar14B4SDWnOBtu0+v9GIEy4Jbshorce4Fb8PyWF/IUebaNgxBZh\nabd5Bnuwul5VrxbzKELd8iTzlgLgmfzLCFe7zB6H0qao9LB/OiDmofAfFWuiezWp\njl9K8zcJiFEduiv2fPIJZpWi6vmesvqo3cQQu1xC2F+Tehi7ygS/FVzMSaDUPqTz\n7dKI7ak9hQr/+DG9rKy5yAzM0btIiE7Y/OFMizRWBoRrtveHXrfYUrpLLcPfYJTy\nFdtP4MP4GTFzG5bxGDc64hfyEY2A+xFhvulCIX3XmrB/sK1Qpi3d3Oq13q2VLUk=\n=6swv\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/5665a9165bd95c8da27056a0603145474756ada0",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6NTY2NWE5MTY1YmQ5NWM4ZGEyNzA1NmEwNjAzMTQ1NDc0NzU2YWRhMA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/3d0cb0404373e796c574398b564a5be173ab3789",
+        "sha": "3d0cb0404373e796c574398b564a5be173ab3789",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/3d0cb0404373e796c574398b564a5be173ab3789"
+      },
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/fcc3c6a84be8b3b599b586c919b3ea0393313f10",
+        "sha": "fcc3c6a84be8b3b599b586c919b3ea0393313f10",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/fcc3c6a84be8b3b599b586c919b3ea0393313f10"
+      }
+    ],
+    "sha": "5665a9165bd95c8da27056a0603145474756ada0",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/5665a9165bd95c8da27056a0603145474756ada0"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4780362?v=4",
+      "events_url": "https://api.github.com/users/ajkr/events{/privacy}",
+      "followers_url": "https://api.github.com/users/ajkr/followers",
+      "following_url": "https://api.github.com/users/ajkr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ajkr/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/ajkr",
+      "id": 4780362,
+      "login": "ajkr",
+      "node_id": "MDQ6VXNlcjQ3ODAzNjI=",
+      "organizations_url": "https://api.github.com/users/ajkr/orgs",
+      "received_events_url": "https://api.github.com/users/ajkr/received_events",
+      "repos_url": "https://api.github.com/users/ajkr/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/ajkr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ajkr/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/ajkr"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/fcc3c6a84be8b3b599b586c919b3ea0393313f10/comments",
+    "commit": {
+      "author": {
+        "date": "2019-04-24T22:00:42Z",
+        "email": "andrew.kryczka2@gmail.com",
+        "name": "Andrew Kryczka"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-04-30T19:06:23Z",
+        "email": "andrew.kryczka2@gmail.com",
+        "name": "Andrew Kryczka"
+      },
+      "message": "storage: fix possible raft log panic after fsync error\n\nDetected with #36989 applied by running\n`./bin/roachtest run --local '^system-crash/sync-errors=true$'`.\nWith some slight modification to that test's constants it could repro\nerrors like this within a minute:\n\n```\npanic: tocommit(375) is out of range [lastIndex(374)]. Was the raft log corrupted, truncated, or lost?\n```\n\nDebugging showed `DBSyncWAL` can be called even after a sync failure.\nI guess if it returns success any time after it fails it will ack\nwrites that aren't recoverable in WAL. They aren't recoverable because\nRocksDB stops recovery upon hitting the offset corresponding to the\nlost write (typically there should be a corruption there). Meanwhile,\nthere are still successfully synced writes at later offsets in the\nfile.\n\nThe fix is simple. If `DBSyncWAL` returns an error once, keep track of\nthat error and return it for all future writes.\n\nRelease note (bug fix): Fixed possible panic while recovering from a WAL\non which a sync operation failed.",
+      "tree": {
+        "sha": "b9830d76985885b5b7a849381bf91f770ff66079",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/b9830d76985885b5b7a849381bf91f770ff66079"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/fcc3c6a84be8b3b599b586c919b3ea0393313f10",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4780362?v=4",
+      "events_url": "https://api.github.com/users/ajkr/events{/privacy}",
+      "followers_url": "https://api.github.com/users/ajkr/followers",
+      "following_url": "https://api.github.com/users/ajkr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ajkr/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/ajkr",
+      "id": 4780362,
+      "login": "ajkr",
+      "node_id": "MDQ6VXNlcjQ3ODAzNjI=",
+      "organizations_url": "https://api.github.com/users/ajkr/orgs",
+      "received_events_url": "https://api.github.com/users/ajkr/received_events",
+      "repos_url": "https://api.github.com/users/ajkr/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/ajkr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ajkr/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/ajkr"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/fcc3c6a84be8b3b599b586c919b3ea0393313f10",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6ZmNjM2M2YTg0YmU4YjNiNTk5YjU4NmM5MTliM2VhMDM5MzMxM2YxMA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/3d0cb0404373e796c574398b564a5be173ab3789",
+        "sha": "3d0cb0404373e796c574398b564a5be173ab3789",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/3d0cb0404373e796c574398b564a5be173ab3789"
+      }
+    ],
+    "sha": "fcc3c6a84be8b3b599b586c919b3ea0393313f10",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/fcc3c6a84be8b3b599b586c919b3ea0393313f10"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/377201?v=4",
+      "events_url": "https://api.github.com/users/andreimatei/events{/privacy}",
+      "followers_url": "https://api.github.com/users/andreimatei/followers",
+      "following_url": "https://api.github.com/users/andreimatei/following{/other_user}",
+      "gists_url": "https://api.github.com/users/andreimatei/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/andreimatei",
+      "id": 377201,
+      "login": "andreimatei",
+      "node_id": "MDQ6VXNlcjM3NzIwMQ==",
+      "organizations_url": "https://api.github.com/users/andreimatei/orgs",
+      "received_events_url": "https://api.github.com/users/andreimatei/received_events",
+      "repos_url": "https://api.github.com/users/andreimatei/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/andreimatei/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/andreimatei/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/andreimatei"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/3d0cb0404373e796c574398b564a5be173ab3789/comments",
+    "commit": {
+      "author": {
+        "date": "2019-04-05T23:13:45Z",
+        "email": "andreimatei1@gmail.com",
+        "name": "Andrei Matei"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-04-05T23:13:45Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #36504 from andreimatei/backport2.0-35776\n\nrelease-2.0: pgwire: cancel authentication work when the network connection is closed",
+      "tree": {
+        "sha": "6060bc583ab004de93a7cd6c6a0470d5532db587",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/6060bc583ab004de93a7cd6c6a0470d5532db587"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/3d0cb0404373e796c574398b564a5be173ab3789",
+      "verification": {
+        "payload": "tree 6060bc583ab004de93a7cd6c6a0470d5532db587\nparent 3df579ae9e0c35d887a70f7c332dd84ca34b75a0\nparent c52b761374f49302c4cda98655244cbb88847a87\nauthor Andrei Matei <andreimatei1@gmail.com> 1554506025 -0400\ncommitter GitHub <noreply@github.com> 1554506025 -0400\n\nMerge pull request #36504 from andreimatei/backport2.0-35776\n\nrelease-2.0: pgwire: cancel authentication work when the network connection is closed",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJcp+EpCRBK7hj4Ov3rIwAAdHIIAJH1DHoI/v3ePbLaxYQiQSPr\nbRENG794ksJmhppk2V8S/P87coY7hoKVs8zH/g8EfWyMqpB2s9MXgptBbSRj74j5\n6qY4YZKjShekXhHAno/K07WnY0HYtV6gV9T4FnjVd+QgL56bLWFbkF091j3/L+Uu\nl4LkDhr1x84WgPiSYFrv5A7rhMjgUetSDgCUlDoDFA08DETi+PD2kbnd37AKNnjq\nOtuzkodBIGNkpYz7eTa5VEbKTld4emAXvZWppFm073iE6aNKtLzE4SP7O2vniL/9\nxH9QMIeZiHrCarQf3xsPt1mCi/QfFK/xYulIpC+JC7pozEm3Tbavzp0daBJA7yY=\n=Uru7\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/3d0cb0404373e796c574398b564a5be173ab3789",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6M2QwY2IwNDA0MzczZTc5NmM1NzQzOThiNTY0YTViZTE3M2FiMzc4OQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/3df579ae9e0c35d887a70f7c332dd84ca34b75a0",
+        "sha": "3df579ae9e0c35d887a70f7c332dd84ca34b75a0",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/3df579ae9e0c35d887a70f7c332dd84ca34b75a0"
+      },
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/c52b761374f49302c4cda98655244cbb88847a87",
+        "sha": "c52b761374f49302c4cda98655244cbb88847a87",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/c52b761374f49302c4cda98655244cbb88847a87"
+      }
+    ],
+    "sha": "3d0cb0404373e796c574398b564a5be173ab3789",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/3d0cb0404373e796c574398b564a5be173ab3789"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/377201?v=4",
+      "events_url": "https://api.github.com/users/andreimatei/events{/privacy}",
+      "followers_url": "https://api.github.com/users/andreimatei/followers",
+      "following_url": "https://api.github.com/users/andreimatei/following{/other_user}",
+      "gists_url": "https://api.github.com/users/andreimatei/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/andreimatei",
+      "id": 377201,
+      "login": "andreimatei",
+      "node_id": "MDQ6VXNlcjM3NzIwMQ==",
+      "organizations_url": "https://api.github.com/users/andreimatei/orgs",
+      "received_events_url": "https://api.github.com/users/andreimatei/received_events",
+      "repos_url": "https://api.github.com/users/andreimatei/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/andreimatei/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/andreimatei/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/andreimatei"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/c52b761374f49302c4cda98655244cbb88847a87/comments",
+    "commit": {
+      "author": {
+        "date": "2019-03-12T01:50:03Z",
+        "email": "andrei@cockroachlabs.com",
+        "name": "Andrei Matei"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-04-03T22:29:26Z",
+        "email": "andrei@cockroachlabs.com",
+        "name": "Andrei Matei"
+      },
+      "message": "pgwire: cancel authentication work when the network connection is closed\n\nBefore this patch we would not react to a pgwire connection closing\nwhile we were in the process of authenticating the connection's user.\nThat's bad particularly when authentication is blocked forever because\nof data unavailability. Before this patch, goroutines blocked on\nauthentication would just leak if the client closed the corresponding\nconnection, leading to OOMs for folks.\nGenerally, we react to connection cancelation: a dedicated goroutine is\nconstantly responsible for reading from the network and canceling the\ncommand processor's context if the connection drops. However,\nauthentication was special in that it happened before the connection\nentered this reader/processor-goroutine mode. Authentication did it's\nown reading and writing from the net conn.\n\nThis patch extends authentication to fit into the 2-goroutine model. The\nconn goroutine takes responsibility for reading all the password\ninformation and passing it to an authenticator which runs on the command\nprocessing goroutine. As in all other cases, if the connection is\ndropped, the authenticator's ctx will be canceled.\nThis required abstracting the conn's interaction with the authenticator\nthrough an interface. The authenticator's interactions with the\nconnection were already abstracted through an interface for GSS API\nreasons. That interface is adapted. A \"pipe\" metaphor is used to model\nthe interactions between the conn and the authenticator.\n\nRelease note (bug fix): memory and goroutines used for authenticating\nconnections opened while the cluster is unavailable (e.g. network\npartition) no longer leak when the client closes said connections.",
+      "tree": {
+        "sha": "6060bc583ab004de93a7cd6c6a0470d5532db587",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/6060bc583ab004de93a7cd6c6a0470d5532db587"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/c52b761374f49302c4cda98655244cbb88847a87",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/377201?v=4",
+      "events_url": "https://api.github.com/users/andreimatei/events{/privacy}",
+      "followers_url": "https://api.github.com/users/andreimatei/followers",
+      "following_url": "https://api.github.com/users/andreimatei/following{/other_user}",
+      "gists_url": "https://api.github.com/users/andreimatei/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/andreimatei",
+      "id": 377201,
+      "login": "andreimatei",
+      "node_id": "MDQ6VXNlcjM3NzIwMQ==",
+      "organizations_url": "https://api.github.com/users/andreimatei/orgs",
+      "received_events_url": "https://api.github.com/users/andreimatei/received_events",
+      "repos_url": "https://api.github.com/users/andreimatei/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/andreimatei/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/andreimatei/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/andreimatei"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/c52b761374f49302c4cda98655244cbb88847a87",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6YzUyYjc2MTM3NGY0OTMwMmM0Y2RhOTg2NTUyNDRjYmI4ODg0N2E4Nw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/3df579ae9e0c35d887a70f7c332dd84ca34b75a0",
+        "sha": "3df579ae9e0c35d887a70f7c332dd84ca34b75a0",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/3df579ae9e0c35d887a70f7c332dd84ca34b75a0"
+      }
+    ],
+    "sha": "c52b761374f49302c4cda98655244cbb88847a87",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/c52b761374f49302c4cda98655244cbb88847a87"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5438456?v=4",
+      "events_url": "https://api.github.com/users/nvanbenschoten/events{/privacy}",
+      "followers_url": "https://api.github.com/users/nvanbenschoten/followers",
+      "following_url": "https://api.github.com/users/nvanbenschoten/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nvanbenschoten/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/nvanbenschoten",
+      "id": 5438456,
+      "login": "nvanbenschoten",
+      "node_id": "MDQ6VXNlcjU0Mzg0NTY=",
+      "organizations_url": "https://api.github.com/users/nvanbenschoten/orgs",
+      "received_events_url": "https://api.github.com/users/nvanbenschoten/received_events",
+      "repos_url": "https://api.github.com/users/nvanbenschoten/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/nvanbenschoten/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nvanbenschoten/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/nvanbenschoten"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/3df579ae9e0c35d887a70f7c332dd84ca34b75a0/comments",
+    "commit": {
+      "author": {
+        "date": "2019-03-21T02:24:35Z",
+        "email": "nvanbenschoten@gmail.com",
+        "name": "Nathan VanBenschoten"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-03-21T02:24:35Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #35809 from nvanbenschoten/backport2.0-24352\n\nrelease-2.0: storage: avoid AbortSpan operations when possible",
+      "tree": {
+        "sha": "0d534e6d1e2fcdf324ee4b8765a12f46a0c5fc95",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/0d534e6d1e2fcdf324ee4b8765a12f46a0c5fc95"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/3df579ae9e0c35d887a70f7c332dd84ca34b75a0",
+      "verification": {
+        "payload": "tree 0d534e6d1e2fcdf324ee4b8765a12f46a0c5fc95\nparent 58dac7272e645af965953d83e8f0488094dd0697\nparent 805106e156629bba7c3e50ec43943f8d628ec847\nauthor Nathan VanBenschoten <nvanbenschoten@gmail.com> 1553135075 -0400\ncommitter GitHub <noreply@github.com> 1553135075 -0400\n\nMerge pull request #35809 from nvanbenschoten/backport2.0-24352\n\nrelease-2.0: storage: avoid AbortSpan operations when possible",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJckvXjCRBK7hj4Ov3rIwAAdHIIAK348GzlwaqZNlHoKa+ULnZp\n4dM0mutHUrOKxZv/0M9TaK46zGA8hLBF5cdznzWXRPo5lHwA+5HHmCR8PGziHjUc\nJV5Hw0o7FdMl2YngbzkjF8/e4syMBEroE7mb8AnoqacZz2VIEeI+MstaPgqyRHRR\nqkEDUbcms+JPzEP0Ds73XsmozafequgEF3KOYsRk5cnKBHrEInEDwGLSPFpHUH1H\nNJvtp0qYeKfdBEQ4xCnyqBxOvkf9VvxGilqnXKghTnT47TupUO687Pj4B8c1Mjzs\n1v8199ALbaNVXnCThMRx1O5G34KrO4ltW/K8a+TcnTPoDAc7SFqzL4aYRe6G3KY=\n=2sZA\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/3df579ae9e0c35d887a70f7c332dd84ca34b75a0",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6M2RmNTc5YWU5ZTBjMzVkODg3YTcwZjdjMzMyZGQ4NGNhMzRiNzVhMA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/58dac7272e645af965953d83e8f0488094dd0697",
+        "sha": "58dac7272e645af965953d83e8f0488094dd0697",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/58dac7272e645af965953d83e8f0488094dd0697"
+      },
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/805106e156629bba7c3e50ec43943f8d628ec847",
+        "sha": "805106e156629bba7c3e50ec43943f8d628ec847",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/805106e156629bba7c3e50ec43943f8d628ec847"
+      }
+    ],
+    "sha": "3df579ae9e0c35d887a70f7c332dd84ca34b75a0",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/3df579ae9e0c35d887a70f7c332dd84ca34b75a0"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5438456?v=4",
+      "events_url": "https://api.github.com/users/nvanbenschoten/events{/privacy}",
+      "followers_url": "https://api.github.com/users/nvanbenschoten/followers",
+      "following_url": "https://api.github.com/users/nvanbenschoten/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nvanbenschoten/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/nvanbenschoten",
+      "id": 5438456,
+      "login": "nvanbenschoten",
+      "node_id": "MDQ6VXNlcjU0Mzg0NTY=",
+      "organizations_url": "https://api.github.com/users/nvanbenschoten/orgs",
+      "received_events_url": "https://api.github.com/users/nvanbenschoten/received_events",
+      "repos_url": "https://api.github.com/users/nvanbenschoten/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/nvanbenschoten/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nvanbenschoten/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/nvanbenschoten"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/805106e156629bba7c3e50ec43943f8d628ec847/comments",
+    "commit": {
+      "author": {
+        "date": "2018-03-29T21:55:27Z",
+        "email": "nvanbenschoten@gmail.com",
+        "name": "Nathan VanBenschoten"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-03-21T01:29:24Z",
+        "email": "nvanbenschoten@gmail.com",
+        "name": "Nathan VanBenschoten"
+      },
+      "message": "storage: avoid AbortSpan operations when possible\n\nFixes #23943.\n\nBefore this change, requests would operate on the AbortSpan without\nchecking if any changes were actually needed. This prevented certain\noperations, like duplicate `ResolveIntentRequest`, from avoiding Raft.\nThis change fixes this by checking the AbortSpan before writing to it\nto detect when no changes are needed.\n\nRelease note: None",
+      "tree": {
+        "sha": "0d534e6d1e2fcdf324ee4b8765a12f46a0c5fc95",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/0d534e6d1e2fcdf324ee4b8765a12f46a0c5fc95"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/805106e156629bba7c3e50ec43943f8d628ec847",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5438456?v=4",
+      "events_url": "https://api.github.com/users/nvanbenschoten/events{/privacy}",
+      "followers_url": "https://api.github.com/users/nvanbenschoten/followers",
+      "following_url": "https://api.github.com/users/nvanbenschoten/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nvanbenschoten/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/nvanbenschoten",
+      "id": 5438456,
+      "login": "nvanbenschoten",
+      "node_id": "MDQ6VXNlcjU0Mzg0NTY=",
+      "organizations_url": "https://api.github.com/users/nvanbenschoten/orgs",
+      "received_events_url": "https://api.github.com/users/nvanbenschoten/received_events",
+      "repos_url": "https://api.github.com/users/nvanbenschoten/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/nvanbenschoten/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nvanbenschoten/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/nvanbenschoten"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/805106e156629bba7c3e50ec43943f8d628ec847",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6ODA1MTA2ZTE1NjYyOWJiYTdjM2U1MGVjNDM5NDNmOGQ2MjhlYzg0Nw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/58dac7272e645af965953d83e8f0488094dd0697",
+        "sha": "58dac7272e645af965953d83e8f0488094dd0697",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/58dac7272e645af965953d83e8f0488094dd0697"
+      }
+    ],
+    "sha": "805106e156629bba7c3e50ec43943f8d628ec847",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/805106e156629bba7c3e50ec43943f8d628ec847"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5438456?v=4",
+      "events_url": "https://api.github.com/users/nvanbenschoten/events{/privacy}",
+      "followers_url": "https://api.github.com/users/nvanbenschoten/followers",
+      "following_url": "https://api.github.com/users/nvanbenschoten/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nvanbenschoten/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/nvanbenschoten",
+      "id": 5438456,
+      "login": "nvanbenschoten",
+      "node_id": "MDQ6VXNlcjU0Mzg0NTY=",
+      "organizations_url": "https://api.github.com/users/nvanbenschoten/orgs",
+      "received_events_url": "https://api.github.com/users/nvanbenschoten/received_events",
+      "repos_url": "https://api.github.com/users/nvanbenschoten/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/nvanbenschoten/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nvanbenschoten/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/nvanbenschoten"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/58dac7272e645af965953d83e8f0488094dd0697/comments",
+    "commit": {
+      "author": {
+        "date": "2019-03-21T01:27:39Z",
+        "email": "nvanbenschoten@gmail.com",
+        "name": "Nathan VanBenschoten"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-03-21T01:27:39Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #35810 from nvanbenschoten/backport2.0-24250-24345\n\nrelease-2.0: storage: don't require consensus for no-op requests",
+      "tree": {
+        "sha": "471e8442bee8acde2cb474fbb6731030d4f18148",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/471e8442bee8acde2cb474fbb6731030d4f18148"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/58dac7272e645af965953d83e8f0488094dd0697",
+      "verification": {
+        "payload": "tree 471e8442bee8acde2cb474fbb6731030d4f18148\nparent d6ebd69969370d43829906d23a728b156eaa8099\nparent 6e6b4f0876e74908bb4229555d2832dcef1496da\nauthor Nathan VanBenschoten <nvanbenschoten@gmail.com> 1553131659 -0400\ncommitter GitHub <noreply@github.com> 1553131659 -0400\n\nMerge pull request #35810 from nvanbenschoten/backport2.0-24250-24345\n\nrelease-2.0: storage: don't require consensus for no-op requests",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJckuiLCRBK7hj4Ov3rIwAAdHIIAFZjeazRle2eEeBcKklrEdk1\nQMasrL5Wr2z1buTnaQ6p2qGyOEO88TryVOqW8RI52qy9JB6X6zlzfDQlxx4DOfUW\n60VdtFlmKtagpqQdMZEmNuEGNe03G0E0zhtrPkif/T9zTegbN0eqtb1hxHOqalLq\nsENKkKPCnLzEDxT7dOuJ8ZGhGhPHHl3nS4L82HVj8Qa/mRMwuXffeJxdrVsv8ckn\nYSquL4dNTqkGcsgn8pQeVo2yn1O0TpRg9XM2vsI0f5TtZLibI7lkVGflk1ZuVG8L\n8aMExA/x2L4pzUxAoLHBZcOmcr3mJcSkzGfmPEEcJSArL/udKXYSGbF8Wn9HK2c=\n=O1u9\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/58dac7272e645af965953d83e8f0488094dd0697",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6NThkYWM3MjcyZTY0NWFmOTY1OTUzZDgzZThmMDQ4ODA5NGRkMDY5Nw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/d6ebd69969370d43829906d23a728b156eaa8099",
+        "sha": "d6ebd69969370d43829906d23a728b156eaa8099",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/d6ebd69969370d43829906d23a728b156eaa8099"
+      },
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/6e6b4f0876e74908bb4229555d2832dcef1496da",
+        "sha": "6e6b4f0876e74908bb4229555d2832dcef1496da",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/6e6b4f0876e74908bb4229555d2832dcef1496da"
+      }
+    ],
+    "sha": "58dac7272e645af965953d83e8f0488094dd0697",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/58dac7272e645af965953d83e8f0488094dd0697"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5438456?v=4",
+      "events_url": "https://api.github.com/users/nvanbenschoten/events{/privacy}",
+      "followers_url": "https://api.github.com/users/nvanbenschoten/followers",
+      "following_url": "https://api.github.com/users/nvanbenschoten/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nvanbenschoten/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/nvanbenschoten",
+      "id": 5438456,
+      "login": "nvanbenschoten",
+      "node_id": "MDQ6VXNlcjU0Mzg0NTY=",
+      "organizations_url": "https://api.github.com/users/nvanbenschoten/orgs",
+      "received_events_url": "https://api.github.com/users/nvanbenschoten/received_events",
+      "repos_url": "https://api.github.com/users/nvanbenschoten/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/nvanbenschoten/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nvanbenschoten/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/nvanbenschoten"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/6e6b4f0876e74908bb4229555d2832dcef1496da/comments",
+    "commit": {
+      "author": {
+        "date": "2018-03-29T20:19:47Z",
+        "email": "nvanbenschoten@gmail.com",
+        "name": "Nathan VanBenschoten"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-03-15T22:56:53Z",
+        "email": "nvanbenschoten@gmail.com",
+        "name": "Nathan VanBenschoten"
+      },
+      "message": "storage: don't require consensus for no-op requests\n\nFixes #23942.\n\nDuring evaluation, a request can result in having no effect for a variety\nof reasons. For instance, a PushTxnRequest may arrive at a transaction\nrecord to find that it is already ABORTED, in which case there's nothing\nfor it to do.\n\nBefore this change, we were still requiring that these empty results be\nproposed through Raft. This change fixes this by detecting empty results\nand bypassing consensus completely.\n\nRelease note (performance improvement): Write requests that result in\nno-ops are no longer proposed through Raft.",
+      "tree": {
+        "sha": "471e8442bee8acde2cb474fbb6731030d4f18148",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/471e8442bee8acde2cb474fbb6731030d4f18148"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/6e6b4f0876e74908bb4229555d2832dcef1496da",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5438456?v=4",
+      "events_url": "https://api.github.com/users/nvanbenschoten/events{/privacy}",
+      "followers_url": "https://api.github.com/users/nvanbenschoten/followers",
+      "following_url": "https://api.github.com/users/nvanbenschoten/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nvanbenschoten/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/nvanbenschoten",
+      "id": 5438456,
+      "login": "nvanbenschoten",
+      "node_id": "MDQ6VXNlcjU0Mzg0NTY=",
+      "organizations_url": "https://api.github.com/users/nvanbenschoten/orgs",
+      "received_events_url": "https://api.github.com/users/nvanbenschoten/received_events",
+      "repos_url": "https://api.github.com/users/nvanbenschoten/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/nvanbenschoten/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nvanbenschoten/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/nvanbenschoten"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/6e6b4f0876e74908bb4229555d2832dcef1496da",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6NmU2YjRmMDg3NmU3NDkwOGJiNDIyOTU1NWQyODMyZGNlZjE0OTZkYQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/1c1c4d9ae94a137b04a97ea05f73bdc8aab03e80",
+        "sha": "1c1c4d9ae94a137b04a97ea05f73bdc8aab03e80",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/1c1c4d9ae94a137b04a97ea05f73bdc8aab03e80"
+      }
+    ],
+    "sha": "6e6b4f0876e74908bb4229555d2832dcef1496da",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/6e6b4f0876e74908bb4229555d2832dcef1496da"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5438456?v=4",
+      "events_url": "https://api.github.com/users/nvanbenschoten/events{/privacy}",
+      "followers_url": "https://api.github.com/users/nvanbenschoten/followers",
+      "following_url": "https://api.github.com/users/nvanbenschoten/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nvanbenschoten/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/nvanbenschoten",
+      "id": 5438456,
+      "login": "nvanbenschoten",
+      "node_id": "MDQ6VXNlcjU0Mzg0NTY=",
+      "organizations_url": "https://api.github.com/users/nvanbenschoten/orgs",
+      "received_events_url": "https://api.github.com/users/nvanbenschoten/received_events",
+      "repos_url": "https://api.github.com/users/nvanbenschoten/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/nvanbenschoten/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nvanbenschoten/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/nvanbenschoten"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/1c1c4d9ae94a137b04a97ea05f73bdc8aab03e80/comments",
+    "commit": {
+      "author": {
+        "date": "2018-03-28T23:15:33Z",
+        "email": "nvanbenschoten@gmail.com",
+        "name": "Nathan VanBenschoten"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-03-15T22:56:53Z",
+        "email": "nvanbenschoten@gmail.com",
+        "name": "Nathan VanBenschoten"
+      },
+      "message": "storage: remove LocalResult.Err entirely\n\nPrevious refactoring was able to simplify proposal logic now that all\nfailed proposals are \"fail-fast\". This final commit removed the\n`LocalResult.Err` field entirely because it is no longer needed.\n\nIn doing so, this refactor disentangles `txnWaitQueue.Enqueue` from the\n`DontRetryPushTxnFailures` configuration.\n\nRelease note: None",
+      "tree": {
+        "sha": "462c916b6bf9421775c4c25118f1f75b7faa9fb2",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/462c916b6bf9421775c4c25118f1f75b7faa9fb2"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/1c1c4d9ae94a137b04a97ea05f73bdc8aab03e80",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5438456?v=4",
+      "events_url": "https://api.github.com/users/nvanbenschoten/events{/privacy}",
+      "followers_url": "https://api.github.com/users/nvanbenschoten/followers",
+      "following_url": "https://api.github.com/users/nvanbenschoten/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nvanbenschoten/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/nvanbenschoten",
+      "id": 5438456,
+      "login": "nvanbenschoten",
+      "node_id": "MDQ6VXNlcjU0Mzg0NTY=",
+      "organizations_url": "https://api.github.com/users/nvanbenschoten/orgs",
+      "received_events_url": "https://api.github.com/users/nvanbenschoten/received_events",
+      "repos_url": "https://api.github.com/users/nvanbenschoten/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/nvanbenschoten/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nvanbenschoten/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/nvanbenschoten"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/1c1c4d9ae94a137b04a97ea05f73bdc8aab03e80",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6MWMxYzRkOWFlOTRhMTM3YjA0YTk3ZWEwNWY3M2JkYzhhYWIwM2U4MA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/40992d25d1c8a1c14b89acaef7bb148d9128ed4d",
+        "sha": "40992d25d1c8a1c14b89acaef7bb148d9128ed4d",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/40992d25d1c8a1c14b89acaef7bb148d9128ed4d"
+      }
+    ],
+    "sha": "1c1c4d9ae94a137b04a97ea05f73bdc8aab03e80",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/1c1c4d9ae94a137b04a97ea05f73bdc8aab03e80"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5438456?v=4",
+      "events_url": "https://api.github.com/users/nvanbenschoten/events{/privacy}",
+      "followers_url": "https://api.github.com/users/nvanbenschoten/followers",
+      "following_url": "https://api.github.com/users/nvanbenschoten/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nvanbenschoten/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/nvanbenschoten",
+      "id": 5438456,
+      "login": "nvanbenschoten",
+      "node_id": "MDQ6VXNlcjU0Mzg0NTY=",
+      "organizations_url": "https://api.github.com/users/nvanbenschoten/orgs",
+      "received_events_url": "https://api.github.com/users/nvanbenschoten/received_events",
+      "repos_url": "https://api.github.com/users/nvanbenschoten/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/nvanbenschoten/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nvanbenschoten/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/nvanbenschoten"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/40992d25d1c8a1c14b89acaef7bb148d9128ed4d/comments",
+    "commit": {
+      "author": {
+        "date": "2018-03-27T03:03:05Z",
+        "email": "nvanbenschoten@gmail.com",
+        "name": "Nathan VanBenschoten"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-03-15T22:56:53Z",
+        "email": "nvanbenschoten@gmail.com",
+        "name": "Nathan VanBenschoten"
+      },
+      "message": "storage: remove WriteTooOld hack in TestStoreResolveWriteIntentPushOnRead\n\nThis addresses two TODOs.\n\nRelease note: None",
+      "tree": {
+        "sha": "6e7fef5171413432bdd740eeffca507f690f9bd7",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/6e7fef5171413432bdd740eeffca507f690f9bd7"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/40992d25d1c8a1c14b89acaef7bb148d9128ed4d",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5438456?v=4",
+      "events_url": "https://api.github.com/users/nvanbenschoten/events{/privacy}",
+      "followers_url": "https://api.github.com/users/nvanbenschoten/followers",
+      "following_url": "https://api.github.com/users/nvanbenschoten/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nvanbenschoten/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/nvanbenschoten",
+      "id": 5438456,
+      "login": "nvanbenschoten",
+      "node_id": "MDQ6VXNlcjU0Mzg0NTY=",
+      "organizations_url": "https://api.github.com/users/nvanbenschoten/orgs",
+      "received_events_url": "https://api.github.com/users/nvanbenschoten/received_events",
+      "repos_url": "https://api.github.com/users/nvanbenschoten/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/nvanbenschoten/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nvanbenschoten/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/nvanbenschoten"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/40992d25d1c8a1c14b89acaef7bb148d9128ed4d",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6NDA5OTJkMjVkMWM4YTFjMTRiODlhY2FlZjdiYjE0OGQ5MTI4ZWQ0ZA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/68376077baf8e8d0fe18661efe09cd17392d0c37",
+        "sha": "68376077baf8e8d0fe18661efe09cd17392d0c37",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/68376077baf8e8d0fe18661efe09cd17392d0c37"
+      }
+    ],
+    "sha": "40992d25d1c8a1c14b89acaef7bb148d9128ed4d",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/40992d25d1c8a1c14b89acaef7bb148d9128ed4d"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5438456?v=4",
+      "events_url": "https://api.github.com/users/nvanbenschoten/events{/privacy}",
+      "followers_url": "https://api.github.com/users/nvanbenschoten/followers",
+      "following_url": "https://api.github.com/users/nvanbenschoten/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nvanbenschoten/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/nvanbenschoten",
+      "id": 5438456,
+      "login": "nvanbenschoten",
+      "node_id": "MDQ6VXNlcjU0Mzg0NTY=",
+      "organizations_url": "https://api.github.com/users/nvanbenschoten/orgs",
+      "received_events_url": "https://api.github.com/users/nvanbenschoten/received_events",
+      "repos_url": "https://api.github.com/users/nvanbenschoten/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/nvanbenschoten/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nvanbenschoten/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/nvanbenschoten"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/68376077baf8e8d0fe18661efe09cd17392d0c37/comments",
+    "commit": {
+      "author": {
+        "date": "2018-03-27T03:02:03Z",
+        "email": "nvanbenschoten@gmail.com",
+        "name": "Nathan VanBenschoten"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-03-15T22:56:53Z",
+        "email": "nvanbenschoten@gmail.com",
+        "name": "Nathan VanBenschoten"
+      },
+      "message": "storage: merge evaluateProposal and evaluateProposalInner\n\nThis addresses a TODO and makes this code much easier to work\nwith.\n\nRelease note: None",
+      "tree": {
+        "sha": "937e5b3a8b967e62b0f370b714028d4f60305f49",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/937e5b3a8b967e62b0f370b714028d4f60305f49"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/68376077baf8e8d0fe18661efe09cd17392d0c37",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5438456?v=4",
+      "events_url": "https://api.github.com/users/nvanbenschoten/events{/privacy}",
+      "followers_url": "https://api.github.com/users/nvanbenschoten/followers",
+      "following_url": "https://api.github.com/users/nvanbenschoten/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nvanbenschoten/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/nvanbenschoten",
+      "id": 5438456,
+      "login": "nvanbenschoten",
+      "node_id": "MDQ6VXNlcjU0Mzg0NTY=",
+      "organizations_url": "https://api.github.com/users/nvanbenschoten/orgs",
+      "received_events_url": "https://api.github.com/users/nvanbenschoten/received_events",
+      "repos_url": "https://api.github.com/users/nvanbenschoten/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/nvanbenschoten/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nvanbenschoten/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/nvanbenschoten"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/68376077baf8e8d0fe18661efe09cd17392d0c37",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6NjgzNzYwNzdiYWY4ZThkMGZlMTg2NjFlZmUwOWNkMTczOTJkMGMzNw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/643e31ea0d471dc174dd36ecc7b8b600da3c53c5",
+        "sha": "643e31ea0d471dc174dd36ecc7b8b600da3c53c5",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/643e31ea0d471dc174dd36ecc7b8b600da3c53c5"
+      }
+    ],
+    "sha": "68376077baf8e8d0fe18661efe09cd17392d0c37",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/68376077baf8e8d0fe18661efe09cd17392d0c37"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5438456?v=4",
+      "events_url": "https://api.github.com/users/nvanbenschoten/events{/privacy}",
+      "followers_url": "https://api.github.com/users/nvanbenschoten/followers",
+      "following_url": "https://api.github.com/users/nvanbenschoten/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nvanbenschoten/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/nvanbenschoten",
+      "id": 5438456,
+      "login": "nvanbenschoten",
+      "node_id": "MDQ6VXNlcjU0Mzg0NTY=",
+      "organizations_url": "https://api.github.com/users/nvanbenschoten/orgs",
+      "received_events_url": "https://api.github.com/users/nvanbenschoten/received_events",
+      "repos_url": "https://api.github.com/users/nvanbenschoten/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/nvanbenschoten/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nvanbenschoten/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/nvanbenschoten"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/643e31ea0d471dc174dd36ecc7b8b600da3c53c5/comments",
+    "commit": {
+      "author": {
+        "date": "2018-03-27T01:57:13Z",
+        "email": "nvanbenschoten@gmail.com",
+        "name": "Nathan VanBenschoten"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-03-15T22:56:53Z",
+        "email": "nvanbenschoten@gmail.com",
+        "name": "Nathan VanBenschoten"
+      },
+      "message": "storage: simplify error handling in evaluateProposalInner\n\nProposals that return errors but still want to go through Raft to\nlay down intents were refactored away in #21140. This allows us to\nsimplify the error handling in `evaluateProposalInner`.\n\nRelease note: None",
+      "tree": {
+        "sha": "4d9e59be384fd5e69e53574c7f556a7cef6fd71e",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/4d9e59be384fd5e69e53574c7f556a7cef6fd71e"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/643e31ea0d471dc174dd36ecc7b8b600da3c53c5",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5438456?v=4",
+      "events_url": "https://api.github.com/users/nvanbenschoten/events{/privacy}",
+      "followers_url": "https://api.github.com/users/nvanbenschoten/followers",
+      "following_url": "https://api.github.com/users/nvanbenschoten/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nvanbenschoten/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/nvanbenschoten",
+      "id": 5438456,
+      "login": "nvanbenschoten",
+      "node_id": "MDQ6VXNlcjU0Mzg0NTY=",
+      "organizations_url": "https://api.github.com/users/nvanbenschoten/orgs",
+      "received_events_url": "https://api.github.com/users/nvanbenschoten/received_events",
+      "repos_url": "https://api.github.com/users/nvanbenschoten/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/nvanbenschoten/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nvanbenschoten/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/nvanbenschoten"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/643e31ea0d471dc174dd36ecc7b8b600da3c53c5",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6NjQzZTMxZWEwZDQ3MWRjMTc0ZGQzNmVjYzdiOGI2MDBkYTNjNTNjNQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/01ce10d6d6ca8fbb978ea62c6008fd4d59bec337",
+        "sha": "01ce10d6d6ca8fbb978ea62c6008fd4d59bec337",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/01ce10d6d6ca8fbb978ea62c6008fd4d59bec337"
+      }
+    ],
+    "sha": "643e31ea0d471dc174dd36ecc7b8b600da3c53c5",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/643e31ea0d471dc174dd36ecc7b8b600da3c53c5"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5438456?v=4",
+      "events_url": "https://api.github.com/users/nvanbenschoten/events{/privacy}",
+      "followers_url": "https://api.github.com/users/nvanbenschoten/followers",
+      "following_url": "https://api.github.com/users/nvanbenschoten/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nvanbenschoten/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/nvanbenschoten",
+      "id": 5438456,
+      "login": "nvanbenschoten",
+      "node_id": "MDQ6VXNlcjU0Mzg0NTY=",
+      "organizations_url": "https://api.github.com/users/nvanbenschoten/orgs",
+      "received_events_url": "https://api.github.com/users/nvanbenschoten/received_events",
+      "repos_url": "https://api.github.com/users/nvanbenschoten/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/nvanbenschoten/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nvanbenschoten/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/nvanbenschoten"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/01ce10d6d6ca8fbb978ea62c6008fd4d59bec337/comments",
+    "commit": {
+      "author": {
+        "date": "2018-03-27T01:37:06Z",
+        "email": "nvanbenschoten@gmail.com",
+        "name": "Nathan VanBenschoten"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-03-15T22:56:53Z",
+        "email": "nvanbenschoten@gmail.com",
+        "name": "Nathan VanBenschoten"
+      },
+      "message": "storage: remove wasWriting flag from evaluateProposalInner\n\nAn assertion showed that it was never needed.\n\nRelease note: None",
+      "tree": {
+        "sha": "08d9a4df128e10453480a2c33a5147f723e48a3a",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/08d9a4df128e10453480a2c33a5147f723e48a3a"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/01ce10d6d6ca8fbb978ea62c6008fd4d59bec337",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5438456?v=4",
+      "events_url": "https://api.github.com/users/nvanbenschoten/events{/privacy}",
+      "followers_url": "https://api.github.com/users/nvanbenschoten/followers",
+      "following_url": "https://api.github.com/users/nvanbenschoten/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nvanbenschoten/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/nvanbenschoten",
+      "id": 5438456,
+      "login": "nvanbenschoten",
+      "node_id": "MDQ6VXNlcjU0Mzg0NTY=",
+      "organizations_url": "https://api.github.com/users/nvanbenschoten/orgs",
+      "received_events_url": "https://api.github.com/users/nvanbenschoten/received_events",
+      "repos_url": "https://api.github.com/users/nvanbenschoten/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/nvanbenschoten/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nvanbenschoten/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/nvanbenschoten"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/01ce10d6d6ca8fbb978ea62c6008fd4d59bec337",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6MDFjZTEwZDZkNmNhOGZiYjk3OGVhNjJjNjAwOGZkNGQ1OWJlYzMzNw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/02bbdc43a7237173e5e87df764fab34ed69ffab8",
+        "sha": "02bbdc43a7237173e5e87df764fab34ed69ffab8",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/02bbdc43a7237173e5e87df764fab34ed69ffab8"
+      }
+    ],
+    "sha": "01ce10d6d6ca8fbb978ea62c6008fd4d59bec337",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/01ce10d6d6ca8fbb978ea62c6008fd4d59bec337"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5438456?v=4",
+      "events_url": "https://api.github.com/users/nvanbenschoten/events{/privacy}",
+      "followers_url": "https://api.github.com/users/nvanbenschoten/followers",
+      "following_url": "https://api.github.com/users/nvanbenschoten/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nvanbenschoten/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/nvanbenschoten",
+      "id": 5438456,
+      "login": "nvanbenschoten",
+      "node_id": "MDQ6VXNlcjU0Mzg0NTY=",
+      "organizations_url": "https://api.github.com/users/nvanbenschoten/orgs",
+      "received_events_url": "https://api.github.com/users/nvanbenschoten/received_events",
+      "repos_url": "https://api.github.com/users/nvanbenschoten/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/nvanbenschoten/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nvanbenschoten/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/nvanbenschoten"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/02bbdc43a7237173e5e87df764fab34ed69ffab8/comments",
+    "commit": {
+      "author": {
+        "date": "2018-03-26T23:43:45Z",
+        "email": "nvanbenschoten@gmail.com",
+        "name": "Nathan VanBenschoten"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-03-15T22:56:53Z",
+        "email": "nvanbenschoten@gmail.com",
+        "name": "Nathan VanBenschoten"
+      },
+      "message": "storage: never return nil batch from evaluateWriteBatch\n\nWith the small change to evaluateWriteBatch, an assertion showed\nthat the returned batch is never nil.\n\nRelease note: None",
+      "tree": {
+        "sha": "3e71c58c587e9f4d6ce513e7b980a3dd848ccb3e",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/3e71c58c587e9f4d6ce513e7b980a3dd848ccb3e"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/02bbdc43a7237173e5e87df764fab34ed69ffab8",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5438456?v=4",
+      "events_url": "https://api.github.com/users/nvanbenschoten/events{/privacy}",
+      "followers_url": "https://api.github.com/users/nvanbenschoten/followers",
+      "following_url": "https://api.github.com/users/nvanbenschoten/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nvanbenschoten/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/nvanbenschoten",
+      "id": 5438456,
+      "login": "nvanbenschoten",
+      "node_id": "MDQ6VXNlcjU0Mzg0NTY=",
+      "organizations_url": "https://api.github.com/users/nvanbenschoten/orgs",
+      "received_events_url": "https://api.github.com/users/nvanbenschoten/received_events",
+      "repos_url": "https://api.github.com/users/nvanbenschoten/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/nvanbenschoten/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nvanbenschoten/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/nvanbenschoten"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/02bbdc43a7237173e5e87df764fab34ed69ffab8",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6MDJiYmRjNDNhNzIzNzE3M2U1ZTg3ZGY3NjRmYWIzNGVkNjlmZmFiOA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/d6ebd69969370d43829906d23a728b156eaa8099",
+        "sha": "d6ebd69969370d43829906d23a728b156eaa8099",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/d6ebd69969370d43829906d23a728b156eaa8099"
+      }
+    ],
+    "sha": "02bbdc43a7237173e5e87df764fab34ed69ffab8",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/02bbdc43a7237173e5e87df764fab34ed69ffab8"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1839234?v=4",
+      "events_url": "https://api.github.com/users/ajwerner/events{/privacy}",
+      "followers_url": "https://api.github.com/users/ajwerner/followers",
+      "following_url": "https://api.github.com/users/ajwerner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ajwerner/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/ajwerner",
+      "id": 1839234,
+      "login": "ajwerner",
+      "node_id": "MDQ6VXNlcjE4MzkyMzQ=",
+      "organizations_url": "https://api.github.com/users/ajwerner/orgs",
+      "received_events_url": "https://api.github.com/users/ajwerner/received_events",
+      "repos_url": "https://api.github.com/users/ajwerner/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/ajwerner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ajwerner/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/ajwerner"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/d6ebd69969370d43829906d23a728b156eaa8099/comments",
+    "commit": {
+      "author": {
+        "date": "2019-03-11T21:21:03Z",
+        "email": "awerner32@gmail.com",
+        "name": "ajwerner"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-03-11T21:21:03Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #35613 from ajwerner/ajwerner/backport-2.0-breaker-change\n\nrelease-2.0: storage: don't trip breaker if context is canceled",
+      "tree": {
+        "sha": "493207fa7abaf7d440bfbce7eae52df2b0473450",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/493207fa7abaf7d440bfbce7eae52df2b0473450"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/d6ebd69969370d43829906d23a728b156eaa8099",
+      "verification": {
+        "payload": "tree 493207fa7abaf7d440bfbce7eae52df2b0473450\nparent 43cc4796d8d487f6411bb2b557f54fa3a1deb91e\nparent c6faf2a7a76c707ed2c00f11ebd657e12a78b37a\nauthor ajwerner <awerner32@gmail.com> 1552339263 -0400\ncommitter GitHub <noreply@github.com> 1552339263 -0400\n\nMerge pull request #35613 from ajwerner/ajwerner/backport-2.0-breaker-change\n\nrelease-2.0: storage: don't trip breaker if context is canceled",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJchtE/CRBK7hj4Ov3rIwAAdHIIAC2+MPVPtJjLeVO5+NRYjgXd\nXdG+WVF9sG+1HzLSmxjG0Mv8hE0/qc95ARw8cItDJtsJun2RBMqmdQwR4JYT7G8E\nBTZ4ZUU0xq4U+nPGGcvhvBxjCnnywapM/f4AY+ekrRFv4VcSD29nB2+xWKbaJXh5\nM4d1PZeAFE57xhXocntMiaTPb8cwDj8BWVhZ3WF4qxOd6Syx2f51+PFLtmuS/Zd1\nQImMPRQRK3t+JFAL4+zH67QzRzRmBXFYyyZiUfvkEz9D4306WQDyIyHObXmJD2oH\nw2qHY7Q0uaOK7/u3xx12voSzwCyADytI96osjbIs62rjK+dIM+2V/xo7KYn2zyE=\n=rvFI\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/d6ebd69969370d43829906d23a728b156eaa8099",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6ZDZlYmQ2OTk2OTM3MGQ0MzgyOTkwNmQyM2E3MjhiMTU2ZWFhODA5OQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/43cc4796d8d487f6411bb2b557f54fa3a1deb91e",
+        "sha": "43cc4796d8d487f6411bb2b557f54fa3a1deb91e",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/43cc4796d8d487f6411bb2b557f54fa3a1deb91e"
+      },
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/c6faf2a7a76c707ed2c00f11ebd657e12a78b37a",
+        "sha": "c6faf2a7a76c707ed2c00f11ebd657e12a78b37a",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/c6faf2a7a76c707ed2c00f11ebd657e12a78b37a"
+      }
+    ],
+    "sha": "d6ebd69969370d43829906d23a728b156eaa8099",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/d6ebd69969370d43829906d23a728b156eaa8099"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1839234?v=4",
+      "events_url": "https://api.github.com/users/ajwerner/events{/privacy}",
+      "followers_url": "https://api.github.com/users/ajwerner/followers",
+      "following_url": "https://api.github.com/users/ajwerner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ajwerner/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/ajwerner",
+      "id": 1839234,
+      "login": "ajwerner",
+      "node_id": "MDQ6VXNlcjE4MzkyMzQ=",
+      "organizations_url": "https://api.github.com/users/ajwerner/orgs",
+      "received_events_url": "https://api.github.com/users/ajwerner/received_events",
+      "repos_url": "https://api.github.com/users/ajwerner/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/ajwerner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ajwerner/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/ajwerner"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/c6faf2a7a76c707ed2c00f11ebd657e12a78b37a/comments",
+    "commit": {
+      "author": {
+        "date": "2019-03-11T17:46:24Z",
+        "email": "ajwerner@cockroachlabs.com",
+        "name": "Andrew Werner"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-03-11T18:46:25Z",
+        "email": "ajwerner@cockroachlabs.com",
+        "name": "Andrew Werner"
+      },
+      "message": "release-2.0: storage: don't trip breaker if context is canceled\n\nThis PR backports the idea behind #35433 to release-2.0.\n\nRelease note: None",
+      "tree": {
+        "sha": "493207fa7abaf7d440bfbce7eae52df2b0473450",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/493207fa7abaf7d440bfbce7eae52df2b0473450"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/c6faf2a7a76c707ed2c00f11ebd657e12a78b37a",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1839234?v=4",
+      "events_url": "https://api.github.com/users/ajwerner/events{/privacy}",
+      "followers_url": "https://api.github.com/users/ajwerner/followers",
+      "following_url": "https://api.github.com/users/ajwerner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ajwerner/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/ajwerner",
+      "id": 1839234,
+      "login": "ajwerner",
+      "node_id": "MDQ6VXNlcjE4MzkyMzQ=",
+      "organizations_url": "https://api.github.com/users/ajwerner/orgs",
+      "received_events_url": "https://api.github.com/users/ajwerner/received_events",
+      "repos_url": "https://api.github.com/users/ajwerner/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/ajwerner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ajwerner/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/ajwerner"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/c6faf2a7a76c707ed2c00f11ebd657e12a78b37a",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6YzZmYWYyYTdhNzZjNzA3ZWQyYzAwZjExZWJkNjU3ZTEyYTc4YjM3YQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/43cc4796d8d487f6411bb2b557f54fa3a1deb91e",
+        "sha": "43cc4796d8d487f6411bb2b557f54fa3a1deb91e",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/43cc4796d8d487f6411bb2b557f54fa3a1deb91e"
+      }
+    ],
+    "sha": "c6faf2a7a76c707ed2c00f11ebd657e12a78b37a",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/c6faf2a7a76c707ed2c00f11ebd657e12a78b37a"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1839234?v=4",
+      "events_url": "https://api.github.com/users/ajwerner/events{/privacy}",
+      "followers_url": "https://api.github.com/users/ajwerner/followers",
+      "following_url": "https://api.github.com/users/ajwerner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ajwerner/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/ajwerner",
+      "id": 1839234,
+      "login": "ajwerner",
+      "node_id": "MDQ6VXNlcjE4MzkyMzQ=",
+      "organizations_url": "https://api.github.com/users/ajwerner/orgs",
+      "received_events_url": "https://api.github.com/users/ajwerner/received_events",
+      "repos_url": "https://api.github.com/users/ajwerner/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/ajwerner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ajwerner/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/ajwerner"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/43cc4796d8d487f6411bb2b557f54fa3a1deb91e/comments",
+    "commit": {
+      "author": {
+        "date": "2019-03-08T16:58:21Z",
+        "email": "awerner32@gmail.com",
+        "name": "ajwerner"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-03-08T16:58:21Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #35361 from ajwerner/backport2.0-33676\n\nrelease-2.0: rpc: adopt logging in circuitbreaker",
+      "tree": {
+        "sha": "1b41221feea75c5810153645ac1262eef61b9e6b",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/1b41221feea75c5810153645ac1262eef61b9e6b"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/43cc4796d8d487f6411bb2b557f54fa3a1deb91e",
+      "verification": {
+        "payload": "tree 1b41221feea75c5810153645ac1262eef61b9e6b\nparent c0f63e44fb430ad760398a27dd8c4b4d6fb17a72\nparent 1e995af262113a5d543c28bc1ed8cda51450b109\nauthor ajwerner <awerner32@gmail.com> 1552064301 -0500\ncommitter GitHub <noreply@github.com> 1552064301 -0500\n\nMerge pull request #35361 from ajwerner/backport2.0-33676\n\nrelease-2.0: rpc: adopt logging in circuitbreaker",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJcgp8tCRBK7hj4Ov3rIwAAdHIIAEASKLqj5FN/5w1C3ZgJV7v6\npaBOjhCBt2RlRJ84IpKnsdyMIFcVLaYme2Rpg+D5e0bJKgXZFjcEPeChNbyjMdXY\nz/qO7lRaDm6i/WZ9hLGny/5PUU03kb/n/CewXzcClAaixeMjj86AwSpDTDButN4/\n/YhJs/bMM0xJtXT//6QwjlvzOyB1TWBjOka9gIqUp1kliopnW2zNxwO67kgK9UmD\nNi5RCqYBYsGax7P1nObtPsSIFgUnwqt+T1uad/FlBP+XFdQbjywt/nqbstAo36W3\nGhu6oYFA/ypKxA6UrP9j814EFxb4LRnhqRgmA9hEvJ66Pik2heQfToTafH+XzXs=\n=4jpT\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/43cc4796d8d487f6411bb2b557f54fa3a1deb91e",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6NDNjYzQ3OTZkOGQ0ODdmNjQxMWJiMmI1NTdmNTRmYTNhMWRlYjkxZQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/c0f63e44fb430ad760398a27dd8c4b4d6fb17a72",
+        "sha": "c0f63e44fb430ad760398a27dd8c4b4d6fb17a72",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/c0f63e44fb430ad760398a27dd8c4b4d6fb17a72"
+      },
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/1e995af262113a5d543c28bc1ed8cda51450b109",
+        "sha": "1e995af262113a5d543c28bc1ed8cda51450b109",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/1e995af262113a5d543c28bc1ed8cda51450b109"
+      }
+    ],
+    "sha": "43cc4796d8d487f6411bb2b557f54fa3a1deb91e",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/43cc4796d8d487f6411bb2b557f54fa3a1deb91e"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1839234?v=4",
+      "events_url": "https://api.github.com/users/ajwerner/events{/privacy}",
+      "followers_url": "https://api.github.com/users/ajwerner/followers",
+      "following_url": "https://api.github.com/users/ajwerner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ajwerner/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/ajwerner",
+      "id": 1839234,
+      "login": "ajwerner",
+      "node_id": "MDQ6VXNlcjE4MzkyMzQ=",
+      "organizations_url": "https://api.github.com/users/ajwerner/orgs",
+      "received_events_url": "https://api.github.com/users/ajwerner/received_events",
+      "repos_url": "https://api.github.com/users/ajwerner/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/ajwerner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ajwerner/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/ajwerner"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/1e995af262113a5d543c28bc1ed8cda51450b109/comments",
+    "commit": {
+      "author": {
+        "date": "2019-01-08T15:34:27Z",
+        "email": "ajwerner@cockroachlabs.com",
+        "name": "Andrew Werner"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-03-08T16:13:57Z",
+        "email": "ajwerner@cockroachlabs.com",
+        "name": "Andrew Werner"
+      },
+      "message": "rpc: adopt logger in circuit breaker\n\nAdopts changes to the circuitbreaker package to enable logging.\n\nRelease note: None",
+      "tree": {
+        "sha": "1b41221feea75c5810153645ac1262eef61b9e6b",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/1b41221feea75c5810153645ac1262eef61b9e6b"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/1e995af262113a5d543c28bc1ed8cda51450b109",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1839234?v=4",
+      "events_url": "https://api.github.com/users/ajwerner/events{/privacy}",
+      "followers_url": "https://api.github.com/users/ajwerner/followers",
+      "following_url": "https://api.github.com/users/ajwerner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ajwerner/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/ajwerner",
+      "id": 1839234,
+      "login": "ajwerner",
+      "node_id": "MDQ6VXNlcjE4MzkyMzQ=",
+      "organizations_url": "https://api.github.com/users/ajwerner/orgs",
+      "received_events_url": "https://api.github.com/users/ajwerner/received_events",
+      "repos_url": "https://api.github.com/users/ajwerner/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/ajwerner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ajwerner/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/ajwerner"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/1e995af262113a5d543c28bc1ed8cda51450b109",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6MWU5OTVhZjI2MjExM2E1ZDU0M2MyOGJjMWVkOGNkYTUxNDUwYjEwOQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/c0f63e44fb430ad760398a27dd8c4b4d6fb17a72",
+        "sha": "c0f63e44fb430ad760398a27dd8c4b4d6fb17a72",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/c0f63e44fb430ad760398a27dd8c4b4d6fb17a72"
+      }
+    ],
+    "sha": "1e995af262113a5d543c28bc1ed8cda51450b109",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/1e995af262113a5d543c28bc1ed8cda51450b109"
+  }
+]

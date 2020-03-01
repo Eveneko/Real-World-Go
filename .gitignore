@@ -1,6 +1,7 @@
 # IDE
-.idea/*
-.vscode/*
+.idea
+.vscode/
+/venv/
 
 # MAC
 .DS_Store

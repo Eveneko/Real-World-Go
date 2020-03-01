@@ -1,0 +1,2442 @@
+[
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/20407524?v=4",
+      "events_url": "https://api.github.com/users/k8s-ci-robot/events{/privacy}",
+      "followers_url": "https://api.github.com/users/k8s-ci-robot/followers",
+      "following_url": "https://api.github.com/users/k8s-ci-robot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/k8s-ci-robot/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/k8s-ci-robot",
+      "id": 20407524,
+      "login": "k8s-ci-robot",
+      "node_id": "MDQ6VXNlcjIwNDA3NTI0",
+      "organizations_url": "https://api.github.com/users/k8s-ci-robot/orgs",
+      "received_events_url": "https://api.github.com/users/k8s-ci-robot/received_events",
+      "repos_url": "https://api.github.com/users/k8s-ci-robot/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/k8s-ci-robot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/k8s-ci-robot/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/k8s-ci-robot"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/afc81f4145987fdf63d9f5bb17e74736ec331cc1/comments",
+    "commit": {
+      "author": {
+        "date": "2019-01-30T00:08:28Z",
+        "email": "k8s-ci-robot@users.noreply.github.com",
+        "name": "Kubernetes Prow Robot"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-01-30T00:08:28Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #71758 from jennybuckley/apply-no-op-pr\n\n[feature-branch] Remove outdated TODO comment",
+      "tree": {
+        "sha": "0ef6f1a235442d81577cd6c9d5eacbffea9973ab",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/0ef6f1a235442d81577cd6c9d5eacbffea9973ab"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/afc81f4145987fdf63d9f5bb17e74736ec331cc1",
+      "verification": {
+        "payload": "tree 0ef6f1a235442d81577cd6c9d5eacbffea9973ab\nparent 3ba2e173e98a6820840fd2ce5543920bc52b4a81\nparent e52bcdf26204e64a7f06c99e797ecd110efeed84\nauthor Kubernetes Prow Robot <k8s-ci-robot@users.noreply.github.com> 1548806908 -0800\ncommitter GitHub <noreply@github.com> 1548806908 -0800\n\nMerge pull request #71758 from jennybuckley/apply-no-op-pr\n\n[feature-branch] Remove outdated TODO comment",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJcUOr8CRBK7hj4Ov3rIwAAdHIIAJ4mBucUyShfYyKilQucFBH4\nG/2BHn2zOkNv82tUsKgpN6WwXZ3ZdRilrVZ0GQlPDLg87uZgsBFhXELXurKtwzLC\nIneo+Y+R6jtv+kBEhFo2TjTpWaPrtwXTm7UNkJOBnrxnnVGAIANvoGcEbEK60D5O\nX6OIl8GvDNlJrZ0+d8mKI9SNb4pi+GZaLXyZFIjskjiU4+ggiHZJTOy9qQGk8XpL\nov0raRquKwRswAt+0QaIJ3wLU2Lk70HVvSaxGrzVL3jebMVVDk08MqY9ymSFdLAx\nBJoseOqk6DsiOO3vbbYrPiHFV27E5mepkq40le6z9IrqsvpxWejHvCNZxnJX6Nk=\n=stgZ\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/afc81f4145987fdf63d9f5bb17e74736ec331cc1",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6YWZjODFmNDE0NTk4N2ZkZjYzZDlmNWJiMTdlNzQ3MzZlYzMzMWNjMQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/3ba2e173e98a6820840fd2ce5543920bc52b4a81",
+        "sha": "3ba2e173e98a6820840fd2ce5543920bc52b4a81",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/3ba2e173e98a6820840fd2ce5543920bc52b4a81"
+      },
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/e52bcdf26204e64a7f06c99e797ecd110efeed84",
+        "sha": "e52bcdf26204e64a7f06c99e797ecd110efeed84",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/e52bcdf26204e64a7f06c99e797ecd110efeed84"
+      }
+    ],
+    "sha": "afc81f4145987fdf63d9f5bb17e74736ec331cc1",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/afc81f4145987fdf63d9f5bb17e74736ec331cc1"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/20407524?v=4",
+      "events_url": "https://api.github.com/users/k8s-ci-robot/events{/privacy}",
+      "followers_url": "https://api.github.com/users/k8s-ci-robot/followers",
+      "following_url": "https://api.github.com/users/k8s-ci-robot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/k8s-ci-robot/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/k8s-ci-robot",
+      "id": 20407524,
+      "login": "k8s-ci-robot",
+      "node_id": "MDQ6VXNlcjIwNDA3NTI0",
+      "organizations_url": "https://api.github.com/users/k8s-ci-robot/orgs",
+      "received_events_url": "https://api.github.com/users/k8s-ci-robot/received_events",
+      "repos_url": "https://api.github.com/users/k8s-ci-robot/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/k8s-ci-robot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/k8s-ci-robot/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/k8s-ci-robot"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/3ba2e173e98a6820840fd2ce5543920bc52b4a81/comments",
+    "commit": {
+      "author": {
+        "date": "2019-01-29T18:05:10Z",
+        "email": "k8s-ci-robot@users.noreply.github.com",
+        "name": "Kubernetes Prow Robot"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-01-29T18:05:10Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #73438 from jennybuckley/change-managedFields-api\n\n[FEATURE SERVERSIDE APPLY] Structure manager info in api",
+      "tree": {
+        "sha": "624c46a8a22fdb747634372e8b18d3c3209c3c7a",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/624c46a8a22fdb747634372e8b18d3c3209c3c7a"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/3ba2e173e98a6820840fd2ce5543920bc52b4a81",
+      "verification": {
+        "payload": "tree 624c46a8a22fdb747634372e8b18d3c3209c3c7a\nparent 91b10e7437a5bd4b1574d5056ce8bcb30619a55e\nparent d397e52e3df599b2da195e14b2c564503f17e335\nauthor Kubernetes Prow Robot <k8s-ci-robot@users.noreply.github.com> 1548785110 -0800\ncommitter GitHub <noreply@github.com> 1548785110 -0800\n\nMerge pull request #73438 from jennybuckley/change-managedFields-api\n\n[FEATURE SERVERSIDE APPLY] Structure manager info in api",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJcUJXWCRBK7hj4Ov3rIwAAdHIIAF6bpIjcGb50/nDPpgzs3Mn/\nEi97KQasVWqKFpkLu9J+m7bFwuT+i5Jne3SbxbNwI+E85AKOly2upLaN9ozpSIpa\nA0GhJhh0wHy4VWp/uTASgGRoVWZ6MsIln4uOMFBPzba3f7I4p5zLjIywkL03J+ut\noeIdEQ01QOzTj4mDgu36yrby3zBzrO4Ou+B5GRzOSBedCeumg1Ab6yyDj5ETToM8\nTxKTYaCbrMdHHOOODPJENJSXX3v6mVj6PIsIWbCWudtzv/xMLd9hZrbPhYdw2wS+\n9M1Y6DmBgYXEzi5AnlmO3HVa8zzMX+PtcAJ7mQaptXYhf3zB1NirXdKyRx1corA=\n=5/AG\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/3ba2e173e98a6820840fd2ce5543920bc52b4a81",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6M2JhMmUxNzNlOThhNjgyMDg0MGZkMmNlNTU0MzkyMGJjNTJiNGE4MQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/91b10e7437a5bd4b1574d5056ce8bcb30619a55e",
+        "sha": "91b10e7437a5bd4b1574d5056ce8bcb30619a55e",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/91b10e7437a5bd4b1574d5056ce8bcb30619a55e"
+      },
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/d397e52e3df599b2da195e14b2c564503f17e335",
+        "sha": "d397e52e3df599b2da195e14b2c564503f17e335",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/d397e52e3df599b2da195e14b2c564503f17e335"
+      }
+    ],
+    "sha": "3ba2e173e98a6820840fd2ce5543920bc52b4a81",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/3ba2e173e98a6820840fd2ce5543920bc52b4a81"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/31416425?v=4",
+      "events_url": "https://api.github.com/users/jennybuckley/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jennybuckley/followers",
+      "following_url": "https://api.github.com/users/jennybuckley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jennybuckley/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jennybuckley",
+      "id": 31416425,
+      "login": "jennybuckley",
+      "node_id": "MDQ6VXNlcjMxNDE2NDI1",
+      "organizations_url": "https://api.github.com/users/jennybuckley/orgs",
+      "received_events_url": "https://api.github.com/users/jennybuckley/received_events",
+      "repos_url": "https://api.github.com/users/jennybuckley/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jennybuckley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jennybuckley/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jennybuckley"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/d397e52e3df599b2da195e14b2c564503f17e335/comments",
+    "commit": {
+      "author": {
+        "date": "2019-01-29T16:47:30Z",
+        "email": "jennybuckley@google.com",
+        "name": "jennybuckley"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-01-29T16:47:30Z",
+        "email": "jennybuckley@google.com",
+        "name": "jennybuckley"
+      },
+      "message": "Fix patchhandler_test.go",
+      "tree": {
+        "sha": "3a32c841de9ba7aa8be8912c025e2816bcdb8edd",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/3a32c841de9ba7aa8be8912c025e2816bcdb8edd"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/d397e52e3df599b2da195e14b2c564503f17e335",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/31416425?v=4",
+      "events_url": "https://api.github.com/users/jennybuckley/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jennybuckley/followers",
+      "following_url": "https://api.github.com/users/jennybuckley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jennybuckley/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jennybuckley",
+      "id": 31416425,
+      "login": "jennybuckley",
+      "node_id": "MDQ6VXNlcjMxNDE2NDI1",
+      "organizations_url": "https://api.github.com/users/jennybuckley/orgs",
+      "received_events_url": "https://api.github.com/users/jennybuckley/received_events",
+      "repos_url": "https://api.github.com/users/jennybuckley/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jennybuckley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jennybuckley/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jennybuckley"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/d397e52e3df599b2da195e14b2c564503f17e335",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6ZDM5N2U1MmUzZGY1OTliMmRhMTk1ZTE0YjJjNTY0NTAzZjE3ZTMzNQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/6c5f4e778735d48056525cb3b0ae496c2865f9cd",
+        "sha": "6c5f4e778735d48056525cb3b0ae496c2865f9cd",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/6c5f4e778735d48056525cb3b0ae496c2865f9cd"
+      }
+    ],
+    "sha": "d397e52e3df599b2da195e14b2c564503f17e335",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/d397e52e3df599b2da195e14b2c564503f17e335"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/20727293?v=4",
+      "events_url": "https://api.github.com/users/kwiesmueller/events{/privacy}",
+      "followers_url": "https://api.github.com/users/kwiesmueller/followers",
+      "following_url": "https://api.github.com/users/kwiesmueller/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kwiesmueller/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/kwiesmueller",
+      "id": 20727293,
+      "login": "kwiesmueller",
+      "node_id": "MDQ6VXNlcjIwNzI3Mjkz",
+      "organizations_url": "https://api.github.com/users/kwiesmueller/orgs",
+      "received_events_url": "https://api.github.com/users/kwiesmueller/received_events",
+      "repos_url": "https://api.github.com/users/kwiesmueller/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/kwiesmueller/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kwiesmueller/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/kwiesmueller"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/6c5f4e778735d48056525cb3b0ae496c2865f9cd/comments",
+    "commit": {
+      "author": {
+        "date": "2019-01-29T15:49:43Z",
+        "email": "kwiesmueller@users.noreply.github.com",
+        "name": "Kevin Wiesm\u00fcller"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-01-29T15:49:43Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Update staging/src/k8s.io/apiserver/pkg/endpoints/handlers/fieldmanager/internal/managedfields_test.go\n\nCo-Authored-By: jennybuckley <jennybuckley@google.com>",
+      "tree": {
+        "sha": "1de4de1cc3b612faf9fd87fd447acbc1d072f4dc",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/1de4de1cc3b612faf9fd87fd447acbc1d072f4dc"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/6c5f4e778735d48056525cb3b0ae496c2865f9cd",
+      "verification": {
+        "payload": "tree 1de4de1cc3b612faf9fd87fd447acbc1d072f4dc\nparent 470c28a39346fce2682a67a47112d4db8b2204dd\nauthor Kevin Wiesm\u00fcller <kwiesmueller@users.noreply.github.com> 1548776983 -0800\ncommitter GitHub <noreply@github.com> 1548776983 -0800\n\nUpdate staging/src/k8s.io/apiserver/pkg/endpoints/handlers/fieldmanager/internal/managedfields_test.go\n\nCo-Authored-By: jennybuckley <jennybuckley@google.com>",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJcUHYXCRBK7hj4Ov3rIwAAdHIIAEhWdauyGxyFVprYxJBVfU7+\n5UlFVgSwffkizFOjP8H8ZdaJBlBfztLShwadzYAHMCD4OdQdVONSYQgOHd6sbhxb\nGr2ownNu8Lww/zJOdYVvqy/dYFp8+t4NrHwD91mePpQ2OQWeur6/k64uTDVDEFYQ\n6kIgRcXZjz+PSVURjmVNkv5mi+dTGI8ZfhOvfEcxmlDdxqxB53GMQnC+m39Cqw2h\nRZuU2Bmq1ffGWgB7/m6JTOC7GQPdLZnqMMO0P5ow2Fs/dWkq9Jrq2ogS3XtILGHk\nCeeKewgDITBp1xQpQeWUV8a0f/BH0kmAZsGPBFJgfe5maru1LKZNg7gzxDquAEo=\n=bOvY\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/6c5f4e778735d48056525cb3b0ae496c2865f9cd",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6NmM1ZjRlNzc4NzM1ZDQ4MDU2NTI1Y2IzYjBhZTQ5NmMyODY1ZjljZA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/470c28a39346fce2682a67a47112d4db8b2204dd",
+        "sha": "470c28a39346fce2682a67a47112d4db8b2204dd",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/470c28a39346fce2682a67a47112d4db8b2204dd"
+      }
+    ],
+    "sha": "6c5f4e778735d48056525cb3b0ae496c2865f9cd",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/6c5f4e778735d48056525cb3b0ae496c2865f9cd"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/20407524?v=4",
+      "events_url": "https://api.github.com/users/k8s-ci-robot/events{/privacy}",
+      "followers_url": "https://api.github.com/users/k8s-ci-robot/followers",
+      "following_url": "https://api.github.com/users/k8s-ci-robot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/k8s-ci-robot/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/k8s-ci-robot",
+      "id": 20407524,
+      "login": "k8s-ci-robot",
+      "node_id": "MDQ6VXNlcjIwNDA3NTI0",
+      "organizations_url": "https://api.github.com/users/k8s-ci-robot/orgs",
+      "received_events_url": "https://api.github.com/users/k8s-ci-robot/received_events",
+      "repos_url": "https://api.github.com/users/k8s-ci-robot/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/k8s-ci-robot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/k8s-ci-robot/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/k8s-ci-robot"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/91b10e7437a5bd4b1574d5056ce8bcb30619a55e/comments",
+    "commit": {
+      "author": {
+        "date": "2019-01-29T03:03:13Z",
+        "email": "k8s-ci-robot@users.noreply.github.com",
+        "name": "Kubernetes Prow Robot"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-01-29T03:03:13Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #73265 from kwiesmueller/feature-serverside-apply\n\n[FEATURE-SERVERSIDE-APPLY] add userAgent info to create and update",
+      "tree": {
+        "sha": "fc97346252e2ac5f172a0506298a8c0029965500",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/fc97346252e2ac5f172a0506298a8c0029965500"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/91b10e7437a5bd4b1574d5056ce8bcb30619a55e",
+      "verification": {
+        "payload": "tree fc97346252e2ac5f172a0506298a8c0029965500\nparent adf8a72133f3426cb8dfe9355120f7bb38d327a2\nparent 307b09fda811a61072de8977c882fbd9f49be06b\nauthor Kubernetes Prow Robot <k8s-ci-robot@users.noreply.github.com> 1548730993 -0800\ncommitter GitHub <noreply@github.com> 1548730993 -0800\n\nMerge pull request #73265 from kwiesmueller/feature-serverside-apply\n\n[FEATURE-SERVERSIDE-APPLY] add userAgent info to create and update",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJcT8JxCRBK7hj4Ov3rIwAAdHIIAIdNqpTGQQYsPBXiOdwhbEbu\nHELExuL3a6dfNlKVl2mAxNKjsxCU4pyYdWCfFbA4fFAqHinGFt5669w+QcxXU1ic\nHUV0V7owq59xISxAUsTxgMLGc2foa+zhznVp+sNWh+uU8XGWsjRHwfzSV91v6Ehx\nqwLurvU+vOjXkNXE23kRMvrnAfeq4YlhL05cfkVrwuogGoWPbYy3xajkGdZu1fi4\nfcT0bs0lwGVTl/boW5/7kphijKoaWnalgBYW4QWMHzLIigKLaKjnHjrPpRkjTvit\nmqBDfwyWY2HO2iTaaeU24Z6tZhZuALMxLAbdmnrgdF7B45oEUd8+11TTtOgOWoM=\n=hbg6\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/91b10e7437a5bd4b1574d5056ce8bcb30619a55e",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6OTFiMTBlNzQzN2E1YmQ0YjE1NzRkNTA1NmNlOGJjYjMwNjE5YTU1ZQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/adf8a72133f3426cb8dfe9355120f7bb38d327a2",
+        "sha": "adf8a72133f3426cb8dfe9355120f7bb38d327a2",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/adf8a72133f3426cb8dfe9355120f7bb38d327a2"
+      },
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/307b09fda811a61072de8977c882fbd9f49be06b",
+        "sha": "307b09fda811a61072de8977c882fbd9f49be06b",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/307b09fda811a61072de8977c882fbd9f49be06b"
+      }
+    ],
+    "sha": "91b10e7437a5bd4b1574d5056ce8bcb30619a55e",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/91b10e7437a5bd4b1574d5056ce8bcb30619a55e"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/31416425?v=4",
+      "events_url": "https://api.github.com/users/jennybuckley/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jennybuckley/followers",
+      "following_url": "https://api.github.com/users/jennybuckley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jennybuckley/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jennybuckley",
+      "id": 31416425,
+      "login": "jennybuckley",
+      "node_id": "MDQ6VXNlcjMxNDE2NDI1",
+      "organizations_url": "https://api.github.com/users/jennybuckley/orgs",
+      "received_events_url": "https://api.github.com/users/jennybuckley/received_events",
+      "repos_url": "https://api.github.com/users/jennybuckley/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jennybuckley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jennybuckley/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jennybuckley"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/470c28a39346fce2682a67a47112d4db8b2204dd/comments",
+    "commit": {
+      "author": {
+        "date": "2019-01-28T23:37:56Z",
+        "email": "jennybuckley@google.com",
+        "name": "jennybuckley"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-01-28T23:37:56Z",
+        "email": "jennybuckley@google.com",
+        "name": "jennybuckley"
+      },
+      "message": "Update generated",
+      "tree": {
+        "sha": "fbbcd083c2cf6a516df68371a339cca9de5716e5",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/fbbcd083c2cf6a516df68371a339cca9de5716e5"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/470c28a39346fce2682a67a47112d4db8b2204dd",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/31416425?v=4",
+      "events_url": "https://api.github.com/users/jennybuckley/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jennybuckley/followers",
+      "following_url": "https://api.github.com/users/jennybuckley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jennybuckley/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jennybuckley",
+      "id": 31416425,
+      "login": "jennybuckley",
+      "node_id": "MDQ6VXNlcjMxNDE2NDI1",
+      "organizations_url": "https://api.github.com/users/jennybuckley/orgs",
+      "received_events_url": "https://api.github.com/users/jennybuckley/received_events",
+      "repos_url": "https://api.github.com/users/jennybuckley/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jennybuckley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jennybuckley/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jennybuckley"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/470c28a39346fce2682a67a47112d4db8b2204dd",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6NDcwYzI4YTM5MzQ2ZmNlMjY4MmE2N2E0NzExMmQ0ZGI4YjIyMDRkZA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/80c77a6c3b178a83105994fd9ed4bc97a7d836e4",
+        "sha": "80c77a6c3b178a83105994fd9ed4bc97a7d836e4",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/80c77a6c3b178a83105994fd9ed4bc97a7d836e4"
+      }
+    ],
+    "sha": "470c28a39346fce2682a67a47112d4db8b2204dd",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/470c28a39346fce2682a67a47112d4db8b2204dd"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/31416425?v=4",
+      "events_url": "https://api.github.com/users/jennybuckley/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jennybuckley/followers",
+      "following_url": "https://api.github.com/users/jennybuckley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jennybuckley/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jennybuckley",
+      "id": 31416425,
+      "login": "jennybuckley",
+      "node_id": "MDQ6VXNlcjMxNDE2NDI1",
+      "organizations_url": "https://api.github.com/users/jennybuckley/orgs",
+      "received_events_url": "https://api.github.com/users/jennybuckley/received_events",
+      "repos_url": "https://api.github.com/users/jennybuckley/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jennybuckley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jennybuckley/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jennybuckley"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/80c77a6c3b178a83105994fd9ed4bc97a7d836e4/comments",
+    "commit": {
+      "author": {
+        "date": "2019-01-28T23:37:49Z",
+        "email": "jennybuckley@google.com",
+        "name": "jennybuckley"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-01-28T23:37:49Z",
+        "email": "jennybuckley@google.com",
+        "name": "jennybuckley"
+      },
+      "message": "Structure manager info in api",
+      "tree": {
+        "sha": "d5853f3139dfd48a87cf9552e1fa651d07c93c0a",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/d5853f3139dfd48a87cf9552e1fa651d07c93c0a"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/80c77a6c3b178a83105994fd9ed4bc97a7d836e4",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/31416425?v=4",
+      "events_url": "https://api.github.com/users/jennybuckley/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jennybuckley/followers",
+      "following_url": "https://api.github.com/users/jennybuckley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jennybuckley/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jennybuckley",
+      "id": 31416425,
+      "login": "jennybuckley",
+      "node_id": "MDQ6VXNlcjMxNDE2NDI1",
+      "organizations_url": "https://api.github.com/users/jennybuckley/orgs",
+      "received_events_url": "https://api.github.com/users/jennybuckley/received_events",
+      "repos_url": "https://api.github.com/users/jennybuckley/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jennybuckley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jennybuckley/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jennybuckley"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/80c77a6c3b178a83105994fd9ed4bc97a7d836e4",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6ODBjNzdhNmMzYjE3OGE4MzEwNTk5NGZkOWVkNGJjOTdhN2Q4MzZlNA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/85f3e721c2b80e286adb803fe99306e06817e514",
+        "sha": "85f3e721c2b80e286adb803fe99306e06817e514",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/85f3e721c2b80e286adb803fe99306e06817e514"
+      }
+    ],
+    "sha": "80c77a6c3b178a83105994fd9ed4bc97a7d836e4",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/80c77a6c3b178a83105994fd9ed4bc97a7d836e4"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/20727293?v=4",
+      "events_url": "https://api.github.com/users/kwiesmueller/events{/privacy}",
+      "followers_url": "https://api.github.com/users/kwiesmueller/followers",
+      "following_url": "https://api.github.com/users/kwiesmueller/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kwiesmueller/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/kwiesmueller",
+      "id": 20727293,
+      "login": "kwiesmueller",
+      "node_id": "MDQ6VXNlcjIwNzI3Mjkz",
+      "organizations_url": "https://api.github.com/users/kwiesmueller/orgs",
+      "received_events_url": "https://api.github.com/users/kwiesmueller/received_events",
+      "repos_url": "https://api.github.com/users/kwiesmueller/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/kwiesmueller/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kwiesmueller/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/kwiesmueller"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/307b09fda811a61072de8977c882fbd9f49be06b/comments",
+    "commit": {
+      "author": {
+        "date": "2019-01-24T16:46:15Z",
+        "email": "kwiesmueller@seibert-media.net",
+        "name": "Kevin Wiesm\u00fcller"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-01-27T20:25:51Z",
+        "email": "kwiesmueller@seibert-media.net",
+        "name": "Kevin Wiesm\u00fcller"
+      },
+      "message": "make userAgent usage consistent",
+      "tree": {
+        "sha": "fc97346252e2ac5f172a0506298a8c0029965500",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/fc97346252e2ac5f172a0506298a8c0029965500"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/307b09fda811a61072de8977c882fbd9f49be06b",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/20727293?v=4",
+      "events_url": "https://api.github.com/users/kwiesmueller/events{/privacy}",
+      "followers_url": "https://api.github.com/users/kwiesmueller/followers",
+      "following_url": "https://api.github.com/users/kwiesmueller/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kwiesmueller/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/kwiesmueller",
+      "id": 20727293,
+      "login": "kwiesmueller",
+      "node_id": "MDQ6VXNlcjIwNzI3Mjkz",
+      "organizations_url": "https://api.github.com/users/kwiesmueller/orgs",
+      "received_events_url": "https://api.github.com/users/kwiesmueller/received_events",
+      "repos_url": "https://api.github.com/users/kwiesmueller/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/kwiesmueller/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kwiesmueller/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/kwiesmueller"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/307b09fda811a61072de8977c882fbd9f49be06b",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6MzA3YjA5ZmRhODExYTYxMDcyZGU4OTc3Yzg4MmZiZDlmNDliZTA2Yg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/1c34ecee04ad676bd02c4a93b71f4d8ea90760a0",
+        "sha": "1c34ecee04ad676bd02c4a93b71f4d8ea90760a0",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/1c34ecee04ad676bd02c4a93b71f4d8ea90760a0"
+      }
+    ],
+    "sha": "307b09fda811a61072de8977c882fbd9f49be06b",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/307b09fda811a61072de8977c882fbd9f49be06b"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/20727293?v=4",
+      "events_url": "https://api.github.com/users/kwiesmueller/events{/privacy}",
+      "followers_url": "https://api.github.com/users/kwiesmueller/followers",
+      "following_url": "https://api.github.com/users/kwiesmueller/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kwiesmueller/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/kwiesmueller",
+      "id": 20727293,
+      "login": "kwiesmueller",
+      "node_id": "MDQ6VXNlcjIwNzI3Mjkz",
+      "organizations_url": "https://api.github.com/users/kwiesmueller/orgs",
+      "received_events_url": "https://api.github.com/users/kwiesmueller/received_events",
+      "repos_url": "https://api.github.com/users/kwiesmueller/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/kwiesmueller/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kwiesmueller/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/kwiesmueller"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/1c34ecee04ad676bd02c4a93b71f4d8ea90760a0/comments",
+    "commit": {
+      "author": {
+        "date": "2019-01-24T11:41:46Z",
+        "email": "kwiesmueller@seibert-media.net",
+        "name": "Kevin Wiesm\u00fcller"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-01-27T20:25:51Z",
+        "email": "kwiesmueller@seibert-media.net",
+        "name": "Kevin Wiesm\u00fcller"
+      },
+      "message": "add userAgent info to create and update",
+      "tree": {
+        "sha": "f663a576293060a3a77b6f6c26c08ace936db65a",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/f663a576293060a3a77b6f6c26c08ace936db65a"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/1c34ecee04ad676bd02c4a93b71f4d8ea90760a0",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/20727293?v=4",
+      "events_url": "https://api.github.com/users/kwiesmueller/events{/privacy}",
+      "followers_url": "https://api.github.com/users/kwiesmueller/followers",
+      "following_url": "https://api.github.com/users/kwiesmueller/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kwiesmueller/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/kwiesmueller",
+      "id": 20727293,
+      "login": "kwiesmueller",
+      "node_id": "MDQ6VXNlcjIwNzI3Mjkz",
+      "organizations_url": "https://api.github.com/users/kwiesmueller/orgs",
+      "received_events_url": "https://api.github.com/users/kwiesmueller/received_events",
+      "repos_url": "https://api.github.com/users/kwiesmueller/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/kwiesmueller/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kwiesmueller/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/kwiesmueller"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/1c34ecee04ad676bd02c4a93b71f4d8ea90760a0",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6MWMzNGVjZWUwNGFkNjc2YmQwMmM0YTkzYjcxZjRkOGVhOTA3NjBhMA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/adf8a72133f3426cb8dfe9355120f7bb38d327a2",
+        "sha": "adf8a72133f3426cb8dfe9355120f7bb38d327a2",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/adf8a72133f3426cb8dfe9355120f7bb38d327a2"
+      }
+    ],
+    "sha": "1c34ecee04ad676bd02c4a93b71f4d8ea90760a0",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/1c34ecee04ad676bd02c4a93b71f4d8ea90760a0"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/20407524?v=4",
+      "events_url": "https://api.github.com/users/k8s-ci-robot/events{/privacy}",
+      "followers_url": "https://api.github.com/users/k8s-ci-robot/followers",
+      "following_url": "https://api.github.com/users/k8s-ci-robot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/k8s-ci-robot/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/k8s-ci-robot",
+      "id": 20407524,
+      "login": "k8s-ci-robot",
+      "node_id": "MDQ6VXNlcjIwNDA3NTI0",
+      "organizations_url": "https://api.github.com/users/k8s-ci-robot/orgs",
+      "received_events_url": "https://api.github.com/users/k8s-ci-robot/received_events",
+      "repos_url": "https://api.github.com/users/k8s-ci-robot/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/k8s-ci-robot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/k8s-ci-robot/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/k8s-ci-robot"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/adf8a72133f3426cb8dfe9355120f7bb38d327a2/comments",
+    "commit": {
+      "author": {
+        "date": "2019-01-25T23:35:15Z",
+        "email": "k8s-ci-robot@users.noreply.github.com",
+        "name": "Kubernetes Prow Robot"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-01-25T23:35:15Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #73282 from apelisse/minor-fixes\n\n[FEATURE-SERVERSIDE-APPLY] Minor fixes",
+      "tree": {
+        "sha": "85b3bba32630c9bd6b710b62ad3fcc93446cf95f",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/85b3bba32630c9bd6b710b62ad3fcc93446cf95f"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/adf8a72133f3426cb8dfe9355120f7bb38d327a2",
+      "verification": {
+        "payload": "tree 85b3bba32630c9bd6b710b62ad3fcc93446cf95f\nparent 85f3e721c2b80e286adb803fe99306e06817e514\nparent ea2bb7bd527265c53634b61b36d6907abf50de4d\nauthor Kubernetes Prow Robot <k8s-ci-robot@users.noreply.github.com> 1548459315 -0800\ncommitter GitHub <noreply@github.com> 1548459315 -0800\n\nMerge pull request #73282 from apelisse/minor-fixes\n\n[FEATURE-SERVERSIDE-APPLY] Minor fixes",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJcS50zCRBK7hj4Ov3rIwAAdHIIADBmSK7GlANpSyLHHrLi7Ozt\nuRt4isHORq9+p5TQp75iq9m1wf/QpcS/pw8qdYappLJCZx0ObYBGVwg8qQHAIR+N\nYmTg4D4TJ35Z3XGutvZtZfcqcMjq1kpeOXR1M3CHcV026mdju0fsqm5OrrE5ace9\nOra+Nf9GAXHWqKXTZSBPxL+A1fqzKKC1Kfl1MeG/WmPyAmR/vP3G0o2zRXbKcChE\nMJPUNj2icTM1f1H8DK6e1okg21ZhjLbPPdwJCnzwlWdTixI2wTEIb6myyQTm/9X3\nJT14E079DkY1+0Whu0IhsctuyAob/02bNqDsl+Hpd2NfoW/y73ZgeF74RCylUb8=\n=5JyS\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/adf8a72133f3426cb8dfe9355120f7bb38d327a2",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6YWRmOGE3MjEzM2YzNDI2Y2I4ZGZlOTM1NTEyMGY3YmIzOGQzMjdhMg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/85f3e721c2b80e286adb803fe99306e06817e514",
+        "sha": "85f3e721c2b80e286adb803fe99306e06817e514",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/85f3e721c2b80e286adb803fe99306e06817e514"
+      },
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/ea2bb7bd527265c53634b61b36d6907abf50de4d",
+        "sha": "ea2bb7bd527265c53634b61b36d6907abf50de4d",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/ea2bb7bd527265c53634b61b36d6907abf50de4d"
+      }
+    ],
+    "sha": "adf8a72133f3426cb8dfe9355120f7bb38d327a2",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/adf8a72133f3426cb8dfe9355120f7bb38d327a2"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/20407524?v=4",
+      "events_url": "https://api.github.com/users/k8s-ci-robot/events{/privacy}",
+      "followers_url": "https://api.github.com/users/k8s-ci-robot/followers",
+      "following_url": "https://api.github.com/users/k8s-ci-robot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/k8s-ci-robot/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/k8s-ci-robot",
+      "id": 20407524,
+      "login": "k8s-ci-robot",
+      "node_id": "MDQ6VXNlcjIwNDA3NTI0",
+      "organizations_url": "https://api.github.com/users/k8s-ci-robot/orgs",
+      "received_events_url": "https://api.github.com/users/k8s-ci-robot/received_events",
+      "repos_url": "https://api.github.com/users/k8s-ci-robot/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/k8s-ci-robot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/k8s-ci-robot/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/k8s-ci-robot"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/85f3e721c2b80e286adb803fe99306e06817e514/comments",
+    "commit": {
+      "author": {
+        "date": "2019-01-25T14:39:34Z",
+        "email": "k8s-ci-robot@users.noreply.github.com",
+        "name": "Kubernetes Prow Robot"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-01-25T14:39:34Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #73228 from apelisse/add-alpha-note\n\n[FEATURE-SERVERSIDE-APPLY] Mark the kubectl flag as alpha",
+      "tree": {
+        "sha": "4e269b71cda73669370376fbf79f3f4867ccc095",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/4e269b71cda73669370376fbf79f3f4867ccc095"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/85f3e721c2b80e286adb803fe99306e06817e514",
+      "verification": {
+        "payload": "tree 4e269b71cda73669370376fbf79f3f4867ccc095\nparent 8b1422eeac054e9029f1ae43a55a681595277fc9\nparent f2b7501e42c3cc83c6b88c8c39de49aaaa94f2c3\nauthor Kubernetes Prow Robot <k8s-ci-robot@users.noreply.github.com> 1548427174 -0800\ncommitter GitHub <noreply@github.com> 1548427174 -0800\n\nMerge pull request #73228 from apelisse/add-alpha-note\n\n[FEATURE-SERVERSIDE-APPLY] Mark the kubectl flag as alpha",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJcSx+mCRBK7hj4Ov3rIwAAdHIIAGg5MI93CmbQz1SQooNCIM05\nqxqAHU14rqJC543hREr/LAOHDxMZGDpzz9I6gpsCgoUWVYQUm2RQD2PgVJuxzj85\npXJXK039/LNhRZBs7TjTRrNgCAHz5Eu1+MuuChh7VnQMLnwoaNQI+/NUUQs0gomt\napabBtWy8QL9z0I1cbvDzoaiTcja7Uaa9froPOp8QOZiwihtGVVOTz1M4JxUpgGp\nR1iZvnfsiBZERuxRKkE9PuDFwLYSbzV6QAUAKy53r+C5aj0MkIOP4V+ECUxhqkqm\nKQWCrE1ICcQRF0jD6IoOc2huiRkn7XaMrGA8B08jtYuXIpVo6gFuopoEhmOU5Ko=\n=RVvM\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/85f3e721c2b80e286adb803fe99306e06817e514",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6ODVmM2U3MjFjMmI4MGUyODZhZGI4MDNmZTk5MzA2ZTA2ODE3ZTUxNA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/8b1422eeac054e9029f1ae43a55a681595277fc9",
+        "sha": "8b1422eeac054e9029f1ae43a55a681595277fc9",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/8b1422eeac054e9029f1ae43a55a681595277fc9"
+      },
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/f2b7501e42c3cc83c6b88c8c39de49aaaa94f2c3",
+        "sha": "f2b7501e42c3cc83c6b88c8c39de49aaaa94f2c3",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/f2b7501e42c3cc83c6b88c8c39de49aaaa94f2c3"
+      }
+    ],
+    "sha": "85f3e721c2b80e286adb803fe99306e06817e514",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/85f3e721c2b80e286adb803fe99306e06817e514"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1929644?v=4",
+      "events_url": "https://api.github.com/users/apelisse/events{/privacy}",
+      "followers_url": "https://api.github.com/users/apelisse/followers",
+      "following_url": "https://api.github.com/users/apelisse/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apelisse/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/apelisse",
+      "id": 1929644,
+      "login": "apelisse",
+      "node_id": "MDQ6VXNlcjE5Mjk2NDQ=",
+      "organizations_url": "https://api.github.com/users/apelisse/orgs",
+      "received_events_url": "https://api.github.com/users/apelisse/received_events",
+      "repos_url": "https://api.github.com/users/apelisse/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/apelisse/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apelisse/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/apelisse"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/ea2bb7bd527265c53634b61b36d6907abf50de4d/comments",
+    "commit": {
+      "author": {
+        "date": "2019-01-25T01:20:06Z",
+        "email": "apelisse@google.com",
+        "name": "Antoine Pelisse"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-01-25T01:31:21Z",
+        "email": "apelisse@google.com",
+        "name": "Antoine Pelisse"
+      },
+      "message": "Regenerate generation of generated things",
+      "tree": {
+        "sha": "f10193a25905698dcf8bf575e35b55c2dac805cf",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/f10193a25905698dcf8bf575e35b55c2dac805cf"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/ea2bb7bd527265c53634b61b36d6907abf50de4d",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1929644?v=4",
+      "events_url": "https://api.github.com/users/apelisse/events{/privacy}",
+      "followers_url": "https://api.github.com/users/apelisse/followers",
+      "following_url": "https://api.github.com/users/apelisse/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apelisse/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/apelisse",
+      "id": 1929644,
+      "login": "apelisse",
+      "node_id": "MDQ6VXNlcjE5Mjk2NDQ=",
+      "organizations_url": "https://api.github.com/users/apelisse/orgs",
+      "received_events_url": "https://api.github.com/users/apelisse/received_events",
+      "repos_url": "https://api.github.com/users/apelisse/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/apelisse/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apelisse/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/apelisse"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/ea2bb7bd527265c53634b61b36d6907abf50de4d",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6ZWEyYmI3YmQ1MjcyNjVjNTM2MzRiNjFiMzZkNjkwN2FiZjUwZGU0ZA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/77aaa4cf68bdcb1d780e6e1d77574ee8f9cbca68",
+        "sha": "77aaa4cf68bdcb1d780e6e1d77574ee8f9cbca68",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/77aaa4cf68bdcb1d780e6e1d77574ee8f9cbca68"
+      }
+    ],
+    "sha": "ea2bb7bd527265c53634b61b36d6907abf50de4d",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/ea2bb7bd527265c53634b61b36d6907abf50de4d"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1929644?v=4",
+      "events_url": "https://api.github.com/users/apelisse/events{/privacy}",
+      "followers_url": "https://api.github.com/users/apelisse/followers",
+      "following_url": "https://api.github.com/users/apelisse/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apelisse/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/apelisse",
+      "id": 1929644,
+      "login": "apelisse",
+      "node_id": "MDQ6VXNlcjE5Mjk2NDQ=",
+      "organizations_url": "https://api.github.com/users/apelisse/orgs",
+      "received_events_url": "https://api.github.com/users/apelisse/received_events",
+      "repos_url": "https://api.github.com/users/apelisse/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/apelisse/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apelisse/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/apelisse"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/f2b7501e42c3cc83c6b88c8c39de49aaaa94f2c3/comments",
+    "commit": {
+      "author": {
+        "date": "2019-01-23T22:41:31Z",
+        "email": "apelisse@google.com",
+        "name": "Antoine Pelisse"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-01-25T00:53:32Z",
+        "email": "apelisse@google.com",
+        "name": "Antoine Pelisse"
+      },
+      "message": "Mark the kubectl flag as alpha",
+      "tree": {
+        "sha": "a2c6d054aefb8543be4feb80940d3be451e77396",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/a2c6d054aefb8543be4feb80940d3be451e77396"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/f2b7501e42c3cc83c6b88c8c39de49aaaa94f2c3",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1929644?v=4",
+      "events_url": "https://api.github.com/users/apelisse/events{/privacy}",
+      "followers_url": "https://api.github.com/users/apelisse/followers",
+      "following_url": "https://api.github.com/users/apelisse/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apelisse/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/apelisse",
+      "id": 1929644,
+      "login": "apelisse",
+      "node_id": "MDQ6VXNlcjE5Mjk2NDQ=",
+      "organizations_url": "https://api.github.com/users/apelisse/orgs",
+      "received_events_url": "https://api.github.com/users/apelisse/received_events",
+      "repos_url": "https://api.github.com/users/apelisse/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/apelisse/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apelisse/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/apelisse"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/f2b7501e42c3cc83c6b88c8c39de49aaaa94f2c3",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6ZjJiNzUwMWU0MmMzY2M4M2M2Yjg4YzhjMzlkZTQ5YWFhYTk0ZjJjMw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/f7c4f0433f86c186f0ff554a29c4a3c5b2d993ca",
+        "sha": "f7c4f0433f86c186f0ff554a29c4a3c5b2d993ca",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/f7c4f0433f86c186f0ff554a29c4a3c5b2d993ca"
+      }
+    ],
+    "sha": "f2b7501e42c3cc83c6b88c8c39de49aaaa94f2c3",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/f2b7501e42c3cc83c6b88c8c39de49aaaa94f2c3"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/20407524?v=4",
+      "events_url": "https://api.github.com/users/k8s-ci-robot/events{/privacy}",
+      "followers_url": "https://api.github.com/users/k8s-ci-robot/followers",
+      "following_url": "https://api.github.com/users/k8s-ci-robot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/k8s-ci-robot/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/k8s-ci-robot",
+      "id": 20407524,
+      "login": "k8s-ci-robot",
+      "node_id": "MDQ6VXNlcjIwNDA3NTI0",
+      "organizations_url": "https://api.github.com/users/k8s-ci-robot/orgs",
+      "received_events_url": "https://api.github.com/users/k8s-ci-robot/received_events",
+      "repos_url": "https://api.github.com/users/k8s-ci-robot/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/k8s-ci-robot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/k8s-ci-robot/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/k8s-ci-robot"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/8b1422eeac054e9029f1ae43a55a681595277fc9/comments",
+    "commit": {
+      "author": {
+        "date": "2019-01-24T21:06:12Z",
+        "email": "k8s-ci-robot@users.noreply.github.com",
+        "name": "Kubernetes Prow Robot"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-01-24T21:06:12Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #73005 from apelisse/add-alpha-comment\n\n[FEATURE-SERVERSIDE-APPLY] Add deprecation notice for alpha  field",
+      "tree": {
+        "sha": "126df77def17eccc86bf02828a9791b4c65784e9",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/126df77def17eccc86bf02828a9791b4c65784e9"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/8b1422eeac054e9029f1ae43a55a681595277fc9",
+      "verification": {
+        "payload": "tree 126df77def17eccc86bf02828a9791b4c65784e9\nparent 839864d03bae436bc3fa229c1016c178370ab0b2\nparent edb14bab2793efc5e2f3a0072444b8d85a5dc667\nauthor Kubernetes Prow Robot <k8s-ci-robot@users.noreply.github.com> 1548363972 -0800\ncommitter GitHub <noreply@github.com> 1548363972 -0800\n\nMerge pull request #73005 from apelisse/add-alpha-comment\n\n[FEATURE-SERVERSIDE-APPLY] Add deprecation notice for alpha  field",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJcSijECRBK7hj4Ov3rIwAAdHIIAAFu/rs8tS+rEFRCFMR3WGpQ\ndSkJwDsdzj/wZbt1iEMDv5ThzDrnyQGQLVxtfKxBs0lQmUIxWbRVqLZLN3yyQIMm\n4UHhqPYjOIjXNb+h29p/WNz5FvoA/zv5TtHY/cOJeVU+Ecs6E9EnGW5A+ChbXYbf\ngy6AG7/TXQJXhZT3dhQFSPuyWVi4Ouv6JPP2gVh+bnmfYSeFTbk6JK9s/hNQpl6p\nxl0N+3gbJLAcIrvOgFTgc7a6mTsmIiDCoPB7Ns0k6F4B9KC1EFgNoey6K8wQ9prR\nU1GBS6Zlo5T5MxG/U1ZthtfEXtdrpQxxwi82EvuySDyObak+NqCWSfh/cKCAmgE=\n=dmkb\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/8b1422eeac054e9029f1ae43a55a681595277fc9",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6OGIxNDIyZWVhYzA1NGU5MDI5ZjFhZTQzYTU1YTY4MTU5NTI3N2ZjOQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/839864d03bae436bc3fa229c1016c178370ab0b2",
+        "sha": "839864d03bae436bc3fa229c1016c178370ab0b2",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/839864d03bae436bc3fa229c1016c178370ab0b2"
+      },
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/edb14bab2793efc5e2f3a0072444b8d85a5dc667",
+        "sha": "edb14bab2793efc5e2f3a0072444b8d85a5dc667",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/edb14bab2793efc5e2f3a0072444b8d85a5dc667"
+      }
+    ],
+    "sha": "8b1422eeac054e9029f1ae43a55a681595277fc9",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/8b1422eeac054e9029f1ae43a55a681595277fc9"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1929644?v=4",
+      "events_url": "https://api.github.com/users/apelisse/events{/privacy}",
+      "followers_url": "https://api.github.com/users/apelisse/followers",
+      "following_url": "https://api.github.com/users/apelisse/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apelisse/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/apelisse",
+      "id": 1929644,
+      "login": "apelisse",
+      "node_id": "MDQ6VXNlcjE5Mjk2NDQ=",
+      "organizations_url": "https://api.github.com/users/apelisse/orgs",
+      "received_events_url": "https://api.github.com/users/apelisse/received_events",
+      "repos_url": "https://api.github.com/users/apelisse/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/apelisse/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apelisse/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/apelisse"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/77aaa4cf68bdcb1d780e6e1d77574ee8f9cbca68/comments",
+    "commit": {
+      "author": {
+        "date": "2019-01-24T17:00:20Z",
+        "email": "apelisse@google.com",
+        "name": "Antoine Pelisse"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-01-24T17:00:45Z",
+        "email": "apelisse@google.com",
+        "name": "Antoine Pelisse"
+      },
+      "message": "Fix oldObj/newObj inversion: udpates wern't working",
+      "tree": {
+        "sha": "6b9be2fbb6dccec9f6d18a7aebdb691d1b4974db",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/6b9be2fbb6dccec9f6d18a7aebdb691d1b4974db"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/77aaa4cf68bdcb1d780e6e1d77574ee8f9cbca68",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1929644?v=4",
+      "events_url": "https://api.github.com/users/apelisse/events{/privacy}",
+      "followers_url": "https://api.github.com/users/apelisse/followers",
+      "following_url": "https://api.github.com/users/apelisse/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apelisse/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/apelisse",
+      "id": 1929644,
+      "login": "apelisse",
+      "node_id": "MDQ6VXNlcjE5Mjk2NDQ=",
+      "organizations_url": "https://api.github.com/users/apelisse/orgs",
+      "received_events_url": "https://api.github.com/users/apelisse/received_events",
+      "repos_url": "https://api.github.com/users/apelisse/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/apelisse/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apelisse/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/apelisse"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/77aaa4cf68bdcb1d780e6e1d77574ee8f9cbca68",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6NzdhYWE0Y2Y2OGJkY2IxZDc4MGU2ZTFkNzc1NzRlZThmOWNiY2E2OA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/c89ad0aa71fc692e109e0d0d41b4d68da1675eb3",
+        "sha": "c89ad0aa71fc692e109e0d0d41b4d68da1675eb3",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/c89ad0aa71fc692e109e0d0d41b4d68da1675eb3"
+      }
+    ],
+    "sha": "77aaa4cf68bdcb1d780e6e1d77574ee8f9cbca68",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/77aaa4cf68bdcb1d780e6e1d77574ee8f9cbca68"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1929644?v=4",
+      "events_url": "https://api.github.com/users/apelisse/events{/privacy}",
+      "followers_url": "https://api.github.com/users/apelisse/followers",
+      "following_url": "https://api.github.com/users/apelisse/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apelisse/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/apelisse",
+      "id": 1929644,
+      "login": "apelisse",
+      "node_id": "MDQ6VXNlcjE5Mjk2NDQ=",
+      "organizations_url": "https://api.github.com/users/apelisse/orgs",
+      "received_events_url": "https://api.github.com/users/apelisse/received_events",
+      "repos_url": "https://api.github.com/users/apelisse/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/apelisse/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apelisse/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/apelisse"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/c89ad0aa71fc692e109e0d0d41b4d68da1675eb3/comments",
+    "commit": {
+      "author": {
+        "date": "2019-01-24T05:47:31Z",
+        "email": "apelisse@google.com",
+        "name": "Antoine Pelisse"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-01-24T17:00:45Z",
+        "email": "apelisse@google.com",
+        "name": "Antoine Pelisse"
+      },
+      "message": "Fix Service type to handle port properly",
+      "tree": {
+        "sha": "74c12dbd39e77cd95215e35e61fee4a0d9ce8126",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/74c12dbd39e77cd95215e35e61fee4a0d9ce8126"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/c89ad0aa71fc692e109e0d0d41b4d68da1675eb3",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1929644?v=4",
+      "events_url": "https://api.github.com/users/apelisse/events{/privacy}",
+      "followers_url": "https://api.github.com/users/apelisse/followers",
+      "following_url": "https://api.github.com/users/apelisse/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apelisse/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/apelisse",
+      "id": 1929644,
+      "login": "apelisse",
+      "node_id": "MDQ6VXNlcjE5Mjk2NDQ=",
+      "organizations_url": "https://api.github.com/users/apelisse/orgs",
+      "received_events_url": "https://api.github.com/users/apelisse/received_events",
+      "repos_url": "https://api.github.com/users/apelisse/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/apelisse/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apelisse/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/apelisse"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/c89ad0aa71fc692e109e0d0d41b4d68da1675eb3",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6Yzg5YWQwYWE3MWZjNjkyZTEwOWUwZDBkNDFiNGQ2OGRhMTY3NWViMw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/839864d03bae436bc3fa229c1016c178370ab0b2",
+        "sha": "839864d03bae436bc3fa229c1016c178370ab0b2",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/839864d03bae436bc3fa229c1016c178370ab0b2"
+      }
+    ],
+    "sha": "c89ad0aa71fc692e109e0d0d41b4d68da1675eb3",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/c89ad0aa71fc692e109e0d0d41b4d68da1675eb3"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/20407524?v=4",
+      "events_url": "https://api.github.com/users/k8s-ci-robot/events{/privacy}",
+      "followers_url": "https://api.github.com/users/k8s-ci-robot/followers",
+      "following_url": "https://api.github.com/users/k8s-ci-robot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/k8s-ci-robot/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/k8s-ci-robot",
+      "id": 20407524,
+      "login": "k8s-ci-robot",
+      "node_id": "MDQ6VXNlcjIwNDA3NTI0",
+      "organizations_url": "https://api.github.com/users/k8s-ci-robot/orgs",
+      "received_events_url": "https://api.github.com/users/k8s-ci-robot/received_events",
+      "repos_url": "https://api.github.com/users/k8s-ci-robot/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/k8s-ci-robot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/k8s-ci-robot/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/k8s-ci-robot"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/839864d03bae436bc3fa229c1016c178370ab0b2/comments",
+    "commit": {
+      "author": {
+        "date": "2019-01-24T04:36:01Z",
+        "email": "k8s-ci-robot@users.noreply.github.com",
+        "name": "Kubernetes Prow Robot"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-01-24T04:36:01Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #73226 from apelisse/plug-in-crd-handler\n\n[FEATURE-SERVERSIDE-APPLY] Plug in crd handler",
+      "tree": {
+        "sha": "87f5825ffdf7b8a3aecd2f42e1fd399b33ce7cfa",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/87f5825ffdf7b8a3aecd2f42e1fd399b33ce7cfa"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/839864d03bae436bc3fa229c1016c178370ab0b2",
+      "verification": {
+        "payload": "tree 87f5825ffdf7b8a3aecd2f42e1fd399b33ce7cfa\nparent f7c4f0433f86c186f0ff554a29c4a3c5b2d993ca\nparent 53879c01b457046167aa753f56bb81170b54842a\nauthor Kubernetes Prow Robot <k8s-ci-robot@users.noreply.github.com> 1548304561 -0800\ncommitter GitHub <noreply@github.com> 1548304561 -0800\n\nMerge pull request #73226 from apelisse/plug-in-crd-handler\n\n[FEATURE-SERVERSIDE-APPLY] Plug in crd handler",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJcSUCxCRBK7hj4Ov3rIwAAdHIIAAiOrRiHcTl4JLFPL0RCS3TN\nZipa89J7+Tzv6c5gPvBtFysb2kPuXo3VSAHu3Nue4RlPmtocrdoN4uIwnI1pLdX2\nqQaQ5ztHIRSGaDLdfsA8roOUp1J44P5JBSTlA7KOJsxyWVwfu/fpJyqYMl4pSUvp\nzd08PlsQXn//ZcDoO0lGhAQeiH4kf47nDm7OsdHpriFmsCjKF8O+8UksB8zyjE/D\nF+oR9wo8HXlcVJKmpXd0PKIuyha1+OgbEMi+NB8xB1QfjLXaq9kUZCUGeVbBqbFd\nnESzi2AGylMlTnGR4lZM3Z22pqkzjlDk2bzI+1O5n8PoHt6vKjRueh9nwD4K4kM=\n=tgDc\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/839864d03bae436bc3fa229c1016c178370ab0b2",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6ODM5ODY0ZDAzYmFlNDM2YmMzZmEyMjljMTAxNmMxNzgzNzBhYjBiMg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/f7c4f0433f86c186f0ff554a29c4a3c5b2d993ca",
+        "sha": "f7c4f0433f86c186f0ff554a29c4a3c5b2d993ca",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/f7c4f0433f86c186f0ff554a29c4a3c5b2d993ca"
+      },
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/53879c01b457046167aa753f56bb81170b54842a",
+        "sha": "53879c01b457046167aa753f56bb81170b54842a",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/53879c01b457046167aa753f56bb81170b54842a"
+      }
+    ],
+    "sha": "839864d03bae436bc3fa229c1016c178370ab0b2",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/839864d03bae436bc3fa229c1016c178370ab0b2"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1929644?v=4",
+      "events_url": "https://api.github.com/users/apelisse/events{/privacy}",
+      "followers_url": "https://api.github.com/users/apelisse/followers",
+      "following_url": "https://api.github.com/users/apelisse/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apelisse/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/apelisse",
+      "id": 1929644,
+      "login": "apelisse",
+      "node_id": "MDQ6VXNlcjE5Mjk2NDQ=",
+      "organizations_url": "https://api.github.com/users/apelisse/orgs",
+      "received_events_url": "https://api.github.com/users/apelisse/received_events",
+      "repos_url": "https://api.github.com/users/apelisse/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/apelisse/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apelisse/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/apelisse"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/53879c01b457046167aa753f56bb81170b54842a/comments",
+    "commit": {
+      "author": {
+        "date": "2019-01-23T22:36:26Z",
+        "email": "apelisse@google.com",
+        "name": "Antoine Pelisse"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-01-23T23:37:39Z",
+        "email": "apelisse@google.com",
+        "name": "Antoine Pelisse"
+      },
+      "message": "Plug FieldManager into CRD handler\n\nAnd add a test to make sure that things work fine.",
+      "tree": {
+        "sha": "87f5825ffdf7b8a3aecd2f42e1fd399b33ce7cfa",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/87f5825ffdf7b8a3aecd2f42e1fd399b33ce7cfa"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/53879c01b457046167aa753f56bb81170b54842a",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1929644?v=4",
+      "events_url": "https://api.github.com/users/apelisse/events{/privacy}",
+      "followers_url": "https://api.github.com/users/apelisse/followers",
+      "following_url": "https://api.github.com/users/apelisse/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apelisse/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/apelisse",
+      "id": 1929644,
+      "login": "apelisse",
+      "node_id": "MDQ6VXNlcjE5Mjk2NDQ=",
+      "organizations_url": "https://api.github.com/users/apelisse/orgs",
+      "received_events_url": "https://api.github.com/users/apelisse/received_events",
+      "repos_url": "https://api.github.com/users/apelisse/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/apelisse/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apelisse/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/apelisse"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/53879c01b457046167aa753f56bb81170b54842a",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6NTM4NzljMDFiNDU3MDQ2MTY3YWE3NTNmNTZiYjgxMTcwYjU0ODQyYQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/4f839fb27a2662181daabeee26446cddec240047",
+        "sha": "4f839fb27a2662181daabeee26446cddec240047",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/4f839fb27a2662181daabeee26446cddec240047"
+      }
+    ],
+    "sha": "53879c01b457046167aa753f56bb81170b54842a",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/53879c01b457046167aa753f56bb81170b54842a"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1929644?v=4",
+      "events_url": "https://api.github.com/users/apelisse/events{/privacy}",
+      "followers_url": "https://api.github.com/users/apelisse/followers",
+      "following_url": "https://api.github.com/users/apelisse/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apelisse/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/apelisse",
+      "id": 1929644,
+      "login": "apelisse",
+      "node_id": "MDQ6VXNlcjE5Mjk2NDQ=",
+      "organizations_url": "https://api.github.com/users/apelisse/orgs",
+      "received_events_url": "https://api.github.com/users/apelisse/received_events",
+      "repos_url": "https://api.github.com/users/apelisse/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/apelisse/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apelisse/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/apelisse"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/4f839fb27a2662181daabeee26446cddec240047/comments",
+    "commit": {
+      "author": {
+        "date": "2019-01-23T03:52:38Z",
+        "email": "apelisse@google.com",
+        "name": "Antoine Pelisse"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-01-23T04:16:52Z",
+        "email": "apelisse@google.com",
+        "name": "Antoine Pelisse"
+      },
+      "message": "Fix FieldManager to use the TypeValue interface",
+      "tree": {
+        "sha": "3f6ea7a1a1c6b4eb123571cfdb655485d597f37e",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/3f6ea7a1a1c6b4eb123571cfdb655485d597f37e"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/4f839fb27a2662181daabeee26446cddec240047",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1929644?v=4",
+      "events_url": "https://api.github.com/users/apelisse/events{/privacy}",
+      "followers_url": "https://api.github.com/users/apelisse/followers",
+      "following_url": "https://api.github.com/users/apelisse/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apelisse/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/apelisse",
+      "id": 1929644,
+      "login": "apelisse",
+      "node_id": "MDQ6VXNlcjE5Mjk2NDQ=",
+      "organizations_url": "https://api.github.com/users/apelisse/orgs",
+      "received_events_url": "https://api.github.com/users/apelisse/received_events",
+      "repos_url": "https://api.github.com/users/apelisse/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/apelisse/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apelisse/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/apelisse"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/4f839fb27a2662181daabeee26446cddec240047",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6NGY4MzlmYjI3YTI2NjIxODFkYWFiZWVlMjY0NDZjZGRlYzI0MDA0Nw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/611587ffe270019eeb1e680c31cd6f4c54cd4b77",
+        "sha": "611587ffe270019eeb1e680c31cd6f4c54cd4b77",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/611587ffe270019eeb1e680c31cd6f4c54cd4b77"
+      }
+    ],
+    "sha": "4f839fb27a2662181daabeee26446cddec240047",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/4f839fb27a2662181daabeee26446cddec240047"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1929644?v=4",
+      "events_url": "https://api.github.com/users/apelisse/events{/privacy}",
+      "followers_url": "https://api.github.com/users/apelisse/followers",
+      "following_url": "https://api.github.com/users/apelisse/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apelisse/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/apelisse",
+      "id": 1929644,
+      "login": "apelisse",
+      "node_id": "MDQ6VXNlcjE5Mjk2NDQ=",
+      "organizations_url": "https://api.github.com/users/apelisse/orgs",
+      "received_events_url": "https://api.github.com/users/apelisse/received_events",
+      "repos_url": "https://api.github.com/users/apelisse/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/apelisse/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apelisse/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/apelisse"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/611587ffe270019eeb1e680c31cd6f4c54cd4b77/comments",
+    "commit": {
+      "author": {
+        "date": "2019-01-23T00:00:09Z",
+        "email": "apelisse@google.com",
+        "name": "Antoine Pelisse"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-01-23T03:53:02Z",
+        "email": "apelisse@google.com",
+        "name": "Antoine Pelisse"
+      },
+      "message": "UPdate vendor/sigs.k8s.io/structured-merge-diff",
+      "tree": {
+        "sha": "b006cd88dfb3fa389aeee7b591253fbd8f6319a6",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/b006cd88dfb3fa389aeee7b591253fbd8f6319a6"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/611587ffe270019eeb1e680c31cd6f4c54cd4b77",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1929644?v=4",
+      "events_url": "https://api.github.com/users/apelisse/events{/privacy}",
+      "followers_url": "https://api.github.com/users/apelisse/followers",
+      "following_url": "https://api.github.com/users/apelisse/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apelisse/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/apelisse",
+      "id": 1929644,
+      "login": "apelisse",
+      "node_id": "MDQ6VXNlcjE5Mjk2NDQ=",
+      "organizations_url": "https://api.github.com/users/apelisse/orgs",
+      "received_events_url": "https://api.github.com/users/apelisse/received_events",
+      "repos_url": "https://api.github.com/users/apelisse/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/apelisse/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apelisse/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/apelisse"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/611587ffe270019eeb1e680c31cd6f4c54cd4b77",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6NjExNTg3ZmZlMjcwMDE5ZWViMWU2ODBjMzFjZDZmNGM1NGNkNGI3Nw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/f7c4f0433f86c186f0ff554a29c4a3c5b2d993ca",
+        "sha": "f7c4f0433f86c186f0ff554a29c4a3c5b2d993ca",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/f7c4f0433f86c186f0ff554a29c4a3c5b2d993ca"
+      }
+    ],
+    "sha": "611587ffe270019eeb1e680c31cd6f4c54cd4b77",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/611587ffe270019eeb1e680c31cd6f4c54cd4b77"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/20407524?v=4",
+      "events_url": "https://api.github.com/users/k8s-ci-robot/events{/privacy}",
+      "followers_url": "https://api.github.com/users/k8s-ci-robot/followers",
+      "following_url": "https://api.github.com/users/k8s-ci-robot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/k8s-ci-robot/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/k8s-ci-robot",
+      "id": 20407524,
+      "login": "k8s-ci-robot",
+      "node_id": "MDQ6VXNlcjIwNDA3NTI0",
+      "organizations_url": "https://api.github.com/users/k8s-ci-robot/orgs",
+      "received_events_url": "https://api.github.com/users/k8s-ci-robot/received_events",
+      "repos_url": "https://api.github.com/users/k8s-ci-robot/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/k8s-ci-robot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/k8s-ci-robot/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/k8s-ci-robot"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/f7c4f0433f86c186f0ff554a29c4a3c5b2d993ca/comments",
+    "commit": {
+      "author": {
+        "date": "2019-01-23T00:19:49Z",
+        "email": "k8s-ci-robot@users.noreply.github.com",
+        "name": "Kubernetes Prow Robot"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-01-23T00:19:49Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #73183 from apelisse/plugin-crd-converter\n\nPlug deduced type in",
+      "tree": {
+        "sha": "4e1e845ab99d60b69f1e62ff2d303ae5fa41c8dc",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/4e1e845ab99d60b69f1e62ff2d303ae5fa41c8dc"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/f7c4f0433f86c186f0ff554a29c4a3c5b2d993ca",
+      "verification": {
+        "payload": "tree 4e1e845ab99d60b69f1e62ff2d303ae5fa41c8dc\nparent 14942991752abf5cc990808dc0fb840b1e7860b0\nparent 81bbf9fab860baf23c508dda5ef13aff5c78974d\nauthor Kubernetes Prow Robot <k8s-ci-robot@users.noreply.github.com> 1548202789 -0800\ncommitter GitHub <noreply@github.com> 1548202789 -0800\n\nMerge pull request #73183 from apelisse/plugin-crd-converter\n\nPlug deduced type in",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJcR7MlCRBK7hj4Ov3rIwAAdHIIAFL4BbdU/MdGGFiamIsW45of\nJf+AUh0EJkvP2paqOQCvJCDw9QpiqZ2Ss98zoCZN/4PKsmI2UQS04WC0f+mijwDB\nV6esCvuqvdbeT3HoStTFTmlV1bMbvZmJTtKC7f9341s36C19hSSl6RE0qBgMO5iX\nVus1E/B6x6j4EjQDV70x5LdqmoAtaohHDtiTPjsbKHfDTiqwDP6y6WncFnY8NR10\nfq8ffjRDx8QgWAiz37+W1BARqroWkFjD6OF11B6tDgzqWZODLSgq1fdkW2jELqRM\nozZ16eM2F4/ZrtnUamV+eR6wAP+74XQLa2khO0XjLc0oz7XnyDT/ecedNsD7zMI=\n=1vTF\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/f7c4f0433f86c186f0ff554a29c4a3c5b2d993ca",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6ZjdjNGYwNDMzZjg2YzE4NmYwZmY1NTRhMjljNGEzYzViMmQ5OTNjYQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/14942991752abf5cc990808dc0fb840b1e7860b0",
+        "sha": "14942991752abf5cc990808dc0fb840b1e7860b0",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/14942991752abf5cc990808dc0fb840b1e7860b0"
+      },
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/81bbf9fab860baf23c508dda5ef13aff5c78974d",
+        "sha": "81bbf9fab860baf23c508dda5ef13aff5c78974d",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/81bbf9fab860baf23c508dda5ef13aff5c78974d"
+      }
+    ],
+    "sha": "f7c4f0433f86c186f0ff554a29c4a3c5b2d993ca",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/f7c4f0433f86c186f0ff554a29c4a3c5b2d993ca"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1929644?v=4",
+      "events_url": "https://api.github.com/users/apelisse/events{/privacy}",
+      "followers_url": "https://api.github.com/users/apelisse/followers",
+      "following_url": "https://api.github.com/users/apelisse/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apelisse/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/apelisse",
+      "id": 1929644,
+      "login": "apelisse",
+      "node_id": "MDQ6VXNlcjE5Mjk2NDQ=",
+      "organizations_url": "https://api.github.com/users/apelisse/orgs",
+      "received_events_url": "https://api.github.com/users/apelisse/received_events",
+      "repos_url": "https://api.github.com/users/apelisse/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/apelisse/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apelisse/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/apelisse"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/81bbf9fab860baf23c508dda5ef13aff5c78974d/comments",
+    "commit": {
+      "author": {
+        "date": "2019-01-18T00:57:58Z",
+        "email": "apelisse@google.com",
+        "name": "Antoine Pelisse"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-01-22T21:56:32Z",
+        "email": "apelisse@google.com",
+        "name": "Antoine Pelisse"
+      },
+      "message": "Plug deduced type in",
+      "tree": {
+        "sha": "4e1e845ab99d60b69f1e62ff2d303ae5fa41c8dc",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/4e1e845ab99d60b69f1e62ff2d303ae5fa41c8dc"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/81bbf9fab860baf23c508dda5ef13aff5c78974d",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1929644?v=4",
+      "events_url": "https://api.github.com/users/apelisse/events{/privacy}",
+      "followers_url": "https://api.github.com/users/apelisse/followers",
+      "following_url": "https://api.github.com/users/apelisse/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apelisse/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/apelisse",
+      "id": 1929644,
+      "login": "apelisse",
+      "node_id": "MDQ6VXNlcjE5Mjk2NDQ=",
+      "organizations_url": "https://api.github.com/users/apelisse/orgs",
+      "received_events_url": "https://api.github.com/users/apelisse/received_events",
+      "repos_url": "https://api.github.com/users/apelisse/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/apelisse/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apelisse/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/apelisse"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/81bbf9fab860baf23c508dda5ef13aff5c78974d",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6ODFiYmY5ZmFiODYwYmFmMjNjNTA4ZGRhNWVmMTNhZmY1Yzc4OTc0ZA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/14942991752abf5cc990808dc0fb840b1e7860b0",
+        "sha": "14942991752abf5cc990808dc0fb840b1e7860b0",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/14942991752abf5cc990808dc0fb840b1e7860b0"
+      }
+    ],
+    "sha": "81bbf9fab860baf23c508dda5ef13aff5c78974d",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/81bbf9fab860baf23c508dda5ef13aff5c78974d"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1929644?v=4",
+      "events_url": "https://api.github.com/users/apelisse/events{/privacy}",
+      "followers_url": "https://api.github.com/users/apelisse/followers",
+      "following_url": "https://api.github.com/users/apelisse/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apelisse/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/apelisse",
+      "id": 1929644,
+      "login": "apelisse",
+      "node_id": "MDQ6VXNlcjE5Mjk2NDQ=",
+      "organizations_url": "https://api.github.com/users/apelisse/orgs",
+      "received_events_url": "https://api.github.com/users/apelisse/received_events",
+      "repos_url": "https://api.github.com/users/apelisse/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/apelisse/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apelisse/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/apelisse"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/edb14bab2793efc5e2f3a0072444b8d85a5dc667/comments",
+    "commit": {
+      "author": {
+        "date": "2019-01-19T19:57:20Z",
+        "email": "apelisse@google.com",
+        "name": "Antoine Pelisse"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-01-19T19:57:20Z",
+        "email": "apelisse@google.com",
+        "name": "Antoine Pelisse"
+      },
+      "message": "Run generation scripts",
+      "tree": {
+        "sha": "440b48269a72183d80238cb57ce48646c43a5ee9",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/440b48269a72183d80238cb57ce48646c43a5ee9"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/edb14bab2793efc5e2f3a0072444b8d85a5dc667",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1929644?v=4",
+      "events_url": "https://api.github.com/users/apelisse/events{/privacy}",
+      "followers_url": "https://api.github.com/users/apelisse/followers",
+      "following_url": "https://api.github.com/users/apelisse/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apelisse/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/apelisse",
+      "id": 1929644,
+      "login": "apelisse",
+      "node_id": "MDQ6VXNlcjE5Mjk2NDQ=",
+      "organizations_url": "https://api.github.com/users/apelisse/orgs",
+      "received_events_url": "https://api.github.com/users/apelisse/received_events",
+      "repos_url": "https://api.github.com/users/apelisse/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/apelisse/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apelisse/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/apelisse"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/edb14bab2793efc5e2f3a0072444b8d85a5dc667",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6ZWRiMTRiYWIyNzkzZWZjNWUyZjNhMDA3MjQ0NGI4ZDg1YTVkYzY2Nw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/6091a80c9001717dbdd61a3fdd2676f394baab8e",
+        "sha": "6091a80c9001717dbdd61a3fdd2676f394baab8e",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/6091a80c9001717dbdd61a3fdd2676f394baab8e"
+      }
+    ],
+    "sha": "edb14bab2793efc5e2f3a0072444b8d85a5dc667",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/edb14bab2793efc5e2f3a0072444b8d85a5dc667"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1929644?v=4",
+      "events_url": "https://api.github.com/users/apelisse/events{/privacy}",
+      "followers_url": "https://api.github.com/users/apelisse/followers",
+      "following_url": "https://api.github.com/users/apelisse/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apelisse/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/apelisse",
+      "id": 1929644,
+      "login": "apelisse",
+      "node_id": "MDQ6VXNlcjE5Mjk2NDQ=",
+      "organizations_url": "https://api.github.com/users/apelisse/orgs",
+      "received_events_url": "https://api.github.com/users/apelisse/received_events",
+      "repos_url": "https://api.github.com/users/apelisse/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/apelisse/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apelisse/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/apelisse"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/6091a80c9001717dbdd61a3fdd2676f394baab8e/comments",
+    "commit": {
+      "author": {
+        "date": "2019-01-17T05:02:40Z",
+        "email": "apelisse@google.com",
+        "name": "Antoine Pelisse"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-01-19T04:24:07Z",
+        "email": "apelisse@google.com",
+        "name": "Antoine Pelisse"
+      },
+      "message": "Add deprecation notice for alpha field",
+      "tree": {
+        "sha": "14c8f87697fd47f58c56d40eb5893a4dc7a7ac5b",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/14c8f87697fd47f58c56d40eb5893a4dc7a7ac5b"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/6091a80c9001717dbdd61a3fdd2676f394baab8e",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1929644?v=4",
+      "events_url": "https://api.github.com/users/apelisse/events{/privacy}",
+      "followers_url": "https://api.github.com/users/apelisse/followers",
+      "following_url": "https://api.github.com/users/apelisse/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apelisse/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/apelisse",
+      "id": 1929644,
+      "login": "apelisse",
+      "node_id": "MDQ6VXNlcjE5Mjk2NDQ=",
+      "organizations_url": "https://api.github.com/users/apelisse/orgs",
+      "received_events_url": "https://api.github.com/users/apelisse/received_events",
+      "repos_url": "https://api.github.com/users/apelisse/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/apelisse/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apelisse/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/apelisse"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/6091a80c9001717dbdd61a3fdd2676f394baab8e",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6NjA5MWE4MGM5MDAxNzE3ZGJkZDYxYTNmZGQyNjc2ZjM5NGJhYWI4ZQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/14942991752abf5cc990808dc0fb840b1e7860b0",
+        "sha": "14942991752abf5cc990808dc0fb840b1e7860b0",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/14942991752abf5cc990808dc0fb840b1e7860b0"
+      }
+    ],
+    "sha": "6091a80c9001717dbdd61a3fdd2676f394baab8e",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/6091a80c9001717dbdd61a3fdd2676f394baab8e"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/20407524?v=4",
+      "events_url": "https://api.github.com/users/k8s-ci-robot/events{/privacy}",
+      "followers_url": "https://api.github.com/users/k8s-ci-robot/followers",
+      "following_url": "https://api.github.com/users/k8s-ci-robot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/k8s-ci-robot/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/k8s-ci-robot",
+      "id": 20407524,
+      "login": "k8s-ci-robot",
+      "node_id": "MDQ6VXNlcjIwNDA3NTI0",
+      "organizations_url": "https://api.github.com/users/k8s-ci-robot/orgs",
+      "received_events_url": "https://api.github.com/users/k8s-ci-robot/received_events",
+      "repos_url": "https://api.github.com/users/k8s-ci-robot/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/k8s-ci-robot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/k8s-ci-robot/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/k8s-ci-robot"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/14942991752abf5cc990808dc0fb840b1e7860b0/comments",
+    "commit": {
+      "author": {
+        "date": "2019-01-19T00:57:19Z",
+        "email": "k8s-ci-robot@users.noreply.github.com",
+        "name": "Kubernetes Prow Robot"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-01-19T00:57:19Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #73042 from apelisse/update-smd\n\n[FEATURE-SERVERSIDE-APPLY] Update vendor/sigs.k8s.io/structured-merge-diff",
+      "tree": {
+        "sha": "d3af37b02a93839048962537f4962c2d48bf5fee",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/d3af37b02a93839048962537f4962c2d48bf5fee"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/14942991752abf5cc990808dc0fb840b1e7860b0",
+      "verification": {
+        "payload": "tree d3af37b02a93839048962537f4962c2d48bf5fee\nparent 8291810d7da874a7e98954c47b45e79c813996d9\nparent 68d20c27ab49208501ee51a316383f15982ff80c\nauthor Kubernetes Prow Robot <k8s-ci-robot@users.noreply.github.com> 1547859439 -0800\ncommitter GitHub <noreply@github.com> 1547859439 -0800\n\nMerge pull request #73042 from apelisse/update-smd\n\n[FEATURE-SERVERSIDE-APPLY] Update vendor/sigs.k8s.io/structured-merge-diff",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJcQnXvCRBK7hj4Ov3rIwAAdHIIABLXo/qQ5y0GGbH+suSyz9R9\nP6RKcUnEhPrRmtAxza2tP0W17tmj1hzuxRN+6ptyJRvCXuWQCVKzLqxg/7G+ZOwl\nbRUodF5/eTlZLbu4DgYLNgcDCgXZ7C+XSnL3SMJe4hz/K/QwzTyJd5QJsSGKg1cy\nvHD5Z/OAqR3EKnUVGpHP3k7JuqLM4gw34PE6G68j7RWgaVObR14uz4DLRa57MYsL\nqB9sQQCoroOMTzkwYH4bXKBs1tejvnufJIVQHdZAaD5J5SMlgephYeV7/LqI2oEg\nQCOlP5AzY4hjgBAS2el5ozhOh+44OduRd4UM/XDA4KGOFMBI5dOJ3/RxKZXa1ro=\n=Dg+5\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/14942991752abf5cc990808dc0fb840b1e7860b0",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6MTQ5NDI5OTE3NTJhYmY1Y2M5OTA4MDhkYzBmYjg0MGIxZTc4NjBiMA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/8291810d7da874a7e98954c47b45e79c813996d9",
+        "sha": "8291810d7da874a7e98954c47b45e79c813996d9",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/8291810d7da874a7e98954c47b45e79c813996d9"
+      },
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/68d20c27ab49208501ee51a316383f15982ff80c",
+        "sha": "68d20c27ab49208501ee51a316383f15982ff80c",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/68d20c27ab49208501ee51a316383f15982ff80c"
+      }
+    ],
+    "sha": "14942991752abf5cc990808dc0fb840b1e7860b0",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/14942991752abf5cc990808dc0fb840b1e7860b0"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1929644?v=4",
+      "events_url": "https://api.github.com/users/apelisse/events{/privacy}",
+      "followers_url": "https://api.github.com/users/apelisse/followers",
+      "following_url": "https://api.github.com/users/apelisse/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apelisse/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/apelisse",
+      "id": 1929644,
+      "login": "apelisse",
+      "node_id": "MDQ6VXNlcjE5Mjk2NDQ=",
+      "organizations_url": "https://api.github.com/users/apelisse/orgs",
+      "received_events_url": "https://api.github.com/users/apelisse/received_events",
+      "repos_url": "https://api.github.com/users/apelisse/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/apelisse/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apelisse/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/apelisse"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/68d20c27ab49208501ee51a316383f15982ff80c/comments",
+    "commit": {
+      "author": {
+        "date": "2019-01-18T02:58:06Z",
+        "email": "apelisse@google.com",
+        "name": "Antoine Pelisse"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-01-18T06:09:23Z",
+        "email": "apelisse@google.com",
+        "name": "Antoine Pelisse"
+      },
+      "message": "Merge 'master' into feature-serverside-apply",
+      "tree": {
+        "sha": "402ae0f95f5f2c9ae95042bce1e95fd3895dc58e",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/402ae0f95f5f2c9ae95042bce1e95fd3895dc58e"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/68d20c27ab49208501ee51a316383f15982ff80c",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1929644?v=4",
+      "events_url": "https://api.github.com/users/apelisse/events{/privacy}",
+      "followers_url": "https://api.github.com/users/apelisse/followers",
+      "following_url": "https://api.github.com/users/apelisse/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apelisse/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/apelisse",
+      "id": 1929644,
+      "login": "apelisse",
+      "node_id": "MDQ6VXNlcjE5Mjk2NDQ=",
+      "organizations_url": "https://api.github.com/users/apelisse/orgs",
+      "received_events_url": "https://api.github.com/users/apelisse/received_events",
+      "repos_url": "https://api.github.com/users/apelisse/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/apelisse/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apelisse/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/apelisse"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/68d20c27ab49208501ee51a316383f15982ff80c",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6NjhkMjBjMjdhYjQ5MjA4NTAxZWU1MWEzMTYzODNmMTU5ODJmZjgwYw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/b7cccfe1154a14b58e8dbe9f5039f031809d91e7",
+        "sha": "b7cccfe1154a14b58e8dbe9f5039f031809d91e7",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/b7cccfe1154a14b58e8dbe9f5039f031809d91e7"
+      },
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/d1c713f3bc0aad7b602127b5b53ce3aa7a7ae58a",
+        "sha": "d1c713f3bc0aad7b602127b5b53ce3aa7a7ae58a",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/d1c713f3bc0aad7b602127b5b53ce3aa7a7ae58a"
+      }
+    ],
+    "sha": "68d20c27ab49208501ee51a316383f15982ff80c",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/68d20c27ab49208501ee51a316383f15982ff80c"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/20407524?v=4",
+      "events_url": "https://api.github.com/users/k8s-ci-robot/events{/privacy}",
+      "followers_url": "https://api.github.com/users/k8s-ci-robot/followers",
+      "following_url": "https://api.github.com/users/k8s-ci-robot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/k8s-ci-robot/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/k8s-ci-robot",
+      "id": 20407524,
+      "login": "k8s-ci-robot",
+      "node_id": "MDQ6VXNlcjIwNDA3NTI0",
+      "organizations_url": "https://api.github.com/users/k8s-ci-robot/orgs",
+      "received_events_url": "https://api.github.com/users/k8s-ci-robot/received_events",
+      "repos_url": "https://api.github.com/users/k8s-ci-robot/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/k8s-ci-robot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/k8s-ci-robot/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/k8s-ci-robot"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/d1c713f3bc0aad7b602127b5b53ce3aa7a7ae58a/comments",
+    "commit": {
+      "author": {
+        "date": "2019-01-18T01:12:10Z",
+        "email": "k8s-ci-robot@users.noreply.github.com",
+        "name": "Kubernetes Prow Robot"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-01-18T01:12:10Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #73040 from wojtek-t/enable_node_lease_tests\n\nEnable NodeLease tests by default",
+      "tree": {
+        "sha": "67db5ee9c2e36747b9ded2aa05dc6dc9c817d415",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/67db5ee9c2e36747b9ded2aa05dc6dc9c817d415"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/d1c713f3bc0aad7b602127b5b53ce3aa7a7ae58a",
+      "verification": {
+        "payload": "tree 67db5ee9c2e36747b9ded2aa05dc6dc9c817d415\nparent b1b6cb8cb41d4161745ee4c21f9263840bf215f0\nparent 291d02486ff72e03c657b79c0f1e00f368f9cfe5\nauthor Kubernetes Prow Robot <k8s-ci-robot@users.noreply.github.com> 1547773930 -0800\ncommitter GitHub <noreply@github.com> 1547773930 -0800\n\nMerge pull request #73040 from wojtek-t/enable_node_lease_tests\n\nEnable NodeLease tests by default",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJcQSfqCRBK7hj4Ov3rIwAAdHIIACI/7nqVGdaAw0gnNWAeZN0Q\n+dDJ0PvHWwwj180iNjSTtrGAe+IGkosK62Lw9PQ34cLdjc+91vRsTVOvvY6rHm7z\n/NO0xZy5SY74r9E5NwsUChCm3Eqfq8zZrzUkQAM1sgKbVPjnqiO/dUqD4f/9lX/E\nFTbkSwiSSctjLALAJcoq+M/ZhZki+adn+CfrBfl8PYX3L5sT/Eq2qPAMaYNSnZV3\n+jKsgS6v5V7RJb2NKlUB7xnVKE0Isxwcjv43kXjiPfftVsgkbD68Ywpv/ZZv+Xx6\nhiJvmd6wOOpY7KqJxi3qtcB9g16/Gqbvjj/tSxXrJrCB7UvEbilwJQ6VV6HXo3A=\n=5yu2\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/d1c713f3bc0aad7b602127b5b53ce3aa7a7ae58a",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6ZDFjNzEzZjNiYzBhYWQ3YjYwMjEyN2I1YjUzY2UzYWE3YTdhZTU4YQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/b1b6cb8cb41d4161745ee4c21f9263840bf215f0",
+        "sha": "b1b6cb8cb41d4161745ee4c21f9263840bf215f0",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/b1b6cb8cb41d4161745ee4c21f9263840bf215f0"
+      },
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/291d02486ff72e03c657b79c0f1e00f368f9cfe5",
+        "sha": "291d02486ff72e03c657b79c0f1e00f368f9cfe5",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/291d02486ff72e03c657b79c0f1e00f368f9cfe5"
+      }
+    ],
+    "sha": "d1c713f3bc0aad7b602127b5b53ce3aa7a7ae58a",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/d1c713f3bc0aad7b602127b5b53ce3aa7a7ae58a"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/20407524?v=4",
+      "events_url": "https://api.github.com/users/k8s-ci-robot/events{/privacy}",
+      "followers_url": "https://api.github.com/users/k8s-ci-robot/followers",
+      "following_url": "https://api.github.com/users/k8s-ci-robot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/k8s-ci-robot/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/k8s-ci-robot",
+      "id": 20407524,
+      "login": "k8s-ci-robot",
+      "node_id": "MDQ6VXNlcjIwNDA3NTI0",
+      "organizations_url": "https://api.github.com/users/k8s-ci-robot/orgs",
+      "received_events_url": "https://api.github.com/users/k8s-ci-robot/received_events",
+      "repos_url": "https://api.github.com/users/k8s-ci-robot/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/k8s-ci-robot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/k8s-ci-robot/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/k8s-ci-robot"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/b1b6cb8cb41d4161745ee4c21f9263840bf215f0/comments",
+    "commit": {
+      "author": {
+        "date": "2019-01-18T01:11:59Z",
+        "email": "k8s-ci-robot@users.noreply.github.com",
+        "name": "Kubernetes Prow Robot"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-01-18T01:11:59Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #73034 from dashpole/fix_allocatable_e2e\n\n[Text Fix] Fix panic in NodeAllocatable node e2e test",
+      "tree": {
+        "sha": "5d4084270cb39a36418231fb4971aa03de6fa1bb",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/5d4084270cb39a36418231fb4971aa03de6fa1bb"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/b1b6cb8cb41d4161745ee4c21f9263840bf215f0",
+      "verification": {
+        "payload": "tree 5d4084270cb39a36418231fb4971aa03de6fa1bb\nparent 2540969b64457df32940a8647b314770eff32b11\nparent 2b8bc85f7588ca1c834c06ee138d6e1fdcc15f46\nauthor Kubernetes Prow Robot <k8s-ci-robot@users.noreply.github.com> 1547773919 -0800\ncommitter GitHub <noreply@github.com> 1547773919 -0800\n\nMerge pull request #73034 from dashpole/fix_allocatable_e2e\n\n[Text Fix] Fix panic in NodeAllocatable node e2e test",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJcQSffCRBK7hj4Ov3rIwAAdHIIAJOz/hxjD9XsV8cPyiDR8HNe\nvqU/BJlldtwBPwvzxScI6QCug8EZp+2qzq9x6oxou5JAwjzT8TQp6pAY449uuP0w\n61VilKJPFp4Gatj6g5KhfL2NLShRV7yn1ltY/l08WDifjnHyo1GbDvQMC2dzKRVK\n5trtQZPn26srnUM2CKZUXhkM6Wys58QrEQogujL+8WM/r5Q3L+aJ38bykr1nvXX5\n8VIiqFMDrVRPz41my4D5JaPAlKDYIPNuwkE/yfEs8L8wIp2fNRvzC9ZVwe24KdY+\nD5kzm68iwuozqmzSOHORtCeSDz5BvMxiHJbzKuyk8xKTJyUCyRPN1d7By9wsw+0=\n=xgfA\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/b1b6cb8cb41d4161745ee4c21f9263840bf215f0",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6YjFiNmNiOGNiNDFkNDE2MTc0NWVlNGMyMWY5MjYzODQwYmYyMTVmMA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/2540969b64457df32940a8647b314770eff32b11",
+        "sha": "2540969b64457df32940a8647b314770eff32b11",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/2540969b64457df32940a8647b314770eff32b11"
+      },
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/2b8bc85f7588ca1c834c06ee138d6e1fdcc15f46",
+        "sha": "2b8bc85f7588ca1c834c06ee138d6e1fdcc15f46",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/2b8bc85f7588ca1c834c06ee138d6e1fdcc15f46"
+      }
+    ],
+    "sha": "b1b6cb8cb41d4161745ee4c21f9263840bf215f0",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/b1b6cb8cb41d4161745ee4c21f9263840bf215f0"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/20407524?v=4",
+      "events_url": "https://api.github.com/users/k8s-ci-robot/events{/privacy}",
+      "followers_url": "https://api.github.com/users/k8s-ci-robot/followers",
+      "following_url": "https://api.github.com/users/k8s-ci-robot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/k8s-ci-robot/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/k8s-ci-robot",
+      "id": 20407524,
+      "login": "k8s-ci-robot",
+      "node_id": "MDQ6VXNlcjIwNDA3NTI0",
+      "organizations_url": "https://api.github.com/users/k8s-ci-robot/orgs",
+      "received_events_url": "https://api.github.com/users/k8s-ci-robot/received_events",
+      "repos_url": "https://api.github.com/users/k8s-ci-robot/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/k8s-ci-robot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/k8s-ci-robot/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/k8s-ci-robot"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/2540969b64457df32940a8647b314770eff32b11/comments",
+    "commit": {
+      "author": {
+        "date": "2019-01-18T01:11:49Z",
+        "email": "k8s-ci-robot@users.noreply.github.com",
+        "name": "Kubernetes Prow Robot"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-01-18T01:11:49Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #73024 from soltysh/fix_createjob\n\nImage is a required parameter",
+      "tree": {
+        "sha": "0dba88dd3fab0808e7e067e7379ade1dc95754d7",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/0dba88dd3fab0808e7e067e7379ade1dc95754d7"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/2540969b64457df32940a8647b314770eff32b11",
+      "verification": {
+        "payload": "tree 0dba88dd3fab0808e7e067e7379ade1dc95754d7\nparent 8b95c6b3a60dad6181798f6911d5a8eb0a9fef5b\nparent 2f59dd752c4df180b39a0b2c72933c1325c249bd\nauthor Kubernetes Prow Robot <k8s-ci-robot@users.noreply.github.com> 1547773909 -0800\ncommitter GitHub <noreply@github.com> 1547773909 -0800\n\nMerge pull request #73024 from soltysh/fix_createjob\n\nImage is a required parameter",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJcQSfVCRBK7hj4Ov3rIwAAdHIIACDbBdYUszqKy2ZL7ZEsFhLV\nEf10Y1NhvQq6zH+xOvmmOzlouMXBknKGxwDzYpKaFyQ5OD4ZNrNxCFF8IzKaUjaC\nPLE1NTvkjjIxfBqxwVWmz/lo5Sxzc9rEs7AbDIi5HWco6k/InbKCwPqB/wLJKixZ\noLxM8vROvNrr89Y7tOd53lL5d/DhM+EQyXy4R+UfEuqKsx1zqfJIobVNwSU803YJ\nsipghjdT4MbTO780its6h3riwawCWqRvz9k6TIFv65Hr+0XQb9YRBmZvagEGpxc3\nGDhHtvcmrCdQu7gZdJG03yaxVn+rHzbIdrJb70aUUdqlkkVMtjnY19I43bRkif4=\n=reKV\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/2540969b64457df32940a8647b314770eff32b11",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6MjU0MDk2OWI2NDQ1N2RmMzI5NDBhODY0N2IzMTQ3NzBlZmYzMmIxMQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/8b95c6b3a60dad6181798f6911d5a8eb0a9fef5b",
+        "sha": "8b95c6b3a60dad6181798f6911d5a8eb0a9fef5b",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/8b95c6b3a60dad6181798f6911d5a8eb0a9fef5b"
+      },
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/2f59dd752c4df180b39a0b2c72933c1325c249bd",
+        "sha": "2f59dd752c4df180b39a0b2c72933c1325c249bd",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/2f59dd752c4df180b39a0b2c72933c1325c249bd"
+      }
+    ],
+    "sha": "2540969b64457df32940a8647b314770eff32b11",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/2540969b64457df32940a8647b314770eff32b11"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/20407524?v=4",
+      "events_url": "https://api.github.com/users/k8s-ci-robot/events{/privacy}",
+      "followers_url": "https://api.github.com/users/k8s-ci-robot/followers",
+      "following_url": "https://api.github.com/users/k8s-ci-robot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/k8s-ci-robot/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/k8s-ci-robot",
+      "id": 20407524,
+      "login": "k8s-ci-robot",
+      "node_id": "MDQ6VXNlcjIwNDA3NTI0",
+      "organizations_url": "https://api.github.com/users/k8s-ci-robot/orgs",
+      "received_events_url": "https://api.github.com/users/k8s-ci-robot/received_events",
+      "repos_url": "https://api.github.com/users/k8s-ci-robot/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/k8s-ci-robot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/k8s-ci-robot/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/k8s-ci-robot"
+    },
+    "comments_url": "https://api.github.com/repos/kubernetes/kubernetes/commits/8b95c6b3a60dad6181798f6911d5a8eb0a9fef5b/comments",
+    "commit": {
+      "author": {
+        "date": "2019-01-18T01:11:39Z",
+        "email": "k8s-ci-robot@users.noreply.github.com",
+        "name": "Kubernetes Prow Robot"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-01-18T01:11:39Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Merge pull request #73008 from yue9944882/chore/test-coverage-unstructured-conversion-acceptable-pt\n\nPart of #68464: Test coverage acceptable behavior of unstructured conversion",
+      "tree": {
+        "sha": "021f2f09608acb1ef66ec1a1a098a8d541838815",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/git/trees/021f2f09608acb1ef66ec1a1a098a8d541838815"
+      },
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/git/commits/8b95c6b3a60dad6181798f6911d5a8eb0a9fef5b",
+      "verification": {
+        "payload": "tree 021f2f09608acb1ef66ec1a1a098a8d541838815\nparent 865d6a71f6055075d9344bca92e2182fce8fb9cc\nparent c96ceb45286561d594a903bf3700dc61976f9b50\nauthor Kubernetes Prow Robot <k8s-ci-robot@users.noreply.github.com> 1547773899 -0800\ncommitter GitHub <noreply@github.com> 1547773899 -0800\n\nMerge pull request #73008 from yue9944882/chore/test-coverage-unstructured-conversion-acceptable-pt\n\nPart of #68464: Test coverage acceptable behavior of unstructured conversion",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJcQSfLCRBK7hj4Ov3rIwAAdHIIADKBgByHkN2S8BYXZiN68ZeD\nruTRMgRJRPfgbp7bZ5LZAgsBWcb8mm0mdIcNWElpt9Tcx8Zy7bOXJaA7sijcnqMK\nwR1yBgtxthvmDKJ4MsgCUrqWj8hVlZ55Dy+9NG3ogblIf5912cYauJcCCnCSznAp\nHjMLGT2X+vdBhPMELc+rfRwrYdjDbbLbDb6KQ4IFjJ+n6PrIGAgrJdWk/WaFM67v\nUFu4s+nYJyD5LHfL4dSGVUMn8+TPy8zO3Kc1wpgcFytPh07Gkj1xaKV3gx0ukpZA\n7MHHpK7gO0nfaY1kRuGzE3FdsCTFywAwPITosUICsrCr6pA/3sIIaNSVUK1Hkpo=\n=bwcH\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/kubernetes/kubernetes/commit/8b95c6b3a60dad6181798f6911d5a8eb0a9fef5b",
+    "node_id": "MDY6Q29tbWl0MjA1ODA0OTg6OGI5NWM2YjNhNjBkYWQ2MTgxNzk4ZjY5MTFkNWE4ZWIwYTlmZWY1Yg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/865d6a71f6055075d9344bca92e2182fce8fb9cc",
+        "sha": "865d6a71f6055075d9344bca92e2182fce8fb9cc",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/865d6a71f6055075d9344bca92e2182fce8fb9cc"
+      },
+      {
+        "html_url": "https://github.com/kubernetes/kubernetes/commit/c96ceb45286561d594a903bf3700dc61976f9b50",
+        "sha": "c96ceb45286561d594a903bf3700dc61976f9b50",
+        "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/c96ceb45286561d594a903bf3700dc61976f9b50"
+      }
+    ],
+    "sha": "8b95c6b3a60dad6181798f6911d5a8eb0a9fef5b",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/commits/8b95c6b3a60dad6181798f6911d5a8eb0a9fef5b"
+  }
+]

@@ -1,0 +1,2312 @@
+[
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/118015?v=4",
+      "events_url": "https://api.github.com/users/benbjohnson/events{/privacy}",
+      "followers_url": "https://api.github.com/users/benbjohnson/followers",
+      "following_url": "https://api.github.com/users/benbjohnson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benbjohnson/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/benbjohnson",
+      "id": 118015,
+      "login": "benbjohnson",
+      "node_id": "MDQ6VXNlcjExODAxNQ==",
+      "organizations_url": "https://api.github.com/users/benbjohnson/orgs",
+      "received_events_url": "https://api.github.com/users/benbjohnson/received_events",
+      "repos_url": "https://api.github.com/users/benbjohnson/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/benbjohnson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benbjohnson/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/benbjohnson"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/9eab56311373ee6f788ae5dfc87e2240038f0eb4/comments",
+    "commit": {
+      "author": {
+        "date": "2015-11-25T21:56:44Z",
+        "email": "benbjohnson@yahoo.com",
+        "name": "Ben Johnson"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-11-25T22:54:45Z",
+        "email": "paul@pauldix.net",
+        "name": "Paul Dix"
+      },
+      "message": "fix flush deadlock\n\nThis commit fixes a deadlock that occurs during b1 flushes. It's\ncaused by taking locks in a different order. In the flush, b1\nlocks the engine and then bolt. However, in the query cursor, a\nlock is obtained on bolt first (via `DB.Begin()`) and then the\nengine is locked while reading from the engine's cache.",
+      "tree": {
+        "sha": "44cf4e4cea834658c130820ab8c1d6e0864ecc50",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/44cf4e4cea834658c130820ab8c1d6e0864ecc50"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/9eab56311373ee6f788ae5dfc87e2240038f0eb4",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4331?v=4",
+      "events_url": "https://api.github.com/users/pauldix/events{/privacy}",
+      "followers_url": "https://api.github.com/users/pauldix/followers",
+      "following_url": "https://api.github.com/users/pauldix/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pauldix/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/pauldix",
+      "id": 4331,
+      "login": "pauldix",
+      "node_id": "MDQ6VXNlcjQzMzE=",
+      "organizations_url": "https://api.github.com/users/pauldix/orgs",
+      "received_events_url": "https://api.github.com/users/pauldix/received_events",
+      "repos_url": "https://api.github.com/users/pauldix/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/pauldix/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pauldix/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/pauldix"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/9eab56311373ee6f788ae5dfc87e2240038f0eb4",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6OWVhYjU2MzExMzczZWU2Zjc4OGFlNWRmYzg3ZTIyNDAwMzhmMGViNA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/770b0ecf9f1f61a9d3a97136d5b6d7dd21afea1e",
+        "sha": "770b0ecf9f1f61a9d3a97136d5b6d7dd21afea1e",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/770b0ecf9f1f61a9d3a97136d5b6d7dd21afea1e"
+      }
+    ],
+    "sha": "9eab56311373ee6f788ae5dfc87e2240038f0eb4",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/9eab56311373ee6f788ae5dfc87e2240038f0eb4"
+  },
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/770b0ecf9f1f61a9d3a97136d5b6d7dd21afea1e/comments",
+    "commit": {
+      "author": {
+        "date": "2015-11-17T21:29:51Z",
+        "email": "ross@influxdb.com",
+        "name": "Ross McDonald"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-11-17T21:58:05Z",
+        "email": "ross@influxdb.com",
+        "name": "Ross McDonald"
+      },
+      "message": "Fixed issue where pre-install script would attempt to copy to a non-existent directory.",
+      "tree": {
+        "sha": "b187918239f0d7dbbd0742b321e4810c76b769bd",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/b187918239f0d7dbbd0742b321e4810c76b769bd"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/770b0ecf9f1f61a9d3a97136d5b6d7dd21afea1e",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": null,
+    "html_url": "https://github.com/influxdata/influxdb/commit/770b0ecf9f1f61a9d3a97136d5b6d7dd21afea1e",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6NzcwYjBlY2Y5ZjFmNjFhOWQzYTk3MTM2ZDViNmQ3ZGQyMWFmZWExZQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/b3eeb5178dfa22ca4441f3987367eb0b35b800ff",
+        "sha": "b3eeb5178dfa22ca4441f3987367eb0b35b800ff",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/b3eeb5178dfa22ca4441f3987367eb0b35b800ff"
+      }
+    ],
+    "sha": "770b0ecf9f1f61a9d3a97136d5b6d7dd21afea1e",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/770b0ecf9f1f61a9d3a97136d5b6d7dd21afea1e"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/585100?v=4",
+      "events_url": "https://api.github.com/users/corylanou/events{/privacy}",
+      "followers_url": "https://api.github.com/users/corylanou/followers",
+      "following_url": "https://api.github.com/users/corylanou/following{/other_user}",
+      "gists_url": "https://api.github.com/users/corylanou/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/corylanou",
+      "id": 585100,
+      "login": "corylanou",
+      "node_id": "MDQ6VXNlcjU4NTEwMA==",
+      "organizations_url": "https://api.github.com/users/corylanou/orgs",
+      "received_events_url": "https://api.github.com/users/corylanou/received_events",
+      "repos_url": "https://api.github.com/users/corylanou/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/corylanou/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/corylanou/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/corylanou"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/b3eeb5178dfa22ca4441f3987367eb0b35b800ff/comments",
+    "commit": {
+      "author": {
+        "date": "2015-11-17T16:43:27Z",
+        "email": "cory@lanou.com",
+        "name": "Cory LaNou"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-11-17T16:51:40Z",
+        "email": "cory@lanou.com",
+        "name": "Cory LaNou"
+      },
+      "message": "fix time inclusive comparison",
+      "tree": {
+        "sha": "a3dc1274673b483c701bd3e3b51b63044d1ed366",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/a3dc1274673b483c701bd3e3b51b63044d1ed366"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/b3eeb5178dfa22ca4441f3987367eb0b35b800ff",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/585100?v=4",
+      "events_url": "https://api.github.com/users/corylanou/events{/privacy}",
+      "followers_url": "https://api.github.com/users/corylanou/followers",
+      "following_url": "https://api.github.com/users/corylanou/following{/other_user}",
+      "gists_url": "https://api.github.com/users/corylanou/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/corylanou",
+      "id": 585100,
+      "login": "corylanou",
+      "node_id": "MDQ6VXNlcjU4NTEwMA==",
+      "organizations_url": "https://api.github.com/users/corylanou/orgs",
+      "received_events_url": "https://api.github.com/users/corylanou/received_events",
+      "repos_url": "https://api.github.com/users/corylanou/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/corylanou/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/corylanou/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/corylanou"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/b3eeb5178dfa22ca4441f3987367eb0b35b800ff",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6YjNlZWI1MTc4ZGZhMjJjYTQ0NDFmMzk4NzM2N2ViMGIzNWI4MDBmZg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/a589f941e93078a4a093806d7336ee903d32f23a",
+        "sha": "a589f941e93078a4a093806d7336ee903d32f23a",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/a589f941e93078a4a093806d7336ee903d32f23a"
+      }
+    ],
+    "sha": "b3eeb5178dfa22ca4441f3987367eb0b35b800ff",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/b3eeb5178dfa22ca4441f3987367eb0b35b800ff"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/585100?v=4",
+      "events_url": "https://api.github.com/users/corylanou/events{/privacy}",
+      "followers_url": "https://api.github.com/users/corylanou/followers",
+      "following_url": "https://api.github.com/users/corylanou/following{/other_user}",
+      "gists_url": "https://api.github.com/users/corylanou/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/corylanou",
+      "id": 585100,
+      "login": "corylanou",
+      "node_id": "MDQ6VXNlcjU4NTEwMA==",
+      "organizations_url": "https://api.github.com/users/corylanou/orgs",
+      "received_events_url": "https://api.github.com/users/corylanou/received_events",
+      "repos_url": "https://api.github.com/users/corylanou/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/corylanou/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/corylanou/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/corylanou"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/a589f941e93078a4a093806d7336ee903d32f23a/comments",
+    "commit": {
+      "author": {
+        "date": "2015-11-16T18:05:33Z",
+        "email": "cory@lanou.com",
+        "name": "Cory LaNou"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-11-16T21:27:15Z",
+        "email": "cory@lanou.com",
+        "name": "Cory LaNou"
+      },
+      "message": "Add interface for heap to support Reverse for `order by desc`",
+      "tree": {
+        "sha": "55b0dbe48a9d6b5885476cf996c48594bdba5eb2",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/55b0dbe48a9d6b5885476cf996c48594bdba5eb2"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/a589f941e93078a4a093806d7336ee903d32f23a",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/585100?v=4",
+      "events_url": "https://api.github.com/users/corylanou/events{/privacy}",
+      "followers_url": "https://api.github.com/users/corylanou/followers",
+      "following_url": "https://api.github.com/users/corylanou/following{/other_user}",
+      "gists_url": "https://api.github.com/users/corylanou/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/corylanou",
+      "id": 585100,
+      "login": "corylanou",
+      "node_id": "MDQ6VXNlcjU4NTEwMA==",
+      "organizations_url": "https://api.github.com/users/corylanou/orgs",
+      "received_events_url": "https://api.github.com/users/corylanou/received_events",
+      "repos_url": "https://api.github.com/users/corylanou/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/corylanou/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/corylanou/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/corylanou"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/a589f941e93078a4a093806d7336ee903d32f23a",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6YTU4OWY5NDFlOTMwNzhhNGEwOTM4MDZkNzMzNmVlOTAzZDMyZjIzYQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/f80554e124f4e38059668668ee2c60fbdcf706f7",
+        "sha": "f80554e124f4e38059668668ee2c60fbdcf706f7",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/f80554e124f4e38059668668ee2c60fbdcf706f7"
+      }
+    ],
+    "sha": "a589f941e93078a4a093806d7336ee903d32f23a",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/a589f941e93078a4a093806d7336ee903d32f23a"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4060903?v=4",
+      "events_url": "https://api.github.com/users/rossmcdonald/events{/privacy}",
+      "followers_url": "https://api.github.com/users/rossmcdonald/followers",
+      "following_url": "https://api.github.com/users/rossmcdonald/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rossmcdonald/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/rossmcdonald",
+      "id": 4060903,
+      "login": "rossmcdonald",
+      "node_id": "MDQ6VXNlcjQwNjA5MDM=",
+      "organizations_url": "https://api.github.com/users/rossmcdonald/orgs",
+      "received_events_url": "https://api.github.com/users/rossmcdonald/received_events",
+      "repos_url": "https://api.github.com/users/rossmcdonald/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/rossmcdonald/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rossmcdonald/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/rossmcdonald"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/f80554e124f4e38059668668ee2c60fbdcf706f7/comments",
+    "commit": {
+      "author": {
+        "date": "2015-11-16T19:32:43Z",
+        "email": "rossmcdonald@users.noreply.github.com",
+        "name": "Ross McDonald"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-11-16T19:39:28Z",
+        "email": "ross@influxdb.com",
+        "name": "Ross McDonald"
+      },
+      "message": "Merge pull request #4786 from influxdb/package-updates\n\nBackporting changes from build.py to package.sh",
+      "tree": {
+        "sha": "de878d69cdac5e814d8957b9e373c68faf76ca2a",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/de878d69cdac5e814d8957b9e373c68faf76ca2a"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/f80554e124f4e38059668668ee2c60fbdcf706f7",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": null,
+    "html_url": "https://github.com/influxdata/influxdb/commit/f80554e124f4e38059668668ee2c60fbdcf706f7",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6ZjgwNTU0ZTEyNGY0ZTM4MDU5NjY4NjY4ZWUyYzYwZmJkY2Y3MDZmNw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/30fd1dedf17423df11d0d3a9d2760a912da26c56",
+        "sha": "30fd1dedf17423df11d0d3a9d2760a912da26c56",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/30fd1dedf17423df11d0d3a9d2760a912da26c56"
+      }
+    ],
+    "sha": "f80554e124f4e38059668668ee2c60fbdcf706f7",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/f80554e124f4e38059668668ee2c60fbdcf706f7"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/536312?v=4",
+      "events_url": "https://api.github.com/users/otoolep/events{/privacy}",
+      "followers_url": "https://api.github.com/users/otoolep/followers",
+      "following_url": "https://api.github.com/users/otoolep/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otoolep/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/otoolep",
+      "id": 536312,
+      "login": "otoolep",
+      "node_id": "MDQ6VXNlcjUzNjMxMg==",
+      "organizations_url": "https://api.github.com/users/otoolep/orgs",
+      "received_events_url": "https://api.github.com/users/otoolep/received_events",
+      "repos_url": "https://api.github.com/users/otoolep/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/otoolep/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otoolep/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/otoolep"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/30fd1dedf17423df11d0d3a9d2760a912da26c56/comments",
+    "commit": {
+      "author": {
+        "date": "2015-11-13T22:34:07Z",
+        "email": "philip@influxdb.com",
+        "name": "Philip O'Toole"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-11-14T01:55:46Z",
+        "email": "philip@influxdb.com",
+        "name": "Philip O'Toole"
+      },
+      "message": "WHERE fields must be decoded during aggregates\n\nThis change ensures that if there are any fields in the WHERE clause of\nan aggregate that are different from the fields in the SELECT clause,\nthat the cursors also decode those fields. Otherwise WHERE clauses of\nthe form 'SELECT f(w) FROM x WHERE y=z' will return incorrect results\n\nFixes issue #4701.\n\nConflicts:\n\tCHANGELOG.md",
+      "tree": {
+        "sha": "cd6398e698d43e9c1d474e87f9af46efd266682f",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/cd6398e698d43e9c1d474e87f9af46efd266682f"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/30fd1dedf17423df11d0d3a9d2760a912da26c56",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/536312?v=4",
+      "events_url": "https://api.github.com/users/otoolep/events{/privacy}",
+      "followers_url": "https://api.github.com/users/otoolep/followers",
+      "following_url": "https://api.github.com/users/otoolep/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otoolep/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/otoolep",
+      "id": 536312,
+      "login": "otoolep",
+      "node_id": "MDQ6VXNlcjUzNjMxMg==",
+      "organizations_url": "https://api.github.com/users/otoolep/orgs",
+      "received_events_url": "https://api.github.com/users/otoolep/received_events",
+      "repos_url": "https://api.github.com/users/otoolep/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/otoolep/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otoolep/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/otoolep"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/30fd1dedf17423df11d0d3a9d2760a912da26c56",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6MzBmZDFkZWRmMTc0MjNkZjExZDBkM2E5ZDI3NjBhOTEyZGEyNmM1Ng==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/65b9e6a448ed3f99f38bac38793f1c85b0edf66f",
+        "sha": "65b9e6a448ed3f99f38bac38793f1c85b0edf66f",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/65b9e6a448ed3f99f38bac38793f1c85b0edf66f"
+      }
+    ],
+    "sha": "30fd1dedf17423df11d0d3a9d2760a912da26c56",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/30fd1dedf17423df11d0d3a9d2760a912da26c56"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/53132?v=4",
+      "events_url": "https://api.github.com/users/toddboom/events{/privacy}",
+      "followers_url": "https://api.github.com/users/toddboom/followers",
+      "following_url": "https://api.github.com/users/toddboom/following{/other_user}",
+      "gists_url": "https://api.github.com/users/toddboom/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/toddboom",
+      "id": 53132,
+      "login": "toddboom",
+      "node_id": "MDQ6VXNlcjUzMTMy",
+      "organizations_url": "https://api.github.com/users/toddboom/orgs",
+      "received_events_url": "https://api.github.com/users/toddboom/received_events",
+      "repos_url": "https://api.github.com/users/toddboom/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/toddboom/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/toddboom/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/toddboom"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/65b9e6a448ed3f99f38bac38793f1c85b0edf66f/comments",
+    "commit": {
+      "author": {
+        "date": "2015-09-16T17:12:56Z",
+        "email": "todd.persen@gmail.com",
+        "name": "Todd Persen"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-11-13T22:57:01Z",
+        "email": "gunnar.r.aasen@gmail.com",
+        "name": "gunnaraasen"
+      },
+      "message": "Update admin assets for v0.9.5",
+      "tree": {
+        "sha": "8b3eeefaf9536e9182f62e3aeb3d89f4f34e3f56",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/8b3eeefaf9536e9182f62e3aeb3d89f4f34e3f56"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/65b9e6a448ed3f99f38bac38793f1c85b0edf66f",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/628831?v=4",
+      "events_url": "https://api.github.com/users/gunnaraasen/events{/privacy}",
+      "followers_url": "https://api.github.com/users/gunnaraasen/followers",
+      "following_url": "https://api.github.com/users/gunnaraasen/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gunnaraasen/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/gunnaraasen",
+      "id": 628831,
+      "login": "gunnaraasen",
+      "node_id": "MDQ6VXNlcjYyODgzMQ==",
+      "organizations_url": "https://api.github.com/users/gunnaraasen/orgs",
+      "received_events_url": "https://api.github.com/users/gunnaraasen/received_events",
+      "repos_url": "https://api.github.com/users/gunnaraasen/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/gunnaraasen/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gunnaraasen/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/gunnaraasen"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/65b9e6a448ed3f99f38bac38793f1c85b0edf66f",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6NjViOWU2YTQ0OGVkM2Y5OWYzOGJhYzM4NzkzZjFjODViMGVkZjY2Zg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/ca1fdfd4d7c978c5b9db0570d7eab7a7797a68a8",
+        "sha": "ca1fdfd4d7c978c5b9db0570d7eab7a7797a68a8",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/ca1fdfd4d7c978c5b9db0570d7eab7a7797a68a8"
+      }
+    ],
+    "sha": "65b9e6a448ed3f99f38bac38793f1c85b0edf66f",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/65b9e6a448ed3f99f38bac38793f1c85b0edf66f"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/536312?v=4",
+      "events_url": "https://api.github.com/users/otoolep/events{/privacy}",
+      "followers_url": "https://api.github.com/users/otoolep/followers",
+      "following_url": "https://api.github.com/users/otoolep/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otoolep/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/otoolep",
+      "id": 536312,
+      "login": "otoolep",
+      "node_id": "MDQ6VXNlcjUzNjMxMg==",
+      "organizations_url": "https://api.github.com/users/otoolep/orgs",
+      "received_events_url": "https://api.github.com/users/otoolep/received_events",
+      "repos_url": "https://api.github.com/users/otoolep/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/otoolep/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otoolep/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/otoolep"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/ca1fdfd4d7c978c5b9db0570d7eab7a7797a68a8/comments",
+    "commit": {
+      "author": {
+        "date": "2015-11-13T03:06:41Z",
+        "email": "philip@influxdb.com",
+        "name": "Philip O'Toole"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-11-13T03:15:54Z",
+        "email": "philip@influxdb.com",
+        "name": "Philip O'Toole"
+      },
+      "message": "Update CHANGELOG",
+      "tree": {
+        "sha": "fe8297ad8af500a45f7ed329e53bba6acbee79a1",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/fe8297ad8af500a45f7ed329e53bba6acbee79a1"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/ca1fdfd4d7c978c5b9db0570d7eab7a7797a68a8",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/536312?v=4",
+      "events_url": "https://api.github.com/users/otoolep/events{/privacy}",
+      "followers_url": "https://api.github.com/users/otoolep/followers",
+      "following_url": "https://api.github.com/users/otoolep/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otoolep/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/otoolep",
+      "id": 536312,
+      "login": "otoolep",
+      "node_id": "MDQ6VXNlcjUzNjMxMg==",
+      "organizations_url": "https://api.github.com/users/otoolep/orgs",
+      "received_events_url": "https://api.github.com/users/otoolep/received_events",
+      "repos_url": "https://api.github.com/users/otoolep/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/otoolep/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otoolep/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/otoolep"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/ca1fdfd4d7c978c5b9db0570d7eab7a7797a68a8",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6Y2ExZmRmZDRkN2M5NzhjNWI5ZGIwNTcwZDdlYWI3YTc3OTdhNjhhOA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/ea50abf27e685b51e3de604d39c9edd354307ad6",
+        "sha": "ea50abf27e685b51e3de604d39c9edd354307ad6",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/ea50abf27e685b51e3de604d39c9edd354307ad6"
+      }
+    ],
+    "sha": "ca1fdfd4d7c978c5b9db0570d7eab7a7797a68a8",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/ca1fdfd4d7c978c5b9db0570d7eab7a7797a68a8"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/536312?v=4",
+      "events_url": "https://api.github.com/users/otoolep/events{/privacy}",
+      "followers_url": "https://api.github.com/users/otoolep/followers",
+      "following_url": "https://api.github.com/users/otoolep/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otoolep/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/otoolep",
+      "id": 536312,
+      "login": "otoolep",
+      "node_id": "MDQ6VXNlcjUzNjMxMg==",
+      "organizations_url": "https://api.github.com/users/otoolep/orgs",
+      "received_events_url": "https://api.github.com/users/otoolep/received_events",
+      "repos_url": "https://api.github.com/users/otoolep/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/otoolep/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otoolep/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/otoolep"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/ea50abf27e685b51e3de604d39c9edd354307ad6/comments",
+    "commit": {
+      "author": {
+        "date": "2015-11-13T03:04:00Z",
+        "email": "philip@influxdb.com",
+        "name": "Philip O'Toole"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-11-13T03:15:54Z",
+        "email": "philip@influxdb.com",
+        "name": "Philip O'Toole"
+      },
+      "message": "Remove incorrect count() tests",
+      "tree": {
+        "sha": "dae7274a3b8cc2400a714fb16c9b5dde00c4a5e1",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/dae7274a3b8cc2400a714fb16c9b5dde00c4a5e1"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/ea50abf27e685b51e3de604d39c9edd354307ad6",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/536312?v=4",
+      "events_url": "https://api.github.com/users/otoolep/events{/privacy}",
+      "followers_url": "https://api.github.com/users/otoolep/followers",
+      "following_url": "https://api.github.com/users/otoolep/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otoolep/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/otoolep",
+      "id": 536312,
+      "login": "otoolep",
+      "node_id": "MDQ6VXNlcjUzNjMxMg==",
+      "organizations_url": "https://api.github.com/users/otoolep/orgs",
+      "received_events_url": "https://api.github.com/users/otoolep/received_events",
+      "repos_url": "https://api.github.com/users/otoolep/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/otoolep/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otoolep/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/otoolep"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/ea50abf27e685b51e3de604d39c9edd354307ad6",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6ZWE1MGFiZjI3ZTY4NWI1MWUzZGU2MDRkMzljOWVkZDM1NDMwN2FkNg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/d9b54e90346c0a5efe57156e6d1c91e50ad28643",
+        "sha": "d9b54e90346c0a5efe57156e6d1c91e50ad28643",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/d9b54e90346c0a5efe57156e6d1c91e50ad28643"
+      }
+    ],
+    "sha": "ea50abf27e685b51e3de604d39c9edd354307ad6",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/ea50abf27e685b51e3de604d39c9edd354307ad6"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/536312?v=4",
+      "events_url": "https://api.github.com/users/otoolep/events{/privacy}",
+      "followers_url": "https://api.github.com/users/otoolep/followers",
+      "following_url": "https://api.github.com/users/otoolep/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otoolep/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/otoolep",
+      "id": 536312,
+      "login": "otoolep",
+      "node_id": "MDQ6VXNlcjUzNjMxMg==",
+      "organizations_url": "https://api.github.com/users/otoolep/orgs",
+      "received_events_url": "https://api.github.com/users/otoolep/received_events",
+      "repos_url": "https://api.github.com/users/otoolep/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/otoolep/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otoolep/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/otoolep"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/d9b54e90346c0a5efe57156e6d1c91e50ad28643/comments",
+    "commit": {
+      "author": {
+        "date": "2015-11-13T02:52:58Z",
+        "email": "philip@influxdb.com",
+        "name": "Philip O'Toole"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-11-13T03:15:54Z",
+        "email": "philip@influxdb.com",
+        "name": "Philip O'Toole"
+      },
+      "message": "If no points to count, count is 0\n\nFix issue #4701.",
+      "tree": {
+        "sha": "8a1a28cc17041cdedae6360a75f7f21c74fad8a8",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/8a1a28cc17041cdedae6360a75f7f21c74fad8a8"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/d9b54e90346c0a5efe57156e6d1c91e50ad28643",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/536312?v=4",
+      "events_url": "https://api.github.com/users/otoolep/events{/privacy}",
+      "followers_url": "https://api.github.com/users/otoolep/followers",
+      "following_url": "https://api.github.com/users/otoolep/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otoolep/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/otoolep",
+      "id": 536312,
+      "login": "otoolep",
+      "node_id": "MDQ6VXNlcjUzNjMxMg==",
+      "organizations_url": "https://api.github.com/users/otoolep/orgs",
+      "received_events_url": "https://api.github.com/users/otoolep/received_events",
+      "repos_url": "https://api.github.com/users/otoolep/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/otoolep/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otoolep/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/otoolep"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/d9b54e90346c0a5efe57156e6d1c91e50ad28643",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6ZDliNTRlOTAzNDZjMGE1ZWZlNTcxNTZlNmQxYzkxZTUwYWQyODY0Mw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/8cd09310fa821ca146f454c9f08384a826af864c",
+        "sha": "8cd09310fa821ca146f454c9f08384a826af864c",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/8cd09310fa821ca146f454c9f08384a826af864c"
+      }
+    ],
+    "sha": "d9b54e90346c0a5efe57156e6d1c91e50ad28643",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/d9b54e90346c0a5efe57156e6d1c91e50ad28643"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/536312?v=4",
+      "events_url": "https://api.github.com/users/otoolep/events{/privacy}",
+      "followers_url": "https://api.github.com/users/otoolep/followers",
+      "following_url": "https://api.github.com/users/otoolep/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otoolep/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/otoolep",
+      "id": 536312,
+      "login": "otoolep",
+      "node_id": "MDQ6VXNlcjUzNjMxMg==",
+      "organizations_url": "https://api.github.com/users/otoolep/orgs",
+      "received_events_url": "https://api.github.com/users/otoolep/received_events",
+      "repos_url": "https://api.github.com/users/otoolep/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/otoolep/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otoolep/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/otoolep"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/8cd09310fa821ca146f454c9f08384a826af864c/comments",
+    "commit": {
+      "author": {
+        "date": "2015-11-12T22:38:15Z",
+        "email": "philip.otoole@yahoo.com",
+        "name": "Philip O'Toole"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-11-12T22:38:15Z",
+        "email": "philip.otoole@yahoo.com",
+        "name": "Philip O'Toole"
+      },
+      "message": "master is now 0.9.6!\n\n[ci skip]",
+      "tree": {
+        "sha": "523509e3f4dbd0223c3755896c95de0110dd86c1",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/523509e3f4dbd0223c3755896c95de0110dd86c1"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/8cd09310fa821ca146f454c9f08384a826af864c",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/536312?v=4",
+      "events_url": "https://api.github.com/users/otoolep/events{/privacy}",
+      "followers_url": "https://api.github.com/users/otoolep/followers",
+      "following_url": "https://api.github.com/users/otoolep/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otoolep/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/otoolep",
+      "id": 536312,
+      "login": "otoolep",
+      "node_id": "MDQ6VXNlcjUzNjMxMg==",
+      "organizations_url": "https://api.github.com/users/otoolep/orgs",
+      "received_events_url": "https://api.github.com/users/otoolep/received_events",
+      "repos_url": "https://api.github.com/users/otoolep/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/otoolep/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otoolep/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/otoolep"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/8cd09310fa821ca146f454c9f08384a826af864c",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6OGNkMDkzMTBmYTgyMWNhMTQ2ZjQ1NGM5ZjA4Mzg0YTgyNmFmODY0Yw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/6f81fde398246504bb90b418275532f08852e259",
+        "sha": "6f81fde398246504bb90b418275532f08852e259",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/6f81fde398246504bb90b418275532f08852e259"
+      }
+    ],
+    "sha": "8cd09310fa821ca146f454c9f08384a826af864c",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/8cd09310fa821ca146f454c9f08384a826af864c"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/536312?v=4",
+      "events_url": "https://api.github.com/users/otoolep/events{/privacy}",
+      "followers_url": "https://api.github.com/users/otoolep/followers",
+      "following_url": "https://api.github.com/users/otoolep/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otoolep/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/otoolep",
+      "id": 536312,
+      "login": "otoolep",
+      "node_id": "MDQ6VXNlcjUzNjMxMg==",
+      "organizations_url": "https://api.github.com/users/otoolep/orgs",
+      "received_events_url": "https://api.github.com/users/otoolep/received_events",
+      "repos_url": "https://api.github.com/users/otoolep/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/otoolep/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otoolep/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/otoolep"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/6f81fde398246504bb90b418275532f08852e259/comments",
+    "commit": {
+      "author": {
+        "date": "2015-11-12T22:28:20Z",
+        "email": "philip.otoole@yahoo.com",
+        "name": "Philip O'Toole"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-11-12T22:28:20Z",
+        "email": "philip.otoole@yahoo.com",
+        "name": "Philip O'Toole"
+      },
+      "message": "Tweak Support sectioning\n\n[ci skip]",
+      "tree": {
+        "sha": "83509729be86af9ae184b70129830dd179dae3dd",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/83509729be86af9ae184b70129830dd179dae3dd"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/6f81fde398246504bb90b418275532f08852e259",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/536312?v=4",
+      "events_url": "https://api.github.com/users/otoolep/events{/privacy}",
+      "followers_url": "https://api.github.com/users/otoolep/followers",
+      "following_url": "https://api.github.com/users/otoolep/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otoolep/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/otoolep",
+      "id": 536312,
+      "login": "otoolep",
+      "node_id": "MDQ6VXNlcjUzNjMxMg==",
+      "organizations_url": "https://api.github.com/users/otoolep/orgs",
+      "received_events_url": "https://api.github.com/users/otoolep/received_events",
+      "repos_url": "https://api.github.com/users/otoolep/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/otoolep/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otoolep/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/otoolep"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/6f81fde398246504bb90b418275532f08852e259",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6NmY4MWZkZTM5ODI0NjUwNGJiOTBiNDE4Mjc1NTMyZjA4ODUyZTI1OQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/e32d97e770992c6b1522c13e9049483d2a24aa80",
+        "sha": "e32d97e770992c6b1522c13e9049483d2a24aa80",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/e32d97e770992c6b1522c13e9049483d2a24aa80"
+      }
+    ],
+    "sha": "6f81fde398246504bb90b418275532f08852e259",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/6f81fde398246504bb90b418275532f08852e259"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/7155926?v=4",
+      "events_url": "https://api.github.com/users/sparrc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/sparrc/followers",
+      "following_url": "https://api.github.com/users/sparrc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sparrc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/sparrc",
+      "id": 7155926,
+      "login": "sparrc",
+      "node_id": "MDQ6VXNlcjcxNTU5MjY=",
+      "organizations_url": "https://api.github.com/users/sparrc/orgs",
+      "received_events_url": "https://api.github.com/users/sparrc/received_events",
+      "repos_url": "https://api.github.com/users/sparrc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/sparrc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sparrc/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/sparrc"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/e32d97e770992c6b1522c13e9049483d2a24aa80/comments",
+    "commit": {
+      "author": {
+        "date": "2015-11-12T22:27:14Z",
+        "email": "cameronsparr@gmail.com",
+        "name": "Cameron Sparr"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-11-12T22:27:18Z",
+        "email": "cameronsparr@gmail.com",
+        "name": "Cameron Sparr"
+      },
+      "message": "Don't send data _without_ a timestamp",
+      "tree": {
+        "sha": "09663065beb85dedf06419eb836d55cf0301a81b",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/09663065beb85dedf06419eb836d55cf0301a81b"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/e32d97e770992c6b1522c13e9049483d2a24aa80",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/7155926?v=4",
+      "events_url": "https://api.github.com/users/sparrc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/sparrc/followers",
+      "following_url": "https://api.github.com/users/sparrc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sparrc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/sparrc",
+      "id": 7155926,
+      "login": "sparrc",
+      "node_id": "MDQ6VXNlcjcxNTU5MjY=",
+      "organizations_url": "https://api.github.com/users/sparrc/orgs",
+      "received_events_url": "https://api.github.com/users/sparrc/received_events",
+      "repos_url": "https://api.github.com/users/sparrc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/sparrc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sparrc/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/sparrc"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/e32d97e770992c6b1522c13e9049483d2a24aa80",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6ZTMyZDk3ZTc3MDk5MmM2YjE1MjJjMTNlOTA0OTQ4M2QyYTI0YWE4MA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/b2cc5498aa636e4c708315eb219c2f5c8c89cb0f",
+        "sha": "b2cc5498aa636e4c708315eb219c2f5c8c89cb0f",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/b2cc5498aa636e4c708315eb219c2f5c8c89cb0f"
+      }
+    ],
+    "sha": "e32d97e770992c6b1522c13e9049483d2a24aa80",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/e32d97e770992c6b1522c13e9049483d2a24aa80"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/536312?v=4",
+      "events_url": "https://api.github.com/users/otoolep/events{/privacy}",
+      "followers_url": "https://api.github.com/users/otoolep/followers",
+      "following_url": "https://api.github.com/users/otoolep/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otoolep/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/otoolep",
+      "id": 536312,
+      "login": "otoolep",
+      "node_id": "MDQ6VXNlcjUzNjMxMg==",
+      "organizations_url": "https://api.github.com/users/otoolep/orgs",
+      "received_events_url": "https://api.github.com/users/otoolep/received_events",
+      "repos_url": "https://api.github.com/users/otoolep/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/otoolep/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otoolep/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/otoolep"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/b2cc5498aa636e4c708315eb219c2f5c8c89cb0f/comments",
+    "commit": {
+      "author": {
+        "date": "2015-11-12T22:27:11Z",
+        "email": "philip.otoole@yahoo.com",
+        "name": "Philip O'Toole"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-11-12T22:27:11Z",
+        "email": "philip.otoole@yahoo.com",
+        "name": "Philip O'Toole"
+      },
+      "message": "Add support and sales details to README\n\n[ci skip]",
+      "tree": {
+        "sha": "fcdb905918f41205bb46b914d48a03768c14ed71",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/fcdb905918f41205bb46b914d48a03768c14ed71"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/b2cc5498aa636e4c708315eb219c2f5c8c89cb0f",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/536312?v=4",
+      "events_url": "https://api.github.com/users/otoolep/events{/privacy}",
+      "followers_url": "https://api.github.com/users/otoolep/followers",
+      "following_url": "https://api.github.com/users/otoolep/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otoolep/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/otoolep",
+      "id": 536312,
+      "login": "otoolep",
+      "node_id": "MDQ6VXNlcjUzNjMxMg==",
+      "organizations_url": "https://api.github.com/users/otoolep/orgs",
+      "received_events_url": "https://api.github.com/users/otoolep/received_events",
+      "repos_url": "https://api.github.com/users/otoolep/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/otoolep/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otoolep/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/otoolep"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/b2cc5498aa636e4c708315eb219c2f5c8c89cb0f",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6YjJjYzU0OThhYTYzNmU0YzcwODMxNWViMjE5YzJmNWM4Yzg5Y2IwZg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/596e00b1b3d4bd4980b2b7b4ef0f49ed7a206037",
+        "sha": "596e00b1b3d4bd4980b2b7b4ef0f49ed7a206037",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/596e00b1b3d4bd4980b2b7b4ef0f49ed7a206037"
+      }
+    ],
+    "sha": "b2cc5498aa636e4c708315eb219c2f5c8c89cb0f",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/b2cc5498aa636e4c708315eb219c2f5c8c89cb0f"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4060903?v=4",
+      "events_url": "https://api.github.com/users/rossmcdonald/events{/privacy}",
+      "followers_url": "https://api.github.com/users/rossmcdonald/followers",
+      "following_url": "https://api.github.com/users/rossmcdonald/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rossmcdonald/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/rossmcdonald",
+      "id": 4060903,
+      "login": "rossmcdonald",
+      "node_id": "MDQ6VXNlcjQwNjA5MDM=",
+      "organizations_url": "https://api.github.com/users/rossmcdonald/orgs",
+      "received_events_url": "https://api.github.com/users/rossmcdonald/received_events",
+      "repos_url": "https://api.github.com/users/rossmcdonald/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/rossmcdonald/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rossmcdonald/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/rossmcdonald"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/596e00b1b3d4bd4980b2b7b4ef0f49ed7a206037/comments",
+    "commit": {
+      "author": {
+        "date": "2015-11-12T22:19:20Z",
+        "email": "rossmcdonald@users.noreply.github.com",
+        "name": "Ross McDonald"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-11-12T22:19:20Z",
+        "email": "rossmcdonald@users.noreply.github.com",
+        "name": "Ross McDonald"
+      },
+      "message": "Merge pull request #4479 from influxdb/package-updates\n\nFilesystem Hierarchy and Packaging Proposed Modifications",
+      "tree": {
+        "sha": "a85db2278ee90002bafcf9e10cbc280284a15956",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/a85db2278ee90002bafcf9e10cbc280284a15956"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/596e00b1b3d4bd4980b2b7b4ef0f49ed7a206037",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4060903?v=4",
+      "events_url": "https://api.github.com/users/rossmcdonald/events{/privacy}",
+      "followers_url": "https://api.github.com/users/rossmcdonald/followers",
+      "following_url": "https://api.github.com/users/rossmcdonald/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rossmcdonald/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/rossmcdonald",
+      "id": 4060903,
+      "login": "rossmcdonald",
+      "node_id": "MDQ6VXNlcjQwNjA5MDM=",
+      "organizations_url": "https://api.github.com/users/rossmcdonald/orgs",
+      "received_events_url": "https://api.github.com/users/rossmcdonald/received_events",
+      "repos_url": "https://api.github.com/users/rossmcdonald/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/rossmcdonald/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rossmcdonald/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/rossmcdonald"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/596e00b1b3d4bd4980b2b7b4ef0f49ed7a206037",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6NTk2ZTAwYjFiM2Q0YmQ0OTgwYjJiN2I0ZWYwZjQ5ZWQ3YTIwNjAzNw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/909f5e8ae3d135eac76530501fa01e4208baccb7",
+        "sha": "909f5e8ae3d135eac76530501fa01e4208baccb7",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/909f5e8ae3d135eac76530501fa01e4208baccb7"
+      },
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/bd186195dbf91f9b30a6d532f9bfae2c3a3b7fcd",
+        "sha": "bd186195dbf91f9b30a6d532f9bfae2c3a3b7fcd",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/bd186195dbf91f9b30a6d532f9bfae2c3a3b7fcd"
+      }
+    ],
+    "sha": "596e00b1b3d4bd4980b2b7b4ef0f49ed7a206037",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/596e00b1b3d4bd4980b2b7b4ef0f49ed7a206037"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/7155926?v=4",
+      "events_url": "https://api.github.com/users/sparrc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/sparrc/followers",
+      "following_url": "https://api.github.com/users/sparrc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sparrc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/sparrc",
+      "id": 7155926,
+      "login": "sparrc",
+      "node_id": "MDQ6VXNlcjcxNTU5MjY=",
+      "organizations_url": "https://api.github.com/users/sparrc/orgs",
+      "received_events_url": "https://api.github.com/users/sparrc/received_events",
+      "repos_url": "https://api.github.com/users/sparrc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/sparrc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sparrc/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/sparrc"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/909f5e8ae3d135eac76530501fa01e4208baccb7/comments",
+    "commit": {
+      "author": {
+        "date": "2015-11-12T22:17:47Z",
+        "email": "cameronsparr@gmail.com",
+        "name": "Cameron Sparr"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-11-12T22:18:04Z",
+        "email": "cameronsparr@gmail.com",
+        "name": "Cameron Sparr"
+      },
+      "message": "Small comment fixups",
+      "tree": {
+        "sha": "1a764c7dbbf404233068147038697df2920b016a",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/1a764c7dbbf404233068147038697df2920b016a"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/909f5e8ae3d135eac76530501fa01e4208baccb7",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/7155926?v=4",
+      "events_url": "https://api.github.com/users/sparrc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/sparrc/followers",
+      "following_url": "https://api.github.com/users/sparrc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sparrc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/sparrc",
+      "id": 7155926,
+      "login": "sparrc",
+      "node_id": "MDQ6VXNlcjcxNTU5MjY=",
+      "organizations_url": "https://api.github.com/users/sparrc/orgs",
+      "received_events_url": "https://api.github.com/users/sparrc/received_events",
+      "repos_url": "https://api.github.com/users/sparrc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/sparrc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sparrc/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/sparrc"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/909f5e8ae3d135eac76530501fa01e4208baccb7",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6OTA5ZjVlOGFlM2QxMzVlYWM3NjUzMDUwMWZhMDFlNDIwOGJhY2NiNw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/ce02db8d8b8c1e9ea4939c46b099af73b069a3ef",
+        "sha": "ce02db8d8b8c1e9ea4939c46b099af73b069a3ef",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/ce02db8d8b8c1e9ea4939c46b099af73b069a3ef"
+      }
+    ],
+    "sha": "909f5e8ae3d135eac76530501fa01e4208baccb7",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/909f5e8ae3d135eac76530501fa01e4208baccb7"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/536312?v=4",
+      "events_url": "https://api.github.com/users/otoolep/events{/privacy}",
+      "followers_url": "https://api.github.com/users/otoolep/followers",
+      "following_url": "https://api.github.com/users/otoolep/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otoolep/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/otoolep",
+      "id": 536312,
+      "login": "otoolep",
+      "node_id": "MDQ6VXNlcjUzNjMxMg==",
+      "organizations_url": "https://api.github.com/users/otoolep/orgs",
+      "received_events_url": "https://api.github.com/users/otoolep/received_events",
+      "repos_url": "https://api.github.com/users/otoolep/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/otoolep/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otoolep/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/otoolep"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/ce02db8d8b8c1e9ea4939c46b099af73b069a3ef/comments",
+    "commit": {
+      "author": {
+        "date": "2015-11-12T21:57:56Z",
+        "email": "philip.otoole@yahoo.com",
+        "name": "Philip O'Toole"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-11-12T21:57:56Z",
+        "email": "philip.otoole@yahoo.com",
+        "name": "Philip O'Toole"
+      },
+      "message": "Merge pull request #4771 from influxdb/max_proc_log\n\nSet GOMAXPROCS before log message",
+      "tree": {
+        "sha": "ea1e56b9410665718117253a39c0632f9f1419c0",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/ea1e56b9410665718117253a39c0632f9f1419c0"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/ce02db8d8b8c1e9ea4939c46b099af73b069a3ef",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/536312?v=4",
+      "events_url": "https://api.github.com/users/otoolep/events{/privacy}",
+      "followers_url": "https://api.github.com/users/otoolep/followers",
+      "following_url": "https://api.github.com/users/otoolep/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otoolep/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/otoolep",
+      "id": 536312,
+      "login": "otoolep",
+      "node_id": "MDQ6VXNlcjUzNjMxMg==",
+      "organizations_url": "https://api.github.com/users/otoolep/orgs",
+      "received_events_url": "https://api.github.com/users/otoolep/received_events",
+      "repos_url": "https://api.github.com/users/otoolep/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/otoolep/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otoolep/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/otoolep"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/ce02db8d8b8c1e9ea4939c46b099af73b069a3ef",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6Y2UwMmRiOGQ4YjhjMWU5ZWE0OTM5YzQ2YjA5OWFmNzNiMDY5YTNlZg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/b0e9f7e844225b05abf9f4455229490f99348ac4",
+        "sha": "b0e9f7e844225b05abf9f4455229490f99348ac4",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/b0e9f7e844225b05abf9f4455229490f99348ac4"
+      },
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/dc609b06fd35dcbfcf3108ff8ca48aa6be9f9034",
+        "sha": "dc609b06fd35dcbfcf3108ff8ca48aa6be9f9034",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/dc609b06fd35dcbfcf3108ff8ca48aa6be9f9034"
+      }
+    ],
+    "sha": "ce02db8d8b8c1e9ea4939c46b099af73b069a3ef",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/ce02db8d8b8c1e9ea4939c46b099af73b069a3ef"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/536312?v=4",
+      "events_url": "https://api.github.com/users/otoolep/events{/privacy}",
+      "followers_url": "https://api.github.com/users/otoolep/followers",
+      "following_url": "https://api.github.com/users/otoolep/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otoolep/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/otoolep",
+      "id": 536312,
+      "login": "otoolep",
+      "node_id": "MDQ6VXNlcjUzNjMxMg==",
+      "organizations_url": "https://api.github.com/users/otoolep/orgs",
+      "received_events_url": "https://api.github.com/users/otoolep/received_events",
+      "repos_url": "https://api.github.com/users/otoolep/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/otoolep/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otoolep/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/otoolep"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/dc609b06fd35dcbfcf3108ff8ca48aa6be9f9034/comments",
+    "commit": {
+      "author": {
+        "date": "2015-11-12T21:28:35Z",
+        "email": "philip@influxdb.com",
+        "name": "Philip O'Toole"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-11-12T21:28:35Z",
+        "email": "philip@influxdb.com",
+        "name": "Philip O'Toole"
+      },
+      "message": "Set GOMAXPROCS before log message\n\nPreviously the impression was being given that GOMAXPROCS was not being\nset correctly.",
+      "tree": {
+        "sha": "85c856828cc04fe61d5b72b472136bdb395605c4",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/85c856828cc04fe61d5b72b472136bdb395605c4"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/dc609b06fd35dcbfcf3108ff8ca48aa6be9f9034",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/536312?v=4",
+      "events_url": "https://api.github.com/users/otoolep/events{/privacy}",
+      "followers_url": "https://api.github.com/users/otoolep/followers",
+      "following_url": "https://api.github.com/users/otoolep/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otoolep/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/otoolep",
+      "id": 536312,
+      "login": "otoolep",
+      "node_id": "MDQ6VXNlcjUzNjMxMg==",
+      "organizations_url": "https://api.github.com/users/otoolep/orgs",
+      "received_events_url": "https://api.github.com/users/otoolep/received_events",
+      "repos_url": "https://api.github.com/users/otoolep/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/otoolep/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otoolep/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/otoolep"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/dc609b06fd35dcbfcf3108ff8ca48aa6be9f9034",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6ZGM2MDliMDZmZDM1ZGNiZmNmMzEwOGZmOGNhNDhhYTZiZTlmOTAzNA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/f56f3ae1e0ec157de817dc72cc9d232d53800b21",
+        "sha": "f56f3ae1e0ec157de817dc72cc9d232d53800b21",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/f56f3ae1e0ec157de817dc72cc9d232d53800b21"
+      }
+    ],
+    "sha": "dc609b06fd35dcbfcf3108ff8ca48aa6be9f9034",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/dc609b06fd35dcbfcf3108ff8ca48aa6be9f9034"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/7155926?v=4",
+      "events_url": "https://api.github.com/users/sparrc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/sparrc/followers",
+      "following_url": "https://api.github.com/users/sparrc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sparrc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/sparrc",
+      "id": 7155926,
+      "login": "sparrc",
+      "node_id": "MDQ6VXNlcjcxNTU5MjY=",
+      "organizations_url": "https://api.github.com/users/sparrc/orgs",
+      "received_events_url": "https://api.github.com/users/sparrc/received_events",
+      "repos_url": "https://api.github.com/users/sparrc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/sparrc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sparrc/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/sparrc"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/b0e9f7e844225b05abf9f4455229490f99348ac4/comments",
+    "commit": {
+      "author": {
+        "date": "2015-11-11T23:03:08Z",
+        "email": "cameronsparr@gmail.com",
+        "name": "Cameron Sparr"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-11-12T21:22:16Z",
+        "email": "cameronsparr@gmail.com",
+        "name": "Cameron Sparr"
+      },
+      "message": "Refactor HTTP client for consistency with UDP\n\nThis makes error handling easier across clients and more consistent.\nAlso eliminates the need for users to parse their own URLs first,\nbecause that doesn't even guarantee the URLs will be correct http URLs",
+      "tree": {
+        "sha": "b002be20cc465834f8c8f3a32e7fa99cdef3d692",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/b002be20cc465834f8c8f3a32e7fa99cdef3d692"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/b0e9f7e844225b05abf9f4455229490f99348ac4",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/7155926?v=4",
+      "events_url": "https://api.github.com/users/sparrc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/sparrc/followers",
+      "following_url": "https://api.github.com/users/sparrc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sparrc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/sparrc",
+      "id": 7155926,
+      "login": "sparrc",
+      "node_id": "MDQ6VXNlcjcxNTU5MjY=",
+      "organizations_url": "https://api.github.com/users/sparrc/orgs",
+      "received_events_url": "https://api.github.com/users/sparrc/received_events",
+      "repos_url": "https://api.github.com/users/sparrc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/sparrc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sparrc/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/sparrc"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/b0e9f7e844225b05abf9f4455229490f99348ac4",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6YjBlOWY3ZTg0NDIyNWIwNWFiZjlmNDQ1NTIyOTQ5MGY5OTM0OGFjNA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/f56f3ae1e0ec157de817dc72cc9d232d53800b21",
+        "sha": "f56f3ae1e0ec157de817dc72cc9d232d53800b21",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/f56f3ae1e0ec157de817dc72cc9d232d53800b21"
+      }
+    ],
+    "sha": "b0e9f7e844225b05abf9f4455229490f99348ac4",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/b0e9f7e844225b05abf9f4455229490f99348ac4"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/219935?v=4",
+      "events_url": "https://api.github.com/users/jwilder/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jwilder/followers",
+      "following_url": "https://api.github.com/users/jwilder/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jwilder/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jwilder",
+      "id": 219935,
+      "login": "jwilder",
+      "node_id": "MDQ6VXNlcjIxOTkzNQ==",
+      "organizations_url": "https://api.github.com/users/jwilder/orgs",
+      "received_events_url": "https://api.github.com/users/jwilder/received_events",
+      "repos_url": "https://api.github.com/users/jwilder/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jwilder/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jwilder/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jwilder"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/f56f3ae1e0ec157de817dc72cc9d232d53800b21/comments",
+    "commit": {
+      "author": {
+        "date": "2015-11-12T18:07:02Z",
+        "email": "jwilder@users.noreply.github.com",
+        "name": "Jason Wilder"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-11-12T18:07:02Z",
+        "email": "jwilder@users.noreply.github.com",
+        "name": "Jason Wilder"
+      },
+      "message": "Merge pull request #4756 from influxdb/jw-tsm\n\nTSM file reader/writers",
+      "tree": {
+        "sha": "1222f4153bbf6b80fa4f00137b7bf285dab4d94b",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/1222f4153bbf6b80fa4f00137b7bf285dab4d94b"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/f56f3ae1e0ec157de817dc72cc9d232d53800b21",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/219935?v=4",
+      "events_url": "https://api.github.com/users/jwilder/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jwilder/followers",
+      "following_url": "https://api.github.com/users/jwilder/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jwilder/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jwilder",
+      "id": 219935,
+      "login": "jwilder",
+      "node_id": "MDQ6VXNlcjIxOTkzNQ==",
+      "organizations_url": "https://api.github.com/users/jwilder/orgs",
+      "received_events_url": "https://api.github.com/users/jwilder/received_events",
+      "repos_url": "https://api.github.com/users/jwilder/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jwilder/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jwilder/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jwilder"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/f56f3ae1e0ec157de817dc72cc9d232d53800b21",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6ZjU2ZjNhZTFlMGVjMTU3ZGU4MTdkYzcyY2M5ZDIzMmQ1MzgwMGIyMQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/edb84f040eba11fb95d778b22b3b22e219fad18e",
+        "sha": "edb84f040eba11fb95d778b22b3b22e219fad18e",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/edb84f040eba11fb95d778b22b3b22e219fad18e"
+      },
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/e4312d854c911a297d0ad1bd2d4e3aacb2b6092a",
+        "sha": "e4312d854c911a297d0ad1bd2d4e3aacb2b6092a",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/e4312d854c911a297d0ad1bd2d4e3aacb2b6092a"
+      }
+    ],
+    "sha": "f56f3ae1e0ec157de817dc72cc9d232d53800b21",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/f56f3ae1e0ec157de817dc72cc9d232d53800b21"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/219935?v=4",
+      "events_url": "https://api.github.com/users/jwilder/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jwilder/followers",
+      "following_url": "https://api.github.com/users/jwilder/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jwilder/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jwilder",
+      "id": 219935,
+      "login": "jwilder",
+      "node_id": "MDQ6VXNlcjIxOTkzNQ==",
+      "organizations_url": "https://api.github.com/users/jwilder/orgs",
+      "received_events_url": "https://api.github.com/users/jwilder/received_events",
+      "repos_url": "https://api.github.com/users/jwilder/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jwilder/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jwilder/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jwilder"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/e4312d854c911a297d0ad1bd2d4e3aacb2b6092a/comments",
+    "commit": {
+      "author": {
+        "date": "2015-11-12T16:52:57Z",
+        "email": "mail@jasonwilder.com",
+        "name": "Jason Wilder"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-11-12T16:53:38Z",
+        "email": "mail@jasonwilder.com",
+        "name": "Jason Wilder"
+      },
+      "message": "Fix typo",
+      "tree": {
+        "sha": "ed029d491d8220ec3a1548874fbfd4d33623d953",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/ed029d491d8220ec3a1548874fbfd4d33623d953"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/e4312d854c911a297d0ad1bd2d4e3aacb2b6092a",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/219935?v=4",
+      "events_url": "https://api.github.com/users/jwilder/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jwilder/followers",
+      "following_url": "https://api.github.com/users/jwilder/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jwilder/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jwilder",
+      "id": 219935,
+      "login": "jwilder",
+      "node_id": "MDQ6VXNlcjIxOTkzNQ==",
+      "organizations_url": "https://api.github.com/users/jwilder/orgs",
+      "received_events_url": "https://api.github.com/users/jwilder/received_events",
+      "repos_url": "https://api.github.com/users/jwilder/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jwilder/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jwilder/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jwilder"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/e4312d854c911a297d0ad1bd2d4e3aacb2b6092a",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6ZTQzMTJkODU0YzkxMWEyOTdkMGFkMWJkMmQ0ZTNhYWNiMmI2MDkyYQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/8e14877e98bef0303452e2b3b827d6fead84343d",
+        "sha": "8e14877e98bef0303452e2b3b827d6fead84343d",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/8e14877e98bef0303452e2b3b827d6fead84343d"
+      }
+    ],
+    "sha": "e4312d854c911a297d0ad1bd2d4e3aacb2b6092a",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/e4312d854c911a297d0ad1bd2d4e3aacb2b6092a"
+  },
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/bd186195dbf91f9b30a6d532f9bfae2c3a3b7fcd/comments",
+    "commit": {
+      "author": {
+        "date": "2015-11-06T16:52:04Z",
+        "email": "ross@influxdb.com",
+        "name": "Ross McDonald"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-11-12T16:42:41Z",
+        "email": "ross@influxdb.com",
+        "name": "Ross McDonald"
+      },
+      "message": "Restructured filesystem hierarchy, and updated pre/post installation scripts to ease upgrade progress. Also adding first iteration of new build script (build.py).\n\nNew package filesystem hierarchy:\n\t - /var/lib/influxdb => Data directories\n\t - /usr/lib/influxdb => Scripts and other miscellaneous files\n\t - /etc/influxdb => Configuration\n\t - /usr/bin/ => Where InfluxDB binaries will live",
+      "tree": {
+        "sha": "97fad73c900c398f4bd49b4c97c9d82abdf0229e",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/97fad73c900c398f4bd49b4c97c9d82abdf0229e"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/bd186195dbf91f9b30a6d532f9bfae2c3a3b7fcd",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": null,
+    "html_url": "https://github.com/influxdata/influxdb/commit/bd186195dbf91f9b30a6d532f9bfae2c3a3b7fcd",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6YmQxODYxOTVkYmY5MWY5YjMwYTZkNTMyZjliZmFlMmMzYTNiN2ZjZA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/edb84f040eba11fb95d778b22b3b22e219fad18e",
+        "sha": "edb84f040eba11fb95d778b22b3b22e219fad18e",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/edb84f040eba11fb95d778b22b3b22e219fad18e"
+      }
+    ],
+    "sha": "bd186195dbf91f9b30a6d532f9bfae2c3a3b7fcd",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/bd186195dbf91f9b30a6d532f9bfae2c3a3b7fcd"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/536312?v=4",
+      "events_url": "https://api.github.com/users/otoolep/events{/privacy}",
+      "followers_url": "https://api.github.com/users/otoolep/followers",
+      "following_url": "https://api.github.com/users/otoolep/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otoolep/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/otoolep",
+      "id": 536312,
+      "login": "otoolep",
+      "node_id": "MDQ6VXNlcjUzNjMxMg==",
+      "organizations_url": "https://api.github.com/users/otoolep/orgs",
+      "received_events_url": "https://api.github.com/users/otoolep/received_events",
+      "repos_url": "https://api.github.com/users/otoolep/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/otoolep/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otoolep/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/otoolep"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/edb84f040eba11fb95d778b22b3b22e219fad18e/comments",
+    "commit": {
+      "author": {
+        "date": "2015-11-12T06:27:02Z",
+        "email": "philip.otoole@yahoo.com",
+        "name": "Philip O'Toole"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-11-12T06:27:02Z",
+        "email": "philip.otoole@yahoo.com",
+        "name": "Philip O'Toole"
+      },
+      "message": "Merge pull request #4762 from faiq/syntax-highlighting-contrib\n\nadds syntax highlighting for bash",
+      "tree": {
+        "sha": "18e1cf4f3c1cb154bf0fd576477f001b09a2c433",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/18e1cf4f3c1cb154bf0fd576477f001b09a2c433"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/edb84f040eba11fb95d778b22b3b22e219fad18e",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/536312?v=4",
+      "events_url": "https://api.github.com/users/otoolep/events{/privacy}",
+      "followers_url": "https://api.github.com/users/otoolep/followers",
+      "following_url": "https://api.github.com/users/otoolep/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otoolep/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/otoolep",
+      "id": 536312,
+      "login": "otoolep",
+      "node_id": "MDQ6VXNlcjUzNjMxMg==",
+      "organizations_url": "https://api.github.com/users/otoolep/orgs",
+      "received_events_url": "https://api.github.com/users/otoolep/received_events",
+      "repos_url": "https://api.github.com/users/otoolep/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/otoolep/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otoolep/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/otoolep"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/edb84f040eba11fb95d778b22b3b22e219fad18e",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6ZWRiODRmMDQwZWJhMTFmYjk1ZDc3OGIyMmIzYjIyZTIxOWZhZDE4ZQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/ebb9172ad7cf56e7a5a7d8047a3640d13b79c9ea",
+        "sha": "ebb9172ad7cf56e7a5a7d8047a3640d13b79c9ea",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/ebb9172ad7cf56e7a5a7d8047a3640d13b79c9ea"
+      },
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/1a15ac6cf9204c3a4f8cce8c837bc31238b47b97",
+        "sha": "1a15ac6cf9204c3a4f8cce8c837bc31238b47b97",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/1a15ac6cf9204c3a4f8cce8c837bc31238b47b97"
+      }
+    ],
+    "sha": "edb84f040eba11fb95d778b22b3b22e219fad18e",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/edb84f040eba11fb95d778b22b3b22e219fad18e"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5673456?v=4",
+      "events_url": "https://api.github.com/users/faiq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/faiq/followers",
+      "following_url": "https://api.github.com/users/faiq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/faiq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/faiq",
+      "id": 5673456,
+      "login": "faiq",
+      "node_id": "MDQ6VXNlcjU2NzM0NTY=",
+      "organizations_url": "https://api.github.com/users/faiq/orgs",
+      "received_events_url": "https://api.github.com/users/faiq/received_events",
+      "repos_url": "https://api.github.com/users/faiq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/faiq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/faiq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/faiq"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/1a15ac6cf9204c3a4f8cce8c837bc31238b47b97/comments",
+    "commit": {
+      "author": {
+        "date": "2015-11-12T06:07:26Z",
+        "email": "faiqrazarizvi@gmail.com",
+        "name": "Faiq Raza"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-11-12T06:07:26Z",
+        "email": "faiqrazarizvi@gmail.com",
+        "name": "Faiq Raza"
+      },
+      "message": "adds syntax highlighting for bash",
+      "tree": {
+        "sha": "8ff0abf8361e134ec7c2d2a60761af5c7c9c1f58",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/8ff0abf8361e134ec7c2d2a60761af5c7c9c1f58"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/1a15ac6cf9204c3a4f8cce8c837bc31238b47b97",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5673456?v=4",
+      "events_url": "https://api.github.com/users/faiq/events{/privacy}",
+      "followers_url": "https://api.github.com/users/faiq/followers",
+      "following_url": "https://api.github.com/users/faiq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/faiq/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/faiq",
+      "id": 5673456,
+      "login": "faiq",
+      "node_id": "MDQ6VXNlcjU2NzM0NTY=",
+      "organizations_url": "https://api.github.com/users/faiq/orgs",
+      "received_events_url": "https://api.github.com/users/faiq/received_events",
+      "repos_url": "https://api.github.com/users/faiq/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/faiq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/faiq/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/faiq"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/1a15ac6cf9204c3a4f8cce8c837bc31238b47b97",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6MWExNWFjNmNmOTIwNGMzYTRmOGNjZThjODM3YmMzMTIzOGI0N2I5Nw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/8ec4d04c7150bef78332a9a6dd2a68daf903fa99",
+        "sha": "8ec4d04c7150bef78332a9a6dd2a68daf903fa99",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/8ec4d04c7150bef78332a9a6dd2a68daf903fa99"
+      }
+    ],
+    "sha": "1a15ac6cf9204c3a4f8cce8c837bc31238b47b97",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/1a15ac6cf9204c3a4f8cce8c837bc31238b47b97"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/536312?v=4",
+      "events_url": "https://api.github.com/users/otoolep/events{/privacy}",
+      "followers_url": "https://api.github.com/users/otoolep/followers",
+      "following_url": "https://api.github.com/users/otoolep/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otoolep/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/otoolep",
+      "id": 536312,
+      "login": "otoolep",
+      "node_id": "MDQ6VXNlcjUzNjMxMg==",
+      "organizations_url": "https://api.github.com/users/otoolep/orgs",
+      "received_events_url": "https://api.github.com/users/otoolep/received_events",
+      "repos_url": "https://api.github.com/users/otoolep/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/otoolep/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otoolep/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/otoolep"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/ebb9172ad7cf56e7a5a7d8047a3640d13b79c9ea/comments",
+    "commit": {
+      "author": {
+        "date": "2015-11-12T00:20:25Z",
+        "email": "philip.otoole@yahoo.com",
+        "name": "Philip O'Toole"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-11-12T00:20:25Z",
+        "email": "philip.otoole@yahoo.com",
+        "name": "Philip O'Toole"
+      },
+      "message": "Merge pull request #4759 from influxdb/it_kills_me_but_out_it_goes\n\nRevert to Go 1.4.2",
+      "tree": {
+        "sha": "1639b0a217b2d6de43abcb9fd53440d665e9021e",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/1639b0a217b2d6de43abcb9fd53440d665e9021e"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/ebb9172ad7cf56e7a5a7d8047a3640d13b79c9ea",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/536312?v=4",
+      "events_url": "https://api.github.com/users/otoolep/events{/privacy}",
+      "followers_url": "https://api.github.com/users/otoolep/followers",
+      "following_url": "https://api.github.com/users/otoolep/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otoolep/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/otoolep",
+      "id": 536312,
+      "login": "otoolep",
+      "node_id": "MDQ6VXNlcjUzNjMxMg==",
+      "organizations_url": "https://api.github.com/users/otoolep/orgs",
+      "received_events_url": "https://api.github.com/users/otoolep/received_events",
+      "repos_url": "https://api.github.com/users/otoolep/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/otoolep/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otoolep/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/otoolep"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/ebb9172ad7cf56e7a5a7d8047a3640d13b79c9ea",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6ZWJiOTE3MmFkN2NmNTZlN2E1YTdkODA0N2EzNjQwZDEzYjc5YzllYQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/268701d2ba103a649f5fa9e7758b499a6b2b5e7a",
+        "sha": "268701d2ba103a649f5fa9e7758b499a6b2b5e7a",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/268701d2ba103a649f5fa9e7758b499a6b2b5e7a"
+      },
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/898dac6f8ea529970763188778747b9d47314dd1",
+        "sha": "898dac6f8ea529970763188778747b9d47314dd1",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/898dac6f8ea529970763188778747b9d47314dd1"
+      }
+    ],
+    "sha": "ebb9172ad7cf56e7a5a7d8047a3640d13b79c9ea",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/ebb9172ad7cf56e7a5a7d8047a3640d13b79c9ea"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/536312?v=4",
+      "events_url": "https://api.github.com/users/otoolep/events{/privacy}",
+      "followers_url": "https://api.github.com/users/otoolep/followers",
+      "following_url": "https://api.github.com/users/otoolep/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otoolep/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/otoolep",
+      "id": 536312,
+      "login": "otoolep",
+      "node_id": "MDQ6VXNlcjUzNjMxMg==",
+      "organizations_url": "https://api.github.com/users/otoolep/orgs",
+      "received_events_url": "https://api.github.com/users/otoolep/received_events",
+      "repos_url": "https://api.github.com/users/otoolep/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/otoolep/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otoolep/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/otoolep"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/898dac6f8ea529970763188778747b9d47314dd1/comments",
+    "commit": {
+      "author": {
+        "date": "2015-11-12T00:03:06Z",
+        "email": "philip@influxdb.com",
+        "name": "Philip O'Toole"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-11-12T00:03:06Z",
+        "email": "philip@influxdb.com",
+        "name": "Philip O'Toole"
+      },
+      "message": "Merge remote-tracking branch 'origin/master' into it_kills_me_but_out_it_goes",
+      "tree": {
+        "sha": "1639b0a217b2d6de43abcb9fd53440d665e9021e",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/1639b0a217b2d6de43abcb9fd53440d665e9021e"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/898dac6f8ea529970763188778747b9d47314dd1",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/536312?v=4",
+      "events_url": "https://api.github.com/users/otoolep/events{/privacy}",
+      "followers_url": "https://api.github.com/users/otoolep/followers",
+      "following_url": "https://api.github.com/users/otoolep/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otoolep/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/otoolep",
+      "id": 536312,
+      "login": "otoolep",
+      "node_id": "MDQ6VXNlcjUzNjMxMg==",
+      "organizations_url": "https://api.github.com/users/otoolep/orgs",
+      "received_events_url": "https://api.github.com/users/otoolep/received_events",
+      "repos_url": "https://api.github.com/users/otoolep/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/otoolep/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otoolep/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/otoolep"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/898dac6f8ea529970763188778747b9d47314dd1",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6ODk4ZGFjNmY4ZWE1Mjk5NzA3NjMxODg3Nzg3NDdiOWQ0NzMxNGRkMQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/3cab8fac0202b5640674b31997d3bcec30236766",
+        "sha": "3cab8fac0202b5640674b31997d3bcec30236766",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/3cab8fac0202b5640674b31997d3bcec30236766"
+      },
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/268701d2ba103a649f5fa9e7758b499a6b2b5e7a",
+        "sha": "268701d2ba103a649f5fa9e7758b499a6b2b5e7a",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/268701d2ba103a649f5fa9e7758b499a6b2b5e7a"
+      }
+    ],
+    "sha": "898dac6f8ea529970763188778747b9d47314dd1",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/898dac6f8ea529970763188778747b9d47314dd1"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/536312?v=4",
+      "events_url": "https://api.github.com/users/otoolep/events{/privacy}",
+      "followers_url": "https://api.github.com/users/otoolep/followers",
+      "following_url": "https://api.github.com/users/otoolep/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otoolep/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/otoolep",
+      "id": 536312,
+      "login": "otoolep",
+      "node_id": "MDQ6VXNlcjUzNjMxMg==",
+      "organizations_url": "https://api.github.com/users/otoolep/orgs",
+      "received_events_url": "https://api.github.com/users/otoolep/received_events",
+      "repos_url": "https://api.github.com/users/otoolep/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/otoolep/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otoolep/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/otoolep"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/268701d2ba103a649f5fa9e7758b499a6b2b5e7a/comments",
+    "commit": {
+      "author": {
+        "date": "2015-11-12T00:02:16Z",
+        "email": "philip.otoole@yahoo.com",
+        "name": "Philip O'Toole"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-11-12T00:02:16Z",
+        "email": "philip.otoole@yahoo.com",
+        "name": "Philip O'Toole"
+      },
+      "message": "Merge pull request #4757 from influxdb/tsdb-go-1.4-fix\n\nRemove reference to strings.Compare from tsdb/functions.go",
+      "tree": {
+        "sha": "ff48f277ea2cc580696b49b7aac8204b617e3ad3",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/ff48f277ea2cc580696b49b7aac8204b617e3ad3"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/268701d2ba103a649f5fa9e7758b499a6b2b5e7a",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/536312?v=4",
+      "events_url": "https://api.github.com/users/otoolep/events{/privacy}",
+      "followers_url": "https://api.github.com/users/otoolep/followers",
+      "following_url": "https://api.github.com/users/otoolep/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otoolep/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/otoolep",
+      "id": 536312,
+      "login": "otoolep",
+      "node_id": "MDQ6VXNlcjUzNjMxMg==",
+      "organizations_url": "https://api.github.com/users/otoolep/orgs",
+      "received_events_url": "https://api.github.com/users/otoolep/received_events",
+      "repos_url": "https://api.github.com/users/otoolep/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/otoolep/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otoolep/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/otoolep"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/268701d2ba103a649f5fa9e7758b499a6b2b5e7a",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6MjY4NzAxZDJiYTEwM2E2NDlmNWZhOWU3NzU4YjQ5OWE2YjJiNWU3YQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/8ec4d04c7150bef78332a9a6dd2a68daf903fa99",
+        "sha": "8ec4d04c7150bef78332a9a6dd2a68daf903fa99",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/8ec4d04c7150bef78332a9a6dd2a68daf903fa99"
+      },
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/2c687abf91d567e6bc34f98e43b18ade75f1d449",
+        "sha": "2c687abf91d567e6bc34f98e43b18ade75f1d449",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/2c687abf91d567e6bc34f98e43b18ade75f1d449"
+      }
+    ],
+    "sha": "268701d2ba103a649f5fa9e7758b499a6b2b5e7a",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/268701d2ba103a649f5fa9e7758b499a6b2b5e7a"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/219935?v=4",
+      "events_url": "https://api.github.com/users/jwilder/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jwilder/followers",
+      "following_url": "https://api.github.com/users/jwilder/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jwilder/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jwilder",
+      "id": 219935,
+      "login": "jwilder",
+      "node_id": "MDQ6VXNlcjIxOTkzNQ==",
+      "organizations_url": "https://api.github.com/users/jwilder/orgs",
+      "received_events_url": "https://api.github.com/users/jwilder/received_events",
+      "repos_url": "https://api.github.com/users/jwilder/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jwilder/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jwilder/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jwilder"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/8e14877e98bef0303452e2b3b827d6fead84343d/comments",
+    "commit": {
+      "author": {
+        "date": "2015-11-12T00:01:20Z",
+        "email": "mail@jasonwilder.com",
+        "name": "Jason Wilder"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-11-12T00:01:20Z",
+        "email": "mail@jasonwilder.com",
+        "name": "Jason Wilder"
+      },
+      "message": "Add diagrams/documentation about indirect indexing strategy",
+      "tree": {
+        "sha": "084fdadc748bb93e3b193234efc5a2b15281587e",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/084fdadc748bb93e3b193234efc5a2b15281587e"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/8e14877e98bef0303452e2b3b827d6fead84343d",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/219935?v=4",
+      "events_url": "https://api.github.com/users/jwilder/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jwilder/followers",
+      "following_url": "https://api.github.com/users/jwilder/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jwilder/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jwilder",
+      "id": 219935,
+      "login": "jwilder",
+      "node_id": "MDQ6VXNlcjIxOTkzNQ==",
+      "organizations_url": "https://api.github.com/users/jwilder/orgs",
+      "received_events_url": "https://api.github.com/users/jwilder/received_events",
+      "repos_url": "https://api.github.com/users/jwilder/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jwilder/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jwilder/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jwilder"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/8e14877e98bef0303452e2b3b827d6fead84343d",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6OGUxNDg3N2U5OGJlZjAzMDM0NTJlMmIzYjgyN2Q2ZmVhZDg0MzQzZA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/7df1c2dd31b3e84c67603d5ca44d72de8545a852",
+        "sha": "7df1c2dd31b3e84c67603d5ca44d72de8545a852",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/7df1c2dd31b3e84c67603d5ca44d72de8545a852"
+      }
+    ],
+    "sha": "8e14877e98bef0303452e2b3b827d6fead84343d",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/8e14877e98bef0303452e2b3b827d6fead84343d"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/536312?v=4",
+      "events_url": "https://api.github.com/users/otoolep/events{/privacy}",
+      "followers_url": "https://api.github.com/users/otoolep/followers",
+      "following_url": "https://api.github.com/users/otoolep/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otoolep/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/otoolep",
+      "id": 536312,
+      "login": "otoolep",
+      "node_id": "MDQ6VXNlcjUzNjMxMg==",
+      "organizations_url": "https://api.github.com/users/otoolep/orgs",
+      "received_events_url": "https://api.github.com/users/otoolep/received_events",
+      "repos_url": "https://api.github.com/users/otoolep/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/otoolep/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otoolep/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/otoolep"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/3cab8fac0202b5640674b31997d3bcec30236766/comments",
+    "commit": {
+      "author": {
+        "date": "2015-11-11T23:48:37Z",
+        "email": "philip@influxdb.com",
+        "name": "Philip O'Toole"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-11-11T23:48:37Z",
+        "email": "philip@influxdb.com",
+        "name": "Philip O'Toole"
+      },
+      "message": "Revert to Go 1.4.2\n\nThis is not passing 'go vet' under 1.4.2.",
+      "tree": {
+        "sha": "c8c385b1edcc23419d3c184da1a641644701eb53",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/c8c385b1edcc23419d3c184da1a641644701eb53"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/3cab8fac0202b5640674b31997d3bcec30236766",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/536312?v=4",
+      "events_url": "https://api.github.com/users/otoolep/events{/privacy}",
+      "followers_url": "https://api.github.com/users/otoolep/followers",
+      "following_url": "https://api.github.com/users/otoolep/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otoolep/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/otoolep",
+      "id": 536312,
+      "login": "otoolep",
+      "node_id": "MDQ6VXNlcjUzNjMxMg==",
+      "organizations_url": "https://api.github.com/users/otoolep/orgs",
+      "received_events_url": "https://api.github.com/users/otoolep/received_events",
+      "repos_url": "https://api.github.com/users/otoolep/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/otoolep/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otoolep/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/otoolep"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/3cab8fac0202b5640674b31997d3bcec30236766",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6M2NhYjhmYWMwMjAyYjU2NDA2NzRiMzE5OTdkM2JjZWMzMDIzNjc2Ng==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/8ec4d04c7150bef78332a9a6dd2a68daf903fa99",
+        "sha": "8ec4d04c7150bef78332a9a6dd2a68daf903fa99",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/8ec4d04c7150bef78332a9a6dd2a68daf903fa99"
+      }
+    ],
+    "sha": "3cab8fac0202b5640674b31997d3bcec30236766",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/3cab8fac0202b5640674b31997d3bcec30236766"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/219935?v=4",
+      "events_url": "https://api.github.com/users/jwilder/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jwilder/followers",
+      "following_url": "https://api.github.com/users/jwilder/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jwilder/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jwilder",
+      "id": 219935,
+      "login": "jwilder",
+      "node_id": "MDQ6VXNlcjIxOTkzNQ==",
+      "organizations_url": "https://api.github.com/users/jwilder/orgs",
+      "received_events_url": "https://api.github.com/users/jwilder/received_events",
+      "repos_url": "https://api.github.com/users/jwilder/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jwilder/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jwilder/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jwilder"
+    },
+    "comments_url": "https://api.github.com/repos/influxdata/influxdb/commits/7df1c2dd31b3e84c67603d5ca44d72de8545a852/comments",
+    "commit": {
+      "author": {
+        "date": "2015-11-11T22:16:11Z",
+        "email": "mail@jasonwilder.com",
+        "name": "Jason Wilder"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2015-11-11T22:16:11Z",
+        "email": "mail@jasonwilder.com",
+        "name": "Jason Wilder"
+      },
+      "message": "Add an indirectIndex implementation\n\nImplements the indirect indexing approach to allow indexes on MMAPed files\nthat may be larger than available RAM",
+      "tree": {
+        "sha": "0aa3573e19ff83a3ec5ae35fb0b2b141b62b71e0",
+        "url": "https://api.github.com/repos/influxdata/influxdb/git/trees/0aa3573e19ff83a3ec5ae35fb0b2b141b62b71e0"
+      },
+      "url": "https://api.github.com/repos/influxdata/influxdb/git/commits/7df1c2dd31b3e84c67603d5ca44d72de8545a852",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/219935?v=4",
+      "events_url": "https://api.github.com/users/jwilder/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jwilder/followers",
+      "following_url": "https://api.github.com/users/jwilder/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jwilder/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jwilder",
+      "id": 219935,
+      "login": "jwilder",
+      "node_id": "MDQ6VXNlcjIxOTkzNQ==",
+      "organizations_url": "https://api.github.com/users/jwilder/orgs",
+      "received_events_url": "https://api.github.com/users/jwilder/received_events",
+      "repos_url": "https://api.github.com/users/jwilder/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jwilder/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jwilder/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jwilder"
+    },
+    "html_url": "https://github.com/influxdata/influxdb/commit/7df1c2dd31b3e84c67603d5ca44d72de8545a852",
+    "node_id": "MDY6Q29tbWl0MTMxMjQ4MDI6N2RmMWMyZGQzMWIzZTg0YzY3NjAzZDVjYTQ0ZDcyZGU4NTQ1YTg1Mg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/influxdata/influxdb/commit/06016882abc6f1a9d992fa0b153b7bbc50bfb500",
+        "sha": "06016882abc6f1a9d992fa0b153b7bbc50bfb500",
+        "url": "https://api.github.com/repos/influxdata/influxdb/commits/06016882abc6f1a9d992fa0b153b7bbc50bfb500"
+      }
+    ],
+    "sha": "7df1c2dd31b3e84c67603d5ca44d72de8545a852",
+    "url": "https://api.github.com/repos/influxdata/influxdb/commits/7df1c2dd31b3e84c67603d5ca44d72de8545a852"
+  }
+]

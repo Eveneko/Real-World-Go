@@ -1,0 +1,2095 @@
+[
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/14094e3d5ea5f548dfada7bdb6e0e1158f53e168/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-29T23:41:14Z",
+        "email": "bors@cockroachlabs.com",
+        "name": "craig[bot]"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-29T23:41:14Z",
+        "email": "bors@cockroachlabs.com",
+        "name": "craig[bot]"
+      },
+      "message": "Merge #44091\n\n44091: sql: stop observing the commit timestamp in TRUNCATE r=nvanbenschoten a=ajwerner\n\nIn #42650 I had intended to remove all places where the commit timestamp was\r\nobserved in TRUNCATE. I missed this case. Modification times for the first\r\nwrite to table descriptors as of 19.2 should be the zero value (or the commit\r\ntimestamp, so this isn't wrong). This observance of the commit timestamp\r\nprevents transactions which TRUNCATE tables from being pushed. Combined\r\nwith #44090 we'll have removed all non-user observation of commit timestamps.\r\n\r\nRelease note (bug fix): Long running transactions which attempt to TRUNCATE\r\ncan now be pushed and will commit in cases where they previously could fail\r\nor retry forever.\n\nCo-authored-by: Andrew Werner <ajwerner@cockroachlabs.com>",
+      "tree": {
+        "sha": "fe22dbcdf1c2887a4be4c57698d1985adf140848",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/fe22dbcdf1c2887a4be4c57698d1985adf140848"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/14094e3d5ea5f548dfada7bdb6e0e1158f53e168",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": null,
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/14094e3d5ea5f548dfada7bdb6e0e1158f53e168",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6MTQwOTRlM2Q1ZWE1ZjU0OGRmYWRhN2JkYjZlMGUxMTU4ZjUzZTE2OA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/0dc604b65d26f6ca2a0f579352c10ace92446f31",
+        "sha": "0dc604b65d26f6ca2a0f579352c10ace92446f31",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/0dc604b65d26f6ca2a0f579352c10ace92446f31"
+      },
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/a837af95574885c9572fcd71d698562daa2c23bf",
+        "sha": "a837af95574885c9572fcd71d698562daa2c23bf",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/a837af95574885c9572fcd71d698562daa2c23bf"
+      }
+    ],
+    "sha": "14094e3d5ea5f548dfada7bdb6e0e1158f53e168",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/14094e3d5ea5f548dfada7bdb6e0e1158f53e168"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1839234?v=4",
+      "events_url": "https://api.github.com/users/ajwerner/events{/privacy}",
+      "followers_url": "https://api.github.com/users/ajwerner/followers",
+      "following_url": "https://api.github.com/users/ajwerner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ajwerner/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/ajwerner",
+      "id": 1839234,
+      "login": "ajwerner",
+      "node_id": "MDQ6VXNlcjE4MzkyMzQ=",
+      "organizations_url": "https://api.github.com/users/ajwerner/orgs",
+      "received_events_url": "https://api.github.com/users/ajwerner/received_events",
+      "repos_url": "https://api.github.com/users/ajwerner/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/ajwerner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ajwerner/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/ajwerner"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/a837af95574885c9572fcd71d698562daa2c23bf/comments",
+    "commit": {
+      "author": {
+        "date": "2020-01-16T21:46:24Z",
+        "email": "ajwerner@cockroachlabs.com",
+        "name": "Andrew Werner"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-29T22:14:46Z",
+        "email": "ajwerner@cockroachlabs.com",
+        "name": "Andrew Werner"
+      },
+      "message": "sql: stop observing the commit timestamp in TRUNCATE\n\nIn #42650 I had intended to remove all places where the commit timestamp was\nobserved in TRUNCATE. I missed this case. Modification times for the first\nwrite to table descriptors as of 19.2 should be the zero value (or the commit\ntimestamp, so this isn't wrong). This observance of the commit timestamp\nprevents transactions which TRUNCATE tables from being pushed. Combined\nwith #44090 we'll have removed all non-user observation of commit timestamps.\n\nRelease note (bug fix): Long running transactions which attempt to TRUNCATE\ncan now be pushed and will commit in cases where they previously could fail\nor retry forever.",
+      "tree": {
+        "sha": "fe22dbcdf1c2887a4be4c57698d1985adf140848",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/fe22dbcdf1c2887a4be4c57698d1985adf140848"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/a837af95574885c9572fcd71d698562daa2c23bf",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1839234?v=4",
+      "events_url": "https://api.github.com/users/ajwerner/events{/privacy}",
+      "followers_url": "https://api.github.com/users/ajwerner/followers",
+      "following_url": "https://api.github.com/users/ajwerner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ajwerner/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/ajwerner",
+      "id": 1839234,
+      "login": "ajwerner",
+      "node_id": "MDQ6VXNlcjE4MzkyMzQ=",
+      "organizations_url": "https://api.github.com/users/ajwerner/orgs",
+      "received_events_url": "https://api.github.com/users/ajwerner/received_events",
+      "repos_url": "https://api.github.com/users/ajwerner/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/ajwerner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ajwerner/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/ajwerner"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/a837af95574885c9572fcd71d698562daa2c23bf",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6YTgzN2FmOTU1NzQ4ODVjOTU3MmZjZDcxZDY5ODU2MmRhYTJjMjNiZg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/0dc604b65d26f6ca2a0f579352c10ace92446f31",
+        "sha": "0dc604b65d26f6ca2a0f579352c10ace92446f31",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/0dc604b65d26f6ca2a0f579352c10ace92446f31"
+      }
+    ],
+    "sha": "a837af95574885c9572fcd71d698562daa2c23bf",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/a837af95574885c9572fcd71d698562daa2c23bf"
+  },
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/0dc604b65d26f6ca2a0f579352c10ace92446f31/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-29T18:33:56Z",
+        "email": "bors@cockroachlabs.com",
+        "name": "craig[bot]"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-29T18:33:56Z",
+        "email": "bors@cockroachlabs.com",
+        "name": "craig[bot]"
+      },
+      "message": "Merge #44739 #45501\n\n44739: jobs,importccl: adopt protected timestamps for IMPORT r=ajwerner a=ajwerner\n\nThis PR comes in two commits. See each for details.\r\n\r\n1) The first refactors and augments the `jobs.Registry` API to enable transactional creation of a job which will be started on the local gateway. I would love to discuss this commit itself a bit.\r\n2) Adopt protected timestamps and demonstrate their effectiveness with a test.\r\n\r\n\n\n45501: colexec: add DiskQueueCacheModes to the DiskQueue r=yuzefovich a=asubiotto\n\nRefer to the commits for details. In a nutshell, this change allows us to reduce the partition cache size without sacrificing performance for more flexibility when partitioning external sorts and hash joins. Additionally, this commit adds the functionality to close write partition caches when the hash joiner calls `PartitionDiskQueue.CloseAllOpenWriteFileDescriptors`.\n\nCo-authored-by: Andrew Werner <ajwerner@cockroachlabs.com>\nCo-authored-by: Alfonso Subiotto Marques <alfonso@cockroachlabs.com>",
+      "tree": {
+        "sha": "2a6af72a0ed13fdf3329e1d2d887665b3511b2ae",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/2a6af72a0ed13fdf3329e1d2d887665b3511b2ae"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/0dc604b65d26f6ca2a0f579352c10ace92446f31",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": null,
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/0dc604b65d26f6ca2a0f579352c10ace92446f31",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6MGRjNjA0YjY1ZDI2ZjZjYTJhMGY1NzkzNTJjMTBhY2U5MjQ0NmYzMQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/df4d029812ae3469147dd01ea0e8f2fd06d905d7",
+        "sha": "df4d029812ae3469147dd01ea0e8f2fd06d905d7",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/df4d029812ae3469147dd01ea0e8f2fd06d905d7"
+      },
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/bfa371b2628c94f3b8c399c24fedc20661a06c13",
+        "sha": "bfa371b2628c94f3b8c399c24fedc20661a06c13",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/bfa371b2628c94f3b8c399c24fedc20661a06c13"
+      },
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/ed32a68b56692a2c04fb2eca464113890c2b81b2",
+        "sha": "ed32a68b56692a2c04fb2eca464113890c2b81b2",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/ed32a68b56692a2c04fb2eca464113890c2b81b2"
+      }
+    ],
+    "sha": "0dc604b65d26f6ca2a0f579352c10ace92446f31",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/0dc604b65d26f6ca2a0f579352c10ace92446f31"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1839234?v=4",
+      "events_url": "https://api.github.com/users/ajwerner/events{/privacy}",
+      "followers_url": "https://api.github.com/users/ajwerner/followers",
+      "following_url": "https://api.github.com/users/ajwerner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ajwerner/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/ajwerner",
+      "id": 1839234,
+      "login": "ajwerner",
+      "node_id": "MDQ6VXNlcjE4MzkyMzQ=",
+      "organizations_url": "https://api.github.com/users/ajwerner/orgs",
+      "received_events_url": "https://api.github.com/users/ajwerner/received_events",
+      "repos_url": "https://api.github.com/users/ajwerner/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/ajwerner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ajwerner/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/ajwerner"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/bfa371b2628c94f3b8c399c24fedc20661a06c13/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-27T16:38:13Z",
+        "email": "ajwerner@cockroachlabs.com",
+        "name": "Andrew Werner"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-29T18:14:18Z",
+        "email": "ajwerner@cockroachlabs.com",
+        "name": "Andrew Werner"
+      },
+      "message": "prototutil: provide mechanism for packages to register unclonable types\n\nThe logic to detect whether a type is clonable cannot traverse into all of the\nimplementations of itnerfaces. This is problematic when one of the structs\nunderneath a oneof is unclonable. While a more general solution might be nice,\nthis workaround allows the addition of a UUID field to a job details struct.\n\nRelease note: None",
+      "tree": {
+        "sha": "35ff5baefea878f6c476bd0a4ed0b0712c17014b",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/35ff5baefea878f6c476bd0a4ed0b0712c17014b"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/bfa371b2628c94f3b8c399c24fedc20661a06c13",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1839234?v=4",
+      "events_url": "https://api.github.com/users/ajwerner/events{/privacy}",
+      "followers_url": "https://api.github.com/users/ajwerner/followers",
+      "following_url": "https://api.github.com/users/ajwerner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ajwerner/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/ajwerner",
+      "id": 1839234,
+      "login": "ajwerner",
+      "node_id": "MDQ6VXNlcjE4MzkyMzQ=",
+      "organizations_url": "https://api.github.com/users/ajwerner/orgs",
+      "received_events_url": "https://api.github.com/users/ajwerner/received_events",
+      "repos_url": "https://api.github.com/users/ajwerner/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/ajwerner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ajwerner/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/ajwerner"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/bfa371b2628c94f3b8c399c24fedc20661a06c13",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6YmZhMzcxYjI2MjhjOTRmM2I4YzM5OWMyNGZlZGMyMDY2MWEwNmMxMw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/46ab253c3f2478bb63212888d1410c8ecafa659e",
+        "sha": "46ab253c3f2478bb63212888d1410c8ecafa659e",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/46ab253c3f2478bb63212888d1410c8ecafa659e"
+      }
+    ],
+    "sha": "bfa371b2628c94f3b8c399c24fedc20661a06c13",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/bfa371b2628c94f3b8c399c24fedc20661a06c13"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1839234?v=4",
+      "events_url": "https://api.github.com/users/ajwerner/events{/privacy}",
+      "followers_url": "https://api.github.com/users/ajwerner/followers",
+      "following_url": "https://api.github.com/users/ajwerner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ajwerner/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/ajwerner",
+      "id": 1839234,
+      "login": "ajwerner",
+      "node_id": "MDQ6VXNlcjE4MzkyMzQ=",
+      "organizations_url": "https://api.github.com/users/ajwerner/orgs",
+      "received_events_url": "https://api.github.com/users/ajwerner/received_events",
+      "repos_url": "https://api.github.com/users/ajwerner/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/ajwerner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ajwerner/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/ajwerner"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/46ab253c3f2478bb63212888d1410c8ecafa659e/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-05T00:40:37Z",
+        "email": "ajwerner@cockroachlabs.com",
+        "name": "Andrew Werner"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-29T18:14:13Z",
+        "email": "ajwerner@cockroachlabs.com",
+        "name": "Andrew Werner"
+      },
+      "message": "importccl: adopt protected timestamps for IMPORT\n\nPerhaps this only needed to be applied to IMPORT INTO but it doesn't hurt\nimport. This change ensures that IMPORT statements protect the spans into\nwhich they'll be writing from being GC'd.\n\nThe change adopts the StartableJob change from the previous commit,\nprotects a timestamp, and then makes sure to clean up that timestamp\non success or failure.\n\nBefore this change the test added here would fail with the following error:\n\n```\nrequire.go:1104:\n                Error Trace:    import_into_test.go:152\n                Error:          Expect \"pq: job 526896149330362369: cannot be reverted, manual cleanup may be required: rolling back partially completed IMPORT: cannot revert before replica GC threshold 1580866345.938283735,0\" to match \"error response from server: 500 Internal Server Error\"\n                Test:           TestProtectedTimestampsDuringImportInto\n```\n\nRelease note (bug fix): IMPORT INTO jobs which are canceled or fail\ncan no longer get stuck in an unrecoverable state if data from the\nprevious state of the table had expired relative to the GC TTL.",
+      "tree": {
+        "sha": "aca154e52938f88d0f0a64cff126b154f24ec8e8",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/aca154e52938f88d0f0a64cff126b154f24ec8e8"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/46ab253c3f2478bb63212888d1410c8ecafa659e",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1839234?v=4",
+      "events_url": "https://api.github.com/users/ajwerner/events{/privacy}",
+      "followers_url": "https://api.github.com/users/ajwerner/followers",
+      "following_url": "https://api.github.com/users/ajwerner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ajwerner/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/ajwerner",
+      "id": 1839234,
+      "login": "ajwerner",
+      "node_id": "MDQ6VXNlcjE4MzkyMzQ=",
+      "organizations_url": "https://api.github.com/users/ajwerner/orgs",
+      "received_events_url": "https://api.github.com/users/ajwerner/received_events",
+      "repos_url": "https://api.github.com/users/ajwerner/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/ajwerner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ajwerner/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/ajwerner"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/46ab253c3f2478bb63212888d1410c8ecafa659e",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6NDZhYjI1M2MzZjI0NzhiYjYzMjEyODg4ZDE0MTBjOGVjYWZhNjU5ZQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/8e13d4f3b167b663f50a62335920a4b9eaf05ee9",
+        "sha": "8e13d4f3b167b663f50a62335920a4b9eaf05ee9",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/8e13d4f3b167b663f50a62335920a4b9eaf05ee9"
+      }
+    ],
+    "sha": "46ab253c3f2478bb63212888d1410c8ecafa659e",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/46ab253c3f2478bb63212888d1410c8ecafa659e"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1839234?v=4",
+      "events_url": "https://api.github.com/users/ajwerner/events{/privacy}",
+      "followers_url": "https://api.github.com/users/ajwerner/followers",
+      "following_url": "https://api.github.com/users/ajwerner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ajwerner/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/ajwerner",
+      "id": 1839234,
+      "login": "ajwerner",
+      "node_id": "MDQ6VXNlcjE4MzkyMzQ=",
+      "organizations_url": "https://api.github.com/users/ajwerner/orgs",
+      "received_events_url": "https://api.github.com/users/ajwerner/received_events",
+      "repos_url": "https://api.github.com/users/ajwerner/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/ajwerner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ajwerner/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/ajwerner"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/8e13d4f3b167b663f50a62335920a4b9eaf05ee9/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-04T22:31:12Z",
+        "email": "ajwerner@cockroachlabs.com",
+        "name": "Andrew Werner"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-29T18:14:10Z",
+        "email": "ajwerner@cockroachlabs.com",
+        "name": "Andrew Werner"
+      },
+      "message": "jobs: create a StartableJob.\n\nStartableJob isn't great but it's better than what we've got now.\nA StartableJob is a job which is created transactionally but also hooked in\nto a `resultCh` and can be started on the local gateway after the transaction\ncommits.\n\nCurrently we've got two main ways that jobs are kicked off \"synchronously\":\n\n 1) Registry.Run()\n\nThis doesn't currently do anything to kick off the jobs - it just waits for\nall of the relevant jobs to be started. This is used in conjunction with\n`planner.QueueJob` and `CreateJobWithTxn`. The idea here is that when a\ntransaction creates a job we want, upon commit, for it to wait for the\njobs it created to complete.\n\n 2) Registry.CreateAndStartJob()\n\nThis method has special powers that prevents the gateway node from adopting\nthe job and also writes the job with a lease for the local node. It also allows\nthe caller to pass a resultsCh which will recieve datums from the job.\n\nThat resultCh is critical for IMPORT and BACKUP (?). Currently in both of those\ncases we create and run the job on a transaction outside of the caller's txn.\n\nThis is particularly frustrating because the jobs package assigns IDs at\ncreation time, making it difficult to transactionally associate a job with\nanother resource while also retaining the ability to ensure that it starts\nlocally and is connected to a resultsCh. This commit addresses that.\n\nThe fact that `IMPORT` and `BACKUP` commit the job before committing the\nplanner's txn feels dirty. I'm not planning on mucking with that stuff here in\nthis PR but ultimately the work here seems to lay a possible path forward. In\nparticular, instead of calling `Run()` with a slice of IDs we could call it\nwith a slice of `StartableJob`s which may be hooked up to the channel. In that\nway we could unify CreateAndStartJob() and Run() with something better.\n\nRelease note: None.",
+      "tree": {
+        "sha": "1f8b31af7aa5aaf7aab28e65cbdc0e193b62d079",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/1f8b31af7aa5aaf7aab28e65cbdc0e193b62d079"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/8e13d4f3b167b663f50a62335920a4b9eaf05ee9",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1839234?v=4",
+      "events_url": "https://api.github.com/users/ajwerner/events{/privacy}",
+      "followers_url": "https://api.github.com/users/ajwerner/followers",
+      "following_url": "https://api.github.com/users/ajwerner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ajwerner/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/ajwerner",
+      "id": 1839234,
+      "login": "ajwerner",
+      "node_id": "MDQ6VXNlcjE4MzkyMzQ=",
+      "organizations_url": "https://api.github.com/users/ajwerner/orgs",
+      "received_events_url": "https://api.github.com/users/ajwerner/received_events",
+      "repos_url": "https://api.github.com/users/ajwerner/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/ajwerner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ajwerner/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/ajwerner"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/8e13d4f3b167b663f50a62335920a4b9eaf05ee9",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6OGUxM2Q0ZjNiMTY3YjY2M2Y1MGE2MjMzNTkyMGE0YjllYWYwNWVlOQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/3e2334ded18d2f18c08f2f912be085df563ca6ff",
+        "sha": "3e2334ded18d2f18c08f2f912be085df563ca6ff",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/3e2334ded18d2f18c08f2f912be085df563ca6ff"
+      }
+    ],
+    "sha": "8e13d4f3b167b663f50a62335920a4b9eaf05ee9",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/8e13d4f3b167b663f50a62335920a4b9eaf05ee9"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/10560359?v=4",
+      "events_url": "https://api.github.com/users/asubiotto/events{/privacy}",
+      "followers_url": "https://api.github.com/users/asubiotto/followers",
+      "following_url": "https://api.github.com/users/asubiotto/following{/other_user}",
+      "gists_url": "https://api.github.com/users/asubiotto/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/asubiotto",
+      "id": 10560359,
+      "login": "asubiotto",
+      "node_id": "MDQ6VXNlcjEwNTYwMzU5",
+      "organizations_url": "https://api.github.com/users/asubiotto/orgs",
+      "received_events_url": "https://api.github.com/users/asubiotto/received_events",
+      "repos_url": "https://api.github.com/users/asubiotto/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/asubiotto/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/asubiotto/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/asubiotto"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/ed32a68b56692a2c04fb2eca464113890c2b81b2/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-28T21:26:53Z",
+        "email": "alfonso@cockroachlabs.com",
+        "name": "Alfonso Subiotto Marques"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-29T18:08:03Z",
+        "email": "alfonso@cockroachlabs.com",
+        "name": "Alfonso Subiotto Marques"
+      },
+      "message": "colexec: use DiskQueueCacheModes to optimize disk operators\n\nThe external sorter and hash joiner may use the two ReuseCache modes\nto reduce the cache size without sacrificing performance given their access\npatterns per partition of write everything then read everything.\n\nThe external hash joiner additionally uses the clear cache mode in order to\nautomatically closed unused partition caches while it is repartitioning.\n\nRelease note: None (external hash joins and sorts are not enabled by default\nyet)",
+      "tree": {
+        "sha": "ef2c12d35038474ce14a36489d5675d5ff4ed496",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/ef2c12d35038474ce14a36489d5675d5ff4ed496"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/ed32a68b56692a2c04fb2eca464113890c2b81b2",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/10560359?v=4",
+      "events_url": "https://api.github.com/users/asubiotto/events{/privacy}",
+      "followers_url": "https://api.github.com/users/asubiotto/followers",
+      "following_url": "https://api.github.com/users/asubiotto/following{/other_user}",
+      "gists_url": "https://api.github.com/users/asubiotto/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/asubiotto",
+      "id": 10560359,
+      "login": "asubiotto",
+      "node_id": "MDQ6VXNlcjEwNTYwMzU5",
+      "organizations_url": "https://api.github.com/users/asubiotto/orgs",
+      "received_events_url": "https://api.github.com/users/asubiotto/received_events",
+      "repos_url": "https://api.github.com/users/asubiotto/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/asubiotto/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/asubiotto/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/asubiotto"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/ed32a68b56692a2c04fb2eca464113890c2b81b2",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6ZWQzMmE2OGI1NjY5MmEyYzA0ZmIyZWNhNDY0MTEzODkwYzJiODFiMg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/bb4ae89ea32f116b632590c92aa68ad0dc02c2c7",
+        "sha": "bb4ae89ea32f116b632590c92aa68ad0dc02c2c7",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/bb4ae89ea32f116b632590c92aa68ad0dc02c2c7"
+      }
+    ],
+    "sha": "ed32a68b56692a2c04fb2eca464113890c2b81b2",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/ed32a68b56692a2c04fb2eca464113890c2b81b2"
+  },
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/df4d029812ae3469147dd01ea0e8f2fd06d905d7/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-29T18:01:23Z",
+        "email": "bors@cockroachlabs.com",
+        "name": "craig[bot]"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-29T18:01:23Z",
+        "email": "bors@cockroachlabs.com",
+        "name": "craig[bot]"
+      },
+      "message": "Merge #45442\n\n45442: Hide on conflict where clause r=jseldess a=jseldess\n\nPreviously, we included the WHERE clause in generated SQL\r\ndiagrams for ON CONFLICT, despite WHERE being [unimplemented](https://github.com/cockroachdb/cockroach/issues/32557)\r\nfor that case. This patch removes the clause from relevant diagrams.\r\n\r\nInitial response to https://github.com/cockroachdb/docs/issues/6659.\r\n\r\nRelease note: None\n\nCo-authored-by: Jesse Seldess <j_seldess@hotmail.com>",
+      "tree": {
+        "sha": "9c600ca7d438375961278f4f465b4aa0d5b5b7ba",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/9c600ca7d438375961278f4f465b4aa0d5b5b7ba"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/df4d029812ae3469147dd01ea0e8f2fd06d905d7",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": null,
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/df4d029812ae3469147dd01ea0e8f2fd06d905d7",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6ZGY0ZDAyOTgxMmFlMzQ2OTE0N2RkMDFlYTBlOGYyZmQwNmQ5MDVkNw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/3e2334ded18d2f18c08f2f912be085df563ca6ff",
+        "sha": "3e2334ded18d2f18c08f2f912be085df563ca6ff",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/3e2334ded18d2f18c08f2f912be085df563ca6ff"
+      },
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/d6b476bfb543f75ac00a13a8da9c5c6214e792ec",
+        "sha": "d6b476bfb543f75ac00a13a8da9c5c6214e792ec",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/d6b476bfb543f75ac00a13a8da9c5c6214e792ec"
+      }
+    ],
+    "sha": "df4d029812ae3469147dd01ea0e8f2fd06d905d7",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/df4d029812ae3469147dd01ea0e8f2fd06d905d7"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/10560359?v=4",
+      "events_url": "https://api.github.com/users/asubiotto/events{/privacy}",
+      "followers_url": "https://api.github.com/users/asubiotto/followers",
+      "following_url": "https://api.github.com/users/asubiotto/following{/other_user}",
+      "gists_url": "https://api.github.com/users/asubiotto/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/asubiotto",
+      "id": 10560359,
+      "login": "asubiotto",
+      "node_id": "MDQ6VXNlcjEwNTYwMzU5",
+      "organizations_url": "https://api.github.com/users/asubiotto/orgs",
+      "received_events_url": "https://api.github.com/users/asubiotto/received_events",
+      "repos_url": "https://api.github.com/users/asubiotto/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/asubiotto/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/asubiotto/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/asubiotto"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/bb4ae89ea32f116b632590c92aa68ad0dc02c2c7/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-29T17:56:47Z",
+        "email": "alfonso@cockroachlabs.com",
+        "name": "Alfonso Subiotto Marques"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-29T17:56:47Z",
+        "email": "alfonso@cockroachlabs.com",
+        "name": "Alfonso Subiotto Marques"
+      },
+      "message": "colcontainer: add DiskQueueCacheModes to the DiskQueue\n\nThis allows the caller to specify whether they want to reuse the DiskQueue's\ncache. This comes with the limitation that all writes must happen before all\nreads, which is the case for the ExternalHashJoiner and ExternalSorter (but\nnot the HashRouter). This allows us to use less memory per partition. An\nadditional mode has also been added that releases the cache to the GC. This\nis useful in the case of an ExternalHashJoinerRepartition, where if a\nrepartition happens, the other partitions at that level are untouched until\nthe repartitioned partition has been repartitioned n times until it is fully\njoined and emitted.\n\nRelease note: None (internal code change with no observable external changes)",
+      "tree": {
+        "sha": "48103a6605bd95a3341c158af7ca5fe00560144d",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/48103a6605bd95a3341c158af7ca5fe00560144d"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/bb4ae89ea32f116b632590c92aa68ad0dc02c2c7",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/10560359?v=4",
+      "events_url": "https://api.github.com/users/asubiotto/events{/privacy}",
+      "followers_url": "https://api.github.com/users/asubiotto/followers",
+      "following_url": "https://api.github.com/users/asubiotto/following{/other_user}",
+      "gists_url": "https://api.github.com/users/asubiotto/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/asubiotto",
+      "id": 10560359,
+      "login": "asubiotto",
+      "node_id": "MDQ6VXNlcjEwNTYwMzU5",
+      "organizations_url": "https://api.github.com/users/asubiotto/orgs",
+      "received_events_url": "https://api.github.com/users/asubiotto/received_events",
+      "repos_url": "https://api.github.com/users/asubiotto/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/asubiotto/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/asubiotto/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/asubiotto"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/bb4ae89ea32f116b632590c92aa68ad0dc02c2c7",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6YmI0YWU4OWVhMzJmMTE2YjYzMjU5MGM5MmFhNjhhZDBkYzAyYzJjNw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/3e2334ded18d2f18c08f2f912be085df563ca6ff",
+        "sha": "3e2334ded18d2f18c08f2f912be085df563ca6ff",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/3e2334ded18d2f18c08f2f912be085df563ca6ff"
+      }
+    ],
+    "sha": "bb4ae89ea32f116b632590c92aa68ad0dc02c2c7",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/bb4ae89ea32f116b632590c92aa68ad0dc02c2c7"
+  },
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/3e2334ded18d2f18c08f2f912be085df563ca6ff/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-29T04:24:43Z",
+        "email": "bors@cockroachlabs.com",
+        "name": "craig[bot]"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-29T04:24:43Z",
+        "email": "bors@cockroachlabs.com",
+        "name": "craig[bot]"
+      },
+      "message": "Merge #45536\n\n45536: colexec: make Materializer perform deep copies of decimal before returning row r=jordanlewis a=asubiotto\n\nThe execinfra.Next interface states that EncDatums inside a returned row must\r\nstay valid forever. The Materializer would not perform a deep copy of\r\nDDecimals, resulting in behavior where memory pointed to by a returned EncDatum\r\nwas overwritten, which is illegal.\r\n\r\nRelease note (bug fix): Some vectorized execution plans that used lookup joins\r\nwith Decimals would previously return incorrect results. This is now fixed.\r\n\r\nFixes #45481 \r\n\r\nThe second commit should be backported.\n\nCo-authored-by: Alfonso Subiotto Marques <alfonso@cockroachlabs.com>",
+      "tree": {
+        "sha": "76198c6931304f09025e82fddc650761be42518c",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/76198c6931304f09025e82fddc650761be42518c"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/3e2334ded18d2f18c08f2f912be085df563ca6ff",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": null,
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/3e2334ded18d2f18c08f2f912be085df563ca6ff",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6M2UyMzM0ZGVkMThkMmYxOGMwOGYyZjkxMmJlMDg1ZGY1NjNjYTZmZg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/248d59798eb3b6506745541fdbca89b6b6cad674",
+        "sha": "248d59798eb3b6506745541fdbca89b6b6cad674",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/248d59798eb3b6506745541fdbca89b6b6cad674"
+      },
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/5a34355115a50b671df00bc94a198eeff0c35eae",
+        "sha": "5a34355115a50b671df00bc94a198eeff0c35eae",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/5a34355115a50b671df00bc94a198eeff0c35eae"
+      }
+    ],
+    "sha": "3e2334ded18d2f18c08f2f912be085df563ca6ff",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/3e2334ded18d2f18c08f2f912be085df563ca6ff"
+  },
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/248d59798eb3b6506745541fdbca89b6b6cad674/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-29T03:05:37Z",
+        "email": "bors@cockroachlabs.com",
+        "name": "craig[bot]"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-29T03:05:37Z",
+        "email": "bors@cockroachlabs.com",
+        "name": "craig[bot]"
+      },
+      "message": "Merge #45301 #45452 #45544\n\n45301: colexec: add recursive partitioning to external hash joiner r=yuzefovich a=yuzefovich\n\n**colexec: fix verifySelAndNullsReset test**\r\n\r\nPreviously, we would run verifySelAndNullsReset test on all of the\r\nunits. However, this test relies on the fact that the output of the\r\noperator in question is the same which is not always the case - it is\r\nsuch only if we expect the order of tuples (and batches) remain the\r\nsame. This is now fixed by checking whether the verifierType is\r\norderedVerifier, and only if so, we will run this test.\r\n\r\nAdditionally, this numbers all hash joiner unit tests for ease of\r\ndebugging.\r\n\r\nRelease note: None\r\n\r\n**colexec: add recursive partitioning to external hash joiner**\r\n\r\nThis commit adds the support for recursive partitioning to external hash\r\njoiner. The goal is that if a partition is too big to join at once (when\r\nthe right side partition exceeds the memory limit), we need to\r\nrepartition that partition according to a different hash function. We\r\nwill always try to join as many partitions as possible (and emit the\r\ncorresponding output), and then if there are any partitions that are too\r\nbig, we will repartition them, one at a time. Once that single big\r\npartition is repartitioned, we will try joining subpartitions. If at\r\nsome point we see that there is no decrease in size (if the decrease\r\nis less than 0.05), we will bail on such query. It is likely that in\r\nsuch case we have tuples that are not distinct on equality columns, and\r\nwe need to fallback to a combination of sort + merge join (currently not\r\nsupported).\r\n\r\nThe given memory limit is divided into two parts: one half for disk\r\nqueues (i.e. partitions), and another half for the in-memory hash\r\njoiner. The number of buckets to divide a partition into is\r\nsemi-dynamically computed to be in the range [2, 8] (i.e. we will be\r\nusing from 4 to 16 disk queues). The memory usage of the in-memory hash\r\njoiner is approximated by the size of the right side partition.\r\n\r\nFixes: #44727.\r\n\r\nRelease note: None\n\n45452: kv,quotapool,stopper: make the DistSender async concurrency limit configurable r=nvanbenschoten a=ajwerner\n\nThis PR has the high level goal of making the DistSender concurrency limit configuable. To achieve this goal it changes `stop.Stopper.RunLimitedAsyncTask` to take a quotapool rather than a raw channel to act as the semaphore. It additionally extends the quotapool to both have a non-blocking `Try` variant and to have a resizable capacity. It then adopts this quotapool in place of the old channels. The first commit adds benchmarking to demonstrate that the cost of switching to a quotapool isn't too high. \n\n45544: storage: check AdminVerifyProtectedTimestamp key ranges r=nvanbenschoten a=ajwerner\n\nBefore this commit we'd never ensure that an\r\nAdminVerifyProtectedTimestampRequest had the proper key boundaries for the\r\nrange processing the request. This problem was revealed by test flakes which\r\noccur when the a range splits and the request to verify a span is sent to the\r\nLHS which does not contain that span leading to a verification failure.\r\n\r\nGiven I needed all of the fields of the request in the underlying helper\r\nfunction, it seemed reasonable to change the signatures to just take the\r\nrequest.\r\n\r\nRelease note: None\n\nCo-authored-by: Yahor Yuzefovich <yahor@cockroachlabs.com>\nCo-authored-by: Andrew Werner <ajwerner@cockroachlabs.com>",
+      "tree": {
+        "sha": "02204d2dece51fe7c3d85030a315a8db7cb2c2ee",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/02204d2dece51fe7c3d85030a315a8db7cb2c2ee"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/248d59798eb3b6506745541fdbca89b6b6cad674",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": null,
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/248d59798eb3b6506745541fdbca89b6b6cad674",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6MjQ4ZDU5Nzk4ZWIzYjY1MDY3NDU1NDFmZGJjYTg5YjZiNmNhZDY3NA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/e2c05b67f1e1e8c673c46989cdf3661dc4e1d8bf",
+        "sha": "e2c05b67f1e1e8c673c46989cdf3661dc4e1d8bf",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/e2c05b67f1e1e8c673c46989cdf3661dc4e1d8bf"
+      },
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/029b311faba02d801e72b654267670cf9fb7bdc4",
+        "sha": "029b311faba02d801e72b654267670cf9fb7bdc4",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/029b311faba02d801e72b654267670cf9fb7bdc4"
+      },
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/baa129dfc4633274bf3257edf356db897b2a0f37",
+        "sha": "baa129dfc4633274bf3257edf356db897b2a0f37",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/baa129dfc4633274bf3257edf356db897b2a0f37"
+      },
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/5141e39ac02e982ce5eb6011e391a93c2c77d311",
+        "sha": "5141e39ac02e982ce5eb6011e391a93c2c77d311",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/5141e39ac02e982ce5eb6011e391a93c2c77d311"
+      }
+    ],
+    "sha": "248d59798eb3b6506745541fdbca89b6b6cad674",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/248d59798eb3b6506745541fdbca89b6b6cad674"
+  },
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/e2c05b67f1e1e8c673c46989cdf3661dc4e1d8bf/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-29T02:30:29Z",
+        "email": "bors@cockroachlabs.com",
+        "name": "craig[bot]"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-29T02:30:29Z",
+        "email": "bors@cockroachlabs.com",
+        "name": "craig[bot]"
+      },
+      "message": "Merge #45535\n\n45535: Revert \"storage,libroach: update MVCCIncrementalIterator to look at every updated key\" r=pbardea a=pbardea\n\nReverts cockroachdb/cockroach#45163\r\n\r\nTo stop the errors we're seeing on #45524. Will investigate further once it's off master.\n\nCo-authored-by: Paul Bardea <pbardea@gmail.com>",
+      "tree": {
+        "sha": "48927e4b93b9c775448ff81ce3369ed31460b1fc",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/48927e4b93b9c775448ff81ce3369ed31460b1fc"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/e2c05b67f1e1e8c673c46989cdf3661dc4e1d8bf",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": null,
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/e2c05b67f1e1e8c673c46989cdf3661dc4e1d8bf",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6ZTJjMDViNjdmMWUxZThjNjczYzQ2OTg5Y2RmMzY2MWRjNGUxZDhiZg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/c778c12240e68228a4af5c781d43f38ea139fbcb",
+        "sha": "c778c12240e68228a4af5c781d43f38ea139fbcb",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/c778c12240e68228a4af5c781d43f38ea139fbcb"
+      },
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/02708b8e1d7e5d0c0ac4339101652f26ea846900",
+        "sha": "02708b8e1d7e5d0c0ac4339101652f26ea846900",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/02708b8e1d7e5d0c0ac4339101652f26ea846900"
+      }
+    ],
+    "sha": "e2c05b67f1e1e8c673c46989cdf3661dc4e1d8bf",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/e2c05b67f1e1e8c673c46989cdf3661dc4e1d8bf"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5135385?v=4",
+      "events_url": "https://api.github.com/users/yuzefovich/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yuzefovich/followers",
+      "following_url": "https://api.github.com/users/yuzefovich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yuzefovich/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yuzefovich",
+      "id": 5135385,
+      "login": "yuzefovich",
+      "node_id": "MDQ6VXNlcjUxMzUzODU=",
+      "organizations_url": "https://api.github.com/users/yuzefovich/orgs",
+      "received_events_url": "https://api.github.com/users/yuzefovich/received_events",
+      "repos_url": "https://api.github.com/users/yuzefovich/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yuzefovich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yuzefovich/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yuzefovich"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/029b311faba02d801e72b654267670cf9fb7bdc4/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-21T20:11:21Z",
+        "email": "yahor@cockroachlabs.com",
+        "name": "Yahor Yuzefovich"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-29T02:28:50Z",
+        "email": "yahor@cockroachlabs.com",
+        "name": "Yahor Yuzefovich"
+      },
+      "message": "colexec: add recursive partitioning to external hash joiner\n\nThis commit adds the support for recursive partitioning to external hash\njoiner. The goal is that if a partition is too big to join at once (when\nthe right side partition exceeds the memory limit), we need to\nrepartition that partition according to a different hash function. We\nwill always try to join as many partitions as possible (and emit the\ncorresponding output), and then if there are any partitions that are too\nbig, we will repartition them, one at a time. Once that single big\npartition is repartitioned, we will try joining subpartitions. If at\nsome point we see that there is no decrease in size (if the decrease\nis less than 0.05), we will bail on such query. It is likely that in\nsuch case we have tuples that are not distinct on equality columns, and\nwe need to fallback to a combination of sort + merge join (currently not\nsupported).\n\nThe given memory limit is divided into two parts: one half for disk\nqueues (i.e. partitions), and another half for the in-memory hash\njoiner. The number of buckets to divide a partition into is\nsemi-dynamically computed to be in the range [2, 8] (i.e. we will be\nusing from 4 to 16 disk queues). The memory usage of the in-memory hash\njoiner is approximated by the size of the right side partition.\n\nRelease note: None",
+      "tree": {
+        "sha": "bf7b9ee2b7440abc71d4b4db0f67e054fb5fe6f3",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/bf7b9ee2b7440abc71d4b4db0f67e054fb5fe6f3"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/029b311faba02d801e72b654267670cf9fb7bdc4",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5135385?v=4",
+      "events_url": "https://api.github.com/users/yuzefovich/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yuzefovich/followers",
+      "following_url": "https://api.github.com/users/yuzefovich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yuzefovich/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yuzefovich",
+      "id": 5135385,
+      "login": "yuzefovich",
+      "node_id": "MDQ6VXNlcjUxMzUzODU=",
+      "organizations_url": "https://api.github.com/users/yuzefovich/orgs",
+      "received_events_url": "https://api.github.com/users/yuzefovich/received_events",
+      "repos_url": "https://api.github.com/users/yuzefovich/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yuzefovich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yuzefovich/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yuzefovich"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/029b311faba02d801e72b654267670cf9fb7bdc4",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6MDI5YjMxMWZhYmEwMmQ4MDFlNzJiNjU0MjY3NjcwY2Y5ZmI3YmRjNA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/cd27cd42e3a9ee486b9ac82d0760a635356394bc",
+        "sha": "cd27cd42e3a9ee486b9ac82d0760a635356394bc",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/cd27cd42e3a9ee486b9ac82d0760a635356394bc"
+      }
+    ],
+    "sha": "029b311faba02d801e72b654267670cf9fb7bdc4",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/029b311faba02d801e72b654267670cf9fb7bdc4"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5135385?v=4",
+      "events_url": "https://api.github.com/users/yuzefovich/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yuzefovich/followers",
+      "following_url": "https://api.github.com/users/yuzefovich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yuzefovich/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yuzefovich",
+      "id": 5135385,
+      "login": "yuzefovich",
+      "node_id": "MDQ6VXNlcjUxMzUzODU=",
+      "organizations_url": "https://api.github.com/users/yuzefovich/orgs",
+      "received_events_url": "https://api.github.com/users/yuzefovich/received_events",
+      "repos_url": "https://api.github.com/users/yuzefovich/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yuzefovich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yuzefovich/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yuzefovich"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/cd27cd42e3a9ee486b9ac82d0760a635356394bc/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-21T20:47:34Z",
+        "email": "yahor@cockroachlabs.com",
+        "name": "Yahor Yuzefovich"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-29T02:26:03Z",
+        "email": "yahor@cockroachlabs.com",
+        "name": "Yahor Yuzefovich"
+      },
+      "message": "colexec: fix verifySelAndNullsReset test\n\nPreviously, we would run verifySelAndNullsReset test on all of the\nunits. However, this test relies on the fact that the output of the\noperator in question is the same which is not always the case - it is\nsuch only if we expect the order of tuples (and batches) remain the\nsame. This is now fixed by checking whether the verifierType is\norderedVerifier, and only if so, we will run this test.\n\nAdditionally, this numbers all hash joiner unit tests for ease of\ndebugging.\n\nRelease note: None",
+      "tree": {
+        "sha": "23d10833426c9817b69eb591c6e297d8f76e5c32",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/23d10833426c9817b69eb591c6e297d8f76e5c32"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/cd27cd42e3a9ee486b9ac82d0760a635356394bc",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5135385?v=4",
+      "events_url": "https://api.github.com/users/yuzefovich/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yuzefovich/followers",
+      "following_url": "https://api.github.com/users/yuzefovich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yuzefovich/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yuzefovich",
+      "id": 5135385,
+      "login": "yuzefovich",
+      "node_id": "MDQ6VXNlcjUxMzUzODU=",
+      "organizations_url": "https://api.github.com/users/yuzefovich/orgs",
+      "received_events_url": "https://api.github.com/users/yuzefovich/received_events",
+      "repos_url": "https://api.github.com/users/yuzefovich/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yuzefovich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yuzefovich/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yuzefovich"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/cd27cd42e3a9ee486b9ac82d0760a635356394bc",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6Y2QyN2NkNDJlM2E5ZWU0ODZiOWFjODJkMDc2MGE2MzUzNTYzOTRiYw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/c778c12240e68228a4af5c781d43f38ea139fbcb",
+        "sha": "c778c12240e68228a4af5c781d43f38ea139fbcb",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/c778c12240e68228a4af5c781d43f38ea139fbcb"
+      }
+    ],
+    "sha": "cd27cd42e3a9ee486b9ac82d0760a635356394bc",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/cd27cd42e3a9ee486b9ac82d0760a635356394bc"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1839234?v=4",
+      "events_url": "https://api.github.com/users/ajwerner/events{/privacy}",
+      "followers_url": "https://api.github.com/users/ajwerner/followers",
+      "following_url": "https://api.github.com/users/ajwerner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ajwerner/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/ajwerner",
+      "id": 1839234,
+      "login": "ajwerner",
+      "node_id": "MDQ6VXNlcjE4MzkyMzQ=",
+      "organizations_url": "https://api.github.com/users/ajwerner/orgs",
+      "received_events_url": "https://api.github.com/users/ajwerner/received_events",
+      "repos_url": "https://api.github.com/users/ajwerner/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/ajwerner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ajwerner/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/ajwerner"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/5141e39ac02e982ce5eb6011e391a93c2c77d311/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-29T00:00:46Z",
+        "email": "ajwerner@cockroachlabs.com",
+        "name": "Andrew Werner"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-29T00:21:17Z",
+        "email": "ajwerner@cockroachlabs.com",
+        "name": "Andrew Werner"
+      },
+      "message": "storage: check AdminVerifyProtectedTimestamp key ranges\n\nBefore this commit we'd never ensure that an\nAdminVerifyProtectedTimestampRequest had the proper key boundaries for the\nrange processing the request. This problem was revealed by test flakes which\noccur when the a range splits and the request to verify a span is sent to the\nLHS which does not contain that span leading to a verification failure.\n\nGiven I needed all of the fields of the request in the underlying helper\nfunction, it seemed reasonable to change the signatures to just take the\nrequest.\n\nRelease note: None",
+      "tree": {
+        "sha": "3562052af3d135b748d7261d549149d38a403987",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/3562052af3d135b748d7261d549149d38a403987"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/5141e39ac02e982ce5eb6011e391a93c2c77d311",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1839234?v=4",
+      "events_url": "https://api.github.com/users/ajwerner/events{/privacy}",
+      "followers_url": "https://api.github.com/users/ajwerner/followers",
+      "following_url": "https://api.github.com/users/ajwerner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ajwerner/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/ajwerner",
+      "id": 1839234,
+      "login": "ajwerner",
+      "node_id": "MDQ6VXNlcjE4MzkyMzQ=",
+      "organizations_url": "https://api.github.com/users/ajwerner/orgs",
+      "received_events_url": "https://api.github.com/users/ajwerner/received_events",
+      "repos_url": "https://api.github.com/users/ajwerner/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/ajwerner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ajwerner/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/ajwerner"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/5141e39ac02e982ce5eb6011e391a93c2c77d311",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6NTE0MWUzOWFjMDJlOTgyY2U1ZWI2MDExZTM5MWE5M2MyYzc3ZDMxMQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/317061202f4510e8087ff6ba9e2e5cb2fce0bb70",
+        "sha": "317061202f4510e8087ff6ba9e2e5cb2fce0bb70",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/317061202f4510e8087ff6ba9e2e5cb2fce0bb70"
+      }
+    ],
+    "sha": "5141e39ac02e982ce5eb6011e391a93c2c77d311",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/5141e39ac02e982ce5eb6011e391a93c2c77d311"
+  },
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/c778c12240e68228a4af5c781d43f38ea139fbcb/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-28T23:15:55Z",
+        "email": "bors@cockroachlabs.com",
+        "name": "craig[bot]"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-28T23:15:55Z",
+        "email": "bors@cockroachlabs.com",
+        "name": "craig[bot]"
+      },
+      "message": "Merge #45143 #45426\n\n45143: ui: Release notes signup r=dhartunian a=koorosh\n\nResolves: https://github.com/cockroachdb/cockroach/issues/43912\r\nDepends on: #44744, #44821, #44856 \r\n\r\n- [x] WIP. Current branch has two branches merged which haven't been approved/merged in master branch yet.\r\n\r\n- [x] rebase branch to remove merge commits from branches other than master.\r\n\r\nAdd Release notes signup form to Cluster Overview page\r\nright after page title.\r\nRelease Notes signup view is created in `src/views/dashboard`\r\ndirectory because it will be the main page where we display\r\nthis view. And Cluster Overview page is a temporary place\r\nwhile Dashboard view doesn't exist.\r\n\r\nThese changes integrate three main parts: ReleaseNotesForm,\r\nAlertNotification component and custom analytics saga.\r\n\r\n\n\n45426: coldata: minor tweak of flat bytes r=yuzefovich a=yuzefovich\n\nThis commit changes `maybeBackfillOffsets` to update `maxSetIndex`\r\naccordingly (this might be a minor performance improvement). In a sense,\r\nwhen we're backfilling offsets, we *are* setting indices to point to\r\nempty `[]byte` slices. Also, the logic for `Set` method is slightly\r\nrefactored.\r\n\r\nRelease note: None\n\nCo-authored-by: Andrii Vorobiov <and.vorobiov@gmail.com>\nCo-authored-by: Yahor Yuzefovich <yahor@cockroachlabs.com>",
+      "tree": {
+        "sha": "3fafa76a22192847cd8e9cc3827ed259ee071f32",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/3fafa76a22192847cd8e9cc3827ed259ee071f32"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/c778c12240e68228a4af5c781d43f38ea139fbcb",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": null,
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/c778c12240e68228a4af5c781d43f38ea139fbcb",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6Yzc3OGMxMjI0MGU2ODIyOGE0YWY1Yzc4MWQ0M2YzOGVhMTM5ZmJjYg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/55c43f658e010178fca5197f5bfbadf2e09bf280",
+        "sha": "55c43f658e010178fca5197f5bfbadf2e09bf280",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/55c43f658e010178fca5197f5bfbadf2e09bf280"
+      },
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/989e09777f32afe3cf6280b7ddae63c87b2655b7",
+        "sha": "989e09777f32afe3cf6280b7ddae63c87b2655b7",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/989e09777f32afe3cf6280b7ddae63c87b2655b7"
+      },
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/c1c11000c18a214713927e4669e2b6b0321d430a",
+        "sha": "c1c11000c18a214713927e4669e2b6b0321d430a",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/c1c11000c18a214713927e4669e2b6b0321d430a"
+      }
+    ],
+    "sha": "c778c12240e68228a4af5c781d43f38ea139fbcb",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/c778c12240e68228a4af5c781d43f38ea139fbcb"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1839234?v=4",
+      "events_url": "https://api.github.com/users/ajwerner/events{/privacy}",
+      "followers_url": "https://api.github.com/users/ajwerner/followers",
+      "following_url": "https://api.github.com/users/ajwerner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ajwerner/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/ajwerner",
+      "id": 1839234,
+      "login": "ajwerner",
+      "node_id": "MDQ6VXNlcjE4MzkyMzQ=",
+      "organizations_url": "https://api.github.com/users/ajwerner/orgs",
+      "received_events_url": "https://api.github.com/users/ajwerner/received_events",
+      "repos_url": "https://api.github.com/users/ajwerner/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/ajwerner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ajwerner/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/ajwerner"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/baa129dfc4633274bf3257edf356db897b2a0f37/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-26T17:06:15Z",
+        "email": "ajwerner@cockroachlabs.com",
+        "name": "Andrew Werner"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-28T22:59:54Z",
+        "email": "ajwerner@cockroachlabs.com",
+        "name": "Andrew Werner"
+      },
+      "message": "kv: make sender concurrency limit a setting based on NumCPU\n\nThis commit changes the DistSender concurrency limit to be a cluster setting\nrather than a constant with a value of 500. It additionally scales the default\nbased on the number of cores with a minimum of the old value.\n\nRelease note: None",
+      "tree": {
+        "sha": "1c1bc539bb220482622876ee29f7404a252d93eb",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/1c1bc539bb220482622876ee29f7404a252d93eb"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/baa129dfc4633274bf3257edf356db897b2a0f37",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1839234?v=4",
+      "events_url": "https://api.github.com/users/ajwerner/events{/privacy}",
+      "followers_url": "https://api.github.com/users/ajwerner/followers",
+      "following_url": "https://api.github.com/users/ajwerner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ajwerner/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/ajwerner",
+      "id": 1839234,
+      "login": "ajwerner",
+      "node_id": "MDQ6VXNlcjE4MzkyMzQ=",
+      "organizations_url": "https://api.github.com/users/ajwerner/orgs",
+      "received_events_url": "https://api.github.com/users/ajwerner/received_events",
+      "repos_url": "https://api.github.com/users/ajwerner/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/ajwerner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ajwerner/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/ajwerner"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/baa129dfc4633274bf3257edf356db897b2a0f37",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6YmFhMTI5ZGZjNDYzMzI3NGJmMzI1N2VkZjM1NmRiODk3YjJhMGYzNw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/b6349d5837a4ad2d264e2e4a899f911f9a514052",
+        "sha": "b6349d5837a4ad2d264e2e4a899f911f9a514052",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/b6349d5837a4ad2d264e2e4a899f911f9a514052"
+      }
+    ],
+    "sha": "baa129dfc4633274bf3257edf356db897b2a0f37",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/baa129dfc4633274bf3257edf356db897b2a0f37"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1839234?v=4",
+      "events_url": "https://api.github.com/users/ajwerner/events{/privacy}",
+      "followers_url": "https://api.github.com/users/ajwerner/followers",
+      "following_url": "https://api.github.com/users/ajwerner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ajwerner/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/ajwerner",
+      "id": 1839234,
+      "login": "ajwerner",
+      "node_id": "MDQ6VXNlcjE4MzkyMzQ=",
+      "organizations_url": "https://api.github.com/users/ajwerner/orgs",
+      "received_events_url": "https://api.github.com/users/ajwerner/received_events",
+      "repos_url": "https://api.github.com/users/ajwerner/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/ajwerner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ajwerner/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/ajwerner"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/b6349d5837a4ad2d264e2e4a899f911f9a514052/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-26T16:13:59Z",
+        "email": "ajwerner@cockroachlabs.com",
+        "name": "Andrew Werner"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-28T22:59:54Z",
+        "email": "ajwerner@cockroachlabs.com",
+        "name": "Andrew Werner"
+      },
+      "message": "quotapool: add UpdateCapacity\n\nThis commit adds a method to update the capacity of a quotapool. The\nimplementation permits rapid fluctionations (mixes of increases and decreases\nin capacity which occur more rapidly than quota is returned to the pool) to\npermit allocation of quota in excess of any limit specified. The capacity\nwill converge to the new value once resources allocated prior to the change\ncomplete. This behavior seems fine for now. It would be easy enough to\nmitigate with extra bookkeeping and locking but doesn't seem worth it.\n\nRelease note: None",
+      "tree": {
+        "sha": "d83c1ac5dd8003b5d39ba8c040a5041677639fee",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/d83c1ac5dd8003b5d39ba8c040a5041677639fee"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/b6349d5837a4ad2d264e2e4a899f911f9a514052",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1839234?v=4",
+      "events_url": "https://api.github.com/users/ajwerner/events{/privacy}",
+      "followers_url": "https://api.github.com/users/ajwerner/followers",
+      "following_url": "https://api.github.com/users/ajwerner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ajwerner/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/ajwerner",
+      "id": 1839234,
+      "login": "ajwerner",
+      "node_id": "MDQ6VXNlcjE4MzkyMzQ=",
+      "organizations_url": "https://api.github.com/users/ajwerner/orgs",
+      "received_events_url": "https://api.github.com/users/ajwerner/received_events",
+      "repos_url": "https://api.github.com/users/ajwerner/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/ajwerner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ajwerner/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/ajwerner"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/b6349d5837a4ad2d264e2e4a899f911f9a514052",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6YjYzNDlkNTgzN2E0YWQyZDI2NGUyZTRhODk5ZjkxMWY5YTUxNDA1Mg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/48f34f5e872fe0d7a055b750ab77e57aa1405679",
+        "sha": "48f34f5e872fe0d7a055b750ab77e57aa1405679",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/48f34f5e872fe0d7a055b750ab77e57aa1405679"
+      }
+    ],
+    "sha": "b6349d5837a4ad2d264e2e4a899f911f9a514052",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/b6349d5837a4ad2d264e2e4a899f911f9a514052"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1839234?v=4",
+      "events_url": "https://api.github.com/users/ajwerner/events{/privacy}",
+      "followers_url": "https://api.github.com/users/ajwerner/followers",
+      "following_url": "https://api.github.com/users/ajwerner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ajwerner/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/ajwerner",
+      "id": 1839234,
+      "login": "ajwerner",
+      "node_id": "MDQ6VXNlcjE4MzkyMzQ=",
+      "organizations_url": "https://api.github.com/users/ajwerner/orgs",
+      "received_events_url": "https://api.github.com/users/ajwerner/received_events",
+      "repos_url": "https://api.github.com/users/ajwerner/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/ajwerner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ajwerner/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/ajwerner"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/48f34f5e872fe0d7a055b750ab77e57aa1405679/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-28T16:17:09Z",
+        "email": "ajwerner@cockroachlabs.com",
+        "name": "Andrew Werner"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-28T22:59:54Z",
+        "email": "ajwerner@cockroachlabs.com",
+        "name": "Andrew Werner"
+      },
+      "message": "quotapool: change Intpool allocs internally from uint64 to int64\n\nThis change will pave the way for UpdateCapacity to have sane semantics.\nWith this change we'll be able to represent a negative resource value. This is\ngoing to prove useful when the capacity of a pool is lowered and there are\noutstanding allocs in excess of the new capacity. The invariant that we'd like\nto provide is that the outstanding allocated quota never exceeds the maximum\ncapacity at some point.\n\nThis change is entirely internal and does not touch the package's interface\nexcept by restricting the maximum capacity.\n\nRelease note: None",
+      "tree": {
+        "sha": "fb7f75646208326e026be4da3d270f6c7b281048",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/fb7f75646208326e026be4da3d270f6c7b281048"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/48f34f5e872fe0d7a055b750ab77e57aa1405679",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1839234?v=4",
+      "events_url": "https://api.github.com/users/ajwerner/events{/privacy}",
+      "followers_url": "https://api.github.com/users/ajwerner/followers",
+      "following_url": "https://api.github.com/users/ajwerner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ajwerner/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/ajwerner",
+      "id": 1839234,
+      "login": "ajwerner",
+      "node_id": "MDQ6VXNlcjE4MzkyMzQ=",
+      "organizations_url": "https://api.github.com/users/ajwerner/orgs",
+      "received_events_url": "https://api.github.com/users/ajwerner/received_events",
+      "repos_url": "https://api.github.com/users/ajwerner/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/ajwerner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ajwerner/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/ajwerner"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/48f34f5e872fe0d7a055b750ab77e57aa1405679",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6NDhmMzRmNWU4NzJmZTBkN2EwNTViNzUwYWI3N2U1N2FhMTQwNTY3OQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/f0e751f00b7ba41f39dd83ddc8238011fa5b9c19",
+        "sha": "f0e751f00b7ba41f39dd83ddc8238011fa5b9c19",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/f0e751f00b7ba41f39dd83ddc8238011fa5b9c19"
+      }
+    ],
+    "sha": "48f34f5e872fe0d7a055b750ab77e57aa1405679",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/48f34f5e872fe0d7a055b750ab77e57aa1405679"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1839234?v=4",
+      "events_url": "https://api.github.com/users/ajwerner/events{/privacy}",
+      "followers_url": "https://api.github.com/users/ajwerner/followers",
+      "following_url": "https://api.github.com/users/ajwerner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ajwerner/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/ajwerner",
+      "id": 1839234,
+      "login": "ajwerner",
+      "node_id": "MDQ6VXNlcjE4MzkyMzQ=",
+      "organizations_url": "https://api.github.com/users/ajwerner/orgs",
+      "received_events_url": "https://api.github.com/users/ajwerner/received_events",
+      "repos_url": "https://api.github.com/users/ajwerner/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/ajwerner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ajwerner/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/ajwerner"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/f0e751f00b7ba41f39dd83ddc8238011fa5b9c19/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-26T04:46:39Z",
+        "email": "ajwerner@cockroachlabs.com",
+        "name": "Andrew Werner"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-28T22:59:54Z",
+        "email": "ajwerner@cockroachlabs.com",
+        "name": "Andrew Werner"
+      },
+      "message": "util/stopper: adopt quotapool in place of channel for RunLimitedAsyncTask\n\nThis commit replaces the channel-based semaphore with a quotapool.\n\nRelease note: None",
+      "tree": {
+        "sha": "e5464781d456b314f2d9743bd5a2f1d114f64634",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/e5464781d456b314f2d9743bd5a2f1d114f64634"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/f0e751f00b7ba41f39dd83ddc8238011fa5b9c19",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1839234?v=4",
+      "events_url": "https://api.github.com/users/ajwerner/events{/privacy}",
+      "followers_url": "https://api.github.com/users/ajwerner/followers",
+      "following_url": "https://api.github.com/users/ajwerner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ajwerner/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/ajwerner",
+      "id": 1839234,
+      "login": "ajwerner",
+      "node_id": "MDQ6VXNlcjE4MzkyMzQ=",
+      "organizations_url": "https://api.github.com/users/ajwerner/orgs",
+      "received_events_url": "https://api.github.com/users/ajwerner/received_events",
+      "repos_url": "https://api.github.com/users/ajwerner/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/ajwerner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ajwerner/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/ajwerner"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/f0e751f00b7ba41f39dd83ddc8238011fa5b9c19",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6ZjBlNzUxZjAwYjdiYTQxZjM5ZGQ4M2RkYzgyMzgwMTFmYTViOWMxOQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/e70b557ec28678710d53b10c8862d1d608e26aa8",
+        "sha": "e70b557ec28678710d53b10c8862d1d608e26aa8",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/e70b557ec28678710d53b10c8862d1d608e26aa8"
+      }
+    ],
+    "sha": "f0e751f00b7ba41f39dd83ddc8238011fa5b9c19",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/f0e751f00b7ba41f39dd83ddc8238011fa5b9c19"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1839234?v=4",
+      "events_url": "https://api.github.com/users/ajwerner/events{/privacy}",
+      "followers_url": "https://api.github.com/users/ajwerner/followers",
+      "following_url": "https://api.github.com/users/ajwerner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ajwerner/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/ajwerner",
+      "id": 1839234,
+      "login": "ajwerner",
+      "node_id": "MDQ6VXNlcjE4MzkyMzQ=",
+      "organizations_url": "https://api.github.com/users/ajwerner/orgs",
+      "received_events_url": "https://api.github.com/users/ajwerner/received_events",
+      "repos_url": "https://api.github.com/users/ajwerner/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/ajwerner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ajwerner/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/ajwerner"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/e70b557ec28678710d53b10c8862d1d608e26aa8/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-25T21:01:13Z",
+        "email": "ajwerner@cockroachlabs.com",
+        "name": "Andrew Werner"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-28T22:59:54Z",
+        "email": "ajwerner@cockroachlabs.com",
+        "name": "Andrew Werner"
+      },
+      "message": "quotapool: add TryAcquire and TryAcquireFunc\n\nThis commit adds methods to the IntPool to enable requests to signify that\nthey only want to acquire quota on the fast path and do not want to wait.\n\nRelease note: None",
+      "tree": {
+        "sha": "423ba8aa2ee8afd95730c8068416a2009ba5df07",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/423ba8aa2ee8afd95730c8068416a2009ba5df07"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/e70b557ec28678710d53b10c8862d1d608e26aa8",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1839234?v=4",
+      "events_url": "https://api.github.com/users/ajwerner/events{/privacy}",
+      "followers_url": "https://api.github.com/users/ajwerner/followers",
+      "following_url": "https://api.github.com/users/ajwerner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ajwerner/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/ajwerner",
+      "id": 1839234,
+      "login": "ajwerner",
+      "node_id": "MDQ6VXNlcjE4MzkyMzQ=",
+      "organizations_url": "https://api.github.com/users/ajwerner/orgs",
+      "received_events_url": "https://api.github.com/users/ajwerner/received_events",
+      "repos_url": "https://api.github.com/users/ajwerner/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/ajwerner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ajwerner/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/ajwerner"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/e70b557ec28678710d53b10c8862d1d608e26aa8",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6ZTcwYjU1N2VjMjg2Nzg3MTBkNTNiMTBjODg2MmQxZDYwOGUyNmFhOA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/0e5e6b4c3c8a075a6c80e1bc91d4774a64526214",
+        "sha": "0e5e6b4c3c8a075a6c80e1bc91d4774a64526214",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/0e5e6b4c3c8a075a6c80e1bc91d4774a64526214"
+      }
+    ],
+    "sha": "e70b557ec28678710d53b10c8862d1d608e26aa8",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/e70b557ec28678710d53b10c8862d1d608e26aa8"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1839234?v=4",
+      "events_url": "https://api.github.com/users/ajwerner/events{/privacy}",
+      "followers_url": "https://api.github.com/users/ajwerner/followers",
+      "following_url": "https://api.github.com/users/ajwerner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ajwerner/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/ajwerner",
+      "id": 1839234,
+      "login": "ajwerner",
+      "node_id": "MDQ6VXNlcjE4MzkyMzQ=",
+      "organizations_url": "https://api.github.com/users/ajwerner/orgs",
+      "received_events_url": "https://api.github.com/users/ajwerner/received_events",
+      "repos_url": "https://api.github.com/users/ajwerner/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/ajwerner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ajwerner/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/ajwerner"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/0e5e6b4c3c8a075a6c80e1bc91d4774a64526214/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-26T20:40:55Z",
+        "email": "ajwerner@cockroachlabs.com",
+        "name": "Andrew Werner"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-28T22:59:54Z",
+        "email": "ajwerner@cockroachlabs.com",
+        "name": "Andrew Werner"
+      },
+      "message": "quotapool: move benchmarks to a new file\n\nJust code movement.\n\nRelease note: None",
+      "tree": {
+        "sha": "5ec92cc2200cb7f4b085f3665876887662c0b2eb",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/5ec92cc2200cb7f4b085f3665876887662c0b2eb"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/0e5e6b4c3c8a075a6c80e1bc91d4774a64526214",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1839234?v=4",
+      "events_url": "https://api.github.com/users/ajwerner/events{/privacy}",
+      "followers_url": "https://api.github.com/users/ajwerner/followers",
+      "following_url": "https://api.github.com/users/ajwerner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ajwerner/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/ajwerner",
+      "id": 1839234,
+      "login": "ajwerner",
+      "node_id": "MDQ6VXNlcjE4MzkyMzQ=",
+      "organizations_url": "https://api.github.com/users/ajwerner/orgs",
+      "received_events_url": "https://api.github.com/users/ajwerner/received_events",
+      "repos_url": "https://api.github.com/users/ajwerner/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/ajwerner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ajwerner/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/ajwerner"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/0e5e6b4c3c8a075a6c80e1bc91d4774a64526214",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6MGU1ZTZiNGMzYzhhMDc1YTZjODBlMWJjOTFkNDc3NGE2NDUyNjIxNA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/152fa537e041fcf3326374a60127e3d8e71de697",
+        "sha": "152fa537e041fcf3326374a60127e3d8e71de697",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/152fa537e041fcf3326374a60127e3d8e71de697"
+      }
+    ],
+    "sha": "0e5e6b4c3c8a075a6c80e1bc91d4774a64526214",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/0e5e6b4c3c8a075a6c80e1bc91d4774a64526214"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1839234?v=4",
+      "events_url": "https://api.github.com/users/ajwerner/events{/privacy}",
+      "followers_url": "https://api.github.com/users/ajwerner/followers",
+      "following_url": "https://api.github.com/users/ajwerner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ajwerner/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/ajwerner",
+      "id": 1839234,
+      "login": "ajwerner",
+      "node_id": "MDQ6VXNlcjE4MzkyMzQ=",
+      "organizations_url": "https://api.github.com/users/ajwerner/orgs",
+      "received_events_url": "https://api.github.com/users/ajwerner/received_events",
+      "repos_url": "https://api.github.com/users/ajwerner/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/ajwerner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ajwerner/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/ajwerner"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/152fa537e041fcf3326374a60127e3d8e71de697/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-25T20:24:16Z",
+        "email": "ajwerner@cockroachlabs.com",
+        "name": "Andrew Werner"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-28T22:57:36Z",
+        "email": "ajwerner@cockroachlabs.com",
+        "name": "Andrew Werner"
+      },
+      "message": "quotapool: add more benchmarks against a channel-based semaphore\n\nThis commit extends existing benchmarks to demonstrate that the quotapool does\nnot have excessive overhead relative to a channel-based semaphore, especially\nin uncontended cases.\n\n```\n$ go test ./pkg/util/quotapool/ --run '^$' --bench 'Concurrent'  --benchmem --count 10 2>&1 > out\n$ benchstat <(cat out | grep -v Int | sed 's/ChannelSemaphore/IntPool/') <(cat out | grep -v Chan)\nname                                         old time/op    new time/op    delta\nIntPool-8                                      94.5ns \u00b1 5%   193.1ns \u00b1 3%  +104.24%  (p=0.000 n=20+18)\nConcurrentIntPool/workers=1,quota=1-8           226ns \u00b110%     278ns \u00b1 3%   +23.10%  (p=0.000 n=20+19)\nConcurrentIntPool/workers=2,quota=2-8           261ns \u00b1 3%     331ns \u00b1 5%   +26.90%  (p=0.000 n=18+18)\nConcurrentIntPool/workers=8,quota=4-8           958ns \u00b118%    2168ns \u00b1 5%  +126.42%  (p=0.000 n=20+20)\nConcurrentIntPool/workers=128,quota=4-8         890ns \u00b1 3%    2392ns \u00b1 9%  +168.63%  (p=0.000 n=18+20)\nConcurrentIntPool/workers=512,quota=128-8      1.40\u00b5s \u00b1 2%    2.83\u00b5s \u00b118%  +102.12%  (p=0.000 n=20+20)\nConcurrentIntPool/workers=512,quota=513-8       501ns \u00b1 5%     711ns \u00b114%   +42.12%  (p=0.000 n=20+20)\nConcurrentIntPool/workers=512,quota=511-8       520ns \u00b1 2%    1937ns \u00b169%  +272.65%  (p=0.000 n=16+20)\nConcurrentIntPool/workers=1024,quota=4-8        878ns \u00b1 3%    2649ns \u00b1 3%  +201.76%  (p=0.000 n=17+19)\nConcurrentIntPool/workers=1024,quota=4096-8     493ns \u00b1 8%     699ns \u00b110%   +41.73%  (p=0.000 n=20+17)\n```\n\nRelease note: None",
+      "tree": {
+        "sha": "9e2bdee63aa3c8d51786a5e21d102747b8c3d928",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/9e2bdee63aa3c8d51786a5e21d102747b8c3d928"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/152fa537e041fcf3326374a60127e3d8e71de697",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1839234?v=4",
+      "events_url": "https://api.github.com/users/ajwerner/events{/privacy}",
+      "followers_url": "https://api.github.com/users/ajwerner/followers",
+      "following_url": "https://api.github.com/users/ajwerner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ajwerner/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/ajwerner",
+      "id": 1839234,
+      "login": "ajwerner",
+      "node_id": "MDQ6VXNlcjE4MzkyMzQ=",
+      "organizations_url": "https://api.github.com/users/ajwerner/orgs",
+      "received_events_url": "https://api.github.com/users/ajwerner/received_events",
+      "repos_url": "https://api.github.com/users/ajwerner/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/ajwerner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ajwerner/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/ajwerner"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/152fa537e041fcf3326374a60127e3d8e71de697",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6MTUyZmE1MzdlMDQxZmNmMzMyNjM3NGE2MDEyN2UzZDhlNzFkZTY5Nw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/861b4e0ffcd118f16a9fc863b5fd6b7d16346d8a",
+        "sha": "861b4e0ffcd118f16a9fc863b5fd6b7d16346d8a",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/861b4e0ffcd118f16a9fc863b5fd6b7d16346d8a"
+      }
+    ],
+    "sha": "152fa537e041fcf3326374a60127e3d8e71de697",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/152fa537e041fcf3326374a60127e3d8e71de697"
+  },
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/55c43f658e010178fca5197f5bfbadf2e09bf280/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-28T22:37:04Z",
+        "email": "bors@cockroachlabs.com",
+        "name": "craig[bot]"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-28T22:37:04Z",
+        "email": "bors@cockroachlabs.com",
+        "name": "craig[bot]"
+      },
+      "message": "Merge #45360\n\n45360: colexec: fix a couple of issues with memory accounting r=yuzefovich a=yuzefovich\n\nThis commit fixes an issue of not correctly accounting for the selection\r\nvector in `RetainBatch` / `ReleaseBatch` methods when the selection is\r\nset to `false`.\r\n\r\nAlso, it fixes an issue with memory accounting in external sort when\r\nwe're dividing the input into partitions. Previously, we used\r\n`RetainBatch` method to track the memory usage. However, that method\r\nlooks at the capacities of the vectors in the batch whereas in tests we\r\noften have full-sizes vectors with the length of the batch being very\r\nsmall. This caused external sorter to create a partition for every tuple\r\n(if `batchSize` of 1 is used) which caused some tests to be extremely\r\nslow. This is now fixed by accounting for the \"portion\" of the batch's\r\nmemory footprint proportional to the length of the batch.\r\n\r\nFixes: #45322.\r\n\r\nRelease note: None\n\nCo-authored-by: Yahor Yuzefovich <yahor@cockroachlabs.com>",
+      "tree": {
+        "sha": "c8e814f6fa15e81332ff2b1e8e3251b2b396415c",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/c8e814f6fa15e81332ff2b1e8e3251b2b396415c"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/55c43f658e010178fca5197f5bfbadf2e09bf280",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": null,
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/55c43f658e010178fca5197f5bfbadf2e09bf280",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6NTVjNDNmNjU4ZTAxMDE3OGZjYTUxOTdmNWJmYmFkZjJlMDliZjI4MA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/7aea8911737af3c0ccaf66333962b03345b85749",
+        "sha": "7aea8911737af3c0ccaf66333962b03345b85749",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/7aea8911737af3c0ccaf66333962b03345b85749"
+      },
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/d10d875a8c202deeafd09fe571f3e472b9cc3cdb",
+        "sha": "d10d875a8c202deeafd09fe571f3e472b9cc3cdb",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/d10d875a8c202deeafd09fe571f3e472b9cc3cdb"
+      }
+    ],
+    "sha": "55c43f658e010178fca5197f5bfbadf2e09bf280",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/55c43f658e010178fca5197f5bfbadf2e09bf280"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5135385?v=4",
+      "events_url": "https://api.github.com/users/yuzefovich/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yuzefovich/followers",
+      "following_url": "https://api.github.com/users/yuzefovich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yuzefovich/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yuzefovich",
+      "id": 5135385,
+      "login": "yuzefovich",
+      "node_id": "MDQ6VXNlcjUxMzUzODU=",
+      "organizations_url": "https://api.github.com/users/yuzefovich/orgs",
+      "received_events_url": "https://api.github.com/users/yuzefovich/received_events",
+      "repos_url": "https://api.github.com/users/yuzefovich/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yuzefovich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yuzefovich/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yuzefovich"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/d10d875a8c202deeafd09fe571f3e472b9cc3cdb/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-25T00:08:11Z",
+        "email": "yahor@cockroachlabs.com",
+        "name": "Yahor Yuzefovich"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-28T21:15:46Z",
+        "email": "yahor@cockroachlabs.com",
+        "name": "Yahor Yuzefovich"
+      },
+      "message": "colexec: fix a couple of issues with memory accounting\n\nThis commit fixes an issue of not correctly accounting for the selection\nvector in `RetainBatch` / `ReleaseBatch` methods when the selection is\nset to `false`.\n\nAlso, it fixes an issue with memory accounting in external sort when\nwe're dividing the input into partitions. Previously, we used\n`RetainBatch` method to track the memory usage. However, that method\nlooks at the capacities of the vectors in the batch whereas in tests we\noften have full-sizes vectors with the length of the batch being very\nsmall. This caused external sorter to create a partition for every tuple\n(if `batchSize` of 1 is used) which caused some tests to be extremely\nslow. This is now fixed by accounting for the \"portion\" of the batch's\nmemory footprint proportional to the length of the batch.\n\nRelease note: None",
+      "tree": {
+        "sha": "ab63702450e11449473ab844f6a2ce1e2ac4fb74",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/ab63702450e11449473ab844f6a2ce1e2ac4fb74"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/d10d875a8c202deeafd09fe571f3e472b9cc3cdb",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5135385?v=4",
+      "events_url": "https://api.github.com/users/yuzefovich/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yuzefovich/followers",
+      "following_url": "https://api.github.com/users/yuzefovich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yuzefovich/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yuzefovich",
+      "id": 5135385,
+      "login": "yuzefovich",
+      "node_id": "MDQ6VXNlcjUxMzUzODU=",
+      "organizations_url": "https://api.github.com/users/yuzefovich/orgs",
+      "received_events_url": "https://api.github.com/users/yuzefovich/received_events",
+      "repos_url": "https://api.github.com/users/yuzefovich/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yuzefovich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yuzefovich/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yuzefovich"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/d10d875a8c202deeafd09fe571f3e472b9cc3cdb",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6ZDEwZDg3NWE4YzIwMmRlZWFmZDA5ZmU1NzFmM2U0NzJiOWNjM2NkYg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/861b4e0ffcd118f16a9fc863b5fd6b7d16346d8a",
+        "sha": "861b4e0ffcd118f16a9fc863b5fd6b7d16346d8a",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/861b4e0ffcd118f16a9fc863b5fd6b7d16346d8a"
+      }
+    ],
+    "sha": "d10d875a8c202deeafd09fe571f3e472b9cc3cdb",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/d10d875a8c202deeafd09fe571f3e472b9cc3cdb"
+  },
+  {
+    "author": null,
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/7aea8911737af3c0ccaf66333962b03345b85749/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-28T20:46:44Z",
+        "email": "bors@cockroachlabs.com",
+        "name": "craig[bot]"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-28T20:46:44Z",
+        "email": "bors@cockroachlabs.com",
+        "name": "craig[bot]"
+      },
+      "message": "Merge #45041\n\n45041: ui: Update Locality hierarchy on Node List  r=dhartunian a=koorosh\n\nFixes: https://github.com/cockroachdb/cockroach/issues/44919\r\nDepends on: https://github.com/cockroachdb/cockroach/pull/45007\r\n\r\nBefore, Node list with geo partitioned nodes was\r\ngrouped by 'region' key what was incorrect due to\r\nlocality keys might have arbitrary names and it\r\ndoesn't represent the lowest locality tier.\r\n\r\nNow, nodes are grouped by lowest level tier and\r\nalso display all tiers in tooltip.\r\n\r\nPreview:\r\n<img width=\"722\" alt=\"Screenshot 2020-02-12 at 23 13 03\" src=\"https://user-images.githubusercontent.com/3106437/74383887-c163e900-4df8-11ea-9822-134edbfa520c.png\">\n\nCo-authored-by: Andrii Vorobiov <and.vorobiov@gmail.com>",
+      "tree": {
+        "sha": "3a37fa3190df8cd5d8b13f38bba19d5fe34aac1d",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/3a37fa3190df8cd5d8b13f38bba19d5fe34aac1d"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/7aea8911737af3c0ccaf66333962b03345b85749",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": null,
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/7aea8911737af3c0ccaf66333962b03345b85749",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6N2FlYTg5MTE3MzdhZjNjMGNjYWY2NjMzMzk2MmIwMzM0NWI4NTc0OQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/861b4e0ffcd118f16a9fc863b5fd6b7d16346d8a",
+        "sha": "861b4e0ffcd118f16a9fc863b5fd6b7d16346d8a",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/861b4e0ffcd118f16a9fc863b5fd6b7d16346d8a"
+      },
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/4901896a1c333d3a3e9192f718a41e3dd7eb3c87",
+        "sha": "4901896a1c333d3a3e9192f718a41e3dd7eb3c87",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/4901896a1c333d3a3e9192f718a41e3dd7eb3c87"
+      }
+    ],
+    "sha": "7aea8911737af3c0ccaf66333962b03345b85749",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/7aea8911737af3c0ccaf66333962b03345b85749"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3106437?v=4",
+      "events_url": "https://api.github.com/users/koorosh/events{/privacy}",
+      "followers_url": "https://api.github.com/users/koorosh/followers",
+      "following_url": "https://api.github.com/users/koorosh/following{/other_user}",
+      "gists_url": "https://api.github.com/users/koorosh/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/koorosh",
+      "id": 3106437,
+      "login": "koorosh",
+      "node_id": "MDQ6VXNlcjMxMDY0Mzc=",
+      "organizations_url": "https://api.github.com/users/koorosh/orgs",
+      "received_events_url": "https://api.github.com/users/koorosh/received_events",
+      "repos_url": "https://api.github.com/users/koorosh/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/koorosh/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/koorosh/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/koorosh"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/989e09777f32afe3cf6280b7ddae63c87b2655b7/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-28T20:44:58Z",
+        "email": "and.vorobiov@gmail.com",
+        "name": "Andrii Vorobiov"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-28T20:44:58Z",
+        "email": "and.vorobiov@gmail.com",
+        "name": "Andrii Vorobiov"
+      },
+      "message": "ui: Remove unnecessary EMAIL_SUBSCRIPTION_SIGN_UP_COMPLETE action\n\nRelease note: None",
+      "tree": {
+        "sha": "0650973935210df42943e1173870529e892d52d9",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/0650973935210df42943e1173870529e892d52d9"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/989e09777f32afe3cf6280b7ddae63c87b2655b7",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3106437?v=4",
+      "events_url": "https://api.github.com/users/koorosh/events{/privacy}",
+      "followers_url": "https://api.github.com/users/koorosh/followers",
+      "following_url": "https://api.github.com/users/koorosh/following{/other_user}",
+      "gists_url": "https://api.github.com/users/koorosh/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/koorosh",
+      "id": 3106437,
+      "login": "koorosh",
+      "node_id": "MDQ6VXNlcjMxMDY0Mzc=",
+      "organizations_url": "https://api.github.com/users/koorosh/orgs",
+      "received_events_url": "https://api.github.com/users/koorosh/received_events",
+      "repos_url": "https://api.github.com/users/koorosh/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/koorosh/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/koorosh/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/koorosh"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/989e09777f32afe3cf6280b7ddae63c87b2655b7",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6OTg5ZTA5Nzc3ZjMyYWZlM2NmNjI4MGI3ZGRhZTYzYzg3YjI2NTViNw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/22107e904808f168ceeb293be3bae331d41f4c46",
+        "sha": "22107e904808f168ceeb293be3bae331d41f4c46",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/22107e904808f168ceeb293be3bae331d41f4c46"
+      }
+    ],
+    "sha": "989e09777f32afe3cf6280b7ddae63c87b2655b7",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/989e09777f32afe3cf6280b7ddae63c87b2655b7"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/10560359?v=4",
+      "events_url": "https://api.github.com/users/asubiotto/events{/privacy}",
+      "followers_url": "https://api.github.com/users/asubiotto/followers",
+      "following_url": "https://api.github.com/users/asubiotto/following{/other_user}",
+      "gists_url": "https://api.github.com/users/asubiotto/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/asubiotto",
+      "id": 10560359,
+      "login": "asubiotto",
+      "node_id": "MDQ6VXNlcjEwNTYwMzU5",
+      "organizations_url": "https://api.github.com/users/asubiotto/orgs",
+      "received_events_url": "https://api.github.com/users/asubiotto/received_events",
+      "repos_url": "https://api.github.com/users/asubiotto/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/asubiotto/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/asubiotto/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/asubiotto"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/5a34355115a50b671df00bc94a198eeff0c35eae/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-28T19:17:39Z",
+        "email": "alfonso@cockroachlabs.com",
+        "name": "Alfonso Subiotto Marques"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-28T19:17:39Z",
+        "email": "alfonso@cockroachlabs.com",
+        "name": "Alfonso Subiotto Marques"
+      },
+      "message": "colexec: make Materializer perform deep copies of decimal before returning row\n\nThe execinfra.Next interface states that EncDatums inside a returned row must\nstay valid forever. The Materializer would not perform a deep copy of\nDDecimals, resulting in behavior where memory pointed to by a returned EncDatum\nwas overwritten, which is illegal.\n\nRelease note (bug fix): Some vectorized execution plans that used lookup joins\nwith Decimals would previously return incorrect results. This is now fixed.",
+      "tree": {
+        "sha": "ed1f038a853f1959b576d1efe8626b4e687c61c1",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/ed1f038a853f1959b576d1efe8626b4e687c61c1"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/5a34355115a50b671df00bc94a198eeff0c35eae",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/10560359?v=4",
+      "events_url": "https://api.github.com/users/asubiotto/events{/privacy}",
+      "followers_url": "https://api.github.com/users/asubiotto/followers",
+      "following_url": "https://api.github.com/users/asubiotto/following{/other_user}",
+      "gists_url": "https://api.github.com/users/asubiotto/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/asubiotto",
+      "id": 10560359,
+      "login": "asubiotto",
+      "node_id": "MDQ6VXNlcjEwNTYwMzU5",
+      "organizations_url": "https://api.github.com/users/asubiotto/orgs",
+      "received_events_url": "https://api.github.com/users/asubiotto/received_events",
+      "repos_url": "https://api.github.com/users/asubiotto/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/asubiotto/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/asubiotto/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/asubiotto"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/5a34355115a50b671df00bc94a198eeff0c35eae",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6NWEzNDM1NTExNWE1MGI2NzFkZjAwYmM5NGExOThlZWZmMGMzNWVhZQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/4093c853f362e2fb9299376d578e4fc0b4f8c80e",
+        "sha": "4093c853f362e2fb9299376d578e4fc0b4f8c80e",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/4093c853f362e2fb9299376d578e4fc0b4f8c80e"
+      }
+    ],
+    "sha": "5a34355115a50b671df00bc94a198eeff0c35eae",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/5a34355115a50b671df00bc94a198eeff0c35eae"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/507390?v=4",
+      "events_url": "https://api.github.com/users/pbardea/events{/privacy}",
+      "followers_url": "https://api.github.com/users/pbardea/followers",
+      "following_url": "https://api.github.com/users/pbardea/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pbardea/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/pbardea",
+      "id": 507390,
+      "login": "pbardea",
+      "node_id": "MDQ6VXNlcjUwNzM5MA==",
+      "organizations_url": "https://api.github.com/users/pbardea/orgs",
+      "received_events_url": "https://api.github.com/users/pbardea/received_events",
+      "repos_url": "https://api.github.com/users/pbardea/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/pbardea/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pbardea/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/pbardea"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/02708b8e1d7e5d0c0ac4339101652f26ea846900/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-28T18:42:01Z",
+        "email": "pbardea@gmail.com",
+        "name": "Paul Bardea"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-28T18:42:01Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Revert \"storage,libroach: update MVCCIncrementalIterator to look at every updated key\"",
+      "tree": {
+        "sha": "ae13b54a6ffa086c64606d23e5c828c12751e7e5",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/ae13b54a6ffa086c64606d23e5c828c12751e7e5"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/02708b8e1d7e5d0c0ac4339101652f26ea846900",
+      "verification": {
+        "payload": "tree ae13b54a6ffa086c64606d23e5c828c12751e7e5\nparent 861b4e0ffcd118f16a9fc863b5fd6b7d16346d8a\nauthor Paul Bardea <pbardea@gmail.com> 1582915321 -0800\ncommitter GitHub <noreply@github.com> 1582915321 -0800\n\nRevert \"storage,libroach: update MVCCIncrementalIterator to look at every updated key\"\n",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJeWV75CRBK7hj4Ov3rIwAAdHIIAJcqmouEuB481zukBTEypKil\nI+0d+5OAyADRNuCLSEdBTTGypOVjpfmoGNBTLUqUbdxKxqWZNjIkg/As8jEJ7Dqf\ng8FWGM16ggEK2boA/yTwMEFhyx5ITrQO8KhLudtSEwNHLIH7XM2PXUGEuxz+soGH\njpat23pEuhkG5N1kG5/vH16QT4PRtVD6NESPyAeZ05QBdLHUs7vp6gqGsv86Kwd/\n4RZ0Po8wIudQEZ/ubf9F8od3oR+ODoguwGxh15dttP6FI5IvbsFlfFL0CxwjE0jP\nMwpCpmT2lfGSI9i/8Bl3rcAECjIdoqbRIuPh0FD8a4Zpqm6IJSynx34lS7Wn4KQ=\n=4U0S\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/02708b8e1d7e5d0c0ac4339101652f26ea846900",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6MDI3MDhiOGUxZDdlNWQwYzBhYzQzMzkxMDE2NTJmMjZlYTg0NjkwMA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/861b4e0ffcd118f16a9fc863b5fd6b7d16346d8a",
+        "sha": "861b4e0ffcd118f16a9fc863b5fd6b7d16346d8a",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/861b4e0ffcd118f16a9fc863b5fd6b7d16346d8a"
+      }
+    ],
+    "sha": "02708b8e1d7e5d0c0ac4339101652f26ea846900",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/02708b8e1d7e5d0c0ac4339101652f26ea846900"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/10560359?v=4",
+      "events_url": "https://api.github.com/users/asubiotto/events{/privacy}",
+      "followers_url": "https://api.github.com/users/asubiotto/followers",
+      "following_url": "https://api.github.com/users/asubiotto/following{/other_user}",
+      "gists_url": "https://api.github.com/users/asubiotto/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/asubiotto",
+      "id": 10560359,
+      "login": "asubiotto",
+      "node_id": "MDQ6VXNlcjEwNTYwMzU5",
+      "organizations_url": "https://api.github.com/users/asubiotto/orgs",
+      "received_events_url": "https://api.github.com/users/asubiotto/received_events",
+      "repos_url": "https://api.github.com/users/asubiotto/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/asubiotto/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/asubiotto/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/asubiotto"
+    },
+    "comments_url": "https://api.github.com/repos/cockroachdb/cockroach/commits/4093c853f362e2fb9299376d578e4fc0b4f8c80e/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-28T16:18:47Z",
+        "email": "alfonso@cockroachlabs.com",
+        "name": "Alfonso Subiotto Marques"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-28T17:56:27Z",
+        "email": "alfonso@cockroachlabs.com",
+        "name": "Alfonso Subiotto Marques"
+      },
+      "message": "colexec: add simple String method to coldata.Batch\n\nThis makes it easier to debug.\n\nRelease note: None",
+      "tree": {
+        "sha": "08d2728e446b573490c6fe92a3cbd420a4918dcc",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/git/trees/08d2728e446b573490c6fe92a3cbd420a4918dcc"
+      },
+      "url": "https://api.github.com/repos/cockroachdb/cockroach/git/commits/4093c853f362e2fb9299376d578e4fc0b4f8c80e",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/10560359?v=4",
+      "events_url": "https://api.github.com/users/asubiotto/events{/privacy}",
+      "followers_url": "https://api.github.com/users/asubiotto/followers",
+      "following_url": "https://api.github.com/users/asubiotto/following{/other_user}",
+      "gists_url": "https://api.github.com/users/asubiotto/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/asubiotto",
+      "id": 10560359,
+      "login": "asubiotto",
+      "node_id": "MDQ6VXNlcjEwNTYwMzU5",
+      "organizations_url": "https://api.github.com/users/asubiotto/orgs",
+      "received_events_url": "https://api.github.com/users/asubiotto/received_events",
+      "repos_url": "https://api.github.com/users/asubiotto/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/asubiotto/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/asubiotto/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/asubiotto"
+    },
+    "html_url": "https://github.com/cockroachdb/cockroach/commit/4093c853f362e2fb9299376d578e4fc0b4f8c80e",
+    "node_id": "MDY6Q29tbWl0MTY1NjM1ODc6NDA5M2M4NTNmMzYyZTJmYjkyOTkzNzZkNTc4ZTRmYzBiNGY4YzgwZQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/cockroachdb/cockroach/commit/6595c628953b492aacad42517852441e47138e48",
+        "sha": "6595c628953b492aacad42517852441e47138e48",
+        "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/6595c628953b492aacad42517852441e47138e48"
+      }
+    ],
+    "sha": "4093c853f362e2fb9299376d578e4fc0b4f8c80e",
+    "url": "https://api.github.com/repos/cockroachdb/cockroach/commits/4093c853f362e2fb9299376d578e4fc0b4f8c80e"
+  }
+]

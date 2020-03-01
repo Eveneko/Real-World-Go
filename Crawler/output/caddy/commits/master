@@ -1,0 +1,2372 @@
+[
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1944846?v=4",
+      "events_url": "https://api.github.com/users/danlsgiga/events{/privacy}",
+      "followers_url": "https://api.github.com/users/danlsgiga/followers",
+      "following_url": "https://api.github.com/users/danlsgiga/following{/other_user}",
+      "gists_url": "https://api.github.com/users/danlsgiga/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/danlsgiga",
+      "id": 1944846,
+      "login": "danlsgiga",
+      "node_id": "MDQ6VXNlcjE5NDQ4NDY=",
+      "organizations_url": "https://api.github.com/users/danlsgiga/orgs",
+      "received_events_url": "https://api.github.com/users/danlsgiga/received_events",
+      "repos_url": "https://api.github.com/users/danlsgiga/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/danlsgiga/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/danlsgiga/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/danlsgiga"
+    },
+    "comments_url": "https://api.github.com/repos/caddyserver/caddy/commits/fa7322365a22e82b1d37696d09d3bb264907fdc9/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-28T02:37:19Z",
+        "email": "dasanto2@cisco.com",
+        "name": "Daniel Santos"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-28T02:37:19Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Only enforces SNI matching if ClientAuth is enabled (#3096)",
+      "tree": {
+        "sha": "cb436bcb55287f12e72d8a48d876f5408f25dd15",
+        "url": "https://api.github.com/repos/caddyserver/caddy/git/trees/cb436bcb55287f12e72d8a48d876f5408f25dd15"
+      },
+      "url": "https://api.github.com/repos/caddyserver/caddy/git/commits/fa7322365a22e82b1d37696d09d3bb264907fdc9",
+      "verification": {
+        "payload": "tree cb436bcb55287f12e72d8a48d876f5408f25dd15\nparent 4fbdd232833bd776b078eb1fe512b7b577be68cd\nauthor Daniel Santos <dasanto2@cisco.com> 1582857439 -0700\ncommitter GitHub <noreply@github.com> 1582857439 -0700\n\nOnly enforces SNI matching if ClientAuth is enabled (#3096)\n\n",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJeWHzfCRBK7hj4Ov3rIwAAdHIIAD8VTLs+jzPknpm8VCT/0eQa\nEICh5e7UA1vF8KY43uj6TjvlSocnhPVJLIFsCeGWdnRYAN7/ykiKG98/1nOyvVBk\ncPU5i6kxjU6zSEs0X/NLnPwwCeeq99PuquRJkMvtWt4IlaVQatfeExA2Bi/u5njb\ncfWErl/zqrowaDQ5OUD2IOmyN61Z96VNzK9Kz9r5ZkKlPU0il8avt9LDdNK+mRDk\n1YNuQsxM83n10k8aWm0LnM6XUBHBfdPWiibbxWxOnA7aH1Z8gYB63fhoLngaxs2G\nKWNirb7qjUqXnP9eEnriN1xjnvWc2OBPuTx6oacJJIETPUNOohlosEARLuo2Zz4=\n=cic/\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/caddyserver/caddy/commit/fa7322365a22e82b1d37696d09d3bb264907fdc9",
+    "node_id": "MDY6Q29tbWl0MjkyMDc2MjE6ZmE3MzIyMzY1YTIyZTgyYjFkMzc2OTZkMDlkM2JiMjY0OTA3ZmRjOQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/caddyserver/caddy/commit/4fbdd232833bd776b078eb1fe512b7b577be68cd",
+        "sha": "4fbdd232833bd776b078eb1fe512b7b577be68cd",
+        "url": "https://api.github.com/repos/caddyserver/caddy/commits/4fbdd232833bd776b078eb1fe512b7b577be68cd"
+      }
+    ],
+    "sha": "fa7322365a22e82b1d37696d09d3bb264907fdc9",
+    "url": "https://api.github.com/repos/caddyserver/caddy/commits/fa7322365a22e82b1d37696d09d3bb264907fdc9"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1944846?v=4",
+      "events_url": "https://api.github.com/users/danlsgiga/events{/privacy}",
+      "followers_url": "https://api.github.com/users/danlsgiga/followers",
+      "following_url": "https://api.github.com/users/danlsgiga/following{/other_user}",
+      "gists_url": "https://api.github.com/users/danlsgiga/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/danlsgiga",
+      "id": 1944846,
+      "login": "danlsgiga",
+      "node_id": "MDQ6VXNlcjE5NDQ4NDY=",
+      "organizations_url": "https://api.github.com/users/danlsgiga/orgs",
+      "received_events_url": "https://api.github.com/users/danlsgiga/received_events",
+      "repos_url": "https://api.github.com/users/danlsgiga/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/danlsgiga/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/danlsgiga/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/danlsgiga"
+    },
+    "comments_url": "https://api.github.com/repos/caddyserver/caddy/commits/4fbdd232833bd776b078eb1fe512b7b577be68cd/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-25T23:04:59Z",
+        "email": "danlsgiga@gmail.com",
+        "name": "Daniel Santos"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-25T23:04:59Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "tls: Add insecure_disable_sni_matching subdirective (#3075)\n\n* Disable StrictHostMatching for single server configs\r\n\r\n* Add the insecure_disable_sni_matching directive\r\n\r\n* Do not override insecure_disable_sni_matching\r\n\r\n* Remove comment",
+      "tree": {
+        "sha": "5c357d3879cf2293b83560b62c3da146a5efbd15",
+        "url": "https://api.github.com/repos/caddyserver/caddy/git/trees/5c357d3879cf2293b83560b62c3da146a5efbd15"
+      },
+      "url": "https://api.github.com/repos/caddyserver/caddy/git/commits/4fbdd232833bd776b078eb1fe512b7b577be68cd",
+      "verification": {
+        "payload": "tree 5c357d3879cf2293b83560b62c3da146a5efbd15\nparent c953d17bcc8a7b73e752123420d37763acf34268\nauthor Daniel Santos <danlsgiga@gmail.com> 1582671899 -0700\ncommitter GitHub <noreply@github.com> 1582671899 -0700\n\ntls: Add insecure_disable_sni_matching subdirective (#3075)\n\n* Disable StrictHostMatching for single server configs\r\n\r\n* Add the insecure_disable_sni_matching directive\r\n\r\n* Do not override insecure_disable_sni_matching\r\n\r\n* Remove comment\r\n",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJeVagbCRBK7hj4Ov3rIwAAdHIIAKtEX4Hh0ClltEbnyz/fCAEy\nuCIPa6Cb54OYBEDyCaWOU4o8EGAWlSaxY6YPhhaBG3k+DIQbTye/MiYBG4/YrDgn\nKyfv0M0BeI9U5EL+jn9DUcWx/8DZAAAJQTo8HurOWCuoOj6H/4TyPmSZl4kWQ7CM\nIssBplS+n5YMinNW+T4rN64JMwnrh9KpAV+OessO+qIkT8qF5IHNoXziucwu0C1Z\n6D/g0WoGw5W/64ipn2kK2jlRI9tlbCGDMInvL5uZpgxf8dWlhxRgvLHCKAPhW5iu\n071dKVgyXoYM8m2DRqtQYdalo9qeC09UP0G/saJu6aiSbYmvRu+jz3WlqkjQ6GI=\n=BD9l\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/caddyserver/caddy/commit/4fbdd232833bd776b078eb1fe512b7b577be68cd",
+    "node_id": "MDY6Q29tbWl0MjkyMDc2MjE6NGZiZGQyMzI4MzNiZDc3NmIwNzhlYjFmZTUxMmI3YjU3N2JlNjhjZA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/caddyserver/caddy/commit/c953d17bcc8a7b73e752123420d37763acf34268",
+        "sha": "c953d17bcc8a7b73e752123420d37763acf34268",
+        "url": "https://api.github.com/repos/caddyserver/caddy/commits/c953d17bcc8a7b73e752123420d37763acf34268"
+      }
+    ],
+    "sha": "4fbdd232833bd776b078eb1fe512b7b577be68cd",
+    "url": "https://api.github.com/repos/caddyserver/caddy/commits/4fbdd232833bd776b078eb1fe512b7b577be68cd"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2078389?v=4",
+      "events_url": "https://api.github.com/users/huchenme/events{/privacy}",
+      "followers_url": "https://api.github.com/users/huchenme/followers",
+      "following_url": "https://api.github.com/users/huchenme/following{/other_user}",
+      "gists_url": "https://api.github.com/users/huchenme/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/huchenme",
+      "id": 2078389,
+      "login": "huchenme",
+      "node_id": "MDQ6VXNlcjIwNzgzODk=",
+      "organizations_url": "https://api.github.com/users/huchenme/orgs",
+      "received_events_url": "https://api.github.com/users/huchenme/received_events",
+      "repos_url": "https://api.github.com/users/huchenme/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/huchenme/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/huchenme/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/huchenme"
+    },
+    "comments_url": "https://api.github.com/repos/caddyserver/caddy/commits/c953d17bcc8a7b73e752123420d37763acf34268/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-25T22:36:12Z",
+        "email": "huchenme@users.noreply.github.com",
+        "name": "Hu Chen"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-25T22:36:12Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "dist: Update mac README.md (#3074)",
+      "tree": {
+        "sha": "37d3d90991ccf19780e658a6b76d1e50efde489b",
+        "url": "https://api.github.com/repos/caddyserver/caddy/git/trees/37d3d90991ccf19780e658a6b76d1e50efde489b"
+      },
+      "url": "https://api.github.com/repos/caddyserver/caddy/git/commits/c953d17bcc8a7b73e752123420d37763acf34268",
+      "verification": {
+        "payload": "tree 37d3d90991ccf19780e658a6b76d1e50efde489b\nparent 904d41e51acb974eb58be0a03fde50a627661301\nauthor Hu Chen <huchenme@users.noreply.github.com> 1582670172 +0800\ncommitter GitHub <noreply@github.com> 1582670172 -0700\n\ndist: Update mac README.md (#3074)\n\n",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJeVaFcCRBK7hj4Ov3rIwAAdHIIAIb5MyCcZtVVy2FVVivuvlSa\n2jI77YRl1867fNN9v8ItPQf9Pt4NrTSDcpJJr47srW+CfOMm39PMBwEYGBe53J0L\ngwgrMhTN8iu/CzYmZM379W4cI1egWw6+Do3WlKx8r2SRy4jmo0WkzSgQZ+wEWsi3\nQNHvRsWWSSPdiYLhTuzeM0gccb7BIxAJ4bfE9eMcwvVIaMcvXw4qCCatxnEalGPJ\nFBtrsS/iWvnx6HFWe1ROKsU8oWWmBbkGJyozAebQRisxXQbLiRrZdk0w/SXVLCuj\nHDBYJS6OyU0ked/TEOsKOXS4/uFWnCER9n4FwqRa+IjUVW+0eWVKkXHfkXyQEYw=\n=xjA5\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/caddyserver/caddy/commit/c953d17bcc8a7b73e752123420d37763acf34268",
+    "node_id": "MDY6Q29tbWl0MjkyMDc2MjE6Yzk1M2QxN2JjYzhhN2I3M2U3NTIxMjM0MjBkMzc3NjNhY2YzNDI2OA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/caddyserver/caddy/commit/904d41e51acb974eb58be0a03fde50a627661301",
+        "sha": "904d41e51acb974eb58be0a03fde50a627661301",
+        "url": "https://api.github.com/repos/caddyserver/caddy/commits/904d41e51acb974eb58be0a03fde50a627661301"
+      }
+    ],
+    "sha": "c953d17bcc8a7b73e752123420d37763acf34268",
+    "url": "https://api.github.com/repos/caddyserver/caddy/commits/c953d17bcc8a7b73e752123420d37763acf34268"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/7054255?v=4",
+      "events_url": "https://api.github.com/users/lscgzwd/events{/privacy}",
+      "followers_url": "https://api.github.com/users/lscgzwd/followers",
+      "following_url": "https://api.github.com/users/lscgzwd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lscgzwd/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/lscgzwd",
+      "id": 7054255,
+      "login": "lscgzwd",
+      "node_id": "MDQ6VXNlcjcwNTQyNTU=",
+      "organizations_url": "https://api.github.com/users/lscgzwd/orgs",
+      "received_events_url": "https://api.github.com/users/lscgzwd/received_events",
+      "repos_url": "https://api.github.com/users/lscgzwd/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/lscgzwd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lscgzwd/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/lscgzwd"
+    },
+    "comments_url": "https://api.github.com/repos/caddyserver/caddy/commits/904d41e51acb974eb58be0a03fde50a627661301/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-09T15:55:53Z",
+        "email": "lscgzwd@gmail.com",
+        "name": "Levi.Lu"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-09T15:55:53Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "update  lego to v3.3.0 to fix dnspod json error (#3030)",
+      "tree": {
+        "sha": "5ccabb813f0a74871b1912b8360cf4cae71b17b7",
+        "url": "https://api.github.com/repos/caddyserver/caddy/git/trees/5ccabb813f0a74871b1912b8360cf4cae71b17b7"
+      },
+      "url": "https://api.github.com/repos/caddyserver/caddy/git/commits/904d41e51acb974eb58be0a03fde50a627661301",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/caddyserver/caddy/commit/904d41e51acb974eb58be0a03fde50a627661301",
+    "node_id": "MDY6Q29tbWl0MjkyMDc2MjE6OTA0ZDQxZTUxYWNiOTc0ZWI1OGJlMGEwM2ZkZTUwYTYyNzY2MTMwMQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/caddyserver/caddy/commit/a2d71bdd94c0ca51dfb3b816b61911dac799581f",
+        "sha": "a2d71bdd94c0ca51dfb3b816b61911dac799581f",
+        "url": "https://api.github.com/repos/caddyserver/caddy/commits/a2d71bdd94c0ca51dfb3b816b61911dac799581f"
+      }
+    ],
+    "sha": "904d41e51acb974eb58be0a03fde50a627661301",
+    "url": "https://api.github.com/repos/caddyserver/caddy/commits/904d41e51acb974eb58be0a03fde50a627661301"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/203380?v=4",
+      "events_url": "https://api.github.com/users/jjlin/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jjlin/followers",
+      "following_url": "https://api.github.com/users/jjlin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jjlin/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jjlin",
+      "id": 203380,
+      "login": "jjlin",
+      "node_id": "MDQ6VXNlcjIwMzM4MA==",
+      "organizations_url": "https://api.github.com/users/jjlin/orgs",
+      "received_events_url": "https://api.github.com/users/jjlin/received_events",
+      "repos_url": "https://api.github.com/users/jjlin/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jjlin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jjlin/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jjlin"
+    },
+    "comments_url": "https://api.github.com/repos/caddyserver/caddy/commits/a2d71bdd94c0ca51dfb3b816b61911dac799581f/comments",
+    "commit": {
+      "author": {
+        "date": "2020-02-08T19:41:16Z",
+        "email": "jjlin@cs.stanford.edu",
+        "name": "Jeremy Lin"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-02-08T19:41:16Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "browse: allow filter init via `filter` query param (#3026)\n\nThis allows creating links that display only a subset of files in a directory.",
+      "tree": {
+        "sha": "dad279876a8411d12d861e26d0ab80f441364691",
+        "url": "https://api.github.com/repos/caddyserver/caddy/git/trees/dad279876a8411d12d861e26d0ab80f441364691"
+      },
+      "url": "https://api.github.com/repos/caddyserver/caddy/git/commits/a2d71bdd94c0ca51dfb3b816b61911dac799581f",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/caddyserver/caddy/commit/a2d71bdd94c0ca51dfb3b816b61911dac799581f",
+    "node_id": "MDY6Q29tbWl0MjkyMDc2MjE6YTJkNzFiZGQ5NGMwY2E1MWRmYjNiODE2YjYxOTExZGFjNzk5NTgxZg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/caddyserver/caddy/commit/11ae1aa6b88e45b077dd97cb816fe06cd91cca67",
+        "sha": "11ae1aa6b88e45b077dd97cb816fe06cd91cca67",
+        "url": "https://api.github.com/repos/caddyserver/caddy/commits/11ae1aa6b88e45b077dd97cb816fe06cd91cca67"
+      }
+    ],
+    "sha": "a2d71bdd94c0ca51dfb3b816b61911dac799581f",
+    "url": "https://api.github.com/repos/caddyserver/caddy/commits/a2d71bdd94c0ca51dfb3b816b61911dac799581f"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1128849?v=4",
+      "events_url": "https://api.github.com/users/mholt/events{/privacy}",
+      "followers_url": "https://api.github.com/users/mholt/followers",
+      "following_url": "https://api.github.com/users/mholt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mholt/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/mholt",
+      "id": 1128849,
+      "login": "mholt",
+      "node_id": "MDQ6VXNlcjExMjg4NDk=",
+      "organizations_url": "https://api.github.com/users/mholt/orgs",
+      "received_events_url": "https://api.github.com/users/mholt/received_events",
+      "repos_url": "https://api.github.com/users/mholt/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/mholt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mholt/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/mholt"
+    },
+    "comments_url": "https://api.github.com/repos/caddyserver/caddy/commits/11ae1aa6b88e45b077dd97cb816fe06cd91cca67/comments",
+    "commit": {
+      "author": {
+        "date": "2020-01-15T16:57:41Z",
+        "email": "mholt@users.noreply.github.com",
+        "name": "Matthew Holt"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-01-15T16:57:41Z",
+        "email": "mholt@users.noreply.github.com",
+        "name": "Matthew Holt"
+      },
+      "message": "Prepare v1.0.5 release",
+      "tree": {
+        "sha": "b3638eb38762feecce50b5ed6225146dc7d8e2a6",
+        "url": "https://api.github.com/repos/caddyserver/caddy/git/trees/b3638eb38762feecce50b5ed6225146dc7d8e2a6"
+      },
+      "url": "https://api.github.com/repos/caddyserver/caddy/git/commits/11ae1aa6b88e45b077dd97cb816fe06cd91cca67",
+      "verification": {
+        "payload": "tree b3638eb38762feecce50b5ed6225146dc7d8e2a6\nparent 3c8837163d0fbb26341c96d4e503760ad7ebad74\nauthor Matthew Holt <mholt@users.noreply.github.com> 1579107461 -0700\ncommitter Matthew Holt <mholt@users.noreply.github.com> 1579107461 -0700\n\nPrepare v1.0.5 release\n",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCAAdFiEEKdCBemcVbk8l3CR4KjSd1XfVhqUFAl4fRIUACgkQKjSd1XfV\nhqX6FBAAr3Lw1bP6VmNBiZWQreLbC9Q+3Xa/XHifxZwN67xefiJX6ddnHKdNzW8p\nP1b8zNZCZKzW0RFvmzZstKuLY20R3evbjCgoBEP6LcPRCDonS1/Tiq/G4uRuJuKA\n/l6Tt/Ys3l7tZ49tDiexywmac5ZWIz8yZHJkhM//UEy56i9Qzy7MkBvDeAcw0N4D\nDm7cOG/C4/+eLXt+P2HgUxnKYP/0S8WEO5Of3SZwcZIc73MPm44fHJjLOSpXPJN/\nSpT1FsihsbQVs9r6/BgBCt6/FIUrKVekFNgk16ReHlncdVKL7uR0ec2athSNG7GB\n+LaOpuTYg0dK2Kx2sTUXybbIONH79ssgk49y6wfDKtd14mgSMvIY0mrRZ7+X1Zrj\ns9P6pSXIEOR3QSMYwlxPO6Do9S1RPGR5cO8raV5CHva1+WVviEhzSgoSj6bjwywV\nBnbu8+fCsUQsHG0YGYoBynEDuJsqpSFMcJwkc7I+rmtWpjHA8USTYRRgfiYMDSm+\n92PBK8wLOt69M/ZbeSk8mhp4nWA93HOLM75xk7fdGOwivwyz1poxTiVu58CGlxUV\nmwVi/mafoIOmQ9i5G9dxrOr543H5hy8ekG/Z2o+JbqI6icqa0JQ1TNVxuOkuNIPq\nKo+YI/sCHASHkyyoWoeewCmWUW93zst9HVwWVqrPKsmegoYH6lM=\n=ya9u\n-----END PGP SIGNATURE-----",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1128849?v=4",
+      "events_url": "https://api.github.com/users/mholt/events{/privacy}",
+      "followers_url": "https://api.github.com/users/mholt/followers",
+      "following_url": "https://api.github.com/users/mholt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mholt/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/mholt",
+      "id": 1128849,
+      "login": "mholt",
+      "node_id": "MDQ6VXNlcjExMjg4NDk=",
+      "organizations_url": "https://api.github.com/users/mholt/orgs",
+      "received_events_url": "https://api.github.com/users/mholt/received_events",
+      "repos_url": "https://api.github.com/users/mholt/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/mholt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mholt/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/mholt"
+    },
+    "html_url": "https://github.com/caddyserver/caddy/commit/11ae1aa6b88e45b077dd97cb816fe06cd91cca67",
+    "node_id": "MDY6Q29tbWl0MjkyMDc2MjE6MTFhZTFhYTZiODhlNDViMDc3ZGQ5N2NiODE2ZmUwNmNkOTFjY2E2Nw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/caddyserver/caddy/commit/3c8837163d0fbb26341c96d4e503760ad7ebad74",
+        "sha": "3c8837163d0fbb26341c96d4e503760ad7ebad74",
+        "url": "https://api.github.com/repos/caddyserver/caddy/commits/3c8837163d0fbb26341c96d4e503760ad7ebad74"
+      }
+    ],
+    "sha": "11ae1aa6b88e45b077dd97cb816fe06cd91cca67",
+    "url": "https://api.github.com/repos/caddyserver/caddy/commits/11ae1aa6b88e45b077dd97cb816fe06cd91cca67"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1128849?v=4",
+      "events_url": "https://api.github.com/users/mholt/events{/privacy}",
+      "followers_url": "https://api.github.com/users/mholt/followers",
+      "following_url": "https://api.github.com/users/mholt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mholt/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/mholt",
+      "id": 1128849,
+      "login": "mholt",
+      "node_id": "MDQ6VXNlcjExMjg4NDk=",
+      "organizations_url": "https://api.github.com/users/mholt/orgs",
+      "received_events_url": "https://api.github.com/users/mholt/received_events",
+      "repos_url": "https://api.github.com/users/mholt/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/mholt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mholt/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/mholt"
+    },
+    "comments_url": "https://api.github.com/repos/caddyserver/caddy/commits/3c8837163d0fbb26341c96d4e503760ad7ebad74/comments",
+    "commit": {
+      "author": {
+        "date": "2020-01-15T16:57:23Z",
+        "email": "mholt@users.noreply.github.com",
+        "name": "Matthew Holt"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-01-15T16:57:23Z",
+        "email": "mholt@users.noreply.github.com",
+        "name": "Matthew Holt"
+      },
+      "message": "errors: Fix test",
+      "tree": {
+        "sha": "ce4e1596841467755f172bf62ccfed3c33396fe4",
+        "url": "https://api.github.com/repos/caddyserver/caddy/git/trees/ce4e1596841467755f172bf62ccfed3c33396fe4"
+      },
+      "url": "https://api.github.com/repos/caddyserver/caddy/git/commits/3c8837163d0fbb26341c96d4e503760ad7ebad74",
+      "verification": {
+        "payload": "tree ce4e1596841467755f172bf62ccfed3c33396fe4\nparent b6ca782c99e902716569511df9d8afb1cb39d8b8\nauthor Matthew Holt <mholt@users.noreply.github.com> 1579107443 -0700\ncommitter Matthew Holt <mholt@users.noreply.github.com> 1579107443 -0700\n\nerrors: Fix test\n",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCAAdFiEEKdCBemcVbk8l3CR4KjSd1XfVhqUFAl4fRHMACgkQKjSd1XfV\nhqX6axAAyRVgFdkaPZe8iOWfPfiPFLuF2o2aToIu/R51PDdRau+VM7xLmpzlUB5o\nb4qmYTYqiYJX5xagk7nTws5kyjH3oz5zF9blXDHsAkc6qKQPUY1aZCgDOfdB9IWY\nMg6ARgxHBHfVJg5Uqc0xQewYAeuDLfldqNh07RWQpJJiCiyLaXuDZYXkOo4GfvTU\nEPwK/YhEy81sKQV+hiG6uKZag/bpDcfJKz+gSG/KzXZwEwJsBezx/gO/Cieb1ip0\nryCca0RC35IDGEzRhMQFug3BKHf4QCXLQwoDPB1IvltjnfV6FYfgXWh3B2Hx6o1u\nHJKo1RH18m7wajB7VO6T/ZOsr1JVn8tzRJbclJdqcFa6UU4o4kfZv1Yl6H1Ue75X\nzv7t/3snu/ixJvOFN/9CRgaN5vTXPVEYBUmhry2FoRLixR66dnoeQdQ9rbQ0VOdo\nDA6wzniREjXvLcTGJXUEvla64V0MtEuB3xB0kXabNelKUoW81jjTVwJ5ApZdArar\nvjyjrUnV7Iz6fkGC9OH1DCFzn3j6/XsgbbPXQb/WZrF/h9qXZ5bRCDR8NLCjguXh\nuFH2wUhSx43MAOGQV9hbP6AikNElZRtVza+Mw4YCUzveHJU8cK799emQyetFg1wq\nPLafhrflWYz3YbshsKTVPsxd1SvyLUdgqHNd9kQsGJAVds4xIyc=\n=LEYH\n-----END PGP SIGNATURE-----",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1128849?v=4",
+      "events_url": "https://api.github.com/users/mholt/events{/privacy}",
+      "followers_url": "https://api.github.com/users/mholt/followers",
+      "following_url": "https://api.github.com/users/mholt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mholt/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/mholt",
+      "id": 1128849,
+      "login": "mholt",
+      "node_id": "MDQ6VXNlcjExMjg4NDk=",
+      "organizations_url": "https://api.github.com/users/mholt/orgs",
+      "received_events_url": "https://api.github.com/users/mholt/received_events",
+      "repos_url": "https://api.github.com/users/mholt/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/mholt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mholt/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/mholt"
+    },
+    "html_url": "https://github.com/caddyserver/caddy/commit/3c8837163d0fbb26341c96d4e503760ad7ebad74",
+    "node_id": "MDY6Q29tbWl0MjkyMDc2MjE6M2M4ODM3MTYzZDBmYmIyNjM0MWM5NmQ0ZTUwMzc2MGFkN2ViYWQ3NA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/caddyserver/caddy/commit/b6ca782c99e902716569511df9d8afb1cb39d8b8",
+        "sha": "b6ca782c99e902716569511df9d8afb1cb39d8b8",
+        "url": "https://api.github.com/repos/caddyserver/caddy/commits/b6ca782c99e902716569511df9d8afb1cb39d8b8"
+      }
+    ],
+    "sha": "3c8837163d0fbb26341c96d4e503760ad7ebad74",
+    "url": "https://api.github.com/repos/caddyserver/caddy/commits/3c8837163d0fbb26341c96d4e503760ad7ebad74"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1128849?v=4",
+      "events_url": "https://api.github.com/users/mholt/events{/privacy}",
+      "followers_url": "https://api.github.com/users/mholt/followers",
+      "following_url": "https://api.github.com/users/mholt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mholt/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/mholt",
+      "id": 1128849,
+      "login": "mholt",
+      "node_id": "MDQ6VXNlcjExMjg4NDk=",
+      "organizations_url": "https://api.github.com/users/mholt/orgs",
+      "received_events_url": "https://api.github.com/users/mholt/received_events",
+      "repos_url": "https://api.github.com/users/mholt/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/mholt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mholt/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/mholt"
+    },
+    "comments_url": "https://api.github.com/repos/caddyserver/caddy/commits/b6ca782c99e902716569511df9d8afb1cb39d8b8/comments",
+    "commit": {
+      "author": {
+        "date": "2020-01-15T16:40:32Z",
+        "email": "mholt@users.noreply.github.com",
+        "name": "Matt Holt"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-01-15T16:40:32Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Don't use default log settings on custom logs (#2973) (#2976)\n\nAttempt partial fix/rollback of #2781.",
+      "tree": {
+        "sha": "c156eb271619670895cd16e1a380aac6011ae03c",
+        "url": "https://api.github.com/repos/caddyserver/caddy/git/trees/c156eb271619670895cd16e1a380aac6011ae03c"
+      },
+      "url": "https://api.github.com/repos/caddyserver/caddy/git/commits/b6ca782c99e902716569511df9d8afb1cb39d8b8",
+      "verification": {
+        "payload": "tree c156eb271619670895cd16e1a380aac6011ae03c\nparent a976629174bc1f831f889c2c475db7f98ea89579\nauthor Matt Holt <mholt@users.noreply.github.com> 1579106432 -0700\ncommitter GitHub <noreply@github.com> 1579106432 -0700\n\nDon't use default log settings on custom logs (#2973) (#2976)\n\nAttempt partial fix/rollback of #2781.",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJeH0CACRBK7hj4Ov3rIwAAdHIIAHsG4gxPuKI8QfZ17SDCA/O6\nKsAefRIdpssg5FG8YfSS5Jo2mcDwFm0ssv/zdBGkIXtIlnpoPe0j7x5U0IubCkKf\nbJt+C4iO+PiQavamB6MLQLQ1oqfUYobf+SHesg8SylxLL3aiRU329AAOhEHQEVYj\nGrfaJd7r/Ypqb4OS1wO7VWyUKrH4Ys/UADpc1YJ2sn7xJzhwwg15PeBU4Y3zFKO7\nbt6rA2sgr6j8vueVH45JEjFyMzX3A2i8u57lv7ttQ7Fm55SjD8+aLTuq4a2taEDd\n/4GfmlIcP33fre9QY1ekTzye5QeNKCg13NsH1hG6ATXxBNNjIbRyb0g2d5kbkD4=\n=fOs0\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/caddyserver/caddy/commit/b6ca782c99e902716569511df9d8afb1cb39d8b8",
+    "node_id": "MDY6Q29tbWl0MjkyMDc2MjE6YjZjYTc4MmM5OWU5MDI3MTY1Njk1MTFkZjlkOGFmYjFjYjM5ZDhiOA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/caddyserver/caddy/commit/a976629174bc1f831f889c2c475db7f98ea89579",
+        "sha": "a976629174bc1f831f889c2c475db7f98ea89579",
+        "url": "https://api.github.com/repos/caddyserver/caddy/commits/a976629174bc1f831f889c2c475db7f98ea89579"
+      }
+    ],
+    "sha": "b6ca782c99e902716569511df9d8afb1cb39d8b8",
+    "url": "https://api.github.com/repos/caddyserver/caddy/commits/b6ca782c99e902716569511df9d8afb1cb39d8b8"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5332688?v=4",
+      "events_url": "https://api.github.com/users/dmgk/events{/privacy}",
+      "followers_url": "https://api.github.com/users/dmgk/followers",
+      "following_url": "https://api.github.com/users/dmgk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmgk/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/dmgk",
+      "id": 5332688,
+      "login": "dmgk",
+      "node_id": "MDQ6VXNlcjUzMzI2ODg=",
+      "organizations_url": "https://api.github.com/users/dmgk/orgs",
+      "received_events_url": "https://api.github.com/users/dmgk/received_events",
+      "repos_url": "https://api.github.com/users/dmgk/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/dmgk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmgk/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/dmgk"
+    },
+    "comments_url": "https://api.github.com/repos/caddyserver/caddy/commits/a976629174bc1f831f889c2c475db7f98ea89579/comments",
+    "commit": {
+      "author": {
+        "date": "2020-01-12T21:01:25Z",
+        "email": "5332688+dmgk@users.noreply.github.com",
+        "name": "Dmitri Goutnik"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-01-12T21:01:25Z",
+        "email": "mholt@users.noreply.github.com",
+        "name": "Matt Holt"
+      },
+      "message": "go.mod: Add support for freebsd/arm64 (#2956)",
+      "tree": {
+        "sha": "7611a22dae44ee0b3aca2d882fdba19b48aa65f6",
+        "url": "https://api.github.com/repos/caddyserver/caddy/git/trees/7611a22dae44ee0b3aca2d882fdba19b48aa65f6"
+      },
+      "url": "https://api.github.com/repos/caddyserver/caddy/git/commits/a976629174bc1f831f889c2c475db7f98ea89579",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1128849?v=4",
+      "events_url": "https://api.github.com/users/mholt/events{/privacy}",
+      "followers_url": "https://api.github.com/users/mholt/followers",
+      "following_url": "https://api.github.com/users/mholt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mholt/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/mholt",
+      "id": 1128849,
+      "login": "mholt",
+      "node_id": "MDQ6VXNlcjExMjg4NDk=",
+      "organizations_url": "https://api.github.com/users/mholt/orgs",
+      "received_events_url": "https://api.github.com/users/mholt/received_events",
+      "repos_url": "https://api.github.com/users/mholt/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/mholt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mholt/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/mholt"
+    },
+    "html_url": "https://github.com/caddyserver/caddy/commit/a976629174bc1f831f889c2c475db7f98ea89579",
+    "node_id": "MDY6Q29tbWl0MjkyMDc2MjE6YTk3NjYyOTE3NGJjMWY4MzFmODg5YzJjNDc1ZGI3Zjk4ZWE4OTU3OQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/caddyserver/caddy/commit/cd66b62083072964ae68ff11acb5be391ee7c3f0",
+        "sha": "cd66b62083072964ae68ff11acb5be391ee7c3f0",
+        "url": "https://api.github.com/repos/caddyserver/caddy/commits/cd66b62083072964ae68ff11acb5be391ee7c3f0"
+      }
+    ],
+    "sha": "a976629174bc1f831f889c2c475db7f98ea89579",
+    "url": "https://api.github.com/repos/caddyserver/caddy/commits/a976629174bc1f831f889c2c475db7f98ea89579"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1676951?v=4",
+      "events_url": "https://api.github.com/users/dozer47528/events{/privacy}",
+      "followers_url": "https://api.github.com/users/dozer47528/followers",
+      "following_url": "https://api.github.com/users/dozer47528/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dozer47528/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/dozer47528",
+      "id": 1676951,
+      "login": "dozer47528",
+      "node_id": "MDQ6VXNlcjE2NzY5NTE=",
+      "organizations_url": "https://api.github.com/users/dozer47528/orgs",
+      "received_events_url": "https://api.github.com/users/dozer47528/received_events",
+      "repos_url": "https://api.github.com/users/dozer47528/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/dozer47528/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dozer47528/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/dozer47528"
+    },
+    "comments_url": "https://api.github.com/repos/caddyserver/caddy/commits/cd66b62083072964ae68ff11acb5be391ee7c3f0/comments",
+    "commit": {
+      "author": {
+        "date": "2020-01-12T21:00:18Z",
+        "email": "mail@dozer.cc",
+        "name": "Dozer"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2020-01-12T21:00:18Z",
+        "email": "mholt@users.noreply.github.com",
+        "name": "Matt Holt"
+      },
+      "message": "gzip: Avoid duplicated Vary header (#2939)",
+      "tree": {
+        "sha": "157f96ee61ea294c133f9807be68a20a1420f570",
+        "url": "https://api.github.com/repos/caddyserver/caddy/git/trees/157f96ee61ea294c133f9807be68a20a1420f570"
+      },
+      "url": "https://api.github.com/repos/caddyserver/caddy/git/commits/cd66b62083072964ae68ff11acb5be391ee7c3f0",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1128849?v=4",
+      "events_url": "https://api.github.com/users/mholt/events{/privacy}",
+      "followers_url": "https://api.github.com/users/mholt/followers",
+      "following_url": "https://api.github.com/users/mholt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mholt/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/mholt",
+      "id": 1128849,
+      "login": "mholt",
+      "node_id": "MDQ6VXNlcjExMjg4NDk=",
+      "organizations_url": "https://api.github.com/users/mholt/orgs",
+      "received_events_url": "https://api.github.com/users/mholt/received_events",
+      "repos_url": "https://api.github.com/users/mholt/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/mholt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mholt/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/mholt"
+    },
+    "html_url": "https://github.com/caddyserver/caddy/commit/cd66b62083072964ae68ff11acb5be391ee7c3f0",
+    "node_id": "MDY6Q29tbWl0MjkyMDc2MjE6Y2Q2NmI2MjA4MzA3Mjk2NGFlNjhmZjExYWNiNWJlMzkxZWU3YzNmMA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/caddyserver/caddy/commit/4b68de84181938381f604064336b0342e389c551",
+        "sha": "4b68de84181938381f604064336b0342e389c551",
+        "url": "https://api.github.com/repos/caddyserver/caddy/commits/4b68de84181938381f604064336b0342e389c551"
+      }
+    ],
+    "sha": "cd66b62083072964ae68ff11acb5be391ee7c3f0",
+    "url": "https://api.github.com/repos/caddyserver/caddy/commits/cd66b62083072964ae68ff11acb5be391ee7c3f0"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/262880?v=4",
+      "events_url": "https://api.github.com/users/maxatome/events{/privacy}",
+      "followers_url": "https://api.github.com/users/maxatome/followers",
+      "following_url": "https://api.github.com/users/maxatome/following{/other_user}",
+      "gists_url": "https://api.github.com/users/maxatome/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/maxatome",
+      "id": 262880,
+      "login": "maxatome",
+      "node_id": "MDQ6VXNlcjI2Mjg4MA==",
+      "organizations_url": "https://api.github.com/users/maxatome/orgs",
+      "received_events_url": "https://api.github.com/users/maxatome/received_events",
+      "repos_url": "https://api.github.com/users/maxatome/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/maxatome/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/maxatome/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/maxatome"
+    },
+    "comments_url": "https://api.github.com/repos/caddyserver/caddy/commits/4b68de84181938381f604064336b0342e389c551/comments",
+    "commit": {
+      "author": {
+        "date": "2019-12-28T18:54:28Z",
+        "email": "btik-git@scoubidou.com",
+        "name": "Maxime Soul\u00e9"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-12-28T18:54:28Z",
+        "email": "mholt@users.noreply.github.com",
+        "name": "Matt Holt"
+      },
+      "message": "FreeBSD init: PID file should not be executable (#2945)",
+      "tree": {
+        "sha": "df93b8a83aed862c3e3ea8bf9a00ae21bab9e8a1",
+        "url": "https://api.github.com/repos/caddyserver/caddy/git/trees/df93b8a83aed862c3e3ea8bf9a00ae21bab9e8a1"
+      },
+      "url": "https://api.github.com/repos/caddyserver/caddy/git/commits/4b68de84181938381f604064336b0342e389c551",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1128849?v=4",
+      "events_url": "https://api.github.com/users/mholt/events{/privacy}",
+      "followers_url": "https://api.github.com/users/mholt/followers",
+      "following_url": "https://api.github.com/users/mholt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mholt/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/mholt",
+      "id": 1128849,
+      "login": "mholt",
+      "node_id": "MDQ6VXNlcjExMjg4NDk=",
+      "organizations_url": "https://api.github.com/users/mholt/orgs",
+      "received_events_url": "https://api.github.com/users/mholt/received_events",
+      "repos_url": "https://api.github.com/users/mholt/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/mholt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mholt/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/mholt"
+    },
+    "html_url": "https://github.com/caddyserver/caddy/commit/4b68de84181938381f604064336b0342e389c551",
+    "node_id": "MDY6Q29tbWl0MjkyMDc2MjE6NGI2OGRlODQxODE5MzgzODFmNjA0MDY0MzM2YjAzNDJlMzg5YzU1MQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/caddyserver/caddy/commit/008415f206dec7c72c3b0abe36d5a40213abb7a2",
+        "sha": "008415f206dec7c72c3b0abe36d5a40213abb7a2",
+        "url": "https://api.github.com/repos/caddyserver/caddy/commits/008415f206dec7c72c3b0abe36d5a40213abb7a2"
+      }
+    ],
+    "sha": "4b68de84181938381f604064336b0342e389c551",
+    "url": "https://api.github.com/repos/caddyserver/caddy/commits/4b68de84181938381f604064336b0342e389c551"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/66914?v=4",
+      "events_url": "https://api.github.com/users/MisterDuval/events{/privacy}",
+      "followers_url": "https://api.github.com/users/MisterDuval/followers",
+      "following_url": "https://api.github.com/users/MisterDuval/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MisterDuval/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/MisterDuval",
+      "id": 66914,
+      "login": "MisterDuval",
+      "node_id": "MDQ6VXNlcjY2OTE0",
+      "organizations_url": "https://api.github.com/users/MisterDuval/orgs",
+      "received_events_url": "https://api.github.com/users/MisterDuval/received_events",
+      "repos_url": "https://api.github.com/users/MisterDuval/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/MisterDuval/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MisterDuval/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/MisterDuval"
+    },
+    "comments_url": "https://api.github.com/repos/caddyserver/caddy/commits/008415f206dec7c72c3b0abe36d5a40213abb7a2/comments",
+    "commit": {
+      "author": {
+        "date": "2019-12-14T18:21:27Z",
+        "email": "devil1591@yahoo.fr",
+        "name": "MisterDuval"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-12-14T18:21:27Z",
+        "email": "mholt@users.noreply.github.com",
+        "name": "Matt Holt"
+      },
+      "message": "fastcgi: Trim dot and space suffix for Windows sake (#2917)",
+      "tree": {
+        "sha": "239000ac1c3ece8dc937ce6b5807f88f046e610d",
+        "url": "https://api.github.com/repos/caddyserver/caddy/git/trees/239000ac1c3ece8dc937ce6b5807f88f046e610d"
+      },
+      "url": "https://api.github.com/repos/caddyserver/caddy/git/commits/008415f206dec7c72c3b0abe36d5a40213abb7a2",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1128849?v=4",
+      "events_url": "https://api.github.com/users/mholt/events{/privacy}",
+      "followers_url": "https://api.github.com/users/mholt/followers",
+      "following_url": "https://api.github.com/users/mholt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mholt/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/mholt",
+      "id": 1128849,
+      "login": "mholt",
+      "node_id": "MDQ6VXNlcjExMjg4NDk=",
+      "organizations_url": "https://api.github.com/users/mholt/orgs",
+      "received_events_url": "https://api.github.com/users/mholt/received_events",
+      "repos_url": "https://api.github.com/users/mholt/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/mholt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mholt/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/mholt"
+    },
+    "html_url": "https://github.com/caddyserver/caddy/commit/008415f206dec7c72c3b0abe36d5a40213abb7a2",
+    "node_id": "MDY6Q29tbWl0MjkyMDc2MjE6MDA4NDE1ZjIwNmRlYzdjNzJjM2IwYWJlMzZkNWE0MDIxM2FiYjdhMg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/caddyserver/caddy/commit/f0eae39cb2eb22a0bb620855eff42e686ad2745e",
+        "sha": "f0eae39cb2eb22a0bb620855eff42e686ad2745e",
+        "url": "https://api.github.com/repos/caddyserver/caddy/commits/f0eae39cb2eb22a0bb620855eff42e686ad2745e"
+      }
+    ],
+    "sha": "008415f206dec7c72c3b0abe36d5a40213abb7a2",
+    "url": "https://api.github.com/repos/caddyserver/caddy/commits/008415f206dec7c72c3b0abe36d5a40213abb7a2"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/17440089?v=4",
+      "events_url": "https://api.github.com/users/axiomista/events{/privacy}",
+      "followers_url": "https://api.github.com/users/axiomista/followers",
+      "following_url": "https://api.github.com/users/axiomista/following{/other_user}",
+      "gists_url": "https://api.github.com/users/axiomista/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/axiomista",
+      "id": 17440089,
+      "login": "axiomista",
+      "node_id": "MDQ6VXNlcjE3NDQwMDg5",
+      "organizations_url": "https://api.github.com/users/axiomista/orgs",
+      "received_events_url": "https://api.github.com/users/axiomista/received_events",
+      "repos_url": "https://api.github.com/users/axiomista/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/axiomista/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/axiomista/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/axiomista"
+    },
+    "comments_url": "https://api.github.com/repos/caddyserver/caddy/commits/f0eae39cb2eb22a0bb620855eff42e686ad2745e/comments",
+    "commit": {
+      "author": {
+        "date": "2019-12-13T16:42:46Z",
+        "email": "vanessa@glympse.com",
+        "name": "Vanessa Nicole Naff"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-12-13T16:42:46Z",
+        "email": "mholt@users.noreply.github.com",
+        "name": "Matt Holt"
+      },
+      "message": "readme: Update sponsor link",
+      "tree": {
+        "sha": "dd87d1f8e71eccc343661c6f885c5205d3ddb62d",
+        "url": "https://api.github.com/repos/caddyserver/caddy/git/trees/dd87d1f8e71eccc343661c6f885c5205d3ddb62d"
+      },
+      "url": "https://api.github.com/repos/caddyserver/caddy/git/commits/f0eae39cb2eb22a0bb620855eff42e686ad2745e",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1128849?v=4",
+      "events_url": "https://api.github.com/users/mholt/events{/privacy}",
+      "followers_url": "https://api.github.com/users/mholt/followers",
+      "following_url": "https://api.github.com/users/mholt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mholt/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/mholt",
+      "id": 1128849,
+      "login": "mholt",
+      "node_id": "MDQ6VXNlcjExMjg4NDk=",
+      "organizations_url": "https://api.github.com/users/mholt/orgs",
+      "received_events_url": "https://api.github.com/users/mholt/received_events",
+      "repos_url": "https://api.github.com/users/mholt/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/mholt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mholt/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/mholt"
+    },
+    "html_url": "https://github.com/caddyserver/caddy/commit/f0eae39cb2eb22a0bb620855eff42e686ad2745e",
+    "node_id": "MDY6Q29tbWl0MjkyMDc2MjE6ZjBlYWUzOWNiMmViMjJhMGJiNjIwODU1ZWZmNDJlNjg2YWQyNzQ1ZQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/caddyserver/caddy/commit/7fa90f08aee0861187236b2fbea16b4fa69c5a28",
+        "sha": "7fa90f08aee0861187236b2fbea16b4fa69c5a28",
+        "url": "https://api.github.com/repos/caddyserver/caddy/commits/7fa90f08aee0861187236b2fbea16b4fa69c5a28"
+      }
+    ],
+    "sha": "f0eae39cb2eb22a0bb620855eff42e686ad2745e",
+    "url": "https://api.github.com/repos/caddyserver/caddy/commits/f0eae39cb2eb22a0bb620855eff42e686ad2745e"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/50109?v=4",
+      "events_url": "https://api.github.com/users/gliptak/events{/privacy}",
+      "followers_url": "https://api.github.com/users/gliptak/followers",
+      "following_url": "https://api.github.com/users/gliptak/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gliptak/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/gliptak",
+      "id": 50109,
+      "login": "gliptak",
+      "node_id": "MDQ6VXNlcjUwMTA5",
+      "organizations_url": "https://api.github.com/users/gliptak/orgs",
+      "received_events_url": "https://api.github.com/users/gliptak/received_events",
+      "repos_url": "https://api.github.com/users/gliptak/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/gliptak/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gliptak/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/gliptak"
+    },
+    "comments_url": "https://api.github.com/repos/caddyserver/caddy/commits/7fa90f08aee0861187236b2fbea16b4fa69c5a28/comments",
+    "commit": {
+      "author": {
+        "date": "2019-12-04T23:35:56Z",
+        "email": "gliptak@gmail.com",
+        "name": "G\u00e1bor Lipt\u00e1k"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-12-04T23:35:56Z",
+        "email": "mholt@users.noreply.github.com",
+        "name": "Matt Holt"
+      },
+      "message": "Correct golint warning (#2915)",
+      "tree": {
+        "sha": "a792c4d08a5cd4920bfad060b64ae0755cbf1257",
+        "url": "https://api.github.com/repos/caddyserver/caddy/git/trees/a792c4d08a5cd4920bfad060b64ae0755cbf1257"
+      },
+      "url": "https://api.github.com/repos/caddyserver/caddy/git/commits/7fa90f08aee0861187236b2fbea16b4fa69c5a28",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1128849?v=4",
+      "events_url": "https://api.github.com/users/mholt/events{/privacy}",
+      "followers_url": "https://api.github.com/users/mholt/followers",
+      "following_url": "https://api.github.com/users/mholt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mholt/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/mholt",
+      "id": 1128849,
+      "login": "mholt",
+      "node_id": "MDQ6VXNlcjExMjg4NDk=",
+      "organizations_url": "https://api.github.com/users/mholt/orgs",
+      "received_events_url": "https://api.github.com/users/mholt/received_events",
+      "repos_url": "https://api.github.com/users/mholt/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/mholt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mholt/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/mholt"
+    },
+    "html_url": "https://github.com/caddyserver/caddy/commit/7fa90f08aee0861187236b2fbea16b4fa69c5a28",
+    "node_id": "MDY6Q29tbWl0MjkyMDc2MjE6N2ZhOTBmMDhhZWUwODYxMTg3MjM2YjJmYmVhMTZiNGZhNjljNWEyOA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/caddyserver/caddy/commit/5ec503386caca77e70eaa659c0276b16e8684e63",
+        "sha": "5ec503386caca77e70eaa659c0276b16e8684e63",
+        "url": "https://api.github.com/repos/caddyserver/caddy/commits/5ec503386caca77e70eaa659c0276b16e8684e63"
+      }
+    ],
+    "sha": "7fa90f08aee0861187236b2fbea16b4fa69c5a28",
+    "url": "https://api.github.com/repos/caddyserver/caddy/commits/7fa90f08aee0861187236b2fbea16b4fa69c5a28"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/7136243?v=4",
+      "events_url": "https://api.github.com/users/evtr/events{/privacy}",
+      "followers_url": "https://api.github.com/users/evtr/followers",
+      "following_url": "https://api.github.com/users/evtr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evtr/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/evtr",
+      "id": 7136243,
+      "login": "evtr",
+      "node_id": "MDQ6VXNlcjcxMzYyNDM=",
+      "organizations_url": "https://api.github.com/users/evtr/orgs",
+      "received_events_url": "https://api.github.com/users/evtr/received_events",
+      "repos_url": "https://api.github.com/users/evtr/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/evtr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evtr/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/evtr"
+    },
+    "comments_url": "https://api.github.com/repos/caddyserver/caddy/commits/5ec503386caca77e70eaa659c0276b16e8684e63/comments",
+    "commit": {
+      "author": {
+        "date": "2019-12-04T22:35:36Z",
+        "email": "eva@kvalitetsit.dk",
+        "name": "evtr"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-12-04T22:35:36Z",
+        "email": "mholt@users.noreply.github.com",
+        "name": "Matt Holt"
+      },
+      "message": "proxy: ability to use client certs in reverse proxy (#2914)\n\n* ability to use client certs in reverse proxy\r\n\r\n* changed to http3.RoundTripper after review",
+      "tree": {
+        "sha": "870f12ab0243010199d6ab94ac88791a46ba440d",
+        "url": "https://api.github.com/repos/caddyserver/caddy/git/trees/870f12ab0243010199d6ab94ac88791a46ba440d"
+      },
+      "url": "https://api.github.com/repos/caddyserver/caddy/git/commits/5ec503386caca77e70eaa659c0276b16e8684e63",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1128849?v=4",
+      "events_url": "https://api.github.com/users/mholt/events{/privacy}",
+      "followers_url": "https://api.github.com/users/mholt/followers",
+      "following_url": "https://api.github.com/users/mholt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mholt/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/mholt",
+      "id": 1128849,
+      "login": "mholt",
+      "node_id": "MDQ6VXNlcjExMjg4NDk=",
+      "organizations_url": "https://api.github.com/users/mholt/orgs",
+      "received_events_url": "https://api.github.com/users/mholt/received_events",
+      "repos_url": "https://api.github.com/users/mholt/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/mholt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mholt/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/mholt"
+    },
+    "html_url": "https://github.com/caddyserver/caddy/commit/5ec503386caca77e70eaa659c0276b16e8684e63",
+    "node_id": "MDY6Q29tbWl0MjkyMDc2MjE6NWVjNTAzMzg2Y2FjYTc3ZTcwZWFhNjU5YzAyNzZiMTZlODY4NGU2Mw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/caddyserver/caddy/commit/6f9a39525a6822d774db6cc23c6be1ae1fde2fdb",
+        "sha": "6f9a39525a6822d774db6cc23c6be1ae1fde2fdb",
+        "url": "https://api.github.com/repos/caddyserver/caddy/commits/6f9a39525a6822d774db6cc23c6be1ae1fde2fdb"
+      }
+    ],
+    "sha": "5ec503386caca77e70eaa659c0276b16e8684e63",
+    "url": "https://api.github.com/repos/caddyserver/caddy/commits/5ec503386caca77e70eaa659c0276b16e8684e63"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1128849?v=4",
+      "events_url": "https://api.github.com/users/mholt/events{/privacy}",
+      "followers_url": "https://api.github.com/users/mholt/followers",
+      "following_url": "https://api.github.com/users/mholt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mholt/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/mholt",
+      "id": 1128849,
+      "login": "mholt",
+      "node_id": "MDQ6VXNlcjExMjg4NDk=",
+      "organizations_url": "https://api.github.com/users/mholt/orgs",
+      "received_events_url": "https://api.github.com/users/mholt/received_events",
+      "repos_url": "https://api.github.com/users/mholt/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/mholt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mholt/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/mholt"
+    },
+    "comments_url": "https://api.github.com/repos/caddyserver/caddy/commits/6f9a39525a6822d774db6cc23c6be1ae1fde2fdb/comments",
+    "commit": {
+      "author": {
+        "date": "2019-12-04T22:13:29Z",
+        "email": "mholt@users.noreply.github.com",
+        "name": "Matthew Holt"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-12-04T22:13:29Z",
+        "email": "mholt@users.noreply.github.com",
+        "name": "Matthew Holt"
+      },
+      "message": "github: Remove issue and PR templates; update contributing guidelines",
+      "tree": {
+        "sha": "0860b432810add41dd422fb05466905c6b0efb61",
+        "url": "https://api.github.com/repos/caddyserver/caddy/git/trees/0860b432810add41dd422fb05466905c6b0efb61"
+      },
+      "url": "https://api.github.com/repos/caddyserver/caddy/git/commits/6f9a39525a6822d774db6cc23c6be1ae1fde2fdb",
+      "verification": {
+        "payload": "tree 0860b432810add41dd422fb05466905c6b0efb61\nparent cf611796c6aef15bde5c58b63fb8b68e40f05b3c\nauthor Matthew Holt <mholt@users.noreply.github.com> 1575497609 -0700\ncommitter Matthew Holt <mholt@users.noreply.github.com> 1575497609 -0700\n\ngithub: Remove issue and PR templates; update contributing guidelines\n",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCAAdFiEEKdCBemcVbk8l3CR4KjSd1XfVhqUFAl3oL4kACgkQKjSd1XfV\nhqVaTRAAlFEMP18eTepxxHF6nGV20bBB4qJv5844OBWoylBB6u3J4mbJnnobRV4G\nLxUj/gYhw4io8HdhOnLRj5JPj2I/4p/HXUI4S2Aze+8JACn0/OmrmFJ6tmumm4FM\nYxTGyFRbzwYyLhgzvkgEa2zChwXPUiBuzWAEdl4D3mrw3pmpV76Tc7Wn8bG6AFaH\nylKiHpZofeYLqyPs0+aP0VyL/JaWzU3qUNLegTY9lnt4oYLa9odHi20Yqqb6dIHW\nOeCTaf49btoHfDHywomsZY4iGG1VgaAZ4Dc3vN3tCbq0JTGPf0C/LFrMcua/v+x/\nK5JDpwmqRK95bkU8rfAl+Gi7xr3kfm6h046i6eNvtgqbLAaeyMr3wS6s7R06Nkoa\n6zheJPUzT+iSbhG1z3nAZ+50X7nPoJcQss8CvjEA1Bzx/dYAXzOmYpOHbuvHWtEb\nEzht2krfLQ7GqWidyIGJ7fi/eRm7OhTnz/uFLzixEa+cc5DhZx/8SZKCUPVc9DGJ\nT5soEkMYag3wyDk01s6WGWKaQbITY5tylmboD+IyTbXbKDkJL2LTHPsqPCN7AxnD\njUd4puIkQ9jF0CTC0wSmZf8LN6Lnm0j6m3f1yt0HZUjo7XXBS0vwE/MuSQBa18FL\nF7Kwj+AXcFjnovq0VUPXeZkpDwnTE8k3DrsbWEiv/BrwB+eF78c=\n=AHXK\n-----END PGP SIGNATURE-----",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1128849?v=4",
+      "events_url": "https://api.github.com/users/mholt/events{/privacy}",
+      "followers_url": "https://api.github.com/users/mholt/followers",
+      "following_url": "https://api.github.com/users/mholt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mholt/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/mholt",
+      "id": 1128849,
+      "login": "mholt",
+      "node_id": "MDQ6VXNlcjExMjg4NDk=",
+      "organizations_url": "https://api.github.com/users/mholt/orgs",
+      "received_events_url": "https://api.github.com/users/mholt/received_events",
+      "repos_url": "https://api.github.com/users/mholt/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/mholt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mholt/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/mholt"
+    },
+    "html_url": "https://github.com/caddyserver/caddy/commit/6f9a39525a6822d774db6cc23c6be1ae1fde2fdb",
+    "node_id": "MDY6Q29tbWl0MjkyMDc2MjE6NmY5YTM5NTI1YTY4MjJkNzc0ZGI2Y2MyM2M2YmUxYWUxZmRlMmZkYg==",
+    "parents": [
+      {
+        "html_url": "https://github.com/caddyserver/caddy/commit/cf611796c6aef15bde5c58b63fb8b68e40f05b3c",
+        "sha": "cf611796c6aef15bde5c58b63fb8b68e40f05b3c",
+        "url": "https://api.github.com/repos/caddyserver/caddy/commits/cf611796c6aef15bde5c58b63fb8b68e40f05b3c"
+      }
+    ],
+    "sha": "6f9a39525a6822d774db6cc23c6be1ae1fde2fdb",
+    "url": "https://api.github.com/repos/caddyserver/caddy/commits/6f9a39525a6822d774db6cc23c6be1ae1fde2fdb"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/29879298?v=4",
+      "events_url": "https://api.github.com/users/Rustin-Liu/events{/privacy}",
+      "followers_url": "https://api.github.com/users/Rustin-Liu/followers",
+      "following_url": "https://api.github.com/users/Rustin-Liu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Rustin-Liu/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/Rustin-Liu",
+      "id": 29879298,
+      "login": "Rustin-Liu",
+      "node_id": "MDQ6VXNlcjI5ODc5Mjk4",
+      "organizations_url": "https://api.github.com/users/Rustin-Liu/orgs",
+      "received_events_url": "https://api.github.com/users/Rustin-Liu/received_events",
+      "repos_url": "https://api.github.com/users/Rustin-Liu/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/Rustin-Liu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Rustin-Liu/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/Rustin-Liu"
+    },
+    "comments_url": "https://api.github.com/repos/caddyserver/caddy/commits/cf611796c6aef15bde5c58b63fb8b68e40f05b3c/comments",
+    "commit": {
+      "author": {
+        "date": "2019-11-18T19:02:08Z",
+        "email": "1196089730@qq.com",
+        "name": "Rustin"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-11-18T19:02:08Z",
+        "email": "mholt@users.noreply.github.com",
+        "name": "Matt Holt"
+      },
+      "message": "update readme to remove GO111MODULE env (#2886)",
+      "tree": {
+        "sha": "78ebba6fe254267238ae42134536a080f9627a22",
+        "url": "https://api.github.com/repos/caddyserver/caddy/git/trees/78ebba6fe254267238ae42134536a080f9627a22"
+      },
+      "url": "https://api.github.com/repos/caddyserver/caddy/git/commits/cf611796c6aef15bde5c58b63fb8b68e40f05b3c",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1128849?v=4",
+      "events_url": "https://api.github.com/users/mholt/events{/privacy}",
+      "followers_url": "https://api.github.com/users/mholt/followers",
+      "following_url": "https://api.github.com/users/mholt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mholt/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/mholt",
+      "id": 1128849,
+      "login": "mholt",
+      "node_id": "MDQ6VXNlcjExMjg4NDk=",
+      "organizations_url": "https://api.github.com/users/mholt/orgs",
+      "received_events_url": "https://api.github.com/users/mholt/received_events",
+      "repos_url": "https://api.github.com/users/mholt/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/mholt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mholt/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/mholt"
+    },
+    "html_url": "https://github.com/caddyserver/caddy/commit/cf611796c6aef15bde5c58b63fb8b68e40f05b3c",
+    "node_id": "MDY6Q29tbWl0MjkyMDc2MjE6Y2Y2MTE3OTZjNmFlZjE1YmRlNWM1OGI2M2ZiOGI2OGU0MGYwNWIzYw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/caddyserver/caddy/commit/aadda6e34e5b85b04670ecf3bb096dead3da61fc",
+        "sha": "aadda6e34e5b85b04670ecf3bb096dead3da61fc",
+        "url": "https://api.github.com/repos/caddyserver/caddy/commits/aadda6e34e5b85b04670ecf3bb096dead3da61fc"
+      }
+    ],
+    "sha": "cf611796c6aef15bde5c58b63fb8b68e40f05b3c",
+    "url": "https://api.github.com/repos/caddyserver/caddy/commits/cf611796c6aef15bde5c58b63fb8b68e40f05b3c"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1128849?v=4",
+      "events_url": "https://api.github.com/users/mholt/events{/privacy}",
+      "followers_url": "https://api.github.com/users/mholt/followers",
+      "following_url": "https://api.github.com/users/mholt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mholt/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/mholt",
+      "id": 1128849,
+      "login": "mholt",
+      "node_id": "MDQ6VXNlcjExMjg4NDk=",
+      "organizations_url": "https://api.github.com/users/mholt/orgs",
+      "received_events_url": "https://api.github.com/users/mholt/received_events",
+      "repos_url": "https://api.github.com/users/mholt/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/mholt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mholt/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/mholt"
+    },
+    "comments_url": "https://api.github.com/repos/caddyserver/caddy/commits/aadda6e34e5b85b04670ecf3bb096dead3da61fc/comments",
+    "commit": {
+      "author": {
+        "date": "2019-11-15T20:11:32Z",
+        "email": "mholt@users.noreply.github.com",
+        "name": "Matthew Holt"
+      },
+      "comment_count": 1,
+      "committer": {
+        "date": "2019-11-15T20:11:32Z",
+        "email": "mholt@users.noreply.github.com",
+        "name": "Matthew Holt"
+      },
+      "message": "Prepare v1.0.4 tag",
+      "tree": {
+        "sha": "ccc6041ea90a553ad1aed9d9046dc725814d4c68",
+        "url": "https://api.github.com/repos/caddyserver/caddy/git/trees/ccc6041ea90a553ad1aed9d9046dc725814d4c68"
+      },
+      "url": "https://api.github.com/repos/caddyserver/caddy/git/commits/aadda6e34e5b85b04670ecf3bb096dead3da61fc",
+      "verification": {
+        "payload": "tree ccc6041ea90a553ad1aed9d9046dc725814d4c68\nparent 6c4cb5006abf2492b474df2dc6a502bb179c048a\nauthor Matthew Holt <mholt@users.noreply.github.com> 1573848692 -0700\ncommitter Matthew Holt <mholt@users.noreply.github.com> 1573848692 -0700\n\nPrepare v1.0.4 tag\n",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCAAdFiEEKdCBemcVbk8l3CR4KjSd1XfVhqUFAl3PBnQACgkQKjSd1XfV\nhqWCoxAAzGnHhAKZptsAL1WLK6uGB2EUPxNzvsuTJoThs9VNJoaLzyY5P8C9UJjf\ngrW7r345xajD0E1KJhiOMtB0hMRWb9YRVZOcAIt9B3LJmIkJ+q/gG35BuYGyYH3p\nxdNCzTAK7bcRkRySaJH8kJKcxy9QrwvLdt/o6rOS0WR36OSKj3TWmSNe9DbUOd8g\n8NXqnP5NjSwW/pOyGrlHQ4Q7E4TulFCtZOnbpj3iG1KNqS68vZoU7hfC/aqFsWvE\nDkTsALg4TnG/dRW2y9ZCli2gdTkPEFjRcGamv8q9z3dcqbGER7c1CvK+kgxt4Guv\nRTGA7d31JpGUSw8DhKJaprub+EblS62yWT4AQxeqcea2qFeoK2XYZ8yYaB3bG7YB\n3yW4GX2lyVrj+ilwedOBKBhD3TCg17KQVh1MaW8Cs9y6cAk03zy/lGrVPPd4+jT5\nExs7APompZbNX33hPfN0ON7plBd5hV6QebooDHF94AjfisoFWSthMSQCGlBOLTv+\nRLX+Y1+X4HRK3DUx5EZabvlqpwpQJbNe2B07OgmBqdtPNUWdAsj7MKIGWekchRIb\nnz5vhsIIzlSPgauMCcCrHZwGVT13sznLMrsVSR4E3VJxkkcV0+NDeGqXwlfzgz+h\nfEhASFuYSi2FSZVej5VNmpG2/m+3OZ+JkmmfksdCwvx742YlNwo=\n=/PDX\n-----END PGP SIGNATURE-----",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1128849?v=4",
+      "events_url": "https://api.github.com/users/mholt/events{/privacy}",
+      "followers_url": "https://api.github.com/users/mholt/followers",
+      "following_url": "https://api.github.com/users/mholt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mholt/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/mholt",
+      "id": 1128849,
+      "login": "mholt",
+      "node_id": "MDQ6VXNlcjExMjg4NDk=",
+      "organizations_url": "https://api.github.com/users/mholt/orgs",
+      "received_events_url": "https://api.github.com/users/mholt/received_events",
+      "repos_url": "https://api.github.com/users/mholt/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/mholt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mholt/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/mholt"
+    },
+    "html_url": "https://github.com/caddyserver/caddy/commit/aadda6e34e5b85b04670ecf3bb096dead3da61fc",
+    "node_id": "MDY6Q29tbWl0MjkyMDc2MjE6YWFkZGE2ZTM0ZTViODViMDQ2NzBlY2YzYmIwOTZkZWFkM2RhNjFmYw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/caddyserver/caddy/commit/6c4cb5006abf2492b474df2dc6a502bb179c048a",
+        "sha": "6c4cb5006abf2492b474df2dc6a502bb179c048a",
+        "url": "https://api.github.com/repos/caddyserver/caddy/commits/6c4cb5006abf2492b474df2dc6a502bb179c048a"
+      }
+    ],
+    "sha": "aadda6e34e5b85b04670ecf3bb096dead3da61fc",
+    "url": "https://api.github.com/repos/caddyserver/caddy/commits/aadda6e34e5b85b04670ecf3bb096dead3da61fc"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1128849?v=4",
+      "events_url": "https://api.github.com/users/mholt/events{/privacy}",
+      "followers_url": "https://api.github.com/users/mholt/followers",
+      "following_url": "https://api.github.com/users/mholt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mholt/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/mholt",
+      "id": 1128849,
+      "login": "mholt",
+      "node_id": "MDQ6VXNlcjExMjg4NDk=",
+      "organizations_url": "https://api.github.com/users/mholt/orgs",
+      "received_events_url": "https://api.github.com/users/mholt/received_events",
+      "repos_url": "https://api.github.com/users/mholt/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/mholt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mholt/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/mholt"
+    },
+    "comments_url": "https://api.github.com/repos/caddyserver/caddy/commits/6c4cb5006abf2492b474df2dc6a502bb179c048a/comments",
+    "commit": {
+      "author": {
+        "date": "2019-11-15T20:08:28Z",
+        "email": "mholt@users.noreply.github.com",
+        "name": "Matthew Holt"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-11-15T20:08:28Z",
+        "email": "mholt@users.noreply.github.com",
+        "name": "Matthew Holt"
+      },
+      "message": "go.mod: lego v3.2.0, certmagic v0.8.3, and quic-go v0.13.1",
+      "tree": {
+        "sha": "6546bdb752798502a3188158f66fc2ee16e6d5df",
+        "url": "https://api.github.com/repos/caddyserver/caddy/git/trees/6546bdb752798502a3188158f66fc2ee16e6d5df"
+      },
+      "url": "https://api.github.com/repos/caddyserver/caddy/git/commits/6c4cb5006abf2492b474df2dc6a502bb179c048a",
+      "verification": {
+        "payload": "tree 6546bdb752798502a3188158f66fc2ee16e6d5df\nparent 12107f035c5a807d31b6316f5087761531546f70\nauthor Matthew Holt <mholt@users.noreply.github.com> 1573848508 -0700\ncommitter Matthew Holt <mholt@users.noreply.github.com> 1573848508 -0700\n\ngo.mod: lego v3.2.0, certmagic v0.8.3, and quic-go v0.13.1\n",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCAAdFiEEKdCBemcVbk8l3CR4KjSd1XfVhqUFAl3PBbwACgkQKjSd1XfV\nhqXg3hAArvJVTxlrAU+9GndBS3tgpVZO3GC2t1HfsqoKUmp8Arwg3G7gR5hwIRGO\ngpc0LDtD/T6LUlEqxIfpOFdbSJaTWTVU1+X25kn689z7Re2Nt67KrYzU4kalY5/v\nkGovbYFvIu+RoF9hI9iK7Qr8rEWvqVDqbrvTGKAQMLK7VI25UtgBo+8jJH64t6HI\nOTtZa/aPSBdJ2k4GV9DWNXjeyi+B6C+woVj6ARPgJYuNjqX5fmbnNkEgYem2nRg8\nGJHLr9L4rOZk0VnyeLL2OxugFbLllotQb9PTrFRGvHthRt6om09M+4/hUQt5jsiS\nZGTkQeJCAZuMHlsXAVZJh+esFCMFQm5kSx3DkpuU1x6KLfYgZvF4BXZr/E4H15Pi\nC4DUA7rnCW3DSHjJYHS/ejxsbIHvd3K+cC1dSPNFLR09bETdZlWFhlezHduTKbZ3\nW0XVn5ND94pSo0ez8ZO9ZIEqJP/As4wVwrwVeEprSFvzRDMRI0zqYUD5Q0I4n0l8\nzY7IRt2vUFmTS0UCo3fzdPJaRNiUEJJJSQUKMd04ntMfOd7gRhiA2dflmpNNp3Bh\nTYWpafJRR2zxxaiLappcsQfN6gEcqsUojTxbbqW/uzdQVee3J1aijhbEiF5Yqvqz\nvvMbbhv+dJ/1jr4FkIw7YWorMQM1ixKSzwLoQFxgc2Bm6NBaxK4=\n=DmUA\n-----END PGP SIGNATURE-----",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1128849?v=4",
+      "events_url": "https://api.github.com/users/mholt/events{/privacy}",
+      "followers_url": "https://api.github.com/users/mholt/followers",
+      "following_url": "https://api.github.com/users/mholt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mholt/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/mholt",
+      "id": 1128849,
+      "login": "mholt",
+      "node_id": "MDQ6VXNlcjExMjg4NDk=",
+      "organizations_url": "https://api.github.com/users/mholt/orgs",
+      "received_events_url": "https://api.github.com/users/mholt/received_events",
+      "repos_url": "https://api.github.com/users/mholt/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/mholt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mholt/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/mholt"
+    },
+    "html_url": "https://github.com/caddyserver/caddy/commit/6c4cb5006abf2492b474df2dc6a502bb179c048a",
+    "node_id": "MDY6Q29tbWl0MjkyMDc2MjE6NmM0Y2I1MDA2YWJmMjQ5MmI0NzRkZjJkYzZhNTAyYmIxNzljMDQ4YQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/caddyserver/caddy/commit/12107f035c5a807d31b6316f5087761531546f70",
+        "sha": "12107f035c5a807d31b6316f5087761531546f70",
+        "url": "https://api.github.com/repos/caddyserver/caddy/commits/12107f035c5a807d31b6316f5087761531546f70"
+      }
+    ],
+    "sha": "6c4cb5006abf2492b474df2dc6a502bb179c048a",
+    "url": "https://api.github.com/repos/caddyserver/caddy/commits/6c4cb5006abf2492b474df2dc6a502bb179c048a"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/3090650?v=4",
+      "events_url": "https://api.github.com/users/yuqianma/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yuqianma/followers",
+      "following_url": "https://api.github.com/users/yuqianma/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yuqianma/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/yuqianma",
+      "id": 3090650,
+      "login": "yuqianma",
+      "node_id": "MDQ6VXNlcjMwOTA2NTA=",
+      "organizations_url": "https://api.github.com/users/yuqianma/orgs",
+      "received_events_url": "https://api.github.com/users/yuqianma/received_events",
+      "repos_url": "https://api.github.com/users/yuqianma/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/yuqianma/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yuqianma/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yuqianma"
+    },
+    "comments_url": "https://api.github.com/repos/caddyserver/caddy/commits/12107f035c5a807d31b6316f5087761531546f70/comments",
+    "commit": {
+      "author": {
+        "date": "2019-11-15T19:59:03Z",
+        "email": "mayq0422@gmail.com",
+        "name": "Yuqian Ma"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-11-15T19:59:03Z",
+        "email": "mholt@users.noreply.github.com",
+        "name": "Matt Holt"
+      },
+      "message": "dist: update caddy.service on Ubuntu 18 (#2866)\n\nmove `StartLimitIntervalSec` and `StartLimitBurst` from [Service] to [Unit]\r\nref: https://lists.freedesktop.org/archives/systemd-devel/2017-July/039255.html",
+      "tree": {
+        "sha": "f3c943072b82ab1815818e0a52583ff85204a324",
+        "url": "https://api.github.com/repos/caddyserver/caddy/git/trees/f3c943072b82ab1815818e0a52583ff85204a324"
+      },
+      "url": "https://api.github.com/repos/caddyserver/caddy/git/commits/12107f035c5a807d31b6316f5087761531546f70",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1128849?v=4",
+      "events_url": "https://api.github.com/users/mholt/events{/privacy}",
+      "followers_url": "https://api.github.com/users/mholt/followers",
+      "following_url": "https://api.github.com/users/mholt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mholt/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/mholt",
+      "id": 1128849,
+      "login": "mholt",
+      "node_id": "MDQ6VXNlcjExMjg4NDk=",
+      "organizations_url": "https://api.github.com/users/mholt/orgs",
+      "received_events_url": "https://api.github.com/users/mholt/received_events",
+      "repos_url": "https://api.github.com/users/mholt/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/mholt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mholt/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/mholt"
+    },
+    "html_url": "https://github.com/caddyserver/caddy/commit/12107f035c5a807d31b6316f5087761531546f70",
+    "node_id": "MDY6Q29tbWl0MjkyMDc2MjE6MTIxMDdmMDM1YzVhODA3ZDMxYjYzMTZmNTA4Nzc2MTUzMTU0NmY3MA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/caddyserver/caddy/commit/832df649c1127f301e9d67a8fc4e739be433500e",
+        "sha": "832df649c1127f301e9d67a8fc4e739be433500e",
+        "url": "https://api.github.com/repos/caddyserver/caddy/commits/832df649c1127f301e9d67a8fc4e739be433500e"
+      }
+    ],
+    "sha": "12107f035c5a807d31b6316f5087761531546f70",
+    "url": "https://api.github.com/repos/caddyserver/caddy/commits/12107f035c5a807d31b6316f5087761531546f70"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/66914?v=4",
+      "events_url": "https://api.github.com/users/MisterDuval/events{/privacy}",
+      "followers_url": "https://api.github.com/users/MisterDuval/followers",
+      "following_url": "https://api.github.com/users/MisterDuval/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MisterDuval/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/MisterDuval",
+      "id": 66914,
+      "login": "MisterDuval",
+      "node_id": "MDQ6VXNlcjY2OTE0",
+      "organizations_url": "https://api.github.com/users/MisterDuval/orgs",
+      "received_events_url": "https://api.github.com/users/MisterDuval/received_events",
+      "repos_url": "https://api.github.com/users/MisterDuval/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/MisterDuval/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MisterDuval/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/MisterDuval"
+    },
+    "comments_url": "https://api.github.com/repos/caddyserver/caddy/commits/832df649c1127f301e9d67a8fc4e739be433500e/comments",
+    "commit": {
+      "author": {
+        "date": "2019-11-15T19:54:39Z",
+        "email": "devil1591@yahoo.fr",
+        "name": "MisterDuval"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-11-15T19:54:39Z",
+        "email": "mholt@users.noreply.github.com",
+        "name": "Matt Holt"
+      },
+      "message": "fastcgi: Case-insensitive extension comparison",
+      "tree": {
+        "sha": "4134d238bab7cae4df9aabfb7ec700932bcb98d2",
+        "url": "https://api.github.com/repos/caddyserver/caddy/git/trees/4134d238bab7cae4df9aabfb7ec700932bcb98d2"
+      },
+      "url": "https://api.github.com/repos/caddyserver/caddy/git/commits/832df649c1127f301e9d67a8fc4e739be433500e",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1128849?v=4",
+      "events_url": "https://api.github.com/users/mholt/events{/privacy}",
+      "followers_url": "https://api.github.com/users/mholt/followers",
+      "following_url": "https://api.github.com/users/mholt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mholt/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/mholt",
+      "id": 1128849,
+      "login": "mholt",
+      "node_id": "MDQ6VXNlcjExMjg4NDk=",
+      "organizations_url": "https://api.github.com/users/mholt/orgs",
+      "received_events_url": "https://api.github.com/users/mholt/received_events",
+      "repos_url": "https://api.github.com/users/mholt/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/mholt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mholt/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/mholt"
+    },
+    "html_url": "https://github.com/caddyserver/caddy/commit/832df649c1127f301e9d67a8fc4e739be433500e",
+    "node_id": "MDY6Q29tbWl0MjkyMDc2MjE6ODMyZGY2NDljMTEyN2YzMDFlOWQ2N2E4ZmM0ZTczOWJlNDMzNTAwZQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/caddyserver/caddy/commit/cc63eca0c88da9de606aab8fda044e588222c8c5",
+        "sha": "cc63eca0c88da9de606aab8fda044e588222c8c5",
+        "url": "https://api.github.com/repos/caddyserver/caddy/commits/cc63eca0c88da9de606aab8fda044e588222c8c5"
+      }
+    ],
+    "sha": "832df649c1127f301e9d67a8fc4e739be433500e",
+    "url": "https://api.github.com/repos/caddyserver/caddy/commits/832df649c1127f301e9d67a8fc4e739be433500e"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/23553?v=4",
+      "events_url": "https://api.github.com/users/corny/events{/privacy}",
+      "followers_url": "https://api.github.com/users/corny/followers",
+      "following_url": "https://api.github.com/users/corny/following{/other_user}",
+      "gists_url": "https://api.github.com/users/corny/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/corny",
+      "id": 23553,
+      "login": "corny",
+      "node_id": "MDQ6VXNlcjIzNTUz",
+      "organizations_url": "https://api.github.com/users/corny/orgs",
+      "received_events_url": "https://api.github.com/users/corny/received_events",
+      "repos_url": "https://api.github.com/users/corny/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/corny/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/corny/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/corny"
+    },
+    "comments_url": "https://api.github.com/repos/caddyserver/caddy/commits/cc63eca0c88da9de606aab8fda044e588222c8c5/comments",
+    "commit": {
+      "author": {
+        "date": "2019-11-06T20:06:34Z",
+        "email": "jk+github@digineo.de",
+        "name": "Julian Kornberger"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-11-06T20:06:34Z",
+        "email": "mholt@users.noreply.github.com",
+        "name": "Matt Holt"
+      },
+      "message": "Add flag to disable timestamps for process log (#2781)\n\n* Add flag to enable/disable timstamps for process log.\r\n\r\nsolves #2615\r\n\r\n* Remove timestamp argument from log.Printf()\r\n\r\n* Add log-timestamps=false to systemd unit\r\n\r\n* Copy log flags\r\n\r\n* Fix argument list",
+      "tree": {
+        "sha": "655048f3ac4b5aa4edca6007e0dd9c8aa1f13b28",
+        "url": "https://api.github.com/repos/caddyserver/caddy/git/trees/655048f3ac4b5aa4edca6007e0dd9c8aa1f13b28"
+      },
+      "url": "https://api.github.com/repos/caddyserver/caddy/git/commits/cc63eca0c88da9de606aab8fda044e588222c8c5",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1128849?v=4",
+      "events_url": "https://api.github.com/users/mholt/events{/privacy}",
+      "followers_url": "https://api.github.com/users/mholt/followers",
+      "following_url": "https://api.github.com/users/mholt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mholt/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/mholt",
+      "id": 1128849,
+      "login": "mholt",
+      "node_id": "MDQ6VXNlcjExMjg4NDk=",
+      "organizations_url": "https://api.github.com/users/mholt/orgs",
+      "received_events_url": "https://api.github.com/users/mholt/received_events",
+      "repos_url": "https://api.github.com/users/mholt/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/mholt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mholt/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/mholt"
+    },
+    "html_url": "https://github.com/caddyserver/caddy/commit/cc63eca0c88da9de606aab8fda044e588222c8c5",
+    "node_id": "MDY6Q29tbWl0MjkyMDc2MjE6Y2M2M2VjYTBjODhkYTlkZTYwNmFhYjhmZGEwNDRlNTg4MjIyYzhjNQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/caddyserver/caddy/commit/aa94f2b802e87fe42241758fb7cf6282b26d2396",
+        "sha": "aa94f2b802e87fe42241758fb7cf6282b26d2396",
+        "url": "https://api.github.com/repos/caddyserver/caddy/commits/aa94f2b802e87fe42241758fb7cf6282b26d2396"
+      }
+    ],
+    "sha": "cc63eca0c88da9de606aab8fda044e588222c8c5",
+    "url": "https://api.github.com/repos/caddyserver/caddy/commits/cc63eca0c88da9de606aab8fda044e588222c8c5"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1478487?v=4",
+      "events_url": "https://api.github.com/users/marten-seemann/events{/privacy}",
+      "followers_url": "https://api.github.com/users/marten-seemann/followers",
+      "following_url": "https://api.github.com/users/marten-seemann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marten-seemann/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/marten-seemann",
+      "id": 1478487,
+      "login": "marten-seemann",
+      "node_id": "MDQ6VXNlcjE0Nzg0ODc=",
+      "organizations_url": "https://api.github.com/users/marten-seemann/orgs",
+      "received_events_url": "https://api.github.com/users/marten-seemann/received_events",
+      "repos_url": "https://api.github.com/users/marten-seemann/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/marten-seemann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marten-seemann/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/marten-seemann"
+    },
+    "comments_url": "https://api.github.com/repos/caddyserver/caddy/commits/aa94f2b802e87fe42241758fb7cf6282b26d2396/comments",
+    "commit": {
+      "author": {
+        "date": "2019-11-06T07:30:29Z",
+        "email": "martenseemann@gmail.com",
+        "name": "Marten Seemann"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-11-06T07:30:29Z",
+        "email": "mholt@users.noreply.github.com",
+        "name": "Matt Holt"
+      },
+      "message": "update quic-go to v0.13.0 (#2862)\n\nThis version supports IETF QUIC draft-23.",
+      "tree": {
+        "sha": "b88c73b647c6c6c53c0697a1da4ffa904761c7f7",
+        "url": "https://api.github.com/repos/caddyserver/caddy/git/trees/b88c73b647c6c6c53c0697a1da4ffa904761c7f7"
+      },
+      "url": "https://api.github.com/repos/caddyserver/caddy/git/commits/aa94f2b802e87fe42241758fb7cf6282b26d2396",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1128849?v=4",
+      "events_url": "https://api.github.com/users/mholt/events{/privacy}",
+      "followers_url": "https://api.github.com/users/mholt/followers",
+      "following_url": "https://api.github.com/users/mholt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mholt/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/mholt",
+      "id": 1128849,
+      "login": "mholt",
+      "node_id": "MDQ6VXNlcjExMjg4NDk=",
+      "organizations_url": "https://api.github.com/users/mholt/orgs",
+      "received_events_url": "https://api.github.com/users/mholt/received_events",
+      "repos_url": "https://api.github.com/users/mholt/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/mholt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mholt/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/mholt"
+    },
+    "html_url": "https://github.com/caddyserver/caddy/commit/aa94f2b802e87fe42241758fb7cf6282b26d2396",
+    "node_id": "MDY6Q29tbWl0MjkyMDc2MjE6YWE5NGYyYjgwMmU4N2ZlNDIyNDE3NThmYjdjZjYyODJiMjZkMjM5Ng==",
+    "parents": [
+      {
+        "html_url": "https://github.com/caddyserver/caddy/commit/3f9a431100e9948ded6f4b1d2501f3564baef68e",
+        "sha": "3f9a431100e9948ded6f4b1d2501f3564baef68e",
+        "url": "https://api.github.com/repos/caddyserver/caddy/commits/3f9a431100e9948ded6f4b1d2501f3564baef68e"
+      }
+    ],
+    "sha": "aa94f2b802e87fe42241758fb7cf6282b26d2396",
+    "url": "https://api.github.com/repos/caddyserver/caddy/commits/aa94f2b802e87fe42241758fb7cf6282b26d2396"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1128849?v=4",
+      "events_url": "https://api.github.com/users/mholt/events{/privacy}",
+      "followers_url": "https://api.github.com/users/mholt/followers",
+      "following_url": "https://api.github.com/users/mholt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mholt/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/mholt",
+      "id": 1128849,
+      "login": "mholt",
+      "node_id": "MDQ6VXNlcjExMjg4NDk=",
+      "organizations_url": "https://api.github.com/users/mholt/orgs",
+      "received_events_url": "https://api.github.com/users/mholt/received_events",
+      "repos_url": "https://api.github.com/users/mholt/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/mholt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mholt/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/mholt"
+    },
+    "comments_url": "https://api.github.com/repos/caddyserver/caddy/commits/3f9a431100e9948ded6f4b1d2501f3564baef68e/comments",
+    "commit": {
+      "author": {
+        "date": "2019-10-30T15:56:43Z",
+        "email": "mholt@users.noreply.github.com",
+        "name": "Matt Holt"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-10-30T15:56:43Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "Create FUNDING.yml",
+      "tree": {
+        "sha": "c1c88ffa7df5f0aeb789786324aacbfd57339f0a",
+        "url": "https://api.github.com/repos/caddyserver/caddy/git/trees/c1c88ffa7df5f0aeb789786324aacbfd57339f0a"
+      },
+      "url": "https://api.github.com/repos/caddyserver/caddy/git/commits/3f9a431100e9948ded6f4b1d2501f3564baef68e",
+      "verification": {
+        "payload": "tree c1c88ffa7df5f0aeb789786324aacbfd57339f0a\nparent 8c860641b9fa48704d5fe707187968419621c85c\nauthor Matt Holt <mholt@users.noreply.github.com> 1572451003 -0600\ncommitter GitHub <noreply@github.com> 1572451003 -0600\n\nCreate FUNDING.yml",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJdubK7CRBK7hj4Ov3rIwAAdHIIAEoctQcDtmhgwuyj9aJ7N9u1\nr0LBO0jVeTdJa34mkPiovXltXSuTfKKlmOqY9frz/v0crZjaqvd4/opCdL3Ua4pc\nwu16mQdifvEkLjwnO1hmzzHJPN+myjGeR3fT+ffEx98gfdqpt3jlt4TEUeg8wQNZ\nwjrc8Kek/43RwLwn7C0ICJl/hB+LWCzGjRzAgFQA0BFlBOshz/cfQSi9dS6ErLWq\nrb2U0Kb+uz2oOa99zcVf3nN4/UepENzktX3AjY2DwA7gbpwk7Z8CUGM5xr2ZYEjP\np7709X8f0VatdmtliFZuU7Ss1g6F5m0/aGDOAnYAkNGbAqHBEeO+VQRKPjkYK38=\n=Qv7I\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/caddyserver/caddy/commit/3f9a431100e9948ded6f4b1d2501f3564baef68e",
+    "node_id": "MDY6Q29tbWl0MjkyMDc2MjE6M2Y5YTQzMTEwMGU5OTQ4ZGVkNmY0YjFkMjUwMWYzNTY0YmFlZjY4ZQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/caddyserver/caddy/commit/8c860641b9fa48704d5fe707187968419621c85c",
+        "sha": "8c860641b9fa48704d5fe707187968419621c85c",
+        "url": "https://api.github.com/repos/caddyserver/caddy/commits/8c860641b9fa48704d5fe707187968419621c85c"
+      }
+    ],
+    "sha": "3f9a431100e9948ded6f4b1d2501f3564baef68e",
+    "url": "https://api.github.com/repos/caddyserver/caddy/commits/3f9a431100e9948ded6f4b1d2501f3564baef68e"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/17083?v=4",
+      "events_url": "https://api.github.com/users/adam12/events{/privacy}",
+      "followers_url": "https://api.github.com/users/adam12/followers",
+      "following_url": "https://api.github.com/users/adam12/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adam12/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/adam12",
+      "id": 17083,
+      "login": "adam12",
+      "node_id": "MDQ6VXNlcjE3MDgz",
+      "organizations_url": "https://api.github.com/users/adam12/orgs",
+      "received_events_url": "https://api.github.com/users/adam12/received_events",
+      "repos_url": "https://api.github.com/users/adam12/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/adam12/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adam12/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/adam12"
+    },
+    "comments_url": "https://api.github.com/repos/caddyserver/caddy/commits/8c860641b9fa48704d5fe707187968419621c85c/comments",
+    "commit": {
+      "author": {
+        "date": "2019-10-15T21:38:20Z",
+        "email": "adam@mediadrive.ca",
+        "name": "Adam Daniels"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-10-15T21:38:20Z",
+        "email": "mholt@users.noreply.github.com",
+        "name": "Matt Holt"
+      },
+      "message": "dist: Update FreeBSD Init script to support custom flags (#2796)\n\nClear rc_flags in start precmd. If these flags are still present during\r\nstart command, they are passed to daemon(8) instead of caddy(8).\r\n\r\nExtract all options into $caddy_options environment variable.",
+      "tree": {
+        "sha": "64cb5175afcd5e4daacca7a8cf2f7907b21a4857",
+        "url": "https://api.github.com/repos/caddyserver/caddy/git/trees/64cb5175afcd5e4daacca7a8cf2f7907b21a4857"
+      },
+      "url": "https://api.github.com/repos/caddyserver/caddy/git/commits/8c860641b9fa48704d5fe707187968419621c85c",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1128849?v=4",
+      "events_url": "https://api.github.com/users/mholt/events{/privacy}",
+      "followers_url": "https://api.github.com/users/mholt/followers",
+      "following_url": "https://api.github.com/users/mholt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mholt/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/mholt",
+      "id": 1128849,
+      "login": "mholt",
+      "node_id": "MDQ6VXNlcjExMjg4NDk=",
+      "organizations_url": "https://api.github.com/users/mholt/orgs",
+      "received_events_url": "https://api.github.com/users/mholt/received_events",
+      "repos_url": "https://api.github.com/users/mholt/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/mholt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mholt/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/mholt"
+    },
+    "html_url": "https://github.com/caddyserver/caddy/commit/8c860641b9fa48704d5fe707187968419621c85c",
+    "node_id": "MDY6Q29tbWl0MjkyMDc2MjE6OGM4NjA2NDFiOWZhNDg3MDRkNWZlNzA3MTg3OTY4NDE5NjIxYzg1Yw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/caddyserver/caddy/commit/99914d22043f707f3f69bb5ee509d3353d75e943",
+        "sha": "99914d22043f707f3f69bb5ee509d3353d75e943",
+        "url": "https://api.github.com/repos/caddyserver/caddy/commits/99914d22043f707f3f69bb5ee509d3353d75e943"
+      }
+    ],
+    "sha": "8c860641b9fa48704d5fe707187968419621c85c",
+    "url": "https://api.github.com/repos/caddyserver/caddy/commits/8c860641b9fa48704d5fe707187968419621c85c"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/13026?v=4",
+      "events_url": "https://api.github.com/users/titanous/events{/privacy}",
+      "followers_url": "https://api.github.com/users/titanous/followers",
+      "following_url": "https://api.github.com/users/titanous/following{/other_user}",
+      "gists_url": "https://api.github.com/users/titanous/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/titanous",
+      "id": 13026,
+      "login": "titanous",
+      "node_id": "MDQ6VXNlcjEzMDI2",
+      "organizations_url": "https://api.github.com/users/titanous/orgs",
+      "received_events_url": "https://api.github.com/users/titanous/received_events",
+      "repos_url": "https://api.github.com/users/titanous/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/titanous/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/titanous/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/titanous"
+    },
+    "comments_url": "https://api.github.com/repos/caddyserver/caddy/commits/99914d22043f707f3f69bb5ee509d3353d75e943/comments",
+    "commit": {
+      "author": {
+        "date": "2019-10-14T16:07:36Z",
+        "email": "jonathan@titanous.com",
+        "name": "Jonathan Rudenberg"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-10-14T16:07:36Z",
+        "email": "mholt@users.noreply.github.com",
+        "name": "Matt Holt"
+      },
+      "message": "Move certmagic import out of caddy package (#2807)",
+      "tree": {
+        "sha": "fa82867bf66a5b09878ac075021ae0d47aa80a22",
+        "url": "https://api.github.com/repos/caddyserver/caddy/git/trees/fa82867bf66a5b09878ac075021ae0d47aa80a22"
+      },
+      "url": "https://api.github.com/repos/caddyserver/caddy/git/commits/99914d22043f707f3f69bb5ee509d3353d75e943",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1128849?v=4",
+      "events_url": "https://api.github.com/users/mholt/events{/privacy}",
+      "followers_url": "https://api.github.com/users/mholt/followers",
+      "following_url": "https://api.github.com/users/mholt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mholt/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/mholt",
+      "id": 1128849,
+      "login": "mholt",
+      "node_id": "MDQ6VXNlcjExMjg4NDk=",
+      "organizations_url": "https://api.github.com/users/mholt/orgs",
+      "received_events_url": "https://api.github.com/users/mholt/received_events",
+      "repos_url": "https://api.github.com/users/mholt/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/mholt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mholt/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/mholt"
+    },
+    "html_url": "https://github.com/caddyserver/caddy/commit/99914d22043f707f3f69bb5ee509d3353d75e943",
+    "node_id": "MDY6Q29tbWl0MjkyMDc2MjE6OTk5MTRkMjIwNDNmNzA3ZjNmNjliYjVlZTUwOWQzMzUzZDc1ZTk0Mw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/caddyserver/caddy/commit/24b2e02ee558ec8cbe4ed7b362a4d1065e573587",
+        "sha": "24b2e02ee558ec8cbe4ed7b362a4d1065e573587",
+        "url": "https://api.github.com/repos/caddyserver/caddy/commits/24b2e02ee558ec8cbe4ed7b362a4d1065e573587"
+      }
+    ],
+    "sha": "99914d22043f707f3f69bb5ee509d3353d75e943",
+    "url": "https://api.github.com/repos/caddyserver/caddy/commits/99914d22043f707f3f69bb5ee509d3353d75e943"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/220205?v=4",
+      "events_url": "https://api.github.com/users/jsha/events{/privacy}",
+      "followers_url": "https://api.github.com/users/jsha/followers",
+      "following_url": "https://api.github.com/users/jsha/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jsha/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/jsha",
+      "id": 220205,
+      "login": "jsha",
+      "node_id": "MDQ6VXNlcjIyMDIwNQ==",
+      "organizations_url": "https://api.github.com/users/jsha/orgs",
+      "received_events_url": "https://api.github.com/users/jsha/received_events",
+      "repos_url": "https://api.github.com/users/jsha/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/jsha/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jsha/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/jsha"
+    },
+    "comments_url": "https://api.github.com/repos/caddyserver/caddy/commits/24b2e02ee558ec8cbe4ed7b362a4d1065e573587/comments",
+    "commit": {
+      "author": {
+        "date": "2019-10-10T01:04:28Z",
+        "email": "github@hoffman-andrews.com",
+        "name": "Jacob Hoffman-Andrews"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-10-10T01:04:28Z",
+        "email": "mholt@users.noreply.github.com",
+        "name": "Matt Holt"
+      },
+      "message": "init/systemd: Re-add ReadWriteDirectories. (#2798)\n\nIn systemd 231\r\n(https://github.com/systemd/systemd/blob/4f10b80786e8baa1399b6de6111d5b3a16bf99ba/NEWS#L3558-L3565),\r\nReadWriteDirectories was renamed ReadWritePaths.\r\n\r\nIn https://github.com/caddyserver/caddy/pull/2620/files, @aspeteRakete\r\nrenamed the directive in Caddy's example systemd unit.\r\n\r\nHowever, this means that if anyone runs this sytemd unit on a version of\r\nsystemd older than 231, Caddy will go into a crash loop that hammers\r\nLet's Encrypt's servers. That's because the ProtectSystem=full directive\r\nprevents writes to all paths that aren't explicitly permitted, and older\r\nsystemd doesn't see any paths being permitted.\r\n\r\nTo maximize compatibility, I re-add the original ReadWriteDirectories\r\ndirective. Older systemd will read that; newer systemd will read the\r\nnewer directive. Both should ignore the directive they do not recognize.\r\n\r\nAnother approach to solve this problem would be to remove\r\nProtectSystem=true, originally introduced in da8ae9e5. That would reduce\r\nthe risk of similar breakages in the future. It would make for a slightly\r\nless \"exemplary\" systemd unit, but I think it would still be adequate,\r\ngiven that this unit runs caddy as \"www-data\", a user the presumably has\r\nlow privileges.",
+      "tree": {
+        "sha": "b1aeeeb87f7e2f1df79541fa359665b52534df29",
+        "url": "https://api.github.com/repos/caddyserver/caddy/git/trees/b1aeeeb87f7e2f1df79541fa359665b52534df29"
+      },
+      "url": "https://api.github.com/repos/caddyserver/caddy/git/commits/24b2e02ee558ec8cbe4ed7b362a4d1065e573587",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1128849?v=4",
+      "events_url": "https://api.github.com/users/mholt/events{/privacy}",
+      "followers_url": "https://api.github.com/users/mholt/followers",
+      "following_url": "https://api.github.com/users/mholt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mholt/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/mholt",
+      "id": 1128849,
+      "login": "mholt",
+      "node_id": "MDQ6VXNlcjExMjg4NDk=",
+      "organizations_url": "https://api.github.com/users/mholt/orgs",
+      "received_events_url": "https://api.github.com/users/mholt/received_events",
+      "repos_url": "https://api.github.com/users/mholt/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/mholt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mholt/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/mholt"
+    },
+    "html_url": "https://github.com/caddyserver/caddy/commit/24b2e02ee558ec8cbe4ed7b362a4d1065e573587",
+    "node_id": "MDY6Q29tbWl0MjkyMDc2MjE6MjRiMmUwMmVlNTU4ZWM4Y2JlNGVkN2IzNjJhNGQxMDY1ZTU3MzU4Nw==",
+    "parents": [
+      {
+        "html_url": "https://github.com/caddyserver/caddy/commit/be2fdb6af6bab03d83839a4b3ea0e01da74ae498",
+        "sha": "be2fdb6af6bab03d83839a4b3ea0e01da74ae498",
+        "url": "https://api.github.com/repos/caddyserver/caddy/commits/be2fdb6af6bab03d83839a4b3ea0e01da74ae498"
+      }
+    ],
+    "sha": "24b2e02ee558ec8cbe4ed7b362a4d1065e573587",
+    "url": "https://api.github.com/repos/caddyserver/caddy/commits/24b2e02ee558ec8cbe4ed7b362a4d1065e573587"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1284255?v=4",
+      "events_url": "https://api.github.com/users/didil/events{/privacy}",
+      "followers_url": "https://api.github.com/users/didil/followers",
+      "following_url": "https://api.github.com/users/didil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/didil/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/didil",
+      "id": 1284255,
+      "login": "didil",
+      "node_id": "MDQ6VXNlcjEyODQyNTU=",
+      "organizations_url": "https://api.github.com/users/didil/orgs",
+      "received_events_url": "https://api.github.com/users/didil/received_events",
+      "repos_url": "https://api.github.com/users/didil/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/didil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/didil/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/didil"
+    },
+    "comments_url": "https://api.github.com/repos/caddyserver/caddy/commits/be2fdb6af6bab03d83839a4b3ea0e01da74ae498/comments",
+    "commit": {
+      "author": {
+        "date": "2019-10-08T15:49:40Z",
+        "email": "1284255+didil@users.noreply.github.com",
+        "name": "Adil H"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-10-08T15:49:40Z",
+        "email": "mholt@users.noreply.github.com",
+        "name": "Matt Holt"
+      },
+      "message": "httpserver: no SetKeepAlivePeriod in openbsd (#2787)\n\n* no SetKeepAlivePeriod on openbsd\r\n\r\n* fix tcpKeepAliveListener.Accept signature",
+      "tree": {
+        "sha": "8a58cd80cfc65397271f1e6ce6b887379979edc9",
+        "url": "https://api.github.com/repos/caddyserver/caddy/git/trees/8a58cd80cfc65397271f1e6ce6b887379979edc9"
+      },
+      "url": "https://api.github.com/repos/caddyserver/caddy/git/commits/be2fdb6af6bab03d83839a4b3ea0e01da74ae498",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1128849?v=4",
+      "events_url": "https://api.github.com/users/mholt/events{/privacy}",
+      "followers_url": "https://api.github.com/users/mholt/followers",
+      "following_url": "https://api.github.com/users/mholt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mholt/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/mholt",
+      "id": 1128849,
+      "login": "mholt",
+      "node_id": "MDQ6VXNlcjExMjg4NDk=",
+      "organizations_url": "https://api.github.com/users/mholt/orgs",
+      "received_events_url": "https://api.github.com/users/mholt/received_events",
+      "repos_url": "https://api.github.com/users/mholt/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/mholt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mholt/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/mholt"
+    },
+    "html_url": "https://github.com/caddyserver/caddy/commit/be2fdb6af6bab03d83839a4b3ea0e01da74ae498",
+    "node_id": "MDY6Q29tbWl0MjkyMDc2MjE6YmUyZmRiNmFmNmJhYjAzZDgzODM5YTRiM2VhMGUwMWRhNzRhZTQ5OA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/caddyserver/caddy/commit/16b296c97eea7b1007ef2a0573034cfc6a8f5b6d",
+        "sha": "16b296c97eea7b1007ef2a0573034cfc6a8f5b6d",
+        "url": "https://api.github.com/repos/caddyserver/caddy/commits/16b296c97eea7b1007ef2a0573034cfc6a8f5b6d"
+      }
+    ],
+    "sha": "be2fdb6af6bab03d83839a4b3ea0e01da74ae498",
+    "url": "https://api.github.com/repos/caddyserver/caddy/commits/be2fdb6af6bab03d83839a4b3ea0e01da74ae498"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1128849?v=4",
+      "events_url": "https://api.github.com/users/mholt/events{/privacy}",
+      "followers_url": "https://api.github.com/users/mholt/followers",
+      "following_url": "https://api.github.com/users/mholt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mholt/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/mholt",
+      "id": 1128849,
+      "login": "mholt",
+      "node_id": "MDQ6VXNlcjExMjg4NDk=",
+      "organizations_url": "https://api.github.com/users/mholt/orgs",
+      "received_events_url": "https://api.github.com/users/mholt/received_events",
+      "repos_url": "https://api.github.com/users/mholt/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/mholt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mholt/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/mholt"
+    },
+    "comments_url": "https://api.github.com/repos/caddyserver/caddy/commits/16b296c97eea7b1007ef2a0573034cfc6a8f5b6d/comments",
+    "commit": {
+      "author": {
+        "date": "2019-10-07T17:28:21Z",
+        "email": "mholt@users.noreply.github.com",
+        "name": "Matt Holt"
+      },
+      "comment_count": 2,
+      "committer": {
+        "date": "2019-10-07T17:28:21Z",
+        "email": "noreply@github.com",
+        "name": "GitHub"
+      },
+      "message": "systemd: Prevent excessive restarts in tight loop",
+      "tree": {
+        "sha": "6f4e1116635e9e7f5de9bab427b647ca42004f85",
+        "url": "https://api.github.com/repos/caddyserver/caddy/git/trees/6f4e1116635e9e7f5de9bab427b647ca42004f85"
+      },
+      "url": "https://api.github.com/repos/caddyserver/caddy/git/commits/16b296c97eea7b1007ef2a0573034cfc6a8f5b6d",
+      "verification": {
+        "payload": "tree 6f4e1116635e9e7f5de9bab427b647ca42004f85\nparent 11eee95222cb5b6fec97f7ce2400f9a1c0617abe\nauthor Matt Holt <mholt@users.noreply.github.com> 1570469301 -0600\ncommitter GitHub <noreply@github.com> 1570469301 -0600\n\nsystemd: Prevent excessive restarts in tight loop",
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJdm3W1CRBK7hj4Ov3rIwAAdHIIACicAq8EIP5NuKm5R9XQ6fgv\nsHm2g4MAV7LS18riwy0EqLwUQit+lbzF3sO51NOkwU6dS8b74jMsnyANpVV2osIr\nGbUuec18VPrpvswL0gOf1PUc/7/YVrPwbGgcsg7ykz68q9H0FCUKeoGN0UIpnjmG\nF+E2YNarok4q4zJXrQb5xuVNjEr+IFl9+n3Z9ZIBkjMMuet38a6dy4lRuFQcE1p6\nnzj0+apRLdTXRMMdC9jLMrBwd4GIhJXmCbugiqQT/Ggb7OgtQHPmil8DikAMVRWf\np1WFKvT4WQ990gz/ZKxwFD5sAJO4HuwZQOOp0+BJekwgdjGOcyfAU4BNXN2T51w=\n=jtTj\n-----END PGP SIGNATURE-----\n",
+        "verified": true
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/web-flow",
+      "id": 19864447,
+      "login": "web-flow",
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/web-flow"
+    },
+    "html_url": "https://github.com/caddyserver/caddy/commit/16b296c97eea7b1007ef2a0573034cfc6a8f5b6d",
+    "node_id": "MDY6Q29tbWl0MjkyMDc2MjE6MTZiMjk2Yzk3ZWVhN2IxMDA3ZWYyYTA1NzMwMzRjZmM2YThmNWI2ZA==",
+    "parents": [
+      {
+        "html_url": "https://github.com/caddyserver/caddy/commit/11eee95222cb5b6fec97f7ce2400f9a1c0617abe",
+        "sha": "11eee95222cb5b6fec97f7ce2400f9a1c0617abe",
+        "url": "https://api.github.com/repos/caddyserver/caddy/commits/11eee95222cb5b6fec97f7ce2400f9a1c0617abe"
+      }
+    ],
+    "sha": "16b296c97eea7b1007ef2a0573034cfc6a8f5b6d",
+    "url": "https://api.github.com/repos/caddyserver/caddy/commits/16b296c97eea7b1007ef2a0573034cfc6a8f5b6d"
+  },
+  {
+    "author": {
+      "avatar_url": "https://avatars1.githubusercontent.com/u/58270?v=4",
+      "events_url": "https://api.github.com/users/Xjs/events{/privacy}",
+      "followers_url": "https://api.github.com/users/Xjs/followers",
+      "following_url": "https://api.github.com/users/Xjs/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Xjs/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/Xjs",
+      "id": 58270,
+      "login": "Xjs",
+      "node_id": "MDQ6VXNlcjU4Mjcw",
+      "organizations_url": "https://api.github.com/users/Xjs/orgs",
+      "received_events_url": "https://api.github.com/users/Xjs/received_events",
+      "repos_url": "https://api.github.com/users/Xjs/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/Xjs/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Xjs/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/Xjs"
+    },
+    "comments_url": "https://api.github.com/repos/caddyserver/caddy/commits/11eee95222cb5b6fec97f7ce2400f9a1c0617abe/comments",
+    "commit": {
+      "author": {
+        "date": "2019-10-07T16:22:53Z",
+        "email": "jannis@schnitzer.im",
+        "name": "Jannis Andrija Schnitzer"
+      },
+      "comment_count": 0,
+      "committer": {
+        "date": "2019-10-07T16:22:53Z",
+        "email": "mholt@users.noreply.github.com",
+        "name": "Matt Holt"
+      },
+      "message": "staticfiles: Signal that redirection headers have been written (#2792)\n\nThe Handler interface expects a first return value of 0 if headers have\r\nalready been written.\r\n(cf. https://godoc.org/github.com/caddyserver/caddy/caddyhttp/httpserver#Handler)\r\n\r\nWhen using http.Redirect, this is the case as http.Redirect does write\r\nheaders. When using Caddy with nested handlers, returning\r\nhttp.StatusMovedPermanently could cause a wrong (200) response on a\r\nnon-slashy request on a directory name. Returning 0 ensures the\r\nredirection will always take place.",
+      "tree": {
+        "sha": "bdb04fc7eb9235b43e63560a0bbed332da9bb8ff",
+        "url": "https://api.github.com/repos/caddyserver/caddy/git/trees/bdb04fc7eb9235b43e63560a0bbed332da9bb8ff"
+      },
+      "url": "https://api.github.com/repos/caddyserver/caddy/git/commits/11eee95222cb5b6fec97f7ce2400f9a1c0617abe",
+      "verification": {
+        "payload": null,
+        "reason": "unsigned",
+        "signature": null,
+        "verified": false
+      }
+    },
+    "committer": {
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1128849?v=4",
+      "events_url": "https://api.github.com/users/mholt/events{/privacy}",
+      "followers_url": "https://api.github.com/users/mholt/followers",
+      "following_url": "https://api.github.com/users/mholt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mholt/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/mholt",
+      "id": 1128849,
+      "login": "mholt",
+      "node_id": "MDQ6VXNlcjExMjg4NDk=",
+      "organizations_url": "https://api.github.com/users/mholt/orgs",
+      "received_events_url": "https://api.github.com/users/mholt/received_events",
+      "repos_url": "https://api.github.com/users/mholt/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/mholt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mholt/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/mholt"
+    },
+    "html_url": "https://github.com/caddyserver/caddy/commit/11eee95222cb5b6fec97f7ce2400f9a1c0617abe",
+    "node_id": "MDY6Q29tbWl0MjkyMDc2MjE6MTFlZWU5NTIyMmNiNWI2ZmVjOTdmN2NlMjQwMGY5YTFjMDYxN2FiZQ==",
+    "parents": [
+      {
+        "html_url": "https://github.com/caddyserver/caddy/commit/1de4a99ec33dacc712d687c757a9e15af4498ecd",
+        "sha": "1de4a99ec33dacc712d687c757a9e15af4498ecd",
+        "url": "https://api.github.com/repos/caddyserver/caddy/commits/1de4a99ec33dacc712d687c757a9e15af4498ecd"
+      }
+    ],
+    "sha": "11eee95222cb5b6fec97f7ce2400f9a1c0617abe",
+    "url": "https://api.github.com/repos/caddyserver/caddy/commits/11eee95222cb5b6fec97f7ce2400f9a1c0617abe"
+  }
+]
