@@ -2,14 +2,9 @@ import requests
 import json
 import os
 import time
-import logging
-from urllib3.exceptions import NewConnectionError, MaxRetryError
-from requests.exceptions import ConnectionError
 
 import repositories
-
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-logger = logging.getLogger(__name__)
+from log import FileLogger
 
 """
 milestone	integer 要么 string	如果integer通过，则应按其number字段引用里程碑。如果*传递了字符串，则将接受任何具有里程碑意义的问题。如果none传递了字符串，则返回没有里程碑的问题。
@@ -43,16 +38,16 @@ def main():
         while True:
             try:
                 response = requests.get(url=issue_url, params=ISSUE_PARAMS, headers=ISSUE_HEADERS)
-                logger.info('Issues ' + repo.split('/')[-1] + ': ' + issue_url)
+                FileLogger.info('Issues ' + repo.split('/')[-1] + ': ' + issue_url)
                 data = json.dumps(response.json(), sort_keys=True, indent=2)
                 file_name = os.path.join(repo_path, 'issues')
                 with open(file_name, 'w+') as f:
                     f.writelines(data)
                 break
             except (ConnectionError, ConnectionRefusedError, NewConnectionError, MaxRetryError) as e:
-                logger.warning('Connection Refused! Sleep For 5 Seconds...')
+                FileLogger.warning('Connection Refused! Sleep For 5 Seconds...')
                 time.sleep(5)
-    logger.info('All issues Done')
+    FileLogger.info('All issues Done')
 
 
 if __name__ == '__main__':

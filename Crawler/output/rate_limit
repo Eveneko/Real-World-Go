@@ -2,33 +2,33 @@
   "rate": {
     "limit": 60,
     "remaining": 0,
-    "reset": 1584167543
+    "reset": 1584183891
   },
   "resources": {
     "core": {
       "limit": 60,
       "remaining": 0,
-      "reset": 1584167543
+      "reset": 1584183891
     },
     "graphql": {
       "limit": 0,
       "remaining": 0,
-      "reset": 1584168248
+      "reset": 1584186151
     },
     "integration_manifest": {
       "limit": 5000,
       "remaining": 5000,
-      "reset": 1584168248
+      "reset": 1584186151
     },
     "search": {
       "limit": 10,
       "remaining": 10,
-      "reset": 1584164708
+      "reset": 1584182611
     },
     "source_import": {
       "limit": 5,
       "remaining": 5,
-      "reset": 1584164708
+      "reset": 1584182611
     }
   }
 }

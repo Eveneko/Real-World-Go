@@ -2,13 +2,8 @@ import requests
 import json
 import os
 import time
-import logging
-from urllib3.exceptions import NewConnectionError, MaxRetryError
-from requests.exceptions import ConnectionError
 import repositories
-
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-logger = logging.getLogger(__name__)
+from log import FileLogger
 
 """
 sha	    string	SHA or branch to start listing commits from. Default: the repository’s default branch (usually master).
@@ -56,7 +51,7 @@ def main():
             os.mkdir(commit_path)
         branch_url = 'https://api.github.com/repos/' + repo + '/branches'
         branches = requests.get(url=branch_url, params=BRANCH_PARAMS, headers=BRANCH_HEADERS)
-        logger.info('Repositories ' + repo.split('/')[-1] + ': ' + branch_url)
+        FileLogger.info('Repositories ' + repo.split('/')[-1] + ': ' + branch_url)
         for branch in branches.json():
             while True:
                 try:
@@ -64,15 +59,15 @@ def main():
                     commit_url = 'https://api.github.com/repos/' + repo + '/commits'
                     COMMIT_PARAMS['sha'] = branch['name']
                     response = requests.get(url=commit_url, params=COMMIT_PARAMS, headers=COMMIT_HEADERS)
-                    logger.info('- Branch ' + branch['name'] + ': ' + commit_url)
+                    FileLogger.info('- Branch ' + branch['name'] + ': ' + commit_url)
                     data = json.dumps(response.json(), sort_keys=True, indent=2)
                     with open(file_name, 'w+') as f:
                         f.writelines(data)
                     break
-                except (ConnectionError, ConnectionRefusedError, NewConnectionError, MaxRetryError) as e:
-                    logger.warning('Connection Refused! Sleep For 5 Seconds...')
+                except:
+                    FileLogger.warning('Connection Refused! Sleep For 5 Seconds...')
                     time.sleep(5)
-    logger.info('All Repositories Done')
+    FileLogger.info('All Repositories Done')
 
 
 if __name__ == '__main__':
