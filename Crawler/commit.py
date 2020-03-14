@@ -41,7 +41,7 @@ BRANCH_HEADERS = {
     'Connection': 'close',
 }
 
-OUTPATH = 'output/'
+OUTPATH = 'Crawler/output/'
 
 
 def main():

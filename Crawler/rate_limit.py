@@ -10,7 +10,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(level
 logger = logging.getLogger(__name__)
 
 URL = 'https://api.github.com/rate_limit'
-OUTPATH = 'output/'
+OUTPATH = 'Crawler/output/'
 
 
 def main():
